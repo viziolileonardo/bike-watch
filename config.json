@@ -55,8 +55,7 @@
       "dt swiss e1800"
     ],
     "alert_terms": [
-      "univox",
-      "e1800"
+      "univox"
     ],
     "broad_price_min": 200,
     "broad_price_max": 3200
@@ -70,8 +69,7 @@
       "dt swiss e1800"
     ],
     "alert_terms": [
-      "univox",
-      "e1800"
+      "univox"
     ],
     "broad_price_min": 200,
     "broad_price_max": 3200

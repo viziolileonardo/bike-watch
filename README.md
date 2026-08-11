@@ -26,10 +26,13 @@ the repo, so nothing is lost between runs. Each sweep:
      push (+ a GitHub issue as a redundant channel — GitHub-app push +
      email — so one dropped notification can't cost a match), capped at 3
      individual pushes per sweep with a summary beyond that. UK sources
-     alert on `univox`/`swift`/`e1800`; EU sources on `univox`/`e1800`
-     (Swift-brand bikes are common there, and "Univox" is also a guitar-amp
-     brand — hence per-source `alert_terms`). `e1800` catches the
-     distinctive DT Swiss wheelset in case the bike is stripped for parts.
+     alert on `univox`/`swift`/`e1800`; EU sources only on `univox`
+     (Swift-brand bikes are common there, "Univox" is also a guitar-amp
+     brand, and DT Swiss E1800 wheelsets turned out to be everywhere on
+     DE/NL markets — 30 alerts in one sweep — hence per-source
+     `alert_terms`). `e1800` still alerts on UK sources to catch the
+     wheelset if the bike is parted out; the EU `dt swiss e1800` queries
+     feed the digest quietly.
    - **digest** — broad match (e.g. any carbon/105/disc road bike in London
      within the plausible resale price band £300–£2,500): collected quietly.
      Thieves usually strip the brand from listings, so eyeball these.

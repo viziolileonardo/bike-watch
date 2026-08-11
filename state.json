@@ -161,7 +161,7 @@
    "price_text": "180 \u20ac VB",
    "price": 180.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/eab22168-c1ba-4f1e-aaae-ef05682e7a19?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.014
   },
@@ -176,7 +176,7 @@
    "price_text": "329 \u20ac",
    "price": 329.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/faf0eec5-a911-4cff-8a01-e7d530814c5f?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.001
   },
@@ -191,7 +191,7 @@
    "price_text": "220 \u20ac",
    "price": 220.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1ea187a1-c727-4557-8165-69311118fd03?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.002
   },
@@ -206,7 +206,7 @@
    "price_text": "265 \u20ac",
    "price": 265.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3a/3a95f1cd-4f72-4202-a4d6-82c1fbacc512?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -266,7 +266,7 @@
    "price_text": "300 \u20ac",
    "price": 300.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d2c68549-56c0-4973-991c-20d4e9d1ad51?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.119
   },
@@ -281,7 +281,7 @@
    "price_text": "199 \u20ac VB",
    "price": 199.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d119f164-1065-4a41-9e28-89bff500d2ca?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -311,7 +311,7 @@
    "price_text": "290 \u20ac VB",
    "price": 290.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e26b752-a4f9-4c97-82ca-f79527d97e32?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.004
   },
@@ -326,7 +326,7 @@
    "price_text": "25 \u20ac VB",
    "price": 25.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ec187093-f21c-44be-b67d-2d3d0725f8e0?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -356,7 +356,7 @@
    "price_text": "429 \u20ac",
    "price": 429.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/59/59baa6cb-c980-461d-963d-1140fefe159d?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -371,7 +371,7 @@
    "price_text": "299 \u20ac",
    "price": 299.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5575e4ea-9b9e-44f1-8344-9a8c86af6aa6?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.013
   },
@@ -386,7 +386,7 @@
    "price_text": "80 \u20ac",
    "price": 80.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c3da59f0-ec96-40d6-b5b3-751838ae5cc2?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.056
   },
@@ -431,7 +431,7 @@
    "price_text": "399 \u20ac VB",
    "price": 399.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4c98542e-786a-4076-ae04-ba15dac53955?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.016
   },
@@ -446,7 +446,7 @@
    "price_text": "80 \u20ac VB",
    "price": 80.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d592ca00-6cd0-4957-9a33-ca95c024b1f6?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.023
   },
@@ -476,7 +476,7 @@
    "price_text": "140 \u20ac VB",
    "price": 140.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a03fb74-baad-42d4-af04-aa06a741cfbf?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.001
   },
@@ -491,7 +491,7 @@
    "price_text": "100 \u20ac VB",
    "price": 100.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/29/29875f35-52c4-4569-b6a3-cc4a589b692b?rule=$_2.AUTO",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -506,7 +506,7 @@
    "price_text": "\u20ac150",
    "price": 150.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2d889abe-f83a-4a34-916f-99c02e01bfb8?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.268
   },
@@ -521,7 +521,7 @@
    "price_text": "\u20ac300",
    "price": 300.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/5c259cd8-a46a-4030-ab03-0b54561b41af?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.005
   },
@@ -551,7 +551,7 @@
    "price_text": "\u20ac50",
    "price": 50.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/30707369-b87d-4737-9250-12757fbcd8bd?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -566,7 +566,7 @@
    "price_text": "\u20ac160",
    "price": 160.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7e8f7d93-f53d-4a92-bff3-654a400c6ab7?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -581,7 +581,7 @@
    "price_text": "\u20ac2900",
    "price": 2900.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/195eed7b-e848-441d-ade9-cf0d01095ddd?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.042
   },
@@ -596,7 +596,7 @@
    "price_text": "?",
    "price": 0.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b3/b35ad6cb-f89e-4bcc-9b01-81e0ba944c63?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.018
   },
@@ -611,7 +611,7 @@
    "price_text": "\u20ac1790",
    "price": 1790.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8847fd44-2b96-4aed-a165-b07b11b9fe6e?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.006
   },
@@ -641,7 +641,7 @@
    "price_text": "\u20ac2499",
    "price": 2499.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a54ddba2-efa5-4d42-b9a7-73aba03d7f31?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -686,7 +686,7 @@
    "price_text": "\u20ac2199",
    "price": 2199.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d9c5fdf7-35e3-4659-bba6-6445d953f496?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.032
   },
@@ -761,7 +761,7 @@
    "price_text": "\u20ac2199",
    "price": 2199.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7ba06213-0768-4b96-ac56-8255fdc3b255?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.038
   },
@@ -776,7 +776,7 @@
    "price_text": "\u20ac2995",
    "price": 2995.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/08cd1ba0-17d1-45c4-bf7b-ec24ff5410e5?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -791,7 +791,7 @@
    "price_text": "\u20ac2995",
    "price": 2995.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6692cbc2-1813-4446-b4c5-ab8eb8936916?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -806,7 +806,7 @@
    "price_text": "\u20ac2995",
    "price": 2995.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/39382cba-8c86-4595-abf3-638a69571227?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -821,7 +821,7 @@
    "price_text": "\u20ac2995",
    "price": 2995.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0a8b9db5-fb49-42a8-86be-32731cd4967c?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.0
   },
@@ -836,7 +836,7 @@
    "price_text": "?",
    "price": 0.0,
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/235f9947-9af0-45e6-8c16-87ca2e56c5c0?rule=ecg_mp_eps$_82.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.137
   },
