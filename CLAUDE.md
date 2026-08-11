@@ -40,7 +40,7 @@ Key mechanics that span functions:
 
 - **Per-source config override**: `classify()` uses the source's own `alert_terms`/price band from `config.json` when present, else global. This is deliberate — EU sources alert only on "univox" because "Swift" bikes are common there. The `key_by_source` map in `main()` links display names back to config keys; keep it in sync when adding a source.
 - **Gumtree backoff**: a bot challenge (page contains `kramericaindustries`) writes `gumtree_backoff.json` and skips Gumtree for an hour; fetches within a sweep are paced 8s apart. `update_health()` knows a backoff skip is not a failure.
-- **Health/heartbeat**: `update_health()` tracks per-source fail streaks (warn after ~2h dark, only for sources that ever worked; `None` result = crashed sweep vs `[]` = empty) and sends a quiet daily check-in after 09:00 so silence is never ambiguous.
+- **Health/heartbeat**: `update_health()` tracks per-source fail streaks (warn after ~2h dark, only for sources that ever worked; `None` result = crashed sweep vs `[]` = empty) and sends a quiet daily check-in after 09:00; `send_status()` additionally pings an hourly min-priority "what was checked and why it stayed quiet" status — so silence is never ambiguous.
 - **Crash/concurrency safety**: `.lock` + flock prevents overlapping sweeps; state writes are atomic via temp-file rename; a corrupt `state.json` is set aside as `.json.corrupt` and the run restarts quietly as a baseline.
 - **Report state**: "reviewed" checkboxes persist in the *browser's* localStorage keyed by listing id, not in `state.json` — regenerating the report doesn't lose them.
 

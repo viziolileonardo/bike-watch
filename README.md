@@ -57,7 +57,11 @@ Detection details (pressure-tested):
 - **Self-health**: if a source that used to return results comes back empty
   for ~2 h straight you get a ⚠️ push (layout change or block); a quiet
   daily check-in after 09:00 confirms the monitor is alive — silence is
-  never ambiguous. Concurrent runs are prevented by a lockfile; state
+  never ambiguous. An **hourly status ping** (min priority — visible in the
+  ntfy app, never buzzes) says what was checked and why nothing louder came:
+  e.g. "Checked gumtree 62, kleinanzeigen 3, marktplaats 4 listings. New
+  this sweep: 0 alert-term hits (univox/swift), 1 broad match (report only)."
+  Turn off with `notify.hourly_status: false`. Concurrent runs are prevented by a lockfile; state
   writes are atomic; a corrupt state file restarts quietly without a
   notification flood.
 

@@ -73,6 +73,7 @@
   },
   "notify": {
     "macos": true,
+    "hourly_status": true,
     "ntfy_topic": "",
     "telegram_bot_token": "",
     "telegram_chat_id": ""

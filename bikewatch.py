@@ -614,6 +614,34 @@ def update_health(state, cfg, results_by_source):
             notify_ntfy(topic, "BikeWatch daily check-in", msg, priority="low")
 
 
+def send_status(state, notify_cfg, alert_terms, results_by_source,
+                n_alerts, n_digest):
+    """Hourly 'still alive' ping at min priority — no buzz, but the ntfy app
+    shows what was checked and why nothing louder arrived, so a healthy
+    quiet hour is distinguishable from a dead monitor."""
+    topic = notify_cfg.get("ntfy_topic")
+    if not topic or not notify_cfg.get("hourly_status", True):
+        return
+    health = state.setdefault("health", {})
+    hour = datetime.now().strftime("%Y-%m-%dT%H")
+    if health.get("last_status") == hour:
+        return
+    health["last_status"] = hour
+    import time
+    gt_backoff = GT_BACKOFF_PATH.exists() and time.time() < \
+        json.loads(GT_BACKOFF_PATH.read_text())["until"]
+    per_src = ", ".join(
+        "gumtree backoff" if k == "gumtree" and gt_backoff
+        else f"{k} {'ERR' if v is None else len(v)}"
+        for k, v in results_by_source.items())
+    msg = (f"Checked {per_src} listings. New this sweep: {n_alerts} "
+           f"alert-term hits ({'/'.join(alert_terms)}), {n_digest} broad "
+           f"matches (report only, no push). {len(state['findings'])} tracked "
+           "total. No alert-term match = no loud notification.")
+    log("status ping: " + msg)
+    notify_ntfy(topic, "BikeWatch hourly status", msg, priority="min")
+
+
 def main():
     lock = acquire_lock()  # noqa: F841 — held for process lifetime
     cfg = json.loads(CONFIG_PATH.read_text())
@@ -721,6 +749,8 @@ def main():
                         priority="low")
 
     update_health(state, cfg, results_by_source)
+    send_status(state, notify, cfg["alert_terms"], results_by_source,
+                len(new_alerts), len(new_digest))
     write_report(findings, cfg["bike"]["description"],
                  cfg["bike"].get("crime_reference", ""))
     save_state(state)
