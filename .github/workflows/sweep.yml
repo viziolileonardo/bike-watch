@@ -1,5 +1,9 @@
 name: sweep
 
+# NOTE: if scheduled runs ever stop appearing (GitHub disables crons after
+# 60 days without repo activity, and new/re-enabled workflows can take a
+# while to register), pushing any change to this file re-registers them.
+
 on:
   schedule:
     - cron: "17,37,57 * * * *"   # every 20 min, off-peak minutes (:00 crons get delayed most)
