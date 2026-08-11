@@ -22,16 +22,21 @@ the repo, so nothing is lost between runs. Each sweep:
    hour if served a bot challenge (`gumtree_backoff.json`).
 2. Dedupes against `state.json` so you only hear about *new* listings.
 3. Classifies each new listing:
-   - **ALERT** — title/description contains an alert term: instant macOS
-     notification (+ Telegram if configured), capped at 3 per sweep with a
-     summary beyond that. UK sources alert on `univox`/`swift`; EU sources
-     only on `univox` (Swift-brand bikes are common there, and "Univox" is
-     also a guitar-amp brand — hence per-source `alert_terms`).
+   - **ALERT** — title/description contains an alert term: instant ntfy
+     push (+ a GitHub issue as a redundant channel — GitHub-app push +
+     email — so one dropped notification can't cost a match), capped at 3
+     individual pushes per sweep with a summary beyond that. UK sources
+     alert on `univox`/`swift`/`e1800`; EU sources on `univox`/`e1800`
+     (Swift-brand bikes are common there, and "Univox" is also a guitar-amp
+     brand — hence per-source `alert_terms`). `e1800` catches the
+     distinctive DT Swiss wheelset in case the bike is stripped for parts.
    - **digest** — broad match (e.g. any carbon/105/disc road bike in London
      within the plausible resale price band £300–£2,500): collected quietly.
      Thieves usually strip the brand from listings, so eyeball these.
-4. Regenerates `reports/findings.html` — review everything with photos:
-   `git pull && open reports/findings.html`
+4. Regenerates `reports/findings.html` — review everything with photos
+   from any device: https://viziolileonardo.github.io/bike-watch/reports/findings.html
+   (GitHub Pages, updates ~1 min after each sweep; or locally via
+   `git pull && open reports/findings.html`)
 
 Detection details (pressure-tested):
 - Alert terms match fuzzily: one-letter typos of "univox" (unibox, univax…)
@@ -54,10 +59,11 @@ Detection details (pressure-tested):
 - **BLUE chip**: thumbnails are colour-scored (Pillow); listings whose photo
   is ≥8% muted-blue pixels get a BLUE chip and an "only blue-ish" report
   filter. Assists eyeballing only — nothing is dropped for lacking blue.
-- **Self-health**: if a source that used to return results comes back empty
-  for ~2 h straight you get a ⚠️ push (layout change or block); a quiet
-  daily check-in after 09:00 confirms the monitor is alive — silence is
-  never ambiguous. An **hourly status ping** (min priority — visible in the
+- **Self-health**: any enabled source contributing zero results for ~2 h —
+  whether empty, crashing, stuck in a bot-challenge backoff loop, or
+  misconfigured since day one — triggers a ⚠️ push, repeated daily while it
+  stays dark; a quiet daily check-in after 09:00 confirms the monitor is
+  alive — silence is never ambiguous. An **hourly status ping** (min priority — visible in the
   ntfy app, never buzzes) says what was checked and why nothing louder came:
   e.g. "Checked gumtree 62, kleinanzeigen 3, marktplaats 4 listings. New
   this sweep: 0 alert-term hits (univox/swift), 1 broad match (report only)."

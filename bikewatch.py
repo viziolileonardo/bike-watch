@@ -47,12 +47,20 @@ def log(msg):
         f.write(line + "\n")
 
 
-def http_get(url, headers=None, data=None):
+def http_get(url, headers=None, data=None, jar=False):
     """Fetch via the system curl — Gumtree's bot manager blocks Python's
-    TLS fingerprint but accepts curl. `data` (bytes/str) makes it a POST."""
-    jar = str(BASE / "cookies.txt")
+    TLS fingerprint but accepts curl. `data` (bytes/str) makes it a POST.
+
+    jar=True attaches the persistent cookie jar and is for Gumtree ONLY:
+    its bot manager likes session continuity, but Kleinanzeigen's A/B
+    cookies (__ka_srp-v3 / kameleoon) flip its search pages to a
+    JS-rendered variant with zero parseable listings — a poisoned shared
+    jar silently killed that source once. Everyone else goes cookie-less."""
     cmd = ["curl", "-sS", "--fail-with-body", "--compressed", "--max-time",
-           str(TIMEOUT), "-b", jar, "-c", jar, "-A", UA]
+           str(TIMEOUT), "-A", UA]
+    if jar:
+        j = str(BASE / "cookies.txt")
+        cmd += ["-b", j, "-c", j]
     for k, v in (headers or {}).items():
         cmd += ["-H", f"{k}: {v}"]
     if data is not None:
@@ -130,7 +138,7 @@ def search_gumtree(cfg):
         if i:
             time.sleep(8)  # pace requests; Gumtree's bot manager rate-flags bursts
         try:
-            page = http_get(url)
+            page = http_get(url, jar=True)
         except OSError as e:
             log(f"gumtree fetch failed for {query!r}: {e}")
             continue
@@ -434,6 +442,35 @@ def notify_telegram(token, chat_id, text):
         log(f"telegram notify failed: {e}")
 
 
+def notify_github_issue(alerts, report_url):
+    """Redundant channel for the one notification that matters: open a
+    GitHub issue on alert (→ GitHub mobile push + email), so a dropped ntfy
+    push can't silently cost a match. Cloud-only — needs GITHUB_REPOSITORY
+    and BIKEWATCH_GH_TOKEN, both provided by the workflow."""
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    token = os.environ.get("BIKEWATCH_GH_TOKEN")
+    if not (repo and token and alerts):
+        return
+    owner = repo.split("/")[0]
+    lines = [f"- [{a['title']} — {a['price_text']} ({a['location']}, "
+             f"{a['source']})]({a['url']})" for a in alerts]
+    body = (f"@{owner} possible match(es) — do not contact the seller, "
+            "screenshot first, then 101/999:\n\n" + "\n".join(lines)
+            + (f"\n\n[Full report]({report_url})" if report_url else ""))
+    payload = json.dumps({
+        "title": f"🚨 {len(alerts)} possible match(es): "
+                 f"{alerts[0]['title'][:60]}",
+        "body": body})
+    try:
+        http_get(f"https://api.github.com/repos/{repo}/issues",
+                 headers={"Authorization": f"Bearer {token}",
+                          "Accept": "application/vnd.github+json",
+                          "Content-Type": "application/json"},
+                 data=payload)
+    except Exception as e:
+        log(f"github issue notify failed: {e}")
+
+
 NEAR_THEFT_RE = re.compile(
     r"shoreditch|hackney|hoxton|bethnal|dalston|haggerston|clapton|homerton|"
     r"london fields|whitechapel|stepney|islington|tower hamlets|\bE[1289]\b",
@@ -566,13 +603,17 @@ def is_hot(item):
             is not None)
 
 
-FAIL_STREAK_WARN = 6  # ≈2 h of consecutive empty/failed sweeps for a source
+FAIL_STREAK_WARN = 6   # ≈2 h of a source contributing zero results
+REWARN_EVERY = 72      # ≈daily reminder while a source stays dark
 
 
 def update_health(state, cfg, results_by_source):
-    """Track per-source result counts; push a warning when a source that used
-    to produce results goes dark, and a quiet daily heartbeat so silence is
-    never ambiguous."""
+    """Track per-source result counts; a warning when any enabled source
+    contributes zero results for ~2 h — whatever the cause (empty, crashed,
+    stuck in bot-challenge backoff, or misconfigured since day one): each of
+    those is a coverage gap even when every individual skip looks
+    'expected'. Re-warns daily while dark. Plus a quiet daily heartbeat so
+    silence is never ambiguous."""
     health = state.setdefault("health", {})
     topic = cfg["notify"].get("ntfy_topic")
     gt_backoff = GT_BACKOFF_PATH.exists() and __import__("time").time() < \
@@ -580,16 +621,22 @@ def update_health(state, cfg, results_by_source):
     for key, res in results_by_source.items():
         hs = health.setdefault(key, {"fail_streak": 0, "warned": False,
                                      "ever_ok": False})
-        skipped = key == "gumtree" and gt_backoff
         if res:
             hs.update(fail_streak=0, warned=False, ever_ok=True)
-        elif not skipped and (res is None or hs["ever_ok"]):
-            hs["fail_streak"] += 1
-        if hs["fail_streak"] >= FAIL_STREAK_WARN and not hs["warned"]:
+            continue
+        hs["fail_streak"] += 1
+        remind = hs["fail_streak"] % REWARN_EVERY == 0
+        if hs["fail_streak"] >= FAIL_STREAK_WARN and (not hs["warned"] or remind):
             hs["warned"] = True
-            msg = (f"{key} has returned nothing for {hs['fail_streak']} sweeps "
-                   "— it may be blocked or its page layout changed. "
-                   "Run a manual sweep and check bikewatch.log.")
+            cause = ("stuck in a bot-challenge/backoff loop"
+                     if key == "gumtree" and gt_backoff
+                     else "its sweeps are crashing" if res is None
+                     else "it has NEVER returned results — check its queries "
+                          "and parser" if not hs["ever_ok"]
+                     else "it may be blocked or its page layout changed")
+            msg = (f"{key} has contributed 0 results for {hs['fail_streak']} "
+                   f"sweeps — {cause}. Coverage gap: check bikewatch.log / "
+                   "the Actions run logs.")
             log("HEALTH WARNING: " + msg)
             notify_macos("⚠️ BikeWatch health", msg, "")
             if topic:
@@ -729,6 +776,9 @@ def main():
         if notify.get("telegram_bot_token") and notify.get("telegram_chat_id"):
             notify_telegram(notify["telegram_bot_token"], notify["telegram_chat_id"],
                             f"🚨 Possible match on {item['source']}:\n{msg}\n{item['url']}")
+    report_url = cfg["notify"].get("report_url", "")
+    if new_alerts and notify:
+        notify_github_issue(new_alerts, report_url)
     overflow = len(new_alerts) - MAX_INDIVIDUAL
     if overflow > 0:
         if notify.get("macos"):
@@ -737,7 +787,8 @@ def main():
                          REPORT_PATH.as_uri())
         if notify.get("ntfy_topic"):
             notify_ntfy(notify["ntfy_topic"], "🚨 BikeWatch",
-                        f"...and {overflow} more possible matches — open the report.")
+                        f"...and {overflow} more possible matches — open the report.",
+                        report_url)
     if new_digest:
         if notify.get("macos"):
             notify_macos("BikeWatch",
@@ -746,7 +797,7 @@ def main():
         if notify.get("ntfy_topic"):
             notify_ntfy(notify["ntfy_topic"], "BikeWatch",
                         f"{len(new_digest)} new listing(s) worth a look in the report.",
-                        priority="low")
+                        report_url, priority="low")
 
     update_health(state, cfg, results_by_source)
     send_status(state, notify, cfg["alert_terms"], results_by_source,

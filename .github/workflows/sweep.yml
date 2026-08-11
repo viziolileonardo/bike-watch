@@ -17,6 +17,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write   # redundant alert channel: an issue per alert sweep
 
 jobs:
   sweep:
@@ -25,6 +26,7 @@ jobs:
     env:
       TZ: Europe/London   # heartbeat-after-09:00 logic uses local time
       BIKEWATCH_NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      BIKEWATCH_GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v5
 

@@ -29,7 +29,7 @@ There is no test suite, linter, or build. Verification is a manual sweep plus re
 
 - **Stdlib only, no pip installs** — so a bare `python3` anywhere (cloud runner or Mac) runs it. Pillow is the one optional import (`blue_score` returns None without it; the workflow installs it best-effort); keep any new dependency optional with the same degrade-gracefully pattern.
 - **Must stay Linux-clean** — sweeps run on `ubuntu-latest`. macOS-only tools (`osascript`, `terminal-notifier`) must stay behind `shutil.which()` guards, as in `notify_macos()`.
-- **All HTTP goes through `http_get()`, which shells out to system `curl`** — Gumtree's bot manager blocks Python's TLS fingerprint but accepts curl. Don't "simplify" this to urllib/requests. It shares a cookie jar (`cookies.txt`) across runs.
+- **All HTTP goes through `http_get()`, which shells out to system `curl`** — Gumtree's bot manager blocks Python's TLS fingerprint but accepts curl. Don't "simplify" this to urllib/requests. The persistent cookie jar (`cookies.txt`) is attached **only** for Gumtree (`jar=True`): Kleinanzeigen's A/B cookies flip its search pages to a JS-rendered variant with zero parseable listings, which once silently killed that source — never share the jar across sources.
 - Scraper sources (Gumtree, Kleinanzeigen, Marktplaats) parse live page HTML with regexes; only eBay uses an official API. Site layout changes silently break a source — that's what the per-source health tracking in `update_health()` exists to catch. If you touch a scraper, verify against a real fetch.
 
 ## Architecture (single file, `bikewatch.py`)
@@ -40,7 +40,7 @@ Key mechanics that span functions:
 
 - **Per-source config override**: `classify()` uses the source's own `alert_terms`/price band from `config.json` when present, else global. This is deliberate — EU sources alert only on "univox" because "Swift" bikes are common there. The `key_by_source` map in `main()` links display names back to config keys; keep it in sync when adding a source.
 - **Gumtree backoff**: a bot challenge (page contains `kramericaindustries`) writes `gumtree_backoff.json` and skips Gumtree for an hour; fetches within a sweep are paced 8s apart. `update_health()` knows a backoff skip is not a failure.
-- **Health/heartbeat**: `update_health()` tracks per-source fail streaks (warn after ~2h dark, only for sources that ever worked; `None` result = crashed sweep vs `[]` = empty) and sends a quiet daily check-in after 09:00; `send_status()` additionally pings an hourly min-priority "what was checked and why it stayed quiet" status — so silence is never ambiguous.
+- **Health/heartbeat**: `update_health()` warns after ~2h of an enabled source contributing zero results for *any* reason (empty/crashed/backoff-loop/never-worked — each is a coverage gap), re-warns daily while dark, and sends a quiet daily check-in after 09:00; `send_status()` additionally pings an hourly min-priority "what was checked and why it stayed quiet" status — so silence is never ambiguous. Alerts also open a GitHub issue (`notify_github_issue`, cloud-only) as a redundant channel to ntfy.
 - **Crash/concurrency safety**: `.lock` + flock prevents overlapping sweeps; state writes are atomic via temp-file rename; a corrupt `state.json` is set aside as `.json.corrupt` and the run restarts quietly as a baseline.
 - **Report state**: "reviewed" checkboxes persist in the *browser's* localStorage keyed by listing id, not in `state.json` — regenerating the report doesn't lose them.
 

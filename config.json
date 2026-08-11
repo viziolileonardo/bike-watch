@@ -7,7 +7,8 @@
   },
   "alert_terms": [
     "univox",
-    "swift"
+    "swift",
+    "e1800"
   ],
   "gumtree": {
     "enabled": true,
@@ -50,10 +51,12 @@
     "queries": [
       "univox",
       "swift univox",
-      "swift carbon"
+      "swift carbon",
+      "dt swiss e1800"
     ],
     "alert_terms": [
-      "univox"
+      "univox",
+      "e1800"
     ],
     "broad_price_min": 200,
     "broad_price_max": 3200
@@ -63,10 +66,12 @@
     "queries": [
       "univox",
       "swift univox",
-      "swift carbon"
+      "swift carbon",
+      "dt swiss e1800"
     ],
     "alert_terms": [
-      "univox"
+      "univox",
+      "e1800"
     ],
     "broad_price_min": 200,
     "broad_price_max": 3200
@@ -74,6 +79,7 @@
   "notify": {
     "macos": true,
     "hourly_status": true,
+    "report_url": "https://viziolileonardo.github.io/bike-watch/reports/findings.html",
     "ntfy_topic": "",
     "telegram_bot_token": "",
     "telegram_chat_id": ""
