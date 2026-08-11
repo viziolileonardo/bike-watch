@@ -16,8 +16,12 @@ the repo, so nothing is lost between runs. Each sweep:
 
 1. Searches **Gumtree** (London, bicycles category), **Kleinanzeigen** (DE)
    and **Marktplaats** (NL) — the main EU laundering routes for high-value
-   UK-stolen bikes — and optionally **eBay** (official Browse API: UK broad
-   queries + worldwide exact-term queries) for every query in `config.json`.
+   UK-stolen bikes — plus the UK consignment shops **Cycle Exchange** and
+   **MyNextBike** (Shopify JSON feeds, newest 250 products each, alert-only:
+   consignment shops list real brand names, so alert terms suffice and their
+   inventories stay out of the digest) — and optionally **eBay** (official
+   Browse API: UK broad queries + worldwide exact-term queries) for every
+   query in `config.json`.
    Gumtree rate-limits: the script paces its requests and backs off for an
    hour if served a bot challenge (`gumtree_backoff.json`).
 2. Dedupes against `state.json` so you only hear about *new* listings.
@@ -129,7 +133,7 @@ Can't be scripted (login-walled), but it's where most stolen bikes surface:
 | eBay | "Save this search" email alerts for `swift univox`, `univox` |
 | Gumtree | Built-in email alerts on the same searches (backup for rate-limiting) |
 | Preloved | Saved-search email alerts (JS app, not scrapeable) |
-| Buycycle / Cycle Exchange | Used-road-bike marketplaces; search "Swift" weekly, set Buycycle brand alert if available |
+| Buycycle | Used-road-bike marketplace; search "Swift" weekly, set brand alert if available (Cycle Exchange + MyNextBike are automated now) |
 | Google Alerts | google.com/alerts for `"swift univox"` and `"univox comp"` — catches forums, new sites |
 | OLX.pl / Allegro (Poland) | Blocked to scripts; known destination for UK-stolen bikes — manual weekly search for "univox" |
 | Cash Converters | JS app; check the Shoreditch/Hackney branches in person — sellers must show ID, so police can trace |

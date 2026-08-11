@@ -258,6 +258,44 @@ def search_marktplaats(cfg):
     return results
 
 
+# ---------------------------------------------------------------- Shopify shops
+# (Cycle Exchange, MyNextBike, ... — UK second-hand/consignment bike shops)
+
+def search_shopify(cfg):
+    """Shopify's public /products.json is a stable structured feed — no
+    scraping, no bot managers. Fetches each shop's newest products; these
+    shops list bikes under their real brand names, so alert terms do the
+    matching (the source is alert_only: no digest flood of whole shop
+    inventories)."""
+    results = []
+    for shop in cfg["shops"]:
+        base = shop["base_url"].rstrip("/")
+        url = f"{base}/products.json?limit={cfg.get('limit', 250)}"
+        try:
+            data = json.loads(http_get(url))
+        except Exception as e:
+            log(f"shopify fetch failed for {shop['name']!r}: {e}")
+            continue
+        for p in data.get("products", []):
+            variants = p.get("variants") or []
+            price = parse_price(str(variants[0].get("price", ""))) if variants else None
+            images = p.get("images") or []
+            desc = unescape(re.sub(r"<[^>]+>", " ", p.get("body_html") or ""))
+            results.append({
+                "id": f"shopify:{shop['name']}:{p['id']}",
+                "source": shop["name"],
+                "query": "(new stock)",
+                "url": f"{base}/products/{p.get('handle', '')}",
+                "title": p.get("title", ""),
+                "description": desc[:500],
+                "location": shop.get("location", "UK"),
+                "price_text": f"£{price:.0f}" if price else "?",
+                "price": price,
+                "image": images[0].get("src", "") if images else "",
+            })
+    return results
+
+
 # ---------------------------------------------------------------- eBay (official Browse API)
 
 def ebay_token(app_id, cert_id):
@@ -724,6 +762,7 @@ def main():
         ("ebay", search_ebay),
         ("kleinanzeigen", search_kleinanzeigen),
         ("marktplaats", search_marktplaats),
+        ("shopify", search_shopify),
     ]
     results_by_source = {}
     for key, fn in sources:
@@ -739,6 +778,8 @@ def main():
     key_by_source = {"Gumtree": "gumtree", "eBay": "ebay",
                      "Kleinanzeigen (DE)": "kleinanzeigen",
                      "Marktplaats (NL)": "marktplaats"}
+    for shop in cfg.get("shopify", {}).get("shops", []):
+        key_by_source[shop["name"]] = "shopify"
     fingerprints = {(f["title"].lower().strip(), f["price_text"])
                     for f in findings.values()}
     new_alerts, new_digest = [], []
@@ -756,6 +797,8 @@ def main():
                          cfg.get("fuzzy_alert_terms", ()))
         if level is None:
             continue
+        if level == "digest" and src_cfg.get("alert_only"):
+            continue  # consignment shops: whole-inventory digest is noise
         if level == "digest" and is_hot(item):
             level = "alert"
             item["hot"] = True

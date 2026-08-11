@@ -44,7 +44,7 @@ Key mechanics that span functions:
 - **Crash/concurrency safety**: `.lock` + flock prevents overlapping sweeps; state writes are atomic via temp-file rename; a corrupt `state.json` is set aside as `.json.corrupt` and the run restarts quietly as a baseline.
 - **Report state**: "reviewed" checkboxes persist in the *browser's* localStorage keyed by listing id, not in `state.json` — regenerating the report doesn't lose them.
 
-Adding a source = a `search_*` function returning the common dict shape, an entry in `sources` and `key_by_source` in `main()`, and a config block with `enabled`.
+Adding a source = a `search_*` function returning the common dict shape, an entry in `sources` and `key_by_source` in `main()`, and a config block with `enabled`. Exception: Shopify shops (Cycle Exchange, MyNextBike, …) are config-only — add a `{name, base_url}` entry under `shopify.shops`; `search_shopify` reads each shop's public `/products.json` and `key_by_source` is extended dynamically. Shopify shops are `alert_only`: consignment inventories never enter the digest, only alert-term hits surface.
 
 ## Files on disk
 
