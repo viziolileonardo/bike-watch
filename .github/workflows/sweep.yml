@@ -27,6 +27,8 @@ jobs:
       TZ: Europe/London   # heartbeat-after-09:00 logic uses local time
       BIKEWATCH_NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       BIKEWATCH_GH_TOKEN: ${{ github.token }}
+      BIKEWATCH_EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
+      BIKEWATCH_EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
     steps:
       - uses: actions/checkout@v5
 

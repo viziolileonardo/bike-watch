@@ -103,7 +103,9 @@ eBay blocks scrapers, but their official API is free and reliable:
 1. Register at https://developer.ebay.com (free, instant for personal use).
 2. Create an app → copy the **App ID (Client ID)** and **Cert ID (Client
    Secret)** for the *Production* environment.
-3. In `config.json` set `ebay.enabled: true` and paste both values.
+3. `gh secret set EBAY_APP_ID` and `gh secret set EBAY_CERT_ID` (paste each
+   value when prompted). **Never put them in `config.json` — the repo is
+   public.** Their presence as secrets auto-enables the source.
 
 Also do the zero-code version right now: search "swift univox" on eBay,
 tap **Save this search**, and enable email alerts — eBay then notifies you of

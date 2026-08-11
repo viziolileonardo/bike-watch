@@ -697,6 +697,15 @@ def main():
     env_topic = os.environ.get("BIKEWATCH_NTFY_TOPIC")
     if env_topic:
         cfg["notify"]["ntfy_topic"] = env_topic
+    # eBay credentials likewise come from secrets, never config.json;
+    # their presence is what enables the source
+    ebay_cfg = cfg.setdefault("ebay", {})
+    for key, env in (("app_id", "BIKEWATCH_EBAY_APP_ID"),
+                     ("cert_id", "BIKEWATCH_EBAY_CERT_ID")):
+        if os.environ.get(env):
+            ebay_cfg[key] = os.environ[env]
+    if ebay_cfg.get("app_id") and ebay_cfg.get("cert_id"):
+        ebay_cfg["enabled"] = True
     state = load_state()
     findings = state["findings"]
     baseline_run = not findings
