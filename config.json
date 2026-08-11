@@ -1,0 +1,83 @@
+{
+  "bike": {
+    "description": "Swift UniVox Comp, Blue Steel colour, carbon frame, Shimano 105 hydraulic disc, DT Swiss E1800 wheels",
+    "stolen_where": "Cottons Shoreditch, London",
+    "stolen_when": "2026-08-10 19:30-20:50",
+    "crime_reference": "01/7926388/26"
+  },
+  "alert_terms": [
+    "univox",
+    "swift"
+  ],
+  "gumtree": {
+    "enabled": true,
+    "location": "London",
+    "category": "bicycles",
+    "queries": [
+      "swift road bike",
+      "carbon road bike 105 disc"
+    ],
+    "broad_price_min": 200,
+    "broad_price_max": 3000,
+    "catch_all": true,
+    "national_queries": [
+      "univox",
+      "swift univox",
+      "dt swiss e1800"
+    ]
+  },
+  "ebay": {
+    "enabled": false,
+    "app_id": "",
+    "cert_id": "",
+    "queries": [
+      "swift univox",
+      "univox comp",
+      "swift carbon road bike",
+      "carbon road bike shimano 105 disc blue",
+      "dt swiss e1800"
+    ],
+    "global_queries": [
+      "univox road bike",
+      "swift univox"
+    ],
+    "located_in": "GB",
+    "broad_price_min": 200,
+    "broad_price_max": 3000
+  },
+  "kleinanzeigen": {
+    "enabled": true,
+    "queries": [
+      "univox",
+      "swift univox",
+      "swift carbon"
+    ],
+    "alert_terms": [
+      "univox"
+    ],
+    "broad_price_min": 200,
+    "broad_price_max": 3200
+  },
+  "marktplaats": {
+    "enabled": true,
+    "queries": [
+      "univox",
+      "swift univox",
+      "swift carbon"
+    ],
+    "alert_terms": [
+      "univox"
+    ],
+    "broad_price_min": 200,
+    "broad_price_max": 3200
+  },
+  "notify": {
+    "macos": true,
+    "ntfy_topic": "",
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  },
+  "fuzzy_alert_terms": [
+    "univox"
+  ]
+}

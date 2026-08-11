@@ -1,0 +1,54 @@
+name: sweep
+
+on:
+  schedule:
+    - cron: "17,37,57 * * * *"   # every 20 min, off-peak minutes (:00 crons get delayed most)
+  workflow_dispatch:
+    inputs:
+      test_notify:
+        description: "Send a test notification instead of sweeping"
+        type: boolean
+        default: false
+
+# never let two sweeps overlap (the script's flock only guards within one machine)
+concurrency:
+  group: sweep
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/London   # heartbeat-after-09:00 logic uses local time
+      BIKEWATCH_NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Ensure phone alerts are wired
+        run: '[ -n "$BIKEWATCH_NTFY_TOPIC" ] || { echo "::error::NTFY_TOPIC secret is not set — phone alerts are dead"; exit 1; }'
+
+      - name: Pillow (optional, for BLUE photo scoring)
+        run: python3 -c "import PIL" 2>/dev/null || pip install --quiet --break-system-packages Pillow || pip install --quiet Pillow
+
+      - name: Sweep
+        run: |
+          if [ "${{ inputs.test_notify }}" = "true" ]; then
+            python3 bikewatch.py --test-notify
+          else
+            python3 bikewatch.py
+          fi
+
+      - name: Commit state + report back
+        if: ${{ inputs.test_notify != 'true' }}
+        run: |
+          git config user.name "bikewatch"
+          git config user.email "bikewatch@users.noreply.github.com"
+          git add state.json reports/findings.html
+          git add gumtree_backoff.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "sweep: $(date '+%Y-%m-%d %H:%M')"
+          git push || { git fetch origin main && git rebase origin/main && git push; }

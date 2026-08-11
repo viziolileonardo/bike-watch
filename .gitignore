@@ -1,0 +1,10 @@
+__pycache__/
+.DS_Store
+.lock
+cookies.txt
+bikewatch.log
+launchd.log
+*.json.tmp
+*.json.corrupt
+# police/CCTV correspondence — keep off GitHub
+recovery/

@@ -1,0 +1,733 @@
+#!/usr/bin/env python3
+"""BikeWatch — monitor London marketplaces for a stolen bike.
+
+Stdlib only (no pip installs) so it runs reliably from launchd/cron.
+
+Sources:
+  - Gumtree (public search pages, London-filtered)
+  - eBay UK (official Browse API — enable in config.json with free
+    developer credentials from https://developer.ebay.com)
+
+Each run: fetch every configured query, dedupe against state.json,
+classify new listings as ALERT (title/description contains an alert
+term, e.g. "univox") or DIGEST (broad-query match worth eyeballing),
+send notifications for alerts, and regenerate reports/findings.html.
+
+Usage:
+  python3 bikewatch.py            # one sweep (what launchd runs)
+  python3 bikewatch.py --test-notify
+"""
+
+import base64
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import urllib.parse
+from datetime import datetime, timezone
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+CONFIG_PATH = BASE / "config.json"
+STATE_PATH = BASE / "state.json"
+REPORT_PATH = BASE / "reports" / "findings.html"
+LOG_PATH = BASE / "bikewatch.log"
+
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+TIMEOUT = 30
+
+
+def log(msg):
+    line = f"{datetime.now().isoformat(timespec='seconds')} {msg}"
+    print(line)
+    with open(LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(line + "\n")
+
+
+def http_get(url, headers=None, data=None):
+    """Fetch via the system curl — Gumtree's bot manager blocks Python's
+    TLS fingerprint but accepts curl. `data` (bytes/str) makes it a POST."""
+    jar = str(BASE / "cookies.txt")
+    cmd = ["curl", "-sS", "--fail-with-body", "--compressed", "--max-time",
+           str(TIMEOUT), "-b", jar, "-c", jar, "-A", UA]
+    for k, v in (headers or {}).items():
+        cmd += ["-H", f"{k}: {v}"]
+    if data is not None:
+        cmd += ["--data", data if isinstance(data, str) else data.decode()]
+    cmd.append(url)
+    proc = subprocess.run(cmd, capture_output=True, timeout=TIMEOUT + 10)
+    if proc.returncode != 0:
+        raise OSError(f"curl exit {proc.returncode}: {proc.stderr.decode()[:200]}")
+    return proc.stdout.decode("utf-8", errors="replace")
+
+
+def parse_price(text):
+    m = re.search(r"[\d,]+(?:\.\d+)?", text or "")
+    return float(m.group(0).replace(",", "")) if m else None
+
+
+def unescape(text):
+    import html as htmllib
+    return htmllib.unescape(text or "").strip()
+
+
+# ---------------------------------------------------------------- Gumtree
+
+GT_ARTICLE_RE = re.compile(r'<article data-q="search-result".*?</article>', re.S)
+GT_STYLE_RE = re.compile(r"<style.*?</style>", re.S)
+
+
+def gt_field(block, name):
+    m = re.search(r'data-q="%s"[^>]*>([^<]*)' % re.escape(name), block)
+    return unescape(m.group(1)) if m else ""
+
+
+GT_BACKOFF_PATH = BASE / "gumtree_backoff.json"
+GT_BACKOFF_MINUTES = 60
+
+
+def search_gumtree(cfg):
+    import time
+    if GT_BACKOFF_PATH.exists():
+        until = json.loads(GT_BACKOFF_PATH.read_text())["until"]
+        if time.time() < until:
+            log("gumtree: in bot-challenge backoff, skipping this sweep")
+            return []
+    fetches = []
+    for query in cfg["queries"]:
+        fetches.append((query, "https://www.gumtree.com/search?"
+                        + urllib.parse.urlencode({
+                            "search_category": cfg.get("category", "bicycles"),
+                            "q": query,
+                            "search_location": cfg.get("location", "London"),
+                        })))
+    for query in cfg.get("national_queries", []):
+        # rare terms searched UK-wide: thieves relist far from the theft
+        fetches.append((query + " (UK)", "https://www.gumtree.com/search?"
+                        + urllib.parse.urlencode({
+                            "search_category": cfg.get("category", "bicycles"),
+                            "q": query,
+                        })))
+    if cfg.get("catch_all"):
+        # no-keyword sweep of the newest listings in the whole category, so
+        # brand-stripped titles with no matching keywords still get seen
+        for pageno in (1, 2):
+            fetches.append(("(catch-all newest)",
+                            "https://www.gumtree.com/search?"
+                            + urllib.parse.urlencode({
+                                "search_category": cfg.get("category", "bicycles"),
+                                "search_location": cfg.get("location", "London"),
+                                "min_price": cfg.get("broad_price_min", 200),
+                                "max_price": cfg.get("broad_price_max", 3000),
+                                "sort": "date",
+                                "page": pageno,
+                            })))
+    results = []
+    for i, (query, url) in enumerate(fetches):
+        if i:
+            time.sleep(8)  # pace requests; Gumtree's bot manager rate-flags bursts
+        try:
+            page = http_get(url)
+        except OSError as e:
+            log(f"gumtree fetch failed for {query!r}: {e}")
+            continue
+        if "kramericaindustries" in page:
+            GT_BACKOFF_PATH.write_text(json.dumps(
+                {"until": time.time() + GT_BACKOFF_MINUTES * 60}))
+            log(f"gumtree: bot challenge served, backing off {GT_BACKOFF_MINUTES} min")
+            return results
+        for raw in GT_ARTICLE_RE.findall(page):
+            block = GT_STYLE_RE.sub("", raw)
+            href_m = re.search(r'data-q="search-result-anchor" href="([^"]+)"', block)
+            if not href_m:
+                continue
+            href = href_m.group(1)
+            img_m = re.search(r'<img[^>]+src="([^"]+)"', block)
+            listing_url = urllib.parse.urljoin("https://www.gumtree.com", href)
+            id_m = re.search(r"/(\d+)/?$", href)
+            results.append({
+                "id": "gumtree:" + (id_m.group(1) if id_m else href),
+                "source": "Gumtree",
+                "query": query,
+                "url": listing_url,
+                "title": gt_field(block, "tile-title"),
+                "description": gt_field(block, "tile-description"),
+                "location": gt_field(block, "tile-location"),
+                "price_text": gt_field(block, "tile-price"),
+                "price": parse_price(gt_field(block, "tile-price")),
+                "image": img_m.group(1) if img_m else "",
+            })
+    return results
+
+
+# ---------------------------------------------------------------- Kleinanzeigen (DE)
+
+KA_ARTICLE_RE = re.compile(r'<article class="aditem"[^>]*data-adid="(\d+)"[^>]*data-href="([^"]+)".*?</article>', re.S)
+
+
+def euro_price(text):
+    digits = re.sub(r"[^\d]", "", (text or "").split(",")[0])
+    return float(digits) if digits else None
+
+
+def search_kleinanzeigen(cfg):
+    results = []
+    for query in cfg["queries"]:
+        slug = re.sub(r"\s+", "-", query.strip().lower())
+        url = f"https://www.kleinanzeigen.de/s-fahrraeder/{urllib.parse.quote(slug)}/k0c217"
+        try:
+            page = http_get(url)
+        except OSError as e:
+            log(f"kleinanzeigen fetch failed for {query!r}: {e}")
+            continue
+        for m in KA_ARTICLE_RE.finditer(page):
+            adid, href = m.group(1), m.group(2)
+            block = m.group(0)
+            title_m = re.search(r'class="ellipsis"[^>]*>([^<]+)', block)
+            price_m = re.search(r'price-shipping--price"[^>]*>\s*([^<]+)', block)
+            loc_m = re.search(r'aditem-main--top--left[^"]*"[^>]*>\s*(?:<[^>]+>\s*)*([^<]+)', block)
+            desc_m = re.search(r'aditem-main--middle--description"[^>]*>([^<]+)', block)
+            img_m = re.search(r'<img[^>]+src="(https://img\.kleinanzeigen\.de[^"]+)"', block)
+            price_text = unescape(price_m.group(1)) if price_m else ""
+            results.append({
+                "id": "kleinanzeigen:" + adid,
+                "source": "Kleinanzeigen (DE)",
+                "query": query,
+                "url": urllib.parse.urljoin("https://www.kleinanzeigen.de", href),
+                "title": unescape(title_m.group(1)) if title_m else "",
+                "description": unescape(desc_m.group(1)) if desc_m else "",
+                "location": unescape(loc_m.group(1)) if loc_m else "",
+                "price_text": price_text or "?",
+                "price": euro_price(price_text),
+                "image": img_m.group(1) if img_m else "",
+            })
+    return results
+
+
+# ---------------------------------------------------------------- Marktplaats (NL)
+
+def search_marktplaats(cfg):
+    results = []
+    for query in cfg["queries"]:
+        url = ("https://www.marktplaats.nl/l/fietsen-en-brommers/q/"
+               + urllib.parse.quote(query.strip().replace(" ", "+")) + "/")
+        try:
+            page = http_get(url)
+        except OSError as e:
+            log(f"marktplaats fetch failed for {query!r}: {e}")
+            continue
+        m = re.search(r'"listings"\s*:\s*\[', page)
+        if not m:
+            log(f"marktplaats: no listings JSON for {query!r}")
+            continue
+        try:
+            listings, _ = json.JSONDecoder().raw_decode(page[m.end() - 1:])
+        except json.JSONDecodeError as e:
+            log(f"marktplaats parse failed for {query!r}: {e}")
+            continue
+        for item in listings:
+            price_cents = (item.get("priceInfo") or {}).get("priceCents")
+            price = price_cents / 100 if isinstance(price_cents, (int, float)) else None
+            images = item.get("imageUrls") or []
+            image = images[0] if images else ""
+            if image.startswith("//"):
+                image = "https:" + image
+            results.append({
+                "id": "marktplaats:" + str(item.get("itemId")),
+                "source": "Marktplaats (NL)",
+                "query": query,
+                "url": urllib.parse.urljoin("https://www.marktplaats.nl", item.get("vipUrl", "")),
+                "title": item.get("title", ""),
+                "description": item.get("description", ""),
+                "location": (item.get("location") or {}).get("cityName", "") or "NL",
+                "price_text": f"€{price:.0f}" if price else "?",
+                "price": price,
+                "image": image,
+            })
+    return results
+
+
+# ---------------------------------------------------------------- eBay (official Browse API)
+
+def ebay_token(app_id, cert_id):
+    creds = base64.b64encode(f"{app_id}:{cert_id}".encode()).decode()
+    body = urllib.parse.urlencode({
+        "grant_type": "client_credentials",
+        "scope": "https://api.ebay.com/oauth/api_scope",
+    })
+    resp = http_get(
+        "https://api.ebay.com/identity/v1/oauth2/token",
+        headers={
+            "Authorization": f"Basic {creds}",
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+        data=body,
+    )
+    return json.loads(resp)["access_token"]
+
+
+def search_ebay(cfg):
+    results = []
+    try:
+        token = ebay_token(cfg["app_id"], cfg["cert_id"])
+    except Exception as e:
+        log(f"ebay auth failed (check app_id/cert_id in config.json): {e}")
+        return results
+    scoped = [(q, True) for q in cfg["queries"]] + \
+             [(q, False) for q in cfg.get("global_queries", [])]
+    for query, restrict_country in scoped:
+        params = {"q": query, "limit": "50", "sort": "newlyListed"}
+        if restrict_country:
+            params["filter"] = f"itemLocationCountry:{cfg.get('located_in', 'GB')}"
+        params = urllib.parse.urlencode(params)
+        try:
+            data = json.loads(http_get(
+                f"https://api.ebay.com/buy/browse/v1/item_summary/search?{params}",
+                headers={
+                    "Authorization": f"Bearer {token}",
+                    "X-EBAY-C-MARKETPLACE-ID": "EBAY_GB",
+                },
+            ))
+        except Exception as e:
+            log(f"ebay search failed for {query!r}: {e}")
+            continue
+        for item in data.get("itemSummaries", []):
+            price = item.get("price", {})
+            loc = item.get("itemLocation", {})
+            results.append({
+                "id": "ebay:" + item["itemId"],
+                "source": "eBay",
+                "query": query,
+                "url": item.get("itemWebUrl", ""),
+                "title": item.get("title", ""),
+                "description": item.get("shortDescription", ""),
+                "location": ", ".join(x for x in (loc.get("city"), loc.get("postalCode")) if x),
+                "price_text": f"£{price.get('value', '?')}",
+                "price": parse_price(price.get("value", "")),
+                "image": (item.get("image") or {}).get("imageUrl", ""),
+            })
+    return results
+
+
+# ---------------------------------------------------------------- image colour triage
+
+def blue_score(image_url):
+    """Fraction of thumbnail pixels in the muted-blue ('blue steel') hue range,
+    or None if Pillow is missing / the fetch fails. Assists eyeballing only —
+    never used to drop listings."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    import tempfile
+    try:
+        with tempfile.NamedTemporaryFile(suffix=".img") as tmp:
+            proc = subprocess.run(
+                ["curl", "-sS", "--max-time", "15", "-A", UA, "-o", tmp.name,
+                 image_url], capture_output=True, timeout=25)
+            if proc.returncode != 0:
+                return None
+            img = Image.open(tmp.name).convert("RGB")
+            img.thumbnail((64, 64))
+            hsv = img.convert("HSV")
+            pixels = list(hsv.getdata())
+    except Exception:
+        return None
+    if not pixels:
+        return None
+    # PIL hue is 0-255 for 0-360°; steel/denim blues sit ~190-250° → ~135-177
+    hits = sum(1 for h, s, v in pixels
+               if 130 <= h <= 180 and 40 <= s <= 210 and 50 <= v <= 230)
+    return round(hits / len(pixels), 3)
+
+
+BLUE_CHIP_THRESHOLD = 0.08
+MAX_IMAGE_SCORES_PER_SWEEP = 80
+
+
+# ---------------------------------------------------------------- classify / notify / report
+
+def within_one_edit(a, b):
+    """True if strings are within Levenshtein distance 1."""
+    if a == b:
+        return True
+    if abs(len(a) - len(b)) > 1:
+        return False
+    if len(a) > len(b):
+        a, b = b, a
+    i = j = edits = 0
+    while i < len(a) and j < len(b):
+        if a[i] == b[j]:
+            i += 1
+            j += 1
+            continue
+        edits += 1
+        if edits > 1:
+            return False
+        if len(a) == len(b):
+            i += 1
+        j += 1
+    return True
+
+
+def classify(item, alert_terms, price_min, price_max, fuzzy_terms=()):
+    """Return 'alert', 'digest', or None (drop)."""
+    haystack = f"{item['title']} {item['description']}".lower()
+    if any(term.lower() in haystack for term in alert_terms):
+        return "alert"
+    # catch one-letter misspellings of distinctive terms ("unibox", "univax")
+    words = set(re.findall(r"[a-z]{5,}", haystack))
+    for term in fuzzy_terms:
+        if any(within_one_edit(term.lower(), w) for w in words):
+            return "alert"
+    price = item["price"]
+    if price is not None and not (price_min <= price <= price_max):
+        return None  # broad match priced far outside plausible resale range
+    return "digest"
+
+
+def notify_macos(title, message, url):
+    if sys.platform != "darwin":
+        return  # cloud runner — ntfy/telegram carry the alert (a Linux ruby
+        # gem also shadows the name terminal-notifier, so don't trust which())
+    tn = shutil.which("terminal-notifier")
+    if tn:
+        cmd = [tn, "-title", title, "-message", message, "-sound", "Glass"]
+        if url:
+            cmd += ["-open", url]  # clicking the notification opens the listing
+        subprocess.run(cmd, check=False)
+        return
+    def q(s):
+        return json.dumps(s, ensure_ascii=False)
+    script = (
+        f'display notification {q(message)} '
+        f'with title {q(title)} sound name "Glass"'
+    )
+    subprocess.run(["osascript", "-e", script], check=False)
+
+
+def notify_ntfy(topic, title, message, url="", priority="high"):
+    """Push to the ntfy app (ntfy.sh). Tapping the notification opens `url`
+    where supported (Android); the URL also goes in the body since iOS only
+    shows links as tappable text inside the app."""
+    headers = {"Title": title, "Priority": priority, "Tags": "rotating_light"
+               if priority == "high" else "mag"}
+    if url:
+        headers["Click"] = url
+        message = f"{message}\n{url}"
+    try:
+        http_get(f"https://ntfy.sh/{topic}", headers=headers, data=message)
+    except Exception as e:
+        log(f"ntfy notify failed: {e}")
+
+
+def notify_telegram(token, chat_id, text):
+    body = urllib.parse.urlencode({
+        "chat_id": chat_id, "text": text, "disable_web_page_preview": "false",
+    })
+    try:
+        http_get(f"https://api.telegram.org/bot{token}/sendMessage", data=body)
+    except Exception as e:
+        log(f"telegram notify failed: {e}")
+
+
+NEAR_THEFT_RE = re.compile(
+    r"shoreditch|hackney|hoxton|bethnal|dalston|haggerston|clapton|homerton|"
+    r"london fields|whitechapel|stepney|islington|tower hamlets|\bE[1289]\b",
+    re.I)
+MAX_DIGEST_ROWS = 400
+
+
+def write_report(findings, bike_desc, crime_ref=""):
+    import html as H
+    items = sorted(findings.values(), key=lambda x: x["first_seen"], reverse=True)
+    alerts = [f for f in items if f["level"] == "alert"]
+    digest = [f for f in items if f["level"] != "alert"][:MAX_DIGEST_ROWS]
+    rows = []
+    for f in alerts + digest:
+        near = bool(NEAR_THEFT_RE.search(f.get("location", "")))
+        blue = (f.get("blue_score") or 0) >= BLUE_CHIP_THRESHOLD
+        badge = ("<span class='b alert'>ALERT</span>" if f["level"] == "alert"
+                 else "<span class='b digest'>digest</span>")
+        if f.get("hot"):
+            badge += " <span class='b hot'>HOT</span>"
+        if near:
+            badge += " <span class='b near'>NEAR THEFT</span>"
+        if blue:
+            badge += " <span class='b blue'>BLUE</span>"
+        img = (f"<img src='{H.escape(f['image'], quote=True)}' loading='lazy'>"
+               if f.get("image") else "<div class='noimg'>no photo</div>")
+        rows.append(f"""
+        <tr class="{f['level']}{' near' if near else ''}{' blue' if blue else ''}" data-id="{H.escape(f['id'], quote=True)}">
+          <td class="rv"><input type="checkbox" title="mark reviewed"></td>
+          <td>{img}</td>
+          <td>
+            {badge} <b>{H.escape(f['title'])}</b><br>
+            <span class="desc">{H.escape(f['description'][:220])}</span><br>
+            <small>{H.escape(f['source'])} · {H.escape(f['location'])}
+            · query: <i>{H.escape(f['query'])}</i> · first seen {f['first_seen'][:16]}</small>
+          </td>
+          <td class="price"><b>{H.escape(f['price_text'])}</b></td>
+          <td><a href="{H.escape(f['url'], quote=True)}" target="_blank">open ↗</a></td>
+        </tr>""")
+    REPORT_PATH.parent.mkdir(exist_ok=True)
+    REPORT_PATH.write_text(f"""<!doctype html><meta charset="utf-8">
+<title>BikeWatch findings</title>
+<style>
+ body{{font-family:-apple-system,sans-serif;max-width:1150px;margin:24px auto;padding:0 12px}}
+ table{{border-collapse:collapse;width:100%}}
+ tr{{border-bottom:1px solid #ddd}} td{{padding:10px;vertical-align:top}}
+ td img{{width:150px;border-radius:6px}} .noimg{{width:150px;color:#999;font-size:12px}}
+ .b{{color:#fff;padding:2px 8px;border-radius:10px;font-size:12px}}
+ .b.alert{{background:#c0392b}} .b.digest{{background:#7f8c8d}} .b.near{{background:#e67e22}}
+ .b.hot{{background:#8e44ad}} .b.blue{{background:#2980b9}}
+ .only-blue tr:not(.blue){{display:none}}
+ tr.alert{{background:#fff5f5}} tr.near td:first-child{{border-left:4px solid #e67e22}}
+ .desc{{color:#555}} .price{{white-space:nowrap}}
+ tr.reviewed{{opacity:.25}} .hidden-reviewed tr.reviewed{{display:none}}
+ header{{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
+ .ref{{background:#eef;border-radius:8px;padding:10px 14px}}
+</style>
+<body>
+<header>
+ <h1 style="margin:0">BikeWatch</h1>
+ <div class="ref"><b>Looking for:</b> {H.escape(bike_desc)}<br>
+ <a href="https://uk.swiftbicycles.com/collections/road/products/univox-comp"
+    target="_blank">reference photos ↗</a> —
+ compare wheels (DT Swiss E1800), 105 hydraulic levers, frame shape — not just colour
+ {f'<br><b>Crime ref:</b> {H.escape(crime_ref)} (Met Police) — quote this if the bike is found; do not approach the seller, call 101/999' if crime_ref else ''}</div>
+ <label><input type="checkbox" id="hr" checked> hide reviewed</label>
+ <label><input type="checkbox" id="ob"> only blue-ish photos</label>
+</header>
+<p>{len(alerts)} alerts · {len(digest)} digest shown (cap {MAX_DIGEST_ROWS})
+ · last sweep {datetime.now().isoformat(timespec='minutes')}
+ · tick a row once you've ruled it out</p>
+<table id="t">{''.join(rows)}</table>
+<script>
+ const K='bikewatch-reviewed', seen=new Set(JSON.parse(localStorage.getItem(K)||'[]'));
+ const tbl=document.getElementById('t');
+ for(const tr of tbl.rows){{
+   const id=tr.dataset.id, cb=tr.querySelector('.rv input');
+   if(seen.has(id)){{tr.classList.add('reviewed');cb.checked=true;}}
+   cb.addEventListener('change',()=>{{
+     cb.checked?seen.add(id):seen.delete(id);
+     tr.classList.toggle('reviewed',cb.checked);
+     localStorage.setItem(K,JSON.stringify([...seen]));}});
+ }}
+ const hr=document.getElementById('hr'), ob=document.getElementById('ob');
+ const sync=()=>{{document.body.classList.toggle('hidden-reviewed',hr.checked);
+   document.body.classList.toggle('only-blue',ob.checked);}};
+ hr.addEventListener('change',sync); ob.addEventListener('change',sync); sync();
+</script>
+</body>""", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- main
+
+def acquire_lock():
+    import fcntl
+    fh = open(BASE / ".lock", "w")
+    try:
+        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        log("another sweep is still running; exiting")
+        sys.exit(0)
+    return fh
+
+
+def load_state():
+    if STATE_PATH.exists():
+        try:
+            return json.loads(STATE_PATH.read_text())
+        except json.JSONDecodeError:
+            STATE_PATH.replace(STATE_PATH.with_suffix(".json.corrupt"))
+            log("state.json corrupt — starting fresh, notifications suppressed this run")
+    return {"findings": {}}
+
+
+def save_state(state):
+    tmp = STATE_PATH.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(state, indent=1))
+    os.replace(tmp, STATE_PATH)
+
+
+HOT_TERMS_RE = re.compile(r"carbon|105|hydraulic|ultegra|di2", re.I)
+
+
+def is_hot(item):
+    """Quality road bike, suspiciously cheap, near the theft location."""
+    return (item["source"] == "Gumtree"
+            and item["price"] is not None and 300 <= item["price"] <= 1500
+            and NEAR_THEFT_RE.search(item.get("location", "")) is not None
+            and HOT_TERMS_RE.search(item["title"] + " " + item["description"])
+            is not None)
+
+
+FAIL_STREAK_WARN = 6  # ≈2 h of consecutive empty/failed sweeps for a source
+
+
+def update_health(state, cfg, results_by_source):
+    """Track per-source result counts; push a warning when a source that used
+    to produce results goes dark, and a quiet daily heartbeat so silence is
+    never ambiguous."""
+    health = state.setdefault("health", {})
+    topic = cfg["notify"].get("ntfy_topic")
+    gt_backoff = GT_BACKOFF_PATH.exists() and __import__("time").time() < \
+        json.loads(GT_BACKOFF_PATH.read_text())["until"]
+    for key, res in results_by_source.items():
+        hs = health.setdefault(key, {"fail_streak": 0, "warned": False,
+                                     "ever_ok": False})
+        skipped = key == "gumtree" and gt_backoff
+        if res:
+            hs.update(fail_streak=0, warned=False, ever_ok=True)
+        elif not skipped and (res is None or hs["ever_ok"]):
+            hs["fail_streak"] += 1
+        if hs["fail_streak"] >= FAIL_STREAK_WARN and not hs["warned"]:
+            hs["warned"] = True
+            msg = (f"{key} has returned nothing for {hs['fail_streak']} sweeps "
+                   "— it may be blocked or its page layout changed. "
+                   "Run a manual sweep and check bikewatch.log.")
+            log("HEALTH WARNING: " + msg)
+            notify_macos("⚠️ BikeWatch health", msg, "")
+            if topic:
+                notify_ntfy(topic, "⚠️ BikeWatch health", msg)
+    now = datetime.now()
+    cutoff = (now - __import__("datetime").timedelta(hours=24)).isoformat()
+    sweeps = [t for t in health.get("sweeps", []) if t > cutoff]
+    sweeps.append(now.isoformat(timespec="seconds"))
+    health["sweeps"] = sweeps
+    today = now.strftime("%Y-%m-%d")
+    if health.get("last_heartbeat") != today and now.hour >= 9:
+        health["last_heartbeat"] = today
+        per_src = ", ".join(
+            f"{k}: {'ERR' if v is None else len(v)}"
+            for k, v in results_by_source.items())
+        alerts = sum(1 for f in state["findings"].values()
+                     if f["level"] == "alert")
+        msg = (f"Alive — {len(sweeps)} sweeps in 24h. Last sweep: {per_src}. "
+               f"{alerts} alerts, {len(state['findings'])} listings tracked.")
+        log("heartbeat: " + msg)
+        if topic:
+            notify_ntfy(topic, "BikeWatch daily check-in", msg, priority="low")
+
+
+def main():
+    lock = acquire_lock()  # noqa: F841 — held for process lifetime
+    cfg = json.loads(CONFIG_PATH.read_text())
+    # the repo is public, so the ntfy topic (= the notification password)
+    # lives outside config.json: Actions secret in CI, env var locally
+    env_topic = os.environ.get("BIKEWATCH_NTFY_TOPIC")
+    if env_topic:
+        cfg["notify"]["ntfy_topic"] = env_topic
+    state = load_state()
+    findings = state["findings"]
+    baseline_run = not findings
+
+    if "--test-notify" in sys.argv:
+        notify_macos("BikeWatch test", "Notifications are working.", "")
+        if cfg["notify"].get("ntfy_topic"):
+            notify_ntfy(cfg["notify"]["ntfy_topic"], "BikeWatch test",
+                        "Phone notifications are working. Tap to see the bike.",
+                        "https://uk.swiftbicycles.com/collections/road/products/univox-comp")
+        print("test notification sent")
+        return
+
+    sources = [
+        ("gumtree", search_gumtree),
+        ("ebay", search_ebay),
+        ("kleinanzeigen", search_kleinanzeigen),
+        ("marktplaats", search_marktplaats),
+    ]
+    results_by_source = {}
+    for key, fn in sources:
+        if cfg.get(key, {}).get("enabled"):
+            try:
+                results_by_source[key] = fn(cfg[key])
+            except Exception as e:
+                log(f"{key} sweep crashed: {e}")
+                results_by_source[key] = None  # None = hard failure
+    results = [item for res in results_by_source.values() if res
+               for item in res]
+
+    key_by_source = {"Gumtree": "gumtree", "eBay": "ebay",
+                     "Kleinanzeigen (DE)": "kleinanzeigen",
+                     "Marktplaats (NL)": "marktplaats"}
+    fingerprints = {(f["title"].lower().strip(), f["price_text"])
+                    for f in findings.values()}
+    new_alerts, new_digest = [], []
+    for item in results:
+        if item["id"] in findings:
+            continue
+        fp = (item["title"].lower().strip(), item["price_text"])
+        if fp in fingerprints:
+            continue  # same ad relisted under a new ID
+        fingerprints.add(fp)
+        src_cfg = cfg.get(key_by_source.get(item["source"], ""), {})
+        level = classify(item, src_cfg.get("alert_terms", cfg["alert_terms"]),
+                         src_cfg.get("broad_price_min", 0),
+                         src_cfg.get("broad_price_max", 10**9),
+                         cfg.get("fuzzy_alert_terms", ()))
+        if level is None:
+            continue
+        if level == "digest" and is_hot(item):
+            level = "alert"
+            item["hot"] = True
+        item["level"] = level
+        item["first_seen"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        findings[item["id"]] = item
+        (new_alerts if level == "alert" else new_digest).append(item)
+
+    scored = 0
+    for item in new_alerts + new_digest:
+        if item.get("image") and scored < MAX_IMAGE_SCORES_PER_SWEEP:
+            item["blue_score"] = blue_score(item["image"])
+            scored += 1
+
+    notify = {} if baseline_run else cfg["notify"]
+    if baseline_run and (new_alerts or new_digest):
+        log(f"baseline run: {len(new_alerts) + len(new_digest)} listings "
+            "recorded quietly, notifications suppressed")
+    MAX_INDIVIDUAL = 3
+    for item in new_alerts[:MAX_INDIVIDUAL]:
+        msg = f"{item['title']} — {item['price_text']} ({item['location']})"
+        if notify.get("macos"):
+            notify_macos("🚨 BikeWatch: possible match!", msg, item["url"])
+        if notify.get("ntfy_topic"):
+            notify_ntfy(notify["ntfy_topic"], "🚨 BikeWatch: possible match!",
+                        f"{msg}\non {item['source']}", item["url"])
+        if notify.get("telegram_bot_token") and notify.get("telegram_chat_id"):
+            notify_telegram(notify["telegram_bot_token"], notify["telegram_chat_id"],
+                            f"🚨 Possible match on {item['source']}:\n{msg}\n{item['url']}")
+    overflow = len(new_alerts) - MAX_INDIVIDUAL
+    if overflow > 0:
+        if notify.get("macos"):
+            notify_macos("🚨 BikeWatch",
+                         f"...and {overflow} more possible matches — open the report.",
+                         REPORT_PATH.as_uri())
+        if notify.get("ntfy_topic"):
+            notify_ntfy(notify["ntfy_topic"], "🚨 BikeWatch",
+                        f"...and {overflow} more possible matches — open the report.")
+    if new_digest:
+        if notify.get("macos"):
+            notify_macos("BikeWatch",
+                         f"{len(new_digest)} new listing(s) worth a look in the report.",
+                         REPORT_PATH.as_uri())
+        if notify.get("ntfy_topic"):
+            notify_ntfy(notify["ntfy_topic"], "BikeWatch",
+                        f"{len(new_digest)} new listing(s) worth a look in the report.",
+                        priority="low")
+
+    update_health(state, cfg, results_by_source)
+    write_report(findings, cfg["bike"]["description"],
+                 cfg["bike"].get("crime_reference", ""))
+    save_state(state)
+    log(f"sweep done: {len(results)} fetched, "
+        f"{len(new_alerts)} alerts, {len(new_digest)} new digest items, "
+        f"{len(findings)} total tracked")
+
+
+if __name__ == "__main__":
+    main()
