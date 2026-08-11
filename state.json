@@ -959,11 +959,26 @@
    "level": "digest",
    "first_seen": "2026-08-11T14:37:31+00:00",
    "blue_score": 0.111
+  },
+  "gumtree:1801439895": {
+   "id": "gumtree:1801439895",
+   "source": "Gumtree",
+   "query": "carbon road bike 105 disc",
+   "url": "https://www.gumtree.com/p/road-bikes/vitus-zenium-sl-disk-2017-road-bike-60cm-xl-shimano-105-carbon-fork-hydraulic-disc-brakes/1801439895",
+   "title": "Vitus Zenium SL Disk 2017 Road Bike - 60cm (XL), shimano 105, carbon fork, hydraulic disc brakes",
+   "description": "",
+   "location": "Oxford, Oxfordshire",
+   "price_text": "\u00a3400",
+   "price": 400.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/e138c0591a2f4c2a86_535627c5e247/86",
+   "level": "digest",
+   "first_seen": "2026-08-11T19:50:48+00:00",
+   "blue_score": 0.001
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 1,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
@@ -1029,9 +1044,10 @@
    "2026-08-11T16:50:52",
    "2026-08-11T17:41:23",
    "2026-08-11T18:45:39",
-   "2026-08-11T19:40:33"
+   "2026-08-11T19:40:33",
+   "2026-08-11T20:50:49"
   ],
   "last_heartbeat": "2026-08-11",
-  "last_status": "2026-08-11T19"
+  "last_status": "2026-08-11T20"
  }
 }
