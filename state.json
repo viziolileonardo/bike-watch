@@ -974,6 +974,21 @@
    "level": "digest",
    "first_seen": "2026-08-11T19:50:48+00:00",
    "blue_score": 0.001
+  },
+  "marktplaats:m2430058379": {
+   "id": "marktplaats:m2430058379",
+   "source": "Marktplaats (NL)",
+   "query": "dt swiss e1800",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2430058379-bmc-teammachine-slr-2-maat-58-2023-nieuw",
+   "title": "Bmc Teammachine slr 2 maat 58 2023 nieuw!",
+   "description": "Te koop: nieuwe bmc teammachine slr 2 in maat 58 van 2023. Afgemonteerd met een shimano 105 r7170 di2 12s groepset met een 52-36 172,5 mm cranckstel en een 11-34 cassette. Wielen: dt swiss e1800 splin",
+   "location": "Staphorst",
+   "price_text": "\u20ac2900",
+   "price": 2900.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/205da389-983d-4291-ae07-fa68df32fa25?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-12T06:03:58+00:00",
+   "blue_score": 0.042
   }
  },
  "health": {
@@ -993,10 +1008,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-11T05:50:20",
-   "2026-08-11T06:10:22",
-   "2026-08-11T06:31:10",
-   "2026-08-11T06:51:15",
    "2026-08-11T07:11:20",
    "2026-08-11T07:32:08",
    "2026-08-11T07:52:14",
@@ -1036,10 +1047,11 @@
    "2026-08-12T00:19:58",
    "2026-08-12T01:08:34",
    "2026-08-12T03:42:16",
-   "2026-08-12T05:30:36"
+   "2026-08-12T05:30:36",
+   "2026-08-12T07:03:58"
   ],
   "last_heartbeat": "2026-08-11",
-  "last_status": "2026-08-12T05",
+  "last_status": "2026-08-12T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
