@@ -72,6 +72,19 @@ def http_get(url, headers=None, data=None, jar=False):
     return proc.stdout.decode("utf-8", errors="replace")
 
 
+def before_theft(iso_str, stolen_iso):
+    """True if iso_str parses and is earlier than the theft moment — a
+    listing created before the theft cannot be the stolen bike. Sources
+    with reliable creation dates (eBay API, Shopify feeds) use this to
+    drop pre-theft listings outright; scraper sources have no dates."""
+    from datetime import datetime
+    try:
+        return (datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+                < datetime.fromisoformat(stolen_iso.replace("Z", "+00:00")))
+    except (ValueError, AttributeError, TypeError):
+        return False
+
+
 def parse_price(text):
     m = re.search(r"[\d,]+(?:\.\d+)?", text or "")
     return float(m.group(0).replace(",", "")) if m else None
@@ -277,6 +290,9 @@ def search_shopify(cfg):
             log(f"shopify fetch failed for {shop['name']!r}: {e}")
             continue
         for p in data.get("products", []):
+            if cfg.get("stolen_iso") and before_theft(
+                    p.get("published_at", ""), cfg["stolen_iso"]):
+                continue  # in stock before the theft — cannot be the bike
             variants = p.get("variants") or []
             price = parse_price(str(variants[0].get("price", ""))) if variants else None
             images = p.get("images") or []
@@ -341,6 +357,9 @@ def search_ebay(cfg):
             log(f"ebay search failed for {query!r}: {e}")
             continue
         for item in data.get("itemSummaries", []):
+            if cfg.get("stolen_iso") and before_theft(
+                    item.get("itemCreationDate", ""), cfg["stolen_iso"]):
+                continue  # listed before the theft — cannot be the bike
             price = item.get("price", {})
             loc = item.get("itemLocation", {})
             results.append({
@@ -744,6 +763,9 @@ def main():
             ebay_cfg[key] = os.environ[env]
     if ebay_cfg.get("app_id") and ebay_cfg.get("cert_id"):
         ebay_cfg["enabled"] = True
+    # dated sources drop listings that predate the theft
+    for key in ("ebay", "shopify"):
+        cfg.setdefault(key, {})["stolen_iso"] = cfg["bike"].get("stolen_iso", "")
     state = load_state()
     findings = state["findings"]
     baseline_run = not findings

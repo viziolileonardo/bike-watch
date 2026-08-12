@@ -1001,7 +1001,7 @@
    "price_text": "\u00a31250.00",
    "price": 1250.0,
    "image": "https://i.ebayimg.com/images/g/N~0AAeSwbvBqSPXB/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.076
   },
@@ -1016,7 +1016,7 @@
    "price_text": "\u00a31128.70",
    "price": 1128.7,
    "image": "https://i.ebayimg.com/images/g/XD8AAeSwQMdqD19y/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.002
   },
@@ -1031,7 +1031,7 @@
    "price_text": "\u00a3516.70",
    "price": 516.7,
    "image": "https://i.ebayimg.com/images/g/yjUAAOSw8K5neD0o/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.005
   },
@@ -1046,7 +1046,7 @@
    "price_text": "\u00a32657.68",
    "price": 2657.68,
    "image": "https://i.ebayimg.com/images/g/V6EAAOSw5PFmWOb7/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.159
   },
@@ -1256,7 +1256,7 @@
    "price_text": "\u00a3109.99",
    "price": 109.99,
    "image": "https://i.ebayimg.com/images/g/ug8AAeSw~oJqX2mF/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.0
   },
@@ -1436,7 +1436,7 @@
    "price_text": "\u00a3260.70",
    "price": 260.7,
    "image": "https://i.ebayimg.com/images/g/GTAAAeSwtMZpi2Dj/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.0
   },
@@ -1451,7 +1451,7 @@
    "price_text": "\u00a37.05",
    "price": 7.05,
    "image": "https://i.ebayimg.com/images/g/xO8AAeSw~JppRmmR/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.0
   },
@@ -1466,7 +1466,7 @@
    "price_text": "\u00a37.05",
    "price": 7.05,
    "image": "https://i.ebayimg.com/images/g/xO8AAeSw~JppRmmR/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.0
   },
@@ -1496,7 +1496,7 @@
    "price_text": "\u00a3104.70",
    "price": 104.7,
    "image": "https://i.ebayimg.com/images/g/QmsAAeSwjxBpAzwy/s-l225.jpg",
-   "level": "alert",
+   "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.0
   }
