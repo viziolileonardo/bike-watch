@@ -1503,7 +1503,7 @@
  },
  "health": {
   "gumtree": {
-   "fail_streak": 1,
+   "fail_streak": 2,
    "warned": false,
    "ever_ok": true
   },
@@ -1518,8 +1518,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-11T12:04:24",
-   "2026-08-11T12:24:27",
    "2026-08-11T12:44:30",
    "2026-08-11T13:05:16",
    "2026-08-11T13:25:18",
@@ -1549,17 +1547,18 @@
    "2026-08-12T09:55:41",
    "2026-08-12T10:50:38",
    "2026-08-12T11:42:34",
-   "2026-08-12T11:45:40"
+   "2026-08-12T11:45:40",
+   "2026-08-12T12:35:13"
   ],
   "last_heartbeat": "2026-08-12",
-  "last_status": "2026-08-12T11",
+  "last_status": "2026-08-12T12",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
   "ebay": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   }
