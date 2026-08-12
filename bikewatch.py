@@ -72,6 +72,9 @@ def http_get(url, headers=None, data=None, jar=False):
     return proc.stdout.decode("utf-8", errors="replace")
 
 
+PRETHEFT_DROPPED = {}  # source key -> items dropped by the pre-theft filter this run
+
+
 def before_theft(iso_str, stolen_iso):
     """True if iso_str parses and is earlier than the theft moment — a
     listing created before the theft cannot be the stolen bike. Sources
@@ -292,6 +295,7 @@ def search_shopify(cfg):
         for p in data.get("products", []):
             if cfg.get("stolen_iso") and before_theft(
                     p.get("published_at", ""), cfg["stolen_iso"]):
+                PRETHEFT_DROPPED["shopify"] = PRETHEFT_DROPPED.get("shopify", 0) + 1
                 continue  # in stock before the theft — cannot be the bike
             variants = p.get("variants") or []
             price = parse_price(str(variants[0].get("price", ""))) if variants else None
@@ -359,6 +363,7 @@ def search_ebay(cfg):
         for item in data.get("itemSummaries", []):
             if cfg.get("stolen_iso") and before_theft(
                     item.get("itemCreationDate", ""), cfg["stolen_iso"]):
+                PRETHEFT_DROPPED["ebay"] = PRETHEFT_DROPPED.get("ebay", 0) + 1
                 continue  # listed before the theft — cannot be the bike
             price = item.get("price", {})
             loc = item.get("itemLocation", {})
@@ -678,7 +683,9 @@ def update_health(state, cfg, results_by_source):
     for key, res in results_by_source.items():
         hs = health.setdefault(key, {"fail_streak": 0, "warned": False,
                                      "ever_ok": False})
-        if res:
+        if res or PRETHEFT_DROPPED.get(key):
+            # producing results — or fetching fine with everything it found
+            # legitimately dropped as pre-theft — is a healthy source
             hs.update(fail_streak=0, warned=False, ever_ok=True)
             continue
         hs["fail_streak"] += 1
@@ -734,10 +741,14 @@ def send_status(state, notify_cfg, alert_terms, results_by_source,
     import time
     gt_backoff = GT_BACKOFF_PATH.exists() and time.time() < \
         json.loads(GT_BACKOFF_PATH.read_text())["until"]
-    per_src = ", ".join(
-        "gumtree backoff" if k == "gumtree" and gt_backoff
-        else f"{k} {'ERR' if v is None else len(v)}"
-        for k, v in results_by_source.items())
+    def fmt(k, v):
+        if k == "gumtree" and gt_backoff:
+            return "gumtree backoff"
+        label = f"{k} {'ERR' if v is None else len(v)}"
+        if PRETHEFT_DROPPED.get(k):
+            label += f" ({PRETHEFT_DROPPED[k]} pre-theft dropped)"
+        return label
+    per_src = ", ".join(fmt(k, v) for k, v in results_by_source.items())
     msg = (f"Checked {per_src} listings. New this sweep: {n_alerts} "
            f"alert-term hits ({'/'.join(alert_terms)}), {n_digest} broad "
            f"matches (report only, no push). {len(state['findings'])} tracked "

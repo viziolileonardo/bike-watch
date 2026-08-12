@@ -8,3 +8,4 @@ launchd.log
 *.json.corrupt
 # police/CCTV correspondence — keep off GitHub
 recovery/
+fb-seen.json
