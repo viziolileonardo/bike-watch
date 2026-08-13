@@ -1514,11 +1514,26 @@
    "level": "digest",
    "first_seen": "2026-08-12T17:11:10+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|287522968412|0": {
+   "id": "ebay:v1|287522968412|0",
+   "source": "eBay",
+   "query": "carbon road bike shimano 105 disc blue",
+   "url": "https://www.ebay.co.uk/itm/287522968412?_skw=carbon+road+bike+shimano+105+disc+blue&hash=item42f1b4535c:g:FvkAAeSwIDhqfe5g",
+   "title": "Trek \u00c9monda SL 5 Disc Carbon Road Bike \u2013 Size 47 \u2013 Shimano 105",
+   "description": "",
+   "location": "RG2***",
+   "price_text": "\u00a31026.70",
+   "price": 1026.7,
+   "image": "https://i.ebayimg.com/images/g/FvkAAeSwIDhqfe5g/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-13T17:11:29+00:00",
+   "blue_score": 0.024
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 1,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
@@ -1533,7 +1548,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-12T18:11:11",
    "2026-08-12T18:55:24",
    "2026-08-12T19:02:48",
    "2026-08-12T19:05:21",
@@ -1554,10 +1568,11 @@
    "2026-08-13T13:27:49",
    "2026-08-13T15:00:26",
    "2026-08-13T16:13:49",
-   "2026-08-13T17:08:39"
+   "2026-08-13T17:08:39",
+   "2026-08-13T18:11:29"
   ],
   "last_heartbeat": "2026-08-13",
-  "last_status": "2026-08-13T17",
+  "last_status": "2026-08-13T18",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
