@@ -1533,7 +1533,7 @@
  },
  "health": {
   "gumtree": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   },
@@ -1567,10 +1567,11 @@
    "2026-08-13T17:08:39",
    "2026-08-13T18:11:29",
    "2026-08-13T19:05:54",
-   "2026-08-13T20:19:09"
+   "2026-08-13T20:19:09",
+   "2026-08-13T21:05:23"
   ],
   "last_heartbeat": "2026-08-13",
-  "last_status": "2026-08-13T20",
+  "last_status": "2026-08-13T21",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
