@@ -515,7 +515,9 @@ def notify_github_issue(alerts, report_url):
         return
     owner = repo.split("/")[0]
     lines = [f"- [{a['title']} — {a['price_text']} ({a['location']}, "
-             f"{a['source']})]({a['url']})" for a in alerts]
+             f"{a['source']})]({a['url']})"
+             + (f" · [archived copy]({a['wayback']})" if a.get("wayback") else "")
+             for a in alerts]
     body = (f"@{owner} possible match(es) — do not contact the seller, "
             "screenshot first, then 101/999:\n\n" + "\n".join(lines)
             + (f"\n\n[Full report]({report_url})" if report_url else ""))
@@ -531,6 +533,26 @@ def notify_github_issue(alerts, report_url):
                  data=payload)
     except Exception as e:
         log(f"github issue notify failed: {e}")
+
+
+def preserve_evidence(item):
+    """Suspect listings vanish fast — sellers delete them within hours. At
+    detection time: snapshot the listing into the Wayback Machine (off-site,
+    timestamped, citable to police) and pull its photo into the repo, so a
+    deleted ad stays reviewable. Best-effort; never blocks the alert path."""
+    evdir = REPORT_PATH.parent / "evidence"
+    evdir.mkdir(parents=True, exist_ok=True)
+    sid = re.sub(r"[^\w.-]", "_", item["id"])
+    if item.get("image"):
+        subprocess.run(["curl", "-sS", "--max-time", "20", "-A", UA, "-o",
+                        str(evdir / f"{sid}.jpg"), item["image"]],
+                       capture_output=True, timeout=30)
+        item["evidence_photo"] = f"evidence/{sid}.jpg"
+    try:
+        http_get("https://web.archive.org/save/" + item["url"])
+        item["wayback"] = "https://web.archive.org/web/2/" + item["url"]
+    except Exception as e:
+        log(f"wayback save failed for {item['id']}: {e}")
 
 
 NEAR_THEFT_RE = re.compile(
@@ -570,7 +592,7 @@ def write_report(findings, bike_desc, crime_ref=""):
             · query: <i>{H.escape(f['query'])}</i> · first seen {f['first_seen'][:16]}</small>
           </td>
           <td class="price"><b>{H.escape(f['price_text'])}</b></td>
-          <td><a href="{H.escape(f['url'], quote=True)}" target="_blank">open ↗</a></td>
+          <td><a href="{H.escape(f['url'], quote=True)}" target="_blank">open ↗</a>{f"<br><a href='{H.escape(f['wayback'], quote=True)}' target='_blank'><small>archived ↗</small></a>" if f.get('wayback') else ''}</td>
         </tr>""")
     REPORT_PATH.parent.mkdir(exist_ok=True)
     REPORT_PATH.write_text(f"""<!doctype html><meta charset="utf-8">
@@ -861,6 +883,8 @@ def main():
         if notify.get("telegram_bot_token") and notify.get("telegram_chat_id"):
             notify_telegram(notify["telegram_bot_token"], notify["telegram_chat_id"],
                             f"🚨 Possible match on {item['source']}:\n{msg}\n{item['url']}")
+    for item in new_alerts:
+        preserve_evidence(item)
     report_url = cfg["notify"].get("report_url", "")
     if new_alerts and notify:
         notify_github_issue(new_alerts, report_url)

@@ -52,6 +52,10 @@ Detection details (pressure-tested):
   (£200–£3,000) every cycle regardless of keywords, so brand-stripped
   titles ("racing bicycle barely used") still enter the digest.
 - Relistings (same title + price under a new listing ID) are suppressed.
+- **Evidence preservation**: the moment a listing alerts, its page is
+  snapshotted into the Wayback Machine and its photo committed to
+  `reports/evidence/` — suspect ads often vanish within hours, and a
+  deleted ad stays reviewable and citable to police this way.
 - Rows near the theft area (Shoreditch/Hackney/E1/E2/E8/E9…) are flagged
   **NEAR THEFT** in the report. Tick rows to mark them reviewed (persists
   in your browser); alerts are pinned to the top.

@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "bikewatch"
           git config user.email "bikewatch@users.noreply.github.com"
-          git add state.json reports/findings.html
+          git add state.json reports
           git add gumtree_backoff.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "sweep: $(date '+%Y-%m-%d %H:%M')"
