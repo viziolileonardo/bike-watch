@@ -2988,11 +2988,56 @@
    "level": "digest",
    "first_seen": "2026-08-14T23:34:26+00:00",
    "blue_score": 0.008
+  },
+  "kleinanzeigen:3484814204": {
+   "id": "kleinanzeigen:3484814204",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-stumpjumper-evo-comp-carbon-2022-s4-l/3484814204-217-2556",
+   "title": "Specialized Stumpjumper EVO Comp Carbon 2022 S4/L",
+   "description": "Specialized Stumpjumper EVO Comp Carbon 2022 S4 (L)\nGabel: Rockshox Lyrik Ultimate 160mm\nD\u00e4mpfer:...",
+   "location": "49134 Wallenhorst",
+   "price_text": "1.900 \u20ac",
+   "price": 1900.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/83a5c427-1d3a-4765-83a3-fd11a4cf9504?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:52:31+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3484813364": {
+   "id": "kleinanzeigen:3484813364",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/steppenwolf-tao-race-28-er-mountainbike-rennrad-mtb-cc-fitness/3484813364-217-1285",
+   "title": "Steppenwolf Tao Race 28 er Mountainbike Rennrad MTB CC Fitness",
+   "description": "Biete Steppenwolf Tao Race 28 er Racebike / MTB\nauf\nMavic T221 Felgen\nmit Shimano STX RC...",
+   "location": "46049 Oberhausen",
+   "price_text": "329 \u20ac",
+   "price": 329.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/96caab18-b31d-4ced-bf5c-3640b8b00da3?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:52:31+00:00",
+   "blue_score": 0.118
+  },
+  "kleinanzeigen:3484813279": {
+   "id": "kleinanzeigen:3484813279",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/endurace-cf-sl-8-di2-ultegra-neuwertig-2023-rennrad-gravelbike/3484813279-217-23711",
+   "title": "Endurace CF SL 8 Di2 Ultegra Neuwertig 2023 Rennrad/Gravelbike",
+   "description": "Mit schwerem Herzen gebe ich mein beliebtes Rennrad ab.\nNeupreis war 4000 Euro.\nDas Ding kann so...",
+   "location": "53111 Nordstadt",
+   "price_text": "2.499 \u20ac VB",
+   "price": 2499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/1988a575-0d22-4794-b8e0-7a5c89ce8ad2?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:52:31+00:00",
+   "blue_score": 0.001
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 2,
+   "fail_streak": 3,
    "warned": false,
    "ever_ok": true
   },
@@ -3035,7 +3080,8 @@
    "2026-08-14T23:39:42",
    "2026-08-15T00:07:02",
    "2026-08-15T00:15:12",
-   "2026-08-15T00:34:28"
+   "2026-08-15T00:34:28",
+   "2026-08-15T00:52:33"
   ],
   "last_heartbeat": "2026-08-14",
   "last_status": "2026-08-15T00",
