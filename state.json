@@ -1529,6 +1529,23 @@
    "level": "digest",
    "first_seen": "2026-08-13T17:11:29+00:00",
    "blue_score": 0.024
+  },
+  "shopify:MyNextBike:15047162790264": {
+   "id": "shopify:MyNextBike:15047162790264",
+   "source": "MyNextBike",
+   "query": "(new stock)",
+   "url": "https://www.mynextbike.co.uk/products/genesis-volare-disc-853-fs-2018",
+   "title": "Genesis Volare Disc 853 FS 2018",
+   "description": "Used Genesis Volare 853 frameset in a complete build.\nFull Shimano 105 12 speed Di2 groupset\nDt Swiss E1800 wheel set with 370 hubs\nFull Pro carbon finishing kit\nVitoria Rubino tyres.\nShe is a beautiful bike and only done maybe 20 miles since being built.\nIt's a reluctant sale but unfortunately due to personal reasons she has to go.\nIn my mind she is the perfect spec for a bike like this, supremely comfortable and well rolling in like new condition",
+   "location": "UK",
+   "price_text": "\u00a31570",
+   "price": 1570.0,
+   "image": "https://cdn.shopify.com/s/files/1/0684/9776/8734/files/media_additional_e2b8gava.webp?v=1786624093",
+   "level": "alert",
+   "first_seen": "2026-08-14T05:17:14+00:00",
+   "blue_score": 0.028,
+   "evidence_photo": "evidence/shopify_MyNextBike_15047162790264.jpg",
+   "wayback": "https://web.archive.org/web/2/https://www.mynextbike.co.uk/products/genesis-volare-disc-853-fs-2018"
   }
  },
  "health": {
@@ -1548,7 +1565,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-13T04:33:19",
    "2026-08-13T06:19:51",
    "2026-08-13T07:59:27",
    "2026-08-13T09:43:18",
@@ -1568,10 +1584,11 @@
    "2026-08-14T00:00:28",
    "2026-08-14T00:56:10",
    "2026-08-14T01:58:56",
-   "2026-08-14T04:30:06"
+   "2026-08-14T04:30:06",
+   "2026-08-14T06:17:40"
   ],
   "last_heartbeat": "2026-08-13",
-  "last_status": "2026-08-14T04",
+  "last_status": "2026-08-14T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
