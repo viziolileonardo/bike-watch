@@ -149,6 +149,11 @@ def search_gumtree(cfg):
                                 "sort": "date",
                                 "page": pageno,
                             })))
+    # rotate the fetch order each sweep: bot challenges often cut a run short
+    # after a fetch or two, and a fixed order would starve the same tail
+    # queries (national rare terms, catch-all) every time
+    off = int(time.time() // 1200) % len(fetches)
+    fetches = fetches[off:] + fetches[:off]
     results = []
     for i, (query, url) in enumerate(fetches):
         if i:
@@ -199,9 +204,21 @@ def euro_price(text):
 
 def search_kleinanzeigen(cfg):
     results = []
+    fetches = []
     for query in cfg["queries"]:
         slug = re.sub(r"\s+", "-", query.strip().lower())
-        url = f"https://www.kleinanzeigen.de/s-fahrraeder/{urllib.parse.quote(slug)}/k0c217"
+        fetches.append((query, "https://www.kleinanzeigen.de/s-fahrraeder/"
+                        f"{urllib.parse.quote(slug)}/k0c217"))
+    if cfg.get("catch_all"):
+        # no-keyword sweep of the newest bike listings in the price band
+        # (newest-first is the site default; the road-bike attribute filter
+        # is served an empty page over curl, so this sees every bike type —
+        # the roadish digest gate in main() keeps the noise out)
+        fetches.append(("(catch-all newest)",
+                        "https://www.kleinanzeigen.de/s-fahrraeder/"
+                        f"preis:{cfg.get('broad_price_min', 200)}:"
+                        f"{cfg.get('broad_price_max', 3200)}/c217"))
+    for query, url in fetches:
         try:
             page = http_get(url)
         except OSError as e:
@@ -235,9 +252,17 @@ def search_kleinanzeigen(cfg):
 
 def search_marktplaats(cfg):
     results = []
+    fetches = []
     for query in cfg["queries"]:
-        url = ("https://www.marktplaats.nl/l/fietsen-en-brommers/q/"
-               + urllib.parse.quote(query.strip().replace(" ", "+")) + "/")
+        fetches.append((query, "https://www.marktplaats.nl/l/fietsen-en-brommers/q/"
+                        + urllib.parse.quote(query.strip().replace(" ", "+")) + "/"))
+    if cfg.get("catch_all"):
+        # no-keyword sweep of the road-bike category (newest land on page 1;
+        # the embedded listings JSON parses identically to query pages)
+        fetches.append(("(catch-all newest)",
+                        "https://www.marktplaats.nl/l/fietsen-en-brommers/"
+                        "fietsen-racefietsen/"))
+    for query, url in fetches:
         try:
             page = http_get(url)
         except OSError as e:
@@ -342,12 +367,20 @@ def search_ebay(cfg):
     except Exception as e:
         log(f"ebay auth failed (check app_id/cert_id in config.json): {e}")
         return results
-    scoped = [(q, True) for q in cfg["queries"]] + \
-             [(q, False) for q in cfg.get("global_queries", [])]
-    for query, restrict_country in scoped:
+    scoped = [(q, True, False) for q in cfg["queries"]] + \
+             [(q, False, False) for q in cfg.get("global_queries", [])] + \
+             [(q, True, True) for q in cfg.get("broad_queries", [])]
+    for query, restrict_country, price_band in scoped:
         params = {"q": query, "limit": "50", "sort": "newlyListed"}
+        filters = []
         if restrict_country:
-            params["filter"] = f"itemLocationCountry:{cfg.get('located_in', 'GB')}"
+            filters.append(f"itemLocationCountry:{cfg.get('located_in', 'GB')}")
+        if price_band:
+            # broad queries ("road bike") sweep everything new in the band
+            filters.append(f"price:[{cfg.get('broad_price_min', 200)}.."
+                           f"{cfg.get('broad_price_max', 3000)}],priceCurrency:GBP")
+        if filters:
+            params["filter"] = ",".join(filters)
         params = urllib.parse.urlencode(params)
         try:
             data = json.loads(http_get(
@@ -676,6 +709,12 @@ def save_state(state):
 
 
 HOT_TERMS_RE = re.compile(r"carbon|105|hydraulic|ultegra|di2", re.I)
+# catch-all sweeps see every bike type; only listings that could plausibly
+# be (or contain parts of) a road bike are worth a digest row (EN/DE/NL terms)
+ROADISH_RE = re.compile(
+    r"road|racing|race ?-?\s?(bike|fiets)|rennrad|racefiets|carbon|gravel|"
+    r"cyclo|aero|fixie|single ?speed|105|tiagra|ultegra|dura.?ace|di2|e ?1800",
+    re.I)
 
 
 def is_hot(item):
@@ -705,7 +744,11 @@ def update_health(state, cfg, results_by_source):
     for key, res in results_by_source.items():
         hs = health.setdefault(key, {"fail_streak": 0, "warned": False,
                                      "ever_ok": False})
-        if res or PRETHEFT_DROPPED.get(key):
+        # a run cut short by a bot challenge returns partial results — that
+        # must not look healthy, or a persistent challenge loop that always
+        # lets the first fetch through would never trip the streak
+        challenged = key == "gumtree" and gt_backoff
+        if (res or PRETHEFT_DROPPED.get(key)) and not challenged:
             # producing results — or fetching fine with everything it found
             # legitimately dropped as pre-theft — is a healthy source
             hs.update(fail_streak=0, warned=False, ever_ok=True)
@@ -720,8 +763,8 @@ def update_health(state, cfg, results_by_source):
                      else "it has NEVER returned results — check its queries "
                           "and parser" if not hs["ever_ok"]
                      else "it may be blocked or its page layout changed")
-            msg = (f"{key} has contributed 0 results for {hs['fail_streak']} "
-                   f"sweeps — {cause}. Coverage gap: check bikewatch.log / "
+            msg = (f"{key}: {hs['fail_streak']} sweeps without full coverage "
+                   f"— {cause}. Coverage gap: check bikewatch.log / "
                    "the Actions run logs.")
             log("HEALTH WARNING: " + msg)
             notify_macos("⚠️ BikeWatch health", msg, "")
@@ -854,6 +897,9 @@ def main():
             continue
         if level == "digest" and src_cfg.get("alert_only"):
             continue  # consignment shops: whole-inventory digest is noise
+        if (level == "digest" and item["query"].startswith("(catch-all")
+                and not ROADISH_RE.search(item["title"] + " " + item["description"])):
+            continue  # catch-alls see kids/city/e-bikes too — not the bike
         if level == "digest" and is_hot(item):
             level = "alert"
             item["hot"] = True

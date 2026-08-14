@@ -20,8 +20,9 @@ the repo, so nothing is lost between runs. Each sweep:
    **MyNextBike** (Shopify JSON feeds, newest 250 products each, alert-only:
    consignment shops list real brand names, so alert terms suffice and their
    inventories stay out of the digest) — and optionally **eBay** (official
-   Browse API: UK broad queries + worldwide exact-term queries) for every
-   query in `config.json`.
+   Browse API: UK broad queries + worldwide exact-term queries, plus
+   price-banded newest-first "road bike" sweeps of everything just listed
+   in the UK) for every query in `config.json`.
    Gumtree rate-limits: the script paces its requests and backs off for an
    hour if served a bot challenge (`gumtree_backoff.json`).
 2. Dedupes against `state.json` so you only hear about *new* listings.
@@ -48,9 +49,18 @@ the repo, so nothing is lost between runs. Each sweep:
 Detection details (pressure-tested):
 - Alert terms match fuzzily: one-letter typos of "univox" (unibox, univax…)
   still alert. "swift" stays exact-match (edit distance 1 reaches "shift").
-- A **catch-all sweep** fetches the 60 newest London bicycle listings
-  (£200–£3,000) every cycle regardless of keywords, so brand-stripped
-  titles ("racing bicycle barely used") still enter the digest.
+- **Catch-all sweeps** fetch the newest listings regardless of keywords, so
+  brand-stripped titles ("racing bicycle barely used") still get checked:
+  the 60 newest London bicycle listings (£200–£3,000) on Gumtree, the
+  newest price-banded bikes on Kleinanzeigen, the newest road bikes on
+  Marktplaats, and eBay UK's newest price-banded "road bike" results. Only
+  road-bike-ish catch-all finds (road/carbon/gravel/105/Di2/… in any of
+  EN/DE/NL) enter the digest — kids/city/e-bikes can't be the UniVox;
+  alert terms are still checked against *every* listing first.
+- Gumtree's fetch order **rotates each sweep**, so when its bot manager
+  cuts a run short after a fetch or two, the tail queries (national rare
+  terms, catch-all) still get their turn across successive sweeps instead
+  of being starved every time.
 - Relistings (same title + price under a new listing ID) are suppressed.
 - **Evidence preservation**: the moment a listing alerts, its page is
   snapshotted into the Wayback Machine and its photo committed to

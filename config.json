@@ -43,6 +43,10 @@
       "univox road bike",
       "swift univox"
     ],
+    "broad_queries": [
+      "road bike",
+      "carbon road bike"
+    ],
     "located_in": "GB",
     "broad_price_min": 200,
     "broad_price_max": 3000
@@ -59,7 +63,8 @@
       "univox"
     ],
     "broad_price_min": 200,
-    "broad_price_max": 3200
+    "broad_price_max": 3200,
+    "catch_all": true
   },
   "marktplaats": {
     "enabled": true,
@@ -73,7 +78,8 @@
       "univox"
     ],
     "broad_price_min": 200,
-    "broad_price_max": 3200
+    "broad_price_max": 3200,
+    "catch_all": true
   },
   "shopify": {
     "enabled": true,
