@@ -2928,11 +2928,71 @@
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ae82cee9-867a-44de-bcf7-e0ceb632c3ae?rule=ecg_mp_eps$_82.jpg",
    "level": "digest",
    "first_seen": "2026-08-14T23:14:52+00:00"
+  },
+  "ebay:v1|257680869636|0": {
+   "id": "ebay:v1|257680869636|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257680869636?_skw=road+bike&hash=item3bfefa0904:g:pxYAAeSweUZqE2lF",
+   "title": "Islabike Luath 26 10spd Teal Youth Junior Road CycloCross Triathlon",
+   "description": "",
+   "location": "PL27***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/pxYAAeSweUZqE2lF/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:34:26+00:00",
+   "blue_score": 0.033
+  },
+  "kleinanzeigen:3480810802": {
+   "id": "kleinanzeigen:3480810802",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-monda-sl-6-disc-2021-groesse-58-carbon-rennrad/3480810802-217-2082",
+   "title": "Trek \u00c9monda SL 6 Disc (2021), Gr\u00f6\u00dfe 58, Carbon Rennrad",
+   "description": "Ich verkaufe mein Trek \u00c9monda SL 6 Disc aus 2021 in Rahmengr\u00f6\u00dfe 58 mit 28 Zoll Laufr\u00e4dern.\n\nDas Rad...",
+   "location": "40477 Pempelfort",
+   "price_text": "1.600 \u20ac VB",
+   "price": 1600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c446cace-133c-40c0-88fc-c08d8463917e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:34:26+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3484812789": {
+   "id": "kleinanzeigen:3484812789",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/basso-astra-3-voll-carbon-sram-rival-sram-force-grosse-58/3484812789-217-1309",
+   "title": "Basso Astra 3 Voll Carbon, Sram Rival / Sram Force, Grosse 58",
+   "description": "Biete ein Basso Astra 3 Voll Carbon! Gro\u00dfe 58 gemessen von tretlagermitte bis Oberkante sattelrohr,...",
+   "location": "48599 Gronau (Westfalen)",
+   "price_text": "1.499 \u20ac VB",
+   "price": 1499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/67/672cc3d3-4bdc-4d59-ad50-363c28daae43?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:34:26+00:00",
+   "blue_score": 0.031
+  },
+  "kleinanzeigen:3484811743": {
+   "id": "kleinanzeigen:3484811743",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/battaglin-world-champion-87-/3484811743-217-5883",
+   "title": "Battaglin \" World Champion 87\"",
+   "description": "Ich verkaufe mein klassisches Rennrad der Marke Battaglin in der auff\u00e4lligen blau-wei\u00dfen...",
+   "location": "83646 Bad T\u00f6lz",
+   "price_text": "550 \u20ac VB",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/15/15a00224-0f03-46d3-bf60-a03eba249c79?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-14T23:34:26+00:00",
+   "blue_score": 0.008
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 1,
+   "fail_streak": 2,
    "warned": false,
    "ever_ok": true
   },
@@ -2974,7 +3034,8 @@
    "2026-08-14T23:37:59",
    "2026-08-14T23:39:42",
    "2026-08-15T00:07:02",
-   "2026-08-15T00:15:12"
+   "2026-08-15T00:15:12",
+   "2026-08-15T00:34:28"
   ],
   "last_heartbeat": "2026-08-14",
   "last_status": "2026-08-15T00",
