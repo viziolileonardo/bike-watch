@@ -7953,11 +7953,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T14:36:49+00:00",
    "blue_score": 0.007
+  },
+  "ebay:v1|128028076760|0": {
+   "id": "ebay:v1|128028076760|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128028076760?_skw=road+bike&hash=item1dcf116ad8:g:PfkAAeSwxxdqgHnh",
+   "title": "Cerv\u00e9lo S3 \u2013 61cm \u2013 SRAM Red eTap \u2013 ENVE Carbon Wheelset",
+   "description": "",
+   "location": "LL33***",
+   "price_text": "\u00a31791.70",
+   "price": 1791.7,
+   "image": "https://i.ebayimg.com/images/g/PfkAAeSwxxdqgHnh/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T14:54:06+00:00",
+   "blue_score": 0.005
+  },
+  "ebay:v1|820005840766|0": {
+   "id": "ebay:v1|820005840766|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820005840766?_skw=road+bike&hash=itembeec28277e:g:99YAAeSwQzFqgHh~",
+   "title": "Cannondale Road Bike 700C Black/Yellow Drop Bar Hydraulic Disc Derailleur",
+   "description": "",
+   "location": "PR1***",
+   "price_text": "\u00a3261.07",
+   "price": 261.07,
+   "image": "https://i.ebayimg.com/images/g/99YAAeSwQzFqgHh~/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T14:54:06+00:00",
+   "blue_score": 0.065
+  },
+  "kleinanzeigen:3485364525": {
+   "id": "kleinanzeigen:3485364525",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/storck-fascenario-f3-pro-rennrad-vollcarbon-top-zustand-/3485364525-217-8615",
+   "title": "Storck Fascenario F3 Pro Rennrad - Vollcarbon, Top Zustand!",
+   "description": "Kaum gefahren!!!!\n\nIch verkaufe mein hochwertiges Storck Fascenario F3 Pro Rennrad, gekauft am...",
+   "location": "79423 Heitersheim",
+   "price_text": "2.500 \u20ac",
+   "price": 2500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/80/80398b06-e7a5-45aa-ab39-37db0b143352?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T14:54:06+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3482228937": {
+   "id": "kleinanzeigen:3482228937",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-pinarello-stahlrennrad-28-rot-rh-53/3482228937-217-3492",
+   "title": "Original Pinarello Stahlrennrad 28\" Rot RH 53",
+   "description": "Klassisches Pinarello Vintage-Rennrad mit originalem italienischem Stahlrahmen und hochwertiger...",
+   "location": "10405 Prenzlauer Berg",
+   "price_text": "449 \u20ac VB",
+   "price": 449.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c6/c60608ad-9e16-44a4-a764-00383c62675b?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T14:54:06+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3485363021": {
+   "id": "kleinanzeigen:3485363021",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fulcrum-carbon-laufradsatz-speed-42-disc/3485363021-217-4289",
+   "title": "Fulcrum Carbon Laufradsatz Speed 42 Disc",
+   "description": "Die Laufr\u00e4der sind in einem sehr guten Zustand.\n\nSie sind f\u00fcr Shimano/SRAM Kassetten ausgelegt...",
+   "location": "63477 Maintal",
+   "price_text": "260 \u20ac",
+   "price": 260.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c36825cf-f1f6-4c95-b21e-084d9abe7f20?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T14:54:06+00:00",
+   "blue_score": 0.021
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 30,
+   "fail_streak": 31,
    "warned": true,
    "ever_ok": true
   },
@@ -7972,7 +8047,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T15:43:13",
    "2026-08-14T16:37:46",
    "2026-08-14T17:36:53",
    "2026-08-14T18:33:34",
@@ -8015,7 +8089,8 @@
    "2026-08-15T14:24:10",
    "2026-08-15T14:53:37",
    "2026-08-15T15:09:11",
-   "2026-08-15T15:36:53"
+   "2026-08-15T15:36:53",
+   "2026-08-15T15:54:08"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-15T15",
