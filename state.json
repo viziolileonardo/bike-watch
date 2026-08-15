@@ -10779,11 +10779,101 @@
    "level": "digest",
    "first_seen": "2026-08-15T20:37:12+00:00",
    "blue_score": 0.005
+  },
+  "ebay:v1|398289891904|0": {
+   "id": "ebay:v1|398289891904|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398289891904?_skw=road+bike&hash=item5cbbed7240:g:EHkAAeSwMYZpGwcL",
+   "title": "NEW! Shimano Dura Ace ST-R9100 11 Speed Shifter Left Hand Mechanical Rim Brakes",
+   "description": "",
+   "location": "EC2Y***",
+   "price_text": "\u00a3265.00",
+   "price": 265.0,
+   "image": "https://i.ebayimg.com/images/g/EHkAAeSwMYZpGwcL/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T20:53:39+00:00",
+   "blue_score": 0.05
+  },
+  "ebay:v1|318735496289|0": {
+   "id": "ebay:v1|318735496289|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318735496289?_skw=road+bike&hash=item4a361db461:g:VjIAAeSw3CxqY43h",
+   "title": "SRAM RED Carbon GXP 165 mm 8 Bolt Crank Arms AXS RARE",
+   "description": "",
+   "location": "EC2Y***",
+   "price_text": "\u00a3329.00",
+   "price": 329.0,
+   "image": "https://i.ebayimg.com/images/g/VjIAAeSw3CxqY43h/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T20:53:39+00:00",
+   "blue_score": 0.111
+  },
+  "ebay:v1|318735496300|0": {
+   "id": "ebay:v1|318735496300|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318735496300?_skw=road+bike&hash=item4a361db46c:g:ugAAAeSwqvlqeeRO",
+   "title": "Shimano Dura Ace ST R 9100 2 x 11 Speed STI Shifters",
+   "description": "",
+   "location": "EC2Y***",
+   "price_text": "\u00a3269.00",
+   "price": 269.0,
+   "image": "https://i.ebayimg.com/images/g/ugAAAeSwqvlqeeRO/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T20:53:39+00:00",
+   "blue_score": 0.107
+  },
+  "ebay:v1|318735496311|0": {
+   "id": "ebay:v1|318735496311|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318735496311?_skw=road+bike&hash=item4a361db477:g:YUgAAeSwoClqIr8B",
+   "title": "New Shimano Dura Ace Di2 ST R 9170 Left Disc Brake Shifter Hydraulic Di2 11 Spd",
+   "description": "",
+   "location": "EC2Y***",
+   "price_text": "\u00a3249.99",
+   "price": 249.99,
+   "image": "https://i.ebayimg.com/images/g/YUgAAeSwoClqIr8B/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T20:53:39+00:00",
+   "blue_score": 0.015
+  },
+  "ebay:v1|318735496322|0": {
+   "id": "ebay:v1|318735496322|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318735496322?_skw=road+bike&hash=item4a361db482:g:rC0AAeSwE99qNBg1",
+   "title": "SwissSide Hadron2 Ultimate 800 Carbon Rear Disc Wheel DT Swiss 180 RRP \u00a31100",
+   "description": "",
+   "location": "EC2Y***",
+   "price_text": "\u00a3599.00",
+   "price": 599.0,
+   "image": "https://i.ebayimg.com/images/g/rC0AAeSwE99qNBg1/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T20:53:39+00:00",
+   "blue_score": 0.008
+  },
+  "kleinanzeigen:3485604327": {
+   "id": "kleinanzeigen:3485604327",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-spark-910-fully-mountainbike-groesse-l/3485604327-217-16382",
+   "title": "Scott Spark 910 Fully Mountainbike Gr\u00f6\u00dfe L",
+   "description": "Aus 2018\n29 Zoll\nCarbonrahmen\nShimano XT\n12,8kg\nRestliche Details sind den Bildern zu entnehmen...",
+   "location": "81369 Sendling",
+   "price_text": "1.099 \u20ac VB",
+   "price": 1099.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/89c0c8c3-2c70-4a2f-a95a-37f4b708955f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T20:53:39+00:00",
+   "blue_score": 0.001
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 46,
+   "fail_streak": 47,
    "warned": true,
    "ever_ok": true
   },
@@ -10798,7 +10888,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T21:44:39",
    "2026-08-14T22:11:47",
    "2026-08-14T22:37:57",
    "2026-08-14T23:03:49",
@@ -10850,7 +10939,8 @@
    "2026-08-15T20:31:47",
    "2026-08-15T20:47:29",
    "2026-08-15T21:00:52",
-   "2026-08-15T21:37:14"
+   "2026-08-15T21:37:14",
+   "2026-08-15T21:53:40"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-15T21",
