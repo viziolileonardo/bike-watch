@@ -10974,11 +10974,101 @@
    "level": "digest",
    "first_seen": "2026-08-15T21:05:55+00:00",
    "blue_score": 0.281
+  },
+  "ebay:v1|820007092606|0": {
+   "id": "ebay:v1|820007092606|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820007092606?_skw=road+bike&hash=itembeec3b417e:g:B5EAAeSwjSBqgNnM",
+   "title": "Trek Boone RSL Size 56 with Power Meter Cyclocross/Gravel/ Road Bike ",
+   "description": "",
+   "location": "DE6***",
+   "price_text": "\u00a31500.00",
+   "price": 1500.0,
+   "image": "https://i.ebayimg.com/images/g/B5EAAeSwjSBqgNnM/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:33:43+00:00",
+   "blue_score": 0.004
+  },
+  "ebay:v1|147507357691|0": {
+   "id": "ebay:v1|147507357691|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147507357691?_skw=road+bike&hash=item22581fa7fb:g:zToAAeSwrJFqgNYu",
+   "title": "Hand made steel touring bike. Beautiful condition,",
+   "description": "",
+   "location": "BL8***",
+   "price_text": "\u00a3516.70",
+   "price": 516.7,
+   "image": "https://i.ebayimg.com/images/g/zToAAeSwrJFqgNYu/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:33:43+00:00",
+   "blue_score": 0.063
+  },
+  "ebay:v1|227477450328|0": {
+   "id": "ebay:v1|227477450328|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227477450328?_skw=road+bike&hash=item34f6b66e58:g:xPgAAeSwoTxqgM-u",
+   "title": "Planet X E130 Carbon Fibre Road Bike, Shimano Ultegra, Hunt wheels",
+   "description": "",
+   "location": "NW6***",
+   "price_text": "\u00a3720.70",
+   "price": 720.7,
+   "image": "https://i.ebayimg.com/images/g/xPgAAeSwoTxqgM-u/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:33:43+00:00",
+   "blue_score": 0.018
+  },
+  "kleinanzeigen:3485616900": {
+   "id": "kleinanzeigen:3485616900",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-procaliber-9-5/3485616900-217-6559",
+   "title": "Trek Procaliber 9.5",
+   "description": "Topeak RaceRocket MT all black\n\nHardtail\nRamen: Carbon\nBremsen: Shimano MT200\nSchaltgruppe: Shimano...",
+   "location": "87675 St\u00f6tten",
+   "price_text": "1.550 \u20ac",
+   "price": 1550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bf/bfa0bebe-dfba-4803-8ab8-865a5ee7474a?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:33:43+00:00",
+   "blue_score": 0.334
+  },
+  "kleinanzeigen:3485615734": {
+   "id": "kleinanzeigen:3485615734",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-giant-cadex-cfr2-rh55-alu-carbon-klassiker-/3485615734-217-1922",
+   "title": "Rennrad GIANT \"CADEX CFR2\" RH55 ALU-Carbon Klassiker (!)",
+   "description": "CARBON in Gro\u00dfserie - da war GIANT mit den CADEX Modellen schon seit Ende der 1980er ganz vorne mit...",
+   "location": "52064 Aachen-\u200bMitte",
+   "price_text": "349 \u20ac",
+   "price": 349.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e45fdb8-7e6e-4615-8402-6d20b0219db2?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:33:43+00:00",
+   "blue_score": 0.026
+  },
+  "kleinanzeigen:3485615688": {
+   "id": "kleinanzeigen:3485615688",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-gr-m-gianni-motta-italo-klassiker-retro/3485615688-217-20034",
+   "title": "Rennrad Gr.M Gianni Motta | Italo-Klassiker | Retro",
+   "description": "Ich verkaufe mein Gianni Klassiker-Rennrad, das sich nach wie vor in einem guten Zustand befindet...",
+   "location": "79677 Sch\u00f6nau (Schwarzwald)",
+   "price_text": "250 \u20ac VB",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/77/775ea836-9b19-4bde-bfb3-4a931ae34129?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:33:43+00:00",
+   "blue_score": 0.017
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 48,
+   "fail_streak": 49,
    "warned": true,
    "ever_ok": true
   },
@@ -10993,7 +11083,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T22:11:47",
    "2026-08-14T22:37:57",
    "2026-08-14T23:03:49",
    "2026-08-14T23:37:59",
@@ -11046,7 +11135,8 @@
    "2026-08-15T21:00:52",
    "2026-08-15T21:37:14",
    "2026-08-15T21:53:40",
-   "2026-08-15T22:05:57"
+   "2026-08-15T22:05:57",
+   "2026-08-15T22:33:45"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-15T22",
