@@ -4246,11 +4246,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T07:41:37+00:00",
    "blue_score": 0.032
+  },
+  "ebay:v1|287523974169|0": {
+   "id": "ebay:v1|287523974169|0",
+   "source": "eBay",
+   "query": "carbon road bike",
+   "url": "https://www.ebay.co.uk/itm/287523974169?_skw=carbon+road+bike&hash=item42f1c3ac19:g:1wQAAeSwk71qfphv",
+   "title": "Columbus Futura Caliper Tapered Carbon Fork, Matt Black, 1 1/8\" - 1-1.5\" (45mm R",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3378.62",
+   "price": 378.62,
+   "image": "https://i.ebayimg.com/images/g/1wQAAeSwk71qfphv/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T08:11:56+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:2114638458": {
+   "id": "kleinanzeigen:2114638458",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/vintagebike-gravelbike-retrobike-caferacer-oldtimer-ab/2114638458-217-7256",
+   "title": "Vintagebike Gravelbike Retrobike Caferacer Oldtimer ab",
+   "description": "VERSAND DEUTSCHLANDWEIT\nLieferung nach \u00d6sterreich und in die Schweiz nach Absprache ggf....",
+   "location": "86871 Rammingen",
+   "price_text": "420 \u20ac",
+   "price": 420.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b3/b3ad2557-1b84-474b-847a-ca326a802741?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T08:11:56+00:00",
+   "blue_score": 0.152
+  },
+  "kleinanzeigen:3484925754": {
+   "id": "kleinanzeigen:3484925754",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-backroad-apex-axs-xplr-1x12/3484925754-217-5365",
+   "title": "Rose Backroad Apex AXS XPLR 1x12",
+   "description": "verkaufe mein Rose Backroad da ich auf ein road bike umgestiegen bin und hierf\u00fcr kein Gebrauch mehr...",
+   "location": "67346 Speyer",
+   "price_text": "2.450 \u20ac VB",
+   "price": 2450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b5455fbc-2601-429b-ac71-705ae84d9804?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T08:11:56+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3464858634": {
+   "id": "kleinanzeigen:3464858634",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-s-works-np-9700-roubaix-rr-sram-red-etap-axs-56-cm/3464858634-217-9102",
+   "title": "Specialized S-Works  NP 9700\u20ac Roubaix RR Sram RED eTap AXS 56 cm",
+   "description": "Bitte hier ein sehr sch\u00f6nes Rennrad an von Specialized S Works, Top Ausstattung aus dem Jahr...",
+   "location": "78089 Unterkirnach",
+   "price_text": "2.400 \u20ac VB",
+   "price": 2400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bd/bdb01e5d-6a45-4a44-b2fe-7a725ce13bbf?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T08:11:56+00:00",
+   "blue_score": 0.03
+  },
+  "kleinanzeigen:3484925088": {
+   "id": "kleinanzeigen:3484925088",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carbon-laufradsatz/3484925088-217-2229",
+   "title": "Carbon Laufradsatz",
+   "description": "Verkaufe meinen Carbon-Laufradsatz, bestehend aus einem Scheibenrad hinten und einem...",
+   "location": "39108 Magdeburg",
+   "price_text": "1.800 \u20ac VB",
+   "price": 1800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/30b5664e-085d-4414-9755-a47924d3aac5?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T08:11:56+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 14,
+   "fail_streak": 15,
    "warned": true,
    "ever_ok": true
   },
@@ -4265,7 +4340,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T09:05:27",
    "2026-08-14T10:20:09",
    "2026-08-14T10:32:37",
    "2026-08-14T11:22:05",
@@ -4300,10 +4374,11 @@
    "2026-08-15T06:38:34",
    "2026-08-15T07:14:06",
    "2026-08-15T07:58:15",
-   "2026-08-15T08:41:38"
+   "2026-08-15T08:41:38",
+   "2026-08-15T09:11:58"
   ],
-  "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T08",
+  "last_heartbeat": "2026-08-15",
+  "last_status": "2026-08-15T09",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
