@@ -11469,11 +11469,71 @@
    "level": "digest",
    "first_seen": "2026-08-15T23:33:11+00:00",
    "blue_score": 0.016
+  },
+  "ebay:v1|327312182904|0": {
+   "id": "ebay:v1|327312182904|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327312182904?_skw=road+bike&hash=item4c35538e78:g:pu0AAeSwSG9qgPU5",
+   "title": "Specialized SW S-Works Power EVO with Mirror Bike Saddle Black 143mm RRP \u00a3379",
+   "description": "",
+   "location": "SE5***",
+   "price_text": "\u00a3260.00",
+   "price": 260.0,
+   "image": "https://i.ebayimg.com/images/g/pu0AAeSwSG9qgPU5/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:48:10+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3485635659": {
+   "id": "kleinanzeigen:3485635659",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fuji-carbon-renn-zeitrad/3485635659-217-6450",
+   "title": "FUJI CARBON RENN-/ZEITRAD",
+   "description": "Ich verkaufe hier mein voll Carbon Fuji Rennrad.\n\nErst das negative:\nDas Bike ist ca. 8 Jahre...",
+   "location": "80939 Schwabing-\u200bFreimann",
+   "price_text": "650 \u20ac VB",
+   "price": 650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c1bf1e2c-0e04-47ef-a72f-719091490fbd?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:48:10+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3485635519": {
+   "id": "kleinanzeigen:3485635519",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-peugeot-caurus-906-streetbike-fahrrad-neu-aufgebaut-/3485635519-217-5365",
+   "title": "Rennrad Peugeot Caurus 906 Streetbike Fahrrad neu aufgebaut.",
+   "description": "Rennrad Peugeot Caurus 906 Streetbike Fahrrad neu aufgebaut.\nShimano Komponenten. Neue Reifen,...",
+   "location": "67346 Speyer",
+   "price_text": "390 \u20ac",
+   "price": 390.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/25/2571150b-4a38-45a3-a964-3af234afb85e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:48:10+00:00",
+   "blue_score": 0.084
+  },
+  "kleinanzeigen:3485635416": {
+   "id": "kleinanzeigen:3485635416",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/focus-cayo-evo-4-0-gr-m-54-carbon-rahmenset/3485635416-217-24604",
+   "title": "Focus Cayo Evo 4.0 Gr. M (54) Carbon-Rahmenset",
+   "description": "Focus Cayo Evo 4.0 Gr. M (54) Rahmenset FELGENBREMSE\n\nVerkauf nur \u00fcber eBay...",
+   "location": "52072 Horbach",
+   "price_text": "600 \u20ac",
+   "price": 600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0d/0d070a73-744c-4091-9ba6-573171c12bed?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:48:10+00:00",
+   "blue_score": 0.046
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 55,
+   "fail_streak": 56,
    "warned": true,
    "ever_ok": true
   },
@@ -11488,7 +11548,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T00:34:28",
    "2026-08-15T00:52:33",
    "2026-08-15T01:24:49",
    "2026-08-15T02:58:52",
@@ -11541,7 +11600,8 @@
    "2026-08-15T23:36:04",
    "2026-08-15T23:53:28",
    "2026-08-16T00:02:33",
-   "2026-08-16T00:33:13"
+   "2026-08-16T00:33:13",
+   "2026-08-16T00:48:12"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-16T00",
