@@ -3602,11 +3602,56 @@
    "level": "digest",
    "first_seen": "2026-08-15T03:03:42+00:00",
    "blue_score": 0.0
+  },
+  "kleinanzeigen:3456205559": {
+   "id": "kleinanzeigen:3456205559",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-titanrahmen-rh51-verhandlungsbasis/3456205559-217-1116",
+   "title": "Rennrad Titanrahmen RH51 Verhandlungsbasis",
+   "description": "Rennrad von Pilot - Modell Celes\nRahmen ist aus Titan\n\nRahmenh\u00f6he 51\n\nShimano...",
+   "location": "40789 Monheim am Rhein",
+   "price_text": "2.899 \u20ac VB",
+   "price": 2899.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b5f69e19-d055-4b8a-bf1c-4b8de55effc7?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T03:51:55+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3480060400": {
+   "id": "kleinanzeigen:3480060400",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-s-works-stumpjumper-carbon-gr-s4/3480060400-217-2459",
+   "title": "Specialized S-Works Stumpjumper Carbon | Gr. S4",
+   "description": "Specialized S-Works Stumpjumper aus feinstem Fact-Carbon in der begehrten Rahmengr\u00f6\u00dfe S4...",
+   "location": "38162 Cremlingen",
+   "price_text": "1.529 \u20ac VB",
+   "price": 1529.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bc/bc7b301b-4d9a-49f8-8dd6-549df54c7fc4?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T03:51:55+00:00",
+   "blue_score": 0.005
+  },
+  "kleinanzeigen:3484821261": {
+   "id": "kleinanzeigen:3484821261",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bmc-alpenchallange-amp-carbon-e-bike-gr-l-fahrrad-citybike/3484821261-217-1832",
+   "title": "BMC Alpenchallange AMP Carbon E-Bike Gr.L Fahrrad Citybike",
+   "description": "Hochwertiges BMC Alpenchallenge AMP E-Bike aus Carbon in au\u00dfergew\u00f6hnlich sch\u00f6ner Farbe!\n\nZum...",
+   "location": "45699 Herten",
+   "price_text": "1.400 \u20ac",
+   "price": 1400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/80/80bdba26-7f63-4e5b-9191-bc5aac26b394?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T03:51:55+00:00",
+   "blue_score": 0.014
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 6,
+   "fail_streak": 7,
    "warned": true,
    "ever_ok": true
   },
@@ -3621,7 +3666,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T04:30:06",
    "2026-08-14T06:17:40",
    "2026-08-14T07:44:02",
    "2026-08-14T09:05:27",
@@ -3651,7 +3695,8 @@
    "2026-08-15T00:52:33",
    "2026-08-15T01:24:49",
    "2026-08-15T02:58:52",
-   "2026-08-15T04:03:44"
+   "2026-08-15T04:03:44",
+   "2026-08-15T04:51:56"
   ],
   "last_heartbeat": "2026-08-14",
   "last_status": "2026-08-15T04",
