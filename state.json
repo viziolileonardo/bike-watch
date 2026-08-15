@@ -3797,11 +3797,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T04:47:49+00:00",
    "blue_score": 0.371
+  },
+  "kleinanzeigen:3483715655": {
+   "id": "kleinanzeigen:3483715655",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuride-hybrid-pro-kaum-kilometer-gefahren/3483715655-217-1231",
+   "title": "CUBE Nuride Hybrid Pro - Kaum Kilometer gefahren",
+   "description": "CUBE Nuride Hybrid Pro 600 Allroad Wave \u2013 Bosch CX \u2013 600 Wh\n\nZum Verkauf steht ein CUBE Nuride...",
+   "location": "32351 Stemwede",
+   "price_text": "2.850 \u20ac VB",
+   "price": 2850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dc7045e0-e850-4fb2-b6a6-bb797cdb71d6?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:11:41+00:00",
+   "blue_score": 0.349
+  },
+  "kleinanzeigen:3484831421": {
+   "id": "kleinanzeigen:3484831421",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/italienisches-rennrad-mixte-sloughi-rahmenhoehe-52cm/3484831421-217-16299",
+   "title": "Italienisches Rennrad / Mixte - Sloughi - Rahmenh\u00f6he 52cm",
+   "description": "Wir verkaufen unser italienisches Rennrad der Marke Sloughi - Modell Touring. Handbuild in...",
+   "location": "60385 Ostend",
+   "price_text": "220 \u20ac VB",
+   "price": 220.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/43/43981c7a-3084-4dbd-94ed-9959b45e2f92?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:11:41+00:00",
+   "blue_score": 0.055
+  },
+  "kleinanzeigen:3484831048": {
+   "id": "kleinanzeigen:3484831048",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ital-rennrad-aus-den-70-jahren-komplett-neu-aufgebaut-/3484831048-217-3534",
+   "title": "ital. Rennrad aus den 70\u00b4Jahren - komplett NEU aufgebaut !",
+   "description": "biete ein \u00e4u\u00dferst seltenes ital. Rennrad von \"Maurizio\" Modell GRAND PRIX aus den...",
+   "location": "10707 Wilmersdorf",
+   "price_text": "750 \u20ac",
+   "price": 750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/01/01a73bdc-b5c0-4d1b-833e-10649c6a143b?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:11:41+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3484830418": {
+   "id": "kleinanzeigen:3484830418",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/focus-paralane-105-al-groesse-s-top-gepflegt-rennrad-gravelbike/3484830418-217-9399",
+   "title": "Focus Paralane 105 AL - Gr\u00f6\u00dfe S top gepflegt Rennrad Gravelbike",
+   "description": "Ideal als komfortables Rennrad, Langstreckenrad oder High-End Pendler-Bike.\n\nReifenfreiheit f\u00fcr...",
+   "location": "78244 Gottmadingen",
+   "price_text": "950 \u20ac",
+   "price": 950.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5faee0c0-651f-4824-8af5-4e592784dbb4?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:11:41+00:00",
+   "blue_score": 0.0
+  },
+  "marktplaats:m2431034548": {
+   "id": "marktplaats:m2431034548",
+   "source": "Marktplaats (NL)",
+   "query": "dt swiss e1800",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2431034548-bmc-teammachine-slr-2-maat-58-2023-nieuw",
+   "title": "Bmc Teammachine slr 2 maat 58 2023 nieuw!",
+   "description": "Te koop: nieuwe bmc teammachine slr 2 in maat 58 van 2023. Afgemonteerd met een shimano 105 r7170 di2 12s groepset met een 52-36 172,5 mm cranckstel en een 11-34 cassette. Wielen: dt swiss e1800 splin",
+   "location": "Staphorst",
+   "price_text": "\u20ac2875",
+   "price": 2875.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d866bd5f-f41b-45e8-8671-89b60286fdaa?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:11:41+00:00",
+   "blue_score": 0.042
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 9,
+   "fail_streak": 10,
    "warned": true,
    "ever_ok": true
   },
@@ -3848,10 +3923,11 @@
    "2026-08-15T04:03:44",
    "2026-08-15T04:51:56",
    "2026-08-15T05:16:39",
-   "2026-08-15T05:47:52"
+   "2026-08-15T05:47:52",
+   "2026-08-15T06:11:43"
   ],
   "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T05",
+  "last_status": "2026-08-15T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
