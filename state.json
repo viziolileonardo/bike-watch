@@ -8028,11 +8028,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T14:54:06+00:00",
    "blue_score": 0.021
+  },
+  "ebay:v1|198573155162|0": {
+   "id": "ebay:v1|198573155162|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198573155162?_skw=road+bike&hash=item2e3be1e35a:g:v2QAAeSwOwdqgHo1",
+   "title": "Ribble Road Bike. Reynolds 653 frame and forks. Size 51cm C-T",
+   "description": "",
+   "location": "LS21***",
+   "price_text": "\u00a3720.70",
+   "price": 720.7,
+   "image": "https://i.ebayimg.com/images/g/v2QAAeSwOwdqgHo1/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T15:05:45+00:00",
+   "blue_score": 0.003
+  },
+  "ebay:v1|128028089797|0": {
+   "id": "ebay:v1|128028089797|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128028089797?_skw=road+bike&hash=item1dcf119dc5:g:wTcAAeSwFplqgHoM",
+   "title": "1968 J. ANQUETIL 531 Road Bike 58cm Campagnolo Stronglight TA AMBROSIO",
+   "description": "",
+   "location": "GL13***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/wTcAAeSwFplqgHoM/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T15:05:45+00:00",
+   "blue_score": 0.019
+  },
+  "ebay:v1|267758091041|0": {
+   "id": "ebay:v1|267758091041|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267758091041?_skw=road+bike&hash=item3e57a03b21:g:KhQAAeSwNSNqgHuB",
+   "title": "Willier Triestina GTR Men's Carbon Road Bike",
+   "description": "",
+   "location": "ST14***",
+   "price_text": "\u00a31026.70",
+   "price": 1026.7,
+   "image": "https://i.ebayimg.com/images/g/KhQAAeSwNSNqgHuB/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T15:05:45+00:00",
+   "blue_score": 0.01
+  },
+  "kleinanzeigen:3301173729": {
+   "id": "kleinanzeigen:3301173729",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pedalritter-rennrad-carbon-ultegra-di2-dt-1400er-1200km/3301173729-217-3137",
+   "title": "PEDALRITTER Rennrad Carbon, Ultegra Di2, DT 1400er, 1200km",
+   "description": "ca. 1200 km gelaufenes Rennrad.\nVerkauf mit voller Garantie\nOrginalpreis 5347,- EUR\n\nRahmenh\u00f6he...",
+   "location": "37073 G\u00f6ttingen",
+   "price_text": "2.850 \u20ac",
+   "price": 2850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a5/a54cb6c3-3565-4c6e-a7da-77e3ca5625f5?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T15:05:45+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3485376688": {
+   "id": "kleinanzeigen:3485376688",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/vintage-rennrad-peugeot-carbolite-103-tube-special/3485376688-217-7138",
+   "title": "Vintage Rennrad Peugeot Carbolite 103 Tube Special",
+   "description": "Hallo zusammen.\n\nIch habe hier ein funktionierendes Liebhaberst\u00fcck aus den sp\u00e4ten 70ern/fr\u00fchen...",
+   "location": "86316 Friedberg",
+   "price_text": "220 \u20ac VB",
+   "price": 220.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b40d4aa9-ca70-4b6b-85fc-23e161b5167c?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T15:05:45+00:00",
+   "blue_score": 0.017
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 31,
+   "fail_streak": 32,
    "warned": true,
    "ever_ok": true
   },
@@ -8090,10 +8165,11 @@
    "2026-08-15T14:53:37",
    "2026-08-15T15:09:11",
    "2026-08-15T15:36:53",
-   "2026-08-15T15:54:08"
+   "2026-08-15T15:54:08",
+   "2026-08-15T16:05:47"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-15T15",
+  "last_status": "2026-08-15T16",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
