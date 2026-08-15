@@ -11334,11 +11334,56 @@
    "level": "digest",
    "first_seen": "2026-08-15T22:53:25+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|820007301126|0": {
+   "id": "ebay:v1|820007301126|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820007301126?_skw=road+bike&hash=itembeec3e7006:g:oY0AAeSw7OJqgO0O",
+   "title": "Kawasaki KLR 600 1985 Road Registered Spares Repairs Project Restoration Bike",
+   "description": "",
+   "location": "ML5***",
+   "price_text": "\u00a31485.70",
+   "price": 1485.7,
+   "image": "https://i.ebayimg.com/images/g/oY0AAeSw7OJqgO0O/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:02:32+00:00",
+   "blue_score": 0.011
+  },
+  "kleinanzeigen:3484487171": {
+   "id": "kleinanzeigen:3484487171",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-ultimate-cf-sl-8-0-di2/3484487171-217-2953",
+   "title": "Canyon Ultimate CF SL 8.0 DI2",
+   "description": "Canyon Ultimate CF SL 8.0 Di2 Carbon Rennrad \u2013 Ultegra \u2013 Gr\u00f6\u00dfe S\n\nIch verkaufe mein Canyon Ultimate...",
+   "location": "29664 Walsrode",
+   "price_text": "1.550 \u20ac VB",
+   "price": 1550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dcc2d93c-3431-47ac-bd3f-96650fe401d0?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:02:32+00:00",
+   "blue_score": 0.046
+  },
+  "kleinanzeigen:3485631878": {
+   "id": "kleinanzeigen:3485631878",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/galano-vuelta-sti-rennrad-28-zoll-62-cm-rahmen-grau-gruen/3485631878-217-1466",
+   "title": "Galano Vuelta STI Rennrad 28 Zoll, 62 cm Rahmen, Grau/Gr\u00fcn",
+   "description": "Ich verkaufe mein Galano Vuelta STI Rennrad, da es mir leider zu gro\u00df ist. Das Rad wurde nur einmal...",
+   "location": "57223 Kreuztal",
+   "price_text": "380 \u20ac VB",
+   "price": 380.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e9/e90d2f56-370d-4294-bc1a-b638b032a64e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:02:32+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 53,
+   "fail_streak": 54,
    "warned": true,
    "ever_ok": true
   },
@@ -11406,10 +11451,11 @@
    "2026-08-15T22:49:29",
    "2026-08-15T23:01:03",
    "2026-08-15T23:36:04",
-   "2026-08-15T23:53:28"
+   "2026-08-15T23:53:28",
+   "2026-08-16T00:02:33"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-15T23",
+  "last_status": "2026-08-16T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
