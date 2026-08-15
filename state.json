@@ -4171,11 +4171,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T06:58:10+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|178408796084|0": {
+   "id": "ebay:v1|178408796084|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178408796084?_skw=road+bike&hash=item2989fe2fb4:g:hfwAAeSwxvxqgA6X",
+   "title": "EVOC Road Bike Bag Pro Transport / Travel Suitcase - Used - READ DESCRIPTION",
+   "description": "",
+   "location": "BN43***",
+   "price_text": "\u00a3299.99",
+   "price": 299.99,
+   "image": "https://i.ebayimg.com/images/g/hfwAAeSwxvxqgA6X/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T07:41:37+00:00",
+   "blue_score": 0.038
+  },
+  "ebay:v1|336743364675|0": {
+   "id": "ebay:v1|336743364675|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336743364675?_skw=road+bike&hash=item4e6777f843:g:v04AAeSw5VxqgA3O",
+   "title": "Canyon Ultimate CF SL Frame Size Small",
+   "description": "",
+   "location": "TW7***",
+   "price_text": "\u00a3414.70",
+   "price": 414.7,
+   "image": "https://i.ebayimg.com/images/g/v04AAeSw5VxqgA3O/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T07:41:37+00:00",
+   "blue_score": 0.036
+  },
+  "ebay:v1|237007149862|0": {
+   "id": "ebay:v1|237007149862|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237007149862?_skw=road+bike&hash=item372eba1b26:g:qVEAAeSwC-FqgAYa",
+   "title": "Raleigh Pursuit Road Bike 1980's ",
+   "description": "",
+   "location": "EX34***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/qVEAAeSwC-FqgAYa/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T07:41:37+00:00",
+   "blue_score": 0.085
+  },
+  "kleinanzeigen:3484901513": {
+   "id": "kleinanzeigen:3484901513",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-klassiker-vintage/3484901513-217-3100",
+   "title": "Rennrad Klassiker Vintage",
+   "description": "Ein neu aufgebauter Klassiker aus den 1980er mit Shimano Komponenten",
+   "location": "26384 Wilhelmshaven",
+   "price_text": "350 \u20ac VB",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/865436a3-78a4-45cd-86c5-dd2e2d5c86a3?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T07:41:37+00:00",
+   "blue_score": 0.067
+  },
+  "kleinanzeigen:3484901227": {
+   "id": "kleinanzeigen:3484901227",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/colnago-world-cup-2-cross-gravel/3484901227-217-4316",
+   "title": "Colnago World Cup 2 / Cross/ Gravel",
+   "description": "Ich biete hier mein Colnago Rennrad/Gravel an. Es ist ein klassisches und zuverl\u00e4ssiges...",
+   "location": "60598 Sachsenhausen",
+   "price_text": "750 \u20ac VB",
+   "price": 750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/ca91d364-c433-423a-b252-0949a994f0e8?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T07:41:37+00:00",
+   "blue_score": 0.032
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 13,
+   "fail_streak": 14,
    "warned": true,
    "ever_ok": true
   },
@@ -4224,10 +4299,11 @@
    "2026-08-15T06:11:43",
    "2026-08-15T06:38:34",
    "2026-08-15T07:14:06",
-   "2026-08-15T07:58:15"
+   "2026-08-15T07:58:15",
+   "2026-08-15T08:41:38"
   ],
   "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T07",
+  "last_status": "2026-08-15T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
