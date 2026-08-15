@@ -3453,11 +3453,115 @@
    "level": "digest",
    "first_seen": "2026-08-15T00:24:37+00:00",
    "blue_score": 0.132
+  },
+  "ebay:v1|287525839249|0": {
+   "id": "ebay:v1|287525839249|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287525839249?_skw=road+bike&hash=item42f1e02191:g:FRYAAeSw-wlqf7bu",
+   "title": "Falcon Super Tourist 48cm Ladies Road Bike 5 Speed Reynolds 531 Vintage Retro",
+   "description": "",
+   "location": "BH9***",
+   "price_text": "\u00a3265.00",
+   "price": 265.0,
+   "image": "https://i.ebayimg.com/images/g/FRYAAeSw-wlqf7bu/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00",
+   "blue_score": 0.007
+  },
+  "ebay:v1|287525739832|0": {
+   "id": "ebay:v1|287525739832|0",
+   "source": "eBay",
+   "query": "carbon road bike",
+   "url": "https://www.ebay.co.uk/itm/287525739832?_skw=carbon+road+bike&hash=item42f1de9d38:g:sYoAAeSwSOpqfxnu",
+   "title": "Planet x Carbon Road Bike 56cm 700C Black/Red Shimano Ultegra",
+   "description": "",
+   "location": "CT19***",
+   "price_text": "\u00a3400.00",
+   "price": 400.0,
+   "image": "https://i.ebayimg.com/images/g/sYoAAeSwSOpqfxnu/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00",
+   "blue_score": 0.027
+  },
+  "kleinanzeigen:3479179025": {
+   "id": "kleinanzeigen:3479179025",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-grizl-8-1by-ekar-al-gravel-bike-groesse-xl/3479179025-217-9513",
+   "title": "Canyon Grizl 8 1by EKAR AL Gravel Bike - Gr\u00f6\u00dfe XL",
+   "description": "Ich verkaufe mein hochwertiges Canyon Grizl 8 Gravel Bike in der Farbe Sencha. Es wurde im Oktober...",
+   "location": "22113 Oststeinbek",
+   "price_text": "1.500 \u20ac VB",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ce/ce568b90-f3c2-4c07-adfc-0ae60e691b9f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00",
+   "blue_score": 0.128
+  },
+  "kleinanzeigen:3484819435": {
+   "id": "kleinanzeigen:3484819435",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/noa-dirty-first-pro-26-singlespeed-laufradsatz-dirt-hope-spank/3484819435-217-1064",
+   "title": "NOA Dirty First PRO 26\" Singlespeed Laufradsatz *Dirt Hope Spank",
+   "description": "Angeboten wird ein neuer bzw. probeweise montierter NOA Dirty Thirty Pro Laufradsatz f\u00fcr 26 Zoll...",
+   "location": "33649 Brackwede",
+   "price_text": "259 \u20ac",
+   "price": 259.0,
+   "image": "",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00"
+  },
+  "kleinanzeigen:3484818570": {
+   "id": "kleinanzeigen:3484818570",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-28-zoll-rahmengroesse-l-3-gaenge-sehr-guter-zustand/3484818570-217-3493",
+   "title": "Rennrad 28 Zoll, Rahmengr\u00f6\u00dfe L, 3-G\u00e4nge, sehr guter Zustand",
+   "description": "Ich verkaufe ein Trekking-/City-Fahrrad in sehr gutem Zustand. Die Rahmenoberfl\u00e4che ist in...",
+   "location": "10407 Prenzlauer Berg",
+   "price_text": "335 \u20ac",
+   "price": 335.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2d/2d7ce768-e456-4146-98a9-40f4d0165fdb?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3484817193": {
+   "id": "kleinanzeigen:3484817193",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-58cm-rahmen-shimano-105/3484817193-217-9365",
+   "title": "Rennrad - 58cm Rahmen - Shimano 105",
+   "description": "Ich biete hier mein Rennrad mit einer Rahmenh\u00f6he von 58 cm zum Verkauf an. Es ist mit einer...",
+   "location": "79117 Freiburg im Breisgau",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cf/cf75e2e4-42ab-4ea2-b836-d17f5a96a34f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00",
+   "blue_score": 0.009
+  },
+  "kleinanzeigen:3484816630": {
+   "id": "kleinanzeigen:3484816630",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pinarello-fp-quatro-30hm12k-voll-carbon-shimano-ultegra-onda-fpk1/3484816630-217-1309",
+   "title": "Pinarello FP Quatro 30HM12K Voll Carbon/Shimano Ultegra/Onda FPK1",
+   "description": "Biete ein Pinarello FP Quattro 30HM12K Onda FPK1 Monocoque Voll Carbon! Gro\u00dfe 57 gemessen von...",
+   "location": "48599 Gronau (Westfalen)",
+   "price_text": "1.899 \u20ac VB",
+   "price": 1899.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5a028538-2124-4d63-82a2-f49160ce60c1?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T01:58:51+00:00",
+   "blue_score": 0.072
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 4,
+   "fail_streak": 5,
    "warned": false,
    "ever_ok": true
   },
@@ -3472,7 +3576,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T01:58:56",
    "2026-08-14T04:30:06",
    "2026-08-14T06:17:40",
    "2026-08-14T07:44:02",
@@ -3501,10 +3604,11 @@
    "2026-08-15T00:15:12",
    "2026-08-15T00:34:28",
    "2026-08-15T00:52:33",
-   "2026-08-15T01:24:49"
+   "2026-08-15T01:24:49",
+   "2026-08-15T02:58:52"
   ],
   "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T01",
+  "last_status": "2026-08-15T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
