@@ -3947,11 +3947,56 @@
    "level": "digest",
    "first_seen": "2026-08-15T05:38:31+00:00",
    "blue_score": 0.024
+  },
+  "kleinanzeigen:3484850267": {
+   "id": "kleinanzeigen:3484850267",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/full-carbon-yt-industries-capra-cf-pro-race-mit-carbonrad/3484850267-217-3748",
+   "title": "Full Carbon YT Industries Capra CF Pro Race mit Carbonrad",
+   "description": "YT Industries Capra CF Pro Race \u2014 modernes und leistungsstarkes Carbon-Enduro / Trailbike f\u00fcr...",
+   "location": "99084 Erfurt",
+   "price_text": "2.100 \u20ac VB",
+   "price": 2100.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ce/ceeac366-554c-4986-bdd6-3b32c2c7e0c3?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T06:14:04+00:00",
+   "blue_score": 0.09
+  },
+  "kleinanzeigen:3484849892": {
+   "id": "kleinanzeigen:3484849892",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bianchi-retro-rennrad-restauriert-gr57/3484849892-217-2658",
+   "title": "Bianchi Retro Rennrad Restauriert Gr57",
+   "description": "Moin, ich verkaufe hier mein Bianchi Rennrad in Gr\u00f6\u00dfe 57.\nDas Rennrad wurde vor ein paar Jahren...",
+   "location": "28832 Achim",
+   "price_text": "500 \u20ac",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a2/a2e2cceb-3cd2-437f-903f-cb74a4698e12?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T06:14:04+00:00",
+   "blue_score": 0.016
+  },
+  "kleinanzeigen:3484849642": {
+   "id": "kleinanzeigen:3484849642",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-scott-contessa-speedstar-s25-rh-m-damen-weiss-lila-fahrrad/3484849642-217-7052",
+   "title": "Rennrad Scott Contessa Speedstar S25 RH M Damen wei\u00df lila Fahrrad",
+   "description": "Verkaufe hier mein top Rennrad von Scott \u201eContessa\u201d mit Shimano Tiagra Ausstattung, inklusive...",
+   "location": "86465 Welden",
+   "price_text": "850 \u20ac VB",
+   "price": 850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a7/a7bab6e8-3911-4721-9f1b-b314e1417ad8?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T06:14:04+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 11,
+   "fail_streak": 12,
    "warned": true,
    "ever_ok": true
   },
@@ -3999,10 +4044,11 @@
    "2026-08-15T05:16:39",
    "2026-08-15T05:47:52",
    "2026-08-15T06:11:43",
-   "2026-08-15T06:38:34"
+   "2026-08-15T06:38:34",
+   "2026-08-15T07:14:06"
   ],
   "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T06",
+  "last_status": "2026-08-15T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
