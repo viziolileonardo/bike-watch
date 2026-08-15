@@ -11124,11 +11124,41 @@
    "level": "digest",
    "first_seen": "2026-08-15T21:49:27+00:00",
    "blue_score": 0.022
+  },
+  "kleinanzeigen:3485621931": {
+   "id": "kleinanzeigen:3485621931",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-xtr-dt-swiss-carbon-rh60cm/3485621931-217-3162",
+   "title": "Gravelbike XTR,DT Swiss, Carbon, RH60cm",
+   "description": "Geiles Gravelbike unter 10 kg.\nKomplett XTR\nKomplett Carbon\nDT Swiss GR 1800\nSchwalbe GOne\n\nGerne...",
+   "location": "30171 S\u00fcdstadt-\u200bBult",
+   "price_text": "1.111 \u20ac VB",
+   "price": 1111.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2ac36818-3d07-4cc1-a4e0-20f58081031b?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:01:02+00:00",
+   "blue_score": 0.086
+  },
+  "kleinanzeigen:3485621507": {
+   "id": "kleinanzeigen:3485621507",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/motobecane-mistral-rennrad/3485621507-217-9194",
+   "title": "Motobecane Mistral Rennrad",
+   "description": "fahrbereit, alles funktioniert, guter Zustand\nsch\u00f6nes Retro-Rennrad, f\u00e4hrt sich richtig...",
+   "location": "76133 Karlsruhe",
+   "price_text": "225 \u20ac",
+   "price": 225.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c06be492-3ef7-4d4a-8e5f-f16e045a23df?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:01:02+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 50,
+   "fail_streak": 51,
    "warned": true,
    "ever_ok": true
   },
@@ -11196,10 +11226,11 @@
    "2026-08-15T21:53:40",
    "2026-08-15T22:05:57",
    "2026-08-15T22:33:45",
-   "2026-08-15T22:49:29"
+   "2026-08-15T22:49:29",
+   "2026-08-15T23:01:03"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-15T22",
+  "last_status": "2026-08-15T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
