@@ -11154,11 +11154,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T22:01:02+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|178410852563|0": {
+   "id": "ebay:v1|178410852563|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178410852563?_skw=road+bike&hash=item298a1d90d3:g:V~MAAeSw-klqgOLL",
+   "title": "Jamis Xenith Carbon Road Bike 54cm",
+   "description": "",
+   "location": "M35***",
+   "price_text": "\u00a3515.00",
+   "price": 515.0,
+   "image": "https://i.ebayimg.com/images/g/V~MAAeSw-klqgOLL/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:36:02+00:00",
+   "blue_score": 0.07
+  },
+  "kleinanzeigen:3485628621": {
+   "id": "kleinanzeigen:3485628621",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-road-sl-urban-road-series-fitness-cross-bike/3485628621-217-1110",
+   "title": "Cube Road SL Urban Road Series  Fitness-/Cross bike",
+   "description": "Moin,,\nHier biete ich ein Cube Road SL Urban Road Series Fitness-/Cross bike",
+   "location": "44137 Innenstadt-\u200bWest",
+   "price_text": "479 \u20ac VB",
+   "price": 479.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a158cb9-1f19-4eeb-94fd-5bcbdfe296d8?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:36:02+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3474694492": {
+   "id": "kleinanzeigen:3474694492",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-damen-klein-panache-/3474694492-217-2670",
+   "title": "Rennrad Damen Klein Panache\u2018",
+   "description": "Rennrad Damen \u201eKlein Panache\u2018, \u201e Gr\u00f6\u00dfe S, rot-metallic, Lenker und Bowdenzugumwicklung wei\u00df , Tacho...",
+   "location": "38159 Vechelde",
+   "price_text": "2.000 \u20ac VB",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97482917-8f73-4f95-9c0b-83d1b419c708?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:36:02+00:00",
+   "blue_score": 0.012
+  },
+  "kleinanzeigen:3485627875": {
+   "id": "kleinanzeigen:3485627875",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-grizl-cf-slx-8-di2-gravelbike-refurbished/3485627875-217-16382",
+   "title": "Canyon Grizl CF SLX 8 Di2 Gravelbike / Refurbished",
+   "description": "Canyon Grizl CF SLX 8 Di2 \u2013 Hochwertiges Carbon Gravelbike mit elektronischer Schaltung\n\n\nHinweis:...",
+   "location": "81369 Sendling",
+   "price_text": "2.999 \u20ac",
+   "price": 2999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c1bad52c-2a7f-4fa0-858f-069d7cca333f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:36:02+00:00",
+   "blue_score": 0.01
+  },
+  "kleinanzeigen:3485625993": {
+   "id": "kleinanzeigen:3485625993",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bulls-sonic-evoen-sl-carbon/3485625993-217-5348",
+   "title": "Bulls Sonic EvoEn Sl Carbon",
+   "description": "Wenig gefahrenes E-MTB...mit jeweis 150mm Federweg vorne und hinten. 750 WH Akku.\nGewicht unter 20...",
+   "location": "67271 Obers\u00fclzen",
+   "price_text": "3.200 \u20ac VB",
+   "price": 3200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1d/1d3e83c2-6cb1-48f0-9351-7baa26592732?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T22:36:02+00:00",
+   "blue_score": 0.059
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 51,
+   "fail_streak": 52,
    "warned": true,
    "ever_ok": true
   },
@@ -11173,7 +11248,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T23:03:49",
    "2026-08-14T23:37:59",
    "2026-08-14T23:39:42",
    "2026-08-15T00:07:02",
@@ -11227,7 +11301,8 @@
    "2026-08-15T22:05:57",
    "2026-08-15T22:33:45",
    "2026-08-15T22:49:29",
-   "2026-08-15T23:01:03"
+   "2026-08-15T23:01:03",
+   "2026-08-15T23:36:04"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-15T23",
