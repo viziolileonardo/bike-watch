@@ -11064,11 +11064,71 @@
    "level": "digest",
    "first_seen": "2026-08-15T21:33:43+00:00",
    "blue_score": 0.017
+  },
+  "ebay:v1|178410786203|0": {
+   "id": "ebay:v1|178410786203|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178410786203?_skw=road+bike&hash=item298a1c8d9b:g:ENcAAeSw3C1qgNuZ",
+   "title": "Cube Attain GTC Pro Carbon Fiber Road Bike 58cm",
+   "description": "",
+   "location": "M35***",
+   "price_text": "\u00a3690.00",
+   "price": 690.0,
+   "image": "https://i.ebayimg.com/images/g/ENcAAeSw3C1qgNuZ/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:49:27+00:00",
+   "blue_score": 0.057
+  },
+  "kleinanzeigen:3485619399": {
+   "id": "kleinanzeigen:3485619399",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/simplon-rennrad/3485619399-217-8252",
+   "title": "Simplon Rennrad",
+   "description": "Shimano Ultegra Ausstattung, 2x12 G\u00e4nge, Felgenbremsen, Baujahr 2016, an Selbstabholer und...",
+   "location": "76684 \u00d6stringen",
+   "price_text": "400 \u20ac",
+   "price": 400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/344f3780-da2a-4539-a142-08824ec10eae?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:49:27+00:00",
+   "blue_score": 0.012
+  },
+  "kleinanzeigen:3485618524": {
+   "id": "kleinanzeigen:3485618524",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-defy-3-rennrad/3485618524-217-9360",
+   "title": "Giant Defy 3 Rennrad",
+   "description": "Giant Defy 3 Rennrad \u2013 ML \u2013 Blau\nPreis:550 VB\nIch verkaufe mein gepflegtes Giant Defy 3 Rennrad in...",
+   "location": "79106 Freiburg im Breisgau",
+   "price_text": "550 \u20ac VB",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ad/ad002552-a07a-46eb-a7c5-e985fb22128d?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:49:27+00:00",
+   "blue_score": 0.064
+  },
+  "kleinanzeigen:3485618028": {
+   "id": "kleinanzeigen:3485618028",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/droessiger-rennrad-gr-l-shimano-ultegra/3485618028-217-20034",
+   "title": "Dr\u00f6ssiger Rennrad Gr.L \u2013 Shimano Ultegra",
+   "description": "Ich verkaufe mein Dr\u00f6ssiger Rennrad Swiss-Edition, das sich in einem sehr guten Zustand befindet...",
+   "location": "79677 Sch\u00f6nau (Schwarzwald)",
+   "price_text": "480 \u20ac VB",
+   "price": 480.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a3535e0-1014-4fb8-9bdf-b7fe098b56aa?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T21:49:27+00:00",
+   "blue_score": 0.022
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 49,
+   "fail_streak": 50,
    "warned": true,
    "ever_ok": true
   },
@@ -11083,7 +11143,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T22:37:57",
    "2026-08-14T23:03:49",
    "2026-08-14T23:37:59",
    "2026-08-14T23:39:42",
@@ -11136,7 +11195,8 @@
    "2026-08-15T21:37:14",
    "2026-08-15T21:53:40",
    "2026-08-15T22:05:57",
-   "2026-08-15T22:33:45"
+   "2026-08-15T22:33:45",
+   "2026-08-15T22:49:29"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-15T22",
