@@ -5191,11 +5191,71 @@
    "level": "digest",
    "first_seen": "2026-08-15T10:37:28+00:00",
    "blue_score": 0.056
+  },
+  "ebay:v1|318733614362|0": {
+   "id": "ebay:v1|318733614362|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318733614362?_skw=road+bike&hash=item4a3600fd1a:g:EIgAAeSw9jhqgEKG",
+   "title": "SHIMANO 105 ST-R7020 BR-R7070 STI Shifters & callipers Set 2x11 Speed Hydraulic",
+   "description": "",
+   "location": "SE26***",
+   "price_text": "\u00a3219.00",
+   "price": 219.0,
+   "image": "https://i.ebayimg.com/images/g/EIgAAeSw9jhqgEKG/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T10:53:29+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|206492851001|0": {
+   "id": "ebay:v1|206492851001|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206492851001?_skw=road+bike&hash=item3013eedb39:g:CwoAAeSw5VxqgEGw",
+   "title": "Carbon road bike 58cm",
+   "description": "",
+   "location": "NP23***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/CwoAAeSw5VxqgEGw/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T10:53:29+00:00",
+   "blue_score": 0.065
+  },
+  "ebay:v1|117360706853|0": {
+   "id": "ebay:v1|117360706853|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117360706853?_skw=road+bike&hash=item1b533e4525:g:DScAAeSw9jhqgEIn",
+   "title": "XCADEY Ventus Carbon Power Meter Crankset",
+   "description": "",
+   "location": "L17***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/DScAAeSw9jhqgEIn/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T10:53:29+00:00",
+   "blue_score": 0.09
+  },
+  "kleinanzeigen:3485100130": {
+   "id": "kleinanzeigen:3485100130",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/shimano-r8050-di2-schaltwerk-mit-ceramicspeed-ospw/3485100130-217-2721",
+   "title": "Shimano R8050 Di2 Schaltwerk mit Ceramicspeed OSPW",
+   "description": "Super Zustand. Die R\u00f6llchen drehen minutenlang.",
+   "location": "28844 Weyhe",
+   "price_text": "400 \u20ac",
+   "price": 400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d21b0322-1732-4acb-b96a-0924cb33bc66?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T10:53:29+00:00",
+   "blue_score": 0.096
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 20,
+   "fail_streak": 21,
    "warned": true,
    "ever_ok": true
   },
@@ -5246,7 +5306,8 @@
    "2026-08-15T10:13:24",
    "2026-08-15T10:38:06",
    "2026-08-15T11:03:54",
-   "2026-08-15T11:37:31"
+   "2026-08-15T11:37:31",
+   "2026-08-15T11:53:30"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-15T11",
