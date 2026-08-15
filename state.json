@@ -11379,11 +11379,101 @@
    "level": "digest",
    "first_seen": "2026-08-15T23:02:32+00:00",
    "blue_score": 0.0
+  },
+  "kleinanzeigen:3485635093": {
+   "id": "kleinanzeigen:3485635093",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-canyon-f10-carbon-dura-ace-6-2kg-fahrrad-streetbike/3485635093-217-9182",
+   "title": "Rennrad Canyon F10 Carbon. Dura Ace. 6.2kg Fahrrad Streetbike",
+   "description": "Rennrad Canyon F10 Carbon Ultimate. 6,2 Kg. Rahmrnh\u00f6he 59,5cm.\nAlles DuraAce. Smolik Gabel. Flite...",
+   "location": "69115 Heidelberg",
+   "price_text": "880 \u20ac",
+   "price": 880.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/70/70d5ec80-3341-42f0-9551-00e0ad1b6a17?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:33:11+00:00",
+   "blue_score": 0.062
+  },
+  "kleinanzeigen:3485634787": {
+   "id": "kleinanzeigen:3485634787",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bianchi-premio-840-54cm-generalueberholt/3485634787-217-6800",
+   "title": "Bianchi Premio 840 54cm | General\u00fcberholt",
+   "description": "Hier verkaufe ich ein Bianchi Premio (Modell 840) Rennrad in einer seltenen, zweifarbigen...",
+   "location": "91054 Erlangen",
+   "price_text": "419 \u20ac VB",
+   "price": 419.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9e/9e0a7555-22d0-4714-9b35-398cc6830a7c?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:33:11+00:00",
+   "blue_score": 0.229
+  },
+  "kleinanzeigen:3485634409": {
+   "id": "kleinanzeigen:3485634409",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-stumpjumper-comp-mountainbike-fahrrad-carbon-29-zoll/3485634409-217-8209",
+   "title": "Specialized Stumpjumper Comp Mountainbike Fahrrad Carbon 29 Zoll",
+   "description": "Ich verkaufe das Hardtail von einem Freund.\nDas Fahrrad befindet sich in top Zustand, ich habe...",
+   "location": "72531 Hohenstein",
+   "price_text": "650 \u20ac VB",
+   "price": 650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e039603-b6fc-4bae-bdb6-8649f7cf7530?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:33:11+00:00",
+   "blue_score": 0.075
+  },
+  "kleinanzeigen:3485634343": {
+   "id": "kleinanzeigen:3485634343",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-carbon-v-airwolf-wirbelwind/3485634343-217-9432",
+   "title": "Rennrad Carbon v.Airwolf  Wirbelwind",
+   "description": "Habe das Rennrad komplett aufgebaut\nRahmen, Laufradsatz , Vorbau , Lenker , M\u00e4ntel ,Schl\u00e4che...",
+   "location": "20144 Hamburg Eimsb\u00fcttel (Stadtteil)",
+   "price_text": "1.850 \u20ac VB",
+   "price": 1850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d3/d3ef9f17-befc-4a00-a01f-b01e54b6cec5?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:33:11+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3485634014": {
+   "id": "kleinanzeigen:3485634014",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/hercules-emozione-63cm-generalueberholt/3485634014-217-6800",
+   "title": "Hercules Emozione 63cm | General\u00fcberholt",
+   "description": "Zum Verkauf steht ein Hercules Emozione Rennrad mit Aluminiumrahmen in...",
+   "location": "91054 Erlangen",
+   "price_text": "439 \u20ac VB",
+   "price": 439.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a0/a0adfccc-9094-441b-af76-b67f74c697f0?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:33:11+00:00",
+   "blue_score": 0.414
+  },
+  "kleinanzeigen:3485633753": {
+   "id": "kleinanzeigen:3485633753",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/haibike-sduro-hardnine-7-0-e-bike-29-zoll/3485633753-217-316",
+   "title": "Haibike SDURO HardNine 7.0 E-Bike 29 Zoll",
+   "description": "Da ich auf ein E-Gravelbike umsteigen m\u00f6chte, verkaufe ich mein zuverl\u00e4ssiges Haibike SDURO...",
+   "location": "66606 St. Wendel",
+   "price_text": "1.300 \u20ac",
+   "price": 1300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9e/9e7e9070-fa73-4d97-ac1f-2e94f08d0d09?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T23:33:11+00:00",
+   "blue_score": 0.016
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 54,
+   "fail_streak": 55,
    "warned": true,
    "ever_ok": true
   },
@@ -11398,8 +11488,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T00:07:02",
-   "2026-08-15T00:15:12",
    "2026-08-15T00:34:28",
    "2026-08-15T00:52:33",
    "2026-08-15T01:24:49",
@@ -11452,7 +11540,8 @@
    "2026-08-15T23:01:03",
    "2026-08-15T23:36:04",
    "2026-08-15T23:53:28",
-   "2026-08-16T00:02:33"
+   "2026-08-16T00:02:33",
+   "2026-08-16T00:33:13"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-16T00",
