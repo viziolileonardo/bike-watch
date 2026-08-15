@@ -3557,12 +3557,57 @@
    "level": "digest",
    "first_seen": "2026-08-15T01:58:51+00:00",
    "blue_score": 0.072
+  },
+  "gumtree:1801195797": {
+   "id": "gumtree:1801195797",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/specialized-allez-elite-2011-shimano-tiagra-54cm-medium-brilliant-red-and-black.-plus-extras./1801195797",
+   "title": "Specialized Allez Elite 2011- Shimano Tiagra - 54cm Medium- Brilliant Red and black. Plus extras.",
+   "description": "",
+   "location": "Barnet, London",
+   "price_text": "\u00a3350",
+   "price": 350.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/9d1ab4830a124612a4_0bc1c64fe9d3/86",
+   "level": "digest",
+   "first_seen": "2026-08-15T03:03:42+00:00",
+   "blue_score": 0.003
+  },
+  "ebay:v1|287525895817|0": {
+   "id": "ebay:v1|287525895817|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287525895817?_skw=road+bike&hash=item42f1e0fe89:g:~hkAAeSwsqlqfayl",
+   "title": "Peugeot PBN 10 Course 57cm Steel Road Bike Simplex 10 Speed Vintage Retro French",
+   "description": "",
+   "location": "BH9***",
+   "price_text": "\u00a3345.00",
+   "price": 345.0,
+   "image": "https://i.ebayimg.com/images/g/~hkAAeSwsqlqfayl/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-15T03:03:42+00:00",
+   "blue_score": 0.928
+  },
+  "kleinanzeigen:3484819902": {
+   "id": "kleinanzeigen:3484819902",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fahrrad-rennrad-28-zoll/3484819902-217-3521",
+   "title": "Fahrrad/Rennrad 28 Zoll",
+   "description": "Rennrad in gutem Zustand, wie auf den Fotos zu sehen. Der Rahmen ist ohne M\u00e4ngel und das Fahrrad...",
+   "location": "10179 Mitte",
+   "price_text": "280 \u20ac VB",
+   "price": 280.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed7e91b3-6601-4aa2-9caf-e79ab3648bcc?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T03:03:42+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 5,
-   "warned": false,
+   "fail_streak": 6,
+   "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
@@ -3605,10 +3650,11 @@
    "2026-08-15T00:34:28",
    "2026-08-15T00:52:33",
    "2026-08-15T01:24:49",
-   "2026-08-15T02:58:52"
+   "2026-08-15T02:58:52",
+   "2026-08-15T04:03:44"
   ],
   "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T02",
+  "last_status": "2026-08-15T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
