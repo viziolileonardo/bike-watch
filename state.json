@@ -3872,11 +3872,86 @@
    "level": "digest",
    "first_seen": "2026-08-15T05:11:41+00:00",
    "blue_score": 0.042
+  },
+  "gumtree:1801532676": {
+   "id": "gumtree:1801532676",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/merida-ride-lite-90-road-bike-m-l-racing-bicycle-mens-womens-unisex-medium-large-54cm-cycle/1801532676",
+   "title": "Merida Ride Lite 90 Road Bike M/L Racing Bicycle Mens Womens Unisex Medium Large 54cm Cycle",
+   "description": "",
+   "location": "Beckton, London",
+   "price_text": "\u00a3300",
+   "price": 300.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/44289058dd1345dc96_dbfc1ae4eb76/86",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:38:31+00:00",
+   "blue_score": 0.062
+  },
+  "gumtree:1801531917": {
+   "id": "gumtree:1801531917",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/pd-holdswort-sl-single-speed-road-bike-size-54-cm-top-parts/1801531917",
+   "title": "PD HOLDSWORT SL Single Speed Road Bike Size/54 cm Top Parts",
+   "description": "",
+   "location": "Walthamstow, London",
+   "price_text": "\u00a3475",
+   "price": 475.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/dacf94f0928c4c5984_3b05e7d4e700/86",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:38:31+00:00",
+   "blue_score": 0.021
+  },
+  "kleinanzeigen:3484836518": {
+   "id": "kleinanzeigen:3484836518",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-stevens-aspin-shimano-ultegra-mavic-laufraeder/3484836518-217-5322",
+   "title": "Rennrad Stevens Aspin Shimano Ultegra Mavic Laufr\u00e4der",
+   "description": "Verkaufe mein gepflegtes Stevens Aspin Pro Rennrad mit 60 cm Rahmengr\u00f6\u00dfe. Das Rad ist technisch und...",
+   "location": "55122 Mainz",
+   "price_text": "279 \u20ac VB",
+   "price": 279.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/01/01269f95-407d-4afe-8cb5-0878615721f3?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:38:31+00:00",
+   "blue_score": 0.011
+  },
+  "kleinanzeigen:3484835912": {
+   "id": "kleinanzeigen:3484835912",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-strike-eride-940-e-bike-carbon/3484835912-217-6653",
+   "title": "Scott Strike eRIDE 940  E bike Carbon",
+   "description": "Ich biete mein Scott Strike eRIDE 940 E-Mountainbike zum Verkauf an. Dieses robuste E-Bike ist...",
+   "location": "88486 Kirchberg an der Iller",
+   "price_text": "2.350 \u20ac",
+   "price": 2350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57e63baf-cd80-401e-9c15-6e48db4144bd?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:38:31+00:00",
+   "blue_score": 0.018
+  },
+  "kleinanzeigen:3484835880": {
+   "id": "kleinanzeigen:3484835880",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-bianchi-carbon/3484835880-217-3409",
+   "title": "Rennrad Bianchi Carbon",
+   "description": "Rennrad Carbon\nBianchi Oltre Comp Shimano 105 Di2 Schaltug\n2 x 12 Fach Rennrad...",
+   "location": "12099 Tempelhof",
+   "price_text": "2.888 \u20ac",
+   "price": 2888.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b09c0359-da30-43cd-803d-61ae21bd3599?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T05:38:31+00:00",
+   "blue_score": 0.024
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 10,
+   "fail_streak": 11,
    "warned": true,
    "ever_ok": true
   },
@@ -3891,7 +3966,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-14T06:17:40",
    "2026-08-14T07:44:02",
    "2026-08-14T09:05:27",
    "2026-08-14T10:20:09",
@@ -3924,7 +3998,8 @@
    "2026-08-15T04:51:56",
    "2026-08-15T05:16:39",
    "2026-08-15T05:47:52",
-   "2026-08-15T06:11:43"
+   "2026-08-15T06:11:43",
+   "2026-08-15T06:38:34"
   ],
   "last_heartbeat": "2026-08-14",
   "last_status": "2026-08-15T06",
