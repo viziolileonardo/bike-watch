@@ -3647,11 +3647,56 @@
    "level": "digest",
    "first_seen": "2026-08-15T03:51:55+00:00",
    "blue_score": 0.014
+  },
+  "kleinanzeigen:3484823441": {
+   "id": "kleinanzeigen:3484823441",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fixie-ingria-tausch-/3484823441-217-1285",
+   "title": "fixie / INGRIA  ( tausch )",
+   "description": "fixie INGRIA airpusher\n\nframe + venzo Lenker ( wei\u00df )\n\nsize 50\nnie aufgebaut\n\n\ncrankset prowel...",
+   "location": "46049 Oberhausen",
+   "price_text": "379 \u20ac VB",
+   "price": 379.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/3438408b-4835-4876-8b79-fc50319c82bd?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T04:16:38+00:00",
+   "blue_score": 0.008
+  },
+  "kleinanzeigen:3484823142": {
+   "id": "kleinanzeigen:3484823142",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carver-100-gravelbike/3484823142-217-333",
+   "title": "Carver 100 Gravelbike",
+   "description": "Verkaufe mein kaum benutztes Gravelbike, es ist jetzt ca 1.5Jahre alt und hat vllt 1000km gesehen....",
+   "location": "75428 Illingen",
+   "price_text": "949 \u20ac VB",
+   "price": 949.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/41003ace-d156-4f56-aec7-b42f59fba254?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T04:16:38+00:00",
+   "blue_score": 0.002
+  },
+  "kleinanzeigen:3484822980": {
+   "id": "kleinanzeigen:3484822980",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/muesing-onroad-tpr-di2-rennrad-onroad-lite-aluminiumrahmen/3484822980-217-4816",
+   "title": "M\u00fcsing Onroad TPR DI2 Rennrad Onroad Lite Aluminiumrahmen",
+   "description": "M\u00fcsing Onroad TPR DI2 Rennrad, Modell Onroad Lite, zum Verkauf an. Dieses leichte Rennrad mit einem...",
+   "location": "65428 R\u00fcsselsheim",
+   "price_text": "590 \u20ac VB",
+   "price": 590.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/192a072b-9897-404c-a606-75dafc1920e0?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-15T04:16:38+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 7,
+   "fail_streak": 8,
    "warned": true,
    "ever_ok": true
   },
@@ -3696,10 +3741,11 @@
    "2026-08-15T01:24:49",
    "2026-08-15T02:58:52",
    "2026-08-15T04:03:44",
-   "2026-08-15T04:51:56"
+   "2026-08-15T04:51:56",
+   "2026-08-15T05:16:39"
   ],
   "last_heartbeat": "2026-08-14",
-  "last_status": "2026-08-15T04",
+  "last_status": "2026-08-15T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
