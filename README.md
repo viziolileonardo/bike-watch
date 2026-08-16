@@ -46,9 +46,12 @@ the repo, so nothing is lost between runs. Each sweep:
      whether the listing could plausibly be the bike or its parts (the
      `ANTHROPIC_API_KEY` Actions secret / `BIKEWATCH_ANTHROPIC_KEY` env
      var). Clear mismatches — other branded bikes that merely share common
-     components, e-bikes, motorbikes — are marked **AI: unlikely** in the
-     report and don't push. Fail-open: no key or an API error means the
-     alert pushes as before; `univox` hits always push, no AI veto.
+     components, e-bikes, motorbikes — are **auto-closed**: kept in
+     `state.json` (so they can't re-alert, and their evidence is still
+     preserved) but hidden from the report, which only shows findings
+     worth reviewing. The report footer counts what was closed. Fail-open:
+     no key or an API error means the alert pushes as before; `univox`
+     hits always push, no AI veto.
 4. Regenerates `reports/findings.html` — review everything with photos
    from any device: https://viziolileonardo.github.io/bike-watch/reports/findings.html
    (GitHub Pages, updates ~1 min after each sweep; or locally via

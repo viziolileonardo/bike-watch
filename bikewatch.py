@@ -679,7 +679,11 @@ MAX_DIGEST_ROWS = 400
 
 def write_report(findings, bike_desc, crime_ref=""):
     import html as H
-    items = sorted(findings.values(), key=lambda x: x["first_seen"], reverse=True)
+    # AI-dismissed alerts stay in state (dedupe + evidence) but are closed:
+    # the report only shows what's worth the user's time
+    items = sorted((f for f in findings.values() if not f.get("fp")),
+                   key=lambda x: x["first_seen"], reverse=True)
+    n_dismissed = sum(1 for f in findings.values() if f.get("fp"))
     alerts = [f for f in items if f["level"] == "alert"]
     digest = [f for f in items if f["level"] != "alert"][:MAX_DIGEST_ROWS]
     rows = []
@@ -690,10 +694,6 @@ def write_report(findings, bike_desc, crime_ref=""):
                  else "<span class='b digest'>digest</span>")
         if f.get("hot"):
             badge += " <span class='b hot'>HOT</span>"
-        if f.get("fp"):
-            badge += (" <span class='b fp' title='"
-                      + H.escape(f.get("ai_reason", ""), quote=True)
-                      + "'>AI: unlikely</span>")
         if near:
             badge += " <span class='b near'>NEAR THEFT</span>"
         if blue:
@@ -723,7 +723,7 @@ def write_report(findings, bike_desc, crime_ref=""):
  td img{{width:150px;border-radius:6px}} .noimg{{width:150px;color:#999;font-size:12px}}
  .b{{color:#fff;padding:2px 8px;border-radius:10px;font-size:12px}}
  .b.alert{{background:#c0392b}} .b.digest{{background:#7f8c8d}} .b.near{{background:#e67e22}}
- .b.hot{{background:#8e44ad}} .b.blue{{background:#2980b9}} .b.fp{{background:#95a5a6}}
+ .b.hot{{background:#8e44ad}} .b.blue{{background:#2980b9}}
  .only-blue tr:not(.blue){{display:none}}
  tr.alert{{background:#fff5f5}} tr.near td:first-child{{border-left:4px solid #e67e22}}
  .desc{{color:#555}} .price{{white-space:nowrap}}
@@ -743,6 +743,7 @@ def write_report(findings, bike_desc, crime_ref=""):
  <label><input type="checkbox" id="ob"> only blue-ish photos</label>
 </header>
 <p>{len(alerts)} alerts · {len(digest)} digest shown (cap {MAX_DIGEST_ROWS})
+{f' · {n_dismissed} auto-closed by AI triage' if n_dismissed else ''}
  · last sweep {datetime.now().isoformat(timespec='minutes')}
  · tick a row once you've ruled it out</p>
 <table id="t">{''.join(rows)}</table>
