@@ -11934,11 +11934,41 @@
    "level": "digest",
    "first_seen": "2026-08-16T05:14:25+00:00",
    "blue_score": 0.004
+  },
+  "kleinanzeigen:3485487215": {
+   "id": "kleinanzeigen:3485487215",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/schmolke-rennlenker-evo-tlo-420mm/3485487215-217-4180",
+   "title": "Schmolke Rennlenker Evo TLO 420mm",
+   "description": "Verkaufe Schmolke Rennradlenker EVO TLO in 420mm Breite. Der Lenker ist garantiert sturzfrei und...",
+   "location": "08451 Crimmitschau",
+   "price_text": "350 \u20ac VB",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af329f84-b8d1-4d98-bddf-52530e0ef2e9?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T05:42:42+00:00",
+   "blue_score": 0.0
+  },
+  "marktplaats:m2425574947": {
+   "id": "marktplaats:m2425574947",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2425574947-koga-miyata-scandium-sprint-uniek-compleet-dura-ace-parel",
+   "title": "KOGA MIYATA SCANDIUM SPRINT UNIEK COMPLEET DURA -ACE PAREL !",
+   "description": "\u200bin nieuwstaat deze koga miyata scandium sprint uniek ,afgemonteerd met shimano dura-ace groep ,ook de wielset, koga full pro scandium dura ace sprint te koop uniek ,plaatje ook ,frame maat daarvan 56",
+   "location": "Heerenveen",
+   "price_text": "\u20ac495",
+   "price": 495.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/359bd2a8-4bb2-4e9e-a5f6-9bae244d575a?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T05:42:42+00:00",
+   "blue_score": 0.144
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 63,
+   "fail_streak": 64,
    "warned": true,
    "ever_ok": true
   },
@@ -11953,7 +11983,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T06:38:34",
    "2026-08-15T07:14:06",
    "2026-08-15T07:58:15",
    "2026-08-15T08:41:38",
@@ -12005,7 +12034,8 @@
    "2026-08-16T04:36:51",
    "2026-08-16T05:17:00",
    "2026-08-16T05:51:46",
-   "2026-08-16T06:14:26"
+   "2026-08-16T06:14:26",
+   "2026-08-16T06:42:43"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-16T06",
