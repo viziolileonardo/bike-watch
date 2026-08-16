@@ -16990,11 +16990,71 @@
    "level": "digest",
    "first_seen": "2026-08-16T17:49:29+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|137628370803|0": {
+   "id": "ebay:v1|137628370803|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137628370803?_skw=road+bike&hash=item200b4a4773:g:jowAAeSwAVhqgdWM",
+   "title": "Shimano Ultegra FC-R8100 INPEAK Single-Sided Power Meter Crank 170mm",
+   "description": "",
+   "location": "SK17***",
+   "price_text": "\u00a3286.70",
+   "price": 286.7,
+   "image": "https://i.ebayimg.com/images/g/jowAAeSwAVhqgdWM/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T18:00:43+00:00",
+   "blue_score": 0.041
+  },
+  "kleinanzeigen:3486563621": {
+   "id": "kleinanzeigen:3486563621",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-defy-adv/3486563621-217-8029",
+   "title": "Giant Defy Adv",
+   "description": "Verkauft wird ein Giant Defy AdvancedVollcaron\nRh. M\nShimano Ultegra\nCarbon Rahmen / Gabel\nAlu...",
+   "location": "79418 Schliengen",
+   "price_text": "1.100 \u20ac VB",
+   "price": 1100.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/48/48a219b1-88b3-4afb-8b5d-379bf774fbeb?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T18:00:43+00:00",
+   "blue_score": 0.075
+  },
+  "kleinanzeigen:3486563228": {
+   "id": "kleinanzeigen:3486563228",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/felt-rennrad-schwarz-blau-mit-scheibenbremsen/3486563228-217-16309",
+   "title": "Felt Rennrad schwarz-blau mit Scheibenbremsen",
+   "description": "Ich verkaufe mein sportliches Rennrad der Marke Felt in einer schicken schwarz-blauen...",
+   "location": "60320 Dornbusch",
+   "price_text": "390 \u20ac",
+   "price": 390.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/95085567-0602-4f93-bd2c-e0cb130a6045?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T18:00:43+00:00",
+   "blue_score": 0.048
+  },
+  "kleinanzeigen:3486562503": {
+   "id": "kleinanzeigen:3486562503",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/prophete-graveler-1-0-e-gravel-bike-28-zoll-rh-53-cm/3486562503-217-1754",
+   "title": "Prophete Graveler 1.0 E-Gravel Bike 28 Zoll RH 53 cm",
+   "description": "Ich biete hier mein E-Gravel Bike von Prophete zum Verkauf an. Es handelt sich um das Modell...",
+   "location": "44534 L\u00fcnen",
+   "price_text": "1.200 \u20ac",
+   "price": 1200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/3909a5eb-411e-45dd-ae93-cc658b1381c5?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T18:00:43+00:00",
+   "blue_score": 0.003
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 90,
+   "fail_streak": 91,
    "warned": true,
    "ever_ok": true
   },
@@ -17009,7 +17069,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T18:50:13",
    "2026-08-15T19:01:16",
    "2026-08-15T19:46:30",
    "2026-08-15T20:15:07",
@@ -17060,10 +17119,11 @@
    "2026-08-16T17:40:57",
    "2026-08-16T18:07:11",
    "2026-08-16T18:33:03",
-   "2026-08-16T18:49:33"
+   "2026-08-16T18:49:33",
+   "2026-08-16T19:00:45"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-16T18",
+  "last_status": "2026-08-16T19",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
