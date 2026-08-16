@@ -11919,11 +11919,26 @@
    "level": "digest",
    "first_seen": "2026-08-16T04:51:44+00:00",
    "blue_score": 0.132
+  },
+  "kleinanzeigen:3485650918": {
+   "id": "kleinanzeigen:3485650918",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nature-exc-allroad-trapez-rh-54-cm-damen-unisex/3485650918-217-9075",
+   "title": "Cube Nature EXC Allroad | Trapez RH 54 cm | Damen / Unisex",
+   "description": "Verkaufe ein gepflegtes Cube Nature EXC Allroad in der Farbe black\u00b4n\u00b4grey.\n\nDas Bike ist die...",
+   "location": "73430 Aalen",
+   "price_text": "599 \u20ac",
+   "price": 599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4d0fe911-a5ee-4e8f-9388-48e61860e6d8?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T05:14:25+00:00",
+   "blue_score": 0.004
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 62,
+   "fail_streak": 63,
    "warned": true,
    "ever_ok": true
   },
@@ -11938,7 +11953,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T06:11:43",
    "2026-08-15T06:38:34",
    "2026-08-15T07:14:06",
    "2026-08-15T07:58:15",
@@ -11990,10 +12004,11 @@
    "2026-08-16T03:50:11",
    "2026-08-16T04:36:51",
    "2026-08-16T05:17:00",
-   "2026-08-16T05:51:46"
+   "2026-08-16T05:51:46",
+   "2026-08-16T06:14:26"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-16T05",
+  "last_status": "2026-08-16T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
