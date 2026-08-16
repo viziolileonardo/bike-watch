@@ -18880,11 +18880,41 @@
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|188803585606|0": {
+   "id": "ebay:v1|188803585606|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188803585606?_skw=road+bike&hash=item2bf5921646:g:-kcAAeSwO2lqgjgp",
+   "title": "Merida Reacto 6000 Di2 105 Carbon Road Bike Size Medium Excellent Condition 2024",
+   "description": "",
+   "location": "HA9***",
+   "price_text": "\u00a32352.70",
+   "price": 2352.7,
+   "image": "https://i.ebayimg.com/images/g/-kcAAeSwO2lqgjgp/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:50:28+00:00",
+   "blue_score": 0.038
+  },
+  "kleinanzeigen:3486714328": {
+   "id": "kleinanzeigen:3486714328",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bianchi-caurus-sant-rennrad-rh-61-columbus-sbx-celeste/3486714328-217-4477",
+   "title": "Bianchi Caurus Sant\u00e9 Rennrad RH 61 Columbus SBX celeste",
+   "description": "Pfeilschnelles Bianchi Caurus Rennrad mit kompletter Shimano Sant\u00e9 2x7 Gruppe in Rahmenh\u00f6he 61 in...",
+   "location": "63225 Langen (Hessen)",
+   "price_text": "990 \u20ac VB",
+   "price": 990.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/031db4d5-9b30-4c8c-abd5-7f55ef534671?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:50:28+00:00",
+   "blue_score": 0.078
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 104,
+   "fail_streak": 105,
    "warned": true,
    "ever_ok": true
   },
@@ -18950,7 +18980,8 @@
    "2026-08-16T22:48:54",
    "2026-08-16T23:00:40",
    "2026-08-16T23:35:17",
-   "2026-08-16T23:37:07"
+   "2026-08-16T23:37:07",
+   "2026-08-16T23:50:28"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-16T23",
