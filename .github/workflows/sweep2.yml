@@ -13,6 +13,10 @@ on:
         description: "Send a test notification instead of sweeping"
         type: boolean
         default: false
+      triage_backlog:
+        description: "AI-review existing unreviewed alerts instead of sweeping"
+        type: boolean
+        default: false
 
 # never let two sweeps overlap (the script's flock only guards within one machine)
 concurrency:
@@ -48,6 +52,8 @@ jobs:
         run: |
           if [ "${{ inputs.test_notify }}" = "true" ]; then
             python3 bikewatch.py --test-notify
+          elif [ "${{ inputs.triage_backlog }}" = "true" ]; then
+            python3 bikewatch.py --triage-backlog
           else
             python3 bikewatch.py
           fi

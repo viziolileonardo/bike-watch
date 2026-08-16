@@ -502,7 +502,7 @@ def classify(item, alert_terms, price_min, price_max, fuzzy_terms=()):
 
 AI_MODEL = "claude-opus-5"
 AI_MAX_CALLS_PER_SWEEP = 15
-AI_CALLS = {"n": 0}
+AI_CALLS = {"n": 0, "cap": AI_MAX_CALLS_PER_SWEEP}
 AI_SCHEMA = {
     "type": "object",
     "properties": {
@@ -516,7 +516,7 @@ AI_SCHEMA = {
 
 def ai_verdict(item, bike):
     key = os.environ.get("BIKEWATCH_ANTHROPIC_KEY")
-    if not key or AI_CALLS["n"] >= AI_MAX_CALLS_PER_SWEEP:
+    if not key or AI_CALLS["n"] >= AI_CALLS["cap"]:
         return None
     AI_CALLS["n"] += 1
     prompt = (
@@ -949,6 +949,31 @@ def main():
                         "Phone notifications are working. Tap to see the bike.",
                         "https://uk.swiftbicycles.com/collections/road/products/univox-comp")
         print("test notification sent")
+        return
+
+    if "--triage-backlog" in sys.argv:
+        # one-shot AI review of alerts recorded before triage existed:
+        # marks clear mismatches fp (report-only), regenerates the report.
+        # No notifications — nothing here is new to the user.
+        pending = [f for f in findings.values()
+                   if f["level"] == "alert"
+                   and "fp" not in f and "ai_reason" not in f
+                   and "univox" not in (f["title"] + f.get("description", "")).lower()]
+        AI_CALLS["cap"] = len(pending)
+        log(f"backlog triage: {len(pending)} unreviewed alert(s)")
+        for f in pending:
+            verdict = ai_verdict(f, cfg["bike"])
+            if verdict is None:
+                log(f"  {f['id']}: no verdict (key/API problem) — left as-is")
+                continue
+            f["ai_reason"] = verdict["reason"]
+            if not verdict["plausible"]:
+                f["fp"] = True
+            log(f"  {f['id']}: "
+                f"{'FP' if not verdict['plausible'] else 'PLAUSIBLE'} — {verdict['reason']}")
+        write_report(findings, cfg["bike"]["description"],
+                     cfg["bike"].get("crime_reference", ""))
+        save_state(state)
         return
 
     sources = [
