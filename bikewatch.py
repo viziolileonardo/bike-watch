@@ -533,12 +533,22 @@ def ai_verdict(item, bike):
         f"Price: {item['price_text']}  Location: {item['location']}  "
         f"Source: {item['source']}  Matched via: {item['query']}"
         f"{' (hot: cheap quality road bike near theft area)' if item.get('hot') else ''}\n\n"
-        "Set plausible=false ONLY when the listing clearly cannot be this "
-        "bike or its parts — e.g. a different branded model that merely "
-        "shares common components, a kids/city/e-bike, a motorbike, or an "
-        "unrelated item. A fresh build or part listing matching the stolen "
-        "bike's specific components IS plausible. If uncertain, set "
-        "plausible=true. One short sentence of reason."
+        "Rules:\n"
+        "- A complete bike listed under a specific DIFFERENT make and model "
+        "(e.g. 'Muddyfox Race 400', 'Scott CR1') is that bike — thieves "
+        "strip decals or list generically, they do not apply another "
+        "brand's model-accurate branding. Mark it implausible unless the "
+        "listing mentions the stolen bike's distinctive components or is "
+        "described as a recent custom/fresh build.\n"
+        "- Sharing ubiquitous components alone (Shimano 105/Tiagra, a "
+        "generic carbon frame) is NOT a link; the distinctive identifiable "
+        "part here is the DT Swiss E1800 wheelset.\n"
+        "- Unbranded, brand-stripped, or vaguely described listings that "
+        "fit the stolen bike's type/colour/price stay plausible, "
+        "especially near the theft area. Wheelset/parts listings matching "
+        "the stolen bike's components stay plausible.\n"
+        "- If genuinely uncertain, set plausible=true.\n"
+        "One short sentence of reason."
     )
     body = json.dumps({
         "model": AI_MODEL,
@@ -955,9 +965,10 @@ def main():
         # one-shot AI review of alerts recorded before triage existed:
         # marks clear mismatches fp (report-only), regenerates the report.
         # No notifications — nothing here is new to the user.
+        # every non-FP alert, including ones a previous triage kept — so a
+        # prompt improvement can be re-applied to the backlog. FPs stay put.
         pending = [f for f in findings.values()
-                   if f["level"] == "alert"
-                   and "fp" not in f and "ai_reason" not in f
+                   if f["level"] == "alert" and not f.get("fp")
                    and "univox" not in (f["title"] + f.get("description", "")).lower()]
         AI_CALLS["cap"] = len(pending)
         log(f"backlog triage: {len(pending)} unreviewed alert(s)")
