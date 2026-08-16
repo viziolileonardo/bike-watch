@@ -18220,11 +18220,41 @@
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
    "blue_score": 0.028
+  },
+  "ebay:v1|147509250862|0": {
+   "id": "ebay:v1|147509250862|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147509250862?_skw=road+bike&hash=item22583c8b2e:g:tNAAAeSwpAlqghjK",
+   "title": "Road Bike, Planet X RT90, 54 Frame, Pro carbon, Shimano Di2, excellent condition",
+   "description": "",
+   "location": "SG11***",
+   "price_text": "\u00a31531.60",
+   "price": 1531.6,
+   "image": "https://i.ebayimg.com/images/g/tNAAAeSwpAlqghjK/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T20:52:50+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3486687891": {
+   "id": "kleinanzeigen:3486687891",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/peugeot-tourmalet-vintage-rennrad-made-in-france-pink/3486687891-217-9281",
+   "title": "Peugeot Tourmalet Vintage Rennrad \u2013 Made in France \u2013 Pink",
+   "description": "Verkaufe ein sch\u00f6nes \u00e4lteres Peugeot Tourmalet Rennrad in auff\u00e4lligem Pink.\n\nDas Fahrrad ist...",
+   "location": "70180 Stuttgart-\u200bS\u00fcd",
+   "price_text": "299 \u20ac VB",
+   "price": 299.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/148664a4-7e5d-4865-8b77-9bede7a02110?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T20:52:50+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 97,
+   "fail_streak": 98,
    "warned": true,
    "ever_ok": true
   },
@@ -18239,7 +18269,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T21:37:14",
    "2026-08-15T21:53:40",
    "2026-08-15T22:05:57",
    "2026-08-15T22:33:45",
@@ -18290,7 +18319,8 @@
    "2026-08-16T20:31:30",
    "2026-08-16T20:46:43",
    "2026-08-16T21:00:09",
-   "2026-08-16T21:36:54"
+   "2026-08-16T21:36:54",
+   "2026-08-16T21:52:51"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-16T21",
