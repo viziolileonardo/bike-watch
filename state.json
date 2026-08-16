@@ -13797,11 +13797,86 @@
    "level": "digest",
    "first_seen": "2026-08-16T11:33:10+00:00",
    "blue_score": 0.023
+  },
+  "ebay:v1|168617806781|0": {
+   "id": "ebay:v1|168617806781|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168617806781?_skw=road+bike&hash=item2742678bbd:g:oCcAAeSwQzFqgaJh",
+   "title": "Shimano Dura-Ace FC-R9200 12s 172.5mm 52/36T Road Bike Crankset With Chainring",
+   "description": "",
+   "location": "PA1***",
+   "price_text": "\u00a3207.66",
+   "price": 207.66,
+   "image": "https://i.ebayimg.com/images/g/oCcAAeSwQzFqgaJh/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T11:48:27+00:00",
+   "blue_score": 0.044
+  },
+  "ebay:v1|147508455339|0": {
+   "id": "ebay:v1|147508455339|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147508455339?_skw=road+bike&hash=item22583067ab:g:6gsAAeSwJvdqgZzX",
+   "title": "Cannondale SuperSix EVO Road Bike Frame & Fork Frameset (Rim Brake) Black/Gold",
+   "description": "",
+   "location": "AL1***",
+   "price_text": "\u00a3669.70",
+   "price": 669.7,
+   "image": "https://i.ebayimg.com/images/g/6gsAAeSwJvdqgZzX/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T11:48:27+00:00",
+   "blue_score": 0.037
+  },
+  "kleinanzeigen:3486063657": {
+   "id": "kleinanzeigen:3486063657",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cannondale-topstone-sl2-e-gravelbike-gr-l-topzustand/3486063657-217-1096",
+   "title": "Cannondale Topstone SL2 E-Gravelbike Gr. L Topzustand",
+   "description": "Ich verkaufe mein Cannondale Topstone Neo SL 2 in der Rahmengro\u00dfe L\n\nDas Fahrrad wurde sehr wenig...",
+   "location": "44388 L\u00fctgendortmund",
+   "price_text": "1.500 \u20ac",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fd/fdb161e8-4c04-4cee-84f0-f018b93dabe6?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T11:48:27+00:00",
+   "blue_score": 0.005
+  },
+  "kleinanzeigen:3486063202": {
+   "id": "kleinanzeigen:3486063202",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/simplon-inissio-pmax-extra-ausstattung-267km/3486063202-217-6455",
+   "title": "SIMPLON Inissio Pmax - Extra Ausstattung - 267km",
+   "description": "Zum Verkauf steht mein Gravelbike Simplon Inissio PMAX in Rahmengr\u00f6\u00dfe 57. Das Bike befindet sich in...",
+   "location": "81673 Berg-\u200bam-\u200bLaim",
+   "price_text": "2.600 \u20ac",
+   "price": 2600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/11/115a9d41-2717-486b-8a97-fffe656e768d?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T11:48:27+00:00",
+   "blue_score": 0.0
+  },
+  "marktplaats:m2431537437": {
+   "id": "marktplaats:m2431537437",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2431537437-scott-speedster-gravel-30-gravelbike-maat-xl",
+   "title": "Scott Speedster Gravel 30 - Gravelbike - Maat XL",
+   "description": "Te koop aangeboden: een zo goed als nieuwe scott speedster gravel 30 gravelbike in maat xl. Deze fiets is ideaal voor zowel onverharde paden als woon-werkverkeer. Voorzien van een shimano grx groepset",
+   "location": "Den Hout",
+   "price_text": "\u20ac1200",
+   "price": 1200.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1bd8e3f0-ccba-41c1-8cb1-bf0f8c69ab16?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T11:48:27+00:00",
+   "blue_score": 0.005
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 75,
+   "fail_streak": 76,
    "warned": true,
    "ever_ok": true
   },
@@ -13867,7 +13942,8 @@
    "2026-08-16T11:07:43",
    "2026-08-16T11:37:50",
    "2026-08-16T12:03:47",
-   "2026-08-16T12:33:41"
+   "2026-08-16T12:33:41",
+   "2026-08-16T12:48:28"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-16T12",
