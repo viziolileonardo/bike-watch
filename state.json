@@ -18931,11 +18931,86 @@
    "level": "digest",
    "first_seen": "2026-08-16T22:50:28+00:00",
    "blue_score": 0.078
+  },
+  "kleinanzeigen:3234624891": {
+   "id": "kleinanzeigen:3234624891",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/time-alpe-d-huez-01-disc-rennrad-carbon-schwarz-rh57-l/3234624891-217-4356",
+   "title": "TIME Alpe d\u2019Huez 01 Disc Rennrad Carbon / Schwarz RH57 L",
+   "description": "TIME Alpe d\u2019Huez 01 Disc \u2013 Gr\u00f6\u00dfe 57 / L \u2013 hochwertiger Aufbau\n\nVerkaufe mein TIME Alpe d\u2019Huez...",
+   "location": "63075 Offenbach",
+   "price_text": "2.590 \u20ac VB",
+   "price": 2590.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/ea6acd6f-6f1f-4035-ae08-fcec3c321680?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T23:38:18+00:00",
+   "blue_score": 0.002
+  },
+  "kleinanzeigen:3471863486": {
+   "id": "kleinanzeigen:3471863486",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/tenways-cgo-compact-riemen-sehr-leicht-verfuegbar/3471863486-217-1958",
+   "title": "Tenways CGO Compact Riemen sehr leicht Verf\u00fcgbar",
+   "description": "TENWAYS CGO Compact \u2013 Das Premium City-E-Bike mit Carbon-Riemenantrieb | Sofort verf\u00fcgbar\n\nGro\u00dfe...",
+   "location": "41199 M\u00f6nchengladbach",
+   "price_text": "1.999 \u20ac",
+   "price": 1999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5d1312cf-9d2d-412f-a985-7b7a661122e9?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T23:38:18+00:00",
+   "blue_score": 0.002
+  },
+  "kleinanzeigen:3486718094": {
+   "id": "kleinanzeigen:3486718094",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/orbea-terra-h30-gravelbike-refurbished/3486718094-217-16382",
+   "title": "Orbea Terra H30 Gravelbike / Refurbished",
+   "description": "Orbea Terra H30 \u2013 Vielseitiges Gravelbike f\u00fcr Stra\u00dfe, Schotter und Abenteuer\n\nDas Orbea Terra H30...",
+   "location": "81369 Sendling",
+   "price_text": "1.299 \u20ac",
+   "price": 1299.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c68d0be-e243-43bd-9177-2bc44ccee19a?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T23:38:18+00:00",
+   "blue_score": 0.009
+  },
+  "kleinanzeigen:3486717264": {
+   "id": "kleinanzeigen:3486717264",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-pro-2023-gebraucht-sehr-guter-zustand-/3486717264-217-5317",
+   "title": "Cube Nuroad Pro 2023, gebraucht. Sehr guter Zustand.",
+   "description": "Ich verkaufe ein zuverl\u00e4ssiges Gravelbike in sehr gutem Zustand, ideal f\u00fcr Pendler, Touren und...",
+   "location": "55131 Mainz",
+   "price_text": "1.050 \u20ac VB",
+   "price": 1050.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e291dc1-12f2-4c80-aa59-c1eb3a584c8e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T23:38:18+00:00",
+   "blue_score": 0.002
+  },
+  "kleinanzeigen:3486716901": {
+   "id": "kleinanzeigen:3486716901",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-race-gravelbike-refurbished/3486716901-217-16382",
+   "title": "Cube Nuroad Race Gravelbike / Refurbished",
+   "description": "CUBE Nuroad Race \u2013 Sportliches Gravelbike f\u00fcr Stra\u00dfe, Schotter und Abenteuer\n\nDas CUBE Nuroad Race...",
+   "location": "81369 Sendling",
+   "price_text": "1.099 \u20ac",
+   "price": 1099.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9d/9db04c32-6514-468f-8df1-a06be3b1ce65?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T23:38:18+00:00",
+   "blue_score": 0.051
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 108,
+   "fail_streak": 109,
    "warned": true,
    "ever_ok": true
   },
@@ -18950,8 +19025,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T00:02:33",
-   "2026-08-16T00:33:13",
    "2026-08-16T00:48:12",
    "2026-08-16T01:02:00",
    "2026-08-16T02:56:32",
@@ -19004,7 +19077,8 @@
    "2026-08-16T23:50:28",
    "2026-08-16T23:51:30",
    "2026-08-16T23:55:34",
-   "2026-08-17T00:01:28"
+   "2026-08-17T00:01:28",
+   "2026-08-17T00:38:19"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-17T00",
