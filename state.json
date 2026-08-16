@@ -12474,11 +12474,86 @@
    "level": "digest",
    "first_seen": "2026-08-16T07:44:38+00:00",
    "blue_score": 0.06
+  },
+  "ebay:v1|206494936494|0": {
+   "id": "ebay:v1|206494936494|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206494936494?_skw=road+bike&hash=item30140eadae:g:WJMAAeSwOT5qgW7B",
+   "title": "Vintage Peugeot Bike - 60cm Frame, Fully Serviced",
+   "description": "",
+   "location": "SE26***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/WJMAAeSwOT5qgW7B/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:11:36+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3485748682": {
+   "id": "kleinanzeigen:3485748682",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mondince-fm336-aero-gravel-gr-xl-58-rose-backroad-udh-1x13-axs/3485748682-217-2605",
+   "title": "Mondince FM336 Aero Gravel Gr. XL 58 Rose Backroad UDH 1x13 AXS",
+   "description": "Mondince FM336 Gravel \u2013 Gr\u00f6\u00dfe XL / 58\n\nIch verkaufe mein hochwertig aufgebautes Mondince FM336...",
+   "location": "49170 Hagen am Teutoburger Wald",
+   "price_text": "1.750 \u20ac VB",
+   "price": 1750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ae/ae1fe12c-191c-4694-ac2a-aebed0cdef22?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:11:36+00:00",
+   "blue_score": 0.429
+  },
+  "kleinanzeigen:3463070856": {
+   "id": "kleinanzeigen:3463070856",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-cube-attempt-rahmengroesse-62/3463070856-217-8599",
+   "title": "Rennrad Cube Attempt, Rahmengr\u00f6\u00dfe 62",
+   "description": "Ich biete hier ein gebrauchtes\nCube-Attempt Rennrad, Rahmengr\u00f6\u00dfe 62 (Alu 7005-Rahmen, \"Double...",
+   "location": "88239 Wangen im Allg\u00e4u",
+   "price_text": "365 \u20ac VB",
+   "price": 365.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7cdd2f11-f448-496b-b23d-7e000cf36f9a?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:11:36+00:00",
+   "blue_score": 0.011
+  },
+  "marktplaats:m2431432415": {
+   "id": "marktplaats:m2431432415",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2431432415-van-tuyl-aluminium-racefiets-shimano-sora-carbon-voorvork",
+   "title": "Van Tuyl Aluminium Racefiets -Shimano Sora - Carbon Voorvork",
+   "description": "Mooie aluminium racefiets van de bekende fietsenbouwer van tuyl. Het frame is maat m, ideaal voor personen met een lengte tussen 170 en 180 cm. De fiets is voorzien van een carbon voorvork voor extra ",
+   "location": "Drunen",
+   "price_text": "\u20ac285",
+   "price": 285.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0910f1f8-3853-43af-9b76-d92713f72906?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:11:36+00:00",
+   "blue_score": 0.421
+  },
+  "marktplaats:m2431430533": {
+   "id": "marktplaats:m2431430533",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2431430533-wilier-gtr-sl-racefiets-carbon-ultegra",
+   "title": "Wilier GTR SL racefiets carbon, Ultegra",
+   "description": "Wilier gtr sl racefiets, carbon, ultegra, 2016 te koop, wilier gtr sl uit 2016. Een fijne, lichte carbon racefiets. Mooie italiaanse fiets met een opvallende geel/rode kleurstelling. De fiets is afgem",
+   "location": "Rijssen",
+   "price_text": "\u20ac1175",
+   "price": 1175.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/255deb20-89cb-4d5e-a558-55755a4eae46?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:11:36+00:00",
+   "blue_score": 0.019
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 67,
+   "fail_streak": 68,
    "warned": true,
    "ever_ok": true
   },
@@ -12545,10 +12620,11 @@
    "2026-08-16T06:42:43",
    "2026-08-16T07:16:05",
    "2026-08-16T07:59:21",
-   "2026-08-16T08:44:47"
+   "2026-08-16T08:44:47",
+   "2026-08-16T09:11:38"
   ],
-  "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-16T08",
+  "last_heartbeat": "2026-08-16",
+  "last_status": "2026-08-16T09",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
