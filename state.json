@@ -11964,11 +11964,101 @@
    "level": "digest",
    "first_seen": "2026-08-16T05:42:42+00:00",
    "blue_score": 0.144
+  },
+  "gumtree:1801600437": {
+   "id": "gumtree:1801600437",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/road-racing-commuter-bike-by-venture-black-good-condition-just-serviced-cheap-price-/1801600437",
+   "title": "Road/ Racing/ Commuter Bike By Venture, Black, Good Condition, JUST SERVICED/ CHEAP PRICE!!!",
+   "description": "",
+   "location": "Camden Town, London",
+   "price_text": "\u00a3225",
+   "price": 225.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/5d289ca8c8484f8b9b_bb3c539f698a/86",
+   "level": "digest",
+   "first_seen": "2026-08-16T06:16:02+00:00",
+   "blue_score": 0.277
+  },
+  "ebay:v1|267758724963|0": {
+   "id": "ebay:v1|267758724963|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267758724963?_skw=road+bike&hash=item3e57a9e763:g:3DoAAeSw5UJqgU-V",
+   "title": "VAN RYSEL Men's Road Bike EDR CF Ultegra - Black Size Small",
+   "description": "",
+   "location": "W13***",
+   "price_text": "\u00a31434.70",
+   "price": 1434.7,
+   "image": "https://i.ebayimg.com/images/g/3DoAAeSw5UJqgU-V/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T06:16:02+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3485669104": {
+   "id": "kleinanzeigen:3485669104",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/focus-rennrad-56er-rahmen-komplett-neuer-antrieb/3485669104-217-3489",
+   "title": "FOCUS\u00ae Rennrad  56er Rahmen komplett neuer Antrieb",
+   "description": "Angeboten wird ein Rennrad \"Summit\" der Marke FOCUS\u00ae. Das Rad hat einen komplett neuen...",
+   "location": "10435 Prenzlauer Berg",
+   "price_text": "599 \u20ac VB",
+   "price": 599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d5ca8954-a11c-46fe-9042-ce92db7fba45?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T06:16:02+00:00",
+   "blue_score": 0.042
+  },
+  "kleinanzeigen:3485668763": {
+   "id": "kleinanzeigen:3485668763",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/hochwertiges-bombtrack-oxbridge-28er/3485668763-217-922",
+   "title": "Hochwertiges Bombtrack Oxbridge 28er",
+   "description": "28er\n1 Gang Singlespeed\nRH 60cm\nSehr leichtes schnelles Stadt Fahrrad\nHochwertige Verarbeitung von...",
+   "location": "22926 Ahrensburg",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/baa7d1e1-1bd4-4498-90b9-e2929c6cdb2d?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T06:16:02+00:00",
+   "blue_score": 0.128
+  },
+  "kleinanzeigen:3485667851": {
+   "id": "kleinanzeigen:3485667851",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/neuer-miche-swr-rc-carbon-clincher-laufradsatz-felgenbremse-/3485667851-217-1309",
+   "title": "Neuer Miche SWR RC Carbon Clincher Laufradsatz (Felgenbremse)",
+   "description": "Neuer Miche SWR RC Carbon Clincher Laufradsatz (Felgenbremse)\n\nMit Shimano Titan-Freilaufk\u00f6rper und...",
+   "location": "48599 Gronau (Westfalen)",
+   "price_text": "799 \u20ac",
+   "price": 799.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e5ac42c6-a179-4b14-b73b-b45ff47bdd9a?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T06:16:02+00:00",
+   "blue_score": 0.0
+  },
+  "marktplaats:m2431400906": {
+   "id": "marktplaats:m2431400906",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2431400906-orbea-orca-omx-maat-57",
+   "title": "Orbea orca omx maat 57",
+   "description": "Orbea orca omx (beste carbon van orbea) koersfiets in prachtige staat. Enkele gebruiksporen aan de trapas achter het kettingblad en 1 klein plekje op de bovenbuis zie foto in schadduw en licht. Maar 5",
+   "location": "Maastricht",
+   "price_text": "\u20ac3100",
+   "price": 3100.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/bd71f816-8809-413a-bd27-ff927d6b07ba?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T06:16:02+00:00",
+   "blue_score": 0.069
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 64,
+   "fail_streak": 65,
    "warned": true,
    "ever_ok": true
   },
@@ -11983,7 +12073,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T07:14:06",
    "2026-08-15T07:58:15",
    "2026-08-15T08:41:38",
    "2026-08-15T09:11:58",
@@ -12035,10 +12124,11 @@
    "2026-08-16T05:17:00",
    "2026-08-16T05:51:46",
    "2026-08-16T06:14:26",
-   "2026-08-16T06:42:43"
+   "2026-08-16T06:42:43",
+   "2026-08-16T07:16:05"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-16T06",
+  "last_status": "2026-08-16T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
