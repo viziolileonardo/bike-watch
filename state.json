@@ -11709,11 +11709,71 @@
    "level": "digest",
    "first_seen": "2026-08-16T01:56:28+00:00",
    "blue_score": 0.044
+  },
+  "ebay:v1|137626275105|0": {
+   "id": "ebay:v1|137626275105|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137626275105?_skw=road+bike&hash=item200b2a4d21:g:I-YAAeSwtGBqgRKc",
+   "title": "Specialized Allez E5 Disc Sport 2024 (Size 58, Dove Grey, plus accessories)",
+   "description": "",
+   "location": "IG11***",
+   "price_text": "\u00a3741.10",
+   "price": 741.1,
+   "image": "https://i.ebayimg.com/images/g/I-YAAeSwtGBqgRKc/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T02:50:09+00:00",
+   "blue_score": 0.004
+  },
+  "kleinanzeigen:3446480271": {
+   "id": "kleinanzeigen:3446480271",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pivot-mach-5-5-carbon-fully-sram-x0-uvp-11-499-high-end-ausstattung/3446480271-217-1836",
+   "title": "Pivot Mach 5.5 \u2013 Carbon Fully \u2013 SRAM X0 \u2013 UVP 11.499 \u20ac \u2013 High-End Ausstattung",
+   "description": "Pivot Mach 5.5 Carbon Fully Mountainbike in sehr gutem und fahrbereitem Zustand. Das Bike hatte...",
+   "location": "32052 Herford",
+   "price_text": "2.599 \u20ac",
+   "price": 2599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f49c93db-7b76-4a3a-8450-6e2b65ab435b?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T02:50:09+00:00",
+   "blue_score": 0.07
+  },
+  "kleinanzeigen:3485642746": {
+   "id": "kleinanzeigen:3485642746",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-sirrus-rennrad-schwarz/3485642746-217-6441",
+   "title": "Specialized Sirrus Rennrad schwarz",
+   "description": "Ich verkaufe mein Specialized Sirrus Rennrad, das mir treue Dienste geleistet hat. Es ist ein...",
+   "location": "80333 Maxvorstadt",
+   "price_text": "265 \u20ac",
+   "price": 265.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fd/fdba5fc1-f5c6-479e-8ba3-306549a8bec4?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T02:50:09+00:00",
+   "blue_score": 0.029
+  },
+  "kleinanzeigen:3485641991": {
+   "id": "kleinanzeigen:3485641991",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/colnago-e1/3485641991-217-4316",
+   "title": "Colnago E1",
+   "description": "Ein sch\u00f6nes Colnago E1 zu verkaufen\nVOLLCARBON\nCampagnolo Chorus Schaltgruppe\n51 cm Rahmenh\u00f6he.\nEs...",
+   "location": "60598 Sachsenhausen",
+   "price_text": "1.050 \u20ac",
+   "price": 1050.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/460989b2-f5c1-420f-8df3-f9ad4cdf1a2e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T02:50:09+00:00",
+   "blue_score": 0.029
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 58,
+   "fail_streak": 59,
    "warned": true,
    "ever_ok": true
   },
@@ -11728,7 +11788,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T02:58:52",
    "2026-08-15T04:03:44",
    "2026-08-15T04:51:56",
    "2026-08-15T05:16:39",
@@ -11781,10 +11840,11 @@
    "2026-08-16T00:33:13",
    "2026-08-16T00:48:12",
    "2026-08-16T01:02:00",
-   "2026-08-16T02:56:32"
+   "2026-08-16T02:56:32",
+   "2026-08-16T03:50:11"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-16T02",
+  "last_status": "2026-08-16T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
