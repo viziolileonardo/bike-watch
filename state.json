@@ -11814,11 +11814,71 @@
    "level": "digest",
    "first_seen": "2026-08-16T03:36:49+00:00",
    "blue_score": 0.0
+  },
+  "kleinanzeigen:3473643364": {
+   "id": "kleinanzeigen:3473643364",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carbon-hardtail-gravelbike-gr-l-xtr-rock-shox-sid-sl-9kg/3473643364-217-4548",
+   "title": "Carbon Hardtail / Gravelbike Gr. L, XTR, Rock Shox SID SL, <9kg",
+   "description": "Ich verkaufe hier mein im Corona Lockdown individuell aufgebautes Traum Mountainbike.\nDas Rad ist...",
+   "location": "61118 Bad Vilbel",
+   "price_text": "1.599 \u20ac VB",
+   "price": 1599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56b05433-8dde-4652-946f-77f3c7a7729e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:16:59+00:00",
+   "blue_score": 0.005
+  },
+  "kleinanzeigen:3485645860": {
+   "id": "kleinanzeigen:3485645860",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/arrow-topeka-rscing-seties-26-zoll-deore-xt-manitou-19-/3485645860-217-21916",
+   "title": "Arrow Topeka Rscing Seties 26 zoll Deore XT Manitou 19\"",
+   "description": "Zum Verkauf steht ein sehr gut erhaltenes ARROW Topeka Racing Series Mountainbike mit hochwertiger...",
+   "location": "39167 Irxleben",
+   "price_text": "249 \u20ac VB",
+   "price": 249.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/05/051c9e2a-4ee0-4a30-988c-865e2b25b91f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:16:59+00:00",
+   "blue_score": 0.071
+  },
+  "kleinanzeigen:3485645289": {
+   "id": "kleinanzeigen:3485645289",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-batavus-s-light-rh62-shimano-sora-3x8-crmo-btvs/3485645289-217-1922",
+   "title": "Rennrad BATAVUS \"S-light\"   RH62     Shimano SORA 3x8  CrMo BTVS",
+   "description": "BTVS \"S-light\" Stahlrennrad CrMo aus ca. 1997/98\n\nf\u00fcr grosse Jungs (185 + s.Tabelle...",
+   "location": "52064 Aachen-\u200bMitte",
+   "price_text": "349 \u20ac",
+   "price": 349.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b4/b4a6c3fe-1141-48f4-bb89-03e767c1e45a?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:16:59+00:00",
+   "blue_score": 0.053
+  },
+  "kleinanzeigen:3485644213": {
+   "id": "kleinanzeigen:3485644213",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/koga-miyata-crosswinner-gravel-rennrad-rh-54-shimano-105/3485644213-217-7615",
+   "title": "Koga Miyata Crosswinner Gravel/Rennrad RH 54 - Shimano 105",
+   "description": "Verkaufe meinen Koga Miyata Crosswinner, Baujahr 2009. Alurahmen mit Carbongabel, komplett Shimano...",
+   "location": "85051 Ingolstadt",
+   "price_text": "549 \u20ac",
+   "price": 549.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/30dcee9b-b9fa-4092-825d-db7c03d6400b?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:16:59+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 60,
+   "fail_streak": 61,
    "warned": true,
    "ever_ok": true
   },
@@ -11833,8 +11893,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T04:51:56",
-   "2026-08-15T05:16:39",
    "2026-08-15T05:47:52",
    "2026-08-15T06:11:43",
    "2026-08-15T06:38:34",
@@ -11886,10 +11944,11 @@
    "2026-08-16T01:02:00",
    "2026-08-16T02:56:32",
    "2026-08-16T03:50:11",
-   "2026-08-16T04:36:51"
+   "2026-08-16T04:36:51",
+   "2026-08-16T05:17:00"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-16T04",
+  "last_status": "2026-08-16T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
