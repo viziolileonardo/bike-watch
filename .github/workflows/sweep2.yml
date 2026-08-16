@@ -41,6 +41,10 @@ jobs:
       BIKEWATCH_ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main   # live tip, not the SHA snapshotted at queue time — a run
+                      # queued seconds after another one's push would work on a
+                      # stale base and lose the state-commit race
 
       - name: Ensure phone alerts are wired
         run: '[ -n "$BIKEWATCH_NTFY_TOPIC" ] || { echo "::error::NTFY_TOPIC secret is not set — phone alerts are dead"; exit 1; }'
@@ -67,4 +71,8 @@ jobs:
           git add gumtree_backoff.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "sweep: $(date '+%Y-%m-%d %H:%M')"
-          git push || { git fetch origin main && git rebase origin/main && git push; }
+          git push \
+            || { git fetch origin main && git rebase origin/main && git push; } \
+            || { git rebase --abort 2>/dev/null || true
+                 echo "::warning::push race lost — dropping this sweep's state commit (findings are re-found next sweep)"
+                 exit 0; }
