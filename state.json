@@ -1545,7 +1545,8 @@
    "first_seen": "2026-08-14T05:17:14+00:00",
    "blue_score": 0.028,
    "evidence_photo": "evidence/shopify_MyNextBike_15047162790264.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.mynextbike.co.uk/products/genesis-volare-disc-853-fs-2018"
+   "wayback": "https://web.archive.org/web/2/https://www.mynextbike.co.uk/products/genesis-volare-disc-853-fs-2018",
+   "ai_reason": "Different frame, but it's a fresh build carrying DT Swiss E1800 wheels and Shimano 105 matching the stolen bike's components, so stripped parts could plausibly have been rebuilt onto this frameset."
   },
   "ebay:v1|407145357907|0": {
    "id": "ebay:v1|407145357907|0",
@@ -6092,7 +6093,8 @@
    "level": "alert",
    "first_seen": "2026-08-15T11:47:46+00:00",
    "blue_score": 0.25,
-   "evidence_photo": "evidence/gumtree_1801568765.jpg"
+   "evidence_photo": "evidence/gumtree_1801568765.jpg",
+   "ai_reason": "A carbon-framed road bike listed cheaply in Hackney days after a Shoreditch theft could be the stolen frame rebranded/rebuilt with swapped tyres, so it can't be ruled out."
   },
   "gumtree:1801568746": {
    "id": "gumtree:1801568746",
@@ -9993,7 +9995,8 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.23,
    "evidence_photo": "evidence/gumtree_1801592628.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/forme-comp-shimano-105-groupset-axe-edge-full-carbon-road-bike-54cm22-frame-/1801592628"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/forme-comp-shimano-105-groupset-axe-edge-full-carbon-road-bike-54cm22-frame-/1801592628",
+   "ai_reason": "A cheap full-carbon road bike with Shimano 105 listed in Islington right by the theft area could be the stolen frame rebadged/rebuilt or carry its 105 groupset, so it can't be ruled out."
   },
   "gumtree:1801592461": {
    "id": "gumtree:1801592461",
@@ -10011,7 +10014,8 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.179,
    "evidence_photo": "evidence/gumtree_1801592461.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/calibre-nibiru-2.0-shimano-105-groupset-fullcarbon-road-bike-58cm23-inch-frame-/1801592461"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/calibre-nibiru-2.0-shimano-105-groupset-fullcarbon-road-bike-58cm23-inch-frame-/1801592461",
+   "ai_reason": "A cheap full-carbon road bike with Shimano 105 listed in Islington shortly after a Shoreditch theft could be the stolen frame rebadged/misdescribed or carry its 105 groupset, so it can't be ruled out."
   },
   "gumtree:1801592435": {
    "id": "gumtree:1801592435",
@@ -10029,7 +10033,8 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.171,
    "evidence_photo": "evidence/gumtree_1801592435.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/scott-comp-sds-tiagra-groupset-fullcarbon-road-bike-56cm-22-lg-frame-/1801592435"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/scott-comp-sds-tiagra-groupset-fullcarbon-road-bike-56cm-22-lg-frame-/1801592435",
+   "ai_reason": "A cheap full-carbon road bike listed in neighbouring Islington days after the theft could be the stolen frame rebadged/mis-described or rebuilt with different (Tiagra) parts, so it can't be ruled out."
   },
   "gumtree:1801591765": {
    "id": "gumtree:1801591765",
@@ -10047,7 +10052,9 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.23,
    "evidence_photo": "evidence/gumtree_1801591765.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/cannondale-synapse-cdale-ultegra-groupset-carbon-rims-fullcarbon-road-bike-xxl-frame-/1801591765"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/cannondale-synapse-cdale-ultegra-groupset-carbon-rims-fullcarbon-road-bike-xxl-frame-/1801591765",
+   "ai_reason": "This is a different branded model (Cannondale Synapse) with Ultegra groupset and carbon rims, sharing no identifiable components with the stolen Swift UniVox Comp (105 hydraulic, DT Swiss E1800 wheels).",
+   "fp": true
   },
   "gumtree:1801592072": {
    "id": "gumtree:1801592072",
@@ -10065,7 +10072,8 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.079,
    "evidence_photo": "evidence/gumtree_1801592072.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/cube-peloton-sl-105-groupset-alloy-carbon-fibre-road-bike-58cm23-inch-xl-frame-/1801592072"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/cube-peloton-sl-105-groupset-alloy-carbon-fibre-road-bike-58cm23-inch-xl-frame-/1801592072",
+   "ai_reason": "A Cube alloy/carbon road bike with Shimano 105 groupset sold cheaply near the theft location could contain the stolen bike's 105 components, so it can't be clearly ruled out."
   },
   "gumtree:1801591847": {
    "id": "gumtree:1801591847",
@@ -10083,7 +10091,9 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.253,
    "evidence_photo": "evidence/gumtree_1801591847.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/felt-f95-elite-shimano-sora-groupset-alloy-carbon-fibre-road-bike-xxl-frame-/1801591847"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/felt-f95-elite-shimano-sora-groupset-alloy-carbon-fibre-road-bike-xxl-frame-/1801591847",
+   "ai_reason": "This is a different branded model (Felt F95 Elite, alloy frame with Sora groupset) that shares no specific components with the stolen Swift UniVox Comp (105 hydraulic disc, DT Swiss wheels).",
+   "fp": true
   },
   "gumtree:1801591588": {
    "id": "gumtree:1801591588",
@@ -10101,7 +10111,9 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.031,
    "evidence_photo": "evidence/gumtree_1801591588.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/bianchi-nirone-7-tiagra-groupset-alloy-carbon-fibre-road-bike-57cm-22.5-lg-to-xl-frame-/1801591588"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/bianchi-nirone-7-tiagra-groupset-alloy-carbon-fibre-road-bike-57cm-22.5-lg-to-xl-frame-/1801591588",
+   "ai_reason": "This is a different branded model (Bianchi Nirone 7 alloy frame with Tiagra groupset), not the stolen carbon Swift with 105 hydraulic disc, and shares no identifiable stolen components.",
+   "fp": true
   },
   "gumtree:1801591685": {
    "id": "gumtree:1801591685",
@@ -10134,7 +10146,9 @@
    "first_seen": "2026-08-15T19:11:40+00:00",
    "blue_score": 0.201,
    "evidence_photo": "evidence/gumtree_1801591191.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/cube-attain-tiagra-groupset-carbon-fibre-road-bike-56cm-22-lg-to-xl-frame-/1801591191"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/cube-attain-tiagra-groupset-carbon-fibre-road-bike-56cm-22-lg-to-xl-frame-/1801591191",
+   "ai_reason": "This is a different branded model (Cube Attain with Tiagra groupset) that shares no specific components with the stolen Swift UniVox Comp (105 hydraulic, DT Swiss wheels).",
+   "fp": true
   },
   "gumtree:1801591132": {
    "id": "gumtree:1801591132",
@@ -13556,7 +13570,8 @@
    "first_seen": "2026-08-16T11:33:10+00:00",
    "blue_score": 0.25,
    "evidence_photo": "evidence/gumtree_1801609432.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/-road-bike-muddyfox-carbon-race-400-black-carbon-frame-large-60cm-new-schwalbe-marathon-plus/1801609432"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/-road-bike-muddyfox-carbon-race-400-black-carbon-frame-large-60cm-new-schwalbe-marathon-plus/1801609432",
+   "ai_reason": "A cheap carbon road bike listed near the theft location could be the stolen carbon frame repainted/rebadged or rebuilt with swapped tyres, so it can't be ruled out."
   },
   "gumtree:1801608995": {
    "id": "gumtree:1801608995",
