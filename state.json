@@ -12549,11 +12549,86 @@
    "level": "digest",
    "first_seen": "2026-08-16T08:11:36+00:00",
    "blue_score": 0.019
+  },
+  "ebay:v1|336745100371|0": {
+   "id": "ebay:v1|336745100371|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336745100371?_skw=road+bike&hash=item4e67927453:g:tCYAAeSw6z1qgXZc",
+   "title": "Boardman Team C carbon road bike size 53/54.",
+   "description": "",
+   "location": "HG4***",
+   "price_text": "\u00a3265.90",
+   "price": 265.9,
+   "image": "https://i.ebayimg.com/images/g/tCYAAeSw6z1qgXZc/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:46:21+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|287528196401|0": {
+   "id": "ebay:v1|287528196401|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287528196401?_skw=road+bike&hash=item42f2041931:g:nssAAeSwp49qgXVH",
+   "title": "Shimano Ultegra DI2 11 speed groupset",
+   "description": "",
+   "location": "CR5***",
+   "price_text": "\u00a3414.70",
+   "price": 414.7,
+   "image": "https://i.ebayimg.com/images/g/nssAAeSwp49qgXVH/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:46:21+00:00",
+   "blue_score": 0.099
+  },
+  "kleinanzeigen:3485789251": {
+   "id": "kleinanzeigen:3485789251",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-gravel-pathlite-6/3485789251-217-10590",
+   "title": "Canyon Gravel Pathlite 6",
+   "description": "Zum Verlauf steht mein Canyon Pathlite 6 in einem sehr guten Zustand ohne Kratzer oder sonstige...",
+   "location": "24582 Bordesholm",
+   "price_text": "590 \u20ac VB",
+   "price": 590.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a7/a73f7686-95a6-4a44-b6c7-6997911579cb?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:46:21+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3485788476": {
+   "id": "kleinanzeigen:3485788476",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-ghost-road-rage-eq-al-1-5-jahre-alt-super-zustand/3485788476-217-2061",
+   "title": "Gravelbike GHOST Road Rage EQ AL - 1,5 Jahre alt - super Zustand",
+   "description": "Ghost Road Rage EQ AL \u2013 Gravelbike mit kompletter Alltagsausstattung\n\nIch verkaufe mein Ghost Road...",
+   "location": "45472 M\u00fclheim (Ruhr)",
+   "price_text": "599 \u20ac VB",
+   "price": 599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5f54e7fa-d2b2-4912-acec-12c802b3c766?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:46:21+00:00",
+   "blue_score": 0.034
+  },
+  "kleinanzeigen:3485787860": {
+   "id": "kleinanzeigen:3485787860",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bontrager-aoelus-pro-5-carbon-laufradsatz-felgenbremse/3485787860-217-1463",
+   "title": "Bontrager Aoelus Pro 5 Carbon Laufradsatz Felgenbremse",
+   "description": "Bontrager Aeolus Pro 5 Carbon Laufradsatz Felgenbremse\n\nBeschreibung:\nVerkaufe einen neuen...",
+   "location": "57368 Lennestadt",
+   "price_text": "350 \u20ac VB",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a0/a0c06034-e29e-4060-a5fe-4b71b84f98eb?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T08:46:21+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 68,
+   "fail_streak": 69,
    "warned": true,
    "ever_ok": true
   },
@@ -12568,8 +12643,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T09:11:58",
-   "2026-08-15T09:44:03",
    "2026-08-15T10:13:24",
    "2026-08-15T10:38:06",
    "2026-08-15T11:03:54",
@@ -12621,7 +12694,8 @@
    "2026-08-16T07:16:05",
    "2026-08-16T07:59:21",
    "2026-08-16T08:44:47",
-   "2026-08-16T09:11:38"
+   "2026-08-16T09:11:38",
+   "2026-08-16T09:46:23"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-16T09",
