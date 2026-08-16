@@ -19006,11 +19006,26 @@
    "level": "digest",
    "first_seen": "2026-08-16T23:38:18+00:00",
    "blue_score": 0.051
+  },
+  "kleinanzeigen:3486719931": {
+   "id": "kleinanzeigen:3486719931",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/conway-wme-4-7-carbon/3486719931-217-2053",
+   "title": "Conway WME 4.7 - Carbon",
+   "description": "CONWAY WME 4.7 Carbon \u2013 Enduro Fully \u2013 FOX 170 mm \u2013 SRAM NX Eagle \u2013 27,5\u201d\n\nZum Verkauf steht ein...",
+   "location": "45127 Essen-\u200bStadtmitte",
+   "price_text": "999 \u20ac VB",
+   "price": 999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ae/aebf9155-1a46-4ca6-b091-3cd2ec9a0e21?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T23:48:04+00:00",
+   "blue_score": 0.109
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 109,
+   "fail_streak": 110,
    "warned": true,
    "ever_ok": true
   },
@@ -19078,7 +19093,8 @@
    "2026-08-16T23:51:30",
    "2026-08-16T23:55:34",
    "2026-08-17T00:01:28",
-   "2026-08-17T00:38:19"
+   "2026-08-17T00:38:19",
+   "2026-08-17T00:48:04"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-17T00",
