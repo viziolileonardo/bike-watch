@@ -26,7 +26,7 @@ import shutil
 import subprocess
 import sys
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
@@ -492,6 +492,78 @@ def classify(item, alert_terms, price_min, price_max, fuzzy_terms=()):
     return "digest"
 
 
+# ------------------------------------------------------------------- AI triage
+# Would-be alerts get a second opinion from Claude before they push: "could
+# this plausibly be the stolen bike (or its parts)?" Clear mismatches are
+# recorded as FPs — kept in the report, no notification. Degrades gracefully:
+# no BIKEWATCH_ANTHROPIC_KEY / API error / cap hit -> None -> notify anyway
+# (fail open — a missed FP costs a buzz, a missed match costs the bike).
+# Raw HTTP through http_get(): the repo is stdlib-only, no pip installs.
+
+AI_MODEL = "claude-opus-5"
+AI_MAX_CALLS_PER_SWEEP = 15
+AI_CALLS = {"n": 0}
+AI_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "plausible": {"type": "boolean"},
+        "reason": {"type": "string"},
+    },
+    "required": ["plausible", "reason"],
+    "additionalProperties": False,
+}
+
+
+def ai_verdict(item, bike):
+    key = os.environ.get("BIKEWATCH_ANTHROPIC_KEY")
+    if not key or AI_CALLS["n"] >= AI_MAX_CALLS_PER_SWEEP:
+        return None
+    AI_CALLS["n"] += 1
+    prompt = (
+        "A bicycle was stolen and a marketplace monitor flagged the listing "
+        "below as a possible match. Judge whether it could plausibly be the "
+        "stolen bike — or contain identifiable parts from it (wheels, "
+        "groupset, frame sold separately or rebuilt onto another frame; "
+        "stolen bikes are routinely stripped).\n\n"
+        f"STOLEN BIKE: {bike['description']}\n"
+        f"Stolen: {bike.get('stolen_when', '')} at {bike.get('stolen_where', '')}\n\n"
+        "FLAGGED LISTING:\n"
+        f"Title: {item['title']}\n"
+        f"Description: {item['description'][:600]}\n"
+        f"Price: {item['price_text']}  Location: {item['location']}  "
+        f"Source: {item['source']}  Matched via: {item['query']}"
+        f"{' (hot: cheap quality road bike near theft area)' if item.get('hot') else ''}\n\n"
+        "Set plausible=false ONLY when the listing clearly cannot be this "
+        "bike or its parts — e.g. a different branded model that merely "
+        "shares common components, a kids/city/e-bike, a motorbike, or an "
+        "unrelated item. A fresh build or part listing matching the stolen "
+        "bike's specific components IS plausible. If uncertain, set "
+        "plausible=true. One short sentence of reason."
+    )
+    body = json.dumps({
+        "model": AI_MODEL,
+        "max_tokens": 2000,
+        "output_config": {"effort": "low",
+                          "format": {"type": "json_schema", "schema": AI_SCHEMA}},
+        "messages": [{"role": "user", "content": prompt}],
+    })
+    try:
+        resp = json.loads(http_get(
+            "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": key, "anthropic-version": "2023-06-01",
+                     "content-type": "application/json"},
+            data=body))
+        if resp.get("stop_reason") == "refusal":
+            return None
+        text = next(b["text"] for b in resp["content"] if b["type"] == "text")
+        v = json.loads(text)
+        return {"plausible": bool(v["plausible"]),
+                "reason": str(v.get("reason", ""))[:300]}
+    except Exception as e:
+        log(f"ai triage failed for {item['id']}: {e}")
+        return None
+
+
 def notify_macos(title, message, url):
     if sys.platform != "darwin":
         return  # cloud runner — ntfy/telegram carry the alert (a Linux ruby
@@ -608,6 +680,10 @@ def write_report(findings, bike_desc, crime_ref=""):
                  else "<span class='b digest'>digest</span>")
         if f.get("hot"):
             badge += " <span class='b hot'>HOT</span>"
+        if f.get("fp"):
+            badge += (" <span class='b fp' title='"
+                      + H.escape(f.get("ai_reason", ""), quote=True)
+                      + "'>AI: unlikely</span>")
         if near:
             badge += " <span class='b near'>NEAR THEFT</span>"
         if blue:
@@ -637,7 +713,7 @@ def write_report(findings, bike_desc, crime_ref=""):
  td img{{width:150px;border-radius:6px}} .noimg{{width:150px;color:#999;font-size:12px}}
  .b{{color:#fff;padding:2px 8px;border-radius:10px;font-size:12px}}
  .b.alert{{background:#c0392b}} .b.digest{{background:#7f8c8d}} .b.near{{background:#e67e22}}
- .b.hot{{background:#8e44ad}} .b.blue{{background:#2980b9}}
+ .b.hot{{background:#8e44ad}} .b.blue{{background:#2980b9}} .b.fp{{background:#95a5a6}}
  .only-blue tr:not(.blue){{display:none}}
  tr.alert{{background:#fff5f5}} tr.near td:first-child{{border-left:4px solid #e67e22}}
  .desc{{color:#555}} .price{{white-space:nowrap}}
@@ -715,6 +791,26 @@ ROADISH_RE = re.compile(
     r"road|racing|race ?-?\s?(bike|fiets)|rennrad|racefiets|carbon|gravel|"
     r"cyclo|aero|fixie|single ?speed|105|tiagra|ultegra|dura.?ace|di2|e ?1800",
     re.I)
+
+
+def title_tokens(title):
+    return frozenset(t for t in re.findall(r"[a-z0-9]+", title.lower()) if len(t) > 2)
+
+
+def is_relisting(toks, source, seen_tokens):
+    """Same ad back under a new id with a tweaked title and/or price — the
+    exact (title, price) fingerprint misses those, so also suppress when the
+    title's token set heavily overlaps a recent finding from the same source
+    ("Muddyfox Race 400 Road Bike £448" -> "Road Bike Muddyfox Carbon Race
+    400 £395")."""
+    if len(toks) < 4:
+        return False
+    for prev_source, prev_toks in seen_tokens:
+        if prev_source != source or not prev_toks:
+            continue
+        if len(toks & prev_toks) / len(toks | prev_toks) >= 0.8:
+            return True
+    return False
 
 
 def is_hot(item):
@@ -880,7 +976,11 @@ def main():
         key_by_source[shop["name"]] = "shopify"
     fingerprints = {(f["title"].lower().strip(), f["price_text"])
                     for f in findings.values()}
-    new_alerts, new_digest = [], []
+    relist_cutoff = (datetime.now(timezone.utc)
+                     - timedelta(days=14)).isoformat(timespec="seconds")
+    seen_tokens = [(f["source"], title_tokens(f["title"]))
+                   for f in findings.values() if f["first_seen"] >= relist_cutoff]
+    new_alerts, fp_alerts, new_digest = [], [], []
     for item in results:
         if item["id"] in findings:
             continue
@@ -900,16 +1000,33 @@ def main():
         if (level == "digest" and item["query"].startswith("(catch-all")
                 and not ROADISH_RE.search(item["title"] + " " + item["description"])):
             continue  # catch-alls see kids/city/e-bikes too — not the bike
+        toks = title_tokens(item["title"])
+        if level == "digest" and is_relisting(toks, item["source"], seen_tokens):
+            continue  # fuzzy relist — alert-term hits are never suppressed
+        seen_tokens.append((item["source"], toks))
         if level == "digest" and is_hot(item):
             level = "alert"
             item["hot"] = True
+        if (level == "alert"
+                and "univox" not in (item["title"] + item["description"]).lower()):
+            # second opinion before pushing; univox hits always push
+            verdict = ai_verdict(item, cfg["bike"])
+            if verdict:
+                item["ai_reason"] = verdict["reason"]
+                if not verdict["plausible"]:
+                    item["fp"] = True
         item["level"] = level
         item["first_seen"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         findings[item["id"]] = item
-        (new_alerts if level == "alert" else new_digest).append(item)
+        if level != "alert":
+            new_digest.append(item)
+        elif item.get("fp"):
+            fp_alerts.append(item)
+        else:
+            new_alerts.append(item)
 
     scored = 0
-    for item in new_alerts + new_digest:
+    for item in new_alerts + fp_alerts + new_digest:
         if item.get("image") and scored < MAX_IMAGE_SCORES_PER_SWEEP:
             item["blue_score"] = blue_score(item["image"])
             scored += 1
@@ -929,8 +1046,8 @@ def main():
         if notify.get("telegram_bot_token") and notify.get("telegram_chat_id"):
             notify_telegram(notify["telegram_bot_token"], notify["telegram_chat_id"],
                             f"🚨 Possible match on {item['source']}:\n{msg}\n{item['url']}")
-    for item in new_alerts:
-        preserve_evidence(item)
+    for item in new_alerts + fp_alerts:
+        preserve_evidence(item)  # FPs too — cheap, silent, and the AI can be wrong
     report_url = cfg["notify"].get("report_url", "")
     if new_alerts and notify:
         notify_github_issue(new_alerts, report_url)
@@ -944,15 +1061,8 @@ def main():
             notify_ntfy(notify["ntfy_topic"], "🚨 BikeWatch",
                         f"...and {overflow} more possible matches — open the report.",
                         report_url)
-    if new_digest:
-        if notify.get("macos"):
-            notify_macos("BikeWatch",
-                         f"{len(new_digest)} new listing(s) worth a look in the report.",
-                         REPORT_PATH.as_uri())
-        if notify.get("ntfy_topic"):
-            notify_ntfy(notify["ntfy_topic"], "BikeWatch",
-                        f"{len(new_digest)} new listing(s) worth a look in the report.",
-                        report_url, priority="low")
+    # digest items are report-only: with broad catch-alls a per-sweep "worth a
+    # look" push fired on nearly every sweep — counts ride the hourly status
 
     update_health(state, cfg, results_by_source)
     send_status(state, notify, cfg["alert_terms"], results_by_source,
@@ -961,8 +1071,8 @@ def main():
                  cfg["bike"].get("crime_reference", ""))
     save_state(state)
     log(f"sweep done: {len(results)} fetched, "
-        f"{len(new_alerts)} alerts, {len(new_digest)} new digest items, "
-        f"{len(findings)} total tracked")
+        f"{len(new_alerts)} alerts, {len(fp_alerts)} AI-dismissed FPs, "
+        f"{len(new_digest)} new digest items, {len(findings)} total tracked")
 
 
 if __name__ == "__main__":

@@ -39,8 +39,16 @@ the repo, so nothing is lost between runs. Each sweep:
      wheelset if the bike is parted out; the EU `dt swiss e1800` queries
      feed the digest quietly.
    - **digest** — broad match (e.g. any carbon/105/disc road bike in London
-     within the plausible resale price band £300–£2,500): collected quietly.
+     within the plausible resale price band £300–£2,500): collected quietly
+     into the report, no push (counts ride the hourly status ping).
      Thieves usually strip the brand from listings, so eyeball these.
+   - **AI triage**: before a non-`univox` alert pushes, Claude judges
+     whether the listing could plausibly be the bike or its parts (the
+     `ANTHROPIC_API_KEY` Actions secret / `BIKEWATCH_ANTHROPIC_KEY` env
+     var). Clear mismatches — other branded bikes that merely share common
+     components, e-bikes, motorbikes — are marked **AI: unlikely** in the
+     report and don't push. Fail-open: no key or an API error means the
+     alert pushes as before; `univox` hits always push, no AI veto.
 4. Regenerates `reports/findings.html` — review everything with photos
    from any device: https://viziolileonardo.github.io/bike-watch/reports/findings.html
    (GitHub Pages, updates ~1 min after each sweep; or locally via
@@ -61,7 +69,10 @@ Detection details (pressure-tested):
   cuts a run short after a fetch or two, the tail queries (national rare
   terms, catch-all) still get their turn across successive sweeps instead
   of being starved every time.
-- Relistings (same title + price under a new listing ID) are suppressed.
+- Relistings are suppressed: exact (same title + price under a new listing
+  ID) and fuzzy (same source, ≥80% title-token overlap with a finding from
+  the last 14 days — catches retitled/repriced re-posts). Alert-term hits
+  are never fuzzy-suppressed.
 - **Evidence preservation**: the moment a listing alerts, its page is
   snapshotted into the Wayback Machine and its photo committed to
   `reports/evidence/` — suspect ads often vanish within hours, and a
@@ -163,7 +174,8 @@ Can't be scripted (login-walled), but it's where most stolen bikes surface:
 - Phone notifications (ntfy, already configured): the **ntfy** app on your
   phone is subscribed to the topic; the same topic is stored in the repo's
   `NTFY_TOPIC` Actions secret (`gh secret set NTFY_TOPIC`). Alerts push
-  loudly with a tap-to-open listing link; digest summaries arrive silently.
+  loudly with a tap-to-open listing link; digest items stay in the report
+  (no per-sweep push — the hourly status carries the counts).
   The topic name is effectively the password — never commit it (the repo is
   public). For local test runs: `BIKEWATCH_NTFY_TOPIC=<topic> python3
   bikewatch.py --test-notify`.

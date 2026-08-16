@@ -33,6 +33,8 @@ jobs:
       BIKEWATCH_GH_TOKEN: ${{ github.token }}
       BIKEWATCH_EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
       BIKEWATCH_EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
+      # AI triage of would-be alerts (optional — sweeps degrade gracefully without it)
+      BIKEWATCH_ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v5
 
