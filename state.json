@@ -11769,11 +11769,56 @@
    "level": "digest",
    "first_seen": "2026-08-16T02:50:09+00:00",
    "blue_score": 0.029
+  },
+  "gumtree:1801599625": {
+   "id": "gumtree:1801599625",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/trek-domane-al-2-mens-road-bike/1801599625",
+   "title": "Trek Domane AL 2 Mens Road Bike",
+   "description": "",
+   "location": "Greenwich, London",
+   "price_text": "\u00a3320",
+   "price": 320.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/cd7e12c76e414b3c84_6400ed1e7490/86",
+   "level": "digest",
+   "first_seen": "2026-08-16T03:36:49+00:00",
+   "blue_score": 0.225
+  },
+  "kleinanzeigen:3484783940": {
+   "id": "kleinanzeigen:3484783940",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-cross-race-c-62-sl-carbon-grx-810-gravel-cyclocross-61/3484783940-217-1556",
+   "title": "Cube Cross Race C:62 SL Carbon | GRX 810 | Gravel/Cyclocross | 61",
+   "description": "Verkaufe Cube 22 Cross Race C:62 SL teamline Gr\u00f6\u00dfe: 61 cm (Neupreis: 2799,00\u20ac). Das Bike wurde...",
+   "location": "45549 Sprockh\u00f6vel",
+   "price_text": "1.850 \u20ac VB",
+   "price": 1850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b6cbe5d-e7d9-4d72-9e61-d5254f327c7a?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T03:36:49+00:00",
+   "blue_score": 0.142
+  },
+  "kleinanzeigen:3485642929": {
+   "id": "kleinanzeigen:3485642929",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beast-components-ed30-carbon-felgen/3485642929-217-8930",
+   "title": "Beast components ED30 Carbon Felgen",
+   "description": "Felgen der extra klasse in Sicht Carbon.",
+   "location": "76316 Malsch",
+   "price_text": "380 \u20ac VB",
+   "price": 380.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/393d6507-e1e7-4047-baae-b8bdd1011fed?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T03:36:49+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 59,
+   "fail_streak": 60,
    "warned": true,
    "ever_ok": true
   },
@@ -11788,7 +11833,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T04:03:44",
    "2026-08-15T04:51:56",
    "2026-08-15T05:16:39",
    "2026-08-15T05:47:52",
@@ -11841,10 +11885,11 @@
    "2026-08-16T00:48:12",
    "2026-08-16T01:02:00",
    "2026-08-16T02:56:32",
-   "2026-08-16T03:50:11"
+   "2026-08-16T03:50:11",
+   "2026-08-16T04:36:51"
   ],
   "last_heartbeat": "2026-08-15",
-  "last_status": "2026-08-16T03",
+  "last_status": "2026-08-16T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
