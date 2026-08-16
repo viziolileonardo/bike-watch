@@ -18640,11 +18640,86 @@
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
    "blue_score": 0.041
+  },
+  "ebay:v1|366609886766|0": {
+   "id": "ebay:v1|366609886766|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366609886766?_skw=road+bike&hash=item555ba6ee2e:g:xycAAeSwk-9qgi1g",
+   "title": "Specialized Tarmac Comp Compact Ultegra, 58.5cm Blue Drop Bar Rim Brakes",
+   "description": "",
+   "location": "SY13***",
+   "price_text": "\u00a3567.70",
+   "price": 567.7,
+   "image": "https://i.ebayimg.com/images/g/xycAAeSwk-9qgi1g/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:00:40+00:00",
+   "blue_score": 0.037
+  },
+  "kleinanzeigen:3486708438": {
+   "id": "kleinanzeigen:3486708438",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-gc-50-aero-gravel-carbon-laufradsatz-schwalbe-g-one-rs-pro/3486708438-217-5529",
+   "title": "ROSE GC 50 Aero Gravel Carbon Laufradsatz + Schwalbe G One RS pro",
+   "description": "Ich biete einen neuen, ungefahrenen ROSE GC 50 Carbon Aero Gravel Laufradsatz an. Wurde direkt vom...",
+   "location": "87561 Oberstdorf",
+   "price_text": "500 \u20ac VB",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1be80e89-b25a-432d-8b69-189927e9a039?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:00:40+00:00",
+   "blue_score": 0.114
+  },
+  "kleinanzeigen:3486707959": {
+   "id": "kleinanzeigen:3486707959",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-reaction-hybrid-pro-625-neuwertig-allroad-e-mtb-ktm/3486707959-217-9668",
+   "title": "Cube Reaction Hybrid Pro 625 | neuwertig Allroad E-MTB / KTM",
+   "description": "Ich biete mein sehr gut gepflegtes Cube Reaction Hybrid Pro 625 in Rahmengr\u00f6\u00dfe L zum Verkauf.\n\nDas...",
+   "location": "10115 Mitte",
+   "price_text": "1.650 \u20ac",
+   "price": 1650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/aa/aaa2d72e-2c5a-4ab9-b9c0-b1896fe36b7b?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:00:40+00:00",
+   "blue_score": 0.083
+  },
+  "kleinanzeigen:3486707379": {
+   "id": "kleinanzeigen:3486707379",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bmc-timemachine-road-01-three-ultegra-di2-arc-1400-rh-58/3486707379-217-1130",
+   "title": "BMC Timemachine Road 01 THREE | Ultegra Di2 | ARC 1400 | RH 58",
+   "description": "BMC Timemachine Road 01 THREE | Ultegra Di2 | ARC 1400 | RH 58\n\nRahmengr\u00f6\u00dfe: 58 cm\nZustand:...",
+   "location": "47475 Kamp-\u200bLintfort",
+   "price_text": "2.590 \u20ac VB",
+   "price": 2590.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/99de47b6-a31f-496b-b998-c00db24f8119?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:00:40+00:00",
+   "blue_score": 0.371
+  },
+  "kleinanzeigen:3486706429": {
+   "id": "kleinanzeigen:3486706429",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/vintage-rennrad-schauff/3486706429-217-9290",
+   "title": "Vintage Rennrad Schauff",
+   "description": "Verkaufe ein tolles Vintage Rennrad von Schauff.\n\nColumbus Stahlrahmen 53cm\nShimano 600 2x6...",
+   "location": "70197 Stuttgart-\u200bWest",
+   "price_text": "335 \u20ac",
+   "price": 335.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/961e2837-a2ee-466a-b0b4-5fa2f4c47e6c?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T22:00:40+00:00",
+   "blue_score": 0.015
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 101,
+   "fail_streak": 102,
    "warned": true,
    "ever_ok": true
   },
@@ -18659,7 +18734,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T22:49:29",
    "2026-08-15T23:01:03",
    "2026-08-15T23:36:04",
    "2026-08-15T23:53:28",
@@ -18710,10 +18784,11 @@
    "2026-08-16T21:52:51",
    "2026-08-16T22:02:02",
    "2026-08-16T22:33:25",
-   "2026-08-16T22:48:54"
+   "2026-08-16T22:48:54",
+   "2026-08-16T23:00:40"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-16T22",
+  "last_status": "2026-08-16T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
