@@ -30,7 +30,7 @@ permissions:
 jobs:
   sweep:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45   # bulk --triage-backlog runs need the headroom; normal sweeps take ~2 min
     env:
       TZ: Europe/London   # heartbeat-after-09:00 logic uses local time
       BIKEWATCH_NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

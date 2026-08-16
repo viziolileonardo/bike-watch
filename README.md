@@ -42,8 +42,9 @@ the repo, so nothing is lost between runs. Each sweep:
      within the plausible resale price band £300–£2,500): collected quietly
      into the report, no push (counts ride the hourly status ping).
      Thieves usually strip the brand from listings, so eyeball these.
-   - **AI triage**: before a non-`univox` alert pushes, Claude judges
-     whether the listing could plausibly be the bike or its parts (the
+   - **AI triage**: every new finding — alert or digest, except `univox`
+     hits — gets a Claude judgment on whether it could plausibly be the
+     bike or its parts (the
      `ANTHROPIC_API_KEY` Actions secret / `BIKEWATCH_ANTHROPIC_KEY` env
      var). Clear mismatches — other branded bikes that merely share common
      components, e-bikes, motorbikes — are **auto-closed**: kept in

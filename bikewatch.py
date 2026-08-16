@@ -501,7 +501,7 @@ def classify(item, alert_terms, price_min, price_max, fuzzy_terms=()):
 # Raw HTTP through http_get(): the repo is stdlib-only, no pip installs.
 
 AI_MODEL = "claude-opus-5"
-AI_MAX_CALLS_PER_SWEEP = 15
+AI_MAX_CALLS_PER_SWEEP = 25
 AI_CALLS = {"n": 0, "cap": AI_MAX_CALLS_PER_SWEEP}
 AI_SCHEMA = {
     "type": "object",
@@ -963,26 +963,38 @@ def main():
         return
 
     if "--triage-backlog" in sys.argv:
-        # one-shot AI review of alerts recorded before triage existed:
-        # marks clear mismatches fp (report-only), regenerates the report.
+        # bulk AI review of every finding (alert or digest) without a
+        # verdict yet: clear mismatches are closed (fp), the report is
+        # regenerated. Idempotent and resumable — items that fail (rate
+        # limit, API error) stay unreviewed and are picked up on a re-run.
         # No notifications — nothing here is new to the user.
-        # every non-FP alert, including ones a previous triage kept — so a
-        # prompt improvement can be re-applied to the backlog. FPs stay put.
+        from concurrent.futures import ThreadPoolExecutor
         pending = [f for f in findings.values()
-                   if f["level"] == "alert" and not f.get("fp")
+                   if not f.get("fp") and "ai_reason" not in f
                    and "univox" not in (f["title"] + f.get("description", "")).lower()]
         AI_CALLS["cap"] = len(pending)
-        log(f"backlog triage: {len(pending)} unreviewed alert(s)")
-        for f in pending:
+        log(f"backlog triage: {len(pending)} unreviewed finding(s)")
+
+        def review(f):
             verdict = ai_verdict(f, cfg["bike"])
-            if verdict is None:
-                log(f"  {f['id']}: no verdict (key/API problem) — left as-is")
-                continue
-            f["ai_reason"] = verdict["reason"]
-            if not verdict["plausible"]:
-                f["fp"] = True
-            log(f"  {f['id']}: "
-                f"{'FP' if not verdict['plausible'] else 'PLAUSIBLE'} — {verdict['reason']}")
+            if verdict is not None:
+                f["ai_reason"] = verdict["reason"]
+                if not verdict["plausible"]:
+                    f["fp"] = True
+            return f, verdict
+
+        closed = kept = failed = 0
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            for f, verdict in ex.map(review, pending):
+                if verdict is None:
+                    failed += 1
+                elif verdict["plausible"]:
+                    kept += 1
+                    log(f"  KEPT {f['level']} {f['id']}: {verdict['reason']}")
+                else:
+                    closed += 1
+        log(f"backlog triage done: {closed} closed, {kept} kept, "
+            f"{failed} no-verdict (re-run to retry)")
         write_report(findings, cfg["bike"]["description"],
                      cfg["bike"].get("crime_reference", ""))
         save_state(state)
@@ -1017,7 +1029,7 @@ def main():
                      - timedelta(days=14)).isoformat(timespec="seconds")
     seen_tokens = [(f["source"], title_tokens(f["title"]))
                    for f in findings.values() if f["first_seen"] >= relist_cutoff]
-    new_alerts, fp_alerts, new_digest = [], [], []
+    new_alerts, fp_alerts, new_digest, fp_digest = [], [], [], []
     for item in results:
         if item["id"] in findings:
             continue
@@ -1044,9 +1056,9 @@ def main():
         if level == "digest" and is_hot(item):
             level = "alert"
             item["hot"] = True
-        if (level == "alert"
-                and "univox" not in (item["title"] + item["description"]).lower()):
-            # second opinion before pushing; univox hits always push
+        if "univox" not in (item["title"] + item["description"]).lower():
+            # AI verdict on every new finding (alerts: gates the push;
+            # digest: gates report entry); univox hits are exempt
             verdict = ai_verdict(item, cfg["bike"])
             if verdict:
                 item["ai_reason"] = verdict["reason"]
@@ -1055,12 +1067,12 @@ def main():
         item["level"] = level
         item["first_seen"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         findings[item["id"]] = item
-        if level != "alert":
-            new_digest.append(item)
+        if level == "alert":
+            (fp_alerts if item.get("fp") else new_alerts).append(item)
         elif item.get("fp"):
-            fp_alerts.append(item)
+            fp_digest.append(item)
         else:
-            new_alerts.append(item)
+            new_digest.append(item)
 
     scored = 0
     for item in new_alerts + fp_alerts + new_digest:
@@ -1108,8 +1120,9 @@ def main():
                  cfg["bike"].get("crime_reference", ""))
     save_state(state)
     log(f"sweep done: {len(results)} fetched, "
-        f"{len(new_alerts)} alerts, {len(fp_alerts)} AI-dismissed FPs, "
-        f"{len(new_digest)} new digest items, {len(findings)} total tracked")
+        f"{len(new_alerts)} alerts, {len(new_digest)} new digest items, "
+        f"{len(fp_alerts) + len(fp_digest)} AI-closed, "
+        f"{len(findings)} total tracked")
 
 
 if __name__ == "__main__":
