@@ -11874,11 +11874,56 @@
    "level": "digest",
    "first_seen": "2026-08-16T04:16:59+00:00",
    "blue_score": 0.0
+  },
+  "kleinanzeigen:3482516669": {
+   "id": "kleinanzeigen:3482516669",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-xeon-rennrad-shimano-105-mavic-ksyrium-equipe-s-rh59/3482516669-217-1807",
+   "title": "ROSE Xeon Rennrad | Shimano 105 | Mavic Ksyrium Equipe S | RH59",
+   "description": "Verkaufe mein ROSE Xeon Rennrad.\n\nROSE Xeon Rennrad\n6066/T6 Ultralight Aluminiumrahmen\nShimano...",
+   "location": "58515 L\u00fcdenscheid",
+   "price_text": "630 \u20ac VB",
+   "price": 630.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/867ddf37-19a2-4a0f-b38c-fe54ebbf7316?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:51:44+00:00",
+   "blue_score": 0.087
+  },
+  "kleinanzeigen:3485648252": {
+   "id": "kleinanzeigen:3485648252",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kleines-benotto-vintage-rennrad-rh-50-groesse-s-herren-damen-jugend/3485648252-217-1329",
+   "title": "kleines Benotto vintage Rennrad RH 50 Gr\u00f6\u00dfe S Herren Damen Jugend",
+   "description": "Ja das Rad ist noch da wenn du diese Anzeige sehen kannst!\n\nBenotto Rennrad in der Design Edition...",
+   "location": "45711 Datteln",
+   "price_text": "250 \u20ac VB",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/84/84b51a59-e7ac-4fe5-8885-4170a2065f47?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:51:44+00:00",
+   "blue_score": 0.03
+  },
+  "kleinanzeigen:3427177437": {
+   "id": "kleinanzeigen:3427177437",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-diverge-e5-comp-56-size-/3427177437-217-9182",
+   "title": "Specialized Diverge E5 Comp  (56 size)",
+   "description": "Das Specialized Diverge E5 Comp in Gr\u00f6\u00dfe 56, Baujahr 2019 ist ein Aluminium-Gravelbike mit...",
+   "location": "69115 Heidelberg",
+   "price_text": "800 \u20ac",
+   "price": 800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3f/3f3c6120-3bd8-4f53-9142-6af005e8fc78?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-16T04:51:44+00:00",
+   "blue_score": 0.132
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 61,
+   "fail_streak": 62,
    "warned": true,
    "ever_ok": true
   },
@@ -11893,7 +11938,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-15T05:47:52",
    "2026-08-15T06:11:43",
    "2026-08-15T06:38:34",
    "2026-08-15T07:14:06",
@@ -11945,7 +11989,8 @@
    "2026-08-16T02:56:32",
    "2026-08-16T03:50:11",
    "2026-08-16T04:36:51",
-   "2026-08-16T05:17:00"
+   "2026-08-16T05:17:00",
+   "2026-08-16T05:51:46"
   ],
   "last_heartbeat": "2026-08-15",
   "last_status": "2026-08-16T05",
