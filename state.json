@@ -27458,11 +27458,91 @@
    "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-17T22:09:34+00:00"
+  },
+  "ebay:v1|318745539346|0": {
+   "id": "ebay:v1|318745539346|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318745539346?_skw=road+bike&hash=item4a36b6f312:g:PKwAAeSwt3xqg4ej",
+   "title": "Giant Propel Advanced 2 Carbon Road Bike Medium 54cm Frame",
+   "description": "",
+   "location": "MK46***",
+   "price_text": "\u00a3669.70",
+   "price": 669.7,
+   "image": "https://i.ebayimg.com/images/g/PKwAAeSwt3xqg4ej/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:38:19+00:00"
+  },
+  "ebay:v1|318745534666|0": {
+   "id": "ebay:v1|318745534666|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318745534666?_skw=road+bike&hash=item4a36b6e0ca:g:J4IAAeSwva1qg4Y0",
+   "title": "Giant TCR Advanced Pro 1 Carbon Road Bike Ultegra Medium, 54cm",
+   "description": "",
+   "location": "MK46***",
+   "price_text": "\u00a31740.70",
+   "price": 1740.7,
+   "image": "https://i.ebayimg.com/images/g/J4IAAeSwva1qg4Y0/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:38:19+00:00"
+  },
+  "kleinanzeigen:3487590686": {
+   "id": "kleinanzeigen:3487590686",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/raleigh-carbon-riemenantrieb-gatsby-de-luxe-fahrrad-alfine-8/3487590686-217-9073",
+   "title": "Raleigh Carbon-Riemenantrieb gatsby de luxe Fahrrad Alfine 8",
+   "description": "Fast ungefahren (siehe Bilder)\nRiemenantrieb (wartungsfrei und keine dreckige Hose mehr)\n\nIch...",
+   "location": "73433 Aalen",
+   "price_text": "545 \u20ac",
+   "price": 545.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/86cc9791-12ba-47e0-8452-2c1b2a75bf3f?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Raleigh \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:38:19+00:00"
+  },
+  "kleinanzeigen:3487589242": {
+   "id": "kleinanzeigen:3487589242",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-allez-rahmenset-rh56-ultegra-selle-italia/3487589242-217-2164",
+   "title": "Specialized Allez Rahmenset \u2022 RH56 \u2022 Ultegra \u2022 Selle Italia",
+   "description": "Ich verkaufe hier ein unfertiges Aufbauprojekt, da mir leider inzwischen die Zeit fehlt.\n\nEs ist...",
+   "location": "33100 Paderborn",
+   "price_text": "390 \u20ac VB",
+   "price": 390.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/0239543c-44eb-4920-b3ca-dd0c821107a8?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Specialized Allez frameset, alloy, Ultegra) with no mention of the DT Swiss E1800 wheels or other distinctive parts, and located far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-17T22:38:23+00:00"
+  },
+  "kleinanzeigen:3487589144": {
+   "id": "kleinanzeigen:3487589144",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-scale-940-carbonrahmen/3487589144-217-3477",
+   "title": "SCOTT Scale 940 Carbonrahmen",
+   "description": "Verkauft wird mein Fahrrad der Marke SCOTT Scale 940.\n\nRadgr\u00f6\u00dfe 29, Herstellergr\u00f6\u00dfe...",
+   "location": "13088 Weissensee",
+   "price_text": "1.199 \u20ac VB",
+   "price": 1199.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/52326156-762e-4a0a-ae18-88d444a3c0f1?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:38:23+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 146,
+   "fail_streak": 147,
    "warned": true,
    "ever_ok": true
   },
@@ -27477,8 +27557,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T23:35:17",
-   "2026-08-16T23:37:07",
    "2026-08-16T23:50:28",
    "2026-08-16T23:51:30",
    "2026-08-16T23:55:34",
@@ -27520,7 +27598,8 @@
    "2026-08-17T21:43:43",
    "2026-08-17T22:12:15",
    "2026-08-17T22:38:21",
-   "2026-08-17T23:09:34"
+   "2026-08-17T23:09:34",
+   "2026-08-17T23:38:23"
   ],
   "last_heartbeat": "2026-08-17",
   "last_status": "2026-08-17T23",
