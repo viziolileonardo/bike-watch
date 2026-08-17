@@ -43,8 +43,12 @@ the repo, so nothing is lost between runs. Each sweep:
      into the report, no push (counts ride the hourly status ping).
      Thieves usually strip the brand from listings, so eyeball these.
    - **AI triage**: every new finding — alert or digest, except `univox`
-     hits — gets a Claude judgment on whether it could plausibly be the
-     bike or its parts (the
+     hits — is judged on whether it could plausibly be the bike or its
+     parts. A free mechanical rule closes the unambiguous case first
+     (complete bike under a specific other brand, no distinctive-part
+     mention, no custom-build language); Claude judges the rest with a
+     cached instruction prefix and thinking disabled, so each call bills
+     little more than the listing text and the one-line verdict (the
      `ANTHROPIC_API_KEY` Actions secret / `BIKEWATCH_ANTHROPIC_KEY` env
      var). Clear mismatches — other branded bikes that merely share common
      components, e-bikes, motorbikes — are **auto-closed**: kept in

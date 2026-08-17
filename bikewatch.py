@@ -515,26 +515,51 @@ AI_SCHEMA = {
     "additionalProperties": False,
 }
 
+# Mechanical version of the AI's dominant closure rule, run before spending an
+# API call: a complete bike listed under a specific other brand, with no
+# mention of the stolen bike's distinctive terms and no custom/fresh-build
+# language, cannot be the bike (thieves strip decals or list generically —
+# they don't apply another brand's model-accurate branding). Frame brands
+# only — component brands (Shimano, DT Swiss, Mavic, ...) stay with the AI,
+# as do collision-prone brand words ("Time", "Look").
+OTHER_BRANDS_RE = re.compile(
+    r"\b(cannondale|trek|specialized|giant|scott|cube|bianchi|felt|boardman|"
+    r"carrera|triban|b.?twin|van rysel|ribble|canyon|pinarello|colnago|"
+    r"cervelo|orbea|merida|focus|rose|stevens|ghost|bulls|gazelle|batavus|"
+    r"cortina|sparta|koga|raleigh|dawes|claud butler|viking|apollo|muddyfox|"
+    r"calibre|forme|vitus|orro|dolan|kona|genesis|wilier|de rosa|lapierre|"
+    r"bmc|cinelli|ktm|isaac|fuji|marin|whyte|mongoose|brompton|pashley|"
+    r"moser|peugeot|basso|planet x|kinesis|fairlight|condor)\b", re.I)
+FRESH_BUILD_RE = re.compile(
+    r"custom|rebuilt|fresh build|new build|frameset|rahmenset|aufgebaut|"
+    r"aufbau|opgebouwd|zelfbouw", re.I)
 
-def ai_verdict(item, bike):
-    key = os.environ.get("BIKEWATCH_ANTHROPIC_KEY")
-    if not key or AI_CALLS["n"] >= AI_CALLS["cap"]:
+
+def rule_close(item):
+    """Reason string if the listing is mechanically closeable, else None."""
+    text = (item["title"] + " " + item["description"]).lower()
+    if any(t in text for t in ("univox", "swift", "e1800", "e 1800")):
         return None
-    AI_CALLS["n"] += 1
-    prompt = (
-        "A bicycle was stolen and a marketplace monitor flagged the listing "
-        "below as a possible match. Judge whether it could plausibly be the "
+    m = OTHER_BRANDS_RE.search(item["title"])
+    if m and not FRESH_BUILD_RE.search(text):
+        return (f"(rule) complete bike listed as {m.group(0).title()} — "
+                "no link to the stolen bike's components")
+    return None
+
+
+def ai_system(bike):
+    # static across calls -> sent as a cached system block. Deliberately
+    # detailed (worked examples included): must clear the model's ~512-token
+    # minimum cacheable prefix, and the detail earns its keep anyway.
+    return (
+        "You triage listings for a stolen-bicycle marketplace monitor. A "
+        "bicycle was stolen and the monitor flags possible matches; for "
+        "each flagged listing you judge whether it could plausibly be the "
         "stolen bike — or contain identifiable parts from it (wheels, "
         "groupset, frame sold separately or rebuilt onto another frame; "
-        "stolen bikes are routinely stripped).\n\n"
+        "stolen bikes are routinely stripped for parts).\n\n"
         f"STOLEN BIKE: {bike['description']}\n"
         f"Stolen: {bike.get('stolen_when', '')} at {bike.get('stolen_where', '')}\n\n"
-        "FLAGGED LISTING:\n"
-        f"Title: {item['title']}\n"
-        f"Description: {item['description'][:600]}\n"
-        f"Price: {item['price_text']}  Location: {item['location']}  "
-        f"Source: {item['source']}  Matched via: {item['query']}"
-        f"{' (hot: cheap quality road bike near theft area)' if item.get('hot') else ''}\n\n"
         "Rules:\n"
         "- A complete bike listed under a specific DIFFERENT make and model "
         "(e.g. 'Muddyfox Race 400', 'Scott CR1') is that bike — thieves "
@@ -549,15 +574,50 @@ def ai_verdict(item, bike):
         "fit the stolen bike's type/colour/price stay plausible, "
         "especially near the theft area. Wheelset/parts listings matching "
         "the stolen bike's components stay plausible.\n"
-        "- If genuinely uncertain, set plausible=true.\n"
-        "One short sentence of reason."
+        "- If genuinely uncertain, set plausible=true.\n\n"
+        "Worked examples:\n"
+        "1. 'Cannondale Synapse Ultegra carbon road bike' near the theft "
+        "area -> implausible: a specific other make/model sharing only "
+        "ubiquitous parts.\n"
+        "2. 'Genesis frameset in a complete fresh build, full 105, DT "
+        "Swiss E1800 wheelset, 20 miles since built' -> plausible: the "
+        "distinctive wheelset on a recently assembled frame is exactly "
+        "what a stripped stolen bike looks like.\n"
+        "3. 'Carbon road bike, good condition, no brand given, London' "
+        "-> plausible: brand-stripped listings can't be ruled out.\n\n"
+        "Answer with plausible plus one short sentence of reason."
     )
+
+
+def ai_verdict(item, bike):
+    key = os.environ.get("BIKEWATCH_ANTHROPIC_KEY")
+    if not key or AI_CALLS["n"] >= AI_CALLS["cap"]:
+        return None
+    AI_CALLS["n"] += 1
+    desc = item["description"][:400]
+    note = ("\nNOTE: the full description mentions the E1800 wheelset."
+            if "e1800" in item["description"].lower()
+            and "e1800" not in desc.lower() else "")
+    listing = (
+        "FLAGGED LISTING:\n"
+        f"Title: {item['title']}\n"
+        f"Description: {desc}\n"
+        f"Price: {item['price_text']}  Location: {item['location']}  "
+        f"Source: {item['source']}  Matched via: {item['query']}"
+        f"{' (hot: cheap quality road bike near theft area)' if item.get('hot') else ''}"
+        + note)
     body = json.dumps({
         "model": AI_MODEL,
-        "max_tokens": 2000,
+        "max_tokens": 300,
+        # a constrained one-field classification: thinking off cuts the
+        # billed output to just the verdict (allowed at effort <= high)
+        "thinking": {"type": "disabled"},
         "output_config": {"effort": "low",
                           "format": {"type": "json_schema", "schema": AI_SCHEMA}},
-        "messages": [{"role": "user", "content": prompt}],
+        # 1h TTL keeps the prefix warm across 20-min sweep intervals
+        "system": [{"type": "text", "text": ai_system(bike),
+                    "cache_control": {"type": "ephemeral", "ttl": "1h"}}],
+        "messages": [{"role": "user", "content": listing}],
     })
     try:
         resp = json.loads(http_get(
@@ -974,10 +1034,23 @@ def main():
         pending = [f for f in findings.values()
                    if not f.get("fp") and "ai_reason" not in f
                    and "univox" not in (f["title"] + f.get("description", "")).lower()]
-        AI_CALLS["cap"] = len(pending)
+        AI_CALLS["cap"] = len(pending) + 1  # +1: the selftest call below
         log(f"backlog triage: {len(pending)} unreviewed finding(s)")
 
+        # selftest first: validates the API request shape end to end even
+        # when the backlog is empty, and its verdict is loud in the log
+        probe = {"id": "selftest", "title": "Trek Domane SL5 Road Bike",
+                 "description": "great condition, Ultegra groupset",
+                 "price_text": "£900", "location": "Leeds",
+                 "source": "selftest", "query": "selftest"}
+        log(f"ai selftest: {ai_verdict(probe, cfg['bike'])}")
+
         def review(f):
+            reason = rule_close(f)
+            if reason:
+                f["fp"] = True
+                f["ai_reason"] = reason
+                return f, {"plausible": False, "reason": reason}
             verdict = ai_verdict(f, cfg["bike"])
             if verdict is not None:
                 f["ai_reason"] = verdict["reason"]
@@ -1059,13 +1132,19 @@ def main():
             level = "alert"
             item["hot"] = True
         if "univox" not in (item["title"] + item["description"]).lower():
-            # AI verdict on every new finding (alerts: gates the push;
-            # digest: gates report entry); univox hits are exempt
-            verdict = ai_verdict(item, cfg["bike"])
-            if verdict:
-                item["ai_reason"] = verdict["reason"]
-                if not verdict["plausible"]:
-                    item["fp"] = True
+            # triage every new finding (alerts: gates the push; digest:
+            # gates report entry); univox hits are exempt. The free
+            # mechanical rule runs first, the AI judges the rest.
+            reason = rule_close(item)
+            if reason:
+                item["fp"] = True
+                item["ai_reason"] = reason
+            else:
+                verdict = ai_verdict(item, cfg["bike"])
+                if verdict:
+                    item["ai_reason"] = verdict["reason"]
+                    if not verdict["plausible"]:
+                        item["fp"] = True
         item["level"] = level
         item["first_seen"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         findings[item["id"]] = item
