@@ -27794,11 +27794,27 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-17T23:35:46+00:00"
+  },
+  "kleinanzeigen:3487596203": {
+   "id": "kleinanzeigen:3487596203",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-pro-sl-disc-ultegra-gr-57-top-zustand/3487596203-217-1708",
+   "title": "ROSE PRO SL Disc Ultegra - Gr. 57 - Top Zustand",
+   "description": "Zum Verkauf steht ein top gepflegtes Rose PRO SL Disc in \"mandarin red\" (Rahmengr\u00f6\u00dfe 57...",
+   "location": "52511 Geilenkirchen",
+   "price_text": "1.300 \u20ac VB",
+   "price": 1300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f3dec058-3329-4598-878b-5b241c02b64f?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T23:50:42+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 149,
+   "fail_streak": 150,
    "warned": true,
    "ever_ok": true
   },
@@ -27813,8 +27829,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T00:38:19",
-   "2026-08-17T00:48:04",
    "2026-08-17T01:09:48",
    "2026-08-17T02:54:43",
    "2026-08-17T03:49:23",
@@ -27853,7 +27867,8 @@
    "2026-08-17T23:09:34",
    "2026-08-17T23:38:23",
    "2026-08-18T00:07:29",
-   "2026-08-18T00:35:46"
+   "2026-08-18T00:35:46",
+   "2026-08-18T00:50:42"
   ],
   "last_heartbeat": "2026-08-17",
   "last_status": "2026-08-18T00",
