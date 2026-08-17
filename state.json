@@ -21493,11 +21493,71 @@
    "level": "digest",
    "first_seen": "2026-08-17T03:37:13+00:00",
    "blue_score": 0.001
+  },
+  "kleinanzeigen:3486730930": {
+   "id": "kleinanzeigen:3486730930",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-propel-advanced-rennrad/3486730930-217-5304",
+   "title": "Giant Propel Advanced Rennrad",
+   "description": "Ich verkaufe mein Giant Propel Advanced Rennrad, das durch seine aerodynamische Form und das...",
+   "location": "54456 Tawern",
+   "price_text": "1.150 \u20ac VB",
+   "price": 1150.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/35/35ba2d67-289e-458b-bb5f-b479c945a8e4?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T04:22:01+00:00",
+   "blue_score": 0.119
+  },
+  "kleinanzeigen:3486730082": {
+   "id": "kleinanzeigen:3486730082",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/stevens-trekkingbike-28zoll/3486730082-217-3519",
+   "title": "Stevens Trekkingbike 28Zoll",
+   "description": "Verkaufe hier mein Trekkingbike von Stevens, da ich auf Rennrad umsteigen will.\nAlles funktioniert...",
+   "location": "10119 Mitte",
+   "price_text": "200 \u20ac",
+   "price": 200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/799c73a6-6b2e-44f9-9e81-a018a5e6f71e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T04:22:02+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3486729296": {
+   "id": "kleinanzeigen:3486729296",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravel-bike-single-speed-mit-gravel-bereifung-no-mountainbike/3486729296-217-12143",
+   "title": "Gravel Bike Single Speed mit Gravel Bereifung no Mountainbike",
+   "description": "Ich biete hier ein sch\u00f6nes Gravel Bike in mattem Wei\u00df an, das perfekt f\u00fcr deine Abenteuer auf und...",
+   "location": "39646 Oebisfelde-\u200bWeferlingen",
+   "price_text": "222 \u20ac VB",
+   "price": 222.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/21e0a10c-01cf-4c28-b200-4e441d135d20?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T04:22:02+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3486729073": {
+   "id": "kleinanzeigen:3486729073",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-ex-gravelbike-rahmen-m-neuwertig-2-monate-alt/3486729073-217-18970",
+   "title": "Cube Nuroad EX Gravelbike, Rahmen M, neuwertig, 2 Monate alt",
+   "description": "Ich biete \u201eungern\u201c (da es ein so tolles Fahrrad ist) hier mein Cube Nuroad EX Gravelbike an. Da...",
+   "location": "39291 M\u00f6ser",
+   "price_text": "1.399 \u20ac",
+   "price": 1399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5c3a52a0-806a-4947-8a1d-8b9ac6498ee1?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T04:22:02+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 114,
+   "fail_streak": 115,
    "warned": true,
    "ever_ok": true
   },
@@ -21512,7 +21572,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T05:17:00",
    "2026-08-16T05:51:46",
    "2026-08-16T06:14:26",
    "2026-08-16T06:42:43",
@@ -21565,10 +21624,11 @@
    "2026-08-17T01:09:48",
    "2026-08-17T02:54:43",
    "2026-08-17T03:49:23",
-   "2026-08-17T04:37:13"
+   "2026-08-17T04:37:13",
+   "2026-08-17T05:22:03"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T04",
+  "last_status": "2026-08-17T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
