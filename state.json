@@ -1111,7 +1111,8 @@
    "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.076,
-   "ai_reason": "Same brand and a closely matching U-vox/UniVox model in carbon at a plausible price and within reach of London, so it could well be the stolen bike."
+   "ai_reason": "Ruled out by owner after inspection (2026-08-17)",
+   "fp": true
   },
   "ebay:v1|227352655334|0": {
    "id": "ebay:v1|227352655334|0",
@@ -1127,7 +1128,8 @@
    "level": "digest",
    "first_seen": "2026-08-12T10:42:26+00:00",
    "blue_score": 0.002,
-   "ai_reason": "Same brand (Swift) carbon road bike with Shimano 105 near London; wheels swapped to Easton is consistent with a stripped/rebuilt stolen bike, so it stays plausible."
+   "ai_reason": "Ruled out by owner after inspection (2026-08-17)",
+   "fp": true
   },
   "ebay:v1|387790241801|0": {
    "id": "ebay:v1|387790241801|0",
