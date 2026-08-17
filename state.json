@@ -21733,11 +21733,56 @@
    "level": "digest",
    "first_seen": "2026-08-17T05:48:43+00:00",
    "blue_score": 0.089
+  },
+  "ebay:v1|407150441562|0": {
+   "id": "ebay:v1|407150441562|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407150441562?_skw=road+bike&hash=item5ecc0eb45a:g:lfYAAeSwBO5qgqSJ",
+   "title": "Basso Diamant\u00e9 56cm Campagnolo Chorus / Shamal Wheels",
+   "description": "",
+   "location": "N8***",
+   "price_text": "\u00a31791.70",
+   "price": 1791.7,
+   "image": "https://i.ebayimg.com/images/g/lfYAAeSwBO5qgqSJ/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T06:23:53+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3486758613": {
+   "id": "kleinanzeigen:3486758613",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/focus-rennrad-schwarz-blau-voll-carbon/3486758613-217-1732",
+   "title": "Focus Rennrad schwarz-blau voll Carbon",
+   "description": "Ich verkaufe mein sportliches Rennrad der Marke Focus. Es ist ein zuverl\u00e4ssiger Begleiter f\u00fcr...",
+   "location": "52223 Stolberg (Rhld)",
+   "price_text": "550 \u20ac",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/74/740b6f66-fbc7-4e15-ae3b-0af74ac18236?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T06:23:54+00:00",
+   "blue_score": 0.073
+  },
+  "kleinanzeigen:3486758022": {
+   "id": "kleinanzeigen:3486758022",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-elite-hpc-k-18-rh22-09-carbon/3486758022-217-9134",
+   "title": "Cube Elite HPC K 18 RH22 09 Carbon",
+   "description": "Biete sehr leichtes Cube Hardtail Mountainbike. Es wiegt ca 11 kg. 27 G\u00e4nge. . 26 Zoll R\u00e4der,...",
+   "location": "74564 Crailsheim",
+   "price_text": "380 \u20ac",
+   "price": 380.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c8da89d5-6f91-44d7-9b72-bb64b0252f93?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T06:23:54+00:00",
+   "blue_score": 0.048
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 117,
+   "fail_streak": 118,
    "warned": true,
    "ever_ok": true
   },
@@ -21752,7 +21797,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T07:16:05",
    "2026-08-16T07:59:21",
    "2026-08-16T08:44:47",
    "2026-08-16T09:11:38",
@@ -21804,10 +21848,11 @@
    "2026-08-17T04:37:13",
    "2026-08-17T05:22:03",
    "2026-08-17T06:11:00",
-   "2026-08-17T06:48:45"
+   "2026-08-17T06:48:45",
+   "2026-08-17T07:23:54"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T06",
+  "last_status": "2026-08-17T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
