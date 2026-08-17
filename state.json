@@ -21643,11 +21643,101 @@
    "level": "digest",
    "first_seen": "2026-08-17T05:10:59+00:00",
    "blue_score": 0.168
+  },
+  "ebay:v1|377424939740|0": {
+   "id": "ebay:v1|377424939740|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377424939740?_skw=road+bike&hash=item57e0478adc:g:ReoAAeSwQe1qgp4u",
+   "title": "Canyon Aeroad CFR Frameset",
+   "description": "",
+   "location": "E14***",
+   "price_text": "\u00a32556.70",
+   "price": 2556.7,
+   "image": "https://i.ebayimg.com/images/g/ReoAAeSwQe1qgp4u/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:48:42+00:00",
+   "blue_score": 0.005
+  },
+  "ebay:v1|336746428326|0": {
+   "id": "ebay:v1|336746428326|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336746428326?_skw=road+bike&hash=item4e67a6b7a6:g:RDYAAeSwvk9qgptt",
+   "title": "Cervelo S5 Frame - Custom painted",
+   "description": "",
+   "location": "GU27***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/RDYAAeSwvk9qgptt/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:48:42+00:00",
+   "blue_score": 0.01
+  },
+  "kleinanzeigen:3486746686": {
+   "id": "kleinanzeigen:3486746686",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravel-bike-stevens-tabor-gen-1-56-earth-green-shimano/3486746686-217-982",
+   "title": "Gravel Bike Stevens Tabor Gen.1 \"56\" / Earth Green, Shimano",
+   "description": "Gekauft 2024, seitdem nur f\u00fcr k\u00fcrzere Fahrten benutzt\nShimano Schaltung\nGep\u00e4cktr\u00e4ger und...",
+   "location": "50668 K\u00f6ln Altstadt",
+   "price_text": "950 \u20ac VB",
+   "price": 950.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e228c7e-f3b9-403e-892b-a1a23c7d474f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:48:42+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3486746494": {
+   "id": "kleinanzeigen:3486746494",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mini-bike-kinder-bike-dirt-bike-keine-monkey-dax/3486746494-217-5316",
+   "title": "Mini Bike, Kinder Bike, Dirt Bike keine Monkey / Dax",
+   "description": "Nagelneues Mini Bike, 4-Takt Motor 105ccm, Automatik, Seilzugstarter. Mit Bedienungsanleitung,...",
+   "location": "55130 Mainz",
+   "price_text": "559 \u20ac",
+   "price": 559.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/8957131c-c5ae-447f-8bfa-6d59b01707c1?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:48:43+00:00",
+   "blue_score": 0.031
+  },
+  "kleinanzeigen:3486746306": {
+   "id": "kleinanzeigen:3486746306",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/dt-swiss-p1800-aero-schwalbe-gp500/3486746306-217-4557",
+   "title": "DT Swiss P1800 Aero Schwalbe GP500",
+   "description": "Wurde nicht viel gefahren, dann vom Neufahrad Canyon Ultimate demontiert.\nLaufleistung ca 100...",
+   "location": "63128 Dietzenbach",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a6/a69aa667-d1af-4b57-bc0b-065cfec66355?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:48:43+00:00",
+   "blue_score": 0.001
+  },
+  "kleinanzeigen:3486745186": {
+   "id": "kleinanzeigen:3486745186",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/span-orbea-rennrad/3486745186-217-11840",
+   "title": "span.ORBEA Rennrad",
+   "description": "Sehr leicht\n50er rahmen\n24gang\nAlles funktioniert",
+   "location": "24107 Suchsdorf",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ce/cea19f67-0fb5-4d89-9bb3-be6136471e0e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:48:43+00:00",
+   "blue_score": 0.089
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 116,
+   "fail_streak": 117,
    "warned": true,
    "ever_ok": true
   },
@@ -21662,8 +21752,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T06:14:26",
-   "2026-08-16T06:42:43",
    "2026-08-16T07:16:05",
    "2026-08-16T07:59:21",
    "2026-08-16T08:44:47",
@@ -21715,7 +21803,8 @@
    "2026-08-17T03:49:23",
    "2026-08-17T04:37:13",
    "2026-08-17T05:22:03",
-   "2026-08-17T06:11:00"
+   "2026-08-17T06:11:00",
+   "2026-08-17T06:48:45"
   ],
   "last_heartbeat": "2026-08-16",
   "last_status": "2026-08-17T06",
