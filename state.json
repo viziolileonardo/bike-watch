@@ -21433,11 +21433,56 @@
    "level": "digest",
    "first_seen": "2026-08-17T01:54:43+00:00",
    "blue_score": 0.0
+  },
+  "kleinanzeigen:3486726066": {
+   "id": "kleinanzeigen:3486726066",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/felt-rennrad-carbon-campanolo-5-2-kilo-/3486726066-217-9455",
+   "title": "Felt Rennrad Carbon  Campanolo (5, 2 Kilo)",
+   "description": "Ich verkaufe mein Rennrad der Marke Felt. Es ist ein leichtes und sportliches Rad, das sich ideal...",
+   "location": "22143 Hamburg Rahlstedt",
+   "price_text": "1.700 \u20ac VB",
+   "price": 1700.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f9/f9ca379b-ffd6-43f1-9b58-b38aa66cf9ad?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T02:49:21+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3486725563": {
+   "id": "kleinanzeigen:3486725563",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-roadster-rennrad-groesse-54-schwarz-rot/3486725563-217-1714",
+   "title": "Scott Roadster Rennrad Gr\u00f6\u00dfe 54 - Schwarz/Rot",
+   "description": "Ich biete hier mein gut gepflegtes Scott Roadster\nRennrad in Gr\u00f6\u00dfe 54 an. Es wurde kaum benutzt, da...",
+   "location": "52477 Alsdorf",
+   "price_text": "225 \u20ac",
+   "price": 225.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d56f01f-e12c-4ca4-8473-9f92b0a4f915?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T02:49:22+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3486725386": {
+   "id": "kleinanzeigen:3486725386",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fahrrad-fast-neu-np-600/3486725386-217-8139",
+   "title": "Fahrrad,  fast neu,  NP 600",
+   "description": "Kaum gefahren\nKeine Kratzer\nPreis ist fest\nNur Reifen muss man aufpumpen.\nBoden-lenker 105...",
+   "location": "74889 Sinsheim",
+   "price_text": "300 \u20ac",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0f793179-9a47-4bfb-a186-20ff6b00346e?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T02:49:22+00:00",
+   "blue_score": 0.094
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 112,
+   "fail_streak": 113,
    "warned": true,
    "ever_ok": true
   },
@@ -21452,7 +21497,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T02:56:32",
    "2026-08-16T03:50:11",
    "2026-08-16T04:36:51",
    "2026-08-16T05:17:00",
@@ -21506,10 +21550,11 @@
    "2026-08-17T00:38:19",
    "2026-08-17T00:48:04",
    "2026-08-17T01:09:48",
-   "2026-08-17T02:54:43"
+   "2026-08-17T02:54:43",
+   "2026-08-17T03:49:23"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T02",
+  "last_status": "2026-08-17T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
