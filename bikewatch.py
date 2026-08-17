@@ -68,7 +68,9 @@ def http_get(url, headers=None, data=None, jar=False):
     cmd.append(url)
     proc = subprocess.run(cmd, capture_output=True, timeout=TIMEOUT + 10)
     if proc.returncode != 0:
-        raise OSError(f"curl exit {proc.returncode}: {proc.stderr.decode()[:200]}")
+        body = proc.stdout.decode("utf-8", errors="replace")[:300]
+        raise OSError(f"curl exit {proc.returncode}: {proc.stderr.decode()[:200]}"
+                      + (f" | body: {body}" if body else ""))
     return proc.stdout.decode("utf-8", errors="replace")
 
 
