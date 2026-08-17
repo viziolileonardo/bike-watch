@@ -21478,11 +21478,26 @@
    "level": "digest",
    "first_seen": "2026-08-17T02:49:22+00:00",
    "blue_score": 0.094
+  },
+  "kleinanzeigen:3486727682": {
+   "id": "kleinanzeigen:3486727682",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/enve-m640-carbon-laufradsatz-mit-chris-king-naben/3486727682-217-6827",
+   "title": "Enve M640 Carbon  Laufradsatz mit Chris King Naben",
+   "description": "Ich biete diesen hochwertigen Carbon Laufradsatz an, der durch die Kombination aus Enve M640 Felgen...",
+   "location": "90443 S\u00fcdstadt",
+   "price_text": "895 \u20ac VB",
+   "price": 895.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e658ca7-5285-483e-949d-e2a53ac9c503?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T03:37:13+00:00",
+   "blue_score": 0.001
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 113,
+   "fail_streak": 114,
    "warned": true,
    "ever_ok": true
   },
@@ -21497,8 +21512,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T03:50:11",
-   "2026-08-16T04:36:51",
    "2026-08-16T05:17:00",
    "2026-08-16T05:51:46",
    "2026-08-16T06:14:26",
@@ -21551,10 +21564,11 @@
    "2026-08-17T00:48:04",
    "2026-08-17T01:09:48",
    "2026-08-17T02:54:43",
-   "2026-08-17T03:49:23"
+   "2026-08-17T03:49:23",
+   "2026-08-17T04:37:13"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T03",
+  "last_status": "2026-08-17T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
