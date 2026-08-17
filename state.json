@@ -21373,11 +21373,71 @@
    "level": "digest",
    "first_seen": "2026-08-17T00:09:48+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|287529493632|0": {
+   "id": "ebay:v1|287529493632|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287529493632?_skw=road+bike&hash=item42f217e480:g:CA4AAeSwjJxqgdPB",
+   "title": "Giant Peloton 7200 Sport 62cm Road Bike Shimano RSX 14 Speed Vintage Retro Steel",
+   "description": "",
+   "location": "BH9***",
+   "price_text": "\u00a3375.00",
+   "price": 375.0,
+   "image": "https://i.ebayimg.com/images/g/CA4AAeSwjJxqgdPB/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T01:54:42+00:00",
+   "blue_score": 0.008
+  },
+  "ebay:v1|158196119051|459367435588": {
+   "id": "ebay:v1|158196119051|459367435588",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158196119051?_skw=road+bike&hash=item24d539360b:g:Na0AAeSwnu5qglMU",
+   "title": "Giant TCR Advanced 2-PC Road Bike in Stealth Chrome",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a31839.00",
+   "price": 1839.0,
+   "image": "https://i.ebayimg.com/images/g/Na0AAeSwnu5qglMU/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T01:54:42+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|158196118852|459367319181": {
+   "id": "ebay:v1|158196118852|459367319181",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158196118852?_skw=road+bike&hash=item24d5393544:g:WDYAAeSwUZFqglMO",
+   "title": "Giant TCR Advanced 0 AXS Road Bike in Alpine Green",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a32699.00",
+   "price": 2699.0,
+   "image": "https://i.ebayimg.com/images/g/WDYAAeSwUZFqglMO/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T01:54:42+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|206496561821|0": {
+   "id": "ebay:v1|206496561821|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206496561821?_skw=road+bike&hash=item3014277a9d:g:TR8AAeSwNtZqglBD",
+   "title": "SRAM Force eTap AXS 12-Speed Groupset",
+   "description": "",
+   "location": "SW13***",
+   "price_text": "\u00a3465.70",
+   "price": 465.7,
+   "image": "https://i.ebayimg.com/images/g/TR8AAeSwNtZqglBD/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T01:54:43+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 111,
+   "fail_streak": 112,
    "warned": true,
    "ever_ok": true
   },
@@ -21445,10 +21505,11 @@
    "2026-08-17T00:01:28",
    "2026-08-17T00:38:19",
    "2026-08-17T00:48:04",
-   "2026-08-17T01:09:48"
+   "2026-08-17T01:09:48",
+   "2026-08-17T02:54:43"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T01",
+  "last_status": "2026-08-17T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
