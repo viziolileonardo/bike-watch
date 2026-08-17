@@ -21358,11 +21358,26 @@
    "level": "digest",
    "first_seen": "2026-08-16T23:48:04+00:00",
    "blue_score": 0.109
+  },
+  "ebay:v1|168619037826|0": {
+   "id": "ebay:v1|168619037826|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168619037826?_skw=road+bike&hash=item27427a5482:g:2ygAAeSw7OJqgkh-",
+   "title": "THM Carbones Fibula Carbon Fibre (Matte) Brake Calipers Front and Rear Set *Rare",
+   "description": "",
+   "location": "SA4***",
+   "price_text": "\u00a3669.69",
+   "price": 669.69,
+   "image": "https://i.ebayimg.com/images/g/2ygAAeSw7OJqgkh-/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T00:09:48+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 110,
+   "fail_streak": 111,
    "warned": true,
    "ever_ok": true
   },
@@ -21377,8 +21392,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T00:48:12",
-   "2026-08-16T01:02:00",
    "2026-08-16T02:56:32",
    "2026-08-16T03:50:11",
    "2026-08-16T04:36:51",
@@ -21431,10 +21444,11 @@
    "2026-08-16T23:55:34",
    "2026-08-17T00:01:28",
    "2026-08-17T00:38:19",
-   "2026-08-17T00:48:04"
+   "2026-08-17T00:48:04",
+   "2026-08-17T01:09:48"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T00",
+  "last_status": "2026-08-17T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
