@@ -20457,7 +20457,9 @@
    "image": "https://i.ebayimg.com/images/g/F9sAAeSwp49qghWZ/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.115
+   "blue_score": 0.115,
+   "ai_reason": "This is a specific different make/model (Ambrosio Celsius) with Ultegra rather than 105 and no mention of DT Swiss E1800 wheels, listed far from the theft area.",
+   "fp": true
   },
   "ebay:v1|327313523896|0": {
    "id": "ebay:v1|327313523896|0",
@@ -20472,7 +20474,9 @@
    "image": "https://i.ebayimg.com/images/g/BH4AAeSwMjhqeeYM/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.01
+   "blue_score": 0.01,
+   "ai_reason": "This is a specifically branded Canyon Aeroad with Ultegra, a different bike, and the 'free spare wheels' aren't identified as DT Swiss E1800.",
+   "fp": true
   },
   "kleinanzeigen:3486681080": {
    "id": "kleinanzeigen:3486681080",
@@ -20487,7 +20491,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a42ba26-98c4-45a6-b6f7-380e3496ad7a?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.043
+   "blue_score": 0.043,
+   "ai_reason": "This is a vintage Peugeot steel road bike in Hamburg, a different make and material with no mention of the DT Swiss wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486681068": {
    "id": "kleinanzeigen:3486681068",
@@ -20502,7 +20508,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/82/82c0dfcd-6e32-4f71-bd52-931296933a74?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "It's a complete, differently-branded Giant Once road bike in Munich with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true
   },
   "kleinanzeigen:3475656078": {
    "id": "kleinanzeigen:3475656078",
@@ -20517,7 +20525,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d0/d0c042f3-a279-4178-8286-ca1b07b24dc6?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.012
+   "blue_score": 0.012,
+   "ai_reason": "A \u20ac300 14-speed 28\" road bike in Germany is an old low-end machine with no mention of the carbon frame, 105 hydraulic discs or DT Swiss wheels, so it is not the stolen bike.",
+   "fp": true
   },
   "kleinanzeigen:3486680295": {
    "id": "kleinanzeigen:3486680295",
@@ -20532,7 +20542,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/21766a59-c978-41c7-8980-f4ff040535b0?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.022
+   "blue_score": 0.022,
+   "ai_reason": "This is a different make/model complete bike (Dr\u00f6ssiger Limited 9.8 with Ultegra and Fulcrum wheels), sharing none of the stolen bike's distinctive components, and located in eastern Germany.",
+   "fp": true
   },
   "kleinanzeigen:3486679864": {
    "id": "kleinanzeigen:3486679864",
@@ -20547,7 +20559,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/26cdf489-fad1-4beb-87b3-57fb086906f2?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.172
+   "blue_score": 0.172,
+   "ai_reason": "This is a specific different make/model (Cannondale CAAD12 with Ultegra) in Germany, with no mention of the DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486679749": {
    "id": "kleinanzeigen:3486679749",
@@ -20562,7 +20576,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac9d1b36-5b31-4ff9-aa1e-5b4f6714887b?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.031
+   "blue_score": 0.031,
+   "ai_reason": "This is a specific different make/model (Lapierre Spicy CF enduro MTB) in Germany with no mention of the stolen bike's DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "marktplaats:m2431740284": {
    "id": "marktplaats:m2431740284",
@@ -20577,7 +20593,9 @@
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0e24a6de-276c-4ea6-be7a-6b500efc7603?rule=ecg_mp_eps$_82.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T20:36:48+00:00",
-   "blue_score": 0.028
+   "blue_score": 0.028,
+   "ai_reason": "This is a specific different make/model (Specialized Diverge E5 Elite, aluminium) with GRX groupset and no mention of the distinctive DT Swiss E1800 wheels, so it is not the stolen bike.",
+   "fp": true
   },
   "ebay:v1|147509250862|0": {
    "id": "ebay:v1|147509250862|0",
@@ -20592,7 +20610,9 @@
    "image": "https://i.ebayimg.com/images/g/tNAAAeSwpAlqghjK/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T20:52:50+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specifically branded different bike (Planet X RT90 with Di2) with no mention of the DT Swiss E1800 wheels or other distinctive stolen components.",
+   "fp": true
   },
   "kleinanzeigen:3486687891": {
    "id": "kleinanzeigen:3486687891",
@@ -20607,7 +20627,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/148664a4-7e5d-4865-8b77-9bede7a02110?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T20:52:50+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "A vintage pink Peugeot Tourmalet steel road bike in Stuttgart is a different, specifically branded bike with no mention of the stolen bike's carbon frame, 105 hydraulic groupset or DT Swiss wheels.",
+   "fp": true
   },
   "ebay:v1|137629255642|0": {
    "id": "ebay:v1|137629255642|0",
@@ -20622,7 +20644,9 @@
    "image": "https://i.ebayimg.com/images/g/x48AAeSwZoJqgiQo/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.3
+   "blue_score": 0.3,
+   "ai_reason": "This is a specifically branded Focus Izalco Max with Ultegra Di2, a different bike with no mention of the distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "ebay:v1|178414237385|0": {
    "id": "ebay:v1|178414237385|0",
@@ -20637,7 +20661,9 @@
    "image": "https://i.ebayimg.com/images/g/evUAAeSwxvxqgiJd/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.052
+   "blue_score": 0.052,
+   "ai_reason": "This is a complete, specifically branded Giant TCR Advanced 2 with only ubiquitous Shimano 105 in common and no mention of the distinctive DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486691548": {
    "id": "kleinanzeigen:3486691548",
@@ -20652,7 +20678,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c44430b9-621b-4782-9740-fcae1b74857b?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.051
+   "blue_score": 0.051,
+   "ai_reason": "This is a complete, differently-branded Centurion carbon MTB with a 12-speed groupset in Augsburg, Germany \u2014 no link to the stolen road bike or its DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486691427": {
    "id": "kleinanzeigen:3486691427",
@@ -20667,7 +20695,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fd/fdd1c620-4475-4202-9f0b-46c984351833?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.115
+   "blue_score": 0.115,
+   "ai_reason": "This is a specific different bike \u2014 a YT Tues downhill MTB in Germany \u2014 with no mention of the stolen road bike's DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486691253": {
    "id": "kleinanzeigen:3486691253",
@@ -20682,7 +20712,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b6/b6494f89-90ed-4a77-8744-98aac8522723?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.113
+   "blue_score": 0.113,
+   "ai_reason": "This is a different make/model complete bike \u2014 a Cube hardtail MTB with XT groupset in Germany \u2014 with no mention of the DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486690959": {
    "id": "kleinanzeigen:3486690959",
@@ -20697,7 +20729,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3b90e204-8733-4abe-a5ff-45c16804b628?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.032
+   "blue_score": 0.032,
+   "ai_reason": "Different make/model complete bike (Pinarello Due with Campagnolo 10-speed) in Germany, with no mention of the DT Swiss E1800 wheels or Shimano 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486690931": {
    "id": "kleinanzeigen:3486690931",
@@ -20712,7 +20746,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fd/fd8982bb-c4e7-4a90-9359-d9fe264f339f?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.137
+   "blue_score": 0.137,
+   "ai_reason": "This is a complete, differently branded Lapierre Pulsium with Ultegra Di2 in Germany; the generic DT Swiss mention isn't the distinctive E1800 wheelset.",
+   "fp": true
   },
   "kleinanzeigen:3486690901": {
    "id": "kleinanzeigen:3486690901",
@@ -20727,7 +20763,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/efdbed44-d9d4-412d-9da3-8acc136de922?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:01:59+00:00",
-   "blue_score": 0.021
+   "blue_score": 0.021,
+   "ai_reason": "This is a different make and model (Stevens Sanremo) listed in rural Germany with no mention of the distinctive DT Swiss E1800 wheels or 105 hydraulic groupset.",
+   "fp": true
   },
   "ebay:v1|227478740896|0": {
    "id": "ebay:v1|227478740896|0",
@@ -20742,7 +20780,9 @@
    "image": "https://i.ebayimg.com/images/g/9wEAAeSwFz1qggjW/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.033
+   "blue_score": 0.033,
+   "ai_reason": "An Aerospoke 5-spoke carbon aero wheel is a distinctly different product from the stolen bike's DT Swiss E1800 wheelset and shares no identifiable parts.",
+   "fp": true
   },
   "ebay:v1|287529232550|0": {
    "id": "ebay:v1|287529232550|0",
@@ -20757,7 +20797,9 @@
    "image": "https://i.ebayimg.com/images/g/FekAAeSwls1qgiGW/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.082
+   "blue_score": 0.082,
+   "ai_reason": "This is a complete, specifically branded Giant TCR Advanced with no mention of DT Swiss E1800 wheels or other distinctive components from the stolen Swift.",
+   "fp": true
   },
   "ebay:v1|227478739457|0": {
    "id": "ebay:v1|227478739457|0",
@@ -20772,7 +20814,9 @@
    "image": "https://i.ebayimg.com/images/g/O8IAAeSw8vxqgicP/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a complete bike listed as a different make and model (Focus Culebro) with no mention of the distinctive DT Swiss E1800 wheels or other matching components, and it's far from the theft area.",
+   "fp": true
   },
   "ebay:v1|158195623727|0": {
    "id": "ebay:v1|158195623727|0",
@@ -20787,7 +20831,9 @@
    "image": "https://i.ebayimg.com/images/g/lZsAAeSwJvdqgiHP/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.003
+   "blue_score": 0.003,
+   "ai_reason": "This is a specific different bike (S-Works Tarmac with Dura Ace Di2 and Enve wheels) with no mention of the stolen bike's 105 groupset or DT Swiss E1800 wheels, and it's located far from the theft area.",
+   "fp": true
   },
   "ebay:v1|327313578676|0": {
    "id": "ebay:v1|327313578676|0",
@@ -20802,7 +20848,9 @@
    "image": "https://i.ebayimg.com/images/g/tLsAAeSw6qlqgiXA/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.008
+   "blue_score": 0.008,
+   "ai_reason": "This is a complete bike of a different make and model (Fuji Altamira) with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true
   },
   "ebay:v1|336745924487|0": {
    "id": "ebay:v1|336745924487|0",
@@ -20817,7 +20865,9 @@
    "image": "https://i.ebayimg.com/images/g/glIAAeSwFJ1qgh2R/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is a specific different make/model (Triban EDR, white, small) with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or components, and it's listed far from the theft area.",
+   "fp": true
   },
   "kleinanzeigen:3486701949": {
    "id": "kleinanzeigen:3486701949",
@@ -20832,7 +20882,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1c/1c9b8dd5-eff7-4862-9f3b-84778e04fb9a?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.061
+   "blue_score": 0.061,
+   "ai_reason": "Different make/model complete bike (Colnago Arte) in Germany with only ubiquitous Shimano 105 in common; no DT Swiss E1800 wheels or other distinctive parts mentioned.",
+   "fp": true
   },
   "kleinanzeigen:3486701541": {
    "id": "kleinanzeigen:3486701541",
@@ -20847,7 +20899,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f0c8f20c-e261-4cfd-bb9b-e2dfd4cd5939?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.085
+   "blue_score": 0.085,
+   "ai_reason": "This is a complete, differently branded Cube Agree C62 SL in white/grey listed near Berlin, with no mention of the distinctive DT Swiss E1800 wheels or other matching parts.",
+   "fp": true
   },
   "kleinanzeigen:3486699878": {
    "id": "kleinanzeigen:3486699878",
@@ -20862,7 +20916,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a1/a13a917a-e838-4156-ae6c-185b9346fe75?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:33:22+00:00",
-   "blue_score": 0.032
+   "blue_score": 0.032,
+   "ai_reason": "This is a classic Benotto steel road bike with brown saddle listed in rural Germany, a different make/model with no mention of the DT Swiss wheels or 105 hydraulic groupset.",
+   "fp": true
   },
   "gumtree:1513760987": {
    "id": "gumtree:1513760987",
@@ -20877,7 +20933,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/0b57c50d2fc94319a3_791503942759/86",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.085
+   "blue_score": 0.085,
+   "ai_reason": "It's listed as a different specific make/model (Van Rysel EDR AF, an aluminium bike) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "ebay:v1|287529263226|0": {
    "id": "ebay:v1|287529263226|0",
@@ -20892,7 +20950,9 @@
    "image": "https://i.ebayimg.com/images/g/~swAAeSwsnZqgi5E/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.004
+   "blue_score": 0.004,
+   "ai_reason": "This is a Mavic Cosmic Pro Carbon rim-brake wheelset, incompatible with and unrelated to the stolen bike's DT Swiss E1800 disc wheels or any of its parts.",
+   "fp": true
   },
   "ebay:v1|237010512137|0": {
    "id": "ebay:v1|237010512137|0",
@@ -20907,7 +20967,9 @@
    "image": "https://i.ebayimg.com/images/g/-70AAeSwkOdqgiz2/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.043
+   "blue_score": 0.043,
+   "ai_reason": "This is a specific different make/model (2006 Specialized Allez Comp, aluminium, rim brake) with no mention of the distinctive DT Swiss E1800 wheels, and it's listed far from London.",
+   "fp": true
   },
   "ebay:v1|336745987953|0": {
    "id": "ebay:v1|336745987953|0",
@@ -20922,7 +20984,9 @@
    "image": "https://i.ebayimg.com/images/g/ipIAAeSw~8Jqgiws/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is a Vision SCDB40 carbon wheelset with SRAM XDR driver, not the stolen DT Swiss E1800 wheels or any other component from the bike.",
+   "fp": true
   },
   "ebay:v1|287529257011|0": {
    "id": "ebay:v1|287529257011|0",
@@ -20937,7 +21001,9 @@
    "image": "https://i.ebayimg.com/images/g/3lQAAeSwCGNqgimx/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model (De Rosa Idol) with rim brakes and no mention of the DT Swiss wheels or Shimano 105 hydraulic disc groupset, so it isn't the stolen bike or its identifiable parts.",
+   "fp": true
   },
   "kleinanzeigen:3486706181": {
    "id": "kleinanzeigen:3486706181",
@@ -20952,7 +21018,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b9cd175-f036-4ce3-94d0-6b9bb41c62f9?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.122
+   "blue_score": 0.122,
+   "ai_reason": "Brand-new Canyon Grail CF8 in XL sold in rural Germany is a different specific make/model with no mention of the DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486705933": {
    "id": "kleinanzeigen:3486705933",
@@ -20967,7 +21035,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5cbd38fc-22b4-4cc5-b75e-af0784a2a648?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.177
+   "blue_score": 0.177,
+   "ai_reason": "A vintage Hercules Monte Carlo steel road bike in rural Germany is a different specific make/model with no mention of the DT Swiss wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486703715": {
    "id": "kleinanzeigen:3486703715",
@@ -20982,7 +21052,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4df4d4d4-21ef-436c-a935-3254aee3bb1c?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "Different make/model complete bike (Scott Speedster Gravel with GRX) in Germany, with no mention of the distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486703515": {
    "id": "kleinanzeigen:3486703515",
@@ -20997,7 +21069,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bc/bc5bbe30-3062-4ead-87be-e4444435a3cf?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T21:48:50+00:00",
-   "blue_score": 0.041
+   "blue_score": 0.041,
+   "ai_reason": "Different make/model complete bike (Pinarello FP3, 62cm, Campagnolo 10-speed) in Germany with no DT Swiss wheels or 105 disc parts \u2014 no link.",
+   "fp": true
   },
   "ebay:v1|366609886766|0": {
    "id": "ebay:v1|366609886766|0",
@@ -21012,7 +21086,9 @@
    "image": "https://i.ebayimg.com/images/g/xycAAeSwk-9qgi1g/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:00:40+00:00",
-   "blue_score": 0.037
+   "blue_score": 0.037,
+   "ai_reason": "This is a different make/model complete bike (Specialized Tarmac with Ultegra and rim brakes), with no mention of the DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486708438": {
    "id": "kleinanzeigen:3486708438",
@@ -21027,7 +21103,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1be80e89-b25a-432d-8b69-189927e9a039?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:00:40+00:00",
-   "blue_score": 0.114
+   "blue_score": 0.114,
+   "ai_reason": "This is a new, unused ROSE GC 50 carbon gravel wheelset in Germany, not the stolen DT Swiss E1800 wheels or any part of the bike.",
+   "fp": true
   },
   "kleinanzeigen:3486707959": {
    "id": "kleinanzeigen:3486707959",
@@ -21042,7 +21120,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/aa/aaa2d72e-2c5a-4ab9-b9c0-b1896fe36b7b?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:00:40+00:00",
-   "blue_score": 0.083
+   "blue_score": 0.083,
+   "ai_reason": "This is a specific, different complete bike (Cube e-MTB) listed in Berlin with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486707379": {
    "id": "kleinanzeigen:3486707379",
@@ -21057,7 +21137,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/99de47b6-a31f-496b-b998-c00db24f8119?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:00:40+00:00",
-   "blue_score": 0.371
+   "blue_score": 0.371,
+   "ai_reason": "This is a specific different make/model (BMC Timemachine with Ultegra Di2 and DT Swiss ARC 1400 wheels) in Germany, sharing no distinctive components with the stolen bike.",
+   "fp": true
   },
   "kleinanzeigen:3486706429": {
    "id": "kleinanzeigen:3486706429",
@@ -21072,7 +21154,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/961e2837-a2ee-466a-b0b4-5fa2f4c47e6c?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:00:40+00:00",
-   "blue_score": 0.015
+   "blue_score": 0.015,
+   "ai_reason": "This is a vintage steel Schauff with Shimano 600 6-speed in Stuttgart \u2014 a completely different bike sharing no components with the stolen carbon disc-brake road bike.",
+   "fp": true
   },
   "ebay:v1|257684797807|0": {
    "id": "ebay:v1|257684797807|0",
@@ -21087,7 +21171,9 @@
    "image": "https://i.ebayimg.com/images/g/tIAAAeSwtAZqgI1z/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.047
+   "blue_score": 0.047,
+   "ai_reason": "This is a specific different make/model (Ridley Flandrien aluminium) sold with a trainer, with no mention of the DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "ebay:v1|318740574413|0": {
    "id": "ebay:v1|318740574413|0",
@@ -21102,7 +21188,9 @@
    "image": "https://i.ebayimg.com/images/g/Oy0AAeSwAVhqgjVB/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.229
+   "blue_score": 0.229,
+   "ai_reason": "This is a distinct branded electric Grunberg dropbar bike with no mention of the stolen bike's carbon frame, 105 groupset or DT Swiss E1800 wheels, and it's far from London.",
+   "fp": true
   },
   "ebay:v1|318740521251|0": {
    "id": "ebay:v1|318740521251|0",
@@ -21117,7 +21205,9 @@
    "image": "https://i.ebayimg.com/images/g/NsEAAeSw-h9qgjN7/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make and model (Pinnacle Dolomite 4, an alloy road bike) with no mention of the distinctive DT Swiss E1800 wheels or any custom build, and it's listed far from the theft area.",
+   "fp": true
   },
   "ebay:v1|318740516748|0": {
    "id": "ebay:v1|318740516748|0",
@@ -21132,7 +21222,9 @@
    "image": "https://i.ebayimg.com/images/g/HOgAAeSwCYxqgjK3/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.174
+   "blue_score": 0.174,
+   "ai_reason": "This is a complete bike listed as a specific different make/model (Planet X Pro Carbon) with no mention of the distinctive DT Swiss E1800 wheels, and it's far from the theft area.",
+   "fp": true
   },
   "kleinanzeigen:2670769012": {
    "id": "kleinanzeigen:2670769012",
@@ -21147,7 +21239,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4fe1a153-b309-45da-867a-e9077ca45592?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a different brand's new gravel frameset (Mai Versa, UDH/T47) sold in Germany with no link to the stolen road bike or its DT Swiss wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486713526": {
    "id": "kleinanzeigen:3486713526",
@@ -21162,7 +21256,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/001dd7db-98ce-459d-92c0-a0586ec1663e?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.012
+   "blue_score": 0.012,
+   "ai_reason": "This is a different make/model (Da Vinci Italian steel-style road bike, 3x9 rim-brake drivetrain) in Germany with no mention of the 105 hydraulic groupset or DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486713521": {
    "id": "kleinanzeigen:3486713521",
@@ -21177,7 +21273,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/86782319-7da5-498e-83b7-a8f9f5a185d7?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.081
+   "blue_score": 0.081,
+   "ai_reason": "This is a specific Canyon Grizl:ON e-gravel bike with Bosch motor in Germany, a completely different bike with no mention of the stolen bike's distinctive DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486712557": {
    "id": "kleinanzeigen:3486712557",
@@ -21192,7 +21290,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed631439-53cc-46e3-89b3-e11d3c39b726?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.051
+   "blue_score": 0.051,
+   "ai_reason": "Different make/model complete bike (YT Jeffsy MTB, 2017) in Germany with no mention of the stolen bike's DT Swiss wheels or road groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486712079": {
    "id": "kleinanzeigen:3486712079",
@@ -21207,7 +21307,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d6f5ffb8-aae2-4cb3-be23-1dbb413453c4?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.29
+   "blue_score": 0.29,
+   "ai_reason": "This is a specific different make/model \u2014 a Scott Genius 900 full-suspension 29er MTB with XTR and Fox \u2014 sharing no distinctive components with the stolen road bike, and listed in Germany.",
+   "fp": true
   },
   "kleinanzeigen:3486711549": {
    "id": "kleinanzeigen:3486711549",
@@ -21222,7 +21324,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0d/0d881836-b0f1-4302-9681-da0482651e9a?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "This is a different make/model complete bike (Stevens Aspin, aluminium frame) listed in Germany with no mention of the DT Swiss E1800 wheels or other distinctive components.",
+   "fp": true
   },
   "marktplaats:m2431757580": {
    "id": "marktplaats:m2431757580",
@@ -21237,7 +21341,9 @@
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/39407820-9865-4b6a-b7c0-aa679ba61191?rule=ecg_mp_eps$_82.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:35:14+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "Specific different make/model (Pinarello FP3) with Dura-Ace groupset and carbon rims, no DT Swiss E1800 or other matching parts, and located in the Netherlands.",
+   "fp": true
   },
   "ebay:v1|188803585606|0": {
    "id": "ebay:v1|188803585606|0",
@@ -21252,7 +21358,9 @@
    "image": "https://i.ebayimg.com/images/g/-kcAAeSwO2lqgjgp/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-16T22:50:28+00:00",
-   "blue_score": 0.038
+   "blue_score": 0.038,
+   "ai_reason": "This is a complete bike listed as a different make and model (Merida Reacto 6000 Di2) with no mention of the distinctive DT Swiss E1800 wheels, so it isn't the stolen Swift.",
+   "fp": true
   },
   "kleinanzeigen:3486714328": {
    "id": "kleinanzeigen:3486714328",
@@ -21267,7 +21375,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/031db4d5-9b30-4c8c-abd5-7f55ef534671?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T22:50:28+00:00",
-   "blue_score": 0.078
+   "blue_score": 0.078,
+   "ai_reason": "Vintage Bianchi Caurus steel bike with Shimano Sant\u00e9 2x7 groupset in Germany \u2014 a completely different, specifically branded bike with none of the stolen bike's components.",
+   "fp": true
   },
   "kleinanzeigen:3234624891": {
    "id": "kleinanzeigen:3234624891",
@@ -21282,7 +21392,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/ea6acd6f-6f1f-4035-ae08-fcec3c321680?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T23:38:18+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is a specifically branded TIME Alpe d'Huez complete bike in Germany with no mention of the DT Swiss E1800 wheels or other distinctive components, so it isn't the stolen Swift.",
+   "fp": true
   },
   "kleinanzeigen:3471863486": {
    "id": "kleinanzeigen:3471863486",
@@ -21297,7 +21409,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5d1312cf-9d2d-412f-a985-7b7a661122e9?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T23:38:18+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is a specific different make/model complete e-bike (Tenways CGO Compact belt-drive city e-bike) in Germany, with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486718094": {
    "id": "kleinanzeigen:3486718094",
@@ -21312,7 +21426,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c68d0be-e243-43bd-9177-2bc44ccee19a?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T23:38:18+00:00",
-   "blue_score": 0.009
+   "blue_score": 0.009,
+   "ai_reason": "Complete Orbea Terra H30 gravel bike listed in Munich with no mention of the distinctive DT Swiss E1800 wheels or other matching parts \u2014 a different make/model bike.",
+   "fp": true
   },
   "kleinanzeigen:3486717264": {
    "id": "kleinanzeigen:3486717264",
@@ -21327,7 +21443,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e291dc1-12f2-4c80-aa59-c1eb3a584c8e?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T23:38:18+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is a complete, specifically branded Cube Nuroad in Germany with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true
   },
   "kleinanzeigen:3486716901": {
    "id": "kleinanzeigen:3486716901",
@@ -21342,7 +21460,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9d/9db04c32-6514-468f-8df1-a06be3b1ce65?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T23:38:18+00:00",
-   "blue_score": 0.051
+   "blue_score": 0.051,
+   "ai_reason": "This is a specific different make/model (Cube Nuroad Race) complete bike in Munich with no mention of DT Swiss E1800 wheels or other distinctive components.",
+   "fp": true
   },
   "kleinanzeigen:3486719931": {
    "id": "kleinanzeigen:3486719931",
@@ -21357,7 +21477,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ae/aebf9155-1a46-4ca6-b091-3cd2ec9a0e21?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-16T23:48:04+00:00",
-   "blue_score": 0.109
+   "blue_score": 0.109,
+   "ai_reason": "This is a different make/model complete bike \u2014 a 27.5\" enduro full-suspension Conway with FOX fork and SRAM NX in Essen, Germany \u2014 sharing no distinctive components with the stolen road bike.",
+   "fp": true
   },
   "ebay:v1|168619037826|0": {
    "id": "ebay:v1|168619037826|0",
@@ -21372,7 +21494,9 @@
    "image": "https://i.ebayimg.com/images/g/2ygAAeSw7OJqgkh-/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T00:09:48+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "THM Carbones rare carbon rim brake calipers are incompatible with and unrelated to the stolen bike's Shimano 105 hydraulic disc setup, so they cannot be from it.",
+   "fp": true
   },
   "ebay:v1|287529493632|0": {
    "id": "ebay:v1|287529493632|0",
@@ -21387,7 +21511,9 @@
    "image": "https://i.ebayimg.com/images/g/CA4AAeSwjJxqgdPB/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T01:54:42+00:00",
-   "blue_score": 0.008
+   "blue_score": 0.008,
+   "ai_reason": "This is a specific different make/model \u2014 a vintage steel Giant Peloton with Shimano RSX \u2014 with no mention of the stolen bike's carbon frame, 105 hydraulic discs or DT Swiss wheels, and it's listed far away in Bournemouth.",
+   "fp": true
   },
   "ebay:v1|158196119051|459367435588": {
    "id": "ebay:v1|158196119051|459367435588",
@@ -21402,7 +21528,9 @@
    "image": "https://i.ebayimg.com/images/g/Na0AAeSwnu5qglMU/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T01:54:42+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a complete, specifically branded Giant TCR Advanced with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, so it is a different bike.",
+   "fp": true
   },
   "ebay:v1|158196118852|459367319181": {
    "id": "ebay:v1|158196118852|459367319181",
@@ -21417,7 +21545,9 @@
    "image": "https://i.ebayimg.com/images/g/WDYAAeSwUZFqglMO/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T01:54:42+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model (Giant TCR Advanced with SRAM AXS) with no mention of the DT Swiss E1800 wheels or other distinctive stolen components, and it's listed far away in Sunderland.",
+   "fp": true
   },
   "ebay:v1|206496561821|0": {
    "id": "ebay:v1|206496561821|0",
@@ -21432,7 +21562,9 @@
    "image": "https://i.ebayimg.com/images/g/TR8AAeSwNtZqglBD/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T01:54:43+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "The stolen bike had a Shimano 105 groupset, so a SRAM Force eTap AXS groupset could not have come from it.",
+   "fp": true
   },
   "kleinanzeigen:3486726066": {
    "id": "kleinanzeigen:3486726066",
@@ -21447,7 +21579,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f9/f9ca379b-ffd6-43f1-9b58-b38aa66cf9ad?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T02:49:21+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "Complete bike listed as a different make (Felt) with Campagnolo groupset, no DT Swiss wheels or matching components, and located in Hamburg \u2014 not the stolen Swift.",
+   "fp": true
   },
   "kleinanzeigen:3486725563": {
    "id": "kleinanzeigen:3486725563",
@@ -21462,7 +21596,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d56f01f-e12c-4ca4-8473-9f92b0a4f915?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T02:49:22+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "Different make/model complete bike (Scott Roadster, black/red, in Germany) with no mention of the distinctive DT Swiss E1800 wheels or other matching parts.",
+   "fp": true
   },
   "kleinanzeigen:3486725386": {
    "id": "kleinanzeigen:3486725386",
@@ -21477,7 +21613,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0f793179-9a47-4bfb-a186-20ff6b00346e?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T02:49:22+00:00",
-   "blue_score": 0.094
+   "blue_score": 0.094,
+   "ai_reason": "A vague cheap bike in Sinsheim, Germany with only a generic \"105\" mention and no DT Swiss wheels or matching details \u2014 no plausible link to a Shoreditch theft.",
+   "fp": true
   },
   "kleinanzeigen:3486727682": {
    "id": "kleinanzeigen:3486727682",
@@ -21492,7 +21630,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e658ca7-5285-483e-949d-e2a53ac9c503?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T03:37:13+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "This is an Enve M640 carbon MTB wheelset with Chris King hubs in Germany \u2014 completely different components from the stolen bike's DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486730930": {
    "id": "kleinanzeigen:3486730930",
@@ -21507,7 +21647,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/35/35ba2d67-289e-458b-bb5f-b479c945a8e4?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T04:22:01+00:00",
-   "blue_score": 0.119
+   "blue_score": 0.119,
+   "ai_reason": "Complete bike listed as a different make/model (Giant Propel Advanced) in rural Germany, with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "kleinanzeigen:3486730082": {
    "id": "kleinanzeigen:3486730082",
@@ -21522,7 +21664,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/799c73a6-6b2e-44f9-9e81-a018a5e6f71e?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T04:22:02+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "A different make/model complete bike (Stevens trekking bike, \u20ac200, Berlin) with no mention of the stolen bike's carbon frame, 105 hydraulic groupset, or DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486729296": {
    "id": "kleinanzeigen:3486729296",
@@ -21537,7 +21681,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/21e0a10c-01cf-4c28-b200-4e441d135d20?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T04:22:02+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "A matt white single-speed gravel bike in rural Germany at \u20ac222 bears no resemblance to the blue carbon 105 disc road bike and mentions none of its distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486729073": {
    "id": "kleinanzeigen:3486729073",
@@ -21552,7 +21698,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5c3a52a0-806a-4947-8a1d-8b9ac6498ee1?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T04:22:02+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "Complete Cube Nuroad EX listed by specific different make/model in Germany, with no mention of DT Swiss E1800 wheels or other distinctive stolen components.",
+   "fp": true
   },
   "kleinanzeigen:3447999511": {
    "id": "kleinanzeigen:3447999511",
@@ -21567,7 +21715,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d57e7d1f-8251-46c6-8394-e0ec97d15409?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:10:58+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model \u2014 a Van Rysel e-gravel bike with Brose mid-motor in Cologne \u2014 with no mention of the stolen bike's DT Swiss wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486737679": {
    "id": "kleinanzeigen:3486737679",
@@ -21582,7 +21732,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/65/65cf99b4-9a64-4b91-8e7a-18d2bb9978f0?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:10:59+00:00",
-   "blue_score": 0.054
+   "blue_score": 0.054,
+   "ai_reason": "This is a complete, differently-branded Specialized enduro MTB in Germany with no mention of the stolen road bike's DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486737545": {
    "id": "kleinanzeigen:3486737545",
@@ -21597,7 +21749,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/92/92ae218f-76ca-491d-983a-7fdb363f770d?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:10:59+00:00",
-   "blue_score": 0.084
+   "blue_score": 0.084,
+   "ai_reason": "Complete Giant Contend AR 1 listed under a different make/model in Germany, with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "kleinanzeigen:3486736572": {
    "id": "kleinanzeigen:3486736572",
@@ -21612,7 +21766,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a3e7834-f6e4-4f7a-903f-bd802fb72d5f?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:10:59+00:00",
-   "blue_score": 0.045
+   "blue_score": 0.045,
+   "ai_reason": "This is a specific different make/model (Scott Scale 940 hardtail MTB) in Germany with no mention of the stolen bike's DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "kleinanzeigen:3486736517": {
    "id": "kleinanzeigen:3486736517",
@@ -21627,7 +21783,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b9449f1-f925-413e-87a6-fa557c167241?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:10:59+00:00",
-   "blue_score": 0.004
+   "blue_score": 0.004,
+   "ai_reason": "Different branded aluminium bike (Berner) with SRAM Rival, no DT Swiss E1800 wheels or other matching parts, and located in rural Germany.",
+   "fp": true
   },
   "marktplaats:m2431771709": {
    "id": "marktplaats:m2431771709",
@@ -21642,7 +21800,9 @@
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d12d3e6e-2e5d-4c4a-8514-d069b5303e3e?rule=ecg_mp_eps$_82.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T05:10:59+00:00",
-   "blue_score": 0.168
+   "blue_score": 0.168,
+   "ai_reason": "This is a specific different make/model (Cube Aerial) with Tiagra/Sora components and no mention of the distinctive DT Swiss E1800 wheels, so it isn't the stolen bike.",
+   "fp": true
   },
   "ebay:v1|377424939740|0": {
    "id": "ebay:v1|377424939740|0",
@@ -21657,7 +21817,9 @@
    "image": "https://i.ebayimg.com/images/g/ReoAAeSwQe1qgp4u/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T05:48:42+00:00",
-   "blue_score": 0.005
+   "blue_score": 0.005,
+   "ai_reason": "This is a specific different-brand frameset (Canyon Aeroad CFR) with no mention of the stolen bike's frame or DT Swiss E1800 wheels, so it isn't a match.",
+   "fp": true
   },
   "ebay:v1|336746428326|0": {
    "id": "ebay:v1|336746428326|0",
@@ -21672,7 +21834,9 @@
    "image": "https://i.ebayimg.com/images/g/RDYAAeSwvk9qgptt/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T05:48:42+00:00",
-   "blue_score": 0.01
+   "blue_score": 0.01,
+   "ai_reason": "This is a specific different frame (Cervelo S5) sold alone, with no mention of the stolen bike's frame, groupset or DT Swiss wheels.",
+   "fp": true
   },
   "kleinanzeigen:3486746686": {
    "id": "kleinanzeigen:3486746686",
@@ -21687,7 +21851,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e228c7e-f3b9-403e-892b-a1a23c7d474f?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:48:42+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "This is a different make/model complete bike (Stevens Tabor gravel, Earth Green) in Cologne with no mention of DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486746494": {
    "id": "kleinanzeigen:3486746494",
@@ -21702,7 +21868,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/8957131c-c5ae-447f-8bfa-6d59b01707c1?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:48:43+00:00",
-   "blue_score": 0.031
+   "blue_score": 0.031,
+   "ai_reason": "This is a petrol-engined mini dirt bike, not a bicycle or any part of the stolen road bike.",
+   "fp": true
   },
   "kleinanzeigen:3486746306": {
    "id": "kleinanzeigen:3486746306",
@@ -21717,7 +21885,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a6/a69aa667-d1af-4b57-bc0b-065cfec66355?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:48:43+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "These are DT Swiss P1800 Aero wheels taken off a new Canyon Ultimate, not the stolen E1800 set, and are listed in Germany far from the theft.",
+   "fp": true
   },
   "kleinanzeigen:3486745186": {
    "id": "kleinanzeigen:3486745186",
@@ -21732,7 +21902,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ce/cea19f67-0fb5-4d89-9bb3-be6136471e0e?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T05:48:43+00:00",
-   "blue_score": 0.089
+   "blue_score": 0.089,
+   "ai_reason": "This is a cheap 24-speed Orbea road bike in Germany with no mention of the DT Swiss wheels or 105 hydraulic groupset, so it's a different bike.",
+   "fp": true
   },
   "ebay:v1|407150441562|0": {
    "id": "ebay:v1|407150441562|0",
@@ -21747,7 +21919,9 @@
    "image": "https://i.ebayimg.com/images/g/lfYAAeSwBO5qgqSJ/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T06:23:53+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "A complete Basso Diamant\u00e9 with Campagnolo Chorus and Shamal wheels is a different bike sharing no distinctive components with the stolen Swift.",
+   "fp": true
   },
   "kleinanzeigen:3486758613": {
    "id": "kleinanzeigen:3486758613",
@@ -21762,7 +21936,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/74/740b6f66-fbc7-4e15-ae3b-0af74ac18236?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T06:23:54+00:00",
-   "blue_score": 0.073
+   "blue_score": 0.073,
+   "ai_reason": "Complete bike listed as a different make (Focus), in Germany, with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "kleinanzeigen:3486758022": {
    "id": "kleinanzeigen:3486758022",
@@ -21777,7 +21953,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c8da89d5-6f91-44d7-9b72-bb64b0252f93?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T06:23:54+00:00",
-   "blue_score": 0.048
+   "blue_score": 0.048,
+   "ai_reason": "This is a specific different bike \u2014 an old 26\" Cube MTB hardtail with 27-speed rim-brake setup in Germany, sharing no components with the stolen road bike.",
+   "fp": true
   },
   "gumtree:1801641068": {
    "id": "gumtree:1801641068",
@@ -21792,7 +21970,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/3ee5d7c4f39947fd9b_b6635b1bb88d/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:49+00:00",
-   "blue_score": 0.716
+   "blue_score": 0.716,
+   "ai_reason": "This is a vintage steel Reynolds 531 Claud Butler, a specific different make/model with no mention of the stolen bike's carbon frame, 105 hydraulic groupset or DT Swiss wheels.",
+   "fp": true
   },
   "gumtree:1801640677": {
    "id": "gumtree:1801640677",
@@ -21807,7 +21987,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/454aa827d73c424ba1_3c678514eb16/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:49+00:00",
-   "blue_score": 0.125
+   "blue_score": 0.125,
+   "ai_reason": "This is a specific different make/model (Tifosi Audax CK7) with Ultegra groupset and no mention of the distinctive DT Swiss E1800 wheels or a fresh custom build.",
+   "fp": true
   },
   "gumtree:1801641045": {
    "id": "gumtree:1801641045",
@@ -21822,7 +22004,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/4f6ace5e0fe148f5ac_9a514d516777/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:49+00:00",
-   "blue_score": 0.008
+   "blue_score": 0.008,
+   "ai_reason": "A 1970s vintage steel Trent Valley touring bike is a completely different make, era and type from the modern carbon disc-brake road bike, with no mention of its distinctive components.",
+   "fp": true
   },
   "gumtree:1801641018": {
    "id": "gumtree:1801641018",
@@ -21837,7 +22021,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/1a5454950cc44960b5_47269eddb111/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:50+00:00",
-   "blue_score": 0.081
+   "blue_score": 0.081,
+   "ai_reason": "This is a complete bike listed as a different make and model (Merida Scultura 100) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "gumtree:1801640621": {
    "id": "gumtree:1801640621",
@@ -21852,7 +22038,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/12169af07c8d4e71b4_80fcf341b469/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:50+00:00",
-   "blue_score": 0.551
+   "blue_score": 0.551,
+   "ai_reason": "This is listed as a complete Kona road bike in black with no mention of DT Swiss E1800 wheels or a fresh build, so it's a different bike.",
+   "fp": true
   },
   "gumtree:1801639992": {
    "id": "gumtree:1801639992",
@@ -21867,7 +22055,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/24d242fe39e14efe80_a3cbc6f2ccf3/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:50+00:00",
-   "blue_score": 0.051
+   "blue_score": 0.051,
+   "ai_reason": "This is a specific different make/model (Ribble Audax, XXL 62cm) with no mention of the DT Swiss E1800 wheels or other distinctive components, so it is not the stolen Swift.",
+   "fp": true
   },
   "gumtree:1801639743": {
    "id": "gumtree:1801639743",
@@ -21882,7 +22072,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/e2fff0403264425280_3464233b95e2/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:50+00:00",
-   "blue_score": 0.062
+   "blue_score": 0.062,
+   "ai_reason": "This is a complete bike listed as a specific different make/model (Moda Prima) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, so it isn't a plausible match.",
+   "fp": true
   },
   "gumtree:1801640308": {
    "id": "gumtree:1801640308",
@@ -21897,7 +22089,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/b411db6b63ea4e0ab3_d26bd9c48eb1/86",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:50+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "It's listed as a specific different make and model (Specialized Tarmac) with no mention of the DT Swiss E1800 wheels or a fresh build, so it isn't the stolen Swift UniVox.",
+   "fp": true
   },
   "gumtree:1801640203": {
    "id": "gumtree:1801640203",
@@ -21914,7 +22108,9 @@
    "level": "alert",
    "first_seen": "2026-08-17T07:34:50+00:00",
    "blue_score": 0.026,
-   "evidence_photo": "evidence/gumtree_1801640203.jpg"
+   "evidence_photo": "evidence/gumtree_1801640203.jpg",
+   "ai_reason": "This is a specific different make/model (Cervelo Soloist alloy/carbon TT bike) with no mention of DT Swiss E1800 wheels or a fresh build, so it isn't the stolen Swift.",
+   "fp": true
   },
   "ebay:v1|168619882491|0": {
    "id": "ebay:v1|168619882491|0",
@@ -21929,7 +22125,9 @@
    "image": "https://i.ebayimg.com/images/g/XyUAAeSwqn9qgrTe/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:51+00:00",
-   "blue_score": 0.206
+   "blue_score": 0.206,
+   "ai_reason": "This is a complete bike listed as a different make and model (Ribble Gran Fondo) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, so it isn't the stolen Swift.",
+   "fp": true
   },
   "ebay:v1|307130926269|0": {
    "id": "ebay:v1|307130926269|0",
@@ -21944,7 +22142,9 @@
    "image": "https://i.ebayimg.com/images/g/W8wAAeSwS3BqgrMt/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:51+00:00",
-   "blue_score": 0.019
+   "blue_score": 0.019,
+   "ai_reason": "This is a specific different make/model (2012 Specialized Allez Elite alloy road bike) with no mention of the DT Swiss E1800 wheels or other distinctive components, listed far from London.",
+   "fp": true
   },
   "ebay:v1|117363843610|0": {
    "id": "ebay:v1|117363843610|0",
@@ -21959,7 +22159,9 @@
    "image": "https://i.ebayimg.com/images/g/WRoAAeSwa1BqgrMe/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:51+00:00",
-   "blue_score": 0.071
+   "blue_score": 0.071,
+   "ai_reason": "This is a specific different make/model (Cube Attain C:62 with 105 Di2, not mechanical 105 or DT Swiss E1800 wheels), so it isn't the stolen bike or its identifiable parts.",
+   "fp": true
   },
   "ebay:v1|298594879566|0": {
    "id": "ebay:v1|298594879566|0",
@@ -21974,7 +22176,9 @@
    "image": "https://i.ebayimg.com/images/g/P4IAAeSwJfhqgq94/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:51+00:00",
-   "blue_score": 0.021
+   "blue_score": 0.021,
+   "ai_reason": "It's a complete bike listed as a different make/model (Orro Venturi STC) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "ebay:v1|327314189067|0": {
    "id": "ebay:v1|327314189067|0",
@@ -21989,7 +22193,9 @@
    "image": "https://i.ebayimg.com/images/g/6XQAAeSwMk1qgqoD/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:51+00:00",
-   "blue_score": 0.011
+   "blue_score": 0.011,
+   "ai_reason": "This is a bare Cannondale Synapse frame, a different make/model with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true
   },
   "ebay:v1|318742328324|0": {
    "id": "ebay:v1|318742328324|0",
@@ -22004,7 +22210,9 @@
    "image": "https://i.ebayimg.com/images/g/nv4AAeSw0jpqgqaF/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:51+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specifically branded MBK Super Sport 12 complete bike with no mention of the DT Swiss wheels or other distinctive components, and it's far from the theft area.",
+   "fp": true
   },
   "kleinanzeigen:3482383856": {
    "id": "kleinanzeigen:3482383856",
@@ -22019,7 +22227,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/093764ac-060d-4518-a0d3-e442502ae90a?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:52+00:00",
-   "blue_score": 0.054
+   "blue_score": 0.054,
+   "ai_reason": "Different make/model complete bike (Fuji Jari) with SRAM AXS/XX1 groupset and no DT Swiss E1800 or 105 components, listed in Germany \u2014 no link to the stolen bike.",
+   "fp": true
   },
   "kleinanzeigen:3486799200": {
    "id": "kleinanzeigen:3486799200",
@@ -22034,7 +22244,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/67/673f3e18-0608-4276-a929-da19730c325e?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:52+00:00",
-   "blue_score": 0.007
+   "blue_score": 0.007,
+   "ai_reason": "This is a complete, differently-branded Stevens Gavere gravel bike from a German refurbishment centre with no mention of the distinctive DT Swiss E1800 wheels, so it's not the stolen Swift.",
+   "fp": true
   },
   "kleinanzeigen:3486798971": {
    "id": "kleinanzeigen:3486798971",
@@ -22049,7 +22261,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e6caede-84d0-49a2-a2c9-4f7c308b1366?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:52+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "This is a complete, branded Cube Nuroad RACE gravel bike sold by a German refurbishment centre, with no mention of DT Swiss E1800 wheels or other distinctive parts from the stolen Swift.",
+   "fp": true
   },
   "kleinanzeigen:3486798322": {
    "id": "kleinanzeigen:3486798322",
@@ -22064,7 +22278,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/43/433761a4-947d-4e57-88b5-6d21fdaf10b8?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:52+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specifically branded Ridley Fenix Disc complete bike in Germany with no mention of the distinctive DT Swiss E1800 wheels, so it is a different bike.",
+   "fp": true
   },
   "kleinanzeigen:3486796780": {
    "id": "kleinanzeigen:3486796780",
@@ -22079,7 +22295,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5aaada0e-5a34-4b4b-bbaa-d2b6977e10dd?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T07:34:52+00:00",
-   "blue_score": 0.011
+   "blue_score": 0.011,
+   "ai_reason": "A cheap retro/vintage steel-style road bike restored, in rural Germany, is inconsistent with a modern carbon disc-brake Swift and mentions none of its distinctive parts.",
+   "fp": true
   },
   "ebay:v1|198576872504|0": {
    "id": "ebay:v1|198576872504|0",
@@ -22094,7 +22312,9 @@
    "image": "https://i.ebayimg.com/images/g/ey8AAOSwrWJmfoVq/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:09+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specifically branded Orbea ORCA frameset only, with no wheels or components matching the stolen Swift bike's distinctive DT Swiss E1800 wheelset.",
+   "fp": true
   },
   "ebay:v1|327314275870|0": {
    "id": "ebay:v1|327314275870|0",
@@ -22109,7 +22329,9 @@
    "image": "https://i.ebayimg.com/images/g/3JIAAeSwFLNqgrtO/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:09+00:00",
-   "blue_score": 0.182
+   "blue_score": 0.182,
+   "ai_reason": "A Zipp 303 front wheel is a different, specific branded component unrelated to the stolen bike's DT Swiss E1800 wheelset.",
+   "fp": true
   },
   "ebay:v1|188805454043|0": {
    "id": "ebay:v1|188805454043|0",
@@ -22124,7 +22346,9 @@
    "image": "https://i.ebayimg.com/images/g/4A0AAeSwQe1qgrta/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:09+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "The stolen bike had Shimano 105 hydraulic mechanical groupset, not Ultegra Di2 12-speed, so this derailleur cannot have come from it.",
+   "fp": true
   },
   "kleinanzeigen:3461646138": {
    "id": "kleinanzeigen:3461646138",
@@ -22139,7 +22363,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/00c44f9e-cea0-4b3d-952c-000f703e9178?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:09+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is a specific, different make/model \u2014 a refurbished Cube e-bike in Munich \u2014 with no mention of the DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   },
   "kleinanzeigen:3486824452": {
    "id": "kleinanzeigen:3486824452",
@@ -22154,7 +22380,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ec3122b5-10b2-4c93-a2da-a3ad2367edba?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:09+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model (CUBE Nuroad e-gravel bike) from a German refurbishment centre, with no mention of the distinctive DT Swiss E1800 wheels.",
+   "fp": true
   },
   "kleinanzeigen:3438520711": {
    "id": "kleinanzeigen:3438520711",
@@ -22169,7 +22397,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b9/b978f42f-0aab-4646-a6fc-2af4de7d2842?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:09+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model e-bike (e-bike manufaktur Offroad Pro with Bosch motor and GRX groupset) in Germany, sharing no distinctive components with the stolen road bike.",
+   "fp": true
   },
   "kleinanzeigen:3438508920": {
    "id": "kleinanzeigen:3438508920",
@@ -22184,7 +22414,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/bac83ae0-cad3-4258-ab79-87c387c51814?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:10+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model (Ridley Noah Disc with 105 Di2) in Hamburg, sharing only ubiquitous 105 branding and no DT Swiss E1800 wheels.",
+   "fp": true
   },
   "marktplaats:a1529718370": {
    "id": "marktplaats:a1529718370",
@@ -22199,7 +22431,9 @@
    "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/50/50783dc1-7404-4fa4-ae49-540999c66fbb?rule=eps_82.JPG",
    "level": "digest",
    "first_seen": "2026-08-17T08:09:10+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a complete, differently-branded bike (Triestina Garda with 105 Di2) from a Mallorca rental fleet in the Netherlands, with no mention of DT Swiss E1800 wheels or other distinctive parts.",
+   "fp": true
   }
  },
  "health": {
