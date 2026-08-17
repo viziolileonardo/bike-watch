@@ -27378,11 +27378,91 @@
    "ai_reason": "(rule) complete bike listed as Vitus \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-17T21:38:21+00:00"
+  },
+  "ebay:v1|267760319391|0": {
+   "id": "ebay:v1|267760319391|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267760319391?_skw=road+bike&hash=item3e57c23b9f:g:KUgAAeSwCqtqg4Sw",
+   "title": "SRAM Force AXS Groupset",
+   "description": "",
+   "location": "BT5***",
+   "price_text": "\u00a3700.00",
+   "price": 700.0,
+   "image": "https://i.ebayimg.com/images/g/KUgAAeSwCqtqg4Sw/s-l225.jpg",
+   "ai_reason": "SRAM Force AXS is not a component from the stolen bike, which had a Shimano 105 hydraulic groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-17T22:09:30+00:00"
+  },
+  "ebay:v1|188808490480|0": {
+   "id": "ebay:v1|188808490480|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188808490480?_skw=road+bike&hash=item2bf5dcedf0:g:OCAAAeSwWhdqg4IO",
+   "title": "SRAM Red AXS D1 Hydraulic HRD Disc Brake Set Shifters & Calipers Front & Rear",
+   "description": "",
+   "location": "RH11***",
+   "price_text": "\u00a3365.00",
+   "price": 365.0,
+   "image": "https://i.ebayimg.com/images/g/OCAAAeSwWhdqg4IO/s-l225.jpg",
+   "ai_reason": "SRAM Red AXS electronic groupset brakes are unrelated to the stolen bike's Shimano 105 hydraulic components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-17T22:09:34+00:00"
+  },
+  "kleinanzeigen:3487586451": {
+   "id": "kleinanzeigen:3487586451",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-endurace-al-disc-8-0-groesse-s-shimano-ultegra-rennrad/3487586451-217-2229",
+   "title": "Canyon Endurace AL Disc 8.0 Gr\u00f6\u00dfe S Shimano Ultegra Rennrad",
+   "description": "Zum Verkauf steht mein gepflegtes Canyon Endurace AL Disc 8.0 in Rahmengr\u00f6\u00dfe S. Ich bin 175 cm gro\u00df...",
+   "location": "39108 Magdeburg",
+   "price_text": "1.320 \u20ac",
+   "price": 1320.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/78/7864c914-0593-42f6-8be5-e9256ecca761?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:09:34+00:00"
+  },
+  "kleinanzeigen:3487586138": {
+   "id": "kleinanzeigen:3487586138",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/stevens-carbon-rennrad-superlite-mega-leicht-/3487586138-217-3894",
+   "title": "Stevens Carbon Rennrad Superlite mega leicht!",
+   "description": "Hallo liebe Rennradfahrer, oder die welche es noch werden wollen.\n\nHier gibt es ein super leichtes...",
+   "location": "09228 Wittgensdorf",
+   "price_text": "1.199 \u20ac",
+   "price": 1199.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c14c8c85-3970-4e32-acbb-dd6adb6f7338?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Stevens \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:09:34+00:00"
+  },
+  "kleinanzeigen:3467460752": {
+   "id": "kleinanzeigen:3467460752",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/koga-miyata-gents-racer-rh-58-duraace-600-komponenten-1984-/3467460752-217-622",
+   "title": "Koga Miyata Gents Racer RH 58 - DuraAce/600-Komponenten (1984)",
+   "description": "Koga Miyata Gents Racer (1984) \u2013 hervorragender Originalzustand \u2013 Dura-Ace & Shimano 600\n\nZum...",
+   "location": "25436 Uetersen",
+   "price_text": "630 \u20ac VB",
+   "price": 630.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f6/f6841834-8449-4f2e-98ff-75832a74e81a?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-17T22:09:34+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 145,
+   "fail_streak": 146,
    "warned": true,
    "ever_ok": true
   },
@@ -27397,8 +27477,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T22:48:54",
-   "2026-08-16T23:00:40",
    "2026-08-16T23:35:17",
    "2026-08-16T23:37:07",
    "2026-08-16T23:50:28",
@@ -27441,10 +27519,11 @@
    "2026-08-17T21:10:24",
    "2026-08-17T21:43:43",
    "2026-08-17T22:12:15",
-   "2026-08-17T22:38:21"
+   "2026-08-17T22:38:21",
+   "2026-08-17T23:09:34"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-17T22",
+  "last_status": "2026-08-17T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
