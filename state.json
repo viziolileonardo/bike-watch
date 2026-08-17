@@ -21553,11 +21553,101 @@
    "level": "digest",
    "first_seen": "2026-08-17T04:22:02+00:00",
    "blue_score": 0.0
+  },
+  "kleinanzeigen:3447999511": {
+   "id": "kleinanzeigen:3447999511",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/e-gravelbike-e-grvl-af-md-mittelmotor-brose-drive-t-mag/3447999511-217-30403",
+   "title": "E-Gravelbike E-GRVL AF MD Mittelmotor Brose Drive T mag",
+   "description": "Marke: VAN RYSEL\nGr\u00f6\u00dfe: S\nAbholort: K\u00f6ln Marsdorf.\n\nSEHR GUT: Diese Produkte sind voll...",
+   "location": "E-Gravelbike E-GRVL AF MD Mittelmotor Brose Drive T mag",
+   "price_text": "2.850 \u20ac",
+   "price": 2850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d57e7d1f-8251-46c6-8394-e0ec97d15409?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:10:58+00:00",
+   "blue_score": 0.0
+  },
+  "kleinanzeigen:3486737679": {
+   "id": "kleinanzeigen:3486737679",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-enduro-elite-carbon-2022-enduro-downhill-fully/3486737679-217-2632",
+   "title": "Specialized Enduro Elite Carbon 2022 enduro downhill fully",
+   "description": "Zum Verkauf steht ein Specialized Enduro Elite Carbon Modell 2022 in einem nahezu neuwertigen...",
+   "location": "49179 Ostercappeln",
+   "price_text": "1.750 \u20ac VB",
+   "price": 1750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/65/65cf99b4-9a64-4b91-8e7a-18d2bb9978f0?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:10:59+00:00",
+   "blue_score": 0.054
+  },
+  "kleinanzeigen:3486737545": {
+   "id": "kleinanzeigen:3486737545",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-contend-ar-1-gr-l-kauf-12-2025-/3486737545-217-1654",
+   "title": "Giant Contend AR 1 - Gr. L (Kauf 12/2025)",
+   "description": "Ich verkaufe mein Giant Contend AR 1 Allroad-/Gravelbike, da ich es schlichtweg zu selten...",
+   "location": "33818 Leopoldsh\u00f6he",
+   "price_text": "1.099 \u20ac VB",
+   "price": 1099.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/92/92ae218f-76ca-491d-983a-7fdb363f770d?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:10:59+00:00",
+   "blue_score": 0.084
+  },
+  "kleinanzeigen:3486736572": {
+   "id": "kleinanzeigen:3486736572",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-scale-940-vollcarbon-29-zoll-xl-rahmen/3486736572-217-17954",
+   "title": "Scott scale 940 Vollcarbon 29 zoll xl Rahmen",
+   "description": "Rad ist von 2023\n400Km gefahren wurden\nIst in sehr gutem Zustand\n\nDabei sind:\nLicht\nPedalen...",
+   "location": "06188 Landsberg (Saalekreis)",
+   "price_text": "1.000 \u20ac VB",
+   "price": 1000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9a/9a3e7834-f6e4-4f7a-903f-bd802fb72d5f?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:10:59+00:00",
+   "blue_score": 0.045
+  },
+  "kleinanzeigen:3486736517": {
+   "id": "kleinanzeigen:3486736517",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/berner-rennrad-56-cm-sram-rival-antriebstrang-komplett-neu/3486736517-217-21236",
+   "title": "Berner Rennrad, 56 cm, SRAM Rival, Antriebstrang komplett neu",
+   "description": "Verkaufe sehr gepflegtes und gut erhaltenes Berner Alu Rennrad.\nSchaltung SRAM Rival...",
+   "location": "86926 Greifenberg Ammersee",
+   "price_text": "670 \u20ac VB",
+   "price": 670.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2b/2b9449f1-f925-413e-87a6-fa557c167241?rule=$_2.AUTO",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:10:59+00:00",
+   "blue_score": 0.004
+  },
+  "marktplaats:m2431771709": {
+   "id": "marktplaats:m2431771709",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2431771709-goed-onderhouden-cube-aerial-racefiets-58cm",
+   "title": "Goed onderhouden Cube Aerial racefiets - 58cm",
+   "description": "Te koop: een goed onderhouden cube aerial racefiets met een framehoogte van 58cm. Uitgerust met een betrouwbare tiagra groepset en sora remmen, wat zorgt voor soepel schakelen en effectief remmen. Car",
+   "location": "Oud-Beijerland",
+   "price_text": "\u20ac500",
+   "price": 500.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d12d3e6e-2e5d-4c4a-8514-d069b5303e3e?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-08-17T05:10:59+00:00",
+   "blue_score": 0.168
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 115,
+   "fail_streak": 116,
    "warned": true,
    "ever_ok": true
   },
@@ -21572,7 +21662,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-16T05:51:46",
    "2026-08-16T06:14:26",
    "2026-08-16T06:42:43",
    "2026-08-16T07:16:05",
@@ -21625,10 +21714,11 @@
    "2026-08-17T02:54:43",
    "2026-08-17T03:49:23",
    "2026-08-17T04:37:13",
-   "2026-08-17T05:22:03"
+   "2026-08-17T05:22:03",
+   "2026-08-17T06:11:00"
   ],
   "last_heartbeat": "2026-08-16",
-  "last_status": "2026-08-17T05",
+  "last_status": "2026-08-17T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
