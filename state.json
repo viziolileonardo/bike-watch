@@ -27906,11 +27906,27 @@
    "ai_reason": "(rule) complete bike listed as Gazelle \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-18T01:49:32+00:00"
+  },
+  "kleinanzeigen:3487601229": {
+   "id": "kleinanzeigen:3487601229",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/graveler-e9400/3487601229-217-1264",
+   "title": "Graveler e9400",
+   "description": "Verkaufe hier mein 2 Wochen altes E Bike\nGrevener e 9400 glaube ich\nAkku top\nMotor Top\nFederung...",
+   "location": "33129 Delbr\u00fcck",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/84/84c8cb6c-eb05-4117-ab0b-2e4328db33d4?rule=$_2.AUTO",
+   "ai_reason": "A cheap German e-bike of a different make with suspension and battery shares nothing with the stolen carbon road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T02:44:04+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 152,
+   "fail_streak": 153,
    "warned": true,
    "ever_ok": true
   },
@@ -27925,7 +27941,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T02:54:43",
    "2026-08-17T03:49:23",
    "2026-08-17T04:37:13",
    "2026-08-17T05:22:03",
@@ -27965,10 +27980,11 @@
    "2026-08-18T00:35:46",
    "2026-08-18T00:50:42",
    "2026-08-18T01:02:36",
-   "2026-08-18T02:49:32"
+   "2026-08-18T02:49:32",
+   "2026-08-18T03:44:04"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-18T02",
+  "last_status": "2026-08-18T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
