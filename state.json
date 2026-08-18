@@ -29042,10 +29042,11 @@
    "price_text": "\u00a32250.70",
    "price": 2250.7,
    "image": "https://i.ebayimg.com/images/g/uZ0AAeSwdK5qhB0-/s-l225.jpg",
-   "ai_reason": "Deliberately vague, no brand or details given, at a price consistent with the stolen bike \u2014 cannot be ruled out.",
+   "ai_reason": "Ruled out from listing photo: e-bike (top-tube power button and battery LEDs) \u2014 the stolen bike is not electric",
    "level": "digest",
    "first_seen": "2026-08-18T09:17:17+00:00",
-   "blue_score": 0.159
+   "blue_score": 0.159,
+   "fp": true
   },
   "ebay:v1|278292025713|0": {
    "id": "ebay:v1|278292025713|0",
