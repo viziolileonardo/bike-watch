@@ -33804,11 +33804,27 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T23:09:56+00:00"
+  },
+  "kleinanzeigen:3488488317": {
+   "id": "kleinanzeigen:3488488317",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-26-zoll-gravel-klunker-umbau-mit-dropbar/3488488317-217-3113",
+   "title": "Giant 26 Zoll Gravel / Klunker Umbau mit Dropbar",
+   "description": "Ich biete hier ein besonderes Giant Mountainbike an, das zu einem Gravel- bzw. Klunker-Bike...",
+   "location": "26129 Oldenburg",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ae/ae971452-131c-4e03-be35-8395c74d57a5?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T23:34:13+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 190,
+   "fail_streak": 191,
    "warned": true,
    "ever_ok": true
   },
@@ -33864,12 +33880,13 @@
    "2026-08-18T22:53:30",
    "2026-08-18T23:02:20",
    "2026-08-18T23:39:31",
-   "2026-08-19T00:09:56"
+   "2026-08-19T00:09:56",
+   "2026-08-19T00:34:13"
   ],
   "last_heartbeat": "2026-08-18",
   "last_status": "2026-08-19T00",
   "shopify": {
-   "fail_streak": 5,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
