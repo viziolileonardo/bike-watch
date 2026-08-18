@@ -32572,11 +32572,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T18:16:46+00:00"
+  },
+  "ebay:v1|188812810473|0": {
+   "id": "ebay:v1|188812810473|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188812810473?_skw=road+bike&hash=item2bf61ed8e9:g:7fwAAeSw1~lqe2Hy",
+   "title": "Trek Domane AL 2 Gen 4 2027 Road Bike Dark Star 56cm Excellent Condition",
+   "description": "",
+   "location": "W6***",
+   "price_text": "\u00a3766.60",
+   "price": 766.6,
+   "image": "https://i.ebayimg.com/images/g/7fwAAeSw1~lqe2Hy/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T18:57:14+00:00"
+  },
+  "ebay:v1|147513344891|0": {
+   "id": "ebay:v1|147513344891|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147513344891?_skw=road+bike&hash=item22587b037b:g:KlwAAeSwhPJqhJpF",
+   "title": "2020 Boardman SLR 8.6W Women's Road Bike \u2013 Medium \u2013 Metallic Cyan",
+   "description": "",
+   "location": "BN3***",
+   "price_text": "\u00a3281.50",
+   "price": 281.5,
+   "image": "https://i.ebayimg.com/images/g/KlwAAeSwhPJqhJpF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T18:57:14+00:00"
+  },
+  "kleinanzeigen:3488384893": {
+   "id": "kleinanzeigen:3488384893",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/reynolds-atr-carbon-gravel-laufradsatz-700c-xdr-tubeless/3488384893-217-24413",
+   "title": "Reynolds ATR Carbon Gravel Laufradsatz 700C / XDR / Tubeless",
+   "description": "Verkaufe meinen Reynolds ATR Carbon Laufradsatz f\u00fcr Gravel, Allroad und Rennrad inkl. SRAM...",
+   "location": "64760 Oberzent",
+   "price_text": "420 \u20ac VB",
+   "price": 420.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/953d9066-be2f-4494-bf8d-281f868b516b?rule=$_2.AUTO",
+   "ai_reason": "Reynolds ATR carbon wheelset with XDR driver is a different, specific product unrelated to the DT Swiss E1800 wheels or the stolen bike, listed far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T18:57:19+00:00"
+  },
+  "kleinanzeigen:3488384828": {
+   "id": "kleinanzeigen:3488384828",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/neuwertig-canyon-grizl-cf-6-gravelbike-rechnung-07-2026-/3488384828-217-9192",
+   "title": "Neuwertig: Canyon Grizl CF 6  Gravelbike Rechnung 07/2026!!!",
+   "description": "Neuwertig, aufgrund Verletzung muss ich das Hobby aufgeben.\n\nRechnung ist aus 07/2026!\n\nHabe...",
+   "location": "76137 Karlsruhe",
+   "price_text": "1.550 \u20ac VB",
+   "price": 1550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/24244178-92a6-47f4-a8bb-ab84cf9dfc88?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T18:57:19+00:00"
+  },
+  "kleinanzeigen:3171438816": {
+   "id": "kleinanzeigen:3171438816",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-scale-carbon/3171438816-217-393",
+   "title": "Scott Scale Carbon",
+   "description": "Verkaufe ein Scott Scale Carbon\nDas Bike hat eine XX1 Schaltung,XTR Bremsen\nMavic Crossmax Carbon...",
+   "location": "66121 St Johann",
+   "price_text": "700 \u20ac",
+   "price": 700.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0e/0ea766c5-717e-47df-950c-d1f8fe15a5fb?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T18:57:19+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 179,
+   "fail_streak": 180,
    "warned": true,
    "ever_ok": true
   },
@@ -32591,7 +32671,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T19:17:57",
    "2026-08-17T19:59:23",
    "2026-08-17T20:40:52",
    "2026-08-17T21:10:24",
@@ -32631,7 +32710,8 @@
    "2026-08-18T17:49:14",
    "2026-08-18T18:13:48",
    "2026-08-18T18:41:56",
-   "2026-08-18T19:16:46"
+   "2026-08-18T19:16:46",
+   "2026-08-18T19:57:19"
   ],
   "last_heartbeat": "2026-08-18",
   "last_status": "2026-08-18T19",
