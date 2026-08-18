@@ -28114,11 +28114,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T04:50:40+00:00"
+  },
+  "kleinanzeigen:3487616017": {
+   "id": "kleinanzeigen:3487616017",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/stevens-prestige-grau-uvp-1999-eur/3487616017-217-3018",
+   "title": "Stevens Prestige, grau, UVP 1999,- EUR",
+   "description": "Zum Festpreis wird angeboten:\u2026 hei\u00dft Gravel-Biking: Hier stehen Tourenspa\u00df und Abenteuer fernab von...",
+   "location": "48529 Nordhorn",
+   "price_text": "1.599 \u20ac",
+   "price": 1599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/44/44395355-5d42-4c80-98a5-81356353f65a?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Stevens \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T05:16:24+00:00"
+  },
+  "kleinanzeigen:3487615677": {
+   "id": "kleinanzeigen:3487615677",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-carbon-bianchi-oltre-comp-shimano-105/3487615677-217-3409",
+   "title": "Rennrad Carbon Bianchi Oltre Comp Shimano 105",
+   "description": "Rennrad Carbon\nBianchi Oltre Comp Shimano 105 Di2 Schaltug\n2 x 12 Fach Rennrad...",
+   "location": "12099 Tempelhof",
+   "price_text": "2.555 \u20ac",
+   "price": 2555.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/20/204d48db-e16a-41ec-a26e-66e8db6bbd38?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T05:16:24+00:00"
+  },
+  "kleinanzeigen:3487615631": {
+   "id": "kleinanzeigen:3487615631",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/sava-x-three-carbon-knight-rennrad-rh-50-cm/3487615631-217-9191",
+   "title": "SAVA X-Three Carbon Knight Rennrad | RH 50 cm",
+   "description": "Verkaufe mein SAVA X-Three Carbon Knight Rennrad mit einer Rahmenh\u00f6he von 50 cm. Das Rad habe ich...",
+   "location": "76139 Karlsruhe",
+   "price_text": "850 \u20ac VB",
+   "price": 850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/ea2aa57b-eb82-48a2-9f13-29af15df21f5?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (SAVA X-Three) with no mention of the distinctive DT Swiss E1800 wheels, and far from the theft location.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T05:16:29+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 156,
+   "fail_streak": 157,
    "warned": true,
    "ever_ok": true
   },
@@ -28133,7 +28181,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T06:11:00",
    "2026-08-17T06:48:45",
    "2026-08-17T07:23:54",
    "2026-08-17T08:35:01",
@@ -28173,10 +28220,11 @@
    "2026-08-18T03:44:04",
    "2026-08-18T04:33:04",
    "2026-08-18T05:09:09",
-   "2026-08-18T05:50:40"
+   "2026-08-18T05:50:40",
+   "2026-08-18T06:16:29"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-18T05",
+  "last_status": "2026-08-18T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
