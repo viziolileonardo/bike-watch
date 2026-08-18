@@ -27826,11 +27826,91 @@
    "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-18T00:02:36+00:00"
+  },
+  "gumtree:1801676285": {
+   "id": "gumtree:1801676285",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/carrera-crixus-le-road-bike-black-and-green-good-condition/1801676285",
+   "title": "Carrera Crixus LE Road Bike - Black and Green, Good Condition",
+   "description": "",
+   "location": "Southwark, London",
+   "price_text": "\u00a3200",
+   "price": 200.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/a3669c6778da46549f_de90d8d772b3/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Carrera \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T01:49:22+00:00"
+  },
+  "ebay:v1|318746245338|0": {
+   "id": "ebay:v1|318746245338|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318746245338?_skw=road+bike&hash=item4a36c1b8da:g:tR4AAeSwDFZqg69~",
+   "title": "Shimano Ultegra 6800 700c Road Bike Wheelset 10-Speed",
+   "description": "",
+   "location": "PO19***",
+   "price_text": "\u00a3286.70",
+   "price": 286.7,
+   "image": "https://i.ebayimg.com/images/g/tR4AAeSwDFZqg69~/s-l225.jpg",
+   "ai_reason": "This is a Shimano Ultegra wheelset, not the distinctive DT Swiss E1800 wheels or any other component from the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T01:49:28+00:00"
+  },
+  "ebay:v1|158200260809|459368636557": {
+   "id": "ebay:v1|158200260809|459368636557",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158200260809?_skw=road+bike&hash=item24d57868c9:g:W7AAAeSwJfhqg6UJ",
+   "title": "Giant TCR Advanced 1 Pro Compact Road Bike in Dreamy Blue",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a32239.00",
+   "price": 2239.0,
+   "image": "https://i.ebayimg.com/images/g/W7AAAeSwJfhqg6UJ/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T01:49:28+00:00"
+  },
+  "kleinanzeigen:3487598904": {
+   "id": "kleinanzeigen:3487598904",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ergon-carbon-sattel-ml-ritchey-carbon-stuetze/3487598904-217-1835",
+   "title": "Ergon Carbon Sattel ml ritchey Carbon st\u00fctze",
+   "description": "Biete hier einen sch\u00f6nen Sattel von Ergon an + Ritchey Sattel st\u00fctze 31,6 Durchmesser .\nEs handelt...",
+   "location": "32051 Herford",
+   "price_text": "200 \u20ac VB",
+   "price": 200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/16/167c27b3-4934-4918-8ab4-fe34c4a6d3a9?rule=$_2.AUTO",
+   "ai_reason": "A saddle and seatpost from unrelated brands in Germany share no distinctive component with the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T01:49:32+00:00"
+  },
+  "kleinanzeigen:2667741557": {
+   "id": "kleinanzeigen:2667741557",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/sale-gazelle-kreuzrahmen-pastorfiets-singlespeed-66-rh/2667741557-217-1897",
+   "title": "SALE: Gazelle Kreuzrahmen / Pastorfiets / Singlespeed / 66 RH",
+   "description": "\u2b50 Herzlich Willkommen auf der Ebay Kleinanzeigen Seite vom Ehrlichen Fahrrad Service \u2b50\n\n\u2b50 Es gibt...",
+   "location": "40667 Meerbusch",
+   "price_text": "333 \u20ac",
+   "price": 333.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9f/9fc59914-76a0-4cc5-a34b-18671819dcd0?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Gazelle \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T01:49:32+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 151,
+   "fail_streak": 152,
    "warned": true,
    "ever_ok": true
   },
@@ -27845,7 +27925,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T01:09:48",
    "2026-08-17T02:54:43",
    "2026-08-17T03:49:23",
    "2026-08-17T04:37:13",
@@ -27885,10 +27964,11 @@
    "2026-08-18T00:07:29",
    "2026-08-18T00:35:46",
    "2026-08-18T00:50:42",
-   "2026-08-18T01:02:36"
+   "2026-08-18T01:02:36",
+   "2026-08-18T02:49:32"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-18T01",
+  "last_status": "2026-08-18T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
