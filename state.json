@@ -33644,11 +33644,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T22:02:20+00:00"
+  },
+  "kleinanzeigen:3488482887": {
+   "id": "kleinanzeigen:3488482887",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pinarello-treviso-56cm-retro-rennrad-rahmen/3488482887-217-5523",
+   "title": "Pinarello Treviso 56cm Retro Rennrad Rahmen",
+   "description": "Pinarello Treviso 56cm.",
+   "location": "82343 P\u00f6cking",
+   "price_text": "380 \u20ac",
+   "price": 380.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9b/9b3aee0b-f822-466e-a5eb-d49ee13a26ae?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T22:39:17+00:00"
+  },
+  "kleinanzeigen:3488482489": {
+   "id": "kleinanzeigen:3488482489",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravel-rennrad-28-zoll-top-zustand/3488482489-217-4234",
+   "title": "Gravel Rennrad 28 Zoll top Zustand",
+   "description": "Top Zustand sehr gepflegt ca.1 Jahr alt wegen Neuanschaffung m\u00f6chte ich es jetzt verkaufen....\nEs...",
+   "location": "04177 Altlindenau",
+   "price_text": "650 \u20ac VB",
+   "price": 650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fb/fb93425d-0904-49cc-9204-8c739e250f03?rule=$_2.AUTO",
+   "ai_reason": "Vague, unbranded gravel/road bike listing with no make or model given, so it cannot be ruled out despite the distant location.",
+   "level": "digest",
+   "first_seen": "2026-08-18T22:39:21+00:00",
+   "blue_score": 0.024
+  },
+  "kleinanzeigen:3488481987": {
+   "id": "kleinanzeigen:3488481987",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/shimano-105-di2-r7170-gruppe/3488481987-217-1173",
+   "title": "Shimano 105 Di2 R7170 Gruppe",
+   "description": "Ich biete hier eine Shimano 105 Di2 R7170 Gruppe an, die sich ideal f\u00fcr den Aufbau oder das Upgrade...",
+   "location": "48653 Coesfeld",
+   "price_text": "500 \u20ac VB",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/67/6784f061-f932-4d08-b261-a27db2f3e2b8?rule=$_2.AUTO",
+   "ai_reason": "An electronic 105 Di2 R7170 groupset does not match the stolen bike's mechanical 105 hydraulic build, and it's a ubiquitous part listed far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T22:39:26+00:00"
+  },
+  "kleinanzeigen:3488480448": {
+   "id": "kleinanzeigen:3488480448",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ridley-kanzo-fast-carbonrahmen-set-xl-2025-green/3488480448-217-23977",
+   "title": "Ridley Kanzo Fast - Carbonrahmen-Set XL - 2025  green",
+   "description": "Ich verkaufe diesen hochwertigen Fahrradrahmen der Marke Ridley, der sich ideal f\u00fcr den Aufbau...",
+   "location": "14089 Kladow",
+   "price_text": "1.499 \u20ac VB",
+   "price": 1499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a429e795-f429-4595-819e-dd76b9433db8?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model frameset (Ridley Kanzo Fast, green, XL) in Germany with none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T22:39:31+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 188,
+   "fail_streak": 189,
    "warned": true,
    "ever_ok": true
   },
@@ -33663,8 +33727,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T23:09:34",
-   "2026-08-17T23:38:23",
    "2026-08-18T00:07:29",
    "2026-08-18T00:35:46",
    "2026-08-18T00:50:42",
@@ -33705,12 +33767,13 @@
    "2026-08-18T22:10:14",
    "2026-08-18T22:36:43",
    "2026-08-18T22:53:30",
-   "2026-08-18T23:02:20"
+   "2026-08-18T23:02:20",
+   "2026-08-18T23:39:31"
   ],
   "last_heartbeat": "2026-08-18",
   "last_status": "2026-08-18T23",
   "shopify": {
-   "fail_streak": 3,
+   "fail_streak": 4,
    "warned": false,
    "ever_ok": true
   },
