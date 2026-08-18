@@ -33708,11 +33708,107 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T22:39:31+00:00"
+  },
+  "ebay:v1|366614382326|0": {
+   "id": "ebay:v1|366614382326|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366614382326?_skw=road+bike&hash=item555beb86f6:g:-x8AAeSwZsBqhN--",
+   "title": "Vitus Carbon Road Bike Ultegra",
+   "description": "",
+   "location": "DA8***",
+   "price_text": "\u00a3771.70",
+   "price": 771.7,
+   "image": "https://i.ebayimg.com/images/g/-x8AAeSwZsBqhN--/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Vitus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T23:09:48+00:00"
+  },
+  "kleinanzeigen:3488486933": {
+   "id": "kleinanzeigen:3488486933",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-elite-hybrid-c-62-slt-500-29-e-bike-carbon-mtb-top-zustand/3488486933-217-3791",
+   "title": "Cube Elite Hybrid C:62 SLT 500 29\" E-Bike Carbon MTB -Top Zustand",
+   "description": "Verkaufe ein absolutes High-End E-Mountainbike: Cube Elite Hybrid C:62 SLT 500 (Modelljahr 2019) in...",
+   "location": "07548 Gera",
+   "price_text": "1.680 \u20ac",
+   "price": 1680.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/3080159a-ba1c-4ca0-a1c9-043b4531b3c8?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T23:09:48+00:00"
+  },
+  "kleinanzeigen:3488486894": {
+   "id": "kleinanzeigen:3488486894",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/elitewheels-ent-disc-2-0-50-mm-carbon-laufraeder-28-zoll-shimano/3488486894-217-20107",
+   "title": "Elitewheels ENT-Disc 2.0 50 mm Carbon Laufr\u00e4der 28 Zoll Shimano",
+   "description": "Liebe Radsportler,\n\nzum Verkauf steht ein Satz Carbon Laufr\u00e4der der inzwischen immer beliebter...",
+   "location": "08223 Falkenstein/\u200bVogtland",
+   "price_text": "245 \u20ac",
+   "price": 245.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/22/22e5b5d6-808e-4679-917f-050c27102552?rule=$_2.AUTO",
+   "ai_reason": "This is a specific different carbon wheelset (Elitewheels ENT-Disc), not the DT Swiss E1800 or any part of the stolen bike, and it's listed in rural Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T23:09:52+00:00"
+  },
+  "kleinanzeigen:3488486145": {
+   "id": "kleinanzeigen:3488486145",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-trek-checkpoint-alr4-49cm/3488486145-217-9177",
+   "title": "Gravelbike Trek Checkpoint ALR4 49cm",
+   "description": "Bin dieses Rad sehr gerne gefahren. Die M\u00e4ntel und das Lenkerband sind relativ neu.\n\nRahmengr\u00f6\u00dfe...",
+   "location": "69126 Heidelberg",
+   "price_text": "800 \u20ac VB",
+   "price": 800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/db/dbdc08be-c3d0-4df4-addf-f6108f602df9?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T23:09:52+00:00"
+  },
+  "kleinanzeigen:3488485366": {
+   "id": "kleinanzeigen:3488485366",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-stereo-140-hpc-/3488485366-217-1861",
+   "title": "CUBE STEREO 140 HPC",
+   "description": "Farbe\tflashgrey\u00b4n\u00b4orange\nGr\u00f6\u00dfe\tL\nGewicht\t13,7 kg\nRahmen\tHPC Carbon Monocoque Advanced Twin Mold...",
+   "location": "53757 Sankt Augustin",
+   "price_text": "1.200 \u20ac",
+   "price": 1200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1a/1ac6f961-963b-4bef-8626-44cd4bff4790?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T23:09:52+00:00"
+  },
+  "kleinanzeigen:3488484769": {
+   "id": "kleinanzeigen:3488484769",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/control-tech-sirocco-mini-clip-on-carbon-lenkeraufsatz-schwarz/3488484769-217-948",
+   "title": "Control Tech Sirocco Mini Clip-On Carbon Lenkeraufsatz - schwarz",
+   "description": "Unbenutzt hat auf mein Rad nicht gepasst.",
+   "location": "50935 Lindenthal",
+   "price_text": "240 \u20ac",
+   "price": 240.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b809151d-23f9-4fcf-8e7d-20e41caa3bf4?rule=$_2.AUTO",
+   "ai_reason": "A small unused clip-on aero bar accessory in Germany, unrelated to the stolen bike or its distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T23:09:56+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 189,
+   "fail_streak": 190,
    "warned": true,
    "ever_ok": true
   },
@@ -33727,7 +33823,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T00:07:29",
    "2026-08-18T00:35:46",
    "2026-08-18T00:50:42",
    "2026-08-18T01:02:36",
@@ -33768,12 +33863,13 @@
    "2026-08-18T22:36:43",
    "2026-08-18T22:53:30",
    "2026-08-18T23:02:20",
-   "2026-08-18T23:39:31"
+   "2026-08-18T23:39:31",
+   "2026-08-19T00:09:56"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-18T23",
+  "last_status": "2026-08-19T00",
   "shopify": {
-   "fail_streak": 4,
+   "fail_streak": 5,
    "warned": false,
    "ever_ok": true
   },
