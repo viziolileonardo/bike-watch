@@ -33532,11 +33532,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T21:36:43+00:00"
+  },
+  "gumtree:1801712836": {
+   "id": "gumtree:1801712836",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/ribble-allroad-sl-carbon-bike-shimano-105/1801712836",
+   "title": "RIBBLE ALLROAD SL CARBON BIKE SHIMANO 105",
+   "description": "",
+   "location": "Golders Green, London",
+   "price_text": "\u00a3899",
+   "price": 899.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/f88340765cd6454495_a900f9a1786f/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T21:53:14+00:00"
+  },
+  "ebay:v1|188813546761|0": {
+   "id": "ebay:v1|188813546761|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188813546761?_skw=road+bike&hash=item2bf62a1509:g:WWwAAeSwWhdqhM6E",
+   "title": "Sram Rival AXS eTap D1 12 Speed Groupset 2026",
+   "description": "",
+   "location": "RH11***",
+   "price_text": "\u00a3620.00",
+   "price": 620.0,
+   "image": "https://i.ebayimg.com/images/g/WWwAAeSwWhdqhM6E/s-l225.jpg",
+   "ai_reason": "A SRAM Rival AXS electronic groupset is not a component of the stolen bike, which had mechanical Shimano 105 hydraulic disc, and no distinctive matching parts are listed.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T21:53:21+00:00"
+  },
+  "kleinanzeigen:3488475592": {
+   "id": "kleinanzeigen:3488475592",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/hai-bike-sky-03-race-line/3488475592-217-16364",
+   "title": "HAI Bike SKY 03 Race-Line",
+   "description": "HAI Bike SKY 03 Race-Line \u2013 klassisches Rennrad in au\u00dfergew\u00f6hnlich gutem Zustand\n\nZum Verkauf steht...",
+   "location": "81547 Obergiesing",
+   "price_text": "449 \u20ac VB",
+   "price": 449.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c301fb52-05be-42da-91ef-400646a666a9?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model classic road bike in Munich with no mention of the DT Swiss E1800 wheels or the stolen bike's components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T21:53:25+00:00"
+  },
+  "kleinanzeigen:3488473848": {
+   "id": "kleinanzeigen:3488473848",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/look-e-765-e-gotham-e-bike-fazua-antrieb-gravel-m-51-cm-neuwertig/3488473848-217-16329",
+   "title": "Look E 765 E Gotham E-Bike Fazua Antrieb Gravel M 51 cm neuwertig",
+   "description": "Kaum benutztes E Bike von Look zu verkaufen, das E 765 \u201eGotham\u201c Optimum. Optisch und technisch...",
+   "location": "60488 Hausen i. Frankfurt a. Main",
+   "price_text": "2.000 \u20ac VB",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5b/5bf2a8e0-fab5-4742-9a94-1d973d3f3dfc?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Look E-765 Gotham e-bike) in Germany with no shared distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T21:53:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 186,
+   "fail_streak": 187,
    "warned": true,
    "ever_ok": true
   },
@@ -33551,7 +33615,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T22:38:21",
    "2026-08-17T23:09:34",
    "2026-08-17T23:38:23",
    "2026-08-18T00:07:29",
@@ -33592,12 +33655,13 @@
    "2026-08-18T21:02:23",
    "2026-08-18T21:39:26",
    "2026-08-18T22:10:14",
-   "2026-08-18T22:36:43"
+   "2026-08-18T22:36:43",
+   "2026-08-18T22:53:30"
   ],
   "last_heartbeat": "2026-08-18",
   "last_status": "2026-08-18T22",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 2,
    "warned": false,
    "ever_ok": true
   },
