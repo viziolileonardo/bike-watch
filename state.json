@@ -27922,11 +27922,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T02:44:04+00:00"
+  },
+  "ebay:v1|820016648177|0": {
+   "id": "ebay:v1|820016648177|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820016648177?_skw=road+bike&hash=itembeeccd0ff1:g:TacAAeSw5GRqg84I",
+   "title": "Motorcycle Helmet Children Off-Road Helmet Bike Downhill AM DH Cross Helmet",
+   "description": "",
+   "location": "DN1***",
+   "price_text": "\u00a32149.00",
+   "price": 2149.0,
+   "image": "https://i.ebayimg.com/images/g/TacAAeSw5GRqg84I/s-l225.jpg",
+   "ai_reason": "This is a children's motocross helmet, not a bicycle or any component from the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T03:33:00+00:00"
+  },
+  "kleinanzeigen:3440060039": {
+   "id": "kleinanzeigen:3440060039",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-damen-pistrada-vintage/3440060039-217-1154",
+   "title": "Rennrad / Damen / PISTRADA / Vintage",
+   "description": "Verkaufe das gezeigte PISTRADA Damenrennrad. Es ist technisch TOP, mit altersentsprechend...",
+   "location": "50189 Elsdorf",
+   "price_text": "200 \u20ac",
+   "price": 200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e8/e8b445d1-0d3e-4c1e-8996-5de5dee903ee?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (PISTRADA vintage women's steel road bike) in Germany with no matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T03:33:04+00:00"
+  },
+  "kleinanzeigen:3471479372": {
+   "id": "kleinanzeigen:3471479372",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-cannondale-topstone-ltd-aus-leasingvertrag/3471479372-217-16650",
+   "title": "Gravelbike|Cannondale Topstone LTD| aus Leasingvertrag",
+   "description": "Cannondale Topstone LTD Gravelbike \u2013 Gr. M \u2013 Top Zustand \u2013 inkl. Zubeh\u00f6r\n\nIch verkaufe mein...",
+   "location": "25746 Lohe-\u200bRickelshof",
+   "price_text": "1.675 \u20ac VB",
+   "price": 1675.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/864dbb46-6c24-40aa-9ff9-0e1a222c1bc0?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T03:33:04+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 153,
+   "fail_streak": 154,
    "warned": true,
    "ever_ok": true
   },
@@ -27941,7 +27989,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T03:49:23",
    "2026-08-17T04:37:13",
    "2026-08-17T05:22:03",
    "2026-08-17T06:11:00",
@@ -27981,10 +28028,11 @@
    "2026-08-18T00:50:42",
    "2026-08-18T01:02:36",
    "2026-08-18T02:49:32",
-   "2026-08-18T03:44:04"
+   "2026-08-18T03:44:04",
+   "2026-08-18T04:33:04"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-18T03",
+  "last_status": "2026-08-18T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
