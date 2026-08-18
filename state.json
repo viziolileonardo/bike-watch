@@ -33004,11 +33004,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T19:50:43+00:00"
+  },
+  "ebay:v1|178376794007|0": {
+   "id": "ebay:v1|178376794007|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178376794007?_skw=road+bike&hash=item298815df97:g:UH0AAeSwHjVqczqc",
+   "title": "Canyon Ultimate CF SL 7.0 2016/17 Large Excellent Condition One Owner",
+   "description": "",
+   "location": "HP1***",
+   "price_text": "\u00a3588.10",
+   "price": 588.1,
+   "image": "https://i.ebayimg.com/images/g/UH0AAeSwHjVqczqc/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T20:02:10+00:00"
+  },
+  "kleinanzeigen:3488432738": {
+   "id": "kleinanzeigen:3488432738",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/libelle-carbon-lastenrad-e-bike-kinder-cargobike-in-einen/3488432738-217-8861",
+   "title": "Libelle Carbon-Lastenrad E-Bike \u2013 Kinder& Cargobike in einen",
+   "description": "Ein echtes Unikat f\u00fcr Familien \u2013 jetzt ist Platz f\u00fcr das n\u00e4chste Abenteuer!\n\nWir verkaufen unsere...",
+   "location": "78176 Blumberg",
+   "price_text": "2.499 \u20ac",
+   "price": 2499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/9624c6e0-e1bd-44ce-9415-3404bd8bd991?rule=$_2.AUTO",
+   "ai_reason": "A carbon cargo e-bike for families in southern Germany shares nothing with the stolen road bike and lists no matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T20:02:15+00:00"
+  },
+  "kleinanzeigen:3461483340": {
+   "id": "kleinanzeigen:3461483340",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/airstreeem-air-one-rennrad-xs-carbon-shimano-pedale/3461483340-217-7658",
+   "title": "Airstreeem Air One Rennrad XS | Carbon | Shimano Pedale",
+   "description": "Verkaufe mein leichtes 8,5kg Rennrad mit Gravel-Reifen der Marke Airstreeem, Modell Air One in...",
+   "location": "93049 Regensburg",
+   "price_text": "1.500 \u20ac VB",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c802fc53-5539-4eee-b04c-592dbdfef9bd?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Airstreeem Air One) with no mention of the DT Swiss E1800 wheelset or a fresh build, and located far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T20:02:19+00:00"
+  },
+  "kleinanzeigen:3488431720": {
+   "id": "kleinanzeigen:3488431720",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/full-carbon-aero-rennrad-shimano-105/3488431720-217-8422",
+   "title": "Full Carbon Aero Rennrad Shimano 105",
+   "description": "Hervorragender Zustand, da kaum gefahren.\nWird verkauft, da ich lieber Gravel fahre statt Road.\nCa....",
+   "location": "71686 Remseck am Neckar",
+   "price_text": "1.899 \u20ac VB",
+   "price": 1899.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b05d1cd3-5432-4653-9536-7896516734e6?rule=$_2.AUTO",
+   "ai_reason": "Unbranded carbon road bike with 105 groupset and no identifying make/model \u2014 a brand-vague listing that can't be ruled out despite the distant location.",
+   "level": "digest",
+   "first_seen": "2026-08-18T20:02:23+00:00",
+   "blue_score": 0.039
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 182,
+   "fail_streak": 183,
    "warned": true,
    "ever_ok": true
   },
@@ -33063,10 +33127,11 @@
    "2026-08-18T19:16:46",
    "2026-08-18T19:57:19",
    "2026-08-18T20:22:45",
-   "2026-08-18T20:50:43"
+   "2026-08-18T20:50:43",
+   "2026-08-18T21:02:23"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-18T20",
+  "last_status": "2026-08-18T21",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
