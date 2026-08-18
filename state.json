@@ -33596,11 +33596,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T21:53:30+00:00"
+  },
+  "ebay:v1|128033369505|0": {
+   "id": "ebay:v1|128033369505|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128033369505?_skw=road+bike&hash=item1dcf622da1:g:KPAAAeSwjgRqeGs9",
+   "title": "Cube Agree GTC Race Carbon Road Bike 58cm Black/Red/White",
+   "description": "",
+   "location": "HP21***",
+   "price_text": "\u00a3500.00",
+   "price": 500.0,
+   "image": "https://i.ebayimg.com/images/g/KPAAAeSwjgRqeGs9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T22:02:11+00:00"
+  },
+  "kleinanzeigen:3488476920": {
+   "id": "kleinanzeigen:3488476920",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mtb-rennrad-campangiolo-umwefer-weitere-daten-morgen-/3488476920-217-7822",
+   "title": "MTB  Rennrad  campangiolo Umwefer. Weitere Daten morgen.",
+   "description": "Daten bei Abfrage.\nBzw..\nMorgen Lesbar\n16845 Neustadt/Dosse\nTel.:\n015116915124\nHerr M.",
+   "location": "16845 Neustadt (Dosse)",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bd/bd095ee0-70b3-4467-9081-2ea781286ede?rule=$_2.AUTO",
+   "ai_reason": "This is a vague Campagnolo-equipped MTB/road part listing in rural Germany with no link to the stolen bike's distinctive Shimano 105/DT Swiss E1800 spec.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T22:02:15+00:00"
+  },
+  "kleinanzeigen:3488476824": {
+   "id": "kleinanzeigen:3488476824",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-bikespace-bs-rdi-gepflegt-sofort-fahrbereit/3488476824-217-413",
+   "title": "Rennrad BIKESPACE BS RDI - gepflegt & sofort fahrbereit",
+   "description": "Zum Verkauf steht ein BIKESPACE BS RDI Rennrad in gutem, gepflegtem Zustand. Das Fahrrad eignet...",
+   "location": "23556 L\u00fcbeck",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79941992-c529-4ff2-991d-f45c84426633?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (BIKESPACE BS RDI) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, listed far away in L\u00fcbeck.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T22:02:20+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 187,
+   "fail_streak": 188,
    "warned": true,
    "ever_ok": true
   },
@@ -33656,12 +33704,13 @@
    "2026-08-18T21:39:26",
    "2026-08-18T22:10:14",
    "2026-08-18T22:36:43",
-   "2026-08-18T22:53:30"
+   "2026-08-18T22:53:30",
+   "2026-08-18T23:02:20"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-18T22",
+  "last_status": "2026-08-18T23",
   "shopify": {
-   "fail_streak": 2,
+   "fail_streak": 3,
    "warned": false,
    "ever_ok": true
   },
