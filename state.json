@@ -28162,11 +28162,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-18T05:16:29+00:00"
+  },
+  "kleinanzeigen:3487625296": {
+   "id": "kleinanzeigen:3487625296",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-izoard-rennrad-sportlicher-klassiker/3487625296-217-8437",
+   "title": "Specialized Izoard Rennrad \u2013 sportlicher Klassiker",
+   "description": "Moin moin,\n\nZum Verkauf steht ein sch\u00f6nes Specialized Izoard Rennrad in auff\u00e4lliger Rot-Wei\u00df-Optik....",
+   "location": "73760 Ostfildern",
+   "price_text": "330 \u20ac VB",
+   "price": 330.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ff/ff1fb901-8d5f-4ece-add6-204a68e04dec?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T05:45:47+00:00"
+  },
+  "kleinanzeigen:3487623083": {
+   "id": "kleinanzeigen:3487623083",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cannondale-synapse-neo-e-bike-e-rennrad-2-akkus-500wh-inspektion/3487623083-217-983",
+   "title": "Cannondale Synapse Neo E-Bike,E-Rennrad,2 AKKUS 500Wh,Inspektion",
+   "description": "DEUTSCHLANDWEIT VERSENDET WERDEN , VERSICHERT MIT DHL UND SENDUNGSVERFOLGUNG.\nFACHGERECHT...",
+   "location": "50667 K\u00f6ln Altstadt",
+   "price_text": "1.570 \u20ac VB",
+   "price": 1570.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/277fb4b7-b686-42b2-bceb-bcb73b8d8695?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T05:45:47+00:00"
+  },
+  "kleinanzeigen:3479487935": {
+   "id": "kleinanzeigen:3479487935",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gepflegtes-rennrad-felt-s25-rh56-shimano-dura-ace-ultegra-mix/3479487935-217-1160",
+   "title": "Gepflegtes Rennrad Felt S25 RH56 \u2013 Shimano Dura-Ace/Ultegra Mix",
+   "description": "Sonderpreis bis 19.08 - 550\u20ac\n\nHallo liebe Fahrradfreunde,\n\nich biete hier mein gepflegtes Rennrad...",
+   "location": "50226 Frechen",
+   "price_text": "650 \u20ac VB",
+   "price": 650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/4189c3e2-9c5d-4d62-972c-2b12cae55d8b?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Felt \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T05:45:47+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 157,
+   "fail_streak": 158,
    "warned": true,
    "ever_ok": true
   },
@@ -28221,7 +28269,8 @@
    "2026-08-18T04:33:04",
    "2026-08-18T05:09:09",
    "2026-08-18T05:50:40",
-   "2026-08-18T06:16:29"
+   "2026-08-18T06:16:29",
+   "2026-08-18T06:45:47"
   ],
   "last_heartbeat": "2026-08-17",
   "last_status": "2026-08-18T06",
