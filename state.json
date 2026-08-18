@@ -27810,11 +27810,27 @@
    "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-17T23:50:42+00:00"
+  },
+  "kleinanzeigen:3487596639": {
+   "id": "kleinanzeigen:3487596639",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pinarello-cadore-rahmen-gabel-rh-61-cm/3487596639-217-24212",
+   "title": "Pinarello Cadore Rahmen + Gabel RH 61 cm",
+   "description": "Angeboten wird ein hochwertiger Rennradrahmen des italienischen Rahmenbauers Pinarello. Der...",
+   "location": "48151 Geist",
+   "price_text": "270 \u20ac VB",
+   "price": 270.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0b6a0800-b89d-4184-9ff8-a37457ed34c8?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T00:02:36+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 150,
+   "fail_streak": 151,
    "warned": true,
    "ever_ok": true
   },
@@ -27868,10 +27884,11 @@
    "2026-08-17T23:38:23",
    "2026-08-18T00:07:29",
    "2026-08-18T00:35:46",
-   "2026-08-18T00:50:42"
+   "2026-08-18T00:50:42",
+   "2026-08-18T01:02:36"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-18T00",
+  "last_status": "2026-08-18T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
