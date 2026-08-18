@@ -27970,11 +27970,59 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-18T03:33:04+00:00"
+  },
+  "kleinanzeigen:3487606197": {
+   "id": "kleinanzeigen:3487606197",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bianchi-sempre-ultegra-fulcrum-racing-zero/3487606197-217-1863",
+   "title": "Bianchi Sempre Ultegra -Fulcrum Racing zero",
+   "description": "Bianchi Sempre carbon Rahmen, komplett Ultegra 2x10\nRh.54 f\u00fcr 1.70-1.78 ca. K\u00f6rpergr\u00f6\u00dfe\nFulcrum...",
+   "location": "40764 Langenfeld",
+   "price_text": "850 \u20ac",
+   "price": 850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b3/b388ce93-2063-4cc2-9542-50d49c47804a?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T04:09:04+00:00"
+  },
+  "kleinanzeigen:3487605945": {
+   "id": "kleinanzeigen:3487605945",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-vintage-baujahr-1961-singlespeed-bauer-jubilaeum-fahrrad/3487605945-217-16304",
+   "title": "Rennrad Vintage Baujahr 1961 Singlespeed BAUER Jubil\u00e4um Fahrrad",
+   "description": "Oldtimer Vintage Radel\nBauer\nModell Sport\nJubil\u00e4ums Rad 50 Jahre 1911-1961\n\nSehr sch\u00f6ner...",
+   "location": "60325 Gallusviertel",
+   "price_text": "444 \u20ac",
+   "price": 444.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/342a87bf-9d3c-46e0-8f26-bb2a481a4875?rule=$_2.AUTO",
+   "ai_reason": "A 1961 vintage Bauer steel singlespeed in Germany shares nothing with a modern carbon disc road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-18T04:09:09+00:00"
+  },
+  "kleinanzeigen:3487605772": {
+   "id": "kleinanzeigen:3487605772",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nature-exc-allroad-bikepacking-set-rad-rahmen-groesse-l/3487605772-217-3295",
+   "title": "Cube Nature EXC Allroad Bikepacking Set Rad // Rahmen Gr\u00f6\u00dfe L",
+   "description": "Ich biete hier mein voll ausgestattetes Cube Nature EXC Allroad Bikepacking Rad an, das bereit f\u00fcr...",
+   "location": "29303 Bergen",
+   "price_text": "870 \u20ac",
+   "price": 870.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/23292d67-9ca0-4132-8458-b7d887f8e6d9?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-18T04:09:09+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 154,
+   "fail_streak": 155,
    "warned": true,
    "ever_ok": true
   },
@@ -27989,7 +28037,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-17T04:37:13",
    "2026-08-17T05:22:03",
    "2026-08-17T06:11:00",
    "2026-08-17T06:48:45",
@@ -28029,10 +28076,11 @@
    "2026-08-18T01:02:36",
    "2026-08-18T02:49:32",
    "2026-08-18T03:44:04",
-   "2026-08-18T04:33:04"
+   "2026-08-18T04:33:04",
+   "2026-08-18T05:09:09"
   ],
   "last_heartbeat": "2026-08-17",
-  "last_status": "2026-08-18T04",
+  "last_status": "2026-08-18T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
