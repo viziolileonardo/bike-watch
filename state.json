@@ -33852,11 +33852,27 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-19T00:02:30+00:00"
+  },
+  "kleinanzeigen:3488494068": {
+   "id": "kleinanzeigen:3488494068",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mondraker-foxy-fully-carbon-27-5-m/3488494068-217-372",
+   "title": "Mondraker Foxy Fully Carbon 27.5 M",
+   "description": "Ich verkaufe mein Mondraker Foxy Carbon RR 27.5 aus dem Jahr 2018 wegen eines Sturzes. Da ich...",
+   "location": "66424 Homburg",
+   "price_text": "1.700 \u20ac",
+   "price": 1700.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/72/72791d87-d348-4468-a2f4-201107505782?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Mondraker Foxy carbon MTB) in Germany with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T01:52:22+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 193,
+   "fail_streak": 194,
    "warned": true,
    "ever_ok": true
   },
@@ -33871,8 +33887,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T01:02:36",
-   "2026-08-18T02:49:32",
    "2026-08-18T03:44:04",
    "2026-08-18T04:33:04",
    "2026-08-18T05:09:09",
@@ -33913,10 +33927,11 @@
    "2026-08-19T00:09:56",
    "2026-08-19T00:34:13",
    "2026-08-19T00:50:52",
-   "2026-08-19T01:02:30"
+   "2026-08-19T01:02:30",
+   "2026-08-19T02:52:22"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T01",
+  "last_status": "2026-08-19T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
