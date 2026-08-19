@@ -33868,11 +33868,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-19T01:52:22+00:00"
+  },
+  "kleinanzeigen:3488496043": {
+   "id": "kleinanzeigen:3488496043",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/orbea-alma-h20-mountainbike-29-zoll-groesse-l/3488496043-217-6802",
+   "title": "Orbea Alma H20 Mountainbike 29 Zoll Gr\u00f6\u00dfe L",
+   "description": "Ich verkaufe mein Orbea Alma H20 Mountainbike in der Rahmengr\u00f6\u00dfe L, da ich auf ein Gravelbike...",
+   "location": "91341 R\u00f6ttenbach (bei Erlangen)",
+   "price_text": "800 \u20ac",
+   "price": 800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e9/e9408bde-fccf-4d15-aec5-643f18feaff5?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T02:45:19+00:00"
+  },
+  "kleinanzeigen:3488495792": {
+   "id": "kleinanzeigen:3488495792",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-backroad-grx-820-rennra-neu/3488495792-217-8169",
+   "title": "ROSE BACKROAD GRX 820 Rennra NEU",
+   "description": "Wurde leider bisher nur als Deko benutzt,\ndeshalb abzugeben",
+   "location": "79618 Rheinfelden (Baden)",
+   "price_text": "1.999 \u20ac VB",
+   "price": 1999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e2eca30-b901-4b6c-85c3-50f74f90a3ec?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T02:45:19+00:00"
+  },
+  "kleinanzeigen:3488495523": {
+   "id": "kleinanzeigen:3488495523",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-cross-allroad-54-cm/3488495523-217-8169",
+   "title": "Cube Cross Allroad  54 cm",
+   "description": "Das Fahrrad ist in einem sehr guten gebrauchten Zustand, mit Gebrauchsspuren. Vor einer Woche war...",
+   "location": "79618 Rheinfelden (Baden)",
+   "price_text": "349 \u20ac VB",
+   "price": 349.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f92b67d-b27f-4d5c-b623-b531c951c7e1?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T02:45:19+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 194,
+   "fail_streak": 195,
    "warned": true,
    "ever_ok": true
   },
@@ -33887,7 +33935,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T03:44:04",
    "2026-08-18T04:33:04",
    "2026-08-18T05:09:09",
    "2026-08-18T05:50:40",
@@ -33928,10 +33975,11 @@
    "2026-08-19T00:34:13",
    "2026-08-19T00:50:52",
    "2026-08-19T01:02:30",
-   "2026-08-19T02:52:22"
+   "2026-08-19T02:52:22",
+   "2026-08-19T03:45:19"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T02",
+  "last_status": "2026-08-19T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
