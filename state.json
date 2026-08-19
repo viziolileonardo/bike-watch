@@ -34284,11 +34284,91 @@
    "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T07:22:28+00:00"
+  },
+  "ebay:v1|336750298339|0": {
+   "id": "ebay:v1|336750298339|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336750298339?_skw=road+bike&hash=item4e67e1c4e3:g:TLYAAeSw5NJqhV7o",
+   "title": "Specialized Allez Sport Road Bike Excellent Condition",
+   "description": "",
+   "location": "SW20***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/TLYAAeSw5NJqhV7o/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T08:04:40+00:00"
+  },
+  "kleinanzeigen:3196964175": {
+   "id": "kleinanzeigen:3196964175",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/e-mtb-bianchi-t-tronic-sport-mit-522-wh-akku-vorfuehrrad/3196964175-217-4867",
+   "title": "E-MTB Bianchi T-TRONIC SPORT mit 522 Wh Akku, Vorf\u00fchrrad",
+   "description": "Das T-Tronik Sport von Bianchi macht Offroad-Rides zu einem ganz besonderen Abenteuer. Erfahrene...",
+   "location": "63607 W\u00e4chtersbach",
+   "price_text": "1.999 \u20ac",
+   "price": 1999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7caf042e-ff65-4afa-8feb-be6f2b3492f1?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T08:04:40+00:00"
+  },
+  "kleinanzeigen:3196619714": {
+   "id": "kleinanzeigen:3196619714",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wilier-adlar-carbon-shimano-grx-1x12-neu-statt-4000-/3196619714-217-5880",
+   "title": "Wilier Adlar Carbon | Shimano GRX 1x12 | NEU! statt 4000,-",
+   "description": "Wilier Adlar Carbon Shimano GRX 1x11 - Das Abenteuer wagen.\nNEU! statt 4000,-\n\nBestelle direkt im...",
+   "location": "83451 Piding",
+   "price_text": "2.999 \u20ac",
+   "price": 2999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/df97d632-0615-4db3-af4c-f4e0cd3f89ae?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T08:04:40+00:00"
+  },
+  "kleinanzeigen:3488604371": {
+   "id": "kleinanzeigen:3488604371",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/centurion-rennrad-hyperdrive-2000/3488604371-217-984",
+   "title": "Centurion Rennrad Hyperdrive 2000",
+   "description": "Hallo, ich biete mein Centurion Rennrad mit den folgenden Merkmalen an:\n\n* Rahmengr\u00f6\u00dfe 56 cm\n* neue...",
+   "location": "50670 K\u00f6ln Altstadt",
+   "price_text": "470 \u20ac VB",
+   "price": 470.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/bad04ace-bb24-429c-afc9-dbb6f516c8d5?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Centurion Hyperdrive 2000) in Cologne with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T08:04:44+00:00"
+  },
+  "kleinanzeigen:3013593390": {
+   "id": "kleinanzeigen:3013593390",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/tout-terrain-amber-road-select-23-1-cues-2x11-g-crmo-stahl-neu/3013593390-217-27962",
+   "title": "Tout Terrain AMBER ROAD Select 23.1 Cues 2x11 G. CrMo Stahl, NEU",
+   "description": "vorr\u00e4tig: Trapez in Gr\u00f6\u00dfe S, M und Diamant in M, 2x XL, XXL\n- Abenteuer trifft ganzt\u00e4gigen Komfort....",
+   "location": "79098 Neuburg",
+   "price_text": "2.695 \u20ac",
+   "price": 2695.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c6/c6af33a1-e943-40d2-8fbc-21f275cf0b03?rule=$_2.AUTO",
+   "ai_reason": "A new, in-stock steel Tout Terrain touring bike with CUES groupset in Germany \u2014 a specific different make/model sharing none of the stolen bike's distinctive parts.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T08:04:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 202,
+   "fail_streak": 203,
    "warned": true,
    "ever_ok": true
   },
@@ -34303,8 +34383,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T08:22:56",
-   "2026-08-18T09:04:45",
    "2026-08-18T09:52:36",
    "2026-08-18T10:17:31",
    "2026-08-18T10:50:32",
@@ -34345,10 +34423,11 @@
    "2026-08-19T06:16:49",
    "2026-08-19T06:47:39",
    "2026-08-19T07:19:30",
-   "2026-08-19T08:22:28"
+   "2026-08-19T08:22:28",
+   "2026-08-19T09:04:49"
   ],
-  "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T08",
+  "last_heartbeat": "2026-08-19",
+  "last_status": "2026-08-19T09",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
