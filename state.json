@@ -33820,11 +33820,43 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-18T23:34:13+00:00"
+  },
+  "kleinanzeigen:3488490253": {
+   "id": "kleinanzeigen:3488490253",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/campagnolo-delta-rennrad-bremsen/3488490253-217-1302",
+   "title": "Campagnolo Delta Rennrad Bremsen",
+   "description": "Ich biete hier einen Satz Campagnolo Delta Bremsen mit Gebrauchsspuren. Die Bremsen funktionieren...",
+   "location": "48231 Warendorf",
+   "price_text": "280 \u20ac",
+   "price": 280.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7db97aa3-a0c4-42f2-beb3-c2d342190cfa?rule=$_2.AUTO",
+   "ai_reason": "Vintage Campagnolo Delta rim brakes in Germany have no connection to a hydraulic disc bike's components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T00:02:28+00:00"
+  },
+  "kleinanzeigen:3488489988": {
+   "id": "kleinanzeigen:3488489988",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ultra-leicht-fixie-profi-limited-edition/3488489988-217-8078",
+   "title": "Ultra leicht Fixie Profi Limited Edition",
+   "description": "Profi FIXIE Rennsport Serie\nextrem leichter Rahmen Limited Edition im Top Zustand hochwertige...",
+   "location": "79588 Efringen-\u200bKirchen",
+   "price_text": "300 \u20ac VB",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fc/fc2cb63f-c057-4bc7-81d1-d1b9b6edefb5?rule=$_2.AUTO",
+   "ai_reason": "A lightweight fixie in rural Germany shares no components or characteristics with the stolen geared disc-brake road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T00:02:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 192,
+   "fail_streak": 193,
    "warned": true,
    "ever_ok": true
   },
@@ -33880,10 +33912,11 @@
    "2026-08-18T23:39:31",
    "2026-08-19T00:09:56",
    "2026-08-19T00:34:13",
-   "2026-08-19T00:50:52"
+   "2026-08-19T00:50:52",
+   "2026-08-19T01:02:30"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T00",
+  "last_status": "2026-08-19T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
