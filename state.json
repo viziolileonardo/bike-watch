@@ -32054,7 +32054,9 @@
    "image": "https://i.ebayimg.com/images/g/ipMAAeSw6xpqhInk/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T16:48:57+00:00",
-   "blue_score": 0.092
+   "blue_score": 0.092,
+   "ai_reason": "A generic aftermarket carbon saddle with no link to the stolen bike's distinctive components, listed far from the theft area.",
+   "fp": true
   },
   "ebay:v1|206500862155|0": {
    "id": "ebay:v1|206500862155|0",
@@ -32069,7 +32071,9 @@
    "image": "https://i.ebayimg.com/images/g/SZIAAeSwOa9qhITe/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T16:49:02+00:00",
-   "blue_score": 0.002
+   "blue_score": 0.002,
+   "ai_reason": "This is an electric off-road dirt bike, a completely different type of vehicle with no components in common with the stolen carbon road bike.",
+   "fp": true
   },
   "ebay:v1|227481302619|0": {
    "id": "ebay:v1|227481302619|0",
@@ -32084,7 +32088,9 @@
    "image": "https://i.ebayimg.com/images/g/CU0AAeSwRjVqhIMo/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T16:49:07+00:00",
-   "blue_score": 0.074
+   "blue_score": 0.074,
+   "ai_reason": "Ubiquitous Shimano 105 groupset parts with no distinctive link, listed far from the theft area.",
+   "fp": true
   },
   "ebay:v1|318749406668|0": {
    "id": "ebay:v1|318749406668|0",
@@ -32099,7 +32105,8 @@
    "image": "https://i.ebayimg.com/images/g/CkcAAeSw5rdqhII0/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T16:49:13+00:00",
-   "blue_score": 0.004
+   "blue_score": 0.004,
+   "ai_reason": "Vague listing with an obscure/unrecognisable brand name and no details, so a brand-stripped or repainted stolen bike can't be ruled out."
   },
   "ebay:v1|318749406031|0": {
    "id": "ebay:v1|318749406031|0",
@@ -32306,7 +32313,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57d6b46d-9639-41c3-b3ea-705005aca533?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-18T17:13:34+00:00",
-   "blue_score": 0.004
+   "blue_score": 0.004,
+   "ai_reason": "Specific different make (M\u00fcsing) complete bike in rural Germany, no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true
   },
   "kleinanzeigen:3488286172": {
    "id": "kleinanzeigen:3488286172",
@@ -32321,7 +32330,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0f2e4b8c-7bf2-4f20-a6db-bd32bf0a7c7c?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-18T17:13:39+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "A specific different make/model rim-brake frameset in Germany, with no link to the stolen bike's disc frame or DT Swiss wheels.",
+   "fp": true
   },
   "marktplaats:m2432405040": {
    "id": "marktplaats:m2432405040",
@@ -32336,7 +32347,9 @@
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/57937b37-5b81-4240-beae-8b380fdcfa9b?rule=ecg_mp_eps$_82.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T17:13:47+00:00",
-   "blue_score": 0.008
+   "blue_score": 0.008,
+   "ai_reason": "Specific different make/model (Krush All-in disc) with Ultegra and Infinito carbon wheels, no link to the stolen bike's 105 groupset or DT Swiss E1800 wheels, and far from the theft area.",
+   "fp": true
   },
   "ebay:v1|307133803037|0": {
    "id": "ebay:v1|307133803037|0",
@@ -32351,7 +32364,9 @@
    "image": "https://i.ebayimg.com/images/g/BggAAeSwyIRqhJZf/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T17:41:39+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "This is a specific different make/model frameset with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true
   },
   "ebay:v1|318749752799|0": {
    "id": "ebay:v1|318749752799|0",
@@ -32366,7 +32381,9 @@
    "image": "https://i.ebayimg.com/images/g/qpEAAeSwdy9qhI13/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T17:41:47+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "ai_reason": "The stolen bike had mechanical 105 hydraulic disc, not the 12-speed R7170 Di2 electronic groupset, so this is a ubiquitous non-matching part.",
+   "fp": true
   },
   "ebay:v1|398300635274|0": {
    "id": "ebay:v1|398300635274|0",
@@ -32381,7 +32398,9 @@
    "image": "https://i.ebayimg.com/images/g/2ykAAeSwFHNqhJJi/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-18T17:41:55+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "ai_reason": "A SRAM Red eTap rim-brake groupset shares nothing with the stolen bike's Shimano 105 hydraulic disc setup or DT Swiss wheels.",
+   "fp": true
   },
   "kleinanzeigen:3488313668": {
    "id": "kleinanzeigen:3488313668",
