@@ -33916,11 +33916,43 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T02:45:19+00:00"
+  },
+  "kleinanzeigen:3488498189": {
+   "id": "kleinanzeigen:3488498189",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/neu-mavic-cosmic-elite-high-end-laufradsatz-rennrad-28-laufrad/3488498189-217-2095",
+   "title": "NEU* MAVIC COSMIC ELITE High-End Laufradsatz Rennrad 28\u201c Laufrad",
+   "description": "Hochwertiger Rennrad-Laufradsatz von MAVIC:\nCOSMIC ELITE UST (28\u201c/700C/ETRTO...",
+   "location": "40223 Bilk",
+   "price_text": "220 \u20ac",
+   "price": 220.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/24b5a400-d302-4587-a965-6702a83abe23?rule=$_2.AUTO",
+   "ai_reason": "This is a Mavic Cosmic Elite wheelset, not the distinctive DT Swiss E1800, and it's listed in Germany with no link to the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T03:35:14+00:00"
+  },
+  "kleinanzeigen:3488496173": {
+   "id": "kleinanzeigen:3488496173",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-28zoll/3488496173-217-403",
+   "title": "Rennrad 28zoll",
+   "description": "Hallo zusammen,\nich verkaufe hier mein gut erhaltenes und sehr leichtes Fitnessbike \u201eTao Race\u201c der...",
+   "location": "66583 Spiesen-\u200bElversberg",
+   "price_text": "500 \u20ac VB",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f6/f6060cc4-7993-4fc2-a5aa-11ab38ac631b?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model ('Tao Race' fitness bike) in rural Germany with no mention of the distinctive DT Swiss wheelset or 105 groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T03:35:19+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 195,
+   "fail_streak": 196,
    "warned": true,
    "ever_ok": true
   },
@@ -33935,7 +33967,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T04:33:04",
    "2026-08-18T05:09:09",
    "2026-08-18T05:50:40",
    "2026-08-18T06:16:29",
@@ -33976,10 +34007,11 @@
    "2026-08-19T00:50:52",
    "2026-08-19T01:02:30",
    "2026-08-19T02:52:22",
-   "2026-08-19T03:45:19"
+   "2026-08-19T03:45:19",
+   "2026-08-19T04:35:19"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T03",
+  "last_status": "2026-08-19T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
