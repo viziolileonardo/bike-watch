@@ -40793,11 +40793,75 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T22:39:44+00:00"
+  },
+  "kleinanzeigen:3489373981": {
+   "id": "kleinanzeigen:3489373981",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-epic-29-carbpn-mtb-shimano-xtr-uvp-5-995-/3489373981-217-6827",
+   "title": "SPECIALIZED EPIC 29\u201c Carbpn MTB,  Shimano XTR UVP \u20ac 5.995,-",
+   "description": "Marke: SPECIALIZED\nModell: EPIC CARBON\nRahmen: M\n\nGabel: ROCK SHOX REBA\n\nBremsen: SHIMANO...",
+   "location": "90443 S\u00fcdstadt",
+   "price_text": "1.395 \u20ac",
+   "price": 1395.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cd/cd5e340a-233b-4526-8642-86afaaf22268?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T23:09:55+00:00"
+  },
+  "kleinanzeigen:3489373681": {
+   "id": "kleinanzeigen:3489373681",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/vintage-rennrad-rh-62-cm-restauriert/3489373681-217-9548",
+   "title": "Vintage Rennrad | RH 62 cm | restauriert",
+   "description": "Verkaufe dieses sehr gut erhaltene restaurierte Vintage Rennrad mit einer Rahmenh\u00f6he von 62...",
+   "location": "30161 Vahrenwald-\u200bList",
+   "price_text": "500 \u20ac",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/31/31079075-28e6-40ab-b3d7-d361a1469557?rule=$_2.AUTO",
+   "ai_reason": "A restored vintage steel-era road bike in Hannover shares nothing with a 2026 carbon disc-brake bike and no matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T23:10:00+00:00"
+  },
+  "kleinanzeigen:3489373010": {
+   "id": "kleinanzeigen:3489373010",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-lux-world-cup-cf7/3489373010-217-7257",
+   "title": "Canyon Lux World Cup CF7",
+   "description": "Canyon Lux WC CF (Gr\u00f6\u00dfe M) 2025\n\nLeichter XC-Fully-Rahmen aus Carbon mit Weltmeister-DNA des...",
+   "location": "86825 Bad W\u00f6rishofen",
+   "price_text": "2.500 \u20ac VB",
+   "price": 2500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bf/bf196955-08bf-4971-a85b-890fa52158c9?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T23:10:00+00:00"
+  },
+  "kleinanzeigen:3355444691": {
+   "id": "kleinanzeigen:3355444691",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/berria-bravo-sport-carbon-29-mtb/3355444691-217-8862",
+   "title": "Berria Bravo Sport Carbon 29\" MTB",
+   "description": "Nach anf\u00e4nglicher Euphorie, habe ich festgestellt, dass ich doch eher der L\u00e4ufertyp bin.\nDemnach...",
+   "location": "78166 Donaueschingen",
+   "price_text": "1.050 \u20ac VB",
+   "price": 1050.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee92ba16-bdf0-428d-9feb-563d4d250e71?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Berria MTB) in Germany with no mention of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T23:10:04+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 231,
+   "fail_streak": 232,
    "warned": true,
    "ever_ok": true
   },
@@ -40812,7 +40876,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T00:09:56",
    "2026-08-19T00:34:13",
    "2026-08-19T00:50:52",
    "2026-08-19T01:02:30",
@@ -40853,10 +40916,11 @@
    "2026-08-19T22:13:20",
    "2026-08-19T22:38:46",
    "2026-08-19T23:09:57",
-   "2026-08-19T23:39:44"
+   "2026-08-19T23:39:44",
+   "2026-08-20T00:10:04"
   ],
   "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-19T23",
+  "last_status": "2026-08-20T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
