@@ -40921,11 +40921,59 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T23:34:43+00:00"
+  },
+  "ebay:v1|128035279129|0": {
+   "id": "ebay:v1|128035279129|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128035279129?_skw=road+bike&hash=item1dcf7f5119:g:rDUAAeSwicFqg5RU",
+   "title": "Canyon Inflite CF SL 8 XSmall SRAM Rival AXS Powermeter CX Gravel Road Bike",
+   "description": "",
+   "location": "IV2***",
+   "price_text": "\u00a31893.70",
+   "price": 1893.7,
+   "image": "https://i.ebayimg.com/images/g/rDUAAeSwicFqg5RU/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T23:52:03+00:00"
+  },
+  "kleinanzeigen:3489377900": {
+   "id": "kleinanzeigen:3489377900",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/stork-rennrad-ultra-leicht/3489377900-217-9401",
+   "title": "Stork Rennrad ultra leicht",
+   "description": "Ich verkaufe mein ultra leichtes Rennrad von Stork. Es wurde auf minimales Gewicht angepasst und...",
+   "location": "78266 B\u00fcsingen am Hochrhein",
+   "price_text": "1.500 \u20ac VB",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/25/2505ae65-f0df-4f7f-a11a-10e11f1696b7?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (Storck) lightweight build in southern Germany, with no mention of the distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T23:52:06+00:00"
+  },
+  "kleinanzeigen:3489377828": {
+   "id": "kleinanzeigen:3489377828",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gruppe-sram-apex-1x11g-hydro-165mm-40t-hydrauslich-gravel-bike-ne/3489377828-217-3463",
+   "title": "Gruppe SRAM Apex 1x11G hydro 165mm 40T hydrauslich Gravel Bike NE",
+   "description": "alle Teile sind unbenutzt!\n\nZum Verkauf steht eine Schaltgruppe 1x11G SRAM Apex (alles bis auf...",
+   "location": "13351 Reinickendorf",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6bc8e589-208c-4249-bc59-ca8873594c8a?rule=$_2.AUTO",
+   "ai_reason": "Unused SRAM Apex 1x11 gravel groupset in Berlin \u2014 different components entirely, no link to the stolen bike's Shimano 105 or DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T23:52:10+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 233,
+   "fail_streak": 234,
    "warned": true,
    "ever_ok": true
   },
@@ -40940,7 +40988,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T00:50:52",
    "2026-08-19T01:02:30",
    "2026-08-19T02:52:22",
    "2026-08-19T03:45:19",
@@ -40981,7 +41028,8 @@
    "2026-08-19T23:09:57",
    "2026-08-19T23:39:44",
    "2026-08-20T00:10:04",
-   "2026-08-20T00:34:43"
+   "2026-08-20T00:34:43",
+   "2026-08-20T00:52:10"
   ],
   "last_heartbeat": "2026-08-19",
   "last_status": "2026-08-20T00",
