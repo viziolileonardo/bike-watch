@@ -33948,11 +33948,43 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-19T03:35:19+00:00"
+  },
+  "kleinanzeigen:3488501047": {
+   "id": "kleinanzeigen:3488501047",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-c-62-pro-swampgrey-n-black-2023-gravelbike/3488501047-217-2231",
+   "title": "CUBE NUROAD C:62 PRO SWAMPGREY\u00b4N\u00b4BLACK 2023 | GRAVELBIKE",
+   "description": "Das Bike ist wie neu, hat h\u00f6chstens 10 Betriebsstunden, konnte es wegen R\u00fcckenproblemen leider...",
+   "location": "39112 Magdeburg",
+   "price_text": "1.500 \u20ac VB",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/9094802a-88b5-4ff1-bd43-d3c99f4790a9?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T04:10:31+00:00"
+  },
+  "kleinanzeigen:3479330425": {
+   "id": "kleinanzeigen:3479330425",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/isy-baujahr-2023-wie-neu-typ-e5-zr-f-cx-di2/3479330425-217-5365",
+   "title": "iSY Baujahr 2023 wie NEU Typ E5-ZR-F-CX-Di2",
+   "description": "iSY E5-ZR-F-CX-Di2 Baujahr 07/2023\nZustand wie neu. Wurde nur 350 km gefahren!!\n\nShimano Nexus...",
+   "location": "67346 Speyer",
+   "price_text": "2.600 \u20ac",
+   "price": 2600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e2/e26845ea-8bd9-4568-b7c7-a00821a7ba4f?rule=$_2.AUTO",
+   "ai_reason": "Specific iSY compact e-bike with Nexus/Di2 in Germany \u2014 a different make and type sharing no components with the stolen road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T04:10:37+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 196,
+   "fail_streak": 197,
    "warned": true,
    "ever_ok": true
   },
@@ -33967,7 +33999,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T05:09:09",
    "2026-08-18T05:50:40",
    "2026-08-18T06:16:29",
    "2026-08-18T06:45:47",
@@ -34008,10 +34039,11 @@
    "2026-08-19T01:02:30",
    "2026-08-19T02:52:22",
    "2026-08-19T03:45:19",
-   "2026-08-19T04:35:19"
+   "2026-08-19T04:35:19",
+   "2026-08-19T05:10:37"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T04",
+  "last_status": "2026-08-19T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
