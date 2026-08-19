@@ -34060,11 +34060,59 @@
    "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T04:50:50+00:00"
+  },
+  "kleinanzeigen:3474965704": {
+   "id": "kleinanzeigen:3474965704",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-sensa-giulia-evo-disc/3474965704-217-1321",
+   "title": "Rennrad Sensa Giulia Evo Disc",
+   "description": "Ich verkaufe mein Sensa Rennrad 58 er Rahmen aus Vollcarbon . In den letzten 2 Jahren war es nur im...",
+   "location": "48301 Nottuln",
+   "price_text": "1.800 \u20ac",
+   "price": 1800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f6c83ee-71b8-44e1-b15e-a1755d1215f1?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Sensa Giulia Evo Disc) with no mention of the distinctive DT Swiss E1800 wheels, listed in rural Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T05:16:44+00:00"
+  },
+  "kleinanzeigen:3488512572": {
+   "id": "kleinanzeigen:3488512572",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-octane-rh59-xl/3488512572-217-3163",
+   "title": "Gravelbike OCTANE RH59 / XL",
+   "description": "Marke: OCTANE\nModell: One - 1250\nRahmengr\u00f6\u00dfe: 59 cm / XL\nSchaltung: 1x11 SRAM Apex\nUmwerfer:...",
+   "location": "30159 Mitte",
+   "price_text": "690 \u20ac",
+   "price": 690.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/30b02dba-265e-4f77-ab3e-d71ea7b4ca9c?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model gravel bike with SRAM Apex 1x11, no shared distinctive components, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T05:16:49+00:00"
+  },
+  "kleinanzeigen:3488511327": {
+   "id": "kleinanzeigen:3488511327",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-cube-m/3488511327-217-3163",
+   "title": "Gravelbike CUBE M",
+   "description": "Marke: CUBE\nModell: Road SL - 1228\nRahmengr\u00f6\u00dfe: 53 cm / M\nSchaltung: 2x8 Shimano...",
+   "location": "30159 Mitte",
+   "price_text": "590 \u20ac",
+   "price": 590.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8eaa8b6f-c6b9-47eb-82b3-b4e893eb2514?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T05:16:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 198,
+   "fail_streak": 199,
    "warned": true,
    "ever_ok": true
   },
@@ -34079,7 +34127,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T06:16:29",
    "2026-08-18T06:45:47",
    "2026-08-18T07:19:09",
    "2026-08-18T08:22:56",
@@ -34120,10 +34167,11 @@
    "2026-08-19T03:45:19",
    "2026-08-19T04:35:19",
    "2026-08-19T05:10:37",
-   "2026-08-19T05:50:50"
+   "2026-08-19T05:50:50",
+   "2026-08-19T06:16:49"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T05",
+  "last_status": "2026-08-19T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
