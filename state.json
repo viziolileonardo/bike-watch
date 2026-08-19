@@ -34108,11 +34108,43 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T05:16:49+00:00"
+  },
+  "ebay:v1|117366542798|0": {
+   "id": "ebay:v1|117366542798|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117366542798?_skw=road+bike&hash=item1b539751ce:g:3g8AAeSwxFVqhI7n",
+   "title": "Cube Agree GTC Carbon Road Bike 56cm (22\")",
+   "description": "",
+   "location": "NE65***",
+   "price_text": "\u00a3496.30",
+   "price": 496.3,
+   "image": "https://i.ebayimg.com/images/g/3g8AAeSwxFVqhI7n/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T05:47:39+00:00"
+  },
+  "kleinanzeigen:3488519188": {
+   "id": "kleinanzeigen:3488519188",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-canyon-rh48-xs/3488519188-217-3163",
+   "title": "Gravelbike CANYON RH48 / XS",
+   "description": "Marke: CANYON\nModell: Inflite AL SLX - 1242\nRahmengr\u00f6\u00dfe: 48 cm / XS\nSchaltung: 1x11 SRAM...",
+   "location": "30159 Mitte",
+   "price_text": "990 \u20ac",
+   "price": 990.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d1db14a1-8b30-4162-9dd4-b36b1eaa7c9f?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T05:47:39+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 199,
+   "fail_streak": 200,
    "warned": true,
    "ever_ok": true
   },
@@ -34127,7 +34159,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T06:45:47",
    "2026-08-18T07:19:09",
    "2026-08-18T08:22:56",
    "2026-08-18T09:04:45",
@@ -34168,7 +34199,8 @@
    "2026-08-19T04:35:19",
    "2026-08-19T05:10:37",
    "2026-08-19T05:50:50",
-   "2026-08-19T06:16:49"
+   "2026-08-19T06:16:49",
+   "2026-08-19T06:47:39"
   ],
   "last_heartbeat": "2026-08-18",
   "last_status": "2026-08-19T06",
