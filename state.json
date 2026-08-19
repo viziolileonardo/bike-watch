@@ -33980,11 +33980,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-19T04:10:37+00:00"
+  },
+  "kleinanzeigen:3442993793": {
+   "id": "kleinanzeigen:3442993793",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/high-end-fuji-sst-1-0-aero-rennrad-carbon-dura-ace-mit-garantie/3442993793-217-1244",
+   "title": "High End FUJI SST 1.0 Aero Rennrad Carbon Dura Ace mit Garantie",
+   "description": "8Bar Radtechnik bietet ein Premium Bike der Extraklasse mit komletter Dura Ace Ausstattung Neu...",
+   "location": "33014 Bad Driburg",
+   "price_text": "1.100 \u20ac VB",
+   "price": 1100.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/81/810f3d71-9e66-47d1-a2f7-9218621687b8?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Fuji \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T04:50:42+00:00"
+  },
+  "kleinanzeigen:3488506548": {
+   "id": "kleinanzeigen:3488506548",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ultra-leicht-rennrad-damen/3488506548-217-5478",
+   "title": "Ultra leicht Rennrad Damen",
+   "description": "Ultra leicht Rennrad Damen f\u00fcr kleines Geld abzugeben, Rahmen Gr\u00f6\u00dfe 48cm, 160/165 cm K\u00f6rper...",
+   "location": "67697 Otterberg",
+   "price_text": "385 \u20ac VB",
+   "price": 385.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c4841fa0-5bb3-4814-8bbf-2257c0d7db1c?rule=$_2.AUTO",
+   "ai_reason": "A cheap small-frame women's road bike in rural Germany with no mention of the distinctive DT Swiss wheels or 105 groupset doesn't match the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T04:50:46+00:00"
+  },
+  "kleinanzeigen:3488506444": {
+   "id": "kleinanzeigen:3488506444",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/reynolds-sdv66t-rennrad-carbon-laufradsatz/3488506444-217-1937",
+   "title": "Reynolds SDV66T Rennrad Carbon Laufradsatz",
+   "description": "Reynolds SDV 66\nSchlauchreifen\nHigh End Continental Attack Force 22/24\n10-11 Fach Shimano...",
+   "location": "44892 Bochum-\u200bOst",
+   "price_text": "600 \u20ac",
+   "price": 600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f320f065-2b13-4c88-9849-50c051079bce?rule=$_2.AUTO",
+   "ai_reason": "This is a specific Reynolds SDV66T tubular carbon wheelset in Germany, not the DT Swiss E1800 wheels or any part of the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T04:50:50+00:00"
+  },
+  "kleinanzeigen:3488505794": {
+   "id": "kleinanzeigen:3488505794",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-reaction-gtc-carbon-mountainbike-20-rahmen/3488505794-217-3962",
+   "title": "CUBE Reaction GTC Carbon Mountainbike | 20\" Rahmen",
+   "description": "Ich verkaufe mein gepflegtes Cube Reaction Mountainbike, das gerade erst mit neuen Bremsen...",
+   "location": "09376 Oelsnitz/\u200bErzgeb.",
+   "price_text": "399 \u20ac VB",
+   "price": 399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e54edc7f-a976-457a-860b-9fbf7be14d62?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T04:50:50+00:00"
+  },
+  "kleinanzeigen:3488505630": {
+   "id": "kleinanzeigen:3488505630",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-scale-900-sl-carbon-gravel-gr-xl-shimano-xtr-sram-xxi/3488505630-217-986",
+   "title": "Scott Scale 900 SL Carbon Gravel, Gr.XL, Shimano XTR, Sram XXI",
+   "description": "Scott Scale 900 SL Carbon Gravel, Gr.XL, Shimano XTR, Sram XXI. Die Rahmenh\u00f6he betr\u00e4gt 54 cm von...",
+   "location": "50678 K\u00f6ln Altstadt",
+   "price_text": "990 \u20ac",
+   "price": 990.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58517537-c59d-49a5-849b-606a7212ef9f?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T04:50:50+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 197,
+   "fail_streak": 198,
    "warned": true,
    "ever_ok": true
   },
@@ -33999,7 +34079,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T05:50:40",
    "2026-08-18T06:16:29",
    "2026-08-18T06:45:47",
    "2026-08-18T07:19:09",
@@ -34040,7 +34119,8 @@
    "2026-08-19T02:52:22",
    "2026-08-19T03:45:19",
    "2026-08-19T04:35:19",
-   "2026-08-19T05:10:37"
+   "2026-08-19T05:10:37",
+   "2026-08-19T05:50:50"
   ],
   "last_heartbeat": "2026-08-18",
   "last_status": "2026-08-19T05",
