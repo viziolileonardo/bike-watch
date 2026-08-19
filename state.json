@@ -34140,11 +34140,59 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-19T05:47:39+00:00"
+  },
+  "ebay:v1|407155129855|0": {
+   "id": "ebay:v1|407155129855|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407155129855?_skw=road+bike&hash=item5ecc563dff:g:zHAAAeSw~7pqhUTN",
+   "title": "Colnago C60 With Shimano Dura Ace Di2 R9100. HUGE Spec Bike please Read Ad.",
+   "description": "",
+   "location": "RG9***",
+   "price_text": "\u00a32709.70",
+   "price": 2709.7,
+   "image": "https://i.ebayimg.com/images/g/zHAAAeSw~7pqhUTN/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T06:19:26+00:00"
+  },
+  "kleinanzeigen:3488533528": {
+   "id": "kleinanzeigen:3488533528",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-26-zoll/3488533528-217-159",
+   "title": "Rennrad 26 Zoll",
+   "description": "Gebe ein 26 Zoll Rennrad mit einer Rahmenschaltung und einer Rahmen H\u00f6he von 45cm ab.\n\nNur...",
+   "location": "18069 Reutershagen",
+   "price_text": "300 \u20ac",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e9064fc-4552-45ae-b8d5-1e181194f024?rule=$_2.AUTO",
+   "ai_reason": "An old 26-inch road bike with downtube shifters and a 45cm frame in northern Germany bears no resemblance to the stolen modern carbon disc bike or its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T06:19:30+00:00"
+  },
+  "kleinanzeigen:3488532640": {
+   "id": "kleinanzeigen:3488532640",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/focus-rennrad-grau/3488532640-217-17287",
+   "title": "Focus Rennrad grau",
+   "description": "Ich biete hier mein Rennrad der Marke Focus zum Verkauf an. Es ist ein zuverl\u00e4ssiger Begleiter f\u00fcr...",
+   "location": "72458 Albstadt",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/75/75e1efc6-541d-42ec-ac2d-937939ca6f63?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Focus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T06:19:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 200,
+   "fail_streak": 201,
    "warned": true,
    "ever_ok": true
   },
@@ -34159,7 +34207,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-18T07:19:09",
    "2026-08-18T08:22:56",
    "2026-08-18T09:04:45",
    "2026-08-18T09:52:36",
@@ -34200,10 +34247,11 @@
    "2026-08-19T05:10:37",
    "2026-08-19T05:50:50",
    "2026-08-19T06:16:49",
-   "2026-08-19T06:47:39"
+   "2026-08-19T06:47:39",
+   "2026-08-19T07:19:30"
   ],
   "last_heartbeat": "2026-08-18",
-  "last_status": "2026-08-19T06",
+  "last_status": "2026-08-19T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
