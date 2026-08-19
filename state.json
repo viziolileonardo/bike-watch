@@ -32106,7 +32106,8 @@
    "level": "digest",
    "first_seen": "2026-08-18T16:49:13+00:00",
    "blue_score": 0.004,
-   "ai_reason": "Vague listing with an obscure/unrecognisable brand name and no details, so a brand-stripped or repainted stolen bike can't be ruled out."
+   "ai_reason": "Ruled out from photo: cream flat-bar Bohemian city bike, rim brakes \u2014 not a carbon drop-bar road bike",
+   "fp": true
   },
   "ebay:v1|318749406031|0": {
    "id": "ebay:v1|318749406031|0",
