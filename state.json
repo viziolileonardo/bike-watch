@@ -32005,7 +32005,9 @@
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/fe1d64a27cde44ba90_341647d5bf47/86",
    "level": "digest",
    "first_seen": "2026-08-18T16:48:52+00:00",
-   "blue_score": 0.005
+   "blue_score": 0.005,
+   "fp": true,
+   "ai_reason": "Ruled out from photo: black/red Viner carbon with rim brakes \u2014 branded throughout, wrong colour and brakes"
   },
   "gumtree:1801700535": {
    "id": "gumtree:1801700535",
@@ -34408,10 +34410,11 @@
    "price_text": "\u00a3275",
    "price": 275.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/64d84cfb2cdc48f982_33d4ed7155ae/86",
-   "ai_reason": "Vaguely described blue road bike with an unclear/unfamiliar brand name and no component details, so it can't be ruled out.",
+   "ai_reason": "Ruled out from photo: vintage navy steel Wilson racer (rim brakes, leather saddle) \u2014 not the modern carbon disc bike",
    "level": "digest",
    "first_seen": "2026-08-19T08:53:17+00:00",
-   "blue_score": 0.025
+   "blue_score": 0.025,
+   "fp": true
   },
   "gumtree:1801718671": {
    "id": "gumtree:1801718671",
