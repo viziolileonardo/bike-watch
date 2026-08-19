@@ -40857,11 +40857,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-19T23:10:04+00:00"
+  },
+  "ebay:v1|117368846480|0": {
+   "id": "ebay:v1|117368846480|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117368846480?_skw=road+bike&hash=item1b53ba7890:g:iSUAAeSwsx9qhjdv",
+   "title": "Specialized Allez Sport",
+   "description": "",
+   "location": "EX6***",
+   "price_text": "\u00a3379.00",
+   "price": 379.0,
+   "image": "https://i.ebayimg.com/images/g/iSUAAeSwsx9qhjdv/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T23:34:36+00:00"
+  },
+  "kleinanzeigen:3489376124": {
+   "id": "kleinanzeigen:3489376124",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bq-cycles-rennrad-l-xl/3489376124-217-9365",
+   "title": "BQ Cycles Rennrad L\u2014XL",
+   "description": "Hey, ich verkaufe hier mein BQ Cycles Rennrad in Rahmengr\u00f6\u00dfe L\u2013XL.\n\nDas Rad verf\u00fcgt \u00fcber einen...",
+   "location": "79117 Freiburg im Breisgau",
+   "price_text": "2.499 \u20ac VB",
+   "price": 2499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0c54952f-a8e3-4536-a16e-7f34b5685809?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (BQ Cycles) listed as a complete bike far away in Freiburg, with no mention of the distinctive DT Swiss E1800 wheelset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T23:34:39+00:00"
+  },
+  "kleinanzeigen:3489375666": {
+   "id": "kleinanzeigen:3489375666",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wynn-rennrad-weiss-27-zoll-fahrbereit/3489375666-217-7846",
+   "title": "Wynn Rennrad wei\u00df 27 Zoll fahrbereit",
+   "description": "Ich verkaufe mein wei\u00dfes Rennrad der Marke Wynn, das sich in einem guten, fahrbereiten Zustand...",
+   "location": "01968 Senftenberg",
+   "price_text": "400 \u20ac VB",
+   "price": 400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/13cb7e4b-ea6c-4818-9b85-42ae1ef474e2?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (Wynn) in white with no mention of the distinctive DT Swiss wheelset or stolen bike's components, and located far away in eastern Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-19T23:34:43+00:00"
+  },
+  "kleinanzeigen:3489375152": {
+   "id": "kleinanzeigen:3489375152",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-attain-cmpt-race-rennrad/3489375152-217-6442",
+   "title": "Cube Attain CMPT Race Rennrad",
+   "description": "Top Zustand\n28x100\nSize 60. 185-190 cm Personh\u00f6he\nShimano 105 Ultegra\nCarbon alloy\nLook Keo Easy...",
+   "location": "80335 Maxvorstadt",
+   "price_text": "500 \u20ac VB",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bf/bf1b1930-798b-4018-ab0e-1f0135b27512?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-19T23:34:43+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 232,
+   "fail_streak": 233,
    "warned": true,
    "ever_ok": true
   },
@@ -40876,7 +40940,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T00:34:13",
    "2026-08-19T00:50:52",
    "2026-08-19T01:02:30",
    "2026-08-19T02:52:22",
@@ -40917,7 +40980,8 @@
    "2026-08-19T22:38:46",
    "2026-08-19T23:09:57",
    "2026-08-19T23:39:44",
-   "2026-08-20T00:10:04"
+   "2026-08-20T00:10:04",
+   "2026-08-20T00:34:43"
   ],
   "last_heartbeat": "2026-08-19",
   "last_status": "2026-08-20T00",
