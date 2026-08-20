@@ -41289,11 +41289,75 @@
    "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T04:28:27+00:00"
+  },
+  "kleinanzeigen:3474054264": {
+   "id": "kleinanzeigen:3474054264",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-carbon-54-cm-rahmen-sram-28-zoll/3474054264-217-6099",
+   "title": "Rennrad Carbon 54 cm Rahmen SRAM  28 Zoll",
+   "description": "Ich biete mein Rennrad, mit folgender Ausstattung zum Verkauf:\n\n- [ ] Twitter Rennrad Rahmen 700C...",
+   "location": "91522 Ansbach",
+   "price_text": "1.850 \u20ac VB",
+   "price": 1850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/5529f2a0-e5e4-42fe-9d19-09fd79af7298?rule=$_2.AUTO",
+   "ai_reason": "Specific different bike (Twitter frame with SRAM groupset) in Germany, sharing none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T05:05:28+00:00"
+  },
+  "kleinanzeigen:3489395550": {
+   "id": "kleinanzeigen:3489395550",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-trinity-equator-laufraeder-carbon-manuell/3489395550-217-6080",
+   "title": "Giant Trinity, Equator laufr\u00e4der, Carbon, manuell",
+   "description": "Triathlon und Zeitfahren, Super gepflegt, Carbon leicht ,aerodynamischer Schnitt, Shimano Ultegra...",
+   "location": "85435 Erding",
+   "price_text": "2.050 \u20ac VB",
+   "price": 2050.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/61/6127739a-e1f4-4d90-a77a-ea1b6cab5c6e?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T05:05:28+00:00"
+  },
+  "kleinanzeigen:3488507381": {
+   "id": "kleinanzeigen:3488507381",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-speedster-s30-rennrad/3488507381-217-8622",
+   "title": "Scott Speedster S30 Rennrad",
+   "description": "Ich verkaufe mein Scott Speedster S30 Rennrad.\n\nDas Fahrrad wurde vor einigen Monaten von mir...",
+   "location": "79227 Schallstadt",
+   "price_text": "500 \u20ac VB",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8f/8f2bd3e2-19cf-4272-9612-aab69d11898d?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T05:05:28+00:00"
+  },
+  "kleinanzeigen:3489394010": {
+   "id": "kleinanzeigen:3489394010",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/merida-scultura-6000-disc-carbon-rennrad-groesse-m-l-54cm/3489394010-217-1697",
+   "title": "Merida Scultura 6000 Disc Carbon Rennrad Gr\u00f6\u00dfe M/L 54cm",
+   "description": "Zum Verkauf steht mein Merida Scultura 6000 Disc Carbon in der Gr\u00f6\u00dfe M/L (54 cm) aus dem Jahr...",
+   "location": "53773 Hennef (Sieg)",
+   "price_text": "1.240 \u20ac",
+   "price": 1240.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/18/18dbbe48-7900-4712-8fd1-5415733c8761?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T05:05:28+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 239,
+   "fail_streak": 240,
    "warned": true,
    "ever_ok": true
   },
@@ -41308,7 +41372,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T05:50:50",
    "2026-08-19T06:16:49",
    "2026-08-19T06:47:39",
    "2026-08-19T07:19:30",
@@ -41349,10 +41412,11 @@
    "2026-08-20T03:02:15",
    "2026-08-20T04:09:34",
    "2026-08-20T04:57:13",
-   "2026-08-20T05:28:27"
+   "2026-08-20T05:28:27",
+   "2026-08-20T06:05:28"
   ],
   "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-20T05",
+  "last_status": "2026-08-20T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
