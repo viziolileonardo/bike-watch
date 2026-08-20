@@ -41241,11 +41241,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T03:57:13+00:00"
+  },
+  "ebay:v1|327318776763|0": {
+   "id": "ebay:v1|327318776763|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327318776763?_skw=road+bike&hash=item4c35b82bbb:g:YaIAAeSwT-hqhnnm",
+   "title": "Campagnolo Bora WTO 45 Disc Clincher Wheelset - XDR DRIVE / DARK LABEL",
+   "description": "",
+   "location": "E14***",
+   "price_text": "\u00a3650.00",
+   "price": 650.0,
+   "image": "https://i.ebayimg.com/images/g/YaIAAeSwT-hqhnnm/s-l225.jpg",
+   "ai_reason": "This is a high-end Campagnolo Bora carbon wheelset with XDR driver, not the DT Swiss E1800 wheels or any other component from the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T04:28:24+00:00"
+  },
+  "kleinanzeigen:3489390482": {
+   "id": "kleinanzeigen:3489390482",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/dt-swiss-gr-1600-27-5-650b-gravel-laufradsatz-lrs-xdr-und-hg/3489390482-217-8308",
+   "title": "DT Swiss GR 1600 27,5\u201c, 650b Gravel Laufradsatz LRS, XDR und HG",
+   "description": "Verkaufe hier meinen gebrauchten Ersatzlaufradsatz\n\nDie Reifen sind stark benutzt und an der...",
+   "location": "79761 Waldshut-\u200bTiengen",
+   "price_text": "320 \u20ac VB",
+   "price": 320.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7c1acc52-f57d-44d6-886e-afc09c97b18f?rule=$_2.AUTO",
+   "ai_reason": "Different wheelset model and size (DT Swiss GR 1600 650b gravel) than the stolen E1800, listed in southern Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T04:28:27+00:00"
+  },
+  "kleinanzeigen:3479307437": {
+   "id": "kleinanzeigen:3479307437",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-stahl-koga-miyata-rh-52cm-retro/3479307437-217-7194",
+   "title": "Rennrad Stahl koga miyata RH:52cm Retro",
+   "description": "Hallo biete ein gebrauchtes Rennrad in sehr guten Zustand f\u00fcr sein Alter .\nAlles geputzt\nTeils neue...",
+   "location": "86551 Aichach",
+   "price_text": "399 \u20ac VB",
+   "price": 399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/43/4362f3f4-19b5-435a-82ff-75e1b3dcc713?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T04:28:27+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 238,
+   "fail_streak": 239,
    "warned": true,
    "ever_ok": true
   },
@@ -41260,7 +41308,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T05:10:37",
    "2026-08-19T05:50:50",
    "2026-08-19T06:16:49",
    "2026-08-19T06:47:39",
@@ -41301,10 +41348,11 @@
    "2026-08-20T01:24:14",
    "2026-08-20T03:02:15",
    "2026-08-20T04:09:34",
-   "2026-08-20T04:57:13"
+   "2026-08-20T04:57:13",
+   "2026-08-20T05:28:27"
   ],
   "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-20T04",
+  "last_status": "2026-08-20T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
