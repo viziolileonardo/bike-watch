@@ -45626,11 +45626,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T19:45:01+00:00"
+  },
+  "ebay:v1|318760284370|0": {
+   "id": "ebay:v1|318760284370|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318760284370?_skw=road+bike&hash=item4a3797f0d2:g:T5wAAeSwC5xqh1qi",
+   "title": "APEXX Maverick 72V 25ah E Bike OFF ROAD",
+   "description": "",
+   "location": "B90***",
+   "price_text": "\u00a31740.70",
+   "price": 1740.7,
+   "image": "https://i.ebayimg.com/images/g/T5wAAeSwC5xqh1qi/s-l225.jpg",
+   "ai_reason": "A specific off-road 72V e-bike shares nothing with the stolen carbon road bike or its distinctive DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T20:13:06+00:00"
+  },
+  "ebay:v1|287536828223|0": {
+   "id": "ebay:v1|287536828223|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287536828223?_skw=road+bike&hash=item42f287cf3f:g:wEUAAeSwjh5qh1m6",
+   "title": "Ribble CGR SL Carbon - Gravel Bike- Medium Frame - Less than 300 dry road miles!",
+   "description": "",
+   "location": "TR26***",
+   "price_text": "\u00a31295.00",
+   "price": 1295.0,
+   "image": "https://i.ebayimg.com/images/g/wEUAAeSwjh5qh1m6/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T20:13:06+00:00"
+  },
+  "ebay:v1|227484503225|0": {
+   "id": "ebay:v1|227484503225|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227484503225?_skw=road+bike&hash=item34f7220cb9:g:rbIAAeSwWihqh1iW",
+   "title": "GARMIN ZUMO XT MOTORCYCLE ROAD & TOPOGRAPHIC MAPS SATNAV GPS BIG 5.5\" HD DISPLAY",
+   "description": "",
+   "location": "BB3***",
+   "price_text": "\u00a3374.99",
+   "price": 374.99,
+   "image": "https://i.ebayimg.com/images/g/rbIAAeSwWihqh1iW/s-l225.jpg",
+   "ai_reason": "A motorcycle GPS satnav unit, unrelated to the stolen bicycle or any of its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T20:13:09+00:00"
+  },
+  "kleinanzeigen:3490159400": {
+   "id": "kleinanzeigen:3490159400",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/brompton-faltrad-m6l-6-gang-racing-green-inkl-zubehoer/3490159400-217-5916",
+   "title": "Brompton Faltrad M6L, 6-Gang, Racing Green inkl. Zubeh\u00f6r",
+   "description": "Verkaufe mein geliebtes Brompton Klappvelo in einem attraktiven Tannengr\u00fcn. Perfekt f\u00fcr Pendler...",
+   "location": "84371 Triftern",
+   "price_text": "600 \u20ac VB",
+   "price": 600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0b736f44-726a-443e-9a7a-699fba1671b1?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Brompton \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T20:13:09+00:00"
+  },
+  "kleinanzeigen:3490158582": {
+   "id": "kleinanzeigen:3490158582",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-sensa-umbria/3490158582-217-1345",
+   "title": "Rennrad Sensa Umbria",
+   "description": "Zum Verkauf steht ein Rennrad von der Marke Sensa.\n\n\u00dcber das Rennrad:\nMarke: Sensa\nModel:...",
+   "location": "48691 Vreden",
+   "price_text": "275 \u20ac",
+   "price": 275.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c09323b6-1b17-4636-a1fa-4b4593d72b17?rule=$_2.AUTO",
+   "ai_reason": "A specific different make and model (Sensa Umbria) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, listed cheaply in rural Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T20:13:14+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 262,
+   "fail_streak": 263,
    "warned": true,
    "ever_ok": true
   },
@@ -45645,7 +45725,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T21:11:29",
    "2026-08-19T21:44:08",
    "2026-08-19T22:13:20",
    "2026-08-19T22:38:46",
@@ -45681,10 +45760,11 @@
    "2026-08-20T18:45:58",
    "2026-08-20T19:18:05",
    "2026-08-20T20:01:35",
-   "2026-08-20T20:45:01"
+   "2026-08-20T20:45:01",
+   "2026-08-20T21:13:14"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-20T20",
+  "last_status": "2026-08-20T21",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
