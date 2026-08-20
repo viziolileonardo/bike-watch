@@ -41417,11 +41417,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T05:46:03+00:00"
+  },
+  "kleinanzeigen:3470297061": {
+   "id": "kleinanzeigen:3470297061",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/colnago-master-rennrad-mit-dt-swiss-laufraedern/3470297061-217-27978",
+   "title": "Colnago Master Rennrad mit DT Swiss Laufr\u00e4dern",
+   "description": "Ich biete hier ein elegantes Colnago Master Rennrad an. Dieses Fahrrad ist ideal f\u00fcr Liebhaber...",
+   "location": "10719 Charlottenburg",
+   "price_text": "1.899 \u20ac",
+   "price": 1899.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/50/5085cc12-f509-4886-b52f-7603225a07cf?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T06:19:30+00:00"
+  },
+  "kleinanzeigen:3489420890": {
+   "id": "kleinanzeigen:3489420890",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-backroad-gravelbike/3489420890-217-18675",
+   "title": "Rose Backroad Gravelbike",
+   "description": "Das Fahrrad ist in einem sehr guten Zustand. Ich habe es letztes Jahr gekauft und bin damit...",
+   "location": "50937 K\u00f6ln S\u00fclz",
+   "price_text": "1.650 \u20ac VB",
+   "price": 1650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/ba7a3490-a33e-49cd-a9a9-b7e1bc5304b4?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T06:19:30+00:00"
+  },
+  "kleinanzeigen:3489419583": {
+   "id": "kleinanzeigen:3489419583",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-domane-slr-6-endurance-rennrad-gr-58-2018/3489419583-217-16363",
+   "title": "Trek Domane SLR 6 Endurance Rennrad Gr.58 2018",
+   "description": "Biete hier mein Trek Domane SLR 6 in der Gr\u00f6\u00dfe 58cm aus dem Jahr 2018 an.\nDas Rad ist dem Alter...",
+   "location": "81549 Obergiesing",
+   "price_text": "1.000 \u20ac",
+   "price": 1000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee0d71b3-c16a-48bc-aab3-445ad7d82763?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T06:19:30+00:00"
+  },
+  "kleinanzeigen:3489419131": {
+   "id": "kleinanzeigen:3489419131",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-race-2026-rahmengroesse-s/3489419131-217-3484",
+   "title": "Cube Nuroad Race 2026 Rahmengr\u00f6\u00dfe: S",
+   "description": "Verkaufe mein Cube Nuroad Race, da ich mir ein neues Bike zugelegt habe. Das Rad ist in einem sehr...",
+   "location": "12459 Treptow",
+   "price_text": "1.300 \u20ac",
+   "price": 1300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c09761e9-0803-4278-b89e-3484be35b933?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T06:19:30+00:00"
+  },
+  "kleinanzeigen:3489419134": {
+   "id": "kleinanzeigen:3489419134",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-agree-gtc-carbon-rennrad-shimano-ultegra-groesse-50/3489419134-217-2653",
+   "title": "CUBE Agree GTC Carbon Rennrad | Shimano Ultegra | Gr\u00f6\u00dfe 50",
+   "description": "Ich verkaufe mein CUBE Agree GTC Rennrad in der Rahmengr\u00f6\u00dfe 50.\n\nDas Rad verf\u00fcgt \u00fcber einen...",
+   "location": "27711 Osterholz-\u200bScharmbeck",
+   "price_text": "999 \u20ac VB",
+   "price": 999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/21379449-fda2-40cc-850c-b823f5ce6aa8?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T06:19:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 241,
+   "fail_streak": 242,
    "warned": true,
    "ever_ok": true
   },
@@ -41436,8 +41516,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T06:47:39",
-   "2026-08-19T07:19:30",
    "2026-08-19T08:22:28",
    "2026-08-19T09:04:49",
    "2026-08-19T09:53:50",
@@ -41477,10 +41555,11 @@
    "2026-08-20T04:57:13",
    "2026-08-20T05:28:27",
    "2026-08-20T06:05:28",
-   "2026-08-20T06:46:03"
+   "2026-08-20T06:46:03",
+   "2026-08-20T07:19:30"
   ],
   "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-20T06",
+  "last_status": "2026-08-20T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
