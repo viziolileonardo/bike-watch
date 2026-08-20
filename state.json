@@ -45914,11 +45914,91 @@
    "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T21:14:16+00:00"
+  },
+  "kleinanzeigen:3487329531": {
+   "id": "kleinanzeigen:3487329531",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/simplon-nanolight-carbon-k-sl-leichtes-premium-trekking-speedrad/3487329531-217-9653",
+   "title": "Simplon Nanolight Carbon K-SL Leichtes Premium Trekking/Speedrad",
+   "description": "Hallo zusammen,\n\nich verkaufe hier mein sehr treues und extrem leichtes...",
+   "location": "13505 Reinickendorf",
+   "price_text": "695 \u20ac VB",
+   "price": 695.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5b/5bce810d-88f9-458b-b262-a6e0a87a8861?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Simplon Nanolight trekking bike) in Berlin with no mention of the distinctive DT Swiss E1800 wheels or matching groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T21:42:18+00:00"
+  },
+  "kleinanzeigen:3490193861": {
+   "id": "kleinanzeigen:3490193861",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cannondale-topstone-rennrad-gravelrad-105-m/3490193861-217-2104",
+   "title": "Cannondale Topstone Rennrad Gravelrad 105 M",
+   "description": "Ich verkaufe mein Cannondale Topstone 1 in Rahmengr\u00f6\u00dfe M, da ich auf ein Carbon-Rennrad umsteigen...",
+   "location": "40625 Gerresheim",
+   "price_text": "779 \u20ac VB",
+   "price": 779.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/24491cbd-2966-402e-9744-1fe958f2a534?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:42:18+00:00"
+  },
+  "kleinanzeigen:3490193472": {
+   "id": "kleinanzeigen:3490193472",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/lapierre-laufraeder-rennrad-38mm-aero-carbon/3490193472-217-7013",
+   "title": "Lapierre Laufr\u00e4der Rennrad 38mm Aero Carbon",
+   "description": "Verkaufe Laufr\u00e4der, welche in meinem Lapierre Aircode verbaut waren.\nDie Laufr\u00e4der wurden nach rund...",
+   "location": "95652 Waldsassen",
+   "price_text": "549 \u20ac VB",
+   "price": 549.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f70e8fac-c74e-492a-ab74-1fe01771127a?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Lapierre \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:42:18+00:00"
+  },
+  "kleinanzeigen:3490192790": {
+   "id": "kleinanzeigen:3490192790",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-focus-atlas-6-8-rh-59-60cm-sehr-guter-zustand/3490192790-217-964",
+   "title": "Gravelbike Focus Atlas 6.8 RH:  59/60cm  Sehr guter Zustand",
+   "description": "Ich biete hier mein Focus Atlas 6.8 Gravelbike in Rahmengr\u00f6\u00dfe 60cm an. Alu Rahmen, Carbon Gabel. Es...",
+   "location": "51145 Porz",
+   "price_text": "1.350 \u20ac VB",
+   "price": 1350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c2/c28e5fc4-53c7-42bd-af09-70b3ba4b1d81?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Focus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:42:18+00:00"
+  },
+  "marktplaats:m2433223249": {
+   "id": "marktplaats:m2433223249",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2433223249-colnago-v3rs-shimano-ultegra-di2-2022",
+   "title": "Colnago V3RS - Shimano Ultegra Di2 - 2022",
+   "description": "Colnago v3rs disc integrated shimano ultegra di2. Maat 54s (ideaal voor lichaamslengte 1m75 - 1m83). Wit-blauwe uitvoering. Wielset vision sc40 tr carbon. Inclusief pedalen en 2 colnago-bidonhouders. ",
+   "location": "Pepingen (Heikruis)",
+   "price_text": "\u20ac3120",
+   "price": 3120.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/c447122f-456a-4dcc-a1d7-83e6d9679bd3?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:42:18+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 265,
+   "fail_streak": 266,
    "warned": true,
    "ever_ok": true
   },
@@ -45933,7 +46013,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T22:38:46",
    "2026-08-19T23:09:57",
    "2026-08-19T23:39:44",
    "2026-08-20T00:10:04",
@@ -45969,7 +46048,8 @@
    "2026-08-20T20:45:01",
    "2026-08-20T21:13:14",
    "2026-08-20T21:45:03",
-   "2026-08-20T22:14:16"
+   "2026-08-20T22:14:16",
+   "2026-08-20T22:42:18"
   ],
   "last_heartbeat": "2026-08-20",
   "last_status": "2026-08-20T22",
