@@ -41193,11 +41193,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T03:09:34+00:00"
+  },
+  "kleinanzeigen:3489387308": {
+   "id": "kleinanzeigen:3489387308",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/panther-city-urbanbike-singlespeed-schwarz/3489387308-217-9442",
+   "title": "Panther City-/Urbanbike Singlespeed Schwarz",
+   "description": "Ich biete dieses sportliche Panther City-/Urbanbike an, das sich ideal f\u00fcr den t\u00e4glichen Weg...",
+   "location": "21109 Hamburg Wilhelmsburg",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/69/69844f5d-0943-498e-9392-25a6e3069e60?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model singlespeed urban bike in Hamburg with no shared distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T03:57:10+00:00"
+  },
+  "kleinanzeigen:3489387212": {
+   "id": "kleinanzeigen:3489387212",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-procaliber-9-7-axs-gen-3-carbon-29-zoll-gr-m/3489387212-217-243",
+   "title": "Trek Procaliber 9.7 AXS Gen 3 | Carbon  | 29 Zoll | Gr. M",
+   "description": "Ich biete hier mein Trek Procaliber 9.7 AXS Gen 3 Mountainbike in der Farbe Navy Smoke an. Es ist...",
+   "location": "17489 Greifswald",
+   "price_text": "2.700 \u20ac",
+   "price": 2700.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/322e1101-b58e-475c-af11-1261a19add03?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T03:57:10+00:00"
+  },
+  "kleinanzeigen:3489386964": {
+   "id": "kleinanzeigen:3489386964",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/aerycs-road-classic-50mm-dt-swiss-aus-05-26/3489386964-217-2842",
+   "title": "Aerycs Road Classic 50mm DT-Swiss aus 05/26",
+   "description": "Zum Verkauf steht hier mein Zweit-Laufradsatz der Marke Aerycs.\n\nEs handelt sich um das Modell Road...",
+   "location": "37574 Einbeck",
+   "price_text": "699 \u20ac VB",
+   "price": 699.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/be/be3ada96-bcb7-40ce-87ff-cc2959d32d5f?rule=$_2.AUTO",
+   "ai_reason": "This is an Aerycs 50mm carbon wheelset (DT Swiss hubs), not the DT Swiss E1800 wheelset, and it's listed in Germany with a stated 05/26 purchase date.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T03:57:13+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 237,
+   "fail_streak": 238,
    "warned": true,
    "ever_ok": true
   },
@@ -41212,7 +41260,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T04:35:19",
    "2026-08-19T05:10:37",
    "2026-08-19T05:50:50",
    "2026-08-19T06:16:49",
@@ -41253,7 +41300,8 @@
    "2026-08-20T00:52:10",
    "2026-08-20T01:24:14",
    "2026-08-20T03:02:15",
-   "2026-08-20T04:09:34"
+   "2026-08-20T04:09:34",
+   "2026-08-20T04:57:13"
   ],
   "last_heartbeat": "2026-08-19",
   "last_status": "2026-08-20T04",
