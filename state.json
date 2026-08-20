@@ -46154,11 +46154,75 @@
    "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T22:44:05+00:00"
+  },
+  "kleinanzeigen:3490207107": {
+   "id": "kleinanzeigen:3490207107",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/raymon-tourray-720-ebike-/3490207107-217-222",
+   "title": "Raymon Tourray 720 (Ebike)",
+   "description": "Moin, Verkaufe oder Tausche mein E-Bike\n(tausch nur gegen Gravel bike mir 150kg zul.ges)\n\nIch habe...",
+   "location": "23936 Grevesmuehlen",
+   "price_text": "2.200 \u20ac VB",
+   "price": 2200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56e8743b-80fe-4308-97d5-00f8bee59b97?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model e-bike in Germany with no link to the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T23:11:42+00:00"
+  },
+  "kleinanzeigen:3490206515": {
+   "id": "kleinanzeigen:3490206515",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/peugeot-rennrad-rot/3490206515-217-1828",
+   "title": "Peugeot Rennrad rot",
+   "description": "Ich verkaufe mein rotes Peugeot Rennrad, das sich ideal f\u00fcr schnelle Fahrten in der Stadt oder...",
+   "location": "50169 Kerpen",
+   "price_text": "350 \u20ac",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f07cb6e0-afe2-459d-9fc3-eb15e240c0a7?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T23:11:42+00:00"
+  },
+  "kleinanzeigen:3490206404": {
+   "id": "kleinanzeigen:3490206404",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cinelli-tutto-mini-bike-singlespeed-mutant-silver-s-neu/3490206404-217-1716",
+   "title": "Cinelli Tutto Mini Bike Singlespeed Mutant Silver S NEU",
+   "description": "Cinelli Tutto Mini Bike Singlespeed Mutant Silver S NEU\n\nInstagram: nokko_bikes\n\nDas Rad ist neu...",
+   "location": "52146 W\u00fcrselen",
+   "price_text": "1.295 \u20ac",
+   "price": 1295.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5c8024f5-2751-46c0-bfa6-e4473ccd32d2?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cinelli \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T23:11:42+00:00"
+  },
+  "marktplaats:m2433231325": {
+   "id": "marktplaats:m2433231325",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2433231325-canyon-grail-on-cf-8-2021-elektrische-gravelbike",
+   "title": "Canyon Grail:on cf 8 2021 elektrische gravelbike",
+   "description": "Canyon elektrische gravelbike \u2013 bosch \u2013 nette staat te koop aangeboden: een canyon elektrische gravelbike in een mooie blauw/zwarte uitvoering. Maat xl een sportieve en veelzijdige fiets die zowel ges",
+   "location": "Nibbixwoud",
+   "price_text": "\u20ac2500",
+   "price": 2500.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/3bdbe06f-a893-40e2-98ee-7bca2ab700e0?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T23:11:42+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 268,
+   "fail_streak": 269,
    "warned": true,
    "ever_ok": true
   },
@@ -46173,7 +46237,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T00:10:04",
    "2026-08-20T00:34:43",
    "2026-08-20T00:52:10",
    "2026-08-20T01:24:14",
@@ -46209,10 +46272,11 @@
    "2026-08-20T22:14:16",
    "2026-08-20T22:42:18",
    "2026-08-20T23:11:34",
-   "2026-08-20T23:44:05"
+   "2026-08-20T23:44:05",
+   "2026-08-21T00:11:42"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-20T23",
+  "last_status": "2026-08-21T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
