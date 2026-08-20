@@ -41145,11 +41145,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T02:02:15+00:00"
+  },
+  "gumtree:1515268796": {
+   "id": "gumtree:1515268796",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/road-bikes/trek-alpha-1.2-road-bike/1515268796",
+   "title": "Trek Alpha 1.2 Road Bike",
+   "description": "",
+   "location": "Chelsea, London",
+   "price_text": "\u00a3549",
+   "price": 549.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/7f918a55a255438e92_b73cc9aee893/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T03:09:26+00:00"
+  },
+  "ebay:v1|128035483254|0": {
+   "id": "ebay:v1|128035483254|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128035483254?_skw=road+bike&hash=item1dcf826e76:g:mR8AAeSw0zlqhmRM",
+   "title": "Off Road X Beast Motorsport 125cc ATV Quad Bike 4 Stroke Petrol Sky Blue 70KM/H",
+   "description": "",
+   "location": "OL16***",
+   "price_text": "\u00a3799.99",
+   "price": 799.99,
+   "image": "https://i.ebayimg.com/images/g/mR8AAeSw0zlqhmRM/s-l225.jpg",
+   "ai_reason": "A 125cc petrol quad bike shares no components or characteristics with the stolen road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T03:09:29+00:00"
+  },
+  "ebay:v1|128035460693|0": {
+   "id": "ebay:v1|128035460693|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128035460693?_skw=road+bike&hash=item1dcf821655:g:Ed8AAeSw3h9qhmAX",
+   "title": "X Beast Motorsport 125cc ATV Quad Bike 4 Stroke Petrol Green - Off Road 70KM/H",
+   "description": "",
+   "location": "OL16***",
+   "price_text": "\u00a3799.99",
+   "price": 799.99,
+   "image": "https://i.ebayimg.com/images/g/Ed8AAeSw3h9qhmAX/s-l225.jpg",
+   "ai_reason": "A petrol ATV quad bike shares nothing with the stolen road bicycle or its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T03:09:34+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 236,
+   "fail_streak": 237,
    "warned": true,
    "ever_ok": true
   },
@@ -41164,7 +41212,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T03:45:19",
    "2026-08-19T04:35:19",
    "2026-08-19T05:10:37",
    "2026-08-19T05:50:50",
@@ -41205,10 +41252,11 @@
    "2026-08-20T00:34:43",
    "2026-08-20T00:52:10",
    "2026-08-20T01:24:14",
-   "2026-08-20T03:02:15"
+   "2026-08-20T03:02:15",
+   "2026-08-20T04:09:34"
   ],
   "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-20T03",
+  "last_status": "2026-08-20T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
