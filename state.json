@@ -45834,11 +45834,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T20:45:03+00:00"
+  },
+  "ebay:v1|407159424498|0": {
+   "id": "ebay:v1|407159424498|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407159424498?_skw=road+bike&hash=item5ecc97c5f2:g:P74AAeSw9Idqh2fW",
+   "title": "Boardman C7 Carbon road bike 700C Black/Blue drop bar side pull caliper brakes",
+   "description": "",
+   "location": "S6***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/P74AAeSw9Idqh2fW/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:14:16+00:00"
+  },
+  "ebay:v1|178427637424|0": {
+   "id": "ebay:v1|178427637424|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178427637424?_skw=road+bike&hash=item298b1daeb0:g:74sAAeSwRvdqh2Yn",
+   "title": "B-Twin Triban 540 Road Bike. Shimano 105,  2x11 speed Medium Size",
+   "description": "",
+   "location": "KT15***",
+   "price_text": "\u00a3329.02",
+   "price": 329.02,
+   "image": "https://i.ebayimg.com/images/g/74sAAeSwRvdqh2Yn/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as B-Twin \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:14:16+00:00"
+  },
+  "kleinanzeigen:3490187455": {
+   "id": "kleinanzeigen:3490187455",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bulls-sora-rennrad-rh-61-cm-shimano-sora-28-zoll/3490187455-217-1022",
+   "title": "BULLS Sora Rennrad | RH 61 cm | Shimano Sora | 28 Zoll",
+   "description": "Sportliches BULLS Rennrad in seltener gro\u00dfer Rahmengr\u00f6\u00dfe 61 cm \u2013 ideal f\u00fcr gr\u00f6\u00dfere...",
+   "location": "58452 Witten",
+   "price_text": "379 \u20ac VB",
+   "price": 379.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ad/adbf3ff0-a64e-43a3-b679-6eb10f707e16?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:14:16+00:00"
+  },
+  "kleinanzeigen:3490186791": {
+   "id": "kleinanzeigen:3490186791",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-rose-rh60/3490186791-217-3163",
+   "title": "Rennrad ROSE RH60",
+   "description": "200 Rennr\u00e4der erleben und probefahren Erlebe eine riesige Auswahl an Rennr\u00e4dern \u2013 direkt vor Ort...",
+   "location": "30159 Mitte",
+   "price_text": "490 \u20ac",
+   "price": 490.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d3/d31cac17-d426-4753-bc1d-199aa09934b0?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:14:16+00:00"
+  },
+  "kleinanzeigen:3490185680": {
+   "id": "kleinanzeigen:3490185680",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bulls-bushtail-xc-sport-26-zoll-mountainbike-herren-46cm/3490185680-217-23665",
+   "title": "Bulls Bushtail XC Sport 26 Zoll Mountainbike Herren 46cm",
+   "description": "Ich biete hier mein Bulls Bushtail XC Mountainbike an, das sich perfekt f\u00fcr Offroad-Abenteuer oder...",
+   "location": "04451 Borsdorf",
+   "price_text": "249 \u20ac",
+   "price": 249.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ff/ff429384-bd73-47a1-bb1c-477daf5abf06?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T21:14:16+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 264,
+   "fail_streak": 265,
    "warned": true,
    "ever_ok": true
   },
@@ -45853,7 +45933,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T22:13:20",
    "2026-08-19T22:38:46",
    "2026-08-19T23:09:57",
    "2026-08-19T23:39:44",
@@ -45889,10 +45968,11 @@
    "2026-08-20T20:01:35",
    "2026-08-20T20:45:01",
    "2026-08-20T21:13:14",
-   "2026-08-20T21:45:03"
+   "2026-08-20T21:45:03",
+   "2026-08-20T22:14:16"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-20T21",
+  "last_status": "2026-08-20T22",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
