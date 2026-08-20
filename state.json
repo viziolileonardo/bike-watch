@@ -41705,11 +41705,91 @@
    "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T07:25:38+00:00"
+  },
+  "ebay:v1|188821021202|696074726109": {
+   "id": "ebay:v1|188821021202|696074726109",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188821021202?_skw=road+bike&hash=item2bf69c2212:g:3f0AAeSw-9Fqhq9I",
+   "title": "Thor Radial Motorcycle Motorbike Motocross Off-Road Boots - Red",
+   "description": "",
+   "location": "PE20***",
+   "price_text": "\u00a3209.99",
+   "price": 209.99,
+   "image": "https://i.ebayimg.com/images/g/3f0AAeSw-9Fqhq9I/s-l225.jpg",
+   "ai_reason": "Motocross boots are unrelated to the stolen bicycle or any of its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T08:06:45+00:00"
+  },
+  "ebay:v1|287535787145|0": {
+   "id": "ebay:v1|287535787145|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287535787145?_skw=road+bike&hash=item42f277ec89:g:zSEAAeSwwtVqhq6j",
+   "title": "Shimano Ultegra Dura Ace DI2 Part Groupset 11 speed Rim Brake",
+   "description": "",
+   "location": "CR5***",
+   "price_text": "\u00a3338.20",
+   "price": 338.2,
+   "image": "https://i.ebayimg.com/images/g/zSEAAeSwwtVqhq6j/s-l225.jpg",
+   "ai_reason": "Electronic Di2 rim-brake Ultegra/Dura-Ace groupset is a completely different spec from the stolen bike's mechanical 105 hydraulic disc setup.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T08:06:49+00:00"
+  },
+  "ebay:v1|206505230082|0": {
+   "id": "ebay:v1|206505230082|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206505230082?_skw=road+bike&hash=item3014abbf02:g:klwAAeSwt3xqhquT",
+   "title": "Singular Cycles Gryphon Mk3 frameset, excellent condition, size large",
+   "description": "",
+   "location": "WS12***",
+   "price_text": "\u00a3625.00",
+   "price": 625.0,
+   "image": "https://i.ebayimg.com/images/g/klwAAeSwt3xqhquT/s-l225.jpg",
+   "ai_reason": "This is a specific different make/model steel frameset with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or other components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T08:06:56+00:00"
+  },
+  "kleinanzeigen:3332739243": {
+   "id": "kleinanzeigen:3332739243",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carbon-gravel-laufradsatz-duke-baccara-wrx-27-slr2-1240gramm/3332739243-217-9364",
+   "title": "Carbon Gravel Laufradsatz Duke Baccara WRX 27 SLR2/ 1240gramm",
+   "description": "Wir bauen Laufrads\u00e4tze nach Wunsch auf Bestellung:\nDauer bis Versand: 14 Tage.\n\nAll unsere...",
+   "location": "79102 Freiburg im Breisgau",
+   "price_text": "1.249 \u20ac",
+   "price": 1249.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/cad6a14b-1008-4688-9096-c7e0c0b837d0?rule=$_2.AUTO",
+   "ai_reason": "Custom-built-to-order Duke carbon wheelset in Germany, unrelated to the DT Swiss E1800 wheels or any part of the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T08:07:01+00:00"
+  },
+  "kleinanzeigen:3305607229": {
+   "id": "kleinanzeigen:3305607229",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-22-ridley-astr-grx600-2x12-gravelbike-/3305607229-217-4768",
+   "title": "- 22% ! Ridley Astr GRX600 2x12, Gravelbike,",
+   "description": "Das Astr bringt alle Eigenschaften des Astr RS zu einem erschwinglichen Preis: von aerodynamischen...",
+   "location": "64653 Lorsch",
+   "price_text": "2.599 \u20ac",
+   "price": 2599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b047070-d9a1-4112-b869-3b8d3a91ede2?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Ridley Astr gravel bike with GRX600 2x12) in Germany, sharing no distinctive components with the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T08:07:04+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 243,
+   "fail_streak": 244,
    "warned": true,
    "ever_ok": true
   },
@@ -41724,7 +41804,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T09:04:49",
    "2026-08-19T09:53:50",
    "2026-08-19T10:18:58",
    "2026-08-19T11:01:12",
@@ -41764,10 +41843,11 @@
    "2026-08-20T06:05:28",
    "2026-08-20T06:46:03",
    "2026-08-20T07:19:30",
-   "2026-08-20T08:25:38"
+   "2026-08-20T08:25:38",
+   "2026-08-20T09:07:04"
   ],
-  "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-20T08",
+  "last_heartbeat": "2026-08-20",
+  "last_status": "2026-08-20T09",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
