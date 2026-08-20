@@ -46218,11 +46218,43 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T23:11:42+00:00"
+  },
+  "kleinanzeigen:3438446375": {
+   "id": "kleinanzeigen:3438446375",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/colnago-cogadex-v2-r-disc-52s-52cm-rennrad-carbon-b-14837-store-muenster/3438446375-217-16773",
+   "title": "Colnago Cogadex V2-R -Disc 52s \"52cm\" Rennrad Carbon B-14837 Store M\u00fcnster",
+   "description": "Summersale! Sichere dir 100 \u20ac Extra-Rabatt mit dem Code CLEVER-DEAL - online und in der Filiale...",
+   "location": "48157 Coerde",
+   "price_text": "2.999 \u20ac",
+   "price": 2999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f84bf717-85ba-45f3-a98f-af4aaafa495e?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T23:37:46+00:00"
+  },
+  "kleinanzeigen:3490208107": {
+   "id": "kleinanzeigen:3490208107",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/thm-scapula-se-carbongabel/3490208107-217-1030",
+   "title": "THM Scapula SE Carbongabel",
+   "description": "Urspr\u00fcnglich hatte ich die Absicht ein klassisches Titan-Rennrad mit Carbon Komponenten zu...",
+   "location": "57078 Siegen",
+   "price_text": "420 \u20ac",
+   "price": 420.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/63/63430245-4cdd-4f38-aaba-a0b92ffcbad0?rule=$_2.AUTO",
+   "ai_reason": "A specific high-end THM carbon fork in Germany, unrelated to the stolen bike's frame or DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T23:37:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 269,
+   "fail_streak": 270,
    "warned": true,
    "ever_ok": true
   },
@@ -46237,7 +46269,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T00:34:43",
    "2026-08-20T00:52:10",
    "2026-08-20T01:24:14",
    "2026-08-20T03:02:15",
@@ -46273,7 +46304,8 @@
    "2026-08-20T22:42:18",
    "2026-08-20T23:11:34",
    "2026-08-20T23:44:05",
-   "2026-08-21T00:11:42"
+   "2026-08-21T00:11:42",
+   "2026-08-21T00:37:49"
   ],
   "last_heartbeat": "2026-08-20",
   "last_status": "2026-08-21T00",
