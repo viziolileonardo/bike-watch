@@ -41353,11 +41353,75 @@
    "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T05:05:28+00:00"
+  },
+  "gumtree:1514447966": {
+   "id": "gumtree:1514447966",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/road-bikes/van-rysel-rr-900-af-road-bike-105-/1514447966",
+   "title": "Van Rysel RR 900 AF Road Bike - 105",
+   "description": "",
+   "location": "East Linton, East Lothian",
+   "price_text": "\u00a3499",
+   "price": 499.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/7eedde7840f34877b0_023b30f04267/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Van Rysel \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T05:45:53+00:00"
+  },
+  "gumtree:1515052624": {
+   "id": "gumtree:1515052624",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/road-bikes/jamis-endura-road-bike-shimano-105-great-condition/1515052624",
+   "title": "Jamis Endura Road Bike \u2013 Shimano 105 \u2013 Great Condition",
+   "description": "",
+   "location": "Oldham, Manchester",
+   "price_text": "\u00a3250",
+   "price": 250.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/d2b61e3e06a94463a5_2354a2c529f7/86",
+   "ai_reason": "Specific different make/model sharing only ubiquitous Shimano 105, no DT Swiss wheels mentioned, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T05:45:57+00:00"
+  },
+  "kleinanzeigen:3489406102": {
+   "id": "kleinanzeigen:3489406102",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/radon-vaillant-disc-8-0-rennrad-rahmengroesse-m-vollcarbon-schwarz/3489406102-217-1158",
+   "title": "Radon Vaillant Disc 8.0 Rennrad Rahmengr\u00f6\u00dfe M Vollcarbon schwarz",
+   "description": "Top erhaltenes und frisch \u00fcberholtes Rennrad von Radon.\nModell RADON Vaillant Disc 8.0 aus...",
+   "location": "50321 Br\u00fchl",
+   "price_text": "1.100 \u20ac",
+   "price": 1100.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/42/4269b1bd-9809-45ef-8433-f55828d0926c?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Radon Vaillant Disc 8.0) in Germany with no mention of the distinctive DT Swiss E1800 wheelset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T05:46:00+00:00"
+  },
+  "kleinanzeigen:3453107535": {
+   "id": "kleinanzeigen:3453107535",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bgm-grandurance-5-rd-gravelbike-rahmengroesse-53cm/3453107535-217-3057",
+   "title": "BGM Grandurance 5 RD Gravelbike - Rahmengr\u00f6\u00dfe 53cm",
+   "description": "BGM Grandurance 5RD Gravelbike \u2013 Rahmengr\u00f6\u00dfe 53 \u2013 ideal f\u00fcr Gravel-Einsteiger\n\nIch verkaufe mein...",
+   "location": "38300 Wolfenb\u00fcttel",
+   "price_text": "600 \u20ac VB",
+   "price": 600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/44/4429be8e-f3ad-45c5-b0e7-a7c7e5d2aead?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model gravel bike in Germany with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T05:46:03+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 240,
+   "fail_streak": 241,
    "warned": true,
    "ever_ok": true
   },
@@ -41372,7 +41436,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T06:16:49",
    "2026-08-19T06:47:39",
    "2026-08-19T07:19:30",
    "2026-08-19T08:22:28",
@@ -41413,7 +41476,8 @@
    "2026-08-20T04:09:34",
    "2026-08-20T04:57:13",
    "2026-08-20T05:28:27",
-   "2026-08-20T06:05:28"
+   "2026-08-20T06:05:28",
+   "2026-08-20T06:46:03"
   ],
   "last_heartbeat": "2026-08-19",
   "last_status": "2026-08-20T06",
