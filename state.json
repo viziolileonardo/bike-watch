@@ -45994,11 +45994,43 @@
    "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T21:42:18+00:00"
+  },
+  "kleinanzeigen:3490200763": {
+   "id": "kleinanzeigen:3490200763",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fixie-fahrrad-schwarz-mit-goldenen-akzenten/3490200763-217-3387",
+   "title": "Fixie Fahrrad schwarz mit goldenen Akzenten",
+   "description": "Ich verkaufe hier mein schickes Fixie, das durch seine Farbkombination aus mattem Schwarz und...",
+   "location": "12359 Neuk\u00f6lln",
+   "price_text": "400 \u20ac",
+   "price": 400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/337b7fb2-ced0-4e51-8dda-55ecdf76518b?rule=$_2.AUTO",
+   "ai_reason": "A black/gold fixie singlespeed in Berlin shares nothing with the stolen carbon disc-brake road bike or its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T22:11:30+00:00"
+  },
+  "kleinanzeigen:3483888373": {
+   "id": "kleinanzeigen:3483888373",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mavic-cosmic-slr-45-carbon-laufradsatz-sram-xdr/3483888373-217-4318",
+   "title": "Mavic Cosmic SLR 45 Carbon Laufradsatz, SRAM XDR",
+   "description": "Ich verkaufe meinen gebrauchten Mavic Cosmic SLR 45 Carbon-Laufradsatz.\n\n- Modell: Mavic Cosmic SLR...",
+   "location": "60599 Sachsenhausen",
+   "price_text": "529 \u20ac VB",
+   "price": 529.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3e23e71d-da0e-4173-a663-8914365cb215?rule=$_2.AUTO",
+   "ai_reason": "Different wheelset (Mavic Cosmic SLR 45 carbon, XDR freehub) with no connection to the stolen bike's DT Swiss E1800 wheels or components, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T22:11:34+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 266,
+   "fail_streak": 267,
    "warned": true,
    "ever_ok": true
   },
@@ -46013,7 +46045,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T23:09:57",
    "2026-08-19T23:39:44",
    "2026-08-20T00:10:04",
    "2026-08-20T00:34:43",
@@ -46049,10 +46080,11 @@
    "2026-08-20T21:13:14",
    "2026-08-20T21:45:03",
    "2026-08-20T22:14:16",
-   "2026-08-20T22:42:18"
+   "2026-08-20T22:42:18",
+   "2026-08-20T23:11:34"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-20T22",
+  "last_status": "2026-08-20T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
