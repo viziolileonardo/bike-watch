@@ -41081,11 +41081,75 @@
    "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-20T00:24:14+00:00"
+  },
+  "gumtree:1801752713": {
+   "id": "gumtree:1801752713",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/city-bikes/orbea-ordu-carbon-tt-bicycle-size-large-black-with-premium-upgrades/1801752713",
+   "title": "Orbea Ordu Carbon TT Bicycle \u2013 Size Large, Black with Premium Upgrades",
+   "description": "",
+   "location": "London",
+   "price_text": "\u00a31,400",
+   "price": 1400.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/f4b0049fe5d34c8ab1_2a0472459876/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T02:02:11+00:00"
+  },
+  "ebay:v1|128035419407|0": {
+   "id": "ebay:v1|128035419407|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128035419407?_skw=road+bike&hash=item1dcf81750f:g:vesAAeSwQe1qhlT1",
+   "title": "Cannondale",
+   "description": "",
+   "location": "IG11***",
+   "price_text": "\u00a31000.00",
+   "price": 1000.0,
+   "image": "https://i.ebayimg.com/images/g/vesAAeSwQe1qhlT1/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T02:02:11+00:00"
+  },
+  "kleinanzeigen:3489382545": {
+   "id": "kleinanzeigen:3489382545",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/alu-carbon-rennrad-fahrrad-28-zoll-focus/3489382545-217-3492",
+   "title": "Alu/Carbon Rennrad Fahrrad 28 Zoll focus",
+   "description": "Zum Verkauf steht mein sportliches Rennrad der Marke Focus.\n\nDas Fahrrad verf\u00fcgt \u00fcber einen...",
+   "location": "10405 Prenzlauer Berg",
+   "price_text": "390 \u20ac VB",
+   "price": 390.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b55a24d-6659-43a3-9afc-17187aad1cbc?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Focus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-20T02:02:11+00:00"
+  },
+  "kleinanzeigen:3489381639": {
+   "id": "kleinanzeigen:3489381639",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/dt-swiss-gr-1600-spline-25-laufradsatz-wie-neu-gravel/3489381639-217-1343",
+   "title": "DT Swiss GR 1600 Spline 25 Laufradsatz \u2013 wie neu \u2013 Gravel",
+   "description": "Verkaufe meinen DT Swiss GR 1600 Spline 25 Laufradsatz, kaum gefahren und in einem Top-Zustand....",
+   "location": "46354 S\u00fcdlohn",
+   "price_text": "295 \u20ac VB",
+   "price": 295.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f4ba2d4d-aacf-4ae9-8b17-d927d5032ffd?rule=$_2.AUTO",
+   "ai_reason": "Different DT Swiss model (GR 1600 gravel wheelset, not E1800) and located in rural Germany, so no link to the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-20T02:02:15+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 235,
+   "fail_streak": 236,
    "warned": true,
    "ever_ok": true
   },
@@ -41100,7 +41164,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-19T02:52:22",
    "2026-08-19T03:45:19",
    "2026-08-19T04:35:19",
    "2026-08-19T05:10:37",
@@ -41141,10 +41204,11 @@
    "2026-08-20T00:10:04",
    "2026-08-20T00:34:43",
    "2026-08-20T00:52:10",
-   "2026-08-20T01:24:14"
+   "2026-08-20T01:24:14",
+   "2026-08-20T03:02:15"
   ],
   "last_heartbeat": "2026-08-19",
-  "last_status": "2026-08-20T01",
+  "last_status": "2026-08-20T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
