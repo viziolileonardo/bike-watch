@@ -39909,10 +39909,11 @@
    "price_text": "\u00a3399",
    "price": 399.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/37d6590ef3044b74b7_41613c3ca0bd/86",
-   "ai_reason": "Completely vague, unbranded 'road bike' listing in London at a plausible quick-sale price \u2014 cannot be ruled out.",
+   "ai_reason": "Ruled out from photo: teal Cube alloy disc bike with orange accents \u2014 branded, not the carbon Swift",
    "level": "digest",
    "first_seen": "2026-08-19T20:10:37+00:00",
-   "blue_score": 0.054
+   "blue_score": 0.054,
+   "fp": true
   },
   "gumtree:1801745843": {
    "id": "gumtree:1801745843",
