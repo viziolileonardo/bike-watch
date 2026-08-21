@@ -51639,11 +51639,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-21T17:46:39+00:00"
+  },
+  "ebay:v1|178430666250|0": {
+   "id": "ebay:v1|178430666250|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178430666250?_skw=road+bike&hash=item298b4be60a:g:fOUAAeSwXm5qiI9Q",
+   "title": "Shimano Dura-Ace Di2 ST-R9270 Left Shifter",
+   "description": "",
+   "location": "BB6***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/fOUAAeSwXm5qiI9Q/s-l225.jpg",
+   "ai_reason": "A Dura-Ace Di2 electronic shifter is a completely different groupset tier from the stolen bike's mechanical 105 ST-R7020, and it's listed far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T18:16:39+00:00"
+  },
+  "ebay:v1|206508997430|0": {
+   "id": "ebay:v1|206508997430|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206508997430?_skw=road+bike&hash=item3014e53b36:g:VYoAAeSw9SVqiI0Z",
+   "title": "Dolan Tandem Road Bike \u2013 Fully Rebuilt & Ready to Ride \u2013 Drop Bar with Mudguards",
+   "description": "",
+   "location": "NG19***",
+   "price_text": "\u00a3795.00",
+   "price": 795.0,
+   "image": "https://i.ebayimg.com/images/g/VYoAAeSw9SVqiI0Z/s-l225.jpg",
+   "ai_reason": "A specific different make and a tandem, with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 groupset, listed far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T18:16:43+00:00"
+  },
+  "marktplaats:m2433520522": {
+   "id": "marktplaats:m2433520522",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2433520522-scherp-geprijsde-giant-tcr-advanced-pro-1-di2-2024-maat-ml",
+   "title": "Scherp geprijsde Giant TCR Advanced Pro 1 Di2 2024 maat ML",
+   "description": "Mooie giant tcr met shimano 105 di2 (elektronisch schakelen), een hoogwaardige slr 1-wielset (40 mm, hookless) en een powermeter. Er liggen hele fijne 30 mm vittoria corsa next banden op. Het is een s",
+   "location": "Raalte",
+   "price_text": "\u20ac2250",
+   "price": 2250.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a4e2c51a-d59f-49bd-903e-418a82d72ea6?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T18:16:43+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 296,
+   "fail_streak": 297,
    "warned": true,
    "ever_ok": true
   },
@@ -51694,10 +51742,11 @@
    "2026-08-21T17:16:24",
    "2026-08-21T17:51:41",
    "2026-08-21T18:15:40",
-   "2026-08-21T18:46:39"
+   "2026-08-21T18:46:39",
+   "2026-08-21T19:16:43"
   ],
   "last_heartbeat": "2026-08-21",
-  "last_status": "2026-08-21T18",
+  "last_status": "2026-08-21T19",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
