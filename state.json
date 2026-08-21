@@ -53239,11 +53239,91 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-21T22:09:54+00:00"
+  },
+  "gumtree:1801826270": {
+   "id": "gumtree:1801826270",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/xl-58cm-felt-z65-road-bike-mens-endurance-bicycle-shimano-ultegra-cycle/1801826270",
+   "title": "XL 58cm Felt Z65 Road Bike Mens Endurance Bicycle Shimano Ultegra Cycle",
+   "description": "",
+   "location": "Beckton, London",
+   "price_text": "\u00a3395",
+   "price": 395.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/0a88036b69864b909f_a517a8d631ef/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Felt \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T22:40:07+00:00"
+  },
+  "kleinanzeigen:3491052352": {
+   "id": "kleinanzeigen:3491052352",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-pro-fe-gravelbike-2019-preis-nur-wochenende/3491052352-217-4315",
+   "title": "Cube Nuroad Pro FE Gravelbike (2019) Preis NUR WOCHENENDE",
+   "description": "Cube Nuroad Pro FE (2019) HPA Gravelbike\n\nIch verkaufe mein Cube Nuroad Pro FE Gravelbike (Modell...",
+   "location": "60594 Sachsenhausen",
+   "price_text": "750 \u20ac",
+   "price": 750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/16/169743fb-e797-4cc5-8b42-c14f628e3ab7?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T22:40:07+00:00"
+  },
+  "kleinanzeigen:3491050051": {
+   "id": "kleinanzeigen:3491050051",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carbon-28-lrs-dura-ace-wh-r9100-inkl-ultegra-11fach-kette/3491050051-217-6833",
+   "title": "Carbon 28\" LRS DURA-ACE, WH-R9100 inkl Ultegra 11Fach + Kette",
+   "description": "Sch\u00f6ner Laufradsatz !\n\n11 Fach Ultegra Kassette und Kette ;\n\nFestpreis und Gratisversand !",
+   "location": "90449 Gebersdorf",
+   "price_text": "450 \u20ac",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/53/5395ab2f-106b-4fc1-b29b-41bb05fd5886?rule=$_2.AUTO",
+   "ai_reason": "This is a Dura-Ace WH-R9100 carbon wheelset in Germany, not the DT Swiss E1800 wheels or any part of the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T22:40:10+00:00"
+  },
+  "kleinanzeigen:3491049858": {
+   "id": "kleinanzeigen:3491049858",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/elops-city-bike-28-zoll-speed-500-carbongrau/3491049858-217-17480",
+   "title": "ELOPS City Bike 28 Zoll Speed 500 carbongrau",
+   "description": "Ich biete hier kaum genutztes (zwei Monate altes) City Bike 28 Zoll Speed 500 carbongrau in super...",
+   "location": "28279 Habenhausen",
+   "price_text": "285 \u20ac VB",
+   "price": 285.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4bacfd79-89e4-4bfe-a88d-48891378ecd6?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model city bike in Germany with no matching components; unrelated to the stolen carbon road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T22:40:13+00:00"
+  },
+  "kleinanzeigen:3491049722": {
+   "id": "kleinanzeigen:3491049722",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/elitewheels-edge-3-0-carbon-rennrad-laufradsatz-52mm-1344g/3491049722-217-6863",
+   "title": "Elitewheels Edge 3.0 - Carbon Rennrad Laufradsatz - 52mm - 1344g",
+   "description": "Elitewheels Edge 3.0 - Nagelneu\n\nBiete hier den neuesten und besten Elitewheels Edge Rennrad...",
+   "location": "97440 Werneck",
+   "price_text": "650 \u20ac",
+   "price": 650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5cf1d91b-26ea-4322-968c-e817c2376af9?rule=$_2.AUTO",
+   "ai_reason": "Brand-new Elitewheels carbon 52mm wheelset in Germany, unrelated to the DT Swiss E1800 wheels or any part of the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T22:40:15+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 306,
+   "fail_streak": 307,
    "warned": true,
    "ever_ok": true
   },
@@ -53258,7 +53338,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T23:11:34",
    "2026-08-20T23:44:05",
    "2026-08-21T00:11:42",
    "2026-08-21T00:37:49",
@@ -53297,12 +53376,13 @@
    "2026-08-21T22:11:16",
    "2026-08-21T22:37:13",
    "2026-08-21T22:55:37",
-   "2026-08-21T23:09:55"
+   "2026-08-21T23:09:55",
+   "2026-08-21T23:40:15"
   ],
   "last_heartbeat": "2026-08-21",
   "last_status": "2026-08-21T23",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
