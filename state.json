@@ -46250,11 +46250,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-20T23:37:49+00:00"
+  },
+  "ebay:v1|327319946377|0": {
+   "id": "ebay:v1|327319946377|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327319946377?_skw=road+bike&hash=item4c35ca0489:g:s7sAAeSwzMRqh4oq",
+   "title": "raleigh classic road bike",
+   "description": "",
+   "location": "TS14***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/s7sAAeSwzMRqh4oq/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Raleigh \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T00:26:37+00:00"
+  },
+  "ebay:v1|178427998403|0": {
+   "id": "ebay:v1|178427998403|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178427998403?_skw=road+bike&hash=item298b2330c3:g:hSIAAeSwau1qh40B",
+   "title": "NEW Sram Force GXP 165mm 3 bolt mounting carbon crankarms chainset crankset",
+   "description": "",
+   "location": "CR8***",
+   "price_text": "\u00a3279.00",
+   "price": 279.0,
+   "image": "https://i.ebayimg.com/images/g/hSIAAeSwau1qh40B/s-l225.jpg",
+   "ai_reason": "A new SRAM Force crankset is unrelated to the stolen bike's Shimano 105 groupset or DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T00:26:41+00:00"
+  },
+  "kleinanzeigen:3490210878": {
+   "id": "kleinanzeigen:3490210878",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ckp-carbon-rennrad-shimano-ultegra-105-rh-58cm-wie-neu/3490210878-217-9632",
+   "title": "CKP Carbon Rennrad Shimano Ultegra 105 RH:58cm wie NEU",
+   "description": "Ein absolut neuwertiges und sehr leichtes Rennrad zu einem Sonderpreis.\n\nRahmenh\u00f6he 58cm",
+   "location": "10969 Kreuzberg",
+   "price_text": "799 \u20ac",
+   "price": 799.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/84/84df6fb8-0b02-4d20-ac8a-de8ae4a0a7e1?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (CKP) carbon road bike in Berlin sharing only ubiquitous Shimano groupset parts, with no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T00:26:45+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 270,
+   "fail_streak": 271,
    "warned": true,
    "ever_ok": true
   },
@@ -46269,8 +46317,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T00:52:10",
-   "2026-08-20T01:24:14",
    "2026-08-20T03:02:15",
    "2026-08-20T04:09:34",
    "2026-08-20T04:57:13",
@@ -46305,10 +46351,11 @@
    "2026-08-20T23:11:34",
    "2026-08-20T23:44:05",
    "2026-08-21T00:11:42",
-   "2026-08-21T00:37:49"
+   "2026-08-21T00:37:49",
+   "2026-08-21T01:26:45"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-21T00",
+  "last_status": "2026-08-21T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
