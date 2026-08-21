@@ -46346,11 +46346,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-21T02:09:55+00:00"
+  },
+  "ebay:v1|257693703092|0": {
+   "id": "ebay:v1|257693703092|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257693703092?_skw=road+bike&hash=item3bffbddbb4:g:ZTMAAeSwie9qh5zV",
+   "title": "Giant TCX Advanced Pro 2 Kelp Forest 2024 Small - Approved Used",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32087.99",
+   "price": 2087.99,
+   "image": "https://i.ebayimg.com/images/g/ZTMAAeSwie9qh5zV/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T03:15:02+00:00"
+  },
+  "kleinanzeigen:3473583254": {
+   "id": "kleinanzeigen:3473583254",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/felt-f1-carbon-rennrad-sram-red-zipp-powermeter-48cm-top/3473583254-217-15353",
+   "title": "Felt F1 Carbon Rennrad, SRAM Red, Zipp, Powermeter,48cm, TOP",
+   "description": "Wundersch\u00f6nes, sehr gepflegtes Felt F1 Rennrad, Carbonrahmen, SRAM Red Austattung, WiFli 32er...",
+   "location": "69412 Eberbach",
+   "price_text": "1.400 \u20ac VB",
+   "price": 1400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0d/0da04b02-e62e-4a65-a661-6edbb51bb1b7?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Felt \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T03:15:02+00:00"
+  },
+  "kleinanzeigen:3477735759": {
+   "id": "kleinanzeigen:3477735759",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/red-bull-rennrad-carbon-neue-alu-laufraeder-groesse-xl-ultegra/3477735759-217-329",
+   "title": "Red Bull Rennrad Carbon, neue Alu-Laufr\u00e4der, Gr\u00f6\u00dfe XL ultegra",
+   "description": "Ich verkaufe mein treues Red Bvll Rennrad, da ich aufgrund meiner Zwillinge leider nicht mehr dazu...",
+   "location": "66299 Friedrichsthal",
+   "price_text": "580 \u20ac VB",
+   "price": 580.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/86/86f82bbd-03ec-4142-9b3d-b7336cf76aca?rule=$_2.AUTO",
+   "ai_reason": "Specific different brand bike with Ultegra and new alloy wheels, no link to the DT Swiss E1800 wheelset, and located far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T03:15:06+00:00"
+  },
+  "kleinanzeigen:3490216440": {
+   "id": "kleinanzeigen:3490216440",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/jan-ullrich-rennrad-shimano-ultegra-27-gang-mavic/3490216440-217-3163",
+   "title": "Jan Ullrich Rennrad - Shimano Ultegra - 27 Gang-Mavic",
+   "description": "Jan Ullrich Rennrad - Shimano Ultegra - 27 Gang-Mavic\nRahmenh\u00f6he S\n\nDer Preis ist fest.\n\nIch biete...",
+   "location": "30159 Mitte",
+   "price_text": "500 \u20ac",
+   "price": 500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/30f7bbe7-3a34-400b-8eb1-33e34790a0ce?rule=$_2.AUTO",
+   "ai_reason": "A different branded bike with Ultegra 3x9 and Mavic wheels, in Germany, sharing none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T03:15:09+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 272,
+   "fail_streak": 273,
    "warned": true,
    "ever_ok": true
   },
@@ -46365,7 +46429,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T04:09:34",
    "2026-08-20T04:57:13",
    "2026-08-20T05:28:27",
    "2026-08-20T06:05:28",
@@ -46400,10 +46463,11 @@
    "2026-08-21T00:11:42",
    "2026-08-21T00:37:49",
    "2026-08-21T01:26:45",
-   "2026-08-21T03:09:55"
+   "2026-08-21T03:09:55",
+   "2026-08-21T04:15:09"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-21T03",
+  "last_status": "2026-08-21T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
