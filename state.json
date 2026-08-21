@@ -46298,11 +46298,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-21T00:26:45+00:00"
+  },
+  "gumtree:1801792050": {
+   "id": "gumtree:1801792050",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/cube-agree-carbon-road-bike-rrp\u00a31399-giant-specialized-cannondale-canyon-ribble-boardman-bmc-trek/1801792050",
+   "title": "CUBE Agree Carbon Road Bike RRP\u00a31399 giant specialized cannondale canyon ribble boardman bmc trek",
+   "description": "",
+   "location": "Holborn, London",
+   "price_text": "\u00a3249",
+   "price": 249.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/a26c7773f04141839a_2312453c1eef/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T02:09:51+00:00"
+  },
+  "ebay:v1|188824461669|0": {
+   "id": "ebay:v1|188824461669|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188824461669?_skw=road+bike&hash=item2bf6d0a165:g:~3EAAeSwYQVqh5go",
+   "title": "Vintage Peugeot Premiiere Road Bike, Upgraded In Excellent Condition 57cm",
+   "description": "",
+   "location": "WF5***",
+   "price_text": "\u00a3234.70",
+   "price": 234.7,
+   "image": "https://i.ebayimg.com/images/g/~3EAAeSwYQVqh5go/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T02:09:51+00:00"
+  },
+  "kleinanzeigen:3490214003": {
+   "id": "kleinanzeigen:3490214003",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-trek-madone-rahmenset-ultegra-rh62/3490214003-217-4936",
+   "title": "Rennrad Trek Madone Rahmenset + Ultegra RH62",
+   "description": "ich verkaufe mein Trek Madone SL 6 Rahmenset inklusive kompletter Ultegragruppe aus...",
+   "location": "34260 Kaufungen",
+   "price_text": "700 \u20ac VB",
+   "price": 700.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0bebeda2-ebc7-4fd6-960f-6e8457d3cf7d?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Trek Madone frameset with Ultegra) in Germany, sharing none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T02:09:55+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 271,
+   "fail_streak": 272,
    "warned": true,
    "ever_ok": true
   },
@@ -46317,7 +46365,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T03:02:15",
    "2026-08-20T04:09:34",
    "2026-08-20T04:57:13",
    "2026-08-20T05:28:27",
@@ -46352,10 +46399,11 @@
    "2026-08-20T23:44:05",
    "2026-08-21T00:11:42",
    "2026-08-21T00:37:49",
-   "2026-08-21T01:26:45"
+   "2026-08-21T01:26:45",
+   "2026-08-21T03:09:55"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-21T01",
+  "last_status": "2026-08-21T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
