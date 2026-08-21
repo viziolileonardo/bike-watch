@@ -46410,11 +46410,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-21T03:15:09+00:00"
+  },
+  "ebay:v1|820029698376|0": {
+   "id": "ebay:v1|820029698376|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820029698376?_skw=road+bike&hash=itembeed943148:g:seUAAeSwrWpqh8c9",
+   "title": "Specialized Allez Sport  2018 - 54cm Road Bike 700C Black/Red",
+   "description": "",
+   "location": "IG8***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/seUAAeSwrWpqh8c9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T03:59:41+00:00"
+  },
+  "kleinanzeigen:3490219951": {
+   "id": "kleinanzeigen:3490219951",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-wilier-rave-sl-grx-1x12-miche-carbon-neuwertig-m/3490219951-217-8918",
+   "title": "Gravelbike Wilier Rave SL GRX 1x12 \u2013 Miche Carbon \u2013 neuwertig - M",
+   "description": "Eine Besichtigung ist ab dem 5. September m\u00f6glich\n\nZum Verkauf steht mein Wilier Rave SL Gravelbike...",
+   "location": "79312 Emmendingen",
+   "price_text": "2.950 \u20ac VB",
+   "price": 2950.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/db/db58c07d-7ee8-49b6-b6d0-0326ea4b4e6f?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T03:59:41+00:00"
+  },
+  "kleinanzeigen:3490219534": {
+   "id": "kleinanzeigen:3490219534",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-vintage-gravel-singlespeed-fixie-baujahr-196-stahlrahmen/3490219534-217-2563",
+   "title": "Rennrad Vintage Gravel Singlespeed Fixie Baujahr 196 Stahlrahmen",
+   "description": "Oldtimer Vintage Radel\nBauer\nModell Sport\nJubil\u00e4ums Rad 50 Jahre 1911-1961\n\nSehr sch\u00f6ner...",
+   "location": "49808 Lingen (Ems)",
+   "price_text": "399 \u20ac",
+   "price": 399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7b/7ba58781-4a66-4c7b-b041-3340fa911a16?rule=$_2.AUTO",
+   "ai_reason": "A 1961 vintage Bauer steel singlespeed in Germany shares nothing with a modern carbon disc road bike or its wheelset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T03:59:45+00:00"
+  },
+  "kleinanzeigen:3490219402": {
+   "id": "kleinanzeigen:3490219402",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-schwarz-mit-campagnolo-ausstattung/3490219402-217-961",
+   "title": "Rennrad schwarz mit Campagnolo Ausstattung",
+   "description": "Ich verkaufe mein schwarzes Rennrad, das mit hochwertigen Campagnolo-Komponenten ausgestattet ist....",
+   "location": "51147 Porz",
+   "price_text": "250 \u20ac",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/8974b321-4f42-43da-8c83-8339f7d90618?rule=$_2.AUTO",
+   "ai_reason": "Black Campagnolo-equipped road bike in Germany shares no components with the Shimano 105 / DT Swiss E1800 stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T03:59:48+00:00"
+  },
+  "kleinanzeigen:3474264074": {
+   "id": "kleinanzeigen:3474264074",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-turbo-levo-carbon-sl-1/3474264074-217-1933",
+   "title": "Specialized Turbo Levo Carbon SL 1",
+   "description": "Ich verkaufe auf Grund einer Neuanschaffung mein Levo SL mit etlichen Upgrades( S-Works). Das...",
+   "location": "44869 Bochum-\u200bWattenscheid",
+   "price_text": "2.750 \u20ac VB",
+   "price": 2750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97c9fb68-c843-49e3-9d81-320a97317124?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T03:59:48+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 273,
+   "fail_streak": 274,
    "warned": true,
    "ever_ok": true
   },
@@ -46429,7 +46509,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T04:57:13",
    "2026-08-20T05:28:27",
    "2026-08-20T06:05:28",
    "2026-08-20T06:46:03",
@@ -46464,7 +46543,8 @@
    "2026-08-21T00:37:49",
    "2026-08-21T01:26:45",
    "2026-08-21T03:09:55",
-   "2026-08-21T04:15:09"
+   "2026-08-21T04:15:09",
+   "2026-08-21T04:59:48"
   ],
   "last_heartbeat": "2026-08-20",
   "last_status": "2026-08-21T04",
