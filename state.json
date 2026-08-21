@@ -48800,10 +48800,11 @@
    "price_text": "\u00a3500",
    "price": 500.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/7c6c50fc571b483f81_011e8299b175/86",
-   "ai_reason": "Vague, unbranded road bike listing in London with no details, so it cannot be ruled out.",
+   "ai_reason": "Ruled out from photos: genuine black Specialized (tonal decals, MEN'S 58 badge), rim brakes \u2014 DT Swiss rear wheel is a common replacement",
    "level": "digest",
    "first_seen": "2026-08-21T12:17:20+00:00",
-   "blue_score": 0.122
+   "blue_score": 0.122,
+   "fp": true
   },
   "gumtree:1801800274": {
    "id": "gumtree:1801800274",
@@ -48817,12 +48818,13 @@
    "price": 300.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/fe9bf17dc8e4422a86_cd72a871d726/86",
    "hot": true,
-   "ai_reason": "A DT Swiss disc-brake wheel lot near the theft area could include the stolen bike's distinctive E1800 wheelset.",
+   "ai_reason": "Ruled out from full description: single Roval Rapide carbon aero wheelset on DT Swiss 350 hubs \u2014 not the E1800/370 alloy wheelset",
    "level": "alert",
    "first_seen": "2026-08-21T12:17:23+00:00",
    "blue_score": 0.0,
    "evidence_photo": "evidence/gumtree_1801800274.jpg",
-   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/dt-swiss-wheels-rims-including-roval-rapide-deep-section-carbon-all-tubeless-for-disc-brakes/1801800274"
+   "wayback": "https://web.archive.org/web/2/https://www.gumtree.com/p/road-bikes/dt-swiss-wheels-rims-including-roval-rapide-deep-section-carbon-all-tubeless-for-disc-brakes/1801800274",
+   "fp": true
   },
   "gumtree:1801799487": {
    "id": "gumtree:1801799487",
@@ -48835,10 +48837,11 @@
    "price_text": "\u00a3550",
    "price": 550.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/05e2667e6bd2490daf_40764130cb2c/86",
-   "ai_reason": "Vague unbranded custom build in London with no component detail \u2014 can't be ruled out as a rebuilt or stripped stolen frame.",
+   "ai_reason": "Ruled out from description: 5-year-owned custom with stainless steel frame (relist of previously ruled-out ad)",
    "level": "digest",
    "first_seen": "2026-08-21T12:17:26+00:00",
-   "blue_score": 0.032
+   "blue_score": 0.032,
+   "fp": true
   },
   "ebay:v1|206508415728|0": {
    "id": "ebay:v1|206508415728|0",
@@ -49699,10 +49702,11 @@
    "price_text": "\u00a3260.70",
    "price": 260.7,
    "image": "https://i.ebayimg.com/images/g/tUEAAeSwM89qiE8R/s-l225.jpg",
-   "ai_reason": "A vague, unbranded wheelset listing with no details cannot be ruled out as the stolen DT Swiss E1800 wheels.",
+   "ai_reason": "Ruled out from photo: DT Swiss R470-rimmed handbuilt wheelset, Scottish Borders \u2014 not E1800 Splines",
    "level": "digest",
    "first_seen": "2026-08-21T13:57:31+00:00",
-   "blue_score": 0.006
+   "blue_score": 0.006,
+   "fp": true
   },
   "ebay:v1|366620563229|0": {
    "id": "ebay:v1|366620563229|0",
@@ -53203,10 +53207,11 @@
    "price_text": "250 \u20ac",
    "price": 250.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bc/bc67daf0-1b90-4627-b506-5fecb474499e?rule=$_2.AUTO",
-   "ai_reason": "Vague unbranded rebuilt road bike listing with no make/model given, so it can't be ruled out despite the distant location.",
+   "ai_reason": "Ruled out from photo: vintage blue steel racer with rim brakes and painted stars",
    "level": "digest",
    "first_seen": "2026-08-21T22:09:51+00:00",
-   "blue_score": 0.106
+   "blue_score": 0.106,
+   "fp": true
   },
   "kleinanzeigen:3491047948": {
    "id": "kleinanzeigen:3491047948",
