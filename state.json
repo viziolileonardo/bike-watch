@@ -44502,10 +44502,11 @@
    "price_text": "\u00a3208.70",
    "price": 208.7,
    "image": "https://i.ebayimg.com/images/g/DxYAAeSwJm1qhySw/s-l225.jpg",
-   "ai_reason": "Completely generic, unbranded 'Road Bike' listing with no details, in the London area \u2014 cannot be ruled out.",
+   "ai_reason": "Ruled out from photo: black/pink WyndyMilla custom with Mavic Cosmic rim-brake wheels \u2014 not the Swift",
    "level": "digest",
    "first_seen": "2026-08-20T16:50:20+00:00",
-   "blue_score": 0.076
+   "blue_score": 0.076,
+   "fp": true
   },
   "ebay:v1|407158925197|0": {
    "id": "ebay:v1|407158925197|0",
@@ -46726,10 +46727,11 @@
    "price_text": "775 \u20ac",
    "price": 775.0,
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3f/3f8e3813-2fd9-4adf-b539-4eaa950929cb?rule=$_2.AUTO",
-   "ai_reason": "Custom build with DT Swiss wheels mentioned, so the stolen wheelset can't be ruled out despite the different groupset and location.",
+   "ai_reason": "Ruled out from spec: DT Swiss MTB wheels (Deore XT hubs, 27.5\"/26\") on a Tiagra touring build \u2014 wrong wheel type entirely",
    "level": "digest",
    "first_seen": "2026-08-21T06:00:40+00:00",
-   "blue_score": 0.048
+   "blue_score": 0.048,
+   "fp": true
   },
   "kleinanzeigen:3490245974": {
    "id": "kleinanzeigen:3490245974",
