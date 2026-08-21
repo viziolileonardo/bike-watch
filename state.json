@@ -46586,11 +46586,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-21T04:53:22+00:00"
+  },
+  "kleinanzeigen:3443040613": {
+   "id": "kleinanzeigen:3443040613",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mondraker-raze-carbon-rr-fully-mountainbike-groesse-m/3443040613-217-9036",
+   "title": "Mondraker Raze Carbon RR Fully Mountainbike Gr\u00f6\u00dfe M",
+   "description": "Zum Verkauf steht ein absolutes Schmuckst\u00fcck aus dem Hause Mondraker\nNeupreis: 7.999,00\u20ac\nModell:...",
+   "location": "77723 Gengenbach",
+   "price_text": "2.999 \u20ac",
+   "price": 2999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e946c13-830c-4a53-b295-cdb7063f4c75?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model full-suspension carbon mountain bike in Germany, sharing none of the stolen road bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T05:19:16+00:00"
+  },
+  "kleinanzeigen:3479736380": {
+   "id": "kleinanzeigen:3479736380",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-ultimate-cf-slx-di2-gr-s-2017/3479736380-217-8791",
+   "title": "Canyon Ultimate CF SLX Di2  Gr. S - 2017",
+   "description": "Ich verkaufe das Canyon Ultimate CF SLX Di2 Gr. S.\nIch muss mich leider von dem Rad trennen, da ich...",
+   "location": "76669 Bad Sch\u00f6nborn",
+   "price_text": "1.650 \u20ac VB",
+   "price": 1650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e9fc68c-63ee-44a2-b9c2-96a5443c2e48?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T05:19:16+00:00"
+  },
+  "kleinanzeigen:3475535057": {
+   "id": "kleinanzeigen:3475535057",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/santa-cruz-stigmata-4-cc-rival-axs-kit-groesse-xl/3475535057-217-9036",
+   "title": "Santa Cruz Stigmata 4 CC Rival AXS Kit Gr\u00f6\u00dfe XL",
+   "description": "Zum Verkauf steht ein Gravel Bike aus dem Hause Santa Cruz\nNeupreis: 5.299,00\u20ac\nModell:...",
+   "location": "77723 Gengenbach",
+   "price_text": "2.799 \u20ac",
+   "price": 2799.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d3/d321de91-f5c4-492e-a7a7-6056e5c737a2?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model gravel bike with SRAM AXS groupset, in Germany, sharing no distinctive components with the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-21T05:19:21+00:00"
+  },
+  "kleinanzeigen:3490232302": {
+   "id": "kleinanzeigen:3490232302",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-carbon-rennrad/3490232302-217-7792",
+   "title": "CUBE Carbon Rennrad",
+   "description": "Zum Verkauf steht ein hochwertiges Cube Carbon Rennrad in Rahmengr\u00f6\u00dfe 56. Modell: Agree GTC. Das...",
+   "location": "14959 Trebbin",
+   "price_text": "950 \u20ac",
+   "price": 950.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/87/87197bfb-5d6f-4022-be09-58c886f2c0e8?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-21T05:19:21+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 275,
+   "fail_streak": 276,
    "warned": true,
    "ever_ok": true
   },
@@ -46605,7 +46669,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-20T06:05:28",
    "2026-08-20T06:46:03",
    "2026-08-20T07:19:30",
    "2026-08-20T08:25:38",
@@ -46640,10 +46703,11 @@
    "2026-08-21T03:09:55",
    "2026-08-21T04:15:09",
    "2026-08-21T04:59:48",
-   "2026-08-21T05:53:22"
+   "2026-08-21T05:53:22",
+   "2026-08-21T06:19:21"
   ],
   "last_heartbeat": "2026-08-20",
-  "last_status": "2026-08-21T05",
+  "last_status": "2026-08-21T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
