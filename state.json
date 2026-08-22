@@ -62814,7 +62814,7 @@
  },
  "health": {
   "gumtree": {
-   "fail_streak": 357,
+   "fail_streak": 358,
    "warned": true,
    "ever_ok": true
   },
@@ -62878,10 +62878,11 @@
    "2026-08-22T22:50:51",
    "2026-08-22T23:01:44",
    "2026-08-22T23:36:51",
-   "2026-08-22T23:54:42"
+   "2026-08-22T23:54:42",
+   "2026-08-23T00:06:32"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-22T23",
+  "last_status": "2026-08-23T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
