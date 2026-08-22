@@ -62778,11 +62778,43 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T22:36:51+00:00"
+  },
+  "ebay:v1|198588938481|0": {
+   "id": "ebay:v1|198588938481|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198588938481?_skw=road+bike&hash=item2e3cd2b8f1:g:wP0AAeSwj8NqiiRo",
+   "title": "Omega Matrix Road Bike 700C Black/ Carbon Fibre Frame MEDIUM 54cm",
+   "description": "",
+   "location": "KT17***",
+   "price_text": "\u00a3224.30",
+   "price": 224.3,
+   "image": "https://i.ebayimg.com/images/g/wP0AAeSwj8NqiiRo/s-l225.jpg",
+   "ai_reason": "A specific different make/model (Omega Matrix) at a low price with no mention of the distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T22:54:42+00:00"
+  },
+  "kleinanzeigen:3492029916": {
+   "id": "kleinanzeigen:3492029916",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/merida-cyclo-cross-5-cyclocross-gravelbike/3492029916-217-9517",
+   "title": "Merida Cyclo Cross 5 - Cyclocross- / Gravelbike",
+   "description": "Hallo zusammen,\n\nzum Verkauf steht ein gut erhaltenes Merida Cyclo Cross 5 mit leichtem...",
+   "location": "21035 Hamburg Allerm\u00f6he",
+   "price_text": "600 \u20ac VB",
+   "price": 600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/33/33add2cb-e3b6-40b5-a25f-9c7e3e7ff7e4?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T22:54:42+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 356,
+   "fail_streak": 357,
    "warned": true,
    "ever_ok": true
   },
@@ -62797,7 +62829,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T23:40:15",
    "2026-08-22T00:09:47",
    "2026-08-22T00:36:34",
    "2026-08-22T00:54:13",
@@ -62846,7 +62877,8 @@
    "2026-08-22T22:34:14",
    "2026-08-22T22:50:51",
    "2026-08-22T23:01:44",
-   "2026-08-22T23:36:51"
+   "2026-08-22T23:36:51",
+   "2026-08-22T23:54:42"
   ],
   "last_heartbeat": "2026-08-22",
   "last_status": "2026-08-22T23",
