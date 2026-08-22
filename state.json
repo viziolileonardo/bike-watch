@@ -59609,11 +59609,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T15:50:38+00:00"
+  },
+  "ebay:v1|298608636072|0": {
+   "id": "ebay:v1|298608636072|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/298608636072?_skw=road+bike&hash=item45867630a8:g:VGgAAeSwG9FqicEu",
+   "title": "Genesis\u202f CDA \u202f20 \u202f1X\u202f Gravel \u202fRoad\u202f Bike\u202f 2025\u202f Model\u202f \u2013\u202f Mint \u202fCondition",
+   "description": "",
+   "location": "DA6***",
+   "price_text": "\u00a3542.20",
+   "price": 542.2,
+   "image": "https://i.ebayimg.com/images/g/VGgAAeSwG9FqicEu/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Genesis \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T16:01:07+00:00"
+  },
+  "ebay:v1|178432180524|0": {
+   "id": "ebay:v1|178432180524|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178432180524?_skw=road+bike&hash=item298b63012c:g:jj4AAeSwFHNqib~f",
+   "title": "Road Bike , Light Weight Carbon Fibre  , M/L",
+   "description": "",
+   "location": "BH15***",
+   "price_text": "\u00a3350.00",
+   "price": 350.0,
+   "image": "https://i.ebayimg.com/images/g/jj4AAeSwFHNqib~f/s-l225.jpg",
+   "ai_reason": "Vague, unbranded carbon road bike listing with no identifying details, so it cannot be ruled out despite the distant location.",
+   "level": "digest",
+   "first_seen": "2026-08-22T16:01:12+00:00",
+   "blue_score": 0.004
+  },
+  "kleinanzeigen:3491782924": {
+   "id": "kleinanzeigen:3491782924",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/4iiii-precision-3-powermeter-fuer-shimano-105-170mm/3491782924-217-4768",
+   "title": "4iiii PRECISION 3+ Powermeter f\u00fcr Shimano 105, 170mm",
+   "description": "Verkaufe eine 4iiii PRECISION 3+ Powermeter f\u00fcr Shimano 105 FC-R7100 / Kurbelarml\u00e4nge:...",
+   "location": "64653 Lorsch",
+   "price_text": "250 \u20ac VB",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a44ee5a7-182e-47b2-8b85-4e5061e65a5a?rule=$_2.AUTO",
+   "ai_reason": "A standalone aftermarket power meter crank arm for a 12-speed 105 group, sold in Germany, is not a component of the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T16:01:15+00:00"
+  },
+  "marktplaats:m2433867169": {
+   "id": "marktplaats:m2433867169",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2433867169-stevens-san-remo-racefiets",
+   "title": "Stevens San Remo racefiets",
+   "description": "Beschrijving te koop aangeboden: stevens san remo racefiets mooie en snelle stevens san remo racefiets in zeer nette staat. De fiets is nauwelijks gebruikt door mijn vader en rijdt perfect. Ideaal voo",
+   "location": "Heemskerk",
+   "price_text": "\u20ac350",
+   "price": 350.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ad60103c-b0ad-4b40-a8ee-b745c45a9ad8?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Stevens \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T16:01:15+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 338,
+   "fail_streak": 339,
    "warned": true,
    "ever_ok": true
   },
@@ -59673,10 +59737,11 @@
    "2026-08-22T15:53:45",
    "2026-08-22T16:03:37",
    "2026-08-22T16:35:15",
-   "2026-08-22T16:50:38"
+   "2026-08-22T16:50:38",
+   "2026-08-22T17:01:16"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-22T16",
+  "last_status": "2026-08-22T17",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
