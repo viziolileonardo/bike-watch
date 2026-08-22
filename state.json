@@ -62522,11 +62522,43 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T21:50:51+00:00"
+  },
+  "kleinanzeigen:3492023175": {
+   "id": "kleinanzeigen:3492023175",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/shimano-ultegra-set-gruppe-klickpedale/3492023175-217-3389",
+   "title": "Shimano Ultegra Set Gruppe + Klickpedale",
+   "description": "Ich biete ein Shimano Ultegra Aufbauset an.\nZus\u00e4tzlich gibt es schwarze Shimano Klickpedale...",
+   "location": "12347 Neuk\u00f6lln",
+   "price_text": "290 \u20ac VB",
+   "price": 290.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/24cb0cfb-65c3-4a3c-9bd3-091c1699ad81?rule=$_2.AUTO",
+   "ai_reason": "Ultegra groupset, not the stolen bike's 105 ST-R7020 or DT Swiss wheels, and listed in Berlin.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T22:01:44+00:00"
+  },
+  "kleinanzeigen:3492022452": {
+   "id": "kleinanzeigen:3492022452",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-canyon-grizl-8-2023-grx-12-fach-groesse-s-/3492022452-217-2563",
+   "title": "Gravelbike Canyon Grizl 8 (2023)  \u2013 GRX 12-fach \u2013 Gr\u00f6\u00dfe S",
+   "description": "Ich verkaufe mein Canyon Grizl 8 Gravelbike aus 2023, da ich es leider zu selten nutze.\n\nDas Rad...",
+   "location": "49808 Lingen (Ems)",
+   "price_text": "1.500 \u20ac VB",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a3/a3c4e180-c338-4f55-88b6-8f3605223c11?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T22:01:44+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 354,
+   "fail_streak": 355,
    "warned": true,
    "ever_ok": true
   },
@@ -62541,7 +62573,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T22:55:37",
    "2026-08-21T23:09:55",
    "2026-08-21T23:40:15",
    "2026-08-22T00:09:47",
@@ -62590,10 +62621,11 @@
    "2026-08-22T21:54:41",
    "2026-08-22T22:08:46",
    "2026-08-22T22:34:14",
-   "2026-08-22T22:50:51"
+   "2026-08-22T22:50:51",
+   "2026-08-22T23:01:44"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-22T22",
+  "last_status": "2026-08-22T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
