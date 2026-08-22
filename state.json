@@ -53740,11 +53740,75 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T03:06:58+00:00"
+  },
+  "ebay:v1|267763994263|0": {
+   "id": "ebay:v1|267763994263|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267763994263?_skw=road+bike&hash=item3e57fa4e97:g:sdkAAeSwva1qiRIR",
+   "title": "Giant Defy Composite Carbon Road Bike. M/L frame",
+   "description": "",
+   "location": "WF14***",
+   "price_text": "\u00a3504.46",
+   "price": 504.46,
+   "image": "https://i.ebayimg.com/images/g/sdkAAeSwva1qiRIR/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T03:54:22+00:00"
+  },
+  "kleinanzeigen:3491068043": {
+   "id": "kleinanzeigen:3491068043",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-nardelli-rennrad-28er-/3491068043-217-2899",
+   "title": "\u26a1\ufe0fNardelli Rennrad 28er\u26a1\ufe0f",
+   "description": "Rahmengr\u00f6\u00dfe 54cm\nAbholung in Hemmingen-Arnum",
+   "location": "30966 Hemmingen",
+   "price_text": "265 \u20ac",
+   "price": 265.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/73/7324c721-c62d-469d-b381-22e16cb64c89?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (Nardelli) budget road bike in Germany with no mention of the distinctive DT Swiss E1800 wheels or matching groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T03:54:25+00:00"
+  },
+  "kleinanzeigen:3491067658": {
+   "id": "kleinanzeigen:3491067658",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/slr-gaint-carbon-laufraeder/3491067658-217-267",
+   "title": "SLR Gaint Carbon Laufr\u00e4der",
+   "description": "Nagelneue Carbon SLR Laufr\u00e4der . Noch nie gefahren. Werden verkauft da ich meinen alten Satz ins...",
+   "location": "19209 L\u00fctzow",
+   "price_text": "999 \u20ac",
+   "price": 999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97a1a592-5dcc-4987-9631-0c707b8f1116?rule=$_2.AUTO",
+   "ai_reason": "Giant SLR carbon wheels, brand-new and unridden in rural Germany, are not the stolen DT Swiss E1800 wheelset or any part of the bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T03:54:28+00:00"
+  },
+  "kleinanzeigen:3491066751": {
+   "id": "kleinanzeigen:3491066751",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ktm-strada-team-rennrad/3491066751-217-7452",
+   "title": "KTM Strada Team Rennrad",
+   "description": "Ich verkaufe mein KTM Strada Team.\nDas Rennrad ist in gutem Zustand und wurde wenig...",
+   "location": "94072 Bad F\u00fcssing",
+   "price_text": "950 \u20ac",
+   "price": 950.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a9bafa3-b4ce-4609-a5e4-3c9f898cd4cf?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ktm \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T03:54:28+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 313,
+   "fail_streak": 314,
    "warned": true,
    "ever_ok": true
   },
@@ -53759,7 +53823,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T04:15:09",
    "2026-08-21T04:59:48",
    "2026-08-21T05:53:22",
    "2026-08-21T06:19:21",
@@ -53799,7 +53862,8 @@
    "2026-08-22T00:54:13",
    "2026-08-22T01:24:32",
    "2026-08-22T03:00:20",
-   "2026-08-22T04:06:58"
+   "2026-08-22T04:06:58",
+   "2026-08-22T04:54:28"
   ],
   "last_heartbeat": "2026-08-21",
   "last_status": "2026-08-22T04",
