@@ -62010,11 +62010,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T19:48:15+00:00"
+  },
+  "ebay:v1|188829970606|0": {
+   "id": "ebay:v1|188829970606|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188829970606?_skw=road+bike&hash=item2bf724b0ae:g:cDoAAeSwQUJqifyr",
+   "title": "Specialized Allez 56cm 700C Road Bike Drop Bar Rim Brake Aluminium Red/Black",
+   "description": "",
+   "location": "PL27***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/cDoAAeSwQUJqifyr/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T20:01:27+00:00"
+  },
+  "ebay:v1|336756266210|0": {
+   "id": "ebay:v1|336756266210|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336756266210?_skw=road+bike&hash=item4e683cd4e2:g:O-sAAeSwcJ1qifMW",
+   "title": "Merida Carbon Disc Road Bike Size 56 (Medium/Large)",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3650.00",
+   "price": 650.0,
+   "image": "https://i.ebayimg.com/images/g/O-sAAeSwcJ1qifMW/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T20:01:27+00:00"
+  },
+  "kleinanzeigen:3491978112": {
+   "id": "kleinanzeigen:3491978112",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/vintage-peugeot-rennrad-blau/3491978112-217-9676",
+   "title": "Vintage Peugeot Rennrad blau",
+   "description": "Ich verkaufe dieses klassische Rennrad der Marke Peugeot in einem sch\u00f6nen Blau. Es ist ein tolles...",
+   "location": "13355 Mitte",
+   "price_text": "350 \u20ac",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e7941bf-febe-4341-8b50-29c85b7b8e86?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T20:01:27+00:00"
+  },
+  "kleinanzeigen:3491977639": {
+   "id": "kleinanzeigen:3491977639",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/frog-67-team-sky-24-/3491977639-217-1124",
+   "title": "Frog 67 Team Sky 24\u201d",
+   "description": "Wegen der Anschaffung eines gr\u00f6\u00dferen Rennrads zu verkaufen:\n\nEin 24-Zoll-Renn-/Gravelrad von...",
+   "location": "47559 Kranenburg",
+   "price_text": "350 \u20ac VB",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/37090bb5-172d-41d4-b670-200b8dfdc755?rule=$_2.AUTO",
+   "ai_reason": "A 24-inch children's Frog 67 bike in Germany is a specific different model sharing no components with the stolen adult carbon road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T20:01:31+00:00"
+  },
+  "kleinanzeigen:3491977324": {
+   "id": "kleinanzeigen:3491977324",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-cross-hybrid-pro-2017-allroad-ebike-pedelec-bosch-cx-500-54/3491977324-217-1276",
+   "title": "Cube Cross hybrid pro 2017 Allroad Ebike Pedelec Bosch CX 500 54",
+   "description": "Cube Cross hybrid pro 2017 Allroad Ebike Pedelec Bosch CX 500 W\n\nVerkaufen hier das Ebike von...",
+   "location": "32825 Blomberg",
+   "price_text": "777 \u20ac VB",
+   "price": 777.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5b/5b0d7047-05ee-4cd9-9820-80138967f904?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T20:01:31+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 348,
+   "fail_streak": 349,
    "warned": true,
    "ever_ok": true
   },
@@ -62029,7 +62109,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T20:49:46",
    "2026-08-21T21:03:43",
    "2026-08-21T21:39:01",
    "2026-08-21T22:11:16",
@@ -62077,10 +62156,11 @@
    "2026-08-22T19:47:32",
    "2026-08-22T20:12:38",
    "2026-08-22T20:33:20",
-   "2026-08-22T20:48:15"
+   "2026-08-22T20:48:15",
+   "2026-08-22T21:01:31"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-22T20",
+  "last_status": "2026-08-22T21",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
