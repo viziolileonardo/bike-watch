@@ -62810,11 +62810,43 @@
    "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T22:54:42+00:00"
+  },
+  "ebay:v1|398314842222|0": {
+   "id": "ebay:v1|398314842222|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398314842222?_skw=road+bike&hash=item5cbd6a286e:g:0d4AAeSw3vtqiim4",
+   "title": "GIANT CONTEND ROAD BIKE 700C (M) BLUE/WHITE",
+   "description": "",
+   "location": "SG13***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/0d4AAeSw3vtqiim4/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T23:33:23+00:00"
+  },
+  "ebay:v1|137650944510|0": {
+   "id": "ebay:v1|137650944510|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137650944510?_skw=road+bike&hash=item200ca2b9fe:g:SaAAAeSwYEVqfhZ1",
+   "title": "Shimano Di2 Dura-Ace R9270 Electronic Disc 12-Speed Groupset 52/36 170mm 11-30T ",
+   "description": "",
+   "location": "PR3***",
+   "price_text": "\u00a31485.70",
+   "price": 1485.7,
+   "image": "https://i.ebayimg.com/images/g/SaAAAeSwYEVqfhZ1/s-l225.jpg",
+   "ai_reason": "Electronic 12-speed Dura-Ace R9270 groupset is a completely different component from the stolen bike's mechanical 105 R7020 11-speed setup.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T23:33:27+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 358,
+   "fail_streak": 359,
    "warned": true,
    "ever_ok": true
   },
@@ -62829,7 +62861,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T00:09:47",
    "2026-08-22T00:36:34",
    "2026-08-22T00:54:13",
    "2026-08-22T01:24:32",
@@ -62879,7 +62910,8 @@
    "2026-08-22T23:01:44",
    "2026-08-22T23:36:51",
    "2026-08-22T23:54:42",
-   "2026-08-23T00:06:32"
+   "2026-08-23T00:06:32",
+   "2026-08-23T00:33:27"
   ],
   "last_heartbeat": "2026-08-22",
   "last_status": "2026-08-23T00",
