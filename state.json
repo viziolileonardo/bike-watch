@@ -53884,11 +53884,59 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T04:19:57+00:00"
+  },
+  "kleinanzeigen:3491075019": {
+   "id": "kleinanzeigen:3491075019",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/14kg-ktm-maranello-light-30g-28-trekkingrad-rh-56-l-xl-fahrrad/3491075019-217-2050",
+   "title": "14kg KTM Maranello Light 30G 28  Trekkingrad RH.56 L-XL Fahrrad",
+   "description": "Das KTM Maranello Light Gravel-Trekkingrad hat vor 3 Jahren 1100 \u20ac gekostet und wurde insgesamt...",
+   "location": "45133 Bredeney",
+   "price_text": "350 \u20ac",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/1358d598-2a2b-414c-9397-8315c04e220f?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ktm \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T05:00:48+00:00"
+  },
+  "kleinanzeigen:3491074976": {
+   "id": "kleinanzeigen:3491074976",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/vintage-rennrad-simonelli-57cm/3491074976-217-18964",
+   "title": "Vintage Rennrad Simonelli 57cm",
+   "description": "Ich verkaufe mein klassisches Rennrad der Marke Simonelli in einem sch\u00f6nen Blau. Das Rad besticht...",
+   "location": "89160 Dornstadt",
+   "price_text": "395 \u20ac VB",
+   "price": 395.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a2/a2636ca7-b7e3-43fc-bd11-ad44da2bd4c4?rule=$_2.AUTO",
+   "ai_reason": "A vintage steel Simonelli road bike in Germany is a specific different make with none of the stolen bike's modern distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T05:00:52+00:00"
+  },
+  "kleinanzeigen:3453116034": {
+   "id": "kleinanzeigen:3453116034",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/panasonic-rennrad/3453116034-217-9351",
+   "title": "Panasonic Rennrad",
+   "description": "40 Jahre altes Panasonic Rennrad-Vintage Klassiker in Top - Zustand zu verkaufen.\nRobuster...",
+   "location": "72762 Reutlingen",
+   "price_text": "690 \u20ac",
+   "price": 690.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e594fac7-c401-425c-bb52-35bb86ae9116?rule=$_2.AUTO",
+   "ai_reason": "A 40-year-old vintage Panasonic steel road bike in Germany shares nothing with the modern carbon disc bike or its distinctive wheelset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T05:00:55+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 315,
+   "fail_streak": 316,
    "warned": true,
    "ever_ok": true
   },
@@ -53903,7 +53951,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T05:53:22",
    "2026-08-21T06:19:21",
    "2026-08-21T07:00:51",
    "2026-08-21T08:13:44",
@@ -53943,10 +53990,11 @@
    "2026-08-22T03:00:20",
    "2026-08-22T04:06:58",
    "2026-08-22T04:54:28",
-   "2026-08-22T05:19:57"
+   "2026-08-22T05:19:57",
+   "2026-08-22T06:00:55"
   ],
   "last_heartbeat": "2026-08-21",
-  "last_status": "2026-08-22T05",
+  "last_status": "2026-08-22T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
