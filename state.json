@@ -53580,11 +53580,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-21T23:36:34+00:00"
+  },
+  "kleinanzeigen:3491061248": {
+   "id": "kleinanzeigen:3491061248",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wunderschoenes-bh-vintage-rennrad-mit-campagnolo-rh-58/3491061248-217-7700",
+   "title": "Wundersch\u00f6nes BH Vintage Rennrad mit Campagnolo - RH 58",
+   "description": "Angeboten wird ein edles spanisches BH Podium in Cromovelato Blau. Columbus Stahlrahmen mit der...",
+   "location": "97070 W\u00fcrzburg",
+   "price_text": "790 \u20ac",
+   "price": 790.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2ea119ec-ce62-4dac-8b99-17615bdc4976?rule=$_2.AUTO",
+   "ai_reason": "A specific vintage steel BH Podium with Campagnolo in Germany shares nothing with the stolen modern carbon disc bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T00:24:26+00:00"
+  },
+  "kleinanzeigen:3491060964": {
+   "id": "kleinanzeigen:3491060964",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carbon-gravelbike-rennrad-elek-schaltung-hydraulische-bremsen/3491060964-217-19313",
+   "title": "Carbon Gravelbike Rennrad elek. Schaltung, hydraulische Bremsen",
+   "description": "Leichtes Carbon Gravel-/Rennrad \u2013 Elektronische 13-fach Schaltung \u2013 Neuzustand\n\nIch verkaufe...",
+   "location": "24960 Gl\u00fccksburg",
+   "price_text": "1.499 \u20ac VB",
+   "price": 1499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b3/b39f4f14-36d1-4319-b430-6e78bff0fd8e?rule=$_2.AUTO",
+   "ai_reason": "Electronic 13-speed groupset (not Shimano 105 mechanical 2x11) and a gravel bike in northern Germany \u2014 no matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T00:24:29+00:00"
+  },
+  "kleinanzeigen:3491060716": {
+   "id": "kleinanzeigen:3491060716",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/tolles-buntes-vintage-rennrad-mit-kleiner-rahmenhoehe-rh-48/3491060716-217-7700",
+   "title": "Tolles buntes Vintage Rennrad mit kleiner Rahmenh\u00f6he - RH 48",
+   "description": "Biete ein kleines aber feines Rennrad der Marke LAiZ an.\nEin leichter und besonderer Rahmen aus...",
+   "location": "97070 W\u00fcrzburg",
+   "price_text": "550 \u20ac",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb7413ce-8bc1-4050-91f9-e03ba8df0d4c?rule=$_2.AUTO",
+   "ai_reason": "A small vintage steel LAiZ road bike in Germany shares nothing with the stolen modern carbon disc bike or its DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T00:24:32+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 310,
+   "fail_streak": 311,
    "warned": true,
    "ever_ok": true
   },
@@ -53638,10 +53686,11 @@
    "2026-08-21T23:40:15",
    "2026-08-22T00:09:47",
    "2026-08-22T00:36:34",
-   "2026-08-22T00:54:13"
+   "2026-08-22T00:54:13",
+   "2026-08-22T01:24:32"
   ],
   "last_heartbeat": "2026-08-21",
-  "last_status": "2026-08-22T00",
+  "last_status": "2026-08-22T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
