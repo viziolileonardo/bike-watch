@@ -62202,11 +62202,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T20:38:16+00:00"
+  },
+  "kleinanzeigen:3492002819": {
+   "id": "kleinanzeigen:3492002819",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-roadlite-al-7005-competition-rennrad-alurahmen/3492002819-217-7581",
+   "title": "Canyon Roadlite AL 7005 Competition Rennrad Alurahmen",
+   "description": "Ich biete hier mein Canyon Roadlite AL Competition Rennrad an, das sich ideal als Projekt f\u00fcr...",
+   "location": "83022 Rosenheim",
+   "price_text": "280 \u20ac VB",
+   "price": 280.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/31/31f0fbe4-9798-4ae0-a0e3-e1b378318cd2?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T20:54:34+00:00"
+  },
+  "kleinanzeigen:3484181211": {
+   "id": "kleinanzeigen:3484181211",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/klein-quantum-pro-rennrad/3484181211-217-8101",
+   "title": "Klein Quantum Pro Rennrad",
+   "description": "Ich verkaufe hier ein Rennrad der Marke Klein (Modell Typ Quantum Pro)\n\nDas Rad ist ein Ersatzrad...",
+   "location": "71154 Nufringen",
+   "price_text": "1.350 \u20ac",
+   "price": 1350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9c/9c813bc3-79a3-4d86-be89-273d92af4ed7?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Klein Quantum Pro) vintage bike in Germany with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T20:54:38+00:00"
+  },
+  "kleinanzeigen:3492001370": {
+   "id": "kleinanzeigen:3492001370",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cervelo-s3-aero-rennrad-groesse-56-baujahr-2014/3492001370-217-5777",
+   "title": "Cervelo S3 Aero Rennrad, Gr\u00f6\u00dfe 56, Baujahr 2014",
+   "description": "Ich biete mein gut erhaltenes Cervelo S3 Aero Rennrad aus dem Jahr 2014 zum Verkauf an. Es handelt...",
+   "location": "93173 Wenzenbach",
+   "price_text": "2.000 \u20ac",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b585ba4-ef26-42c5-aa25-a8e9f0dfff36?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cervelo \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T20:54:38+00:00"
+  },
+  "kleinanzeigen:3492001200": {
+   "id": "kleinanzeigen:3492001200",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-zielemann-rh-60-komplett-shimano-600/3492001200-217-13483",
+   "title": "Rennrad Zielemann RH 60 komplett Shimano 600",
+   "description": "Wundersch\u00f6nes KO Zielemann im Originalzustand\nDas Rad befindet sich im Topzustand und ist...",
+   "location": "28195 Bahnhofsvorstadt",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d6cfa139-14c7-4289-ba6d-a513218f8929?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (Zielemann) vintage steel bike with Shimano 600 in Germany \u2014 no link to the stolen bike's components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T20:54:41+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 350,
+   "fail_streak": 351,
    "warned": true,
    "ever_ok": true
   },
@@ -62221,7 +62285,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T21:39:01",
    "2026-08-21T22:11:16",
    "2026-08-21T22:37:13",
    "2026-08-21T22:55:37",
@@ -62269,7 +62332,8 @@
    "2026-08-22T20:33:20",
    "2026-08-22T20:48:15",
    "2026-08-22T21:01:31",
-   "2026-08-22T21:38:16"
+   "2026-08-22T21:38:16",
+   "2026-08-22T21:54:41"
   ],
   "last_heartbeat": "2026-08-22",
   "last_status": "2026-08-22T21",
