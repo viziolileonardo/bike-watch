@@ -53628,11 +53628,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T00:24:32+00:00"
+  },
+  "ebay:v1|206509357753|0": {
+   "id": "ebay:v1|206509357753|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206509357753?_skw=road+bike&hash=item3014eabab9:g:kQQAAeSwRjVqiO1Y",
+   "title": "Ridley X Ride Road Bike, campagnolo, 700c  Read Description ",
+   "description": "",
+   "location": "UB3***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/kQQAAeSwRjVqiO1Y/s-l225.jpg",
+   "ai_reason": "Specific different make/model (Ridley X Ride) with Campagnolo groupset, sharing none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T02:00:09+00:00"
+  },
+  "ebay:v1|267763925997|0": {
+   "id": "ebay:v1|267763925997|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267763925997?_skw=road+bike&hash=item3e57f943ed:g:rskAAeSw0yNqiO4p",
+   "title": "Giant Revolt Advanced Pro 1 - Custom Build - Small",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31740.00",
+   "price": 1740.0,
+   "image": "https://i.ebayimg.com/images/g/rskAAeSw0yNqiO4p/s-l225.jpg",
+   "ai_reason": "A specific different make/model (Giant Revolt Advanced Pro gravel bike) with no mention of the DT Swiss E1800 wheels or other distinctive components; 'custom build' alone isn't enough given the model-specific branding and distant location.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T02:00:12+00:00"
+  },
+  "ebay:v1|267763925756|0": {
+   "id": "ebay:v1|267763925756|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267763925756?_skw=road+bike&hash=item3e57f942fc:g:nxoAAeSwVsxqiO5c",
+   "title": "Canondale Synapse 2 - Shimano Tiagra - 2023 Lavender 58cm",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a3927.99",
+   "price": 927.99,
+   "image": "https://i.ebayimg.com/images/g/nxoAAeSwVsxqiO5c/s-l225.jpg",
+   "ai_reason": "A specific different make/model (Cannondale Synapse) with Tiagra groupset and no mention of the distinctive DT Swiss E1800 wheels or a fresh build.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T02:00:15+00:00"
+  },
+  "kleinanzeigen:3491063717": {
+   "id": "kleinanzeigen:3491063717",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-28-weiss-schwarz-rh-53-cm/3491063717-217-3494",
+   "title": "Rennrad 28''  wei\u00df-schwarz RH 53 cm",
+   "description": "KS Cycling\n\nRennrad 28'' Imperious wei\u00df-schwarz RH 53 cm\n\nEmpfohlene K\u00f6rpergr\u00f6\u00dfe: 170 -...",
+   "location": "10409 Prenzlauer Berg",
+   "price_text": "245 \u20ac VB",
+   "price": 245.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e5c32b94-4927-4fe7-a6b9-427be8a9e029?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (KS Cycling Imperious) budget alloy road bike in Berlin, sharing none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T02:00:20+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 311,
+   "fail_streak": 312,
    "warned": true,
    "ever_ok": true
   },
@@ -53647,7 +53711,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T01:26:45",
    "2026-08-21T03:09:55",
    "2026-08-21T04:15:09",
    "2026-08-21T04:59:48",
@@ -53687,10 +53750,11 @@
    "2026-08-22T00:09:47",
    "2026-08-22T00:36:34",
    "2026-08-22T00:54:13",
-   "2026-08-22T01:24:32"
+   "2026-08-22T01:24:32",
+   "2026-08-22T03:00:20"
   ],
   "last_heartbeat": "2026-08-21",
-  "last_status": "2026-08-22T01",
+  "last_status": "2026-08-22T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
