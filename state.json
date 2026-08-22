@@ -53804,11 +53804,91 @@
    "ai_reason": "(rule) complete bike listed as Ktm \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T03:54:28+00:00"
+  },
+  "kleinanzeigen:3491069572": {
+   "id": "kleinanzeigen:3491069572",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-stumpjumper-comp-carbon-top-zustand/3491069572-217-4057",
+   "title": "Specialized Stumpjumper Comp Carbon - Top Zustand",
+   "description": "Ich biete hier mein Specialized Mountainbike in einem neuwertigen Zustand an. Dieses Bike ist...",
+   "location": "01445 Radebeul",
+   "price_text": "1.800 \u20ac",
+   "price": 1800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/31/318c5052-d720-4f36-b7a8-04dcccca7b4a?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T04:19:45+00:00"
+  },
+  "kleinanzeigen:3491069225": {
+   "id": "kleinanzeigen:3491069225",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravel-rennrad-triathlon-campagnolo-rigida-60cm-27-gaenge-28-zoll/3491069225-217-2563",
+   "title": "Gravel Rennrad Triathlon Campagnolo Rigida 60cm 27 G\u00e4nge 28 Zoll",
+   "description": "Hiermit verkaufe ich dieses einwandfrei funktionierende leichte Rennrad.\n\nEs ist ein FORT Veto, ein...",
+   "location": "49808 Lingen (Ems)",
+   "price_text": "333 \u20ac",
+   "price": 333.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0ae99cdc-a6bd-4aa8-b963-8b595b84a226?rule=$_2.AUTO",
+   "ai_reason": "A specific different bike (FORT Veto) with Campagnolo/Rigida components, 27-speed rim-brake era, in Germany \u2014 no link to the stolen bike's parts.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T04:19:50+00:00"
+  },
+  "kleinanzeigen:3491069063": {
+   "id": "kleinanzeigen:3491069063",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-gravel-damenrennrad-fort-leicht-campagnolo-triathlon/3491069063-217-4898",
+   "title": "Rennrad Gravel Damenrennrad FORT LEICHT Campagnolo Triathlon",
+   "description": "Hiermit verkaufe ich dieses einwandfrei funktionierende leichte Rennrad.\n\nEs ist ein FORT Veto, ein...",
+   "location": "55252 Mainz-\u200bKastel",
+   "price_text": "333 \u20ac",
+   "price": 333.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d7/d783447d-d151-47c7-aad9-0949d2f68e2e?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (FORT Veto) with Campagnolo parts in Germany, sharing nothing distinctive with the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T04:19:53+00:00"
+  },
+  "kleinanzeigen:3491068570": {
+   "id": "kleinanzeigen:3491068570",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/haibike-fully/3491068570-217-8217",
+   "title": "Haibike Fully",
+   "description": "Satan mit 9, Martha Scheibenbremse st Swiss Bremse Carbon Lenker schaut\u2019s euch an ich mach es fit.",
+   "location": "72636 Frickenhausen",
+   "price_text": "550 \u20ac",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f72250b8-2b19-4cfa-bb93-eff4561e9b96?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (Haibike full-suspension MTB) in rural Germany with no link to the stolen road bike's distinctive DT Swiss E1800 wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T04:19:57+00:00"
+  },
+  "marktplaats:a1528580817": {
+   "id": "marktplaats:a1528580817",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1528580817-cube-attain-gtc-sl-2022-174-181-cm",
+   "title": "Cube ATTAIN GTC SL \u2013 2022 \u2013 174 - 181 cm",
+   "description": "The road bikes has a carbon frame. The manufacturer lists the frame size as 56 cm. Our own measurement comes out to 53 cm.additional specifications: wheel size: 28\" drive type: chain drive gear t",
+   "location": "NL",
+   "price_text": "\u20ac1499",
+   "price": 1499.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/94/94b419d5-2594-49ee-9274-f30e55f1bfc1?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T04:19:57+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 314,
+   "fail_streak": 315,
    "warned": true,
    "ever_ok": true
   },
@@ -53823,7 +53903,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T04:59:48",
    "2026-08-21T05:53:22",
    "2026-08-21T06:19:21",
    "2026-08-21T07:00:51",
@@ -53863,10 +53942,11 @@
    "2026-08-22T01:24:32",
    "2026-08-22T03:00:20",
    "2026-08-22T04:06:58",
-   "2026-08-22T04:54:28"
+   "2026-08-22T04:54:28",
+   "2026-08-22T05:19:57"
   ],
   "last_heartbeat": "2026-08-21",
-  "last_status": "2026-08-22T04",
+  "last_status": "2026-08-22T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
