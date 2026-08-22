@@ -53692,11 +53692,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T02:00:20+00:00"
+  },
+  "gumtree:1800241053": {
+   "id": "gumtree:1800241053",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/road-bikes/merida-lite-scultura-904-race-bike.-excellent-condition.-54cm/1800241053",
+   "title": "Merida Lite Scultura 904 Race Bike. Excellent condition. 54cm",
+   "description": "",
+   "location": "Hackney, London",
+   "price_text": "\u00a3300",
+   "price": 300.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/24c6f57e85ac4a01a0_f0486bf1505d/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T03:06:58+00:00"
+  },
+  "kleinanzeigen:3491065705": {
+   "id": "kleinanzeigen:3491065705",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/e-bike-trek-feulexe-9-5-rahm-carbon-nagel-neue-7000-euro-/3491065705-217-3511",
+   "title": "E BIKE  Trek feulexe  9.5  Rahm Carbon . Nagel neue 7000 Euro.",
+   "description": "Geschwindigkeit bis 40 kmh speedbox. Rahmen gro\u00dfe.M. Rahm Carbon Nagel neue Kostet 7000 Euro. Mit...",
+   "location": "12619 Hellersdorf",
+   "price_text": "2.000 \u20ac",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/ba867fec-0257-4d60-adbd-65beb50935dc?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T03:06:58+00:00"
+  },
+  "kleinanzeigen:3491065312": {
+   "id": "kleinanzeigen:3491065312",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cannondale-quick-carbon-1-sportrad-8kg-top-zustand/3491065312-217-3810",
+   "title": "Cannondale Quick Carbon 1 Sportrad 8kg top Zustand",
+   "description": "Cannondale Quick Carbon 1 Sportrad\nFahrrad ist in top Zustand\nGewicht: 8kg\nPapiere sind leider...",
+   "location": "08058 Zwickau",
+   "price_text": "550 \u20ac VB",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46863a2d-4033-441c-940c-1ca9e61b6898?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T03:06:58+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 312,
+   "fail_streak": 313,
    "warned": true,
    "ever_ok": true
   },
@@ -53711,7 +53759,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T03:09:55",
    "2026-08-21T04:15:09",
    "2026-08-21T04:59:48",
    "2026-08-21T05:53:22",
@@ -53751,10 +53798,11 @@
    "2026-08-22T00:36:34",
    "2026-08-22T00:54:13",
    "2026-08-22T01:24:32",
-   "2026-08-22T03:00:20"
+   "2026-08-22T03:00:20",
+   "2026-08-22T04:06:58"
   ],
   "last_heartbeat": "2026-08-21",
-  "last_status": "2026-08-22T03",
+  "last_status": "2026-08-22T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
