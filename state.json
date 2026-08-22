@@ -54700,11 +54700,91 @@
    "ai_reason": "(rule) complete bike listed as Isaac \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T08:46:31+00:00"
+  },
+  "ebay:v1|188829221587|0": {
+   "id": "ebay:v1|188829221587|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188829221587?_skw=road+bike&hash=item2bf71942d3:g:HeMAAeSwQe1qiWQE",
+   "title": "Specialized S Works Tarmac SL3 Project Black Road Bike",
+   "description": "",
+   "location": "RG4***",
+   "price_text": "\u00a3991.00",
+   "price": 991.0,
+   "image": "https://i.ebayimg.com/images/g/HeMAAeSwQe1qiWQE/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T09:13:09+00:00"
+  },
+  "ebay:v1|137649160286|0": {
+   "id": "ebay:v1|137649160286|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137649160286?_skw=road+bike&hash=item200c87805e:g:9ngAAeSwQUJqiWCN",
+   "title": "B\u2019Twin Triban 540 M 6061 Alu Frame Carbon Fork Shimano 105 Groupset Mavic Wheels",
+   "description": "",
+   "location": "BT19***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/9ngAAeSwQUJqiWCN/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as B\u2019Twin \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T09:13:09+00:00"
+  },
+  "kleinanzeigen:3474336879": {
+   "id": "kleinanzeigen:3474336879",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/oldschool-gazelle-herrenrennrad/3474336879-217-4891",
+   "title": "oldschool GAZELLE  Herrenrennrad",
+   "description": "gutes Rad mit leichtem Stossschaden( Bild )\nRahmen h\u00f6he\n\nDa es ein Privater Verkauf ist, ist ein...",
+   "location": "64293 Darmstadt",
+   "price_text": "350 \u20ac VB",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1d/1d2eb3b8-69ab-47be-bf01-b14062a299a5?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Gazelle \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T09:13:09+00:00"
+  },
+  "kleinanzeigen:3491256793": {
+   "id": "kleinanzeigen:3491256793",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-aim-race-allroad-29-zoll-mountainbike/3491256793-217-786",
+   "title": "Cube Aim Race Allroad 29 Zoll Mountainbike",
+   "description": "Ich biete das Cube Aim Race Allroad 29 Zoll Mountainbike von unserer Tochter an,das sich ideal f\u00fcr...",
+   "location": "25421 Pinneberg",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ef/ef1cef19-87d3-4e6f-8f26-97abcae9ef3d?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T09:13:09+00:00"
+  },
+  "kleinanzeigen:3491256429": {
+   "id": "kleinanzeigen:3491256429",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pinarello-galileo-rennrad-105-shimano-bike-fahrrad/3491256429-217-29480",
+   "title": "Pinarello Galileo Rennrad 105 Shimano Bike Fahrrad",
+   "description": "Verkaufe hier mein Pinarello Galileo Rennrad mit 105 Shimano Ausstattung. 16Gang Schaltung Neu...",
+   "location": "56073 Goldgrube",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57b61609-8157-41a6-af0d-665959906582?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T09:13:09+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 322,
+   "fail_streak": 323,
    "warned": true,
    "ever_ok": true
   },
@@ -54719,7 +54799,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T10:09:54",
    "2026-08-21T10:52:17",
    "2026-08-21T11:15:28",
    "2026-08-21T11:47:26",
@@ -54760,12 +54839,13 @@
    "2026-08-22T08:00:07",
    "2026-08-22T08:44:48",
    "2026-08-22T09:13:36",
-   "2026-08-22T09:46:31"
+   "2026-08-22T09:46:31",
+   "2026-08-22T10:13:09"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-22T09",
+  "last_status": "2026-08-22T10",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
