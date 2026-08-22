@@ -62378,11 +62378,59 @@
    "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-22T21:08:46+00:00"
+  },
+  "ebay:v1|407163440321|0": {
+   "id": "ebay:v1|407163440321|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407163440321?_skw=road+bike&hash=item5eccd50cc1:g:73cAAeSw5rdqig~E",
+   "title": "White Frog 70 road bike. aluminium, USA cycling edition",
+   "description": "",
+   "location": "SW13***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/73cAAeSw5rdqig~E/s-l225.jpg",
+   "ai_reason": "This is a Frog 70 kids' aluminium road bike, a specific different make/model with no link to the stolen carbon bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T21:34:11+00:00"
+  },
+  "ebay:v1|336756356613|0": {
+   "id": "ebay:v1|336756356613|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336756356613?_skw=road+bike&hash=item4e683e3605:g:dpEAAeSwQUJqieFN",
+   "title": "Cube Attain GTC SL Carbon Road Bike Disc Shimano Ultegra 56cm",
+   "description": "",
+   "location": "CW10***",
+   "price_text": "\u00a3465.70",
+   "price": 465.7,
+   "image": "https://i.ebayimg.com/images/g/dpEAAeSwQUJqieFN/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-22T21:34:11+00:00"
+  },
+  "kleinanzeigen:3492014941": {
+   "id": "kleinanzeigen:3492014941",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/poison-e605-gravel-gr-54cm-e-bike-e-gravel-bafang-h600-grx-11s/3492014941-217-8892",
+   "title": "Poison E605 Gravel Gr. 54cm E-Bike E-Gravel Bafang H600 GRX 11s",
+   "description": "Willkommen bei Tim\u2019s Zweiradwelt \u2013 sch\u00f6n, dass du da bist!\n\nDu interessierst dich f\u00fcr eines unserer...",
+   "location": "70794 Filderstadt",
+   "price_text": "1.699 \u20ac",
+   "price": 1699.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0f9acfbf-0dc7-4863-9a5f-6ddf85474c87?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model e-gravel bike with GRX drivetrain and Bafang motor, no matching distinctive components, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-22T21:34:14+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 352,
+   "fail_streak": 353,
    "warned": true,
    "ever_ok": true
   },
@@ -62397,7 +62445,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-21T22:11:16",
    "2026-08-21T22:37:13",
    "2026-08-21T22:55:37",
    "2026-08-21T23:09:55",
@@ -62446,7 +62493,8 @@
    "2026-08-22T21:01:31",
    "2026-08-22T21:38:16",
    "2026-08-22T21:54:41",
-   "2026-08-22T22:08:46"
+   "2026-08-22T22:08:46",
+   "2026-08-22T22:34:14"
   ],
   "last_heartbeat": "2026-08-22",
   "last_status": "2026-08-22T22",
