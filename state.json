@@ -63114,11 +63114,75 @@
    "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T04:51:54+00:00"
+  },
+  "kleinanzeigen:3492052650": {
+   "id": "kleinanzeigen:3492052650",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/scott-metrix-30-eq-xl-28-zoll/3492052650-217-3366",
+   "title": "SCOTT Metrix 30 EQ \u2013 XL / 28 Zoll",
+   "description": "SCOTT Metrix 30 EQ Gravel \u2013 XL / 28 Zoll\n\nIch verkaufe mein SCOTT Metrix 30 EQ Gravel, da ich...",
+   "location": "12557 K\u00f6penick",
+   "price_text": "680 \u20ac",
+   "price": 680.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d8/d8633218-12b7-4d5c-b630-eecfe289a48e?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T05:16:29+00:00"
+  },
+  "kleinanzeigen:3492050818": {
+   "id": "kleinanzeigen:3492050818",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-fuel-ex-9-9-mtb-fully-carbon-12-5kg/3492050818-217-1772",
+   "title": "Trek Fuel Ex 9.9 - MTB Fully - Carbon - 12,5kg",
+   "description": "Verkaufe mein Trek Fuel EX 9.9 aus 2019 in Rahmengr\u00f6\u00dfe 21,5\u201c. ca. 1800 km gefahren\nDas Bike wurde...",
+   "location": "45772 Marl",
+   "price_text": "1.350 \u20ac VB",
+   "price": 1350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/81/81b6978d-3bd0-4687-8f03-2a817b39f966?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T05:16:29+00:00"
+  },
+  "kleinanzeigen:3492050196": {
+   "id": "kleinanzeigen:3492050196",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-tcr-advanced-sl-2-carbon-rennrad-rotor-dt-swiss-11-fach/3492050196-217-6818",
+   "title": "Giant TCR Advanced SL 2 Carbon Rennrad | ROTOR | DT-Swiss|11-fach",
+   "description": "Zum Verkauf steht ein Giant TCR Advanced SL 2 Rennrad mit hochwertigem Carbonrahmen.\n\nDas Fahrrad...",
+   "location": "90480 Oststadt",
+   "price_text": "570 \u20ac VB",
+   "price": 570.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/01/012713d8-0139-4932-a728-729edf9167c5?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T05:16:29+00:00"
+  },
+  "kleinanzeigen:3492050111": {
+   "id": "kleinanzeigen:3492050111",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wilier-gtr-carbon-rennrad-ca-500-km-top-zustand/3492050111-217-6726",
+   "title": "Wilier GTR Carbon Rennrad, ca. 500 km, Top-Zustand",
+   "description": "Ich biete hier mein hochwertiges Wilier GTR Carbon Rennrad an, das aufgrund zu geringer Nutzung...",
+   "location": "97834 Birkenfeld b. Marktheidenfeld",
+   "price_text": "1.650 \u20ac",
+   "price": 1650.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/304256d0-7d56-463c-ba4a-a7dece936eda?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T05:16:29+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 365,
+   "fail_streak": 366,
    "warned": true,
    "ever_ok": true
   },
@@ -63133,7 +63197,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T06:00:55",
    "2026-08-22T06:40:46",
    "2026-08-22T07:14:52",
    "2026-08-22T08:00:07",
@@ -63182,10 +63245,11 @@
    "2026-08-23T02:58:54",
    "2026-08-23T04:14:14",
    "2026-08-23T04:59:23",
-   "2026-08-23T05:51:54"
+   "2026-08-23T05:51:54",
+   "2026-08-23T06:16:29"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-23T05",
+  "last_status": "2026-08-23T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
