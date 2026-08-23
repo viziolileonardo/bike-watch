@@ -57386,7 +57386,9 @@
    "image": "https://i.ebayimg.com/images/g/9swAAeSwZUppf-Li/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-22T13:00:33+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: vehicle registration plate listing, not a bicycle"
   },
   "ebay:v1|287539690144|0": {
    "id": "ebay:v1|287539690144|0",
@@ -57401,7 +57403,9 @@
    "image": "https://i.ebayimg.com/images/g/miQAAeSwk8Bp5nW2/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-22T13:00:33+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: vehicle registration plate listing, not a bicycle"
   },
   "ebay:v1|158214414063|0": {
    "id": "ebay:v1|158214414063|0",
@@ -57432,7 +57436,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/51/51251441-be23-4b75-bc46-ebcce91c6311?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-22T13:00:33+00:00",
-   "blue_score": 0.003
+   "blue_score": 0.003,
+   "fp": true,
+   "ai_reason": "Ruled out: Campagnolo Zonda wheelset \u2014 wrong manufacturer entirely"
   },
   "kleinanzeigen:3491560017": {
    "id": "kleinanzeigen:3491560017",
@@ -58101,10 +58107,11 @@
    "price_text": "\u00a3260.70",
    "price": 260.7,
    "image": "https://i.ebayimg.com/images/g/dPwAAeSwEU1qiaqS/s-l225.jpg",
-   "ai_reason": "Oddly branded, vaguely described road bike with no model detail \u2014 a brand-stripped or relabelled listing can't be ruled out despite the distant location.",
+   "ai_reason": "Ruled out from photo: Teng Tools promotional alu bike, rim brakes",
    "level": "digest",
    "first_seen": "2026-08-22T14:04:27+00:00",
-   "blue_score": 0.013
+   "blue_score": 0.013,
+   "fp": true
   },
   "ebay:v1|178432072303|0": {
    "id": "ebay:v1|178432072303|0",
@@ -59637,10 +59644,11 @@
    "price_text": "\u00a3350.00",
    "price": 350.0,
    "image": "https://i.ebayimg.com/images/g/jj4AAeSwFHNqib~f/s-l225.jpg",
-   "ai_reason": "Vague, unbranded carbon road bike listing with no identifying details, so it cannot be ruled out despite the distant location.",
+   "ai_reason": "Ruled out from photo: branded Felt F-Series carbon, rim brakes",
    "level": "digest",
    "first_seen": "2026-08-22T16:01:12+00:00",
-   "blue_score": 0.004
+   "blue_score": 0.004,
+   "fp": true
   },
   "kleinanzeigen:3491782924": {
    "id": "kleinanzeigen:3491782924",
@@ -59989,11 +59997,12 @@
    "price_text": "\u00a32352.70",
    "price": 2352.7,
    "image": "https://i.ebayimg.com/images/g/-E0AAeSwGDJqidIc/s-l225.jpg",
-   "ai_reason": "Although listed as a different make/model, it explicitly includes the distinctive DT Swiss E1800 wheelset, which could be from the stolen bike.",
+   "ai_reason": "Ruled out: coherent Cervelo C3 Disc at full market price with period-correct E1800 wheels (likely original equipment) \u2014 no strip/flip signals",
    "level": "alert",
    "first_seen": "2026-08-22T17:06:44+00:00",
    "blue_score": 0.047,
-   "evidence_photo": "evidence/ebay_v1_298608695697_0.jpg"
+   "evidence_photo": "evidence/ebay_v1_298608695697_0.jpg",
+   "fp": true
   },
   "ebay:v1|287539691111|0": {
    "id": "ebay:v1|287539691111|0",
@@ -63405,10 +63414,11 @@
    "price_text": "\u00a31230.70",
    "price": 1230.7,
    "image": "https://i.ebayimg.com/images/g/fPcAAeSwFLNqipgw/s-l225.jpg",
-   "ai_reason": "Generic, unbranded road bike listing with no details, so it can't be ruled out despite the distant location.",
+   "ai_reason": "Ruled out from photo: Bosch mid-motor Scott step-through e-bike",
    "level": "digest",
    "first_seen": "2026-08-23T07:02:08+00:00",
-   "blue_score": 0.006
+   "blue_score": 0.006,
+   "fp": true
   },
   "ebay:v1|168633335893|0": {
    "id": "ebay:v1|168633335893|0",
@@ -66477,10 +66487,11 @@
    "price_text": "\u00a3312.70",
    "price": 312.7,
    "image": "https://i.ebayimg.com/images/g/J7QAAeSwuVhqiwZr/s-l225.jpg",
-   "ai_reason": "Obscure/vague brand with no component detail given, so a rebadged or rebuilt stolen frame can't be ruled out.",
+   "ai_reason": "Ruled out from photo: red alloy Caygill on Gipiemme rim-brake wheels",
    "level": "digest",
    "first_seen": "2026-08-23T14:54:39+00:00",
-   "blue_score": 0.015
+   "blue_score": 0.015,
+   "fp": true
   },
   "ebay:v1|327322830705|0": {
    "id": "ebay:v1|327322830705|0",
