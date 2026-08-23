@@ -62906,11 +62906,75 @@
    "ai_reason": "(rule) complete bike listed as Triban \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T00:02:09+00:00"
+  },
+  "kleinanzeigen:3492040904": {
+   "id": "kleinanzeigen:3492040904",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/shimano-ultegra-di2-schalt-bremshebel-st-r8070-r-neu-/3492040904-217-3874",
+   "title": "Shimano Ultegra Di2 Schalt/- Bremshebel ST-R8070-R ++NEU++",
+   "description": "Verkaufe einen ++NEUEN++ und OVP Shimano Ultegra Di2 Schalt/- Bremshebel ST-R8070-R...",
+   "location": "09423 Gelenau",
+   "price_text": "280 \u20ac VB",
+   "price": 280.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4cedef27-4d63-4d49-8068-84d0a0e91678?rule=$_2.AUTO",
+   "ai_reason": "New boxed Ultegra Di2 ST-R8070 lever in Germany is a different component entirely from the stolen bike's mechanical 105 groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T01:58:52+00:00"
+  },
+  "kleinanzeigen:3492039532": {
+   "id": "kleinanzeigen:3492039532",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-merida-reacto-5000/3492039532-217-9503",
+   "title": "Rennrad Merida Reacto 5000",
+   "description": "Das Fahrrad ist im 1A Zustand und zwischen 50 bis 80 Kilometer gefahren.\nDer Rahmen hat die Gr\u00f6\u00dfe...",
+   "location": "22761 Hamburg Bahrenfeld",
+   "price_text": "1.500 \u20ac",
+   "price": 1500.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c46c2971-3c7a-420c-ac1a-7670109d9139?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T01:58:52+00:00"
+  },
+  "kleinanzeigen:3492038978": {
+   "id": "kleinanzeigen:3492038978",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/legnano-rennrad-klassiker/3492038978-217-3836",
+   "title": "Legnano Rennrad Klassiker",
+   "description": "Zum Verkauf steht ein wundersch\u00f6nes klassisches Rennrad der traditionsreichen italienischen Marke...",
+   "location": "01099 Neustadt",
+   "price_text": "499 \u20ac",
+   "price": 499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f6/f65a806f-6f77-495b-8509-065b502f84a2?rule=$_2.AUTO",
+   "ai_reason": "A specific different make (classic Legnano vintage steel road bike) in Germany with no matching distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T01:58:54+00:00"
+  },
+  "kleinanzeigen:3492039227": {
+   "id": "kleinanzeigen:3492039227",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-sirrus-rennrad-vintage/3492039227-217-6441",
+   "title": "Specialized Sirrus Rennrad Vintage",
+   "description": "Ich verkaufe mein gebrauchtes Specialized Sirrus Rennrad, das durch sein klassisches Design...",
+   "location": "80333 Maxvorstadt",
+   "price_text": "265 \u20ac",
+   "price": 265.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/23bebd9f-ca0c-48a7-83f9-ed97e0153e1b?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T01:58:54+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 361,
+   "fail_streak": 362,
    "warned": true,
    "ever_ok": true
   },
@@ -62925,7 +62989,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T01:24:32",
    "2026-08-22T03:00:20",
    "2026-08-22T04:06:58",
    "2026-08-22T04:54:28",
@@ -62975,12 +63038,13 @@
    "2026-08-23T00:06:32",
    "2026-08-23T00:33:27",
    "2026-08-23T00:48:35",
-   "2026-08-23T01:02:09"
+   "2026-08-23T01:02:09",
+   "2026-08-23T02:58:54"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-23T01",
+  "last_status": "2026-08-23T02",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
