@@ -69931,11 +69931,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-23T23:03:01+00:00"
+  },
+  "kleinanzeigen:3493221189": {
+   "id": "kleinanzeigen:3493221189",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-axial-ws-pro-56cm-gravel-rennrad/3493221189-217-26066",
+   "title": "Cube Axial WS Pro (56cm) Gravel/Rennrad",
+   "description": "Verkauft wird mein treuer Begleiter - Cube Renn bzw.\nGravelrad wegen Neuanschaffung. Es hat bisher...",
+   "location": "09117 Rabenstein",
+   "price_text": "825 \u20ac VB",
+   "price": 825.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a0f5908-9257-4305-b26a-e6aa6d02ede3?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T23:34:01+00:00"
+  },
+  "kleinanzeigen:3493220864": {
+   "id": "kleinanzeigen:3493220864",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-rennrad/3493220864-217-2399",
+   "title": "canyon Rennrad",
+   "description": "Verkaufe ein Rennrad Marke CANYON .Zubeh\u00f6rteile (katzenaugen )noch original verpackt und...",
+   "location": "14827 Wiesenburg/\u200bMark",
+   "price_text": "1.200 \u20ac",
+   "price": 1200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/49/49d5e14d-090b-46c3-8880-e9f27ca7e5bd?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T23:34:01+00:00"
+  },
+  "kleinanzeigen:3493220853": {
+   "id": "kleinanzeigen:3493220853",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-rail-9-5-gen-4-carbon-e-mtb-750-wh-bosch-cx-gr-l/3493220853-217-19195",
+   "title": "TREK RAIL 9.5 GEN 4 CARBON E-MTB | 750 WH | BOSCH CX | GR. L",
+   "description": "TREK RAIL 9.5 GEN 4 CARBON E-MTB | 750 WH | BOSCH CX | GR. L\n\nFRISCHER SERVICE \u2022 NUR 2.498 KM \u2022 NUR...",
+   "location": "38871 Dr\u00fcbeck",
+   "price_text": "2.790 \u20ac VB",
+   "price": 2790.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b3/b365401a-5738-4f12-a3b8-a5c43f93776d?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T23:34:01+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 408,
+   "fail_streak": 409,
    "warned": true,
    "ever_ok": true
   },
@@ -69950,8 +69998,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T00:06:32",
-   "2026-08-23T00:33:27",
    "2026-08-23T00:48:35",
    "2026-08-23T01:02:09",
    "2026-08-23T02:58:54",
@@ -70000,7 +70046,8 @@
    "2026-08-23T23:01:30",
    "2026-08-23T23:36:18",
    "2026-08-23T23:53:47",
-   "2026-08-24T00:03:01"
+   "2026-08-24T00:03:01",
+   "2026-08-24T00:34:01"
   ],
   "last_heartbeat": "2026-08-23",
   "last_status": "2026-08-24T00",
