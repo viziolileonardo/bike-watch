@@ -62970,11 +62970,43 @@
    "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T01:58:54+00:00"
+  },
+  "kleinanzeigen:3464282054": {
+   "id": "kleinanzeigen:3464282054",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-backroad-55-sram-axs-gravel-bike-force-etap-carbon/3464282054-217-1920",
+   "title": "Rose Backroad 55 SRAM AXS Gravel Bike Force eTap Carbon",
+   "description": "Geiles, pfiffiges Fahrrad wird verkauft. Neupreis 2022: 4.399 \u20ac (Rechnung vorhanden). Rahmenh\u00f6he 55...",
+   "location": "59192 Bergkamen",
+   "price_text": "1.649 \u20ac",
+   "price": 1649.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/50/50327209-b561-4a6c-8662-7df534965e42?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T03:14:14+00:00"
+  },
+  "kleinanzeigen:3492043764": {
+   "id": "kleinanzeigen:3492043764",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bulls-desert-falcon-rennrad-shimano-ultegra-cube-aero-lenker/3492043764-217-1053",
+   "title": "Bulls Desert Falcon Rennrad|Shimano Ultegra|Cube Aero Lenker",
+   "description": "Hallo zusammen,\nzum Verkauf steht mein zuverl\u00e4ssiges und fahrbereites Bulls Desert Falcon LTD...",
+   "location": "53227 Beuel",
+   "price_text": "399 \u20ac VB",
+   "price": 399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/18/18eaef42-f843-428a-b120-0adfe4d14805?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T03:14:14+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 362,
+   "fail_streak": 363,
    "warned": true,
    "ever_ok": true
   },
@@ -62989,8 +63021,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T03:00:20",
-   "2026-08-22T04:06:58",
    "2026-08-22T04:54:28",
    "2026-08-22T05:19:57",
    "2026-08-22T06:00:55",
@@ -63039,10 +63069,11 @@
    "2026-08-23T00:33:27",
    "2026-08-23T00:48:35",
    "2026-08-23T01:02:09",
-   "2026-08-23T02:58:54"
+   "2026-08-23T02:58:54",
+   "2026-08-23T04:14:14"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-23T02",
+  "last_status": "2026-08-23T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
