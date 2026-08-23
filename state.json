@@ -69728,11 +69728,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-23T21:51:19+00:00"
+  },
+  "ebay:v1|327323169494|0": {
+   "id": "ebay:v1|327323169494|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327323169494?_skw=road+bike&hash=item4c35fb32d6:g:kFcAAeSwz0Jqi2qD",
+   "title": "Claud Butler Bike Explorer 3.0 Road/Mountain Hybrid Blue 18\"",
+   "description": "",
+   "location": "SW20***",
+   "price_text": "\u00a3465.70",
+   "price": 465.7,
+   "image": "https://i.ebayimg.com/images/g/kFcAAeSwz0Jqi2qD/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Claud Butler \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:01:30+00:00"
+  },
+  "kleinanzeigen:3397188500": {
+   "id": "kleinanzeigen:3397188500",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-14-pro-dx-cross-2000-gravel-cyclocross/3397188500-217-2673",
+   "title": "Rose 14 Pro DX Cross 2000 - Gravel Cyclocross",
+   "description": "ROSE CROSS 14 PRO DX CROSS-2000\n\nZustand:\nTOP! Wenig gefahren, sehr gepflegtes \u00c4u\u00dferes, Lenkerband...",
+   "location": "31234 Edemissen",
+   "price_text": "829 \u20ac VB",
+   "price": 829.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0b02ed0c-1dff-4456-9dbe-c0bbff59deed?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:01:30+00:00"
+  },
+  "kleinanzeigen:3493212025": {
+   "id": "kleinanzeigen:3493212025",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/koga-colmaro-allroad-cyclocross-gravel-fahrrad-gr-59-xl/3493212025-217-4509",
+   "title": "Koga Colmaro Allroad Cyclocross/Gravel Fahrrad Gr. 59/XL",
+   "description": "Ich verkaufe mein gepflegtes Koga Colmaro Allroad Gravel Bike aus dem Jahr 2020. Das Rad ist in der...",
+   "location": "64342 Seeheim-\u200bJugenheim",
+   "price_text": "980 \u20ac VB",
+   "price": 980.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/3457b7b5-243b-438e-95dd-e7f0818c0b54?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:01:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 404,
+   "fail_streak": 405,
    "warned": true,
    "ever_ok": true
   },
@@ -69796,10 +69844,11 @@
    "2026-08-23T21:54:24",
    "2026-08-23T22:08:52",
    "2026-08-23T22:34:31",
-   "2026-08-23T22:51:19"
+   "2026-08-23T22:51:19",
+   "2026-08-23T23:01:30"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-23T22",
+  "last_status": "2026-08-23T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
