@@ -69776,11 +69776,75 @@
    "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T22:01:30+00:00"
+  },
+  "ebay:v1|366624461471|0": {
+   "id": "ebay:v1|366624461471|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366624461471?_skw=road+bike&hash=item555c85529f:g:X1wAAeSw92lqi218",
+   "title": "Cube Agree GTC Carbon Bike 58cm Di2 Shimano Ultegra Groupset - SPARES OR REPAIR",
+   "description": "",
+   "location": "KT22***",
+   "price_text": "\u00a3219.10",
+   "price": 219.1,
+   "image": "https://i.ebayimg.com/images/g/X1wAAeSw92lqi218/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:36:18+00:00"
+  },
+  "ebay:v1|336757795831|0": {
+   "id": "ebay:v1|336757795831|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336757795831?_skw=road+bike&hash=item4e68542bf7:g:FmMAAeSwMk1qi29A",
+   "title": "Trek XCaliber 6 Hybrid Bike Unisex Road and Trail Bicycle Mens Womens Cycle",
+   "description": "",
+   "location": "E16***",
+   "price_text": "\u00a3307.50",
+   "price": 307.5,
+   "image": "https://i.ebayimg.com/images/g/FmMAAeSwMk1qi29A/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:36:18+00:00"
+  },
+  "ebay:v1|206511298529|0": {
+   "id": "ebay:v1|206511298529|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206511298529?_skw=road+bike&hash=item30150857e1:g:5UcAAeSwpLBqi29b",
+   "title": "Specialized 2024 SL7 Zipp 303s",
+   "description": "",
+   "location": "OX44***",
+   "price_text": "\u00a32400.00",
+   "price": 2400.0,
+   "image": "https://i.ebayimg.com/images/g/5UcAAeSwpLBqi29b/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:36:18+00:00"
+  },
+  "kleinanzeigen:3493214861": {
+   "id": "kleinanzeigen:3493214861",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/peugeot-rennrad-klassiker-80er-carbolite-103-ratitaet/3493214861-217-8878",
+   "title": "Peugeot Rennrad Klassiker (80er) \u2013 Carbolite 103 Ratit\u00e4t",
+   "description": "verkaufe hier einen echten franz\u00f6sischen Klassiker aus den 1980er Jahren: Ein originales...",
+   "location": "69434 Hirschhorn (Neckar)",
+   "price_text": "380 \u20ac",
+   "price": 380.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e6/e6981176-599d-4e67-bc3b-1f13f6ee081a?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T22:36:18+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 405,
+   "fail_streak": 406,
    "warned": true,
    "ever_ok": true
   },
@@ -69795,7 +69859,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T23:01:44",
    "2026-08-22T23:36:51",
    "2026-08-22T23:54:42",
    "2026-08-23T00:06:32",
@@ -69845,7 +69908,8 @@
    "2026-08-23T22:08:52",
    "2026-08-23T22:34:31",
    "2026-08-23T22:51:19",
-   "2026-08-23T23:01:30"
+   "2026-08-23T23:01:30",
+   "2026-08-23T23:36:18"
   ],
   "last_heartbeat": "2026-08-23",
   "last_status": "2026-08-23T23",
