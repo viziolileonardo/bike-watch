@@ -69408,11 +69408,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-23T20:54:24+00:00"
+  },
+  "ebay:v1|128040773834|0": {
+   "id": "ebay:v1|128040773834|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128040773834?_skw=road+bike&hash=item1dcfd328ca:g:xzAAAeSwbLhqi14i",
+   "title": "Shimano GRX ST-RX815 Di2 11 Speed Hydraulic Shifter Set - BR-RX810. Gravel.",
+   "description": "",
+   "location": "SN25***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/xzAAAeSwbLhqi14i/s-l225.jpg",
+   "ai_reason": "GRX Di2 electronic gravel shifters are a different groupset entirely from the stolen bike's mechanical 105 ST-R7020, and the location is far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T21:08:52+00:00"
+  },
+  "ebay:v1|377442479410|0": {
+   "id": "ebay:v1|377442479410|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377442479410?_skw=road+bike&hash=item57e1532d32:g:hhAAAeSwIf9qi1xq",
+   "title": "Giant Defy Advanced Pro 3 2020 With Tacx Neo 2T Smart Trainer",
+   "description": "",
+   "location": "SY21***",
+   "price_text": "\u00a32454.70",
+   "price": 2454.7,
+   "image": "https://i.ebayimg.com/images/g/hhAAAeSwIf9qi1xq/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T21:08:52+00:00"
+  },
+  "kleinanzeigen:3493198411": {
+   "id": "kleinanzeigen:3493198411",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-peugeot-aubisque/3493198411-217-2438",
+   "title": "Rennrad Peugeot Aubisque",
+   "description": "Hallo,\nIch biete mein vintage Rennrad aus den 80ern zum Kauf an.\n\nRahmengr\u00f6\u00dfe 62cm\n\nBei Interesse...",
+   "location": "38239 Salzgitter",
+   "price_text": "300 \u20ac VB",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/134d4af3-548c-4898-9b61-c894b297b147?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T21:08:52+00:00"
+  },
+  "kleinanzeigen:3493198133": {
+   "id": "kleinanzeigen:3493198133",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bulls-vulture-1-rennrad-shimano-claris-gp5000-jagwire-zuege/3493198133-217-17426",
+   "title": "Bulls Vulture 1 Rennrad \u2013 Shimano Claris \u2013 GP5000 \u2013 Jagwire Z\u00fcge",
+   "description": "Zum Verkauf steht ein Bulls Vulture 1 Rennrad in gepflegtem Zustand.\nDas Rennrad ist technisch sehr...",
+   "location": "48465 Sch\u00fcttorf",
+   "price_text": "370 \u20ac VB",
+   "price": 370.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/974bd577-7080-4eb7-8dbd-db9d99e460fa?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T21:08:52+00:00"
+  },
+  "kleinanzeigen:3493197178": {
+   "id": "kleinanzeigen:3493197178",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bulls-harrier-disc-2-rennrad-shimano-tiagra/3493197178-217-9418",
+   "title": "BULLS Harrier Disc 2 Rennrad \u2013 Shimano Tiagra",
+   "description": "Ich verkaufe mein gepflegtes BULLS Harrier Disc 2 in mattem Schwarz.\n\nDas Rennrad verf\u00fcgt \u00fcber eine...",
+   "location": "20354 Hamburg Neustadt",
+   "price_text": "600 \u20ac VB",
+   "price": 600.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/995c3ed4-b59e-4100-9880-2b4b8ecbfafc?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T21:08:52+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 401,
+   "fail_streak": 402,
    "warned": true,
    "ever_ok": true
   },
@@ -69427,8 +69507,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T21:54:41",
-   "2026-08-22T22:08:46",
    "2026-08-22T22:34:14",
    "2026-08-22T22:50:51",
    "2026-08-22T23:01:44",
@@ -69477,10 +69555,11 @@
    "2026-08-23T20:47:27",
    "2026-08-23T21:01:07",
    "2026-08-23T21:39:31",
-   "2026-08-23T21:54:24"
+   "2026-08-23T21:54:24",
+   "2026-08-23T22:08:52"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-23T21",
+  "last_status": "2026-08-23T22",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
