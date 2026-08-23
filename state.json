@@ -68849,11 +68849,91 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T19:32:21+00:00"
+  },
+  "ebay:v1|327323075350|0": {
+   "id": "ebay:v1|327323075350|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327323075350?_skw=road+bike&hash=item4c35f9c316:g:bqAAAeSw6xpqi0w1",
+   "title": "Miche Syntium DX WR AXY Road Disc Wheelset 700c \u2013 SRAM XDR \u2013 Tyres & Rotors",
+   "description": "",
+   "location": "RG14***",
+   "price_text": "\u00a3200.00",
+   "price": 200.0,
+   "image": "https://i.ebayimg.com/images/g/bqAAAeSw6xpqi0w1/s-l225.jpg",
+   "ai_reason": "This is a specific Miche wheelset with SRAM XDR freehub, not the stolen DT Swiss E1800 wheels or any other component from the bike, and it's far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T19:47:17+00:00"
+  },
+  "ebay:v1|820038560416|0": {
+   "id": "ebay:v1|820038560416|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820038560416?_skw=road+bike&hash=itembeee1b6aa0:g:-rUAAeSwA-tqi0to",
+   "title": "Reynolds Element 700C Carbon Clincher Disc Rear Wheel triathlon time trial",
+   "description": "",
+   "location": "TS17***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/-rUAAeSwA-tqi0to/s-l225.jpg",
+   "ai_reason": "This is a specific Reynolds carbon clincher rear wheel, not the DT Swiss E1800 wheelset or any other component from the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T19:47:20+00:00"
+  },
+  "ebay:v1|198590229183|0": {
+   "id": "ebay:v1|198590229183|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198590229183?_skw=road+bike&hash=item2e3ce66abf:g:x50AAeSwJ9tqi0Wk",
+   "title": "Giant Defy 2 Aluxx SL Disc 700c Size XL - TRP HY/RD hydraulic brake calipers",
+   "description": "",
+   "location": "CH2***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/x50AAeSwJ9tqi0Wk/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T19:47:20+00:00"
+  },
+  "kleinanzeigen:3493156140": {
+   "id": "kleinanzeigen:3493156140",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/diamant-gts-singlespeed-mit-carbon-gabel/3493156140-217-13384",
+   "title": "Diamant GTS Singlespeed mit Carbon Gabel",
+   "description": "Biete hier mein gebrauchtes Diamant Singlespeed Fahrrad an. Es hat eine Carbongabel und Reifen die,...",
+   "location": "24306 Pl\u00f6n",
+   "price_text": "350 \u20ac",
+   "price": 350.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4d84d64b-d82f-477d-ac39-0a4c527d7007?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model singlespeed in Germany sharing none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T19:47:23+00:00"
+  },
+  "kleinanzeigen:3493154978": {
+   "id": "kleinanzeigen:3493154978",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fixie-inc-floater-white-reifengroesse-28-zoll-rahmenhoehe-57cm/3493154978-217-5219",
+   "title": "FIXIE Inc. Floater White Reifengr\u00f6\u00dfe 28 Zoll Rahmenh\u00f6he 57cm",
+   "description": "## Details zum Fahrrad\n\n- **Marke & Modell:** FIXIE Inc. Floater White\n- **Rahmenh\u00f6he:** 57 cm\n-...",
+   "location": "76829 Landau in der Pfalz",
+   "price_text": "450 \u20ac VB",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/51/518faae7-2b9a-40b0-89d6-0c5798efb7d1?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (FIXIE Inc. Floater singlespeed) in Germany with none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T19:47:27+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 397,
+   "fail_streak": 398,
    "warned": true,
    "ever_ok": true
   },
@@ -68868,7 +68948,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T20:33:20",
    "2026-08-22T20:48:15",
    "2026-08-22T21:01:31",
    "2026-08-22T21:38:16",
@@ -68918,7 +68997,8 @@
    "2026-08-23T19:01:37",
    "2026-08-23T19:46:47",
    "2026-08-23T20:12:32",
-   "2026-08-23T20:32:21"
+   "2026-08-23T20:32:21",
+   "2026-08-23T20:47:27"
   ],
   "last_heartbeat": "2026-08-23",
   "last_status": "2026-08-23T20",
