@@ -63178,11 +63178,43 @@
    "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T05:16:29+00:00"
+  },
+  "kleinanzeigen:3484694978": {
+   "id": "kleinanzeigen:3484694978",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravel-bike-yt-szepter-700c-core-2-black-magic-groesse-l/3484694978-217-1978",
+   "title": "Gravel bike YT Szepter 700c CORE 2 Black magic Gr\u00f6\u00dfe L",
+   "description": "weniger als 10 km gefahren, aber ist mir zu gro\u00df bei 174cm.\nFahrrad ist momentan auseinander...",
+   "location": "47803 Krefeld",
+   "price_text": "1.420 \u20ac",
+   "price": 1420.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7b/7b95bd55-a935-43a0-a860-1ce0ea25bbda?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (YT Szepter gravel bike) in Germany with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T05:46:05+00:00"
+  },
+  "kleinanzeigen:3492058476": {
+   "id": "kleinanzeigen:3492058476",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/carrera-veleno-carbon-rennrad-shimano-ultegra-di2-dura-ace-m/3492058476-217-9389",
+   "title": "Carrera Veleno - Carbon Rennrad - Shimano Ultegra Di2 -Dura Ace-M",
+   "description": "Marke:\u00a0Carrera\n\nModell:\u00a0Veleno\n\nBremsen:\u00a0Felgen\n\nSchaltung:\u00a0Elektronisch\u00a0(Shimano\u00a0Di2)\n\nAnzahl\u00a0G\u00e4nge...",
+   "location": "78467 Konstanz",
+   "price_text": "1.399 \u20ac",
+   "price": 1399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d666318-e8e4-462d-b60b-8d7e955fc3cb?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Carrera \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T05:46:05+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 366,
+   "fail_streak": 367,
    "warned": true,
    "ever_ok": true
   },
@@ -63197,7 +63229,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T06:40:46",
    "2026-08-22T07:14:52",
    "2026-08-22T08:00:07",
    "2026-08-22T08:44:48",
@@ -63246,7 +63277,8 @@
    "2026-08-23T04:14:14",
    "2026-08-23T04:59:23",
    "2026-08-23T05:51:54",
-   "2026-08-23T06:16:29"
+   "2026-08-23T06:16:29",
+   "2026-08-23T06:46:05"
   ],
   "last_heartbeat": "2026-08-22",
   "last_status": "2026-08-23T06",
