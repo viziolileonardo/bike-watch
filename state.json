@@ -69899,11 +69899,43 @@
    "ai_reason": "(rule) complete bike listed as Triban \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T22:53:47+00:00"
+  },
+  "ebay:v1|128040895875|0": {
+   "id": "ebay:v1|128040895875|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128040895875?_skw=road+bike&hash=item1dcfd50583:g:AvIAAeSwe-pqi3me",
+   "title": "Zipp 808 Carbon Tubular 700C Wheelset Black Rim Brake 45mm Presta",
+   "description": "",
+   "location": "SK14***",
+   "price_text": "\u00a3473.36",
+   "price": 473.36,
+   "image": "https://i.ebayimg.com/images/g/AvIAAeSwe-pqi3me/s-l225.jpg",
+   "ai_reason": "Zipp 808 rim-brake tubular wheels are nothing like the stolen bike's DT Swiss E1800 disc wheelset or any of its components, and the location is far away.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T23:02:57+00:00"
+  },
+  "kleinanzeigen:3493220323": {
+   "id": "kleinanzeigen:3493220323",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/yt-capra-carbon/3493220323-217-322",
+   "title": "Yt Capra Carbon",
+   "description": "Ich verkaufe mein gepflegtes YT Capra, das mit hochwertigen Komponenten aufger\u00fcstet wurde und...",
+   "location": "66636 Tholey",
+   "price_text": "2.000 \u20ac VB",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f5/f513d477-a385-4056-b756-c88fbf2f472d?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (YT Capra carbon mountain bike) in Germany with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T23:03:01+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 407,
+   "fail_streak": 408,
    "warned": true,
    "ever_ok": true
   },
@@ -69918,7 +69950,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T23:54:42",
    "2026-08-23T00:06:32",
    "2026-08-23T00:33:27",
    "2026-08-23T00:48:35",
@@ -69968,10 +69999,11 @@
    "2026-08-23T22:51:19",
    "2026-08-23T23:01:30",
    "2026-08-23T23:36:18",
-   "2026-08-23T23:53:47"
+   "2026-08-23T23:53:47",
+   "2026-08-24T00:03:01"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-23T23",
+  "last_status": "2026-08-24T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
