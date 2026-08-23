@@ -69979,11 +69979,43 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T23:34:01+00:00"
+  },
+  "ebay:v1|147522853425|0": {
+   "id": "ebay:v1|147522853425|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147522853425?_skw=road+bike&hash=item22590c1a31:g:qn8AAeSwfPFqi4SB",
+   "title": "Trek Alpha One Series 1.2 56cm Road Bike Shimano Ultegra Ugraded",
+   "description": "",
+   "location": "CO1***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/qn8AAeSwfPFqi4SB/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T23:49:37+00:00"
+  },
+  "kleinanzeigen:3486811859": {
+   "id": "kleinanzeigen:3486811859",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/trek-supercaliber-gr-m-l-9-8-axs-xt-carbonlaufraeder-dropper/3486811859-217-1188",
+   "title": "Trek Supercaliber Gr. M/L 9.8 AXS XT Carbonlaufr\u00e4der Dropper",
+   "description": "Verkauf wegen Hobbyaufgabe mein Trek Supercaliber\n\nDa ich kaum noch MTB fahre trenne ich mich nun...",
+   "location": "41352 Korschenbroich",
+   "price_text": "1.990 \u20ac VB",
+   "price": 1990.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3f/3ffde6ea-b97a-43db-b146-15a62fb8e009?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T23:49:37+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 409,
+   "fail_streak": 410,
    "warned": true,
    "ever_ok": true
   },
@@ -69998,7 +70030,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T00:48:35",
    "2026-08-23T01:02:09",
    "2026-08-23T02:58:54",
    "2026-08-23T04:14:14",
@@ -70047,7 +70078,8 @@
    "2026-08-23T23:36:18",
    "2026-08-23T23:53:47",
    "2026-08-24T00:03:01",
-   "2026-08-24T00:34:01"
+   "2026-08-24T00:34:01",
+   "2026-08-24T00:49:37"
   ],
   "last_heartbeat": "2026-08-23",
   "last_status": "2026-08-24T00",
