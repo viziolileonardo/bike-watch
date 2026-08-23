@@ -62842,11 +62842,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-22T23:33:27+00:00"
+  },
+  "kleinanzeigen:3449660661": {
+   "id": "kleinanzeigen:3449660661",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mountainbike-orbea-occam-m10-lt-carbon-fully-absolut-neuwertig-/3449660661-217-5740",
+   "title": "Mountainbike Orbea Occam M10 LT Carbon, Fully,absolut neuwertig!!",
+   "description": "Zum Verkauf steht leider aus gesundheitlichen Gr\u00fcnden mein Orbea Occam m10 LT | GR. XL |...",
+   "location": "83278 Traunstein",
+   "price_text": "2.740 \u20ac",
+   "price": 2740.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/94/94af2ae8-e468-4674-9b4a-3bc98845fecf?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T00:02:06+00:00"
+  },
+  "kleinanzeigen:3492037023": {
+   "id": "kleinanzeigen:3492037023",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/koga-miyata-country-tourer-rh58-randonneur-dynamo-gravel-stadtrad/3492037023-217-47",
+   "title": "Koga Miyata Country Tourer RH58 Randonneur Dynamo Gravel Stadtrad",
+   "description": "Moin, angeboten wird ein neu aufgebautes gebrauchtes Miyata Country Tourer in RH58 - allerdings...",
+   "location": "28203 Ostertor",
+   "price_text": "550 \u20ac VB",
+   "price": 550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f5/f5d0425f-5bc7-4d04-bb2f-50654ce5a7b6?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model vintage steel tourer in Germany with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 disc groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-23T00:02:09+00:00"
+  },
+  "kleinanzeigen:3492036826": {
+   "id": "kleinanzeigen:3492036826",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-reaction-hybrid-smart-system-allroad-kleine-personen/3492036826-217-9668",
+   "title": "Cube Reaction Hybrid | Smart System | Allroad |  kleine Personen",
+   "description": "Ich biete meine Cube Reaction Hybrid PFM Smart System Bosch E-Bike 27,5 Zoll in Top Zustand zum...",
+   "location": "10115 Mitte",
+   "price_text": "1.499 \u20ac",
+   "price": 1499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3a/3a3f044e-336b-49b2-9434-a6dff0373afa?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T00:02:09+00:00"
+  },
+  "kleinanzeigen:3492036549": {
+   "id": "kleinanzeigen:3492036549",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/farhad-triban-rc-120-disc-rennrad/3492036549-217-1734",
+   "title": "Farhad TRIBAN RC 120 disc Rennrad",
+   "description": "Triban RC 120 Disc Rennrad \u2013 sehr guter Zustand \u2013 300 \u20ac\n\nIch verkaufe mein Triban RC 120 Rennrad...",
+   "location": "52222 Stolberg (Rhld)",
+   "price_text": "300 \u20ac",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e320e10-9735-4b1f-8651-b340571b8cb6?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Triban \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-23T00:02:09+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 360,
+   "fail_streak": 361,
    "warned": true,
    "ever_ok": true
   },
@@ -62861,7 +62925,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-22T00:54:13",
    "2026-08-22T01:24:32",
    "2026-08-22T03:00:20",
    "2026-08-22T04:06:58",
@@ -62911,12 +62974,13 @@
    "2026-08-22T23:54:42",
    "2026-08-23T00:06:32",
    "2026-08-23T00:33:27",
-   "2026-08-23T00:48:35"
+   "2026-08-23T00:48:35",
+   "2026-08-23T01:02:09"
   ],
   "last_heartbeat": "2026-08-22",
-  "last_status": "2026-08-23T00",
+  "last_status": "2026-08-23T01",
   "shopify": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   },
