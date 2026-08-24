@@ -75456,11 +75456,43 @@
    "level": "digest",
    "first_seen": "2026-08-24T23:10:36+00:00",
    "blue_score": 0.035
+  },
+  "kleinanzeigen:3494082297": {
+   "id": "kleinanzeigen:3494082297",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-strive-27-5-zoll-vollcarbon-baujahr-2023/3494082297-217-4975",
+   "title": "Canyon Strive 27,5 Zoll Vollcarbon \u2013 Baujahr 2023",
+   "description": "Zum Verkauf steht ein Canyon Strive 27,5 Zoll mit Vollcarbon-Rahmen, Baujahr 2023.\n\nDer Rahmen...",
+   "location": "56130 Bad Ems",
+   "price_text": "750 \u20ac VB",
+   "price": 750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/21/210366a0-f049-46bd-9e91-fe2752bb5e48?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T23:33:43+00:00"
+  },
+  "kleinanzeigen:3494081349": {
+   "id": "kleinanzeigen:3494081349",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nulane-c-62-slx-carbon-2025/3494081349-217-9266",
+   "title": "CUBE Nulane C:62 SLX Carbon 2025",
+   "description": "CUBE Nulane C:62 SLX Carbon 2025 \u2013 50 cm \u2013 neuwertig \u2013 nur ca. 200 km\n\nIch verkaufe mein CUBE...",
+   "location": "75175 Pforzheim",
+   "price_text": "1.100 \u20ac",
+   "price": 1100.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8a9fffa4-fbf1-45a3-96f4-c19a54497dc3?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T23:33:43+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 442,
+   "fail_streak": 443,
    "warned": true,
    "ever_ok": true
   },
@@ -75508,7 +75540,8 @@
    "2026-08-24T22:44:13",
    "2026-08-24T23:11:00",
    "2026-08-24T23:43:03",
-   "2026-08-25T00:10:36"
+   "2026-08-25T00:10:36",
+   "2026-08-25T00:33:43"
   ],
   "last_heartbeat": "2026-08-24",
   "last_status": "2026-08-25T00",
