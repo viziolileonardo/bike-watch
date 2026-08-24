@@ -70263,10 +70263,11 @@
    "price_text": "\u00a3227.22",
    "price": 227.22,
    "image": "https://i.ebayimg.com/images/g/0nwAAeSw2HNqi9R1/s-l225.jpg",
-   "ai_reason": "Vague, misspelled-brand carbon road bike listing at an implausibly low price in London \u2014 brand-stripped or misdescribed listings like this can't be ruled out.",
+   "ai_reason": "Ruled out from photo: battered Viking/Grifema budget alloy bike \u2014 'Cervello' title is keyword spam",
    "level": "digest",
    "first_seen": "2026-08-24T06:05:06+00:00",
-   "blue_score": 0.105
+   "blue_score": 0.105,
+   "fp": true
   },
   "kleinanzeigen:3174370706": {
    "id": "kleinanzeigen:3174370706",
@@ -70345,7 +70346,9 @@
    "image": "https://i.ebayimg.com/images/g/QqEAAeSwehZqi-fd/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-24T07:19:17+00:00",
-   "blue_score": 0.027
+   "blue_score": 0.027,
+   "fp": true,
+   "ai_reason": "Ruled out: DT Swiss PR1600 \u2014 different wheelset line, not E1800"
   },
   "kleinanzeigen:3493295139": {
    "id": "kleinanzeigen:3493295139",
@@ -70360,7 +70363,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/ca61e7c6-7e86-4e47-b7a1-6d57a952e94a?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-24T07:19:25+00:00",
-   "blue_score": 0.015
+   "blue_score": 0.015,
+   "fp": true,
+   "ai_reason": "Ruled out: vintage Diamant parts lot"
   },
   "kleinanzeigen:3493294634": {
    "id": "kleinanzeigen:3493294634",
@@ -70407,7 +70412,9 @@
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fd/fdb3ae14-a27f-41e2-be8c-c6f0b4aab652?rule=$_2.AUTO",
    "level": "digest",
    "first_seen": "2026-08-24T07:19:33+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: steel-framed city bike, Berlin"
   },
   "ebay:v1|168635393196|0": {
    "id": "ebay:v1|168635393196|0",
@@ -70580,10 +70587,11 @@
    "price_text": "\u00a3234.70",
    "price": 234.7,
    "image": "https://i.ebayimg.com/images/g/OnYAAeSwBD9qjAX6/s-l225.jpg",
-   "ai_reason": "Completely generic, brand-less road bike listing with no details, so it cannot be ruled out as the stolen bike.",
+   "ai_reason": "Ruled out from photo: branded white Dolan Hercules on Vision rim-brake wheels",
    "level": "digest",
    "first_seen": "2026-08-24T09:03:37+00:00",
-   "blue_score": 0.043
+   "blue_score": 0.043,
+   "fp": true
   },
   "ebay:v1|206512307223|507194252271": {
    "id": "ebay:v1|206512307223|507194252271",
