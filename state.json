@@ -70043,11 +70043,27 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-24T01:57:02+00:00"
+  },
+  "kleinanzeigen:3493229285": {
+   "id": "kleinanzeigen:3493229285",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/28-zoll-rennrad-von-cieli-b-crook-abzugeben/3493229285-217-23501",
+   "title": "28 Zoll Rennrad von Cieli B crook abzugeben",
+   "description": "Das Rad ist ausgestattet mit einer 2x9 Gang Kettenschaltung und die R\u00e4der sind mit Messerspeichen...",
+   "location": "01237 Strehlen",
+   "price_text": "320 \u20ac",
+   "price": 320.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/85/8565b8d5-c4d1-4900-8123-d20417a33377?rule=$_2.AUTO",
+   "ai_reason": "Different named brand with 2x9 drivetrain and bladed-spoke wheels, no matching components, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T02:54:32+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 412,
+   "fail_streak": 413,
    "warned": true,
    "ever_ok": true
   },
@@ -70062,7 +70078,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T02:58:54",
    "2026-08-23T04:14:14",
    "2026-08-23T04:59:23",
    "2026-08-23T05:51:54",
@@ -70112,10 +70127,11 @@
    "2026-08-24T00:34:01",
    "2026-08-24T00:49:37",
    "2026-08-24T01:02:14",
-   "2026-08-24T02:57:02"
+   "2026-08-24T02:57:02",
+   "2026-08-24T03:54:32"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-24T02",
+  "last_status": "2026-08-24T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
