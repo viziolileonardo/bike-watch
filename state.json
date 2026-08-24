@@ -75328,11 +75328,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-24T22:11:00+00:00"
+  },
+  "gumtree:1471978506": {
+   "id": "gumtree:1471978506",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/other-bikes/specialized-tarmac-sl5-comp-size-56-ultegra-full-carbon/1471978506",
+   "title": "Specialized Tarmac SL5 Comp Size 56 Ultegra Full Carbon",
+   "description": "",
+   "location": "Camden, London",
+   "price_text": "\u00a3750",
+   "price": 750.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/bdc3d02d2d664048ab_4c74909aa46e/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T22:43:03+00:00"
+  },
+  "ebay:v1|206513410562|0": {
+   "id": "ebay:v1|206513410562|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206513410562?_skw=road+bike&hash=item3015289202:g:Mq8AAeSwiipqjLu-",
+   "title": "Cannondale CAAD10 5 Road Bike 54cm Medium Shimano 105 Mavic Aksium Wheels",
+   "description": "",
+   "location": "DY8***",
+   "price_text": "\u00a3338.20",
+   "price": 338.2,
+   "image": "https://i.ebayimg.com/images/g/Mq8AAeSwiipqjLu-/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T22:43:03+00:00"
+  },
+  "kleinanzeigen:3494076418": {
+   "id": "kleinanzeigen:3494076418",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/koga-miyata-road-gentlemen-vintage/3494076418-217-3911",
+   "title": "Koga Miyata Road Gentlemen Vintage",
+   "description": "Shimano Deore LX mit 7 G\u00e4ngen und 60cm Stahlrahmenh\u00e4he.",
+   "location": "04416 Markkleeberg",
+   "price_text": "280 \u20ac",
+   "price": 280.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/55c85da1-73ef-4976-9260-5e7ff10937db?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T22:43:03+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 440,
+   "fail_streak": 441,
    "warned": true,
    "ever_ok": true
   },
@@ -75347,7 +75395,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T23:36:18",
    "2026-08-23T23:53:47",
    "2026-08-24T00:03:01",
    "2026-08-24T00:34:01",
@@ -75381,7 +75428,8 @@
    "2026-08-24T21:47:47",
    "2026-08-24T22:15:40",
    "2026-08-24T22:44:13",
-   "2026-08-24T23:11:00"
+   "2026-08-24T23:11:00",
+   "2026-08-24T23:43:03"
   ],
   "last_heartbeat": "2026-08-24",
   "last_status": "2026-08-24T23",
