@@ -70059,11 +70059,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-24T02:54:32+00:00"
+  },
+  "kleinanzeigen:3492104388": {
+   "id": "kleinanzeigen:3492104388",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-backroad-evil-pepper-green-grx-rx820-1x12-super-zustand/3492104388-217-19948",
+   "title": "Rose Backroad *evil pepper green* GRX RX820 1x12 super Zustand",
+   "description": "Hallo,\n\nwegen Zeitmangel und Wechsel verkaufe ich nun mein Gravelbike Rose BackRoad GRX RX 820 in...",
+   "location": "56357 Miehlen",
+   "price_text": "1.850 \u20ac VB",
+   "price": 1850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f74407e9-efa4-40a7-ab80-0a8dba811624?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T03:41:58+00:00"
+  },
+  "kleinanzeigen:3493231033": {
+   "id": "kleinanzeigen:3493231033",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/neu-cube-reaction-hybrid-one-29-zoll-uvp-3099-nur-105km/3493231033-217-1353",
+   "title": "NEU! Cube Reaction Hybrid ONE 29 Zoll - UVP:3099 - Nur 105km",
+   "description": "AKTION : 100 \u20ac Sofortrabatt auf alle E-Bikes\nNur vom 24.08. bis 31.08.\nAlle E-Bikes sind...",
+   "location": "33161 H\u00f6velhof",
+   "price_text": "1.999 \u20ac",
+   "price": 1999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/acada513-6e6b-4a05-a9a8-2cc44a610066?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T03:41:58+00:00"
+  },
+  "kleinanzeigen:3493230786": {
+   "id": "kleinanzeigen:3493230786",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ebike-specialized-carbon/3493230786-217-4348",
+   "title": "Ebike Specialized  Carbon",
+   "description": "Dieses Ebike ist ein Rennrad Specialized aus Carbon (2007),dass zum Ebike umger\u00fcstet wurde. Es...",
+   "location": "61231 Bad Nauheim",
+   "price_text": "1.200 \u20ac",
+   "price": 1200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/023bd2e2-8dfd-4602-a279-60ca9b954eb1?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T03:41:58+00:00"
+  },
+  "kleinanzeigen:3493230735": {
+   "id": "kleinanzeigen:3493230735",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-rose-pro-sl-disc-53cm-ultegra-inkl-aero-lenker-und-displ/3493230735-217-1388",
+   "title": "Rennrad Rose Pro SL Disc 53cm Ultegra inkl. Aero Lenker und Displ",
+   "description": "Zum Verkauf steht mein Rose Pro SL Disc in der Gr\u00f6\u00dfe 53cm.\nIch habe das Rad vor ca. 2 Jahren...",
+   "location": "47546 Kalkar",
+   "price_text": "1.749 \u20ac VB",
+   "price": 1749.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/75/7500b023-c154-4e3d-aa83-1549065f8005?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T03:41:58+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 413,
+   "fail_streak": 414,
    "warned": true,
    "ever_ok": true
   },
@@ -70078,7 +70142,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T04:14:14",
    "2026-08-23T04:59:23",
    "2026-08-23T05:51:54",
    "2026-08-23T06:16:29",
@@ -70128,10 +70191,11 @@
    "2026-08-24T00:49:37",
    "2026-08-24T01:02:14",
    "2026-08-24T02:57:02",
-   "2026-08-24T03:54:32"
+   "2026-08-24T03:54:32",
+   "2026-08-24T04:41:58"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-24T03",
+  "last_status": "2026-08-24T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
