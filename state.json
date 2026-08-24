@@ -75376,11 +75376,91 @@
    "ai_reason": "(rule) complete bike listed as Koga \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-24T22:43:03+00:00"
+  },
+  "kleinanzeigen:3494080550": {
+   "id": "kleinanzeigen:3494080550",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cervelo-c3-gravelbike/3494080550-217-7612",
+   "title": "Cervelo C3 Gravelbike",
+   "description": "Verkaufe mein Cervelo C3 Gravelbike.\nIch habe es selber vor ca einem Monat \u00fcber eBay gekauft da ich...",
+   "location": "85077 Manching",
+   "price_text": "1.250 \u20ac VB",
+   "price": 1250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c0b2b984-7e40-4084-82d9-c288120db36b?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cervelo \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T23:10:23+00:00"
+  },
+  "kleinanzeigen:3494080326": {
+   "id": "kleinanzeigen:3494080326",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/commencal-meta-slopeduro-singlespeed-custom-enduro-freeride/3494080326-217-8078",
+   "title": "Commencal Meta, Slopeduro, Singlespeed, Custom, Enduro, Freeride",
+   "description": "Hiermit Verkaufe ich mein Slopeduro:\n\nModell: Commencal Meta 2019\nGabel: Rockshox Lyrik\nD\u00e4mpfer:...",
+   "location": "79588 Efringen-\u200bKirchen",
+   "price_text": "2.000 \u20ac",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/905d75a9-12e4-4fe2-b740-26d9a0b11618?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model enduro MTB in Germany with no shared distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T23:10:27+00:00"
+  },
+  "kleinanzeigen:3494080006": {
+   "id": "kleinanzeigen:3494080006",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/enduro-fully-fahrrad-cannondale-jekyll-carbon-2-29-2019-/3494080006-217-7487",
+   "title": "Enduro-Fully Fahrrad Cannondale Jekyll Carbon 2 29\" (2019)",
+   "description": "Ich verkaufe mein Cannondale Jekyll Carbon 2 (29 Zoll) aus 2019 in Gr\u00f6\u00dfe L. Das Bike ist gebraucht,...",
+   "location": "91257 Pegnitz",
+   "price_text": "2.000 \u20ac VB",
+   "price": 2000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e1/e16ad66d-8c5c-4caa-a670-6951ba67ef98?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T23:10:27+00:00"
+  },
+  "kleinanzeigen:3494079686": {
+   "id": "kleinanzeigen:3494079686",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-titan-exklusiv/3494079686-217-948",
+   "title": "Rennrad Titan Exklusiv",
+   "description": "Hallo,\nich verkaufe mein Titan Exklusi, es ist auf singlespeed umgebaut. Der Rahmen hat hier und da...",
+   "location": "50935 Lindenthal",
+   "price_text": "300 \u20ac VB",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c6/c64d66cf-5a81-49b7-b8e6-6b9b5122e5e1?rule=$_2.AUTO",
+   "ai_reason": "A titanium singlespeed conversion in Cologne shares no components or characteristics with the stolen carbon disc-brake bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T23:10:31+00:00"
+  },
+  "kleinanzeigen:3494079349": {
+   "id": "kleinanzeigen:3494079349",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-carbon/3494079349-217-3833",
+   "title": "Rennrad Carbon",
+   "description": "Ich verkaufe meine Rennrad in einem sehr guten Zustand. Von kurz habe ich Service gemacht und...",
+   "location": "01069 Innere Altstadt",
+   "price_text": "540 \u20ac VB",
+   "price": 540.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/64/6436531e-a711-4e47-870d-4afe305245f5?rule=$_2.AUTO",
+   "ai_reason": "Vague, unbranded carbon road bike listing with no model details, so it cannot be ruled out despite the distant location.",
+   "level": "digest",
+   "first_seen": "2026-08-24T23:10:36+00:00",
+   "blue_score": 0.035
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 441,
+   "fail_streak": 442,
    "warned": true,
    "ever_ok": true
   },
@@ -75395,8 +75475,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T23:53:47",
-   "2026-08-24T00:03:01",
    "2026-08-24T00:34:01",
    "2026-08-24T00:49:37",
    "2026-08-24T01:02:14",
@@ -75429,10 +75507,11 @@
    "2026-08-24T22:15:40",
    "2026-08-24T22:44:13",
    "2026-08-24T23:11:00",
-   "2026-08-24T23:43:03"
+   "2026-08-24T23:43:03",
+   "2026-08-25T00:10:36"
   ],
   "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-24T23",
+  "last_status": "2026-08-25T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
