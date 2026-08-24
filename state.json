@@ -70123,11 +70123,59 @@
    "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-24T03:41:58+00:00"
+  },
+  "kleinanzeigen:3493234989": {
+   "id": "kleinanzeigen:3493234989",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-trek-madone-5-2-bontrager-vollcarbon-rh60/3493234989-217-9559",
+   "title": "Rennrad Trek Madone 5.2 Bontrager Vollcarbon RH60",
+   "description": "Ein ideales Rennrad f\u00fcr Fahrer, die ein leichtes Carbon-Bike mit hochwertiger Ausstattung suchen....",
+   "location": "01109 Klotzsche",
+   "price_text": "820 \u20ac",
+   "price": 820.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/72/7222b6b0-f9d1-4c39-a973-33e4a41fa711?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T04:31:55+00:00"
+  },
+  "kleinanzeigen:3493234328": {
+   "id": "kleinanzeigen:3493234328",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ridley-damocles-vollcarbon-rennrad/3493234328-217-292",
+   "title": "Ridley Damocles Vollcarbon Rennrad",
+   "description": "Ich biete hier mein Ridley Damocles Rennrad aus Vollcarbon an. Es ist ein leichtes und sportliches...",
+   "location": "66798 Wallerfangen",
+   "price_text": "599 \u20ac VB",
+   "price": 599.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eba7461c-3d5c-491b-9cea-c2c7b5f43050?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Ridley Damocles) with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, listed far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T04:31:59+00:00"
+  },
+  "kleinanzeigen:3493233347": {
+   "id": "kleinanzeigen:3493233347",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bicycles-herrenfahrrad-schwarz/3493233347-217-5",
+   "title": "Bicycles Herrenfahrrad schwarz",
+   "description": "Rennrad Bicycles CX 100 Fixi Singlespeed\n\n28 Zoll\n\n1-Gang\n\nRH: 48 cm\n\nF\u00e4hrt Leicht\n\nGuter...",
+   "location": "28207 Hastedt",
+   "price_text": "200 \u20ac",
+   "price": 200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e7/e753957b-3f85-4d90-9adc-d5533d6ee528?rule=$_2.AUTO",
+   "ai_reason": "A cheap black single-speed/fixie in Germany shares nothing with the stolen carbon 105 disc road bike or its DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T04:32:02+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 414,
+   "fail_streak": 415,
    "warned": true,
    "ever_ok": true
   },
@@ -70142,7 +70190,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T04:59:23",
    "2026-08-23T05:51:54",
    "2026-08-23T06:16:29",
    "2026-08-23T06:46:05",
@@ -70192,10 +70239,11 @@
    "2026-08-24T01:02:14",
    "2026-08-24T02:57:02",
    "2026-08-24T03:54:32",
-   "2026-08-24T04:41:58"
+   "2026-08-24T04:41:58",
+   "2026-08-24T05:32:02"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-24T04",
+  "last_status": "2026-08-24T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
