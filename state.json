@@ -70027,11 +70027,27 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-24T00:02:14+00:00"
+  },
+  "kleinanzeigen:3493227156": {
+   "id": "kleinanzeigen:3493227156",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/elektrorennrad-giant-weiss/3493227156-217-30061",
+   "title": "Elektrorennrad Giant wei\u00df",
+   "description": "Ich biete mein selten benutztes Rennrad zum Verkauf an . Technische Daten findet ihr unten. Bei...",
+   "location": "04178 B\u00f6hlitz-\u200bEhrenberg",
+   "price_text": "880 \u20ac VB",
+   "price": 880.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6e/6e491ea6-9ca0-4717-8d8a-addc3ccbef29?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T01:57:02+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 411,
+   "fail_streak": 412,
    "warned": true,
    "ever_ok": true
   },
@@ -70095,10 +70111,11 @@
    "2026-08-24T00:03:01",
    "2026-08-24T00:34:01",
    "2026-08-24T00:49:37",
-   "2026-08-24T01:02:14"
+   "2026-08-24T01:02:14",
+   "2026-08-24T02:57:02"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-24T01",
+  "last_status": "2026-08-24T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
