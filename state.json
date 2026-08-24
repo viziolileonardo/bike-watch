@@ -70171,11 +70171,91 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-24T04:32:02+00:00"
+  },
+  "kleinanzeigen:3493243839": {
+   "id": "kleinanzeigen:3493243839",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mavic-cosmic-slr45-carbon-laufradsatz/3493243839-217-8700",
+   "title": "Mavic Cosmic SLR45 Carbon Laufradsatz",
+   "description": "Verkaufe meine Mavic Cosmic SLR45 Laufr\u00e4der mit Pirelli P Zero Bereifung\n\u2022 Shimano Freilauf\n\u2022...",
+   "location": "72336 Balingen",
+   "price_text": "750 \u20ac",
+   "price": 750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19260437-2b5b-488e-ab3e-8624b1f8a352?rule=$_2.AUTO",
+   "ai_reason": "Different branded wheelset (Mavic Cosmic SLR45), not the DT Swiss E1800 or any part of the stolen bike, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T05:20:45+00:00"
+  },
+  "kleinanzeigen:3493243471": {
+   "id": "kleinanzeigen:3493243471",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-laser-rot-57-cm-rahmenhoehe/3493243471-217-5101",
+   "title": "Rennrad Laser rot, 57 cm Rahmenh\u00f6he",
+   "description": "Ich verkaufe mein gepflegtes Laser Rennrad, das mir immer treue Dienste geleistet hat. Es befindet...",
+   "location": "65366 Geisenheim",
+   "price_text": "400 \u20ac VB",
+   "price": 400.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/55662d3e-4e28-4163-b519-54fba29818a9?rule=$_2.AUTO",
+   "ai_reason": "A red vintage Laser road bike in rural Germany is a different make/model with no matching distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T05:20:48+00:00"
+  },
+  "kleinanzeigen:3493242419": {
+   "id": "kleinanzeigen:3493242419",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bianchi-infinito-carbon-rennrad-mit-carbon-lrs-groesse-55-2025/3493242419-217-3114",
+   "title": "Bianchi Infinito (Carbon-Rennrad mit Carbon-LRS), Gr\u00f6\u00dfe 55 - 2025",
+   "description": "Ich biete ein sehr gepflegtes Bianchi Infinito, Modelljahr 2025, in Gr\u00f6\u00dfe 55 an. Es ist ein...",
+   "location": "26121 Oldenburg",
+   "price_text": "2.950 \u20ac VB",
+   "price": 2950.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/40/40a6c34a-077f-475f-85cb-7ae9c2fc88e3?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T05:20:48+00:00"
+  },
+  "kleinanzeigen:3493242407": {
+   "id": "kleinanzeigen:3493242407",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/e-bike-mtb-conway-xyron-s-7-9-xl-carbon-groesse-m/3493242407-217-8076",
+   "title": "E-Bike MTB Conway Xyron S 7.9 XL Carbon Gr\u00f6\u00dfe M",
+   "description": "Verkaufe ein sehr gut gepflegtes e-bike nach Ablauf des Leasings \u2013 ab Ende September...",
+   "location": "79595 R\u00fcmmingen",
+   "price_text": "2.200 \u20ac",
+   "price": 2200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/68/68224a85-1fe7-4538-be7a-5c0d50aa222b?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model electric mountain bike in Germany with no shared distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T05:20:50+00:00"
+  },
+  "kleinanzeigen:3493242401": {
+   "id": "kleinanzeigen:3493242401",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike-steppenwolf-geo-disc-13kg-xt-schwalbe-51cm/3493242401-217-29943",
+   "title": "Gravelbike Steppenwolf Geo Disc 13Kg XT Schwalbe 51cm",
+   "description": "Hallo und guten Tag.\nDas Fahrrad wurde sehr wenig gefahren und befinden sich daher in sehr gutem...",
+   "location": "40476 Derendorf",
+   "price_text": "320 \u20ac",
+   "price": 320.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c4488a4-460f-4d59-a421-00462f2366f9?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model gravel bike with XT groupset and no matching distinctive components, listed in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-24T05:20:53+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 415,
+   "fail_streak": 416,
    "warned": true,
    "ever_ok": true
   },
@@ -70190,8 +70270,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T05:51:54",
-   "2026-08-23T06:16:29",
    "2026-08-23T06:46:05",
    "2026-08-23T07:18:43",
    "2026-08-23T08:02:18",
@@ -70240,10 +70318,11 @@
    "2026-08-24T02:57:02",
    "2026-08-24T03:54:32",
    "2026-08-24T04:41:58",
-   "2026-08-24T05:32:02"
+   "2026-08-24T05:32:02",
+   "2026-08-24T06:20:53"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-24T05",
+  "last_status": "2026-08-24T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
