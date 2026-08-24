@@ -70011,11 +70011,27 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-23T23:49:37+00:00"
+  },
+  "kleinanzeigen:3493223879": {
+   "id": "kleinanzeigen:3493223879",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-rh-61-canyon-gross-vintage-2000/3493223879-217-7318",
+   "title": "Rennrad RH 61 Canyon gro\u00df vintage 2000",
+   "description": "Verkaufe mein Canyon Roadlite Comp F3 in Silber. Vintage 2000er\n\n* Rahmengr\u00f6\u00dfe ca. 61 cm\n* leichter...",
+   "location": "73117 Wangen",
+   "price_text": "250 \u20ac VB",
+   "price": 250.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7b/7ba24521-a154-497b-ada2-ee18847d6db1?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-24T00:02:14+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 410,
+   "fail_streak": 411,
    "warned": true,
    "ever_ok": true
   },
@@ -70030,7 +70046,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-23T01:02:09",
    "2026-08-23T02:58:54",
    "2026-08-23T04:14:14",
    "2026-08-23T04:59:23",
@@ -70079,10 +70094,11 @@
    "2026-08-23T23:53:47",
    "2026-08-24T00:03:01",
    "2026-08-24T00:34:01",
-   "2026-08-24T00:49:37"
+   "2026-08-24T00:49:37",
+   "2026-08-24T01:02:14"
   ],
   "last_heartbeat": "2026-08-23",
-  "last_status": "2026-08-24T00",
+  "last_status": "2026-08-24T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
