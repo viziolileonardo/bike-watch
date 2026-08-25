@@ -75744,11 +75744,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-25T04:52:34+00:00"
+  },
+  "ebay:v1|820044346675|0": {
+   "id": "ebay:v1|820044346675|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820044346675?_skw=road+bike&hash=itembeee73b533:g:~KUAAeSwWhdqjSSf",
+   "title": "Temple Step through Grey Road Bike Drop Bar Rear Rack Mudguards Kickstand",
+   "description": "",
+   "location": "IP22***",
+   "price_text": "\u00a3414.70",
+   "price": 414.7,
+   "image": "https://i.ebayimg.com/images/g/~KUAAeSwWhdqjSSf/s-l225.jpg",
+   "ai_reason": "A step-through Temple utility bike with rack, mudguards and kickstand is a specific different bike sharing no distinctive components with the stolen carbon race bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T05:19:38+00:00"
+  },
+  "ebay:v1|366627054987|0": {
+   "id": "ebay:v1|366627054987|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366627054987?_skw=road+bike&hash=item555cace58b:g:ctIAAeSwD~1qjSHI",
+   "title": "y Giant Propel Advanced Disc (wersja z osprz\u0119tem Shimano 105, m.in. model Advanc",
+   "description": "",
+   "location": "SW1X***",
+   "price_text": "\u00a31230.70",
+   "price": 1230.7,
+   "image": "https://i.ebayimg.com/images/g/ctIAAeSwD~1qjSHI/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T05:19:38+00:00"
+  },
+  "kleinanzeigen:3494105077": {
+   "id": "kleinanzeigen:3494105077",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/veloci-old-street-v-2-singlespeed-paul-h-son-white-eno-etc/3494105077-217-3446",
+   "title": "Veloci OLD Street V .2 Singlespeed | Paul | H+Son | White ENO etc",
+   "description": "Herzlich Willkommen!\n\nIch m\u00f6chte gerne mein Veloci OLD Street V .2 Singlespeed verkaufen. Das...",
+   "location": "10829 Sch\u00f6neberg",
+   "price_text": "690 \u20ac VB",
+   "price": 690.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d8/d85aec40-6a4e-420d-91f5-9ea84753f2af?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model singlespeed with Paul/H+Son/White ENO parts, no link to the stolen bike's components, and listed in Berlin.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T05:19:42+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 449,
+   "fail_streak": 450,
    "warned": true,
    "ever_ok": true
   },
@@ -75796,10 +75844,11 @@
    "2026-08-25T03:04:52",
    "2026-08-25T04:12:16",
    "2026-08-25T04:57:33",
-   "2026-08-25T05:52:34"
+   "2026-08-25T05:52:34",
+   "2026-08-25T06:19:42"
   ],
   "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-25T05",
+  "last_status": "2026-08-25T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
