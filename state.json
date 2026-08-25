@@ -75488,11 +75488,91 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-24T23:33:43+00:00"
+  },
+  "ebay:v1|307144482627|0": {
+   "id": "ebay:v1|307144482627|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307144482627?_skw=road+bike&hash=item47833cdf43:g:OnIAAeSwYtNqjNw-",
+   "title": " Brand New 2021 Specialized Allez Sprint Frameset \u2013 56cm",
+   "description": "",
+   "location": "CH5***",
+   "price_text": "\u00a31599.99",
+   "price": 1599.99,
+   "image": "https://i.ebayimg.com/images/g/OnIAAeSwYtNqjNw-/s-l225.jpg",
+   "ai_reason": "A specific different make/model frameset only, brand new, with no mention of the stolen bike's distinctive components, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T00:24:23+00:00"
+  },
+  "ebay:v1|336759809279|0": {
+   "id": "ebay:v1|336759809279|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336759809279?_skw=road+bike&hash=item4e6872e4ff:g:4QAAAeSw02JqjNkX",
+   "title": "Green Road Bike 700C M  Faulty Battery With Key And Charger And Bike About New",
+   "description": "",
+   "location": "NG11***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/4QAAAeSw02JqjNkX/s-l225.jpg",
+   "ai_reason": "This is an e-bike with battery and key, green, cheap, and far from London \\u2014 no overlap with the stolen carbon road bike or its distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T00:24:28+00:00"
+  },
+  "kleinanzeigen:3479801300": {
+   "id": "kleinanzeigen:3479801300",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-race-fe-allroad-top-zustand-m-56cm/3479801300-217-5397",
+   "title": "Cube Nuroad Race FE Allroad - TOP Zustand - M/56cm",
+   "description": "Cube Nuroad Race FE Allroad \u2013 Modelljahr 2024 \u2013 Rahmengr\u00f6\u00dfe 56\n\nIch verkaufe mein sehr wenig...",
+   "location": "53489 Sinzig",
+   "price_text": "1.399 \u20ac VB",
+   "price": 1399.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cb/cb69d342-8510-4c89-a505-053d719353a7?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T00:24:28+00:00"
+  },
+  "kleinanzeigen:3491628187": {
+   "id": "kleinanzeigen:3491628187",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-cross-hybrid-race-625-allroad-e-bike-bosch-cx-3-631-km/3491628187-217-9500",
+   "title": "CUBE Cross Hybrid Race 625 Allroad E-Bike \u2013 Bosch CX \u2013 3.631 km",
+   "description": "Ich verkaufe mein gepflegtes CUBE Cross Hybrid Race 625 Allroad in Schwarz mit gr\u00fcnen Details.\n\nDas...",
+   "location": "22607 Hamburg Gro\u00df Flottbek",
+   "price_text": "1.550 \u20ac VB",
+   "price": 1550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bc/bc2e1b8c-bd05-443e-a737-2a8d6b8835bf?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T00:24:28+00:00"
+  },
+  "kleinanzeigen:3494083733": {
+   "id": "kleinanzeigen:3494083733",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nulane-c-62-slx-carbon-2026-58-cm-neuwertig/3494083733-217-9266",
+   "title": "CUBE Nulane C:62 SLX Carbon 2026 \u2013 58 cm \u2013 neuwertig",
+   "description": "Ich verkaufe mein CUBE Nulane C:62 SLX, Modelljahr 2026, in der Farbe electricblue\u2019n\u2019blue und mit...",
+   "location": "75175 Pforzheim",
+   "price_text": "1.100 \u20ac",
+   "price": 1100.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ea/eaaaecd7-8948-4e68-9b26-3edc56456593?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T00:24:28+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 444,
+   "fail_streak": 445,
    "warned": true,
    "ever_ok": true
   },
@@ -75507,7 +75587,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T01:02:14",
    "2026-08-24T02:57:02",
    "2026-08-24T03:54:32",
    "2026-08-24T04:41:58",
@@ -75540,10 +75619,11 @@
    "2026-08-24T23:43:03",
    "2026-08-25T00:10:36",
    "2026-08-25T00:33:43",
-   "2026-08-25T00:51:02"
+   "2026-08-25T00:51:02",
+   "2026-08-25T01:24:28"
   ],
   "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-25T00",
+  "last_status": "2026-08-25T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
