@@ -75616,11 +75616,43 @@
    "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T02:04:52+00:00"
+  },
+  "kleinanzeigen:3494089644": {
+   "id": "kleinanzeigen:3494089644",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-aethos-58-dura-ace-powermeter/3494089644-217-8325",
+   "title": "Specialized Aethos 58 - Dura Ace - Powermeter",
+   "description": "Specialized Aethos 2022 Rahmenset mit einer Shimano Dura ace di2 11V Gruppe von 2020.\nVorbau Tune...",
+   "location": "79576 Weil am Rhein",
+   "price_text": "2.599 \u20ac",
+   "price": 2599.0,
+   "image": "",
+   "ai_reason": "Specific different make/model with Dura-Ace Di2, no shared distinctive parts, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T03:12:16+00:00"
+  },
+  "kleinanzeigen:3494089608": {
+   "id": "kleinanzeigen:3494089608",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rose-reveal-plus-105-l/3494089608-217-1867",
+   "title": "Rose Reveal Plus 105 L",
+   "description": "Hallo,\n\nich biete dir hier mein Rose Reveal Plus in der Gr\u00f6\u00dfe L zum Kauf an. Ich habe es selber im...",
+   "location": "46483 Wesel",
+   "price_text": "2.199 \u20ac VB",
+   "price": 2199.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02135763-b8d6-44c8-bf9b-f9e57c8d93bb?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T03:12:16+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 446,
+   "fail_streak": 447,
    "warned": true,
    "ever_ok": true
   },
@@ -75635,7 +75667,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T03:54:32",
    "2026-08-24T04:41:58",
    "2026-08-24T05:32:02",
    "2026-08-24T06:20:53",
@@ -75668,10 +75699,11 @@
    "2026-08-25T00:33:43",
    "2026-08-25T00:51:02",
    "2026-08-25T01:24:28",
-   "2026-08-25T03:04:52"
+   "2026-08-25T03:04:52",
+   "2026-08-25T04:12:16"
   ],
   "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-25T03",
+  "last_status": "2026-08-25T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
