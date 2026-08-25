@@ -75680,11 +75680,75 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T03:57:33+00:00"
+  },
+  "gumtree:1510846453": {
+   "id": "gumtree:1510846453",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/city-bikes/shimano-grx-di2-electric-gearing-carbon-disc-road-gravel-bike-pearson-off-grid/1510846453",
+   "title": "Shimano GRX Di2 Electric Gearing Carbon Disc Road / Gravel Bike Pearson Off Grid",
+   "description": "",
+   "location": "Acton, London",
+   "price_text": "\u00a3620",
+   "price": 620.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/969343d6803a4e6181_3ffc48722639/86",
+   "ai_reason": "This is a specific different make/model (Pearson Off Grid) with electronic GRX Di2, not the stolen bike's 105 mechanical groupset, and no mention of the distinctive DT Swiss E1800 wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T04:52:25+00:00"
+  },
+  "kleinanzeigen:3494098905": {
+   "id": "kleinanzeigen:3494098905",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mtb-von-lapierre-gr-m/3494098905-217-1738",
+   "title": "MTB von Lapierre Gr.M",
+   "description": "Lapierre Mountainbike , Carbon, Shimano Bremse, SRAM Schaltung.\nRockShok SiD Gabel\nKupferfarbene...",
+   "location": "58636 Iserlohn",
+   "price_text": "999 \u20ac VB",
+   "price": 999.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e9/e97d259c-cdfc-4afb-a222-440c4bd50f93?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Lapierre \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T04:52:25+00:00"
+  },
+  "kleinanzeigen:3494097553": {
+   "id": "kleinanzeigen:3494097553",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike/3494097553-217-7262",
+   "title": "Gravelbike",
+   "description": "Biete hier mein ghost Asket gravelbike welches ich erst Anfang des Jahres gekauft habe. Ich f\u00fchl...",
+   "location": "87600 Kaufbeuren",
+   "price_text": "749 \u20ac VB",
+   "price": 749.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0f/0fc96b67-121b-4e0c-bdf5-6d61621c03f9?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Ghost Asket gravel bike) in Germany with no mention of the distinctive DT Swiss E1800 wheelset or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T04:52:29+00:00"
+  },
+  "kleinanzeigen:3494097347": {
+   "id": "kleinanzeigen:3494097347",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-speacialized/3494097347-217-4567",
+   "title": "Rennrad Speacialized",
+   "description": "Rennrad Speacialized sehr gute Zustand nicht so oft benutzt",
+   "location": "61381 Friedrichsdorf",
+   "price_text": "1.000 \u20ac",
+   "price": 1000.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/de/de6c786d-f71d-45d6-b4d5-f1102adf92f0?rule=$_2.AUTO",
+   "ai_reason": "Listed as a Specialized road bike in Germany with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T04:52:34+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 448,
+   "fail_streak": 449,
    "warned": true,
    "ever_ok": true
   },
@@ -75699,7 +75763,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T05:32:02",
    "2026-08-24T06:20:53",
    "2026-08-24T07:05:06",
    "2026-08-24T08:19:34",
@@ -75732,10 +75795,11 @@
    "2026-08-25T01:24:28",
    "2026-08-25T03:04:52",
    "2026-08-25T04:12:16",
-   "2026-08-25T04:57:33"
+   "2026-08-25T04:57:33",
+   "2026-08-25T05:52:34"
   ],
   "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-25T04",
+  "last_status": "2026-08-25T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
