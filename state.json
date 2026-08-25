@@ -78960,11 +78960,75 @@
    "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T16:54:03+00:00"
+  },
+  "ebay:v1|287545523431|0": {
+   "id": "ebay:v1|287545523431|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287545523431?_skw=road+bike&hash=item42f30c7ce7:g:aXEAAeSweAVqjcxV",
+   "title": "Giant SCR 2.0 XL Road Bike \u2013 Custom Paint & Vintage Setup",
+   "description": "",
+   "location": "DE11***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/aXEAAeSweAVqjcxV/s-l225.jpg",
+   "ai_reason": "Specific different make/model (Giant SCR 2.0) with vintage setup, no mention of the distinctive DT Swiss wheels or 105 groupset, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T17:19:09+00:00"
+  },
+  "ebay:v1|287545520875|0": {
+   "id": "ebay:v1|287545520875|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287545520875?_skw=road+bike&hash=item42f30c72eb:g:qCQAAeSw-qlqjcv0",
+   "title": "Specialized Allez Road Bike  Black/Red",
+   "description": "",
+   "location": "BS35***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/qCQAAeSw-qlqjcv0/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T17:19:09+00:00"
+  },
+  "ebay:v1|377446938829|0": {
+   "id": "ebay:v1|377446938829|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377446938829?_skw=road+bike&hash=item57e19738cd:g:EcIAAeSwYspqjcsO",
+   "title": "Pinarello Gan S Full Carbon Road Bike 54cm Ultegra",
+   "description": "",
+   "location": "L15***",
+   "price_text": "\u00a3995.00",
+   "price": 995.0,
+   "image": "https://i.ebayimg.com/images/g/EcIAAeSwYspqjcsO/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T17:19:09+00:00"
+  },
+  "ebay:v1|278310696898|0": {
+   "id": "ebay:v1|278310696898|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/278310696898?_skw=road+bike&hash=item40cc9c37c2:g:EQMAAeSwgwRqjckU",
+   "title": "Prime RC-50 50mm 700C Carbon Road Wheelset Rim Brake Clincher",
+   "description": "",
+   "location": "B90***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/EQMAAeSwgwRqjckU/s-l225.jpg",
+   "ai_reason": "This is a different branded rim-brake carbon wheelset, not the stolen bike's DT Swiss E1800 disc wheels or any of its parts.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T17:19:13+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 466,
+   "fail_streak": 467,
    "warned": true,
    "ever_ok": true
   },
@@ -78979,7 +79043,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T18:06:39",
    "2026-08-24T18:46:05",
    "2026-08-24T19:18:35",
    "2026-08-24T20:11:54",
@@ -79014,10 +79077,11 @@
    "2026-08-25T15:21:44",
    "2026-08-25T16:24:43",
    "2026-08-25T17:09:42",
-   "2026-08-25T17:54:03"
+   "2026-08-25T17:54:03",
+   "2026-08-25T18:19:13"
   ],
   "last_heartbeat": "2026-08-25",
-  "last_status": "2026-08-25T17",
+  "last_status": "2026-08-25T18",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
