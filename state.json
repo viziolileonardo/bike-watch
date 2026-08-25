@@ -76160,11 +76160,59 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T07:56:47+00:00"
+  },
+  "ebay:v1|398322146153|0": {
+   "id": "ebay:v1|398322146153|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398322146153?_skw=road+bike&hash=item5cbdd99b69:g:4RAAAeSw~gJqjU5s",
+   "title": "Fuji Roubaix 1.1, Road Bike 54cm - Shimano Ultegra",
+   "description": "",
+   "location": "NW4***",
+   "price_text": "\u00a31021.60",
+   "price": 1021.6,
+   "image": "https://i.ebayimg.com/images/g/4RAAAeSw~gJqjU5s/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Fuji \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T08:31:02+00:00"
+  },
+  "kleinanzeigen:3158099320": {
+   "id": "kleinanzeigen:3158099320",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/herren-diamant-e-bosch-ruecktritt-pegasus-premio-evo-5r-uvp-4399-750er-akku-bosch-75nm-perfomance-smart-system-damen-www-fahrrad-kraus-de-201059/3158099320-217-1824",
+   "title": "HERREN DIAMANT E-BOSCH R\u00dcCKTRITT\u2705PEGASUS PREMIO EVO 5R \u2705*UVP 4399\u20ac\u26a1\ufe0f750ER AKKU\u26a1\ufe0fBosch 75Nm Perfomance SMART SYSTEM DAMEN  www.fahrrad-kraus.de 201059",
+   "description": "Pegasus Premio Evo 5 R | \u26a1\ufe0f750Wh\u26a1\ufe0f | E-Bike Herren City\n\nAKTIONSPREIS: 2499 \u20ac*\n\nUnverbindliche...",
+   "location": "41515 Grevenbroich",
+   "price_text": "2.499 \u20ac",
+   "price": 2499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5f8847c0-8dc0-4d0f-a867-14690028501f?rule=$_2.AUTO",
+   "ai_reason": "A branded German e-city bike from a dealer in Germany, sharing no components with the stolen carbon road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T08:31:06+00:00"
+  },
+  "marktplaats:m2434951545": {
+   "id": "marktplaats:m2434951545",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2434951545-cube-racefiets-shimano-ultegra-schijfremmen",
+   "title": "Cube racefiets, Shimano Ultegra, schijfremmen,",
+   "description": "Te koop aangeboden: een prachtige cube racefiets, uitgerust met een complete shimano ultegra groepset en hydraulische schijfremmen. De fiets verkeert in zo goed als nieuwe staat en is perfect voor zow",
+   "location": "Losser",
+   "price_text": "\u20ac1200",
+   "price": 1200.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4f007691-2a00-448b-acff-e4bac090983a?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T08:31:06+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 453,
+   "fail_streak": 454,
    "warned": true,
    "ever_ok": true
   },
@@ -76179,7 +76227,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T09:12:20",
    "2026-08-24T10:03:53",
    "2026-08-24T11:02:28",
    "2026-08-24T11:52:42",
@@ -76213,10 +76260,11 @@
    "2026-08-25T06:19:42",
    "2026-08-25T07:00:21",
    "2026-08-25T08:07:56",
-   "2026-08-25T08:56:47"
+   "2026-08-25T08:56:47",
+   "2026-08-25T09:31:06"
   ],
-  "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-25T08",
+  "last_heartbeat": "2026-08-25",
+  "last_status": "2026-08-25T09",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
