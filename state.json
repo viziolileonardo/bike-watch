@@ -76096,11 +76096,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-25T07:07:56+00:00"
+  },
+  "ebay:v1|158221213862|0": {
+   "id": "ebay:v1|158221213862|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158221213862?_skw=road+bike&hash=item24d6b820a6:g:-0QAAeSwaGNqjUFi",
+   "title": "Enve 4.5 Carbon Wheelset Rim Brake with Chris King Hubs!",
+   "description": "",
+   "location": "NW10***",
+   "price_text": "\u00a3863.50",
+   "price": 863.5,
+   "image": "https://i.ebayimg.com/images/g/-0QAAeSwaGNqjUFi/s-l225.jpg",
+   "ai_reason": "High-end rim-brake Enve/Chris King wheelset is unrelated to the stolen bike's disc-brake DT Swiss E1800 wheels or any of its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T07:56:44+00:00"
+  },
+  "ebay:v1|237027825252|0": {
+   "id": "ebay:v1|237027825252|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237027825252?_skw=road+bike&hash=item372ff59664:g:urwAAeSwxB9qjJlg",
+   "title": "Giant TCR Advanced 2 Carbon Road Bike Size M (2017)",
+   "description": "",
+   "location": "N1***",
+   "price_text": "\u00a3489.00",
+   "price": 489.0,
+   "image": "https://i.ebayimg.com/images/g/urwAAeSwxB9qjJlg/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T07:56:44+00:00"
+  },
+  "kleinanzeigen:3494190356": {
+   "id": "kleinanzeigen:3494190356",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/prophete-e-bike-graveler-e-mtb-27-5-rh48-/3494190356-217-1260",
+   "title": "PROPHETE E-BIKE GRAVELER E-MTB (27,5\u201d, RH48)",
+   "description": "Zum Verkauf steht mein PROPHETE E-BIKE GRAVELER E-MTB (27,5\u201d, RH48)\n\nDetails:\n\t\u2022\tGekauft...",
+   "location": "59590 Geseke",
+   "price_text": "850 \u20ac VB",
+   "price": 850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d5/d50bd9de-827c-40ea-b6b8-9003bedcaf86?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model e-MTB in Germany with no shared distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T07:56:47+00:00"
+  },
+  "kleinanzeigen:3494187593": {
+   "id": "kleinanzeigen:3494187593",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-rennrad-endurace-al-disc-gr-s/3494187593-217-1058",
+   "title": "Canyon Rennrad Endurace AL Disc Gr. S",
+   "description": "Ich verkaufe mein wenig gefahrenes Rennrad in der Farbe cold cactus (mint-grau), das ich im...",
+   "location": "33615 Bielefeld (Innenstadt)",
+   "price_text": "1.300 \u20ac VB",
+   "price": 1300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dcbc9702-70da-4030-9711-514f7d059b34?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T07:56:47+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 452,
+   "fail_streak": 453,
    "warned": true,
    "ever_ok": true
   },
@@ -76115,7 +76179,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T08:19:34",
    "2026-08-24T09:12:20",
    "2026-08-24T10:03:53",
    "2026-08-24T11:02:28",
@@ -76149,7 +76212,8 @@
    "2026-08-25T05:52:34",
    "2026-08-25T06:19:42",
    "2026-08-25T07:00:21",
-   "2026-08-25T08:07:56"
+   "2026-08-25T08:07:56",
+   "2026-08-25T08:56:47"
   ],
   "last_heartbeat": "2026-08-24",
   "last_status": "2026-08-25T08",
