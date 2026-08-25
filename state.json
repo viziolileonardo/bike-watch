@@ -75648,11 +75648,43 @@
    "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T03:12:16+00:00"
+  },
+  "kleinanzeigen:3412903256": {
+   "id": "kleinanzeigen:3412903256",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-cadex-monex-2/3412903256-217-6972",
+   "title": "Giant Cadex Monex 2",
+   "description": "Biete hier ein h\u00fcbsches Sammlerst\u00fcck.\n\n- 30 Jahre alt\n- Carbon-Rahmen 8,5 Kg Gesamtgewicht\n- 24...",
+   "location": "96224 Burgkunstadt",
+   "price_text": "690 \u20ac VB",
+   "price": 690.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8b/8b17e54f-f485-4eb3-a36c-cccbc9e079cf?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T03:57:33+00:00"
+  },
+  "kleinanzeigen:3444313212": {
+   "id": "kleinanzeigen:3444313212",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-stereo-hybrid-120-race-allrad-625/3444313212-217-7315",
+   "title": "CUBE Stereo Hybrid 120 Race Allrad 625",
+   "description": "Das Fahrrad wurde nur rund\u00a01050 km gefahren\u00a0und ist technisch wie optisch in\u00a0neuwertigen...",
+   "location": "87700 Memmingen",
+   "price_text": "2.850 \u20ac VB",
+   "price": 2850.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/97df334a-d3cf-4502-8ca4-fcb20fb21c8c?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T03:57:33+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 447,
+   "fail_streak": 448,
    "warned": true,
    "ever_ok": true
   },
@@ -75667,7 +75699,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T04:41:58",
    "2026-08-24T05:32:02",
    "2026-08-24T06:20:53",
    "2026-08-24T07:05:06",
@@ -75700,7 +75731,8 @@
    "2026-08-25T00:51:02",
    "2026-08-25T01:24:28",
    "2026-08-25T03:04:52",
-   "2026-08-25T04:12:16"
+   "2026-08-25T04:12:16",
+   "2026-08-25T04:57:33"
   ],
   "last_heartbeat": "2026-08-24",
   "last_status": "2026-08-25T04",
