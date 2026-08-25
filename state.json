@@ -80578,11 +80578,75 @@
    "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T22:11:01+00:00"
+  },
+  "ebay:v1|820046481969|0": {
+   "id": "ebay:v1|820046481969|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820046481969?_skw=road+bike&hash=itembeee944a31:g:PAMAAeSwy-ZqjhD8",
+   "title": "Cinelli Volare Bicycle Saddle Noir",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3344.30",
+   "price": 344.3,
+   "image": "https://i.ebayimg.com/images/g/PAMAAeSwy-ZqjhD8/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cinelli \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T22:43:11+00:00"
+  },
+  "kleinanzeigen:3494944492": {
+   "id": "kleinanzeigen:3494944492",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wilier-gtr-granturismo-2016-xl-carbon-rennrad/3494944492-217-18675",
+   "title": "Wilier GTR Granturismo 2016 \u2013 XL \u2013 Carbon Rennrad",
+   "description": "wundersch\u00f6nes Wilier GTR Granturismo 2016 \u2013 XL \u2013 Carbon Rennrad \u2013 nahezu neuwertig, keine 300...",
+   "location": "50937 K\u00f6ln S\u00fclz",
+   "price_text": "1.499 \u20ac VB",
+   "price": 1499.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c1/c1887f6f-5cf3-4d72-a4f3-9ce924b4e162?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T22:43:11+00:00"
+  },
+  "kleinanzeigen:3494943317": {
+   "id": "kleinanzeigen:3494943317",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/canyon-endurace-al-7-disc-105-rh-m-54-/3494943317-217-8417",
+   "title": "Canyon Endurace AL 7 Disc 105 RH M (54)",
+   "description": "Canyon Endurace AL 7 Disc 105 RH M (54)",
+   "location": "73642 Welzheim",
+   "price_text": "1.000 \u20ac VB",
+   "price": 1000.0,
+   "image": "",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T22:43:11+00:00"
+  },
+  "kleinanzeigen:3494943138": {
+   "id": "kleinanzeigen:3494943138",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/caad13-disc-105-rh54/3494943138-217-8417",
+   "title": "CAAD13 Disc 105 RH54",
+   "description": "CAAD13 Disc 105 RH54",
+   "location": "73642 Welzheim",
+   "price_text": "1.000 \u20ac VB",
+   "price": 1000.0,
+   "image": "",
+   "ai_reason": "Specific different make/model (Cannondale CAAD13, aluminium) sharing only ubiquitous 105 parts, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T22:43:16+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 476,
+   "fail_streak": 477,
    "warned": true,
    "ever_ok": true
   },
@@ -80597,7 +80661,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T23:43:03",
    "2026-08-25T00:10:36",
    "2026-08-25T00:33:43",
    "2026-08-25T00:51:02",
@@ -80632,7 +80695,8 @@
    "2026-08-25T21:49:15",
    "2026-08-25T22:13:08",
    "2026-08-25T22:42:42",
-   "2026-08-25T23:11:01"
+   "2026-08-25T23:11:01",
+   "2026-08-25T23:43:16"
   ],
   "last_heartbeat": "2026-08-25",
   "last_status": "2026-08-25T23",
