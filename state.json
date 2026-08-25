@@ -80738,11 +80738,27 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-25T23:13:14+00:00"
+  },
+  "kleinanzeigen:3494949037": {
+   "id": "kleinanzeigen:3494949037",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/colnago-sport-rennrad-12-gang-eh-57/3494949037-217-8792",
+   "title": "Colnago SPORT Rennrad  12 Gang, EH 57",
+   "description": "COLNAGO Sport Rennrad,\nsehr gut erhalten, kein Rost, Lack wie neu, da\nkaum gefahren, super...",
+   "location": "76689 Karlsdorf-\u200bNeuthard",
+   "price_text": "450 \u20ac",
+   "price": 450.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/98/982bbe2a-1c00-4766-b433-2801059063dc?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T23:35:56+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 478,
+   "fail_streak": 479,
    "warned": true,
    "ever_ok": true
   },
@@ -80757,7 +80773,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-25T00:33:43",
    "2026-08-25T00:51:02",
    "2026-08-25T01:24:28",
    "2026-08-25T03:04:52",
@@ -80792,7 +80807,8 @@
    "2026-08-25T22:42:42",
    "2026-08-25T23:11:01",
    "2026-08-25T23:43:16",
-   "2026-08-26T00:13:14"
+   "2026-08-26T00:13:14",
+   "2026-08-26T00:35:56"
   ],
   "last_heartbeat": "2026-08-25",
   "last_status": "2026-08-26T00",
