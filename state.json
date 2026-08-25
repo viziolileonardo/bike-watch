@@ -75568,11 +75568,59 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T00:24:28+00:00"
+  },
+  "ebay:v1|366626695404|0": {
+   "id": "ebay:v1|366626695404|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366626695404?_skw=road+bike&hash=item555ca768ec:g:vu0AAeSwislqjOr8",
+   "title": "2021 Cannondale Caad13 Size 51 Shimano 105 Set Hydraulic Disc Brakes",
+   "description": "",
+   "location": "SW8***",
+   "price_text": "\u00a3792.10",
+   "price": 792.1,
+   "image": "https://i.ebayimg.com/images/g/vu0AAeSwislqjOr8/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T02:04:47+00:00"
+  },
+  "ebay:v1|227490229179|0": {
+   "id": "ebay:v1|227490229179|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227490229179?_skw=road+bike&hash=item34f7796bbb:g:iBYAAeSwq2JqjOYE",
+   "title": "Off-Road pit bike-orange-black 110cc",
+   "description": "",
+   "location": "AL10***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/iBYAAeSwq2JqjOYE/s-l225.jpg",
+   "ai_reason": "A 110cc motorised pit bike is unrelated to the stolen road bicycle and shares no components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-25T02:04:52+00:00"
+  },
+  "kleinanzeigen:3494085711": {
+   "id": "kleinanzeigen:3494085711",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/peugeot-festina-rennrad-56-cm-rh-shimano-rsx-sti-top-zustand/3494085711-217-4308",
+   "title": "Peugeot Festina Rennrad 56 cm RH Shimano RSX (STI) \u2013 Top Zustand",
+   "description": "Ich verkaufe hier mein sehr gut erhaltenes Peugeot Rennrad im sportlichen \u201eFestina\u201c-Design...",
+   "location": "60320 Westend",
+   "price_text": "300 \u20ac",
+   "price": 300.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/16/1635961e-9f23-4e98-994e-0af5603cec32?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-25T02:04:52+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 445,
+   "fail_streak": 446,
    "warned": true,
    "ever_ok": true
   },
@@ -75587,7 +75635,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-24T02:57:02",
    "2026-08-24T03:54:32",
    "2026-08-24T04:41:58",
    "2026-08-24T05:32:02",
@@ -75620,10 +75667,11 @@
    "2026-08-25T00:10:36",
    "2026-08-25T00:33:43",
    "2026-08-25T00:51:02",
-   "2026-08-25T01:24:28"
+   "2026-08-25T01:24:28",
+   "2026-08-25T03:04:52"
   ],
   "last_heartbeat": "2026-08-24",
-  "last_status": "2026-08-25T01",
+  "last_status": "2026-08-25T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
