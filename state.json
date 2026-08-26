@@ -81234,11 +81234,59 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-26T05:20:28+00:00"
+  },
+  "gumtree:1801987455": {
+   "id": "gumtree:1801987455",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/triban-road-bike-light-grey-disc-brakes/1801987455",
+   "title": "Triban Road Bike - Light Grey, Disc Brakes",
+   "description": "",
+   "location": "Brentford, London",
+   "price_text": "\u00a3200",
+   "price": 200.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/6b0a397f6dd74b3980_6b2cfdb9154c/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Triban \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T06:02:18+00:00"
+  },
+  "kleinanzeigen:3485728766": {
+   "id": "kleinanzeigen:3485728766",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/specialized-levo-comp/3485728766-217-24596",
+   "title": "Specialized Levo Comp",
+   "description": "Specialized Levo Comp 29 Carbon E-mtb. Baujahr 2020. Km-Stand 8.200. akkukapazit\u00e4t 100%. Neue SRAM...",
+   "location": "52072 Aachen-\u200bLaurensberg",
+   "price_text": "1.750 \u20ac",
+   "price": 1750.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/77/77b217c2-b095-4420-8dfa-f3a85b38d471?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T06:02:19+00:00"
+  },
+  "kleinanzeigen:3494987246": {
+   "id": "kleinanzeigen:3494987246",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ridley-fenix-slic-rahmengroesse-57/3494987246-217-7968",
+   "title": "Ridley Fenix SLIC Rahmengr\u00f6\u00dfe 57",
+   "description": "Ridley Fenix SLIC | Shimano 105 | Carbonlaufr\u00e4der | 7,7 kg\n\nZum Verkauf steht mein hochwertiges...",
+   "location": "14471 Potsdam",
+   "price_text": "1.700 \u20ac VB",
+   "price": 1700.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5a103c94-2f15-47f0-9e6b-2620b10e342d?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Ridley Fenix SLIC) with carbon wheels, not the DT Swiss E1800, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-26T06:02:23+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 486,
+   "fail_streak": 487,
    "warned": true,
    "ever_ok": true
   },
@@ -81253,7 +81301,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-25T07:00:21",
    "2026-08-25T08:07:56",
    "2026-08-25T08:56:47",
    "2026-08-25T09:31:06",
@@ -81288,10 +81335,11 @@
    "2026-08-26T04:17:17",
    "2026-08-26T05:04:24",
    "2026-08-26T05:55:11",
-   "2026-08-26T06:20:28"
+   "2026-08-26T06:20:28",
+   "2026-08-26T07:02:23"
   ],
   "last_heartbeat": "2026-08-25",
-  "last_status": "2026-08-26T06",
+  "last_status": "2026-08-26T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
