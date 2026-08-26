@@ -79276,10 +79276,11 @@
    "price_text": "\u00a3312.70",
    "price": 312.7,
    "image": "https://i.ebayimg.com/images/g/FJYAAeSwUXpqjeAz/s-l225.jpg",
-   "ai_reason": "Vague, unbranded carbon frame-only listing in London \u2014 consistent with a stripped stolen frame.",
+   "ai_reason": "Ruled out: declared Seraph (Taiwan open-mould) 54cm frame with matching tonal branding; seller is a long-standing parts hobbyist in E1",
    "level": "digest",
    "first_seen": "2026-08-25T18:55:31+00:00",
-   "blue_score": 0.169
+   "blue_score": 0.169,
+   "fp": true
   },
   "ebay:v1|227491373950|0": {
    "id": "ebay:v1|227491373950|0",
@@ -80189,11 +80190,12 @@
    "price": 1300.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/2a1f69f643dc40619b_b57bc549175c/86",
    "hot": true,
-   "ai_reason": "Although listed as a different make/model, it is described as a custom build, which could hide a stripped stolen frame or components, and it's near the theft area.",
+   "ai_reason": "Ruled out from photo: genuine Boardman SLR flat-bar conversion, rim brakes",
    "level": "alert",
    "first_seen": "2026-08-25T20:48:26+00:00",
    "blue_score": 0.0,
-   "evidence_photo": "evidence/gumtree_1801979278.jpg"
+   "evidence_photo": "evidence/gumtree_1801979278.jpg",
+   "fp": true
   },
   "ebay:v1|327326236530|0": {
    "id": "ebay:v1|327326236530|0",
@@ -81694,10 +81696,11 @@
    "price_text": "\u00a3360",
    "price": 360.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/317be67c8ff24806ba_2423a7421d54/86",
-   "ai_reason": "Unbranded, vaguely described road bike in London at a low price \u2014 brand-stripped listings like this can't be ruled out.",
+   "ai_reason": "Ruled out from photo: budget white Carrera alloy road bike",
    "level": "digest",
    "first_seen": "2026-08-26T10:07:47+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true
   },
   "gumtree:1801992892": {
    "id": "gumtree:1801992892",
