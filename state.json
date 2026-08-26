@@ -80962,11 +80962,27 @@
    "ai_reason": "(rule) complete bike listed as Ktm \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-26T02:11:04+00:00"
+  },
+  "kleinanzeigen:3494956768": {
+   "id": "kleinanzeigen:3494956768",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/corratec-rennrad-carbon-weiss-blau-20-gaenge/3494956768-217-3972",
+   "title": "Corratec Rennrad Carbon wei\u00df blau 20 G\u00e4nge",
+   "description": "Ich verkaufe mein leichtes Rennrad der Marke Corratec, das durch seinen Carbon-Rahmen besonders...",
+   "location": "09212 Limbach-\u200bOberfrohna",
+   "price_text": "520 \u20ac VB",
+   "price": 520.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/520649b4-65eb-4fce-aeb1-13c5cb097ac4?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Corratec, 20-speed rim-era) in Germany with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-26T03:17:17+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 482,
+   "fail_streak": 483,
    "warned": true,
    "ever_ok": true
   },
@@ -80981,7 +80997,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-25T04:12:16",
    "2026-08-25T04:57:33",
    "2026-08-25T05:52:34",
    "2026-08-25T06:19:42",
@@ -81016,10 +81031,11 @@
    "2026-08-26T00:35:56",
    "2026-08-26T00:53:20",
    "2026-08-26T01:27:17",
-   "2026-08-26T03:11:04"
+   "2026-08-26T03:11:04",
+   "2026-08-26T04:17:17"
   ],
   "last_heartbeat": "2026-08-25",
-  "last_status": "2026-08-26T03",
+  "last_status": "2026-08-26T04",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
