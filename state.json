@@ -80754,16 +80754,96 @@
    "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-25T23:35:56+00:00"
+  },
+  "kleinanzeigen:3494952796": {
+   "id": "kleinanzeigen:3494952796",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-mountainbike-damenrad-access-ws-allroad-29/3494952796-217-9134",
+   "title": "Cube Mountainbike Damenrad Access WS Allroad 29",
+   "description": "Ich verkaufe ein Cube Access WS Allroad 29 RH17\u201c Damen Mountainbike.\nDas Fahrrad ist aus dem Jahr...",
+   "location": "74564 Crailsheim",
+   "price_text": "375 \u20ac VB",
+   "price": 375.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1c/1c34aa25-efe4-4c7f-9049-9011d8aabfdb?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T00:27:05+00:00"
+  },
+  "kleinanzeigen:3494952790": {
+   "id": "kleinanzeigen:3494952790",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wilier-zero6-carbon-rennrad-shimano-dura-ace-2x11-mavic-slr/3494952790-217-16378",
+   "title": "Wilier Zero6 \u2013 Carbon Rennrad | Shimano Dura-Ace 2x11 | Mavic SLR",
+   "description": "Zum Verkauf steht ein Wilier Triestina Zero.6 in Gr\u00f6\u00dfe M. Das Rad wurde ausschlie\u00dflich privat...",
+   "location": "80804 Schwabing-\u200bFreimann",
+   "price_text": "1.550 \u20ac VB",
+   "price": 1550.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a41abf83-796f-402f-8e8d-bfc5572da4e5?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T00:27:05+00:00"
+  },
+  "kleinanzeigen:3494952585": {
+   "id": "kleinanzeigen:3494952585",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-/3494952585-217-21924",
+   "title": "rennrad...",
+   "description": "Schweizer .hersteller . Sursee. Rad mit schimano 105 schaltung .. gut bereift. Fahrbereit.. renold...",
+   "location": "76891 Bundenthal",
+   "price_text": "200 \u20ac",
+   "price": 200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3d4f746f-5aa3-4c89-92ac-053e4a3b91b7?rule=$_2.AUTO",
+   "ai_reason": "A cheap Swiss-made steel road bike with 105 gearing in rural Germany, no link to the stolen carbon bike or its DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-26T00:27:08+00:00"
+  },
+  "kleinanzeigen:3494952330": {
+   "id": "kleinanzeigen:3494952330",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gravelbike/3494952330-217-1279",
+   "title": "Gravelbike",
+   "description": "Cannondale Topstone 3 grey / MD/ Diamant zu verkaufen , Gr\u00f6\u00dfe M , Fahrrad ist voll...",
+   "location": "33034 Brakel",
+   "price_text": "899 \u20ac VB",
+   "price": 899.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a7bf5e5-7eb6-4a72-b957-e42750cb285c?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model (Cannondale Topstone 3 gravel bike) with no mention of the stolen bike's distinctive DT Swiss E1800 wheels, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-26T00:27:12+00:00"
+  },
+  "kleinanzeigen:3475169506": {
+   "id": "kleinanzeigen:3475169506",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/corratec-allroad-c1-carbon-gravel-bike/3475169506-217-8904",
+   "title": "Corratec allroad c1 Carbon gravel bike",
+   "description": "- Carbon Rahmen und Gabel\n- h\u00f6chste Shimano GRX-Di2 Ausstattung (GRX800) 1x11 Fach elektronische...",
+   "location": "79369 Wyhl",
+   "price_text": "1.800 \u20ac VB",
+   "price": 1800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fb/fbe24a9e-0252-4773-bb78-fa6113288e12?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model gravel bike with GRX Di2 groupset, no link to the stolen bike's components, and located far away in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-26T00:27:17+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 480,
+   "fail_streak": 481,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 1,
+   "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
@@ -80773,7 +80853,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-25T01:24:28",
    "2026-08-25T03:04:52",
    "2026-08-25T04:12:16",
    "2026-08-25T04:57:33",
@@ -80808,10 +80887,11 @@
    "2026-08-25T23:43:16",
    "2026-08-26T00:13:14",
    "2026-08-26T00:35:56",
-   "2026-08-26T00:53:20"
+   "2026-08-26T00:53:20",
+   "2026-08-26T01:27:17"
   ],
   "last_heartbeat": "2026-08-25",
-  "last_status": "2026-08-26T00",
+  "last_status": "2026-08-26T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
