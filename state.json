@@ -80978,11 +80978,75 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-08-26T03:17:17+00:00"
+  },
+  "ebay:v1|287546341349|0": {
+   "id": "ebay:v1|287546341349|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287546341349?_skw=road+bike&hash=item42f318f7e5:g:7uQAAeSwzbZqjloe",
+   "title": "Vintage Raleigh Routier \u201cTown & Around\u201d Touring Bike \u2013 Retro Road Bicycle",
+   "description": "",
+   "location": "MK19***",
+   "price_text": "\u00a3239.66",
+   "price": 239.66,
+   "image": "https://i.ebayimg.com/images/g/7uQAAeSwzbZqjloe/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Raleigh \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T04:04:19+00:00"
+  },
+  "kleinanzeigen:3494960735": {
+   "id": "kleinanzeigen:3494960735",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/giant-damenrennrad-rennrad-vintage-einwandfrei-58cm-rh-leicht/3494960735-217-4898",
+   "title": "GIANT Damenrennrad Rennrad Vintage EINWANDFREI 58cm RH LEICHT",
+   "description": "Sehr schickes, filigranes Vintage Rennrad\nGiant\ngemuffter Stahlrahmen - unverw\u00fcstlich und...",
+   "location": "55252 Mainz-\u200bKastel",
+   "price_text": "275 \u20ac",
+   "price": 275.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c4246c0c-8756-4311-9601-985ffb2fef22?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T04:04:19+00:00"
+  },
+  "kleinanzeigen:3494960288": {
+   "id": "kleinanzeigen:3494960288",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/cube-nuroad-race-fe-l-2023/3494960288-217-9519",
+   "title": "Cube Nuroad Race FE L 2023",
+   "description": "Verkaufe mein Nuroad in Gray and black.\nRahmen H\u00f6he 58cm\nIch gebe es ab, da ich damit doch zu wenig...",
+   "location": "21029 Bergedorf",
+   "price_text": "1.200 \u20ac",
+   "price": 1200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/23568d51-a81f-45e3-947a-3056ca873341?rule=$_2.AUTO",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-08-26T04:04:19+00:00"
+  },
+  "kleinanzeigen:3494959585": {
+   "id": "kleinanzeigen:3494959585",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/panasonic-pr2000-retro-rennrad-57cm/3494959585-217-2590",
+   "title": "Panasonic PR2000 Retro Rennrad, 57cm",
+   "description": "Hiermit verkaufe ich mein altes, zuverl\u00e4ssiges Retro Rennrad der Marke Panasonic, Modell PR2000. Es...",
+   "location": "49661 Cloppenburg",
+   "price_text": "200 \u20ac VB",
+   "price": 200.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d3/d389c1a1-419f-4a62-8a5f-1108487513df?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model vintage steel retro road bike with no matching components, listed in rural Germany at a low price.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-26T04:04:24+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 483,
+   "fail_streak": 484,
    "warned": true,
    "ever_ok": true
   },
@@ -80997,7 +81061,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-25T04:57:33",
    "2026-08-25T05:52:34",
    "2026-08-25T06:19:42",
    "2026-08-25T07:00:21",
@@ -81032,10 +81095,11 @@
    "2026-08-26T00:53:20",
    "2026-08-26T01:27:17",
    "2026-08-26T03:11:04",
-   "2026-08-26T04:17:17"
+   "2026-08-26T04:17:17",
+   "2026-08-26T05:04:24"
   ],
   "last_heartbeat": "2026-08-25",
-  "last_status": "2026-08-26T04",
+  "last_status": "2026-08-26T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
