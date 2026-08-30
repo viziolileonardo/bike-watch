@@ -92697,11 +92697,75 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-08-29T22:40:20+00:00"
+  },
+  "ebay:v1|188859400025|0": {
+   "id": "ebay:v1|188859400025|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/188859400025?_skw=road+bike&hash=item2bf8e5bf59:g:ALEAAeSwLfdqJB93",
+   "title": "Campagnolo Record rear derailleur from the 1960s in New Old Stock condition",
+   "description": "",
+   "location": "IM8***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/ALEAAeSwLfdqJB93/s-l225.jpg",
+   "ai_reason": "A 1960s NOS Campagnolo collector part has no connection to the stolen bike's modern Shimano 105 groupset or DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-30T00:48:18+00:00"
+  },
+  "kleinanzeigen:3498329084": {
+   "id": "kleinanzeigen:3498329084",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ridley-kanzo-fast-race-gravelbike-gr-l-in-der-customize-edition-/3498329084-217-8349",
+   "title": "RIDLEY Kanzo Fast Race Gravelbike Gr.L in der Customize Edition.",
+   "description": "Ich biete mein Traum Race Gravelbike zum Verkauf an \u2747\ufe0f\n\nRIDLEY Kanzo Fast Race Gravelbike Gr.L in...",
+   "location": "88074 Meckenbeuren",
+   "price_text": "2.800 \u20ac VB",
+   "price": 2800.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3f/3fee9694-5c13-4b51-a11c-700d1b278e2a?rule=$_2.AUTO",
+   "ai_reason": "A specific different make/model (Ridley Kanzo Fast gravel bike) in Germany with no mention of the distinctive DT Swiss E1800 wheelset or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-30T00:48:23+00:00"
+  },
+  "kleinanzeigen:3498328949": {
+   "id": "kleinanzeigen:3498328949",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rennrad-fixie-singelspeed/3498328949-217-1974",
+   "title": "Rennrad Fixie Singelspeed",
+   "description": "Ich verkaufe mein Singelspeed in einem super Zustand\nDa es aber eigentlich nur steht m\u00f6chte ich es...",
+   "location": "47802 Krefeld",
+   "price_text": "320 \u20ac VB",
+   "price": 320.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/68/683322b5-927c-41be-9c30-222efeda90ae?rule=$_2.AUTO",
+   "ai_reason": "A singlespeed/fixie in Germany shares none of the stolen bike's components (2x11 105 groupset, disc brakes, DT Swiss wheels) and doesn't match its type.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-30T00:48:26+00:00"
+  },
+  "kleinanzeigen:3498327826": {
+   "id": "kleinanzeigen:3498327826",
+   "source": "Kleinanzeigen (DE)",
+   "query": "(catch-all newest)",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/kuota-karma-carbon-rennrad-dt-swiss-rrc-dicut-carbon-laufraedern/3498327826-217-8411",
+   "title": "Kuota Karma Carbon Rennrad + DT Swiss RRC DiCut Carbon-Laufr\u00e4dern",
+   "description": "Ich verkaufe unser Kuota Karma Carbon Rennrad mit hochwertigem DT Swiss RRC 65 DiCut...",
+   "location": "74343 Sachsenheim",
+   "price_text": "899 \u20ac VB",
+   "price": 899.0,
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a1/a172bb01-362f-4e32-bdd2-47337f07cf46?rule=$_2.AUTO",
+   "ai_reason": "Specific different make/model with DT Swiss RRC DiCut carbon wheels, not the stolen E1800 wheelset, and located in Germany.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-08-30T00:48:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 513,
+   "fail_streak": 514,
    "warned": true,
    "ever_ok": true
   },
@@ -92721,10 +92785,11 @@
    "2026-08-29T15:41:18",
    "2026-08-29T18:59:06",
    "2026-08-29T21:07:37",
-   "2026-08-29T23:40:20"
+   "2026-08-29T23:40:20",
+   "2026-08-30T01:48:30"
   ],
   "last_heartbeat": "2026-08-29",
-  "last_status": "2026-08-29T23",
+  "last_status": "2026-08-30T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
