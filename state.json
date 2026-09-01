@@ -99568,11 +99568,43 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-01T00:47:09+00:00"
+  },
+  "ebay:v1|237041816617|0": {
+   "id": "ebay:v1|237041816617|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237041816617?_skw=road+bike&hash=item3730cb1429:g:d1QAAeSwhq5qllyY",
+   "title": "Merida Reacto 5000 Carbon Road Bike Shimano Ultegra 56cm L",
+   "description": "",
+   "location": "NR29***",
+   "price_text": "\u00a3822.70",
+   "price": 822.7,
+   "image": "https://i.ebayimg.com/images/g/d1QAAeSwhq5qllyY/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-01T05:45:37+00:00"
+  },
+  "ebay:v1|168654111089|0": {
+   "id": "ebay:v1|168654111089|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168654111089?_skw=road+bike&hash=item2744918171:g:HWAAAeSwSytqliC9",
+   "title": "Carrera Virtuoso Road Bike 700C Large Aluminium Mechanical Disc Drop Bar White",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3220.00",
+   "price": 220.0,
+   "image": "https://i.ebayimg.com/images/g/HWAAAeSwSytqliC9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Carrera \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-01T05:45:37+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 525,
+   "fail_streak": 526,
    "warned": true,
    "ever_ok": true
   },
@@ -99587,14 +99619,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-08-31T03:18:39",
    "2026-08-31T09:40:21",
    "2026-08-31T17:28:21",
    "2026-08-31T22:37:27",
-   "2026-09-01T01:47:10"
+   "2026-09-01T01:47:10",
+   "2026-09-01T06:45:37"
   ],
   "last_heartbeat": "2026-08-31",
-  "last_status": "2026-09-01T01",
+  "last_status": "2026-09-01T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
