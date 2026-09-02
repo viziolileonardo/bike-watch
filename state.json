@@ -102717,16 +102717,64 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-02T01:17:54+00:00"
+  },
+  "ebay:v1|298637991102|0": {
+   "id": "ebay:v1|298637991102|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/298637991102?_skw=road+bike&hash=item4588361cbe:g:JG0AAeSw7zhql6uO",
+   "title": "Bottecchia SP9 Carbon Road Racing Bike",
+   "description": "",
+   "location": "ME15***",
+   "price_text": "\u00a32551.60",
+   "price": 2551.6,
+   "image": "https://i.ebayimg.com/images/g/JG0AAeSw7zhql6uO/s-l225.jpg",
+   "ai_reason": "A specific different make and model (Bottecchia SP9) with no mention of the distinctive DT Swiss E1800 wheelset or a fresh custom build.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-02T05:52:09+00:00"
+  },
+  "ebay:v1|267773739659|0": {
+   "id": "ebay:v1|267773739659|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267773739659?_skw=road+bike&hash=item3e588f028b:g:xNYAAeSwmX1ql4Aj",
+   "title": "Giant tcr advanced disc Carbon road bike",
+   "description": "",
+   "location": "EX4***",
+   "price_text": "\u00a3771.70",
+   "price": 771.7,
+   "image": "https://i.ebayimg.com/images/g/xNYAAeSwmX1ql4Aj/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-02T05:52:09+00:00"
+  },
+  "ebay:v1|158248159352|0": {
+   "id": "ebay:v1|158248159352|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158248159352?_skw=road+bike&hash=item24d8534878:g:P3gAAeSwWaNql3rI",
+   "title": "WIM 700C Road Bike Red/White/Black Flat Bar Rim Brake Derailleur Gears",
+   "description": "",
+   "location": "NW1***",
+   "price_text": "\u00a3325.00",
+   "price": 325.0,
+   "image": "https://i.ebayimg.com/images/g/P3gAAeSwWaNql3rI/s-l225.jpg",
+   "ai_reason": "A specific flat-bar rim-brake bike in different colours with no matching components \u2014 nothing links it to the stolen disc-brake carbon bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-02T05:52:14+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 532,
+   "fail_streak": 533,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 6,
+   "fail_streak": 7,
    "warned": true,
    "ever_ok": true
   },
@@ -102736,16 +102784,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-01T06:45:37",
    "2026-09-01T11:34:03",
    "2026-09-01T16:08:48",
    "2026-09-01T19:30:01",
    "2026-09-01T22:16:31",
    "2026-09-02T00:19:14",
-   "2026-09-02T02:17:55"
+   "2026-09-02T02:17:55",
+   "2026-09-02T06:52:14"
   ],
   "last_heartbeat": "2026-09-01",
-  "last_status": "2026-09-02T02",
+  "last_status": "2026-09-02T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
