@@ -105135,16 +105135,48 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-02T23:18:46+00:00"
+  },
+  "ebay:v1|158251624170|459386276062": {
+   "id": "ebay:v1|158251624170|459386276062",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158251624170?_skw=road+bike&hash=item24d88826ea:g:ST0AAeSw6xpqmLyr",
+   "title": "Giant Defy Advanced 3 Road Bike in Good Gray",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a31599.00",
+   "price": 1599.0,
+   "image": "https://i.ebayimg.com/images/g/ST0AAeSw6xpqmLyr/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-03T01:22:00+00:00"
+  },
+  "ebay:v1|287561899829|0": {
+   "id": "ebay:v1|287561899829|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287561899829?_skw=road+bike&hash=item42f4065f35:g:QFkAAeSw7BNqmKfW",
+   "title": "Peugeot Pro Am 54cm Road Bike HLE Steel 12 Speed Sachs Huret Vintage Retro Racer",
+   "description": "",
+   "location": "BH9***",
+   "price_text": "\u00a3225.00",
+   "price": 225.0,
+   "image": "https://i.ebayimg.com/images/g/QFkAAeSw7BNqmKfW/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-03T01:22:00+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 538,
+   "fail_streak": 539,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 12,
+   "fail_streak": 13,
    "warned": true,
    "ever_ok": true
   },
@@ -105154,19 +105186,18 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-02T00:19:14",
-   "2026-09-02T02:17:55",
    "2026-09-02T06:52:14",
    "2026-09-02T11:00:05",
    "2026-09-02T15:29:21",
    "2026-09-02T19:01:51",
    "2026-09-02T22:01:52",
-   "2026-09-03T00:18:46"
+   "2026-09-03T00:18:46",
+   "2026-09-03T02:22:00"
   ],
   "last_heartbeat": "2026-09-02",
-  "last_status": "2026-09-03T00",
+  "last_status": "2026-09-03T02",
   "shopify": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   },
