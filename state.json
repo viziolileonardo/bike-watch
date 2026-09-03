@@ -105167,16 +105167,96 @@
    "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-03T01:22:00+00:00"
+  },
+  "gumtree:1800903069": {
+   "id": "gumtree:1800903069",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/gravel-bikes/cannondale-topstone-105-gravel-bike-medium-shimano-105-hydraulic-under-200-km/1800903069",
+   "title": "Cannondale Topstone 105 Gravel Bike | Medium | Shimano 105 Hydraulic | Under 200 km",
+   "description": "",
+   "location": "Cumbernauld, Glasgow",
+   "price_text": "\u00a3825",
+   "price": 825.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/533dd208959942d7af_a1a466a07503/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-03T06:21:28+00:00"
+  },
+  "ebay:v1|377467082075|0": {
+   "id": "ebay:v1|377467082075|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377467082075?_skw=road+bike&hash=item57e2ca955b:g:xq8AAeSwzbZqmQVw",
+   "title": "49cc Kids Dirt Bike 2 Stroke Petrol Mini Moto Motocross Pit Bike Off Road",
+   "description": "",
+   "location": "ST10***",
+   "price_text": "\u00a3299.99",
+   "price": 299.99,
+   "image": "https://i.ebayimg.com/images/g/xq8AAeSwzbZqmQVw/s-l225.jpg",
+   "ai_reason": "A petrol kids' motocross mini bike shares nothing with the stolen road bicycle or its parts.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-03T06:21:32+00:00"
+  },
+  "ebay:v1|237045863123|0": {
+   "id": "ebay:v1|237045863123|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237045863123?_skw=road+bike&hash=item373108d2d3:g:WwsAAeSwZsBqmPu3",
+   "title": "Cervelo R5 56cm SRAM Etap 6.7KG Carbon Road Bike",
+   "description": "",
+   "location": "TN16***",
+   "price_text": "\u00a31684.60",
+   "price": 1684.6,
+   "image": "https://i.ebayimg.com/images/g/WwsAAeSwZsBqmPu3/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cervelo \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-03T06:21:32+00:00"
+  },
+  "ebay:v1|278337835571|0": {
+   "id": "ebay:v1|278337835571|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/278337835571?_skw=road+bike&hash=item40ce3a5233:g:XpEAAeSwT-hqmGJW",
+   "title": "Orbit America 54cm Road Bike Reynolds 531 Shimano 14 Speed Vintage Retro Touring",
+   "description": "",
+   "location": "BH9***",
+   "price_text": "\u00a3395.00",
+   "price": 395.0,
+   "image": "https://i.ebayimg.com/images/g/XpEAAeSwT-hqmGJW/s-l225.jpg",
+   "ai_reason": "A specific different make and model \u2014 a vintage steel Reynolds 531 14-speed tourer sharing no components with the stolen carbon disc bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-03T06:21:35+00:00"
+  },
+  "ebay:v1|158251888849|0": {
+   "id": "ebay:v1|158251888849|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158251888849?_skw=road+bike&hash=item24d88c30d1:g:VPsAAeSwxZRqmNbe",
+   "title": "Frog 67 Kids Junior Road Bike 24-inch wheels - VGC",
+   "description": "",
+   "location": "NG7***",
+   "price_text": "\u00a3250.00",
+   "price": 250.0,
+   "image": "https://i.ebayimg.com/images/g/VPsAAeSwxZRqmNbe/s-l225.jpg",
+   "ai_reason": "A 24-inch kids' Frog junior road bike shares no components or characteristics with the stolen adult carbon road bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-03T06:21:39+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 539,
+   "fail_streak": 540,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 13,
+   "fail_streak": 14,
    "warned": true,
    "ever_ok": true
   },
@@ -105186,18 +105266,18 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-02T06:52:14",
    "2026-09-02T11:00:05",
    "2026-09-02T15:29:21",
    "2026-09-02T19:01:51",
    "2026-09-02T22:01:52",
    "2026-09-03T00:18:46",
-   "2026-09-03T02:22:00"
+   "2026-09-03T02:22:00",
+   "2026-09-03T07:21:39"
   ],
   "last_heartbeat": "2026-09-02",
-  "last_status": "2026-09-03T02",
+  "last_status": "2026-09-03T07",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 2,
    "warned": false,
    "ever_ok": true
   },
