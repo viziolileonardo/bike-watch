@@ -108592,16 +108592,32 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-04T01:14:04+00:00"
+  },
+  "ebay:v1|377469361549|0": {
+   "id": "ebay:v1|377469361549|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377469361549?_skw=road+bike&hash=item57e2ed5d8d:g:M1AAAeSwjFZqmirz",
+   "title": "Raleigh Road bike with trainer, spare seat and rubber (no puncture) wheels.",
+   "description": "",
+   "location": "HU15***",
+   "price_text": "\u00a3516.70",
+   "price": 516.7,
+   "image": "https://i.ebayimg.com/images/g/M1AAAeSwjFZqmirz/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Raleigh \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-04T05:53:10+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 546,
+   "fail_streak": 547,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 20,
+   "fail_streak": 21,
    "warned": true,
    "ever_ok": true
   },
@@ -108611,17 +108627,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-03T02:22:00",
    "2026-09-03T07:21:39",
    "2026-09-03T12:39:24",
    "2026-09-03T16:11:02",
    "2026-09-03T19:39:10",
    "2026-09-03T22:19:32",
    "2026-09-04T00:22:12",
-   "2026-09-04T02:14:05"
+   "2026-09-04T02:14:05",
+   "2026-09-04T06:53:10"
   ],
   "last_heartbeat": "2026-09-03",
-  "last_status": "2026-09-04T02",
+  "last_status": "2026-09-04T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
