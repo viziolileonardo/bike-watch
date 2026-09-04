@@ -108576,16 +108576,32 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-03T23:19:26+00:00"
+  },
+  "ebay:v1|287563995247|0": {
+   "id": "ebay:v1|287563995247|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287563995247?_skw=road+bike&hash=item42f426586f:g:nLwAAeSwFHNqmFTM",
+   "title": "Massi Mega Team 60cm Alloy Road Bike Campagnolo Mirage 9 Speed Vintage Retro",
+   "description": "",
+   "location": "BH9***",
+   "price_text": "\u00a3375.00",
+   "price": 375.0,
+   "image": "https://i.ebayimg.com/images/g/nLwAAeSwFHNqmFTM/s-l225.jpg",
+   "ai_reason": "Specific different make/model, vintage alloy frame with Campagnolo 9-speed rim-brake groupset sharing no components with the stolen bike, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-04T01:14:04+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 545,
+   "fail_streak": 546,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 19,
+   "fail_streak": 20,
    "warned": true,
    "ever_ok": true
   },
@@ -108601,10 +108617,11 @@
    "2026-09-03T16:11:02",
    "2026-09-03T19:39:10",
    "2026-09-03T22:19:32",
-   "2026-09-04T00:22:12"
+   "2026-09-04T00:22:12",
+   "2026-09-04T02:14:05"
   ],
   "last_heartbeat": "2026-09-03",
-  "last_status": "2026-09-04T00",
+  "last_status": "2026-09-04T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
