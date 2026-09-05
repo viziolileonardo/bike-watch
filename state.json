@@ -114464,16 +114464,80 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-05T22:12:01+00:00"
+  },
+  "ebay:v1|336780692389|0": {
+   "id": "ebay:v1|336780692389|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336780692389?_skw=road+bike&hash=item4e69b18ba5:g:29QAAeSwEphqnKbX",
+   "title": "Specialized allez road bike 52cm",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3271.10",
+   "price": 271.1,
+   "image": "https://i.ebayimg.com/images/g/29QAAeSwEphqnKbX/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T23:53:53+00:00"
+  },
+  "ebay:v1|336780613745|0": {
+   "id": "ebay:v1|336780613745|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336780613745?_skw=road+bike&hash=item4e69b05871:g:bGQAAeSw-95qnJbQ",
+   "title": "165mm SRAM Force E1 Crankset 48/35T Chainring",
+   "description": "",
+   "location": "KT10***",
+   "price_text": "\u00a3219.10",
+   "price": 219.1,
+   "image": "https://i.ebayimg.com/images/g/bGQAAeSw-95qnJbQ/s-l225.jpg",
+   "ai_reason": "A SRAM Force crankset is not a component of the stolen bike, which had a Shimano 105 groupset, so there is no identifiable link.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-05T23:53:57+00:00"
+  },
+  "ebay:v1|336780611746|0": {
+   "id": "ebay:v1|336780611746|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336780611746?_skw=road+bike&hash=item4e69b050a2:g:~6wAAeSwWihqnJXP",
+   "title": "Zipp 303SW Disc Wheelset With Shimano Freehub And GP5000 Tyres",
+   "description": "",
+   "location": "KT10***",
+   "price_text": "\u00a31052.20",
+   "price": 1052.2,
+   "image": "https://i.ebayimg.com/images/g/~6wAAeSwWihqnJXP/s-l225.jpg",
+   "ai_reason": "A specific Zipp 303 carbon wheelset, not the stolen DT Swiss E1800 wheels or any other identifiable component from the bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-05T23:54:00+00:00"
+  },
+  "ebay:v1|206538364918|0": {
+   "id": "ebay:v1|206538364918|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206538364918?_skw=road+bike&hash=item3016a557f6:g:QVoAAeSwQUJqnI1W",
+   "title": "Canyon Endurace CF SLX Ultegra/Dura Ace Large",
+   "description": "",
+   "location": "EH32***",
+   "price_text": "\u00a31230.70",
+   "price": 1230.7,
+   "image": "https://i.ebayimg.com/images/g/QVoAAeSwQUJqnI1W/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T23:54:00+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 561,
+   "fail_streak": 562,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 35,
+   "fail_streak": 36,
    "warned": true,
    "ever_ok": true
   },
@@ -114483,7 +114547,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-05T00:27:07",
    "2026-09-05T02:20:07",
    "2026-09-05T07:13:52",
    "2026-09-05T11:33:37",
@@ -114491,10 +114554,11 @@
    "2026-09-05T17:13:49",
    "2026-09-05T19:16:12",
    "2026-09-05T21:21:59",
-   "2026-09-05T23:12:01"
+   "2026-09-05T23:12:01",
+   "2026-09-06T00:54:00"
   ],
   "last_heartbeat": "2026-09-05",
-  "last_status": "2026-09-05T23",
+  "last_status": "2026-09-06T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
