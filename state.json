@@ -114368,16 +114368,112 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-05T20:21:59+00:00"
+  },
+  "ebay:v1|237051971096|0": {
+   "id": "ebay:v1|237051971096|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237051971096?_skw=road+bike&hash=item3731660618:g:vmcAAeSwS3BqnFls",
+   "title": "Boardman SLR 9.4 Disc Carbon Large 57cm Road Bike 2021 Bicycle",
+   "description": "",
+   "location": "DA15***",
+   "price_text": "\u00a31332.70",
+   "price": 1332.7,
+   "image": "https://i.ebayimg.com/images/g/vmcAAeSwS3BqnFls/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T22:11:54+00:00"
+  },
+  "ebay:v1|287567984978|0": {
+   "id": "ebay:v1|287567984978|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287567984978?_skw=road+bike&hash=item42f4633952:g:G1UAAeSwWOBqnIUr",
+   "title": "Kinesis Road Bike Drop Bar Silver Mechanical Disc Brakes Derailleur Mudguards",
+   "description": "",
+   "location": "ST11***",
+   "price_text": "\u00a3771.70",
+   "price": 771.7,
+   "image": "https://i.ebayimg.com/images/g/G1UAAeSwWOBqnIUr/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Kinesis \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T22:11:54+00:00"
+  },
+  "ebay:v1|318831154715|0": {
+   "id": "ebay:v1|318831154715|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318831154715?_skw=road+bike&hash=item4a3bd1561b:g:ekYAAeSwS3BqnIMs",
+   "title": "Scott Foil Team Issue 54cm -Sram RED ETap - Power Meter",
+   "description": "",
+   "location": "SO45***",
+   "price_text": "\u00a31128.70",
+   "price": 1128.7,
+   "image": "https://i.ebayimg.com/images/g/ekYAAeSwS3BqnIMs/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T22:11:54+00:00"
+  },
+  "ebay:v1|298648717053|0": {
+   "id": "ebay:v1|298648717053|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/298648717053?_skw=road+bike&hash=item4588d9c6fd:g:fxIAAeSwS7ZqnH35",
+   "title": "Trek Domane SLR Carbon Rim Brake Road Bike Frame 50cm",
+   "description": "",
+   "location": "S17***",
+   "price_text": "\u00a3200.00",
+   "price": 200.0,
+   "image": "https://i.ebayimg.com/images/g/fxIAAeSwS7ZqnH35/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T22:11:54+00:00"
+  },
+  "ebay:v1|158261714738|0": {
+   "id": "ebay:v1|158261714738|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158261714738?_skw=road+bike&hash=item24d9221f32:g:SPwAAeSwWhdqkfOk",
+   "title": "Meridian 80 Road Bike",
+   "description": "",
+   "location": "TN38***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/SPwAAeSwWhdqkfOk/s-l225.jpg",
+   "ai_reason": "Listed as a specific different make/model with no mention of the DT Swiss E1800 wheels or other distinctive components, and no custom/fresh-build indication.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-05T22:11:58+00:00"
+  },
+  "ebay:v1|307164909296|0": {
+   "id": "ebay:v1|307164909296|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307164909296?_skw=road+bike&hash=item4784748ef0:g:rDoAAeSwIR1qnHwj",
+   "title": "Argos 531c competition steel road bike audax frameset 58cm internal brake route",
+   "description": "",
+   "location": "DG7***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/rDoAAeSwIR1qnHwj/s-l225.jpg",
+   "ai_reason": "A vintage steel 531c frameset in a different size and region shares nothing with the stolen carbon disc bike or its distinctive DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-05T22:12:01+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 560,
+   "fail_streak": 561,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 34,
+   "fail_streak": 35,
    "warned": true,
    "ever_ok": true
   },
@@ -114387,7 +114483,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-04T22:54:24",
    "2026-09-05T00:27:07",
    "2026-09-05T02:20:07",
    "2026-09-05T07:13:52",
@@ -114395,10 +114490,11 @@
    "2026-09-05T14:32:03",
    "2026-09-05T17:13:49",
    "2026-09-05T19:16:12",
-   "2026-09-05T21:21:59"
+   "2026-09-05T21:21:59",
+   "2026-09-05T23:12:01"
   ],
   "last_heartbeat": "2026-09-05",
-  "last_status": "2026-09-05T21",
+  "last_status": "2026-09-05T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
