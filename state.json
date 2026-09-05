@@ -111424,16 +111424,64 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-04T23:27:05+00:00"
+  },
+  "gumtree:1801748863": {
+   "id": "gumtree:1801748863",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/other-bikes/specialized-roubaix-carbon-road-bike/1801748863",
+   "title": "Specialized Roubaix Carbon Road Bike",
+   "description": "",
+   "location": "Portadown, County Armagh",
+   "price_text": "\u00a3850",
+   "price": 850.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/96d8ab38eec145b1a9_19390ee42234/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-05T06:13:44+00:00"
+  },
+  "ebay:v1|307163636242|0": {
+   "id": "ebay:v1|307163636242|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307163636242?_skw=road+bike&hash=item4784612212:g:DukAAeSwmOBqm4H5",
+   "title": "Campagnolo Centaur Black P-S 11x Ergos",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3208.40",
+   "price": 208.4,
+   "image": "https://i.ebayimg.com/images/g/DukAAeSwmOBqm4H5/s-l225.jpg",
+   "ai_reason": "Campagnolo Centaur ergopower shifters are unrelated to the stolen bike's Shimano 105 groupset or DT Swiss wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-05T06:13:48+00:00"
+  },
+  "ebay:v1|278344392389|0": {
+   "id": "ebay:v1|278344392389|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/278344392389?_skw=road+bike&hash=item40ce9e5ec5:g:YzUAAeSwKVxqm270",
+   "title": "Framed Black & White Photograph Poster - Man on Motorcycle with Road Signs",
+   "description": "",
+   "location": "BN1***",
+   "price_text": "\u00a3741.10",
+   "price": 741.1,
+   "image": "https://i.ebayimg.com/images/g/YzUAAeSwKVxqm270/s-l225.jpg",
+   "ai_reason": "This is a framed photograph poster, not a bicycle or bike part, so it cannot be the stolen bike or contain its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-05T06:13:52+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 554,
+   "fail_streak": 555,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 28,
+   "fail_streak": 29,
    "warned": true,
    "ever_ok": true
   },
@@ -111443,17 +111491,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-04T06:53:10",
    "2026-09-04T11:01:05",
    "2026-09-04T15:21:28",
    "2026-09-04T18:46:04",
    "2026-09-04T20:56:40",
    "2026-09-04T22:54:24",
    "2026-09-05T00:27:07",
-   "2026-09-05T02:20:07"
+   "2026-09-05T02:20:07",
+   "2026-09-05T07:13:52"
   ],
   "last_heartbeat": "2026-09-04",
-  "last_status": "2026-09-05T02",
+  "last_status": "2026-09-05T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
