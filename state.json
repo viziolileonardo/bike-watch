@@ -114528,16 +114528,96 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-05T23:54:00+00:00"
+  },
+  "gumtree:1802390615": {
+   "id": "gumtree:1802390615",
+   "source": "Gumtree",
+   "query": "shimano 105 r7020 (UK)",
+   "url": "https://www.gumtree.com/p/road-bikes/2019-cube-attain-race-sl-105-road-bike-size-56/1802390615",
+   "title": "2019 CUBE ATTAIN RACE SL 105 Road Bike, Size 56",
+   "description": "",
+   "location": "Ballymena, County Antrim",
+   "price_text": "\u00a3225",
+   "price": 225.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/5c8441374ce44bee90_d50ca24727a6/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-06T06:26:06+00:00"
+  },
+  "ebay:v1|267777455123|0": {
+   "id": "ebay:v1|267777455123|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267777455123?_skw=road+bike&hash=item3e58c7b413:g:eSgAAeSwzVlqnP2c",
+   "title": "Trek Fx 3 Bike, Matte Black, Lightweight, Used only 5-6 times, 2017 Model",
+   "description": "",
+   "location": "SL5***",
+   "price_text": "\u00a3413.68",
+   "price": 413.68,
+   "image": "https://i.ebayimg.com/images/g/eSgAAeSwzVlqnP2c/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-06T06:26:06+00:00"
+  },
+  "ebay:v1|327344483546|0": {
+   "id": "ebay:v1|327344483546|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327344483546?_skw=road+bike&hash=item4c37406cda:g:CzoAAeSwRjVqnPkH",
+   "title": "50cc Mini Quad, Bike, Petrol Quad, ATV, Quad Bike, Off Road.",
+   "description": "",
+   "location": "SY16***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/CzoAAeSwRjVqnPkH/s-l225.jpg",
+   "ai_reason": "A petrol 50cc mini quad ATV is unrelated to a carbon road bike or any of its components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-06T06:26:09+00:00"
+  },
+  "ebay:v1|178471576074|0": {
+   "id": "ebay:v1|178471576074|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178471576074?_skw=road+bike&hash=item298dbc220a:g:H10AAeSwoVxqnMZ-",
+   "title": "Shimano Ultegra RD-R8150 Di2 12-Speed Rear Derailleur Grey",
+   "description": "",
+   "location": "PR25***",
+   "price_text": "\u00a3379.99",
+   "price": 379.99,
+   "image": "https://i.ebayimg.com/images/g/H10AAeSwoVxqnMZ-/s-l225.jpg",
+   "ai_reason": "Electronic Di2 12-speed derailleur is a different groupset entirely from the stolen bike's mechanical 105 2x11, so it can't be a part from it.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-06T06:26:12+00:00"
+  },
+  "marktplaats:m2412313568": {
+   "id": "marktplaats:m2412313568",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2412313568-racefiets-maat-60-bontrager-carbon-incl-home-trainer",
+   "title": "Racefiets maat 60 \u2013 Bontrager Carbon + Incl. Home-Trainer!",
+   "description": "Ik heb de fiets destijds in zeer goede staat gekocht. Daarna heb ik er twee jaar geleden \u00e9\u00e9n zomer op gefietst, in totaal ongeveer 50 ritten. De fiets verkeert nog steeds in goede staat, heeft altijd ",
+   "location": "Utrecht",
+   "price_text": "\u20ac290",
+   "price": 290.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d09904ae-0ba7-413d-a1e6-057a5498d6a3?rule=ecg_mp_eps$_82.jpg",
+   "ai_reason": "A different branded carbon road bike in the Netherlands with no mention of the distinctive DT Swiss E1800 wheels or 105 disc groupset, and a price/history inconsistent with the stolen bike.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-06T06:26:16+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 563,
+   "fail_streak": 564,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 37,
+   "fail_streak": 38,
    "warned": true,
    "ever_ok": true
   },
@@ -114547,7 +114627,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-05T07:13:52",
    "2026-09-05T11:33:37",
    "2026-09-05T14:32:03",
    "2026-09-05T17:13:49",
@@ -114555,10 +114634,11 @@
    "2026-09-05T21:21:59",
    "2026-09-05T23:12:01",
    "2026-09-06T00:54:00",
-   "2026-09-06T02:23:05"
+   "2026-09-06T02:23:05",
+   "2026-09-06T07:26:16"
   ],
   "last_heartbeat": "2026-09-05",
-  "last_status": "2026-09-06T02",
+  "last_status": "2026-09-06T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
