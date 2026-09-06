@@ -540,6 +540,10 @@ def rule_close(item):
     text = (item["title"] + " " + item["description"]).lower()
     if any(t in text for t in ("univox", "swift", "e1800", "e 1800")):
         return None
+    # recurring eBay query noise that is not a bicycle at all
+    if re.search(r"registration|reg plate|number plate|private plate|"
+                 r"dirt bike|motorbike|motorcycle", text):
+        return "(rule) not a bicycle listing"
     m = OTHER_BRANDS_RE.search(item["title"])
     if m and not FRESH_BUILD_RE.search(text):
         return (f"(rule) complete bike listed as {m.group(0).title()} — "
