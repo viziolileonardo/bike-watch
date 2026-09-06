@@ -84644,11 +84644,12 @@
    "price_text": "\u00a383.90",
    "price": 83.9,
    "image": "https://i.ebayimg.com/images/g/VXcAAeSwRAVqjv-5/s-l225.jpg",
-   "ai_reason": "A DT Swiss E1800 wheel \u2014 the stolen bike's distinctive component \u2014 listed near the theft area, consistent with a stripped stolen bike.",
+   "ai_reason": "Ruled out from photo: new E1800 front wheel with retail hang tag \u2014 a take-off sold as new, not a used stolen wheel",
    "level": "alert",
    "first_seen": "2026-08-26T22:10:58+00:00",
    "blue_score": 0.001,
-   "evidence_photo": "evidence/ebay_v1_158226136278_0.jpg"
+   "evidence_photo": "evidence/ebay_v1_158226136278_0.jpg",
+   "fp": true
   },
   "ebay:v1|188845536814|0": {
    "id": "ebay:v1|188845536814|0",
@@ -85719,7 +85720,9 @@
    "image": "https://i.ebayimg.com/images/g/WlwAAeSwIMRqkA7k/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-08-27T14:16:48+00:00",
-   "blue_score": 0.097
+   "blue_score": 0.097,
+   "fp": true,
+   "ai_reason": "Ruled out: not a bicycle (plate/motorbike listing)"
   },
   "ebay:v1|198598529295|0": {
    "id": "ebay:v1|198598529295|0",
@@ -90010,10 +90013,11 @@
    "price_text": "\u00a31,000",
    "price": 1000.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/9bed91a17bf747c096_cc379724b36a/86",
-   "ai_reason": "Unbranded, vaguely described road bike with matching 105 R7020 groupset; brand-stripped listings can't be ruled out despite the distant location.",
+   "ai_reason": "Ruled out from photo: branded black/red Colnago-style on Fulcrum wheels; R7020 was just its spec listing",
    "level": "digest",
    "first_seen": "2026-08-29T14:39:52+00:00",
-   "blue_score": 0.033
+   "blue_score": 0.033,
+   "fp": true
   },
   "gumtree:1801884936": {
    "id": "gumtree:1801884936",
@@ -96986,11 +96990,12 @@
    "price_text": "\u00a3720.70",
    "price": 720.7,
    "image": "https://i.ebayimg.com/images/g/YtwAAeSw9fJqlWbi/s-l225.jpg",
-   "ai_reason": "Same brand and a near-identical model name (Swift U-Vox vs UniVox) with a carbon frame; wheels/groupset could easily have been swapped, so it can't be ruled out.",
+   "ai_reason": "Ruled out from photo: pink Swift U-Vox Team Issue on Mavic Cosmics \u2014 different Swift model entirely",
    "level": "alert",
    "first_seen": "2026-08-31T16:25:37+00:00",
    "blue_score": 0.009,
-   "evidence_photo": "evidence/ebay_v1_128053624577_0.jpg"
+   "evidence_photo": "evidence/ebay_v1_128053624577_0.jpg",
+   "fp": true
   },
   "ebay:v1|407182312299|0": {
    "id": "ebay:v1|407182312299|0",
@@ -97003,11 +97008,12 @@
    "price_text": "\u00a3182.70",
    "price": 182.7,
    "image": "https://i.ebayimg.com/images/g/HKgAAeSwaGNqlU7Q/s-l225.jpg",
-   "ai_reason": "This is the distinctive DT Swiss E1800 wheelset matching the stolen bike's components, exactly the kind of part a stripped bike yields.",
+   "ai_reason": "Ruled out from photo: muddy gravel build with 45mm Maxxis Ramblers \u2014 wrong usage profile",
    "level": "alert",
    "first_seen": "2026-08-31T16:25:42+00:00",
    "blue_score": 0.038,
-   "evidence_photo": "evidence/ebay_v1_407182312299_0.jpg"
+   "evidence_photo": "evidence/ebay_v1_407182312299_0.jpg",
+   "fp": true
   },
   "ebay:v1|278328629838|0": {
    "id": "ebay:v1|278328629838|0",
@@ -97533,10 +97539,11 @@
    "price_text": "\u00a3234.70",
    "price": 234.7,
    "image": "https://i.ebayimg.com/images/g/PlUAAeSwdK5qlZXd/s-l225.jpg",
-   "ai_reason": "A DT Swiss wheelset for sale in London matches the stolen bike's distinctive identifiable component, so it can't be ruled out.",
+   "ai_reason": "Ruled out from photo: DT Swiss P1800 wheelset \u2014 different line",
    "level": "digest",
    "first_seen": "2026-08-31T16:26:28+00:00",
-   "blue_score": 0.058
+   "blue_score": 0.058,
+   "fp": true
   },
   "ebay:v1|267772209808|0": {
    "id": "ebay:v1|267772209808|0",
@@ -98611,10 +98618,11 @@
    "price_text": "\u00a3208.70",
    "price": 208.7,
    "image": "https://i.ebayimg.com/images/g/W9sAAeSwMf5qlc2O/s-l225.jpg",
-   "ai_reason": "A vague, unbranded road bike groupset listing could include the stolen bike's Shimano 105 ST-R7020 components, so it can't be ruled out.",
+   "ai_reason": "Ruled out from photo: pair of SRAM Axis rim-brake calipers only",
    "level": "digest",
    "first_seen": "2026-08-31T21:36:26+00:00",
-   "blue_score": 0.001
+   "blue_score": 0.001,
+   "fp": true
   },
   "ebay:v1|117388578255|0": {
    "id": "ebay:v1|117388578255|0",
@@ -107420,7 +107428,9 @@
    "level": "alert",
    "first_seen": "2026-09-03T18:38:37+00:00",
    "blue_score": 0.056,
-   "evidence_photo": "evidence/shopify_MyNextBike_15051808571768.jpg"
+   "evidence_photo": "evidence/shopify_MyNextBike_15051808571768.jpg",
+   "fp": true,
+   "ai_reason": "Ruled out: Vitesse-brand hybrid e-bike whose model is named 'Swift'"
   },
   "ebay:v1|287563442657|0": {
    "id": "ebay:v1|287563442657|0",
@@ -107979,7 +107989,9 @@
    "image": "https://i.ebayimg.com/images/g/VeAAAeSwIcBo4FHT/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-09-03T21:19:31+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: not a bicycle (plate/motorbike listing)"
   },
   "ebay:v1|287563442649|0": {
    "id": "ebay:v1|287563442649|0",
@@ -107994,7 +108006,9 @@
    "image": "https://i.ebayimg.com/images/g/zlcAAeSwCx1o9Pql/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-09-03T21:19:31+00:00",
-   "blue_score": 0.164
+   "blue_score": 0.164,
+   "fp": true,
+   "ai_reason": "Ruled out: not a bicycle (plate/motorbike listing)"
   },
   "ebay:v1|287563442689|0": {
    "id": "ebay:v1|287563442689|0",
@@ -108009,7 +108023,9 @@
    "image": "https://i.ebayimg.com/images/g/jQ4AAeSwm6Zp9xpH/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-09-03T21:19:31+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: not a bicycle (plate/motorbike listing)"
   },
   "ebay:v1|227504406555|0": {
    "id": "ebay:v1|227504406555|0",
@@ -111372,10 +111388,11 @@
    "price_text": "\u00a3250",
    "price": 250.0,
    "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/6357cfbc653b45989f_0a6c2f1e0793/86",
-   "ai_reason": "Vague, near-brandless cheap road bike listing close to the theft area \u2014 can't be ruled out.",
+   "ai_reason": "Ruled out from photo: budget alloy triple-crank road bike",
    "level": "digest",
    "first_seen": "2026-09-04T23:27:05+00:00",
-   "blue_score": 0.048
+   "blue_score": 0.048,
+   "fp": true
   },
   "ebay:v1|377471386202|0": {
    "id": "ebay:v1|377471386202|0",
@@ -115230,7 +115247,9 @@
    "image": "https://i.ebayimg.com/images/g/MfoAAOSwRFhnelEV/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-09-06T11:18:00+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: not a bicycle (plate/motorbike listing)"
   },
   "ebay:v1|198622371160|0": {
    "id": "ebay:v1|198622371160|0",
@@ -115261,7 +115280,9 @@
    "image": "https://i.ebayimg.com/images/g/WM4AAOSwuPZlpE7K/s-l225.jpg",
    "level": "digest",
    "first_seen": "2026-09-06T11:18:00+00:00",
-   "blue_score": 0.0
+   "blue_score": 0.0,
+   "fp": true,
+   "ai_reason": "Ruled out: not a bicycle (plate/motorbike listing)"
   },
   "ebay:v1|287568723125|0": {
    "id": "ebay:v1|287568723125|0",
