@@ -119052,16 +119052,48 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-06T23:02:57+00:00"
+  },
+  "ebay:v1|336782297623|0": {
+   "id": "ebay:v1|336782297623|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336782297623?_skw=road+bike&hash=item4e69ca0a17:g:is0AAeSwZQNqnfy-",
+   "title": "Cannondale Synapse Road Bike 700C  Drop Bar Rim Brakes White/Black/Red",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3239.90",
+   "price": 239.9,
+   "image": "https://i.ebayimg.com/images/g/is0AAeSwZQNqnfy-/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-07T01:00:36+00:00"
+  },
+  "ebay:v1|800623316469|0": {
+   "id": "ebay:v1|800623316469|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800623316469?_skw=road+bike&hash=itemba68de4df5:g:24kAAeSw1PxqnfeP",
+   "title": "Sonder Prima aluminium 56cm all-road bike with Shimano 105 R7000 11-speed ",
+   "description": "",
+   "location": "HX5***",
+   "price_text": "\u00a3750.00",
+   "price": 750.0,
+   "image": "https://i.ebayimg.com/images/g/24kAAeSw1PxqnfeP/s-l225.jpg",
+   "ai_reason": "A specific different make/model (Sonder Prima) in aluminium with mechanical R7000, sharing only ubiquitous 105 components and no DT Swiss E1800 wheels.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-07T01:00:40+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 570,
+   "fail_streak": 571,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 44,
+   "fail_streak": 45,
    "warned": true,
    "ever_ok": true
   },
@@ -119071,7 +119103,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-06T00:54:00",
    "2026-09-06T02:23:05",
    "2026-09-06T07:26:16",
    "2026-09-06T12:18:03",
@@ -119079,10 +119110,11 @@
    "2026-09-06T18:02:13",
    "2026-09-06T20:10:42",
    "2026-09-06T22:19:56",
-   "2026-09-07T00:02:57"
+   "2026-09-07T00:02:57",
+   "2026-09-07T02:00:40"
   ],
   "last_heartbeat": "2026-09-06",
-  "last_status": "2026-09-07T00",
+  "last_status": "2026-09-07T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
