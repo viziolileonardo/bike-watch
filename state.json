@@ -119084,16 +119084,32 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-07T01:00:40+00:00"
+  },
+  "ebay:v1|800624627170|0": {
+   "id": "ebay:v1|800624627170|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800624627170?_skw=road+bike&hash=itemba68f24de2:g:d7cAAeSwCqtqnk~p",
+   "title": "Specialized Vado SL 4.0 Large Frame Smoke Black. Excellent Condition",
+   "description": "",
+   "location": "BR2***",
+   "price_text": "\u00a31332.70",
+   "price": 1332.7,
+   "image": "https://i.ebayimg.com/images/g/d7cAAeSwCqtqnk~p/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-07T06:04:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 571,
+   "fail_streak": 572,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 45,
+   "fail_streak": 46,
    "warned": true,
    "ever_ok": true
   },
@@ -119103,7 +119119,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-06T02:23:05",
    "2026-09-06T07:26:16",
    "2026-09-06T12:18:03",
    "2026-09-06T15:13:41",
@@ -119111,10 +119126,11 @@
    "2026-09-06T20:10:42",
    "2026-09-06T22:19:56",
    "2026-09-07T00:02:57",
-   "2026-09-07T02:00:40"
+   "2026-09-07T02:00:40",
+   "2026-09-07T07:04:49"
   ],
   "last_heartbeat": "2026-09-06",
-  "last_status": "2026-09-07T02",
+  "last_status": "2026-09-07T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
