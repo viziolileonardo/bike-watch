@@ -121718,16 +121718,96 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-07T23:03:11+00:00"
+  },
+  "gumtree:1802488924": {
+   "id": "gumtree:1802488924",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/specialised-roubaix-carbon-frame/1802488924",
+   "title": "Specialised Roubaix Carbon frame",
+   "description": "",
+   "location": "Upminster, London",
+   "price_text": "\u00a3470",
+   "price": 470.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/f8667fabbcb2409c8c_c417cf0c5a80/86",
+   "ai_reason": "A specific different make/model frameset (Specialized Roubaix) with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or other components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-08T01:11:01+00:00"
+  },
+  "ebay:v1|137711591063|0": {
+   "id": "ebay:v1|137711591063|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137711591063?_skw=road+bike&hash=item2010401e97:g:6j8AAeSwB1dqn0fm",
+   "title": "Ribble CGR SL carbon road/gravel - Medium, 105  (2023, Garmin Edge 25 included)",
+   "description": "",
+   "location": "IG11***",
+   "price_text": "\u00a31332.70",
+   "price": 1332.7,
+   "image": "https://i.ebayimg.com/images/g/6j8AAeSwB1dqn0fm/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-08T01:11:01+00:00"
+  },
+  "ebay:v1|398371060322|0": {
+   "id": "ebay:v1|398371060322|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398371060322?_skw=road+bike&hash=item5cc0c3fa62:g:VJQAAeSwqQBqn0Tj",
+   "title": "Galaxy GT-70 Road Bike 700C Drop Bar Mechanical Disc, Derailleur, Kickstand.",
+   "description": "",
+   "location": "GL7***",
+   "price_text": "\u00a3300.00",
+   "price": 300.0,
+   "image": "https://i.ebayimg.com/images/g/VJQAAeSwqQBqn0Tj/s-l225.jpg",
+   "ai_reason": "A specific different make/model budget bike with no mention of the distinctive DT Swiss E1800 wheels or other matching components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-08T01:11:04+00:00"
+  },
+  "ebay:v1|206542701978|0": {
+   "id": "ebay:v1|206542701978|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206542701978?_skw=road+bike&hash=item3016e7859a:g:4KkAAeSwRlRqn0PZ",
+   "title": "Planet X Nanolight Pro Full Carbon Road Bike  54cm Good Condition Low Millage",
+   "description": "",
+   "location": "SN1***",
+   "price_text": "\u00a3348.40",
+   "price": 348.4,
+   "image": "https://i.ebayimg.com/images/g/4KkAAeSwRlRqn0PZ/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Planet X \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-08T01:11:04+00:00"
+  },
+  "ebay:v1|298654426221|0": {
+   "id": "ebay:v1|298654426221|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/298654426221?_skw=road+bike&hash=item458930e46d:g:eFoAAeSwhoBqnw~d",
+   "title": "Vintage steel Mercian. 1974 King of Mercia bespoke build.",
+   "description": "",
+   "location": "SG19***",
+   "price_text": "\u00a3873.70",
+   "price": 873.7,
+   "image": "https://i.ebayimg.com/images/g/eFoAAeSwhoBqnw~d/s-l225.jpg",
+   "ai_reason": "A specific 1974 vintage steel Mercian frame bike shares nothing with the stolen modern carbon Swift and lists none of its distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-08T01:11:07+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 576,
+   "fail_streak": 577,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 50,
+   "fail_streak": 51,
    "warned": true,
    "ever_ok": true
   },
@@ -121737,15 +121817,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-07T02:00:40",
    "2026-09-07T07:04:49",
    "2026-09-07T13:27:28",
    "2026-09-07T18:54:40",
    "2026-09-07T21:49:52",
-   "2026-09-08T00:03:11"
+   "2026-09-08T00:03:11",
+   "2026-09-08T02:11:07"
   ],
   "last_heartbeat": "2026-09-07",
-  "last_status": "2026-09-08T00",
+  "last_status": "2026-09-08T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
