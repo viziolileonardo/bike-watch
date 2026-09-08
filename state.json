@@ -121798,16 +121798,80 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-08T01:11:07+00:00"
+  },
+  "ebay:v1|227511457025|0": {
+   "id": "ebay:v1|227511457025|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227511457025?_skw=road+bike&hash=item34f8bd5501:g:0u0AAeSwBSVqn5m5",
+   "title": "Botteccia  road bike medium ",
+   "description": "",
+   "location": "SS6***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/0u0AAeSwBSVqn5m5/s-l225.jpg",
+   "ai_reason": "Specific different make (Bottecchia) complete bike with no mention of the distinctive DT Swiss E1800 wheels or a fresh build, and low price/distant location.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-08T05:56:54+00:00"
+  },
+  "ebay:v1|336784321384|0": {
+   "id": "ebay:v1|336784321384|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336784321384?_skw=road+bike&hash=item4e69e8eb68:g:8F0AAeSwu7Nqn5ju",
+   "title": "Pinnacle Laterite 1 Road Bike Large Frame",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/8F0AAeSwu7Nqn5ju/s-l225.jpg",
+   "ai_reason": "A specific different make and model (Pinnacle Laterite, an alloy budget road bike) with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or 105 hydraulic groupset.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-08T05:56:58+00:00"
+  },
+  "ebay:v1|206543028838|0": {
+   "id": "ebay:v1|206543028838|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206543028838?_skw=road+bike&hash=item3016ec8266:g:4jgAAeSwY5Jqn3m7",
+   "title": "Dolan Alpina Carbon Bike",
+   "description": "",
+   "location": "WN7***",
+   "price_text": "\u00a3409.60",
+   "price": 409.6,
+   "image": "https://i.ebayimg.com/images/g/4jgAAeSwY5Jqn3m7/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Dolan \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-08T05:56:58+00:00"
+  },
+  "marktplaats:m2440257706": {
+   "id": "marktplaats:m2440257706",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2440257706-scott-addict-20-racefiets-2023-carbon-frame-xl-58cm",
+   "title": "Scott Addict 20 racefiets 2023 - Carbon frame - xl - 58cm",
+   "description": "Te koop aangeboden: een prachtige scott addict 20 racefiets in uitstekende staat. Deze fiets is voorzien van een lichtgewicht carbon frame ( maat xl ) 58cm, en aluminium velgen, wat zorgt voor een opt",
+   "location": "Numansdorp",
+   "price_text": "\u20ac1500",
+   "price": 1500.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8ef7714e-b320-4d03-a8d9-775cabf1d34c?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-08T05:56:58+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 577,
+   "fail_streak": 578,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 51,
+   "fail_streak": 52,
    "warned": true,
    "ever_ok": true
   },
@@ -121822,10 +121886,11 @@
    "2026-09-07T18:54:40",
    "2026-09-07T21:49:52",
    "2026-09-08T00:03:11",
-   "2026-09-08T02:11:07"
+   "2026-09-08T02:11:07",
+   "2026-09-08T06:56:58"
   ],
   "last_heartbeat": "2026-09-07",
-  "last_status": "2026-09-08T02",
+  "last_status": "2026-09-08T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
