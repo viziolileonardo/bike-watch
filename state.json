@@ -124278,16 +124278,48 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-08T23:23:08+00:00"
+  },
+  "ebay:v1|257732279144|0": {
+   "id": "ebay:v1|257732279144|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257732279144?_skw=road+bike&hash=item3c020a7b68:g:VFQAAeSwmKZqoKY0",
+   "title": "Giant Defy Advanced Pro 2 Extra Large Mens Road Bike Stealth Chrome Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32087.99",
+   "price": 2087.99,
+   "image": "https://i.ebayimg.com/images/g/VFQAAeSwmKZqoKY0/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-09T01:25:45+00:00"
+  },
+  "ebay:v1|820104057274|0": {
+   "id": "ebay:v1|820104057274|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820104057274?_skw=road+bike&hash=itembef202d1ba:g:8sQAAeSwSyZqoJwd",
+   "title": "Enigma Elite Steel Disc Frame Set Size 51 Custom Paint Year 2023",
+   "description": "",
+   "location": "TW12***",
+   "price_text": "\u00a31513.92",
+   "price": 1513.92,
+   "image": "https://i.ebayimg.com/images/g/8sQAAeSwSyZqoJwd/s-l225.jpg",
+   "ai_reason": "A specific different make/model steel frameset with custom paint \u2014 not carbon and shares none of the stolen bike's distinctive components.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-09T01:25:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 583,
+   "fail_streak": 584,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 57,
+   "fail_streak": 58,
    "warned": true,
    "ever_ok": true
   },
@@ -124297,16 +124329,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-08T02:11:07",
    "2026-09-08T06:56:58",
    "2026-09-08T11:14:00",
    "2026-09-08T15:33:12",
    "2026-09-08T19:03:12",
    "2026-09-08T22:08:13",
-   "2026-09-09T00:23:08"
+   "2026-09-09T00:23:08",
+   "2026-09-09T02:25:49"
   ],
   "last_heartbeat": "2026-09-08",
-  "last_status": "2026-09-09T00",
+  "last_status": "2026-09-09T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
