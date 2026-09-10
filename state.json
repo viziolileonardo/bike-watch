@@ -127947,16 +127947,96 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-09T23:17:33+00:00"
+  },
+  "ebay:v1|267780987255|0": {
+   "id": "ebay:v1|267780987255|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267780987255?_skw=road+bike&hash=item3e58fd9977:g:oxQAAeSwRYFqofha",
+   "title": "Giant Defy Advanced E+ Elite 2 25km/h Medium Sea Sparkle Ex-demo",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32783.99",
+   "price": 2783.99,
+   "image": "https://i.ebayimg.com/images/g/oxQAAeSwRYFqofha/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-10T01:06:00+00:00"
+  },
+  "ebay:v1|267780984372|0": {
+   "id": "ebay:v1|267780984372|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267780984372?_skw=road+bike&hash=item3e58fd8e34:g:GK0AAeSw9vVqofcR",
+   "title": "Giant Liv Envie Advanced 2 compact XS 2013",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a3928.00",
+   "price": 928.0,
+   "image": "https://i.ebayimg.com/images/g/GK0AAeSw9vVqofcR/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-10T01:06:00+00:00"
+  },
+  "ebay:v1|267780984345|0": {
+   "id": "ebay:v1|267780984345|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267780984345?_skw=road+bike&hash=item3e58fd8e19:g:XrYAAeSwoVVqofcJ",
+   "title": "Liv Envie Advanced 1 Medium Black 2018 Approved Used",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a3928.00",
+   "price": 928.0,
+   "image": "https://i.ebayimg.com/images/g/XrYAAeSwoVVqofcJ/s-l225.jpg",
+   "ai_reason": "A specific different make/model (Liv Envie Advanced, women's TT/tri bike) with no mention of the stolen bike's distinctive DT Swiss E1800 wheels or custom build, and far from the theft area.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-10T01:06:03+00:00"
+  },
+  "ebay:v1|336787235488|0": {
+   "id": "ebay:v1|336787235488|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336787235488?_skw=road+bike&hash=item4e6a1562a0:g:yRkAAeSw-C9qoelK",
+   "title": "Zipp 700C tubular Carbon  Rim Brake  Black/Red",
+   "description": "",
+   "location": "NW2***",
+   "price_text": "\u00a3271.10",
+   "price": 271.1,
+   "image": "https://i.ebayimg.com/images/g/yRkAAeSw-C9qoelK/s-l225.jpg",
+   "ai_reason": "Zipp carbon tubular rim-brake wheels are a completely different wheelset from the stolen bike's DT Swiss E1800 disc wheels and share no identifiable parts.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-10T01:06:06+00:00"
+  },
+  "ebay:v1|307171234169|0": {
+   "id": "ebay:v1|307171234169|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307171234169?_skw=road+bike&hash=item4784d51179:g:8tUAAeSw25hqoegR",
+   "title": "SRAM Quarq AXS 1x Power Meter Spider D1 + 40T RED / Force Chainring",
+   "description": "",
+   "location": "CH5***",
+   "price_text": "\u00a3274.99",
+   "price": 274.99,
+   "image": "https://i.ebayimg.com/images/g/8tUAAeSw25hqoegR/s-l225.jpg",
+   "ai_reason": "A SRAM AXS power meter spider and 1x chainring is incompatible with the stolen bike's Shimano 105 mechanical 2x11 groupset and shares no identifiable parts.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-10T01:06:08+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 590,
+   "fail_streak": 591,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 64,
+   "fail_streak": 65,
    "warned": true,
    "ever_ok": true
   },
@@ -127966,17 +128046,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-09T00:23:08",
    "2026-09-09T02:25:49",
    "2026-09-09T07:32:40",
    "2026-09-09T12:47:26",
    "2026-09-09T16:23:08",
    "2026-09-09T19:50:09",
    "2026-09-09T22:18:41",
-   "2026-09-10T00:17:33"
+   "2026-09-10T00:17:33",
+   "2026-09-10T02:06:08"
   ],
   "last_heartbeat": "2026-09-09",
-  "last_status": "2026-09-10T00",
+  "last_status": "2026-09-10T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
