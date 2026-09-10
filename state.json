@@ -128027,16 +128027,80 @@
    "fp": true,
    "level": "digest",
    "first_seen": "2026-09-10T01:06:08+00:00"
+  },
+  "ebay:v1|158277214751|0": {
+   "id": "ebay:v1|158277214751|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158277214751?_skw=road+bike&hash=item24da0ea21f:g:XlcAAeSw25hqojP2",
+   "title": "CUBE Attain Race Road Bike 62cm 700C Mechanical Rim Brakes Black/Red/White",
+   "description": "",
+   "location": "KT16***",
+   "price_text": "\u00a3291.90",
+   "price": 291.9,
+   "image": "https://i.ebayimg.com/images/g/XlcAAeSw25hqojP2/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-10T05:57:40+00:00"
+  },
+  "ebay:v1|398379569696|0": {
+   "id": "ebay:v1|398379569696|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398379569696?_skw=road+bike&hash=item5cc145d220:g:qMIAAeSwN-9qoinN",
+   "title": "Shimano 105 R7100 Mechanical groupset 12 speed (without crank and rotors)",
+   "description": "",
+   "location": "YO30***",
+   "price_text": "\u00a3219.10",
+   "price": 219.1,
+   "image": "https://i.ebayimg.com/images/g/qMIAAeSwN-9qoinN/s-l225.jpg",
+   "ai_reason": "This is a 12-speed R7100 groupset, not the stolen bike's 11-speed ST-R7020, so it cannot contain parts from it.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-10T05:57:44+00:00"
+  },
+  "ebay:v1|128071536698|0": {
+   "id": "ebay:v1|128071536698|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128071536698?_skw=road+bike&hash=item1dd1a8903a:g:P54AAeSw-~tqORA5",
+   "title": "1978 Holdsworth Professional Road Bike. Campagnolo Super Record",
+   "description": "",
+   "location": "YO17***",
+   "price_text": "\u00a3475.00",
+   "price": 475.0,
+   "image": "https://i.ebayimg.com/images/g/P54AAeSw-~tqORA5/s-l225.jpg",
+   "ai_reason": "A 1978 vintage steel Holdsworth with Campagnolo Super Record shares nothing with a modern carbon disc bike, and it's far from London.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-10T05:57:47+00:00"
+  },
+  "ebay:v1|407205774585|0": {
+   "id": "ebay:v1|407205774585|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407205774585?_skw=road+bike&hash=item5ecf5b04f9:g:9yQAAeSw4tlqohsv",
+   "title": "ciamillo b1 carbon brake calipers front rear lightweight road bike rim brakes",
+   "description": "",
+   "location": "PE3***",
+   "price_text": "\u00a3249.99",
+   "price": 249.99,
+   "image": "https://i.ebayimg.com/images/g/9yQAAeSw4tlqohsv/s-l225.jpg",
+   "ai_reason": "Rim brake calipers are incompatible with the stolen bike's hydraulic disc setup, so they cannot be parts from it.",
+   "fp": true,
+   "level": "digest",
+   "first_seen": "2026-09-10T05:57:50+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 591,
+   "fail_streak": 592,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 65,
+   "fail_streak": 66,
    "warned": true,
    "ever_ok": true
   },
@@ -128046,17 +128110,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-09T02:25:49",
    "2026-09-09T07:32:40",
    "2026-09-09T12:47:26",
    "2026-09-09T16:23:08",
    "2026-09-09T19:50:09",
    "2026-09-09T22:18:41",
    "2026-09-10T00:17:33",
-   "2026-09-10T02:06:08"
+   "2026-09-10T02:06:08",
+   "2026-09-10T06:57:50"
   ],
   "last_heartbeat": "2026-09-09",
-  "last_status": "2026-09-10T02",
+  "last_status": "2026-09-10T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
