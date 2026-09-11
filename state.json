@@ -130671,16 +130671,47 @@
    "ai_reason": "(rule) complete bike listed as Btwin \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-10T22:34:03+00:00"
+  },
+  "ebay:v1|820112298241|626941668101": {
+   "id": "ebay:v1|820112298241|626941668101",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820112298241?_skw=road+bike&hash=itembef2809101:g:KgwAAeSwPgZqozwc",
+   "title": "2025 Bike Bell Ring Loud Handlebar Alarm Road & Mountain Bicycle Bell Adult Kids",
+   "description": "",
+   "location": "TW3***",
+   "price_text": "\u00a31025.68",
+   "price": 1025.68,
+   "image": "https://i.ebayimg.com/images/g/KgwAAeSwPgZqozwc/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-11T00:27:50+00:00",
+   "blue_score": 0.135
+  },
+  "ebay:v1|206549186980|0": {
+   "id": "ebay:v1|206549186980|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206549186980?_skw=road+bike&hash=item30174a79a4:g:5OkAAeSw7bRqozma",
+   "title": "Boardman LTD Road Bike L 700C Drop Bar Rim Brake Derailleur White/Black/Yellow",
+   "description": "",
+   "location": "LL63***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/5OkAAeSw7bRqozma/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-11T00:27:50+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 597,
+   "fail_streak": 598,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 71,
+   "fail_streak": 72,
    "warned": true,
    "ever_ok": true
   },
@@ -130690,17 +130721,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-10T00:17:33",
    "2026-09-10T02:06:08",
    "2026-09-10T06:57:50",
    "2026-09-10T11:16:47",
    "2026-09-10T15:28:17",
    "2026-09-10T18:49:53",
    "2026-09-10T21:07:14",
-   "2026-09-10T23:34:35"
+   "2026-09-10T23:34:35",
+   "2026-09-11T01:27:51"
   ],
   "last_heartbeat": "2026-09-10",
-  "last_status": "2026-09-10T23",
+  "last_status": "2026-09-11T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
