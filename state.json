@@ -133698,12 +133698,12 @@
  },
  "health": {
   "gumtree": {
-   "fail_streak": 605,
+   "fail_streak": 606,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 79,
+   "fail_streak": 80,
    "warned": true,
    "ever_ok": true
   },
@@ -133719,10 +133719,11 @@
    "2026-09-11T18:21:24",
    "2026-09-11T20:59:19",
    "2026-09-11T23:33:52",
-   "2026-09-12T01:32:50"
+   "2026-09-12T01:32:50",
+   "2026-09-12T05:54:48"
   ],
   "last_heartbeat": "2026-09-11",
-  "last_status": "2026-09-12T01",
+  "last_status": "2026-09-12T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
