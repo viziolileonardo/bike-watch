@@ -133615,16 +133615,95 @@
    "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-11T22:33:44+00:00"
+  },
+  "ebay:v1|257737613180|0": {
+   "id": "ebay:v1|257737613180|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257737613180?_skw=road+bike&hash=item3c025bdf7c:g:9lYAAeSwpr5qpJod",
+   "title": "Giant Propel Advanced 2 ML Pure Red Road Bike Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31971.99",
+   "price": 1971.99,
+   "image": "https://i.ebayimg.com/images/g/9lYAAeSwpr5qpJod/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-12T00:32:50+00:00"
+  },
+  "ebay:v1|257737612999|0": {
+   "id": "ebay:v1|257737612999|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257737612999?_skw=road+bike&hash=item3c025bdec7:g:-HoAAeSw~n5qpJoJ",
+   "title": "Giant TCR Advanced 0 ML Alpine Green Road Bike",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32262.00",
+   "price": 2262.0,
+   "image": "https://i.ebayimg.com/images/g/-HoAAeSw~n5qpJoJ/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-12T00:32:50+00:00"
+  },
+  "ebay:v1|158282607796|459415993638": {
+   "id": "ebay:v1|158282607796|459415993638",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158282607796?_skw=road+bike&hash=item24da60ecb4:g:HCwAAeSwj6RqpJnR",
+   "title": "Giant Defy Advanced 2 Road Bike in Abyss Black/Chrome",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a31839.00",
+   "price": 1839.0,
+   "image": "https://i.ebayimg.com/images/g/HCwAAeSwj6RqpJnR/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-12T00:32:50+00:00"
+  },
+  "ebay:v1|206550929600|0": {
+   "id": "ebay:v1|206550929600|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206550929600?_skw=road+bike&hash=item30176510c0:g:erwAAeSw17dqpIA0",
+   "title": "MOST Jaguar Ultra GR Carbon Gravel Handlebar 44cm 31.8mm Pinarello NEW",
+   "description": "",
+   "location": "S80***",
+   "price_text": "\u00a3239.88",
+   "price": 239.88,
+   "image": "https://i.ebayimg.com/images/g/erwAAeSw17dqpIA0/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-12T00:32:50+00:00"
+  },
+  "ebay:v1|237063647896|0": {
+   "id": "ebay:v1|237063647896|0",
+   "source": "eBay",
+   "query": "carbon road bike",
+   "url": "https://www.ebay.co.uk/itm/237063647896?_skw=carbon+road+bike&hash=item3732183298:g:Ii8AAeSwj0lqpAwc",
+   "title": "Enve SES 2.3 Disc Carbon  Rear Wheel,  Hookless Tubeless  - New - RRP \u00a31680",
+   "description": "",
+   "location": "DH7***",
+   "price_text": "\u00a3595.00",
+   "price": 595.0,
+   "image": "https://i.ebayimg.com/images/g/Ii8AAeSwj0lqpAwc/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-12T00:32:50+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 604,
+   "fail_streak": 605,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 78,
+   "fail_streak": 79,
    "warned": true,
    "ever_ok": true
   },
@@ -133634,17 +133713,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-10T23:34:35",
-   "2026-09-11T01:27:51",
    "2026-09-11T06:04:34",
    "2026-09-11T10:38:33",
    "2026-09-11T14:53:43",
    "2026-09-11T18:21:24",
    "2026-09-11T20:59:19",
-   "2026-09-11T23:33:52"
+   "2026-09-11T23:33:52",
+   "2026-09-12T01:32:50"
   ],
   "last_heartbeat": "2026-09-11",
-  "last_status": "2026-09-11T23",
+  "last_status": "2026-09-12T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
