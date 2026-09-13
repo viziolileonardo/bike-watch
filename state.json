@@ -137853,16 +137853,77 @@
    "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-12T23:28:13+00:00"
+  },
+  "ebay:v1|267783620512|0": {
+   "id": "ebay:v1|267783620512|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267783620512?_skw=road+bike&hash=item3e5925c7a0:g:4vQAAeSwahRqpeu0",
+   "title": "Custom Build Giant Propel Advanced Pro ML Green / Black Road Bike Approved Used",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32552.00",
+   "price": 2552.0,
+   "image": "https://i.ebayimg.com/images/g/4vQAAeSwahRqpeu0/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-13T01:21:54+00:00",
+   "blue_score": 0.096
+  },
+  "ebay:v1|168684335093|0": {
+   "id": "ebay:v1|168684335093|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168684335093?_skw=road+bike&hash=item27465eaff5:g:OqMAAeSwf8pqpeBD",
+   "title": "THM Carbones Clavicula 172.5mm 5 Arm Matte Carbon Fibre Crankset C/W Ceramic BB",
+   "description": "",
+   "location": "SA4***",
+   "price_text": "\u00a31128.69",
+   "price": 1128.69,
+   "image": "https://i.ebayimg.com/images/g/OqMAAeSwf8pqpeBD/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-13T01:21:54+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|168683940866|0": {
+   "id": "ebay:v1|168683940866|0",
+   "source": "eBay",
+   "query": "carbon road bike",
+   "url": "https://www.ebay.co.uk/itm/168683940866?_skw=carbon+road+bike&hash=item274658ac02:g:X8MAAeSwM~hqpaqk",
+   "title": "RovalRapide CL II Disc Brake WheelsetBlack",
+   "description": "",
+   "location": "BT45***",
+   "price_text": "\u00a3975.70",
+   "price": 975.7,
+   "image": "https://i.ebayimg.com/images/g/X8MAAeSwM~hqpaqk/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-13T01:21:54+00:00",
+   "blue_score": 0.013
+  },
+  "marktplaats:m2442044083": {
+   "id": "marktplaats:m2442044083",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2442044083-bianchi-aria-aero-ultegra-2018-celeste-zeer-nette-staat",
+   "title": "Bianchi Aria Aero Ultegra 2018 - Celeste - zeer nette staat",
+   "description": "Te koop aangeboden: mijn zeer nette bianchi aria aero uit 2018, uitgevoerd in de iconische bianchi celeste kleur en voorzien van een complete shimano ultegra 2\u00d711 groepset. Ik heb de fiets ongeveer ee",
+   "location": "Nijkerk",
+   "price_text": "\u20ac1495",
+   "price": 1495.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/48991d44-5afb-4967-a355-95a3eb13d2a7?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-13T01:21:54+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 613,
+   "fail_streak": 614,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 87,
+   "fail_streak": 88,
    "warned": true,
    "ever_ok": true
   },
@@ -137872,7 +137933,6 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-12T01:32:50",
    "2026-09-12T05:54:48",
    "2026-09-12T09:54:23",
    "2026-09-12T13:26:29",
@@ -137880,10 +137940,11 @@
    "2026-09-12T18:53:47",
    "2026-09-12T20:41:48",
    "2026-09-12T22:43:33",
-   "2026-09-13T00:28:14"
+   "2026-09-13T00:28:14",
+   "2026-09-13T02:21:55"
   ],
   "last_heartbeat": "2026-09-12",
-  "last_status": "2026-09-13T00",
+  "last_status": "2026-09-13T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
