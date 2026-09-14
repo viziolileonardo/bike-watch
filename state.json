@@ -141408,16 +141408,79 @@
    "ai_reason": "(rule) complete bike listed as Planet X \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-14T01:02:11+00:00"
+  },
+  "gumtree:1802715181": {
+   "id": "gumtree:1802715181",
+   "source": "Gumtree",
+   "query": "(catch-all newest)",
+   "url": "https://www.gumtree.com/p/road-bikes/vitus-road-bike-blue-/1802715181",
+   "title": "Vitus Road Bike \u2013 Blue,",
+   "description": "",
+   "location": "Shoreditch, London",
+   "price_text": "\u00a3200",
+   "price": 200.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/6e72feffbe7b4b4295_c439292594fb/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Vitus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-14T06:14:57+00:00"
+  },
+  "ebay:v1|820124529821|0": {
+   "id": "ebay:v1|820124529821|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820124529821?_skw=road+bike&hash=itembef33b349d:g:QEkAAeSwjgRqeJz7",
+   "title": "Specialised Ruby XS 51cms Carbon Road Bike 2013.  Good Condition",
+   "description": "",
+   "location": "GU32***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/QEkAAeSwjgRqeJz7/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-14T06:14:58+00:00",
+   "blue_score": 0.041
+  },
+  "ebay:v1|820124098227|0": {
+   "id": "ebay:v1|820124098227|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820124098227?_skw=road+bike&hash=itembef3349eb3:g:73AAAeSw6N9qp199",
+   "title": "Trek Domane AL 5 Gen 4 2025 Road Bike 56cm Black  105  Hydraulic Disc",
+   "description": "",
+   "location": "HA0***",
+   "price_text": "\u00a3771.70",
+   "price": 771.7,
+   "image": "https://i.ebayimg.com/images/g/73AAAeSw6N9qp199/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-14T06:14:58+00:00"
+  },
+  "marktplaats:m2442482050": {
+   "id": "marktplaats:m2442482050",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2442482050-scott-speedster-60-racefiets-accessories-complete-set",
+   "title": "Scott Speedster 60 racefiets + accessories \u2013 complete set",
+   "description": "Selling my scott speedster 60 road bike because i\u2019m leaving the netherlands soon. I bought the bike around 3 months ago from another student and have only used it recreationally. It rides well, shifts",
+   "location": "Maastricht",
+   "price_text": "\u20ac375",
+   "price": 375.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8cba7842-db76-497f-af77-3183ed61e0a7?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-14T06:14:58+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 621,
+   "fail_streak": 622,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 95,
+   "fail_streak": 96,
    "warned": true,
    "ever_ok": true
   },
@@ -141427,17 +141490,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-13T02:21:55",
    "2026-09-13T07:41:38",
    "2026-09-13T13:21:57",
    "2026-09-13T17:35:43",
    "2026-09-13T19:55:57",
    "2026-09-13T22:10:44",
    "2026-09-14T00:08:27",
-   "2026-09-14T02:02:11"
+   "2026-09-14T02:02:11",
+   "2026-09-14T07:14:58"
   ],
   "last_heartbeat": "2026-09-13",
-  "last_status": "2026-09-14T02",
+  "last_status": "2026-09-14T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
