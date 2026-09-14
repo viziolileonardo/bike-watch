@@ -141392,16 +141392,32 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-13T23:08:00+00:00"
+  },
+  "ebay:v1|336792639242|0": {
+   "id": "ebay:v1|336792639242|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336792639242?_skw=road+bike&hash=item4e6a67d70a:g:k6sAAeSw1qtqpy3x",
+   "title": "Planet X Stealth Pro Carbon Bike 51-53cm / 20-21\" Zipp Shimano 700c Campagnolo",
+   "description": "",
+   "location": "LE13***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/k6sAAeSw1qtqpy3x/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Planet X \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-14T01:02:11+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 620,
+   "fail_streak": 621,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 94,
+   "fail_streak": 95,
    "warned": true,
    "ever_ok": true
   },
@@ -141411,17 +141427,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-13T00:28:14",
    "2026-09-13T02:21:55",
    "2026-09-13T07:41:38",
    "2026-09-13T13:21:57",
    "2026-09-13T17:35:43",
    "2026-09-13T19:55:57",
    "2026-09-13T22:10:44",
-   "2026-09-14T00:08:27"
+   "2026-09-14T00:08:27",
+   "2026-09-14T02:02:11"
   ],
   "last_heartbeat": "2026-09-13",
-  "last_status": "2026-09-14T00",
+  "last_status": "2026-09-14T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
