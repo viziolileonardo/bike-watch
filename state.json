@@ -146575,16 +146575,32 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-15T21:41:11+00:00"
+  },
+  "ebay:v1|298677909471|0": {
+   "id": "ebay:v1|298677909471|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/298677909471?_skw=road+bike&hash=item458a9737df:g:5C0AAeSw-9FqhiHF",
+   "title": "Allez Elite Specialized Road Bike - 61cm Frame",
+   "description": "",
+   "location": "SA9***",
+   "price_text": "\u00a3618.70",
+   "price": 618.7,
+   "image": "https://i.ebayimg.com/images/g/5C0AAeSw-9FqhiHF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-15T23:46:51+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 631,
+   "fail_streak": 632,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 105,
+   "fail_streak": 106,
    "warned": true,
    "ever_ok": true
   },
@@ -146594,16 +146610,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-14T22:48:42",
    "2026-09-15T01:02:09",
    "2026-09-15T05:51:08",
    "2026-09-15T10:39:31",
    "2026-09-15T15:31:22",
    "2026-09-15T19:25:36",
-   "2026-09-15T22:41:13"
+   "2026-09-15T22:41:13",
+   "2026-09-16T00:46:51"
   ],
   "last_heartbeat": "2026-09-15",
-  "last_status": "2026-09-15T22",
+  "last_status": "2026-09-16T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
