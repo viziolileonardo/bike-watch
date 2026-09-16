@@ -146879,16 +146879,77 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-16T01:47:10+00:00"
+  },
+  "ebay:v1|800669165213|0": {
+   "id": "ebay:v1|800669165213|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800669165213?_skw=road+bike&hash=itemba6b99e69d:g:hFwAAeSwzEtqqiI1",
+   "title": "Intec Grx2 Custom Gravel Bike Road Bike Large Frame Excellent Condition",
+   "description": "",
+   "location": "BT28***",
+   "price_text": "\u00a31128.70",
+   "price": 1128.7,
+   "image": "https://i.ebayimg.com/images/g/hFwAAeSwzEtqqiI1/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-16T06:52:47+00:00",
+   "blue_score": 0.056
+  },
+  "ebay:v1|398399292032|0": {
+   "id": "ebay:v1|398399292032|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398399292032?_skw=road+bike&hash=item5cc272c280:g:3HgAAeSwCJxqqhFo",
+   "title": "Cannondale synapse Road Bike disc 48cm 700C Black Drop Bars",
+   "description": "",
+   "location": "NE24***",
+   "price_text": "\u00a3219.10",
+   "price": 219.1,
+   "image": "https://i.ebayimg.com/images/g/3HgAAeSwCJxqqhFo/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-16T06:52:47+00:00"
+  },
+  "ebay:v1|407220052514|0": {
+   "id": "ebay:v1|407220052514|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407220052514?_skw=road+bike&hash=item5ed034e222:g:DPkAAeSwjQtqqg87",
+   "title": "VEVOR Bike Travel Bag Max. Wheelbase 130 cm 600D Bicycle Storage Carry Bag",
+   "description": "",
+   "location": "LE19***",
+   "price_text": "\u00a3219.90",
+   "price": 219.9,
+   "image": "https://i.ebayimg.com/images/g/DPkAAeSwjQtqqg87/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-16T06:52:47+00:00",
+   "blue_score": 0.0
+  },
+  "marktplaats:m2443150101": {
+   "id": "marktplaats:m2443150101",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2443150101-sensa-romagna-racefiets-met-shimano-105-afmontage",
+   "title": "Sensa Romagna racefiets met Shimano 105 afmontage",
+   "description": "Mooie sensa romagna racefiets, afgemonteerd met de betrouwbare shimano 105 groepset. Ideaal voor de beginnende fietser die op zoek is naar een degelijke en sportieve fiets. De fiets heb ik destijds tw",
+   "location": "Dordrecht",
+   "price_text": "\u20ac200",
+   "price": 200.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/518f2e88-344e-484e-b0ce-489f51bd319e?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-16T06:52:47+00:00",
+   "blue_score": 0.16
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 633,
+   "fail_streak": 634,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 107,
+   "fail_streak": 108,
    "warned": true,
    "ever_ok": true
   },
@@ -146898,16 +146959,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-15T05:51:08",
    "2026-09-15T10:39:31",
    "2026-09-15T15:31:22",
    "2026-09-15T19:25:36",
    "2026-09-15T22:41:13",
    "2026-09-16T00:46:51",
-   "2026-09-16T02:47:18"
+   "2026-09-16T02:47:18",
+   "2026-09-16T07:52:47"
   ],
   "last_heartbeat": "2026-09-15",
-  "last_status": "2026-09-16T02",
+  "last_status": "2026-09-16T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
