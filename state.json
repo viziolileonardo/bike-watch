@@ -149300,16 +149300,62 @@
    "level": "digest",
    "first_seen": "2026-09-17T00:49:42+00:00",
    "blue_score": 0.0
+  },
+  "gumtree:1802825569": {
+   "id": "gumtree:1802825569",
+   "source": "Gumtree",
+   "query": "carbon road bike 105 disc",
+   "url": "https://www.gumtree.com/p/other-bikes/trek-emonda-sl6-pro-shimano-105-di2-carbon-disc-road-bike-60cm-c2w-px-warrrant/1802825569",
+   "title": "Trek Emonda SL6 Pro Shimano 105 Di2 Carbon Disc Road Bike 60cm - C2W PX Warrrant",
+   "description": "",
+   "location": "Melbourn, Cambridgeshire",
+   "price_text": "\u00a31,700",
+   "price": 1700.0,
+   "image": "https://img.gumtree.com/ePR8PyKf84wPHx7_RYmEag/a6e0ea4e93434a379b_6e8d0c4ace0c/86",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-17T05:32:11+00:00"
+  },
+  "ebay:v1|366673913321|0": {
+   "id": "ebay:v1|366673913321|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366673913321?_skw=road+bike&hash=item555f77e5e9:g:pPkAAeSwbUdqq3hA",
+   "title": "Edinburgh Cycles Revolution explorer touring bike 55cm frame",
+   "description": "",
+   "location": "BD19***",
+   "price_text": "\u00a3234.70",
+   "price": 234.7,
+   "image": "https://i.ebayimg.com/images/g/pPkAAeSwbUdqq3hA/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-17T05:32:11+00:00",
+   "blue_score": 0.066
+  },
+  "ebay:v1|398402362248|0": {
+   "id": "ebay:v1|398402362248|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398402362248?_skw=road+bike&hash=item5cc2a19b88:g:eEEAAeSwIIxqqzyb",
+   "title": "2023 Purple Phantom Surron Lbx",
+   "description": "",
+   "location": "NG11***",
+   "price_text": "\u00a32143.60",
+   "price": 2143.6,
+   "image": "https://i.ebayimg.com/images/g/eEEAAeSwIIxqqzyb/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-17T05:32:11+00:00",
+   "blue_score": 0.054
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 639,
+   "fail_streak": 640,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 113,
+   "fail_streak": 114,
    "warned": true,
    "ever_ok": true
   },
@@ -149319,16 +149365,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-16T02:47:18",
    "2026-09-16T07:52:47",
    "2026-09-16T13:13:20",
    "2026-09-16T17:51:09",
    "2026-09-16T20:46:46",
    "2026-09-16T23:25:14",
-   "2026-09-17T01:49:43"
+   "2026-09-17T01:49:43",
+   "2026-09-17T06:32:12"
   ],
   "last_heartbeat": "2026-09-16",
-  "last_status": "2026-09-17T01",
+  "last_status": "2026-09-17T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
