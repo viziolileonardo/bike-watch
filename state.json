@@ -153994,16 +153994,64 @@
    "ai_reason": "(rule) complete bike listed as Bulls \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-18T21:48:59+00:00"
+  },
+  "ebay:v1|128086601677|0": {
+   "id": "ebay:v1|128086601677|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128086601677?_skw=road+bike&hash=item1dd28e6fcd:g:OpQAAeSwMaJqrb1x",
+   "title": "Trek Madone 9.5 Aero Road Bike , Size M(52), Zipp wheels , Dura Ace/Ultegra Di2",
+   "description": "",
+   "location": "SW18***",
+   "price_text": "\u00a31720.30",
+   "price": 1720.3,
+   "image": "https://i.ebayimg.com/images/g/OpQAAeSwMaJqrb1x/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-18T23:39:21+00:00"
+  },
+  "ebay:v1|257751215480|0": {
+   "id": "ebay:v1|257751215480|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257751215480?_skw=road+bike&hash=item3c032b6d78:g:~gkAAeSwrgpqrbSD",
+   "title": "Ribble Endurance SL Ultegra Rim Brake Road Bike",
+   "description": "",
+   "location": "CV22***",
+   "price_text": "\u00a31485.70",
+   "price": 1485.7,
+   "image": "https://i.ebayimg.com/images/g/~gkAAeSwrgpqrbSD/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-18T23:39:21+00:00"
+  },
+  "ebay:v1|147582849251|0": {
+   "id": "ebay:v1|147582849251|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147582849251?_skw=road+bike&hash=item225c9f90e3:g:-KAAAeSwOydqra1p",
+   "title": "Dolan Rebus Carbon Road",
+   "description": "",
+   "location": "SW4***",
+   "price_text": "\u00a31230.70",
+   "price": 1230.7,
+   "image": "https://i.ebayimg.com/images/g/-KAAAeSwOydqra1p/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Dolan \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-18T23:39:21+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 651,
+   "fail_streak": 652,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 125,
+   "fail_streak": 126,
    "warned": true,
    "ever_ok": true
   },
@@ -154013,17 +154061,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-17T23:08:18",
    "2026-09-18T01:15:18",
    "2026-09-18T05:43:13",
    "2026-09-18T10:15:47",
    "2026-09-18T14:36:54",
    "2026-09-18T18:11:29",
    "2026-09-18T20:35:27",
-   "2026-09-18T22:49:00"
+   "2026-09-18T22:49:00",
+   "2026-09-19T00:39:21"
   ],
   "last_heartbeat": "2026-09-18",
-  "last_status": "2026-09-18T22",
+  "last_status": "2026-09-19T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
