@@ -151565,16 +151565,31 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-17T22:08:16+00:00"
+  },
+  "ebay:v1|336798788347|0": {
+   "id": "ebay:v1|336798788347|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336798788347?_skw=road+bike&hash=item4e6ac5aafb:g:LRMAAeSwPOlqrGhW",
+   "title": "Shimano Dura Ace R9120/9100 groupset 11 speed Hydraulic Disc ",
+   "description": "",
+   "location": "NW6***",
+   "price_text": "\u00a3741.10",
+   "price": 741.1,
+   "image": "https://i.ebayimg.com/images/g/LRMAAeSwPOlqrGhW/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-18T00:15:18+00:00",
+   "blue_score": 0.001
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 644,
+   "fail_streak": 645,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 118,
+   "fail_streak": 119,
    "warned": true,
    "ever_ok": true
   },
@@ -151584,16 +151599,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-16T23:25:14",
    "2026-09-17T01:49:43",
    "2026-09-17T06:32:12",
    "2026-09-17T11:20:06",
    "2026-09-17T16:14:56",
    "2026-09-17T20:01:50",
-   "2026-09-17T23:08:18"
+   "2026-09-17T23:08:18",
+   "2026-09-18T01:15:18"
   ],
   "last_heartbeat": "2026-09-17",
-  "last_status": "2026-09-17T23",
+  "last_status": "2026-09-18T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
