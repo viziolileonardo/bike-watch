@@ -151580,16 +151580,64 @@
    "level": "digest",
    "first_seen": "2026-09-18T00:15:18+00:00",
    "blue_score": 0.001
+  },
+  "ebay:v1|318885006234|0": {
+   "id": "ebay:v1|318885006234|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318885006234?_skw=road+bike&hash=item4a3f070b9a:g:uaQAAeSwM-NqrKWD",
+   "title": "Giant Propel Advanced 2 2017 Carbon Road Bike",
+   "description": "",
+   "location": "RM8***",
+   "price_text": "\u00a3873.70",
+   "price": 873.7,
+   "image": "https://i.ebayimg.com/images/g/uaQAAeSwM-NqrKWD/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-18T04:43:13+00:00"
+  },
+  "ebay:v1|398405635022|0": {
+   "id": "ebay:v1|398405635022|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398405635022?_skw=road+bike&hash=item5cc2d38bce:g:IlAAAeSwIIxqrI5c",
+   "title": "specialized allez sport road bike",
+   "description": "",
+   "location": "LN4***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/IlAAAeSwIIxqrI5c/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-18T04:43:13+00:00"
+  },
+  "ebay:v1|158303934722|459423648722": {
+   "id": "ebay:v1|158303934722|459423648722",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158303934722?_skw=road+bike&hash=item24dba65902:g:PR8AAeSwAwdqrILO",
+   "title": "Giant TCR Advanced 1 Pro Compact Road Bike in Dreamy Blue",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a31959.30",
+   "price": 1959.3,
+   "image": "https://i.ebayimg.com/images/g/PR8AAeSwAwdqrILO/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-18T04:43:13+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 645,
+   "fail_streak": 646,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 119,
+   "fail_streak": 120,
    "warned": true,
    "ever_ok": true
   },
@@ -151599,16 +151647,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-17T01:49:43",
    "2026-09-17T06:32:12",
    "2026-09-17T11:20:06",
    "2026-09-17T16:14:56",
    "2026-09-17T20:01:50",
    "2026-09-17T23:08:18",
-   "2026-09-18T01:15:18"
+   "2026-09-18T01:15:18",
+   "2026-09-18T05:43:13"
   ],
   "last_heartbeat": "2026-09-17",
-  "last_status": "2026-09-18T01",
+  "last_status": "2026-09-18T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
