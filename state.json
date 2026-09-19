@@ -154042,16 +154042,78 @@
    "ai_reason": "(rule) complete bike listed as Dolan \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-18T23:39:21+00:00"
+  },
+  "ebay:v1|257751390949|0": {
+   "id": "ebay:v1|257751390949|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257751390949?_skw=road+bike&hash=item3c032e1ae5:g:~xMAAeSwl9hqrdhR",
+   "title": "Argon 18 Equation XXS Podium Champagne Shimano 105 Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32087.99",
+   "price": 2087.99,
+   "image": "https://i.ebayimg.com/images/g/~xMAAeSwl9hqrdhR/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-19T01:42:30+00:00",
+   "blue_score": 0.019
+  },
+  "ebay:v1|257751390751|0": {
+   "id": "ebay:v1|257751390751|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257751390751?_skw=road+bike&hash=item3c032e1a1f:g:X5wAAeSwwelqrdhE",
+   "title": "Argon 18 Equation Shimano 105 Road Bike - Asphalt Grey 2025 Large Ex-demo",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31739.99",
+   "price": 1739.99,
+   "image": "https://i.ebayimg.com/images/g/X5wAAeSwwelqrdhE/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-19T01:42:30+00:00",
+   "blue_score": 0.034
+  },
+  "ebay:v1|178508776657|0": {
+   "id": "ebay:v1|178508776657|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178508776657?_skw=road+bike&hash=item298ff3c4d1:g:teQAAeSw1XpqrdR9",
+   "title": "Giant Contend SL2 Disc Road Bike Medium",
+   "description": "",
+   "location": "PO22***",
+   "price_text": "\u00a3434.08",
+   "price": 434.08,
+   "image": "https://i.ebayimg.com/images/g/teQAAeSw1XpqrdR9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-19T01:42:30+00:00"
+  },
+  "ebay:v1|227528158236|0": {
+   "id": "ebay:v1|227528158236|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227528158236?_skw=road+bike&hash=item34f9bc2c1c:g:pP8AAeSwFNNqrahH",
+   "title": "Giant TCR Advanced Pro 2 Road Bike Xl",
+   "description": "",
+   "location": "YO26***",
+   "price_text": "\u00a32046.70",
+   "price": 2046.7,
+   "image": "https://i.ebayimg.com/images/g/pP8AAeSwFNNqrahH/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-19T01:42:30+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 652,
+   "fail_streak": 653,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 126,
+   "fail_streak": 127,
    "warned": true,
    "ever_ok": true
   },
@@ -154061,17 +154123,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-18T01:15:18",
    "2026-09-18T05:43:13",
    "2026-09-18T10:15:47",
    "2026-09-18T14:36:54",
    "2026-09-18T18:11:29",
    "2026-09-18T20:35:27",
    "2026-09-18T22:49:00",
-   "2026-09-19T00:39:21"
+   "2026-09-19T00:39:21",
+   "2026-09-19T02:42:30"
   ],
   "last_heartbeat": "2026-09-18",
-  "last_status": "2026-09-19T00",
+  "last_status": "2026-09-19T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
