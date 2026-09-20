@@ -157070,16 +157070,47 @@
    "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-19T23:39:53+00:00"
+  },
+  "ebay:v1|267790309786|0": {
+   "id": "ebay:v1|267790309786|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267790309786?_skw=road+bike&hash=item3e598bd99a:g:7pMAAeSwS5hqryl-",
+   "title": "Giant Defy Advanced 0 ML Meteorite Mist Road Bike Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32319.99",
+   "price": 2319.99,
+   "image": "https://i.ebayimg.com/images/g/7pMAAeSwS5hqryl-/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-20T01:44:19+00:00"
+  },
+  "ebay:v1|257753807615|0": {
+   "id": "ebay:v1|257753807615|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257753807615?_skw=road+bike&hash=item3c0352faff:g:5WMAAeSwx6lqryl6",
+   "title": "Argon 18 Krypton Rival AXS Medium Gloss Frostbite Blue Approved Used",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32899.99",
+   "price": 2899.99,
+   "image": "https://i.ebayimg.com/images/g/5WMAAeSwx6lqryl6/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-20T01:44:19+00:00",
+   "blue_score": 0.064
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 660,
+   "fail_streak": 661,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 134,
+   "fail_streak": 135,
    "warned": true,
    "ever_ok": true
   },
@@ -157089,17 +157120,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-19T02:42:30",
    "2026-09-19T07:43:42",
    "2026-09-19T12:38:38",
    "2026-09-19T15:51:52",
    "2026-09-19T18:30:11",
    "2026-09-19T20:31:44",
    "2026-09-19T22:39:33",
-   "2026-09-20T00:40:03"
+   "2026-09-20T00:40:03",
+   "2026-09-20T02:44:19"
   ],
   "last_heartbeat": "2026-09-19",
-  "last_status": "2026-09-20T00",
+  "last_status": "2026-09-20T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
