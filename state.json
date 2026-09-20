@@ -160141,16 +160141,79 @@
    "level": "digest",
    "first_seen": "2026-09-20T21:31:20+00:00",
    "blue_score": 0.117
+  },
+  "ebay:v1|147587375997|0": {
+   "id": "ebay:v1|147587375997|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147587375997?_skw=road+bike&hash=item225ce4a37d:g:8hAAAeSwcFNqsGlF",
+   "title": "Cannondale CAAD 8 Ultegra, Carbon Wheels",
+   "description": "",
+   "location": "IP30***",
+   "price_text": "\u00a3567.70",
+   "price": 567.7,
+   "image": "https://i.ebayimg.com/images/g/8hAAAeSwcFNqsGlF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-20T23:24:54+00:00"
+  },
+  "ebay:v1|128089986092|0": {
+   "id": "ebay:v1|128089986092|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128089986092?_skw=road+bike&hash=item1dd2c2142c:g:nK8AAeSwsKFqsFI6",
+   "title": "HUNT 50 Carbon Wide Aero Disc Wheelset . thru axle. Shimano/SRAM compatible.",
+   "description": "",
+   "location": "SE15***",
+   "price_text": "\u00a3430.00",
+   "price": 430.0,
+   "image": "https://i.ebayimg.com/images/g/nK8AAeSwsKFqsFI6/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-20T23:24:54+00:00",
+   "blue_score": 0.131
+  },
+  "ebay:v1|227531444035|0": {
+   "id": "ebay:v1|227531444035|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227531444035?_skw=road+bike&hash=item34f9ee4f43:g:j4QAAeSwt5dqsFG2",
+   "title": "Orbea Avant H30-D 2021 Road Bike Size 53 Shimano 105 Hydraulic Disc",
+   "description": "",
+   "location": "SG12***",
+   "price_text": "\u00a3499.99",
+   "price": 499.99,
+   "image": "https://i.ebayimg.com/images/g/j4QAAeSwt5dqsFG2/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-20T23:24:54+00:00"
+  },
+  "ebay:v1|287598581323|0": {
+   "id": "ebay:v1|287598581323|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287598581323?_skw=road+bike&hash=item42f636164b:g:d7cAAeSw6pdqsFFz",
+   "title": "road bike RMO LIBERIA Vitus 787 rare frame made in France full Shimano exage 400",
+   "description": "",
+   "location": "PO4***",
+   "price_text": "\u00a3496.30",
+   "price": 496.3,
+   "image": "https://i.ebayimg.com/images/g/d7cAAeSw6pdqsFFz/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Vitus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-20T23:24:54+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 666,
+   "fail_streak": 667,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 140,
+   "fail_streak": 141,
    "warned": true,
    "ever_ok": true
   },
@@ -160160,17 +160223,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-19T22:39:33",
    "2026-09-20T00:40:03",
    "2026-09-20T02:44:19",
    "2026-09-20T08:07:04",
    "2026-09-20T13:19:35",
    "2026-09-20T17:25:58",
    "2026-09-20T20:00:42",
-   "2026-09-20T22:31:23"
+   "2026-09-20T22:31:23",
+   "2026-09-21T00:24:55"
   ],
   "last_heartbeat": "2026-09-20",
-  "last_status": "2026-09-20T22",
+  "last_status": "2026-09-21T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
