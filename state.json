@@ -160234,16 +160234,110 @@
    "level": "digest",
    "first_seen": "2026-09-21T01:28:18+00:00",
    "blue_score": 0.174
+  },
+  "ebay:v1|206571375621|0": {
+   "id": "ebay:v1|206571375621|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206571375621?_skw=road+bike&hash=item30189d0c05:g:iK8AAeSwSqxqsM~7",
+   "title": "Orbea Gain M30i Di2",
+   "description": "",
+   "location": "SN3***",
+   "price_text": "\u00a32352.70",
+   "price": 2352.7,
+   "image": "https://i.ebayimg.com/images/g/iK8AAeSwSqxqsM~7/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-21T06:56:30+00:00"
+  },
+  "ebay:v1|278394707885|0": {
+   "id": "ebay:v1|278394707885|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/278394707885?_skw=road+bike&hash=item40d19e1fad:g:NR4AAeSwWP1qsM0P",
+   "title": "Ridley FENIX SLiC Carbon Disc Road Bike Ultegra groupset 54cm",
+   "description": "",
+   "location": "E7***",
+   "price_text": "\u00a31536.70",
+   "price": 1536.7,
+   "image": "https://i.ebayimg.com/images/g/NR4AAeSwWP1qsM0P/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-21T06:56:31+00:00",
+   "blue_score": 0.021
+  },
+  "marktplaats:m2444973258": {
+   "id": "marktplaats:m2444973258",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2444973258-cannondale-topstone-carbon-2-lefty-2024-laguna-yellow-xs",
+   "title": "Cannondale Topstone Carbon 2 Lefty 2024 - Laguna Yellow (XS)",
+   "description": "Te koop aangeboden: mijn cannondale topstone carbon 2 lefty uit 2024 in de opvallende en stijlvolle kleur laguna yellow / gold dust. Maat xs. De fiets verkeert in zeer goede staat en werd steeds met z",
+   "location": "Ossendrecht",
+   "price_text": "\u20ac2500",
+   "price": 2500.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/85bc1da6-6c0a-4297-ab53-36010b8f8804?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-21T06:56:31+00:00"
+  },
+  "marktplaats:a1529382455": {
+   "id": "marktplaats:a1529382455",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1529382455-cube-axial-ws-race-2024-175-185-cm",
+   "title": "Cube AXIAL WS RACE \u2013 2024 \u2013 175 - 185 cm",
+   "description": "The road bikes has a aluminium frame. The manufacturer lists the frame size as 56 cm. Our own measurement comes out to 52 cm.additional specifications: wheel size: 28\" drive type: chain drive gea",
+   "location": "NL",
+   "price_text": "\u20ac1019",
+   "price": 1019.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/16/161542cf-b090-494e-ab18-465153eedf3d?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-21T06:56:31+00:00"
+  },
+  "marktplaats:m2444991471": {
+   "id": "marktplaats:m2444991471",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2444991471-pinarello-fp-quattro-racefiets-ultegra-carbon",
+   "title": "Pinarello FP Quattro racefiets - Ultegra - Carbon",
+   "description": "Te koop aangeboden: een prachtige pinarello fp quattro racefiets. Deze fiets is uitgerust met een shimano ultegra groepset (10s tiagra achter derailleur), wat zorgt voor soepel schakelen en betrouwbaa",
+   "location": "Amsterdam",
+   "price_text": "\u20ac1300",
+   "price": 1300.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4db614b1-a265-4aa8-9ddf-95d50a61ea65?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-21T06:56:31+00:00"
+  },
+  "marktplaats:m2426748459": {
+   "id": "marktplaats:m2426748459",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2426748459-sensa-giulia-evo-carbon-shimano-ultegra-maat-58",
+   "title": "Sensa Giulia Evo Carbon \u2013 Shimano Ultegra \u2013 Maat 58",
+   "description": "Te koop aangeboden een zeer nette sensa giulia evo racefiets met volledig carbon frame en voorvork. Ideaal voor zowel sportieve tochten als langere ritten. Specificaties: full carbon frame en voorvork",
+   "location": "Herveld",
+   "price_text": "\u20ac725",
+   "price": 725.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9985532e-e09c-4780-a417-6c5d5cdd6a4c?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-21T06:56:31+00:00",
+   "blue_score": 0.097
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 668,
+   "fail_streak": 669,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 142,
+   "fail_streak": 143,
    "warned": true,
    "ever_ok": true
   },
@@ -160253,17 +160347,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-20T02:44:19",
    "2026-09-20T08:07:04",
    "2026-09-20T13:19:35",
    "2026-09-20T17:25:58",
    "2026-09-20T20:00:42",
    "2026-09-20T22:31:23",
    "2026-09-21T00:24:55",
-   "2026-09-21T02:28:19"
+   "2026-09-21T02:28:19",
+   "2026-09-21T07:56:31"
   ],
   "last_heartbeat": "2026-09-20",
-  "last_status": "2026-09-21T02",
+  "last_status": "2026-09-21T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
