@@ -160204,16 +160204,46 @@
    "ai_reason": "(rule) complete bike listed as Vitus \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-20T23:24:54+00:00"
+  },
+  "ebay:v1|257755474712|0": {
+   "id": "ebay:v1|257755474712|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257755474712?_skw=road+bike&hash=item3c036c6b18:g:FWoAAeSwh9BqsG6i",
+   "title": "Favero Assioma Pro RS-1 Power Meter Pedals SPD-SL",
+   "description": "",
+   "location": "SO19***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/FWoAAeSwh9BqsG6i/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-21T01:28:18+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|257755468353|0": {
+   "id": "ebay:v1|257755468353|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257755468353?_skw=road+bike&hash=item3c036c5241:g:AC8AAeSw2aZqsGl7",
+   "title": "SRAM Force AXS D2 12-Speed Power Meter Groupset 165mm",
+   "description": "",
+   "location": "SO19***",
+   "price_text": "\u00a31001.20",
+   "price": 1001.2,
+   "image": "https://i.ebayimg.com/images/g/AC8AAeSw2aZqsGl7/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-21T01:28:18+00:00",
+   "blue_score": 0.174
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 667,
+   "fail_streak": 668,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 141,
+   "fail_streak": 142,
    "warned": true,
    "ever_ok": true
   },
@@ -160223,17 +160253,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-20T00:40:03",
    "2026-09-20T02:44:19",
    "2026-09-20T08:07:04",
    "2026-09-20T13:19:35",
    "2026-09-20T17:25:58",
    "2026-09-20T20:00:42",
    "2026-09-20T22:31:23",
-   "2026-09-21T00:24:55"
+   "2026-09-21T00:24:55",
+   "2026-09-21T02:28:19"
   ],
   "last_heartbeat": "2026-09-20",
-  "last_status": "2026-09-21T00",
+  "last_status": "2026-09-21T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
