@@ -162406,16 +162406,63 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-22T01:04:17+00:00"
+  },
+  "ebay:v1|227533545233|0": {
+   "id": "ebay:v1|227533545233|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227533545233?_skw=road+bike&hash=item34fa0e5f11:g:Ny8AAeSwRSlqshho",
+   "title": "ENVE SES 6.7 Wheelset, Chris King Hubs, SRAM XDR, Vittoria Corsa Tyres",
+   "description": "",
+   "location": "RG17***",
+   "price_text": "\u00a31230.70",
+   "price": 1230.7,
+   "image": "https://i.ebayimg.com/images/g/Ny8AAeSwRSlqshho/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-22T06:12:08+00:00",
+   "blue_score": 0.025
+  },
+  "ebay:v1|307191907443|0": {
+   "id": "ebay:v1|307191907443|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307191907443?_skw=road+bike&hash=item4786108473:g:q40AAeSwK6Fqsg~j",
+   "title": "Focus Cayo Di2 Ultegra Road Bike \u2013 Size XL",
+   "description": "",
+   "location": "SE26***",
+   "price_text": "\u00a3715.60",
+   "price": 715.6,
+   "image": "https://i.ebayimg.com/images/g/q40AAeSwK6Fqsg~j/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Focus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-22T06:12:08+00:00"
+  },
+  "marktplaats:a1531110083": {
+   "id": "marktplaats:a1531110083",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1531110083-cube-nuroad-pro-fe-2022-175-185-cm",
+   "title": "Cube NUROAD PRO FE \u2013 2022 \u2013 175 - 185 cm",
+   "description": "The gravel bikes has a aluminium frame. The manufacturer lists the frame size as m. Our own measurement comes out to 50 cm.additional specifications: wheel size: 28\" drive type: chain drive gear ",
+   "location": "NL",
+   "price_text": "\u20ac909",
+   "price": 909.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/8a/8a65d898-b770-4a78-b80a-80f69833524f?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-22T06:12:08+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 673,
+   "fail_streak": 674,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 147,
+   "fail_streak": 148,
    "warned": true,
    "ever_ok": true
   },
@@ -162425,15 +162472,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-21T02:28:19",
    "2026-09-21T07:56:31",
    "2026-09-21T14:26:52",
    "2026-09-21T19:53:36",
    "2026-09-21T23:20:30",
-   "2026-09-22T02:04:18"
+   "2026-09-22T02:04:18",
+   "2026-09-22T07:12:08"
   ],
   "last_heartbeat": "2026-09-21",
-  "last_status": "2026-09-22T02",
+  "last_status": "2026-09-22T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
