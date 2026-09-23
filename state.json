@@ -164774,16 +164774,46 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-22T22:12:44+00:00"
+  },
+  "ebay:v1|158325663904|0": {
+   "id": "ebay:v1|158325663904|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/158325663904?_skw=road+bike&hash=item24dcf1e8a0:g:3jYAAeSw3XhqN-Nm",
+   "title": "Zipp 454 NSW disc brake carbon wheel, SRAM 12-speed hub, Rear Wheel",
+   "description": "",
+   "location": "IG11***",
+   "price_text": "\u00a3567.70",
+   "price": 567.7,
+   "image": "https://i.ebayimg.com/images/g/3jYAAeSw3XhqN-Nm/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-23T00:29:51+00:00",
+   "blue_score": 0.001
+  },
+  "ebay:v1|377516137727|0": {
+   "id": "ebay:v1|377516137727|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377516137727?_skw=road+bike&hash=item57e5b71cff:g:8m4AAeSwUxNql3AD",
+   "title": "LOOK 695 Carbon Aero Road race bike L, Rim Brake , Ultegra 6800, Cosmic Wheels ",
+   "description": "",
+   "location": "CA15***",
+   "price_text": "\u00a31638.70",
+   "price": 1638.7,
+   "image": "https://i.ebayimg.com/images/g/8m4AAeSwUxNql3AD/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-23T00:29:51+00:00",
+   "blue_score": 0.002
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 678,
+   "fail_streak": 679,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 152,
+   "fail_streak": 153,
    "warned": true,
    "ever_ok": true
   },
@@ -164793,16 +164823,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-21T23:20:30",
    "2026-09-22T02:04:18",
    "2026-09-22T07:12:08",
    "2026-09-22T12:33:58",
    "2026-09-22T16:38:43",
    "2026-09-22T20:18:07",
-   "2026-09-22T23:12:45"
+   "2026-09-22T23:12:45",
+   "2026-09-23T01:29:51"
   ],
   "last_heartbeat": "2026-09-22",
-  "last_status": "2026-09-22T23",
+  "last_status": "2026-09-23T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
