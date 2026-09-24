@@ -166843,16 +166843,48 @@
    "ai_reason": "(rule) complete bike listed as Wilier \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-24T00:01:51+00:00"
+  },
+  "ebay:v1|257761785878|0": {
+   "id": "ebay:v1|257761785878|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257761785878?_skw=road+bike&hash=item3c03ccb816:g:uJMAAeSwIRlqtHAd",
+   "title": "Giant Propel Advanced 0 Medium Black / Orange 2017 Approved Used",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a3927.99",
+   "price": 927.99,
+   "image": "https://i.ebayimg.com/images/g/uJMAAeSwIRlqtHAd/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-24T04:44:49+00:00"
+  },
+  "ebay:v1|257761785638|0": {
+   "id": "ebay:v1|257761785638|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257761785638?_skw=road+bike&hash=item3c03ccb726:g:Fb0AAeSwgmlqtHAb",
+   "title": "Giant Seek 2-Giant One Size Abyss Black 2024 Kids Road Bike Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31135.99",
+   "price": 1135.99,
+   "image": "https://i.ebayimg.com/images/g/Fb0AAeSwgmlqtHAb/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-24T04:44:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 685,
+   "fail_streak": 686,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 159,
+   "fail_streak": 160,
    "warned": true,
    "ever_ok": true
   },
@@ -166862,16 +166894,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-23T01:29:51",
    "2026-09-23T06:03:23",
    "2026-09-23T10:57:37",
    "2026-09-23T15:32:47",
    "2026-09-23T19:33:56",
    "2026-09-23T22:43:06",
-   "2026-09-24T01:01:53"
+   "2026-09-24T01:01:53",
+   "2026-09-24T05:44:49"
   ],
   "last_heartbeat": "2026-09-23",
-  "last_status": "2026-09-24T01",
+  "last_status": "2026-09-24T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
