@@ -169348,16 +169348,94 @@
    "level": "digest",
    "first_seen": "2026-09-25T00:05:39+00:00",
    "blue_score": 0.011
+  },
+  "ebay:v1|820169446696|0": {
+   "id": "ebay:v1|820169446696|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820169446696?_skw=road+bike&hash=itembef5e89528:g:ZfgAAeSwxblqte3c",
+   "title": "Juicy Ladies bike with key and charger.",
+   "description": "",
+   "location": "B21***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/ZfgAAeSwxblqte3c/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-25T04:53:51+00:00",
+   "blue_score": 0.449
+  },
+  "ebay:v1|327373385380|0": {
+   "id": "ebay:v1|327373385380|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327373385380?_skw=road+bike&hash=item4c38f96ea4:g:R8YAAeSwtnRqteDP",
+   "title": "SRAM Red eTap Rear Derailleur 12 Speed RD-RED-E-D1",
+   "description": "",
+   "location": "E14***",
+   "price_text": "\u00a3450.00",
+   "price": 450.0,
+   "image": "https://i.ebayimg.com/images/g/R8YAAeSwtnRqteDP/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-25T04:53:51+00:00",
+   "blue_score": 0.022
+  },
+  "ebay:v1|137776518323|0": {
+   "id": "ebay:v1|137776518323|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137776518323?_skw=road+bike&hash=item20141ed4b3:g:CZ8AAeSwM99qtcGA",
+   "title": "Trek Domane SL5 Shimano 105 Carbon road bike, size 56",
+   "description": "",
+   "location": "IG11***",
+   "price_text": "\u00a31332.70",
+   "price": 1332.7,
+   "image": "https://i.ebayimg.com/images/g/CZ8AAeSwM99qtcGA/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-25T04:53:51+00:00"
+  },
+  "ebay:v1|257764044862|0": {
+   "id": "ebay:v1|257764044862|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257764044862?_skw=road+bike&hash=item3c03ef303e:g:760AAeSwiKpqtcEy",
+   "title": "Giant Contend SL 1 ML 2025 Asphalt Green Road Bike Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31159.99",
+   "price": 1159.99,
+   "image": "https://i.ebayimg.com/images/g/760AAeSwiKpqtcEy/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-25T04:53:51+00:00"
+  },
+  "ebay:v1|137776398196|0": {
+   "id": "ebay:v1|137776398196|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137776398196?_skw=road+bike&hash=item20141cff74:g:5pAAAeSwoLZqtbwb",
+   "title": "Canyon Aeroad CF SLX Carbon Road Bike Size M Dura Ace 6.9kg Reynolds",
+   "description": "",
+   "location": "SW20***",
+   "price_text": "\u00a31800.00",
+   "price": 1800.0,
+   "image": "https://i.ebayimg.com/images/g/5pAAAeSwoLZqtbwb/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-25T04:53:51+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 691,
+   "fail_streak": 692,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 165,
+   "fail_streak": 166,
    "warned": true,
    "ever_ok": true
   },
@@ -169367,15 +169445,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-24T05:44:49",
    "2026-09-24T10:35:58",
    "2026-09-24T15:23:31",
    "2026-09-24T19:37:31",
    "2026-09-24T22:45:36",
-   "2026-09-25T01:05:39"
+   "2026-09-25T01:05:39",
+   "2026-09-25T05:53:52"
   ],
   "last_heartbeat": "2026-09-24",
-  "last_status": "2026-09-25T01",
+  "last_status": "2026-09-25T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
