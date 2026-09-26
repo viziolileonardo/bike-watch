@@ -171751,16 +171751,110 @@
    "level": "digest",
    "first_seen": "2026-09-25T22:17:59+00:00",
    "blue_score": 0.289
+  },
+  "ebay:v1|307199509468|0": {
+   "id": "ebay:v1|307199509468|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307199509468?_skw=road+bike&hash=item47868483dc:g:kwsAAeSw1xZqtwoP",
+   "title": "Canyon Aeroad CF SLX 8.0 Carbon Aero Road Bike Size L Red Ultegra R8000 - 2018",
+   "description": "",
+   "location": "EN5***",
+   "price_text": "\u00a31740.70",
+   "price": 1740.7,
+   "image": "https://i.ebayimg.com/images/g/kwsAAeSw1xZqtwoP/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T00:39:34+00:00"
+  },
+  "ebay:v1|377523204284|0": {
+   "id": "ebay:v1|377523204284|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377523204284?_skw=road+bike&hash=item57e622f0bc:g:FfgAAeSwHjVqcRNR",
+   "title": "Canyon Ultimate CF SLX  8, R39 Carbon Road Bike, L , UCI approved ULTEGRA R8000",
+   "description": "",
+   "location": "CA15***",
+   "price_text": "\u00a31383.70",
+   "price": 1383.7,
+   "image": "https://i.ebayimg.com/images/g/FfgAAeSwHjVqcRNR/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T00:39:34+00:00"
+  },
+  "ebay:v1|267795851595|0": {
+   "id": "ebay:v1|267795851595|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267795851595?_skw=road+bike&hash=item3e59e0694b:g:g1EAAeSwJBJqtva8",
+   "title": "Super Light Carbon Road Bike XS 48cm 7.04kg!",
+   "description": "",
+   "location": "SK1***",
+   "price_text": "\u00a3481.00",
+   "price": 481.0,
+   "image": "https://i.ebayimg.com/images/g/g1EAAeSwJBJqtva8/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-26T00:39:35+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|336813104337|0": {
+   "id": "ebay:v1|336813104337|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336813104337?_skw=road+bike&hash=item4e6ba01cd1:g:uYsAAeSwMStqtvUr",
+   "title": "Bianchi Giro Road Bike",
+   "description": "",
+   "location": "WD17***",
+   "price_text": "\u00a3455.50",
+   "price": 455.5,
+   "image": "https://i.ebayimg.com/images/g/uYsAAeSwMStqtvUr/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T00:39:35+00:00"
+  },
+  "ebay:v1|336813101170|0": {
+   "id": "ebay:v1|336813101170|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336813101170?_skw=road+bike&hash=item4e6ba01072:g:us8AAeSw0SZqtvMt",
+   "title": "Specialized Tricross Sport Road Bike",
+   "description": "",
+   "location": "WD17***",
+   "price_text": "\u00a3389.20",
+   "price": 389.2,
+   "image": "https://i.ebayimg.com/images/g/us8AAeSw0SZqtvMt/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T00:39:35+00:00"
+  },
+  "ebay:v1|117431057732|0": {
+   "id": "ebay:v1|117431057732|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117431057732?_skw=road+bike&hash=item1b576fbd44:g:rS8AAeSwMpBqtpNx",
+   "title": "Mavic Ksyrium SLR SSC Exalith 700c Rim Brake Clincher Wheelset",
+   "description": "",
+   "location": "YO62***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/rS8AAeSwMpBqtpNx/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-26T00:39:35+00:00",
+   "blue_score": 0.003
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 696,
+   "fail_streak": 697,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 170,
+   "fail_streak": 171,
    "warned": true,
    "ever_ok": true
   },
@@ -171770,15 +171864,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-25T01:05:39",
    "2026-09-25T05:53:52",
    "2026-09-25T10:52:47",
    "2026-09-25T15:47:45",
    "2026-09-25T19:58:47",
-   "2026-09-25T23:18:01"
+   "2026-09-25T23:18:01",
+   "2026-09-26T01:39:36"
   ],
   "last_heartbeat": "2026-09-25",
-  "last_status": "2026-09-25T23",
+  "last_status": "2026-09-26T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
