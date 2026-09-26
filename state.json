@@ -174474,16 +174474,110 @@
    "level": "digest",
    "first_seen": "2026-09-26T20:16:39+00:00",
    "blue_score": 0.061
+  },
+  "ebay:v1|366694255988|0": {
+   "id": "ebay:v1|366694255988|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366694255988?_skw=road+bike&hash=item5560ae4d74:g:AtIAAeSwNXdquEl3",
+   "title": "Quarq Dzero Quarq 11R-110 Road Power Meter Gxp 170 Exogram Carbon, RRP \u00a3800",
+   "description": "",
+   "location": "MK18***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/AtIAAeSwNXdquEl3/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-26T22:53:09+00:00",
+   "blue_score": 0.011
+  },
+  "ebay:v1|128100558380|0": {
+   "id": "ebay:v1|128100558380|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128100558380?_skw=road+bike&hash=item1dd363662c:g:WxIAAeSw93hquEJF",
+   "title": "Giant Contend AR1 - M/L - 2021 Aluminium Road Bike - 105 Hydraulic Disc",
+   "description": "",
+   "location": "NR32***",
+   "price_text": "\u00a3695.20",
+   "price": 695.2,
+   "image": "https://i.ebayimg.com/images/g/WxIAAeSw93hquEJF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T22:53:09+00:00"
+  },
+  "ebay:v1|366694208890|0": {
+   "id": "ebay:v1|366694208890|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366694208890?_skw=road+bike&hash=item5560ad957a:g:7XkAAeSwZ~1quETD",
+   "title": "Woodrup Road Bike Frame 530 Steel Purple 52cm Vintage Eroica Campagnolo Frameset",
+   "description": "",
+   "location": "BT10***",
+   "price_text": "\u00a3249.99",
+   "price": 249.99,
+   "image": "https://i.ebayimg.com/images/g/7XkAAeSwZ~1quETD/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-26T22:53:09+00:00",
+   "blue_score": 0.039
+  },
+  "ebay:v1|398435129111|0": {
+   "id": "ebay:v1|398435129111|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398435129111?_skw=road+bike&hash=item5cc4959717:g:B7EAAeSwVJRquD~0",
+   "title": "Boardman Comp Road Bike 700C S Frame Drop Bar Derailleur Side-Pull Caliper",
+   "description": "",
+   "location": "S71***",
+   "price_text": "\u00a31026.70",
+   "price": 1026.7,
+   "image": "https://i.ebayimg.com/images/g/B7EAAeSwVJRquD~0/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T22:53:09+00:00"
+  },
+  "ebay:v1|318921941354|0": {
+   "id": "ebay:v1|318921941354|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318921941354?_skw=road+bike&hash=item4a413aa16a:g:fGYAAeSwiQdquDG7",
+   "title": "Trek Domane Al 2-Disc Road Bike Purple/Red, 52cm, Good Condition",
+   "description": "",
+   "location": "E3***",
+   "price_text": "\u00a3322.90",
+   "price": 322.9,
+   "image": "https://i.ebayimg.com/images/g/fGYAAeSwiQdquDG7/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T22:53:09+00:00"
+  },
+  "ebay:v1|128100477029|0": {
+   "id": "ebay:v1|128100477029|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128100477029?_skw=road+bike&hash=item1dd3622865:g:bKgAAeSwJh9quCsx",
+   "title": "Giant TCR Advanced 2 - ML - Carbon Road Bike - Prime RR50 V3 carbon wheels",
+   "description": "",
+   "location": "NR32***",
+   "price_text": "\u00a3899.20",
+   "price": 899.2,
+   "image": "https://i.ebayimg.com/images/g/bKgAAeSwJh9quCsx/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-26T22:53:09+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 702,
+   "fail_streak": 703,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 176,
+   "fail_streak": 177,
    "warned": true,
    "ever_ok": true
   },
@@ -174493,16 +174587,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-25T23:18:01",
    "2026-09-26T01:39:36",
    "2026-09-26T06:37:00",
    "2026-09-26T11:11:53",
    "2026-09-26T15:28:32",
    "2026-09-26T18:56:36",
-   "2026-09-26T21:16:41"
+   "2026-09-26T21:16:41",
+   "2026-09-26T23:53:09"
   ],
   "last_heartbeat": "2026-09-26",
-  "last_status": "2026-09-26T21",
+  "last_status": "2026-09-26T23",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
