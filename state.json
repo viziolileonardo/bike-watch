@@ -174568,16 +174568,108 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-26T22:53:09+00:00"
+  },
+  "ebay:v1|117433312184|0": {
+   "id": "ebay:v1|117433312184|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117433312184?_skw=road+bike&hash=item1b579223b8:g:mK0AAeSw25hqoUYm",
+   "title": "Orbea Avant Road Bike (Large)",
+   "description": "",
+   "location": "SE8***",
+   "price_text": "\u00a3589.00",
+   "price": 589.0,
+   "image": "https://i.ebayimg.com/images/g/mK0AAeSw25hqoUYm/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-27T00:59:02+00:00"
+  },
+  "ebay:v1|287611006817|0": {
+   "id": "ebay:v1|287611006817|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287611006817?_skw=road+bike&hash=item42f6f3af61:g:FaoAAeSwpDFquFlz",
+   "title": "Zipp 454 NSW Carbon Front Wheel Tubeless Center Lock Disc Cognition V2 700c",
+   "description": "",
+   "location": "GL12***",
+   "price_text": "\u00a3567.70",
+   "price": 567.7,
+   "image": "https://i.ebayimg.com/images/g/FaoAAeSwpDFquFlz/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-27T00:59:02+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|227540779561|0": {
+   "id": "ebay:v1|227540779561|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227540779561?_skw=road+bike&hash=item34fa7cc229:g:aCoAAeSw0O5quEet",
+   "title": "kinesis racelight 4S road bike",
+   "description": "",
+   "location": "ST15***",
+   "price_text": "\u00a3309.32",
+   "price": 309.32,
+   "image": "https://i.ebayimg.com/images/g/aCoAAeSw0O5quEet/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Kinesis \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-27T00:59:02+00:00"
+  },
+  "ebay:v1|366694278782|0": {
+   "id": "ebay:v1|366694278782|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366694278782?_skw=road+bike&hash=item5560aea67e:g:~1EAAeSwhkhquE68",
+   "title": "SRAM RED eTap 11-Speed Road Braze-on Front Derailleur",
+   "description": "",
+   "location": "MK18***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/~1EAAeSwhkhquE68/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-27T00:59:02+00:00",
+   "blue_score": 0.003
+  },
+  "ebay:v1|257767742362|0": {
+   "id": "ebay:v1|257767742362|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257767742362?_skw=road+bike&hash=item3c04279b9a:g:558AAeSwxblquEzd",
+   "title": "Bontrager Aeolus Elite 35 TLR Disc carbon Wheelset",
+   "description": "",
+   "location": "BN1***",
+   "price_text": "\u00a3674.99",
+   "price": 674.99,
+   "image": "https://i.ebayimg.com/images/g/558AAeSwxblquEzd/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-27T00:59:02+00:00",
+   "blue_score": 0.273
+  },
+  "ebay:v1|366694267056|0": {
+   "id": "ebay:v1|366694267056|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366694267056?_skw=road+bike&hash=item5560ae78b0:g:7CkAAeSwtPdquEvw",
+   "title": "SRAM Red eTap Shifters (Pair) , 11-Speed, Rim Brake Shifters - pair",
+   "description": "",
+   "location": "MK18***",
+   "price_text": "\u00a3255.50",
+   "price": 255.5,
+   "image": "https://i.ebayimg.com/images/g/7CkAAeSwtPdquEvw/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-27T00:59:03+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 703,
+   "fail_streak": 704,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 177,
+   "fail_streak": 178,
    "warned": true,
    "ever_ok": true
   },
@@ -174587,16 +174679,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-26T01:39:36",
    "2026-09-26T06:37:00",
    "2026-09-26T11:11:53",
    "2026-09-26T15:28:32",
    "2026-09-26T18:56:36",
    "2026-09-26T21:16:41",
-   "2026-09-26T23:53:09"
+   "2026-09-26T23:53:09",
+   "2026-09-27T01:59:03"
   ],
   "last_heartbeat": "2026-09-26",
-  "last_status": "2026-09-26T23",
+  "last_status": "2026-09-27T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
