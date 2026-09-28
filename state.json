@@ -177759,16 +177759,79 @@
    "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-28T01:38:46+00:00"
+  },
+  "ebay:v1|820181232249|0": {
+   "id": "ebay:v1|820181232249|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820181232249?_skw=road+bike&hash=itembef69c6a79:g:wykAAeSwbyVquhI3",
+   "title": "NEW 2026 VIPCOO H6 Electric Dirt Bike 6000W 60V 31.5Ah 43.5MPH Off-Road UK Stock",
+   "description": "",
+   "location": "NE2***",
+   "price_text": "\u00a31999.00",
+   "price": 1999.0,
+   "image": "https://i.ebayimg.com/images/g/wykAAeSwbyVquhI3/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-09-28T07:46:10+00:00"
+  },
+  "ebay:v1|168732394581|0": {
+   "id": "ebay:v1|168732394581|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168732394581?_skw=road+bike&hash=item27493c0455:g:aLwAAeSwJ4Zqug~V",
+   "title": "Trek Madone SLR Gen 7, Project One, Ultegra di2, 52cm",
+   "description": "",
+   "location": "NR2***",
+   "price_text": "\u00a32811.70",
+   "price": 2811.7,
+   "image": "https://i.ebayimg.com/images/g/aLwAAeSwJ4Zqug~V/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-28T07:46:10+00:00"
+  },
+  "ebay:v1|318927846699|0": {
+   "id": "ebay:v1|318927846699|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318927846699?_skw=road+bike&hash=item4a4194bd2b:g:YIUAAeSwfPNqufPu",
+   "title": "Peugeot Performance Bike Road Racing Racer 30 Columbus Frame Shimano RSX Vintage",
+   "description": "",
+   "location": "W13***",
+   "price_text": "\u00a3240.00",
+   "price": 240.0,
+   "image": "https://i.ebayimg.com/images/g/YIUAAeSwfPNqufPu/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Peugeot \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-28T07:46:10+00:00"
+  },
+  "ebay:v1|189000612262|0": {
+   "id": "ebay:v1|189000612262|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/189000612262?_skw=road+bike&hash=item2c015079a6:g:RWgAAeSwTTtquffF",
+   "title": "Prime Black Edition 700C Carbon Clincher Road Wheelset Rim Brake Presta Valve",
+   "description": "",
+   "location": "EX4***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/RWgAAeSwTTtquffF/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-28T07:46:10+00:00",
+   "blue_score": 0.015
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 710,
+   "fail_streak": 711,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 184,
+   "fail_streak": 185,
    "warned": true,
    "ever_ok": true
   },
@@ -177778,15 +177841,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-27T07:36:13",
    "2026-09-27T13:23:52",
    "2026-09-27T18:12:55",
    "2026-09-27T21:09:08",
    "2026-09-28T00:01:49",
-   "2026-09-28T02:38:46"
+   "2026-09-28T02:38:46",
+   "2026-09-28T08:46:10"
   ],
   "last_heartbeat": "2026-09-27",
-  "last_status": "2026-09-28T02",
+  "last_status": "2026-09-28T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
