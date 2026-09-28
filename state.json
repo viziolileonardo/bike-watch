@@ -177696,16 +177696,79 @@
    "level": "digest",
    "first_seen": "2026-09-27T23:01:46+00:00",
    "blue_score": 0.101
+  },
+  "ebay:v1|237094193238|0": {
+   "id": "ebay:v1|237094193238|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237094193238?_skw=road+bike&hash=item3733ea4856:g:Q9YAAeSwQXVqubqB",
+   "title": "Cube SL Road SL Hybrid Road Bike",
+   "description": "",
+   "location": "M23***",
+   "price_text": "\u00a3450.40",
+   "price": 450.4,
+   "image": "https://i.ebayimg.com/images/g/Q9YAAeSwQXVqubqB/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-28T01:38:46+00:00"
+  },
+  "ebay:v1|168731272278|0": {
+   "id": "ebay:v1|168731272278|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168731272278?_skw=road+bike&hash=item27492ae456:g:Mj4AAeSwUadqubL~",
+   "title": "ELITE WHEELSET ENT 60V-R13  SHIMANO HG",
+   "description": "",
+   "location": "PR1***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/Mj4AAeSwUadqubL~/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-28T01:38:46+00:00",
+   "blue_score": 0.085
+  },
+  "ebay:v1|318926617126|0": {
+   "id": "ebay:v1|318926617126|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318926617126?_skw=road+bike&hash=item4a4181fa26:g:MdYAAeSwbyVquagJ",
+   "title": "Orbea Road Bike 55cm  White/Black/Red",
+   "description": "",
+   "location": "NE63***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/MdYAAeSwbyVquagJ/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-28T01:38:46+00:00"
+  },
+  "ebay:v1|318926614641|0": {
+   "id": "ebay:v1|318926614641|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/318926614641?_skw=road+bike&hash=item4a4181f071:g:1ScAAeSwIThquadj",
+   "title": "Merida Reacto 300 700C Carbon Fibre Road Bike L Black/Blue Drop Bar 2015",
+   "description": "",
+   "location": "NE63***",
+   "price_text": "\u00a3465.70",
+   "price": 465.7,
+   "image": "https://i.ebayimg.com/images/g/1ScAAeSwIThquadj/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-28T01:38:46+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 709,
+   "fail_streak": 710,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 183,
+   "fail_streak": 184,
    "warned": true,
    "ever_ok": true
   },
@@ -177715,15 +177778,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-27T01:59:03",
    "2026-09-27T07:36:13",
    "2026-09-27T13:23:52",
    "2026-09-27T18:12:55",
    "2026-09-27T21:09:08",
-   "2026-09-28T00:01:49"
+   "2026-09-28T00:01:49",
+   "2026-09-28T02:38:46"
   ],
   "last_heartbeat": "2026-09-27",
-  "last_status": "2026-09-28T00",
+  "last_status": "2026-09-28T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
