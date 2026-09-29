@@ -180195,16 +180195,79 @@
    "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-29T01:22:58+00:00"
+  },
+  "ebay:v1|398442639883|0": {
+   "id": "ebay:v1|398442639883|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/398442639883?_skw=road+bike&hash=item5cc508320b:g:0nQAAeSwe35qu2Sf",
+   "title": "Giant contend 2 road bike M black/green metallic",
+   "description": "",
+   "location": "E3***",
+   "price_text": "\u00a3281.50",
+   "price": 281.5,
+   "image": "https://i.ebayimg.com/images/g/0nQAAeSwe35qu2Sf/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-29T07:24:34+00:00"
+  },
+  "ebay:v1|189008329140|0": {
+   "id": "ebay:v1|189008329140|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/189008329140?_skw=road+bike&hash=item2c01c639b4:g:fZEAAeSwHblqu2Ep",
+   "title": "Ribble Ultra Aero SL (2025) With Mavic Cosmic 65mm Carbon wheels",
+   "description": "",
+   "location": "CT17***",
+   "price_text": "\u00a31842.70",
+   "price": 1842.7,
+   "image": "https://i.ebayimg.com/images/g/fZEAAeSwHblqu2Ep/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-29T07:24:34+00:00"
+  },
+  "ebay:v1|820184390109|0": {
+   "id": "ebay:v1|820184390109|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820184390109?_skw=road+bike&hash=itembef6cc99dd:g:2VkAAeSwBWFquxuR",
+   "title": "Croydon large steel vintage lopro triathlon time trial bike Dura Ace",
+   "description": "",
+   "location": "CR0***",
+   "price_text": "\u00a3516.70",
+   "price": 516.7,
+   "image": "https://i.ebayimg.com/images/g/2VkAAeSwBWFquxuR/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-29T07:24:35+00:00",
+   "blue_score": 0.089
+  },
+  "ebay:v1|257772186175|0": {
+   "id": "ebay:v1|257772186175|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257772186175?_skw=road+bike&hash=item3c046b6a3f:g:uE8AAeSwWSVquxSq",
+   "title": "Ribble R872 Carbon Fibre Road Bike 700C 58cm Black Drop Bar Rim Brake",
+   "description": "",
+   "location": "PO2***",
+   "price_text": "\u00a3618.70",
+   "price": 618.7,
+   "image": "https://i.ebayimg.com/images/g/uE8AAeSwWSVquxSq/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-09-29T07:24:35+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 714,
+   "fail_streak": 715,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 188,
+   "fail_streak": 189,
    "warned": true,
    "ever_ok": true
   },
@@ -180214,14 +180277,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-28T02:38:46",
    "2026-09-28T08:46:10",
    "2026-09-28T17:06:23",
    "2026-09-28T22:58:14",
-   "2026-09-29T02:23:01"
+   "2026-09-29T02:23:01",
+   "2026-09-29T08:24:35"
   ],
   "last_heartbeat": "2026-09-28",
-  "last_status": "2026-09-29T02",
+  "last_status": "2026-09-29T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
