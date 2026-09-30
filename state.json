@@ -181974,16 +181974,31 @@
    "ai_reason": "(rule) complete bike listed as Focus \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-29T23:08:21+00:00"
+  },
+  "ebay:v1|407255833019|0": {
+   "id": "ebay:v1|407255833019|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407255833019?_skw=road+bike&hash=item5ed256d9bb:g:XG0AAeSwoH1qvEth",
+   "title": "Retro Heaven - 1992 GAN / LeMond Road Frame - Excel GLX - 22.5\" / 57cm - C-C",
+   "description": "",
+   "location": "CT6***",
+   "price_text": "\u00a3286.70",
+   "price": 286.7,
+   "image": "https://i.ebayimg.com/images/g/XG0AAeSwoH1qvEth/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-09-30T02:06:00+00:00",
+   "blue_score": 0.072
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 718,
+   "fail_streak": 719,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 192,
+   "fail_streak": 193,
    "warned": true,
    "ever_ok": true
   },
@@ -181993,14 +182008,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-29T02:23:01",
    "2026-09-29T08:24:35",
    "2026-09-29T15:17:03",
    "2026-09-29T20:26:56",
-   "2026-09-30T00:08:22"
+   "2026-09-30T00:08:22",
+   "2026-09-30T03:06:01"
   ],
   "last_heartbeat": "2026-09-29",
-  "last_status": "2026-09-30T00",
+  "last_status": "2026-09-30T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
