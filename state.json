@@ -184183,16 +184183,62 @@
    "ai_reason": "(rule) complete bike listed as Orro \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-09-30T23:46:56+00:00"
+  },
+  "ebay:v1|237099768082|0": {
+   "id": "ebay:v1|237099768082|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237099768082?_skw=road+bike&hash=item37343f5912:g:VEEAAeSww8FqvcGr",
+   "title": "NEW Shimano Dura-Ace C50 Carbon Tubeless Disc 700C 50mm Wheelset",
+   "description": "",
+   "location": "DH1***",
+   "price_text": "\u00a31230.70",
+   "price": 1230.7,
+   "image": "https://i.ebayimg.com/images/g/VEEAAeSww8FqvcGr/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-01T02:31:19+00:00",
+   "blue_score": 0.006
+  },
+  "ebay:v1|227546864182|0": {
+   "id": "ebay:v1|227546864182|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227546864182?_skw=road+bike&hash=item34fad99a36:g:7ncAAeSw4oJqvbze",
+   "title": "Ribble Endurance enthusiast 725 Large Road Bike",
+   "description": "",
+   "location": "NG23***",
+   "price_text": "\u00a3720.70",
+   "price": 720.7,
+   "image": "https://i.ebayimg.com/images/g/7ncAAeSw4oJqvbze/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-01T02:31:19+00:00"
+  },
+  "ebay:v1|257775733270|0": {
+   "id": "ebay:v1|257775733270|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257775733270?_skw=road+bike&hash=item3c04a18a16:g:NwkAAeSwNnNqvaXw",
+   "title": "Wahoo Speedplay dual sided powermeter Clipless Road Pedals+ cleats",
+   "description": "",
+   "location": "SE24***",
+   "price_text": "\u00a3435.10",
+   "price": 435.1,
+   "image": "https://i.ebayimg.com/images/g/NwkAAeSwNnNqvaXw/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-01T02:31:19+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 723,
+   "fail_streak": 724,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 197,
+   "fail_streak": 198,
    "warned": true,
    "ever_ok": true
   },
@@ -184202,14 +184248,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-09-30T03:06:01",
    "2026-09-30T09:30:06",
    "2026-09-30T16:11:54",
    "2026-09-30T21:00:22",
-   "2026-10-01T00:46:57"
+   "2026-10-01T00:46:57",
+   "2026-10-01T03:31:20"
   ],
   "last_heartbeat": "2026-09-30",
-  "last_status": "2026-10-01T00",
+  "last_status": "2026-10-01T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
