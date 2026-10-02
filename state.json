@@ -186398,16 +186398,110 @@
    "ai_reason": "(rule) complete bike listed as Triban \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-02T01:03:17+00:00"
+  },
+  "ebay:v1|128110337462|0": {
+   "id": "ebay:v1|128110337462|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128110337462?_skw=road+bike&hash=item1dd3f89db6:g:mGQAAeSwLrxphmR~",
+   "title": "Specialized S-Works Shiv TT Carbon Road Race Bike Frameset Seat Post BB trek SL",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3575.00",
+   "price": 575.0,
+   "image": "https://i.ebayimg.com/images/g/mGQAAeSwLrxphmR~/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-02T06:59:40+00:00",
+   "blue_score": 0.111
+  },
+  "ebay:v1|178547260320|0": {
+   "id": "ebay:v1|178547260320|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178547260320?_skw=road+bike&hash=item29923efba0:g:LlMAAeSwcSBqv0M2",
+   "title": "Cube Agree C:62 One Road Bike 2025 62cm Fog Grey Di2",
+   "description": "",
+   "location": "WF4***",
+   "price_text": "\u00a31536.70",
+   "price": 1536.7,
+   "image": "https://i.ebayimg.com/images/g/LlMAAeSwcSBqv0M2/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-02T06:59:40+00:00"
+  },
+  "ebay:v1|366705358355|0": {
+   "id": "ebay:v1|366705358355|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366705358355?_skw=road+bike&hash=item556157b613:g:1mIAAeSwkhlqvwNF",
+   "title": "Pinnacle Dolomite 6 Road Bike 700C S Shimano 105",
+   "description": "",
+   "location": "CA14***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/1mIAAeSwkhlqvwNF/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-02T06:59:40+00:00",
+   "blue_score": 0.008
+  },
+  "ebay:v1|178547210193|0": {
+   "id": "ebay:v1|178547210193|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/178547210193?_skw=road+bike&hash=item29923e37d1:g:WPQAAeSwzWBqvz7m",
+   "title": "Cannondale Synapse Road Bike 58cm 700C Mechanical Disc Drop Bar Navy/White",
+   "description": "",
+   "location": "NG5***",
+   "price_text": "\u00a3413.68",
+   "price": 413.68,
+   "image": "https://i.ebayimg.com/images/g/WPQAAeSwzWBqvz7m/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-02T06:59:40+00:00"
+  },
+  "ebay:v1|198681846215|0": {
+   "id": "ebay:v1|198681846215|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198681846215?_skw=road+bike&hash=item2e425c61c7:g:Oy8AAeSwFj5qvz6M",
+   "title": "Boardman C7 Carbon Road Bike Medium \u2013 Vision Team 35 \u2013 SRAM Rival",
+   "description": "",
+   "location": "NG12***",
+   "price_text": "\u00a3300.00",
+   "price": 300.0,
+   "image": "https://i.ebayimg.com/images/g/Oy8AAeSwFj5qvz6M/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-02T06:59:40+00:00"
+  },
+  "marktplaats:a1530744229": {
+   "id": "marktplaats:a1530744229",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1530744229-canyon-endurace-cf-sl-8-aero-2023-197-204-cm",
+   "title": "Canyon ENDURACE CF SL 8 AERO \u2013 2023 \u2013 197 - 204 cm",
+   "description": "The road bikes has a carbon frame. The manufacturer lists the frame size as xxl. Our own measurement comes out to 61 cm.additional specifications: wheel size: 28\" drive type: chain drive gear typ",
+   "location": "NL",
+   "price_text": "\u20ac2599",
+   "price": 2599.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/a3/a39a27df-af6f-4f15-a1fc-f0e0ddb32b47?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-02T06:59:40+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 728,
+   "fail_streak": 729,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 202,
+   "fail_streak": 203,
    "warned": true,
    "ever_ok": true
   },
@@ -186417,14 +186511,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-01T03:31:20",
    "2026-10-01T10:20:16",
    "2026-10-01T17:40:25",
    "2026-10-01T22:26:28",
-   "2026-10-02T02:03:18"
+   "2026-10-02T02:03:18",
+   "2026-10-02T07:59:40"
   ],
   "last_heartbeat": "2026-10-01",
-  "last_status": "2026-10-02T02",
+  "last_status": "2026-10-02T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
