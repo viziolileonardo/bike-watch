@@ -188666,16 +188666,46 @@
    "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-02T22:38:31+00:00"
+  },
+  "ebay:v1|287622860894|0": {
+   "id": "ebay:v1|287622860894|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287622860894?_skw=road+bike&hash=item42f7a8905e:g:nLkAAeSwQDVqwDIL",
+   "title": "Husqvarna WR250 1980 to 1990 off road project bike unsure of exact year",
+   "description": "",
+   "location": "WD6***",
+   "price_text": "\u00a3250.00",
+   "price": 250.0,
+   "image": "https://i.ebayimg.com/images/g/nLkAAeSwQDVqwDIL/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-03T01:30:20+00:00",
+   "blue_score": 0.043
+  },
+  "ebay:v1|920002224678|0": {
+   "id": "ebay:v1|920002224678|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920002224678?_skw=road+bike&hash=itemd63467e226:g:6YUAAeSwa-RqwDUk",
+   "title": "9 Kg Carbon Dedacciai Gladiatore Road Bike 56cm 700C SRAM Rival 20sp",
+   "description": "",
+   "location": "SA1***",
+   "price_text": "\u00a3390.00",
+   "price": 390.0,
+   "image": "https://i.ebayimg.com/images/g/6YUAAeSwa-RqwDUk/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-03T01:30:20+00:00",
+   "blue_score": 0.223
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 732,
+   "fail_streak": 733,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 206,
+   "fail_streak": 207,
    "warned": true,
    "ever_ok": true
   },
@@ -188685,14 +188715,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-02T02:03:18",
    "2026-10-02T07:59:40",
    "2026-10-02T14:50:31",
    "2026-10-02T19:45:50",
-   "2026-10-02T23:38:33"
+   "2026-10-02T23:38:33",
+   "2026-10-03T02:30:21"
   ],
   "last_heartbeat": "2026-10-02",
-  "last_status": "2026-10-02T23",
+  "last_status": "2026-10-03T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
