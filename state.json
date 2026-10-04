@@ -191479,16 +191479,79 @@
    "ai_reason": "(rule) complete bike listed as Rose \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-03T22:22:35+00:00"
+  },
+  "ebay:v1|800754765599|0": {
+   "id": "ebay:v1|800754765599|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800754765599?_skw=road+bike&hash=itemba70b40f1f:g:38cAAeSwXYxqp9IK",
+   "title": "VIPCOO H3 (2026 Model) Off-Road Electric Dirt Bike | 48V 23Ah | Fast UK Delivery",
+   "description": "",
+   "location": "KT1***",
+   "price_text": "\u00a31199.00",
+   "price": 1199.0,
+   "image": "https://i.ebayimg.com/images/g/38cAAeSwXYxqp9IK/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-04T01:56:04+00:00"
+  },
+  "ebay:v1|860005728228|0": {
+   "id": "ebay:v1|860005728228|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860005728228?_skw=road+bike&hash=itemc83c55ffe4:g:PpcAAOSwFVFiqEAw",
+   "title": "48V 1500W 26\" Electric Bike Conversion Kit LCD Display Rear Wheel UK E-Bike",
+   "description": "",
+   "location": "DE13***",
+   "price_text": "\u00a3236.20",
+   "price": 236.2,
+   "image": "https://i.ebayimg.com/images/g/PpcAAOSwFVFiqEAw/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-04T01:56:05+00:00",
+   "blue_score": 0.019
+  },
+  "ebay:v1|366709294654|0": {
+   "id": "ebay:v1|366709294654|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366709294654?_skw=road+bike&hash=item556193c63e:g:VBoAAeSwkIlqwZpw",
+   "title": "36V X Beast Electric Mini Dirt Bike 800W Blue Off Road Motorbike Kids ATV",
+   "description": "",
+   "location": "OL12***",
+   "price_text": "\u00a3474.99",
+   "price": 474.99,
+   "image": "https://i.ebayimg.com/images/g/VBoAAeSwkIlqwZpw/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-04T01:56:05+00:00"
+  },
+  "ebay:v1|366709239964|0": {
+   "id": "ebay:v1|366709239964|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366709239964?_skw=road+bike&hash=item556192f09c:g:7W8AAeSw~fxqwZPK",
+   "title": "Mini Dirt Bike Motorbike Motocross Twin Exhaust Pink 49cc Petrol Off Road Kids",
+   "description": "",
+   "location": "OL12***",
+   "price_text": "\u00a3299.99",
+   "price": 299.99,
+   "image": "https://i.ebayimg.com/images/g/7W8AAeSw~fxqwZPK/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-04T01:56:05+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 738,
+   "fail_streak": 739,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 212,
+   "fail_streak": 213,
    "warned": true,
    "ever_ok": true
   },
@@ -191498,16 +191561,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-02T23:38:33",
-   "2026-10-03T02:30:21",
    "2026-10-03T07:59:24",
    "2026-10-03T13:31:24",
    "2026-10-03T17:37:38",
    "2026-10-03T20:23:25",
-   "2026-10-03T23:22:38"
+   "2026-10-03T23:22:38",
+   "2026-10-04T02:56:05"
   ],
   "last_heartbeat": "2026-10-03",
-  "last_status": "2026-10-03T23",
+  "last_status": "2026-10-04T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
