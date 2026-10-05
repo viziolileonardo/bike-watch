@@ -195154,16 +195154,31 @@
    "ai_reason": "(rule) complete bike listed as Stevens \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-04T23:31:21+00:00"
+  },
+  "ebay:v1|227552396435|0": {
+   "id": "ebay:v1|227552396435|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227552396435?_skw=road+bike&hash=item34fb2e0493:g:LJIAAeSw95dqwuhf",
+   "title": "ZONVEER M20 Electric Bike 48V 18.2Ah 20x4in Fat Tyre Shimano 7 Speed Off Road",
+   "description": "",
+   "location": "SW1A***",
+   "price_text": "\u00a3999.99",
+   "price": 999.99,
+   "image": "https://i.ebayimg.com/images/g/LJIAAeSw95dqwuhf/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-05T02:18:37+00:00",
+   "blue_score": 0.025
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 744,
+   "fail_streak": 745,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 218,
+   "fail_streak": 219,
    "warned": true,
    "ever_ok": true
   },
@@ -195173,15 +195188,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-04T02:56:05",
    "2026-10-04T08:29:50",
    "2026-10-04T14:24:51",
    "2026-10-04T18:47:51",
    "2026-10-04T21:30:37",
-   "2026-10-05T00:31:22"
+   "2026-10-05T00:31:22",
+   "2026-10-05T03:18:37"
   ],
   "last_heartbeat": "2026-10-04",
-  "last_status": "2026-10-05T00",
+  "last_status": "2026-10-05T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
