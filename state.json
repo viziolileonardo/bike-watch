@@ -199406,16 +199406,93 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-06T23:03:00+00:00"
+  },
+  "ebay:v1|278441023096|2561027676260": {
+   "id": "ebay:v1|278441023096|2561027676260",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/278441023096?_skw=road+bike&hash=item40d460d678:g:MYMAAeSwwcNqxZf8",
+   "title": "BRZ Neon Thunder Pro 72v 5000w Off Road Electric Dirt Bike 17/14\"",
+   "description": "",
+   "location": "WA5***",
+   "price_text": "\u00a32069.00",
+   "price": 2069.0,
+   "image": "https://i.ebayimg.com/images/g/MYMAAeSwwcNqxZf8/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-07T02:21:57+00:00"
+  },
+  "ebay:v1|267806269676|0": {
+   "id": "ebay:v1|267806269676|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267806269676?_skw=road+bike&hash=item3e5a7f60ec:g:qPsAAeSwSGhqxZMd",
+   "title": "Argon 18 SUM Pro Frameset XL Crystal Black",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32899.99",
+   "price": 2899.99,
+   "image": "https://i.ebayimg.com/images/g/qPsAAeSwSGhqxZMd/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-07T02:21:58+00:00",
+   "blue_score": 0.003
+  },
+  "ebay:v1|117451986173|0": {
+   "id": "ebay:v1|117451986173|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117451986173?_skw=road+bike&hash=item1b58af14fd:g:YAYAAeSw3P1qxYBo",
+   "title": "50cc 2 Stroke Petrol ATV Quad Bike with Pull Start \u2013 Off Road Kids Quad",
+   "description": "",
+   "location": "OL16***",
+   "price_text": "\u00a3374.99",
+   "price": 374.99,
+   "image": "https://i.ebayimg.com/images/g/YAYAAeSw3P1qxYBo/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-07T02:21:58+00:00",
+   "blue_score": 0.009
+  },
+  "ebay:v1|128119701123|0": {
+   "id": "ebay:v1|128119701123|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128119701123?_skw=road+bike&hash=item1dd4877e83:g:spYAAeSw62VqxX8~",
+   "title": "Mavic Cosmic SL 45 Disc Wheelset 700c",
+   "description": "",
+   "location": "OX28***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/spYAAeSw62VqxX8~/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-07T02:21:58+00:00",
+   "blue_score": 0.013
+  },
+  "ebay:v1|137820224860|0": {
+   "id": "ebay:v1|137820224860|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137820224860?_skw=road+bike&hash=item2016b9bd5c:g:6YkAAeSw9lRqxX4v",
+   "title": "Specialized Secteur Sport Road Bike \u2013 Shimano Sora \u2013 DT Swiss Wheels \u2013 GreyRed",
+   "description": "",
+   "location": "CV23***",
+   "price_text": "\u00a3311.66",
+   "price": 311.66,
+   "image": "https://i.ebayimg.com/images/g/6YkAAeSw9lRqxX4v/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-07T02:21:58+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 752,
+   "fail_streak": 753,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 226,
+   "fail_streak": 227,
    "warned": true,
    "ever_ok": true
   },
@@ -199425,14 +199502,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-06T01:24:40",
    "2026-10-06T07:46:18",
    "2026-10-06T14:42:01",
    "2026-10-06T20:09:29",
-   "2026-10-07T00:03:02"
+   "2026-10-07T00:03:02",
+   "2026-10-07T03:21:59"
   ],
   "last_heartbeat": "2026-10-06",
-  "last_status": "2026-10-07T00",
+  "last_status": "2026-10-07T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
