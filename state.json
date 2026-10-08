@@ -201569,16 +201569,93 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-08T01:13:58+00:00"
+  },
+  "ebay:v1|307220478674|0": {
+   "id": "ebay:v1|307220478674|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307220478674?_skw=road+bike&hash=item4787c47ad2:g:UEYAAeSwqUBqxzM4",
+   "title": "Time VXSR Carbon Fibre Frame/Fork/Headset/Stem",
+   "description": "",
+   "location": "GU11***",
+   "price_text": "\u00a3527.67",
+   "price": 527.67,
+   "image": "https://i.ebayimg.com/images/g/UEYAAeSwqUBqxzM4/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-08T07:22:14+00:00",
+   "blue_score": 0.006
+  },
+  "ebay:v1|189059097811|0": {
+   "id": "ebay:v1|189059097811|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/189059097811?_skw=road+bike&hash=item2c04cce4d3:g:TwoAAeSw-CNqxyeW",
+   "title": "Trek Madone 5.2 Series carbon frame",
+   "description": "",
+   "location": "B90***",
+   "price_text": "\u00a3618.70",
+   "price": 618.7,
+   "image": "https://i.ebayimg.com/images/g/TwoAAeSw-CNqxyeW/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-08T07:22:15+00:00"
+  },
+  "ebay:v1|267807490175|0": {
+   "id": "ebay:v1|267807490175|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267807490175?_skw=road+bike&hash=item3e5a92007f:g:UEkAAeSwswVqxxQ5",
+   "title": "Campagnolo Bullet Ultra Carbon/alloy Rim Brake Wheelset includes Pirelli P-Zero",
+   "description": "",
+   "location": "CT9***",
+   "price_text": "\u00a3414.70",
+   "price": 414.7,
+   "image": "https://i.ebayimg.com/images/g/UEkAAeSwswVqxxQ5/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-08T07:22:15+00:00",
+   "blue_score": 0.015
+  },
+  "ebay:v1|800770513697|0": {
+   "id": "ebay:v1|800770513697|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800770513697?_skw=road+bike&hash=itemba71a45b21:g:riUAAeSwUbVqxwba",
+   "title": "29Inch Electric Bike 48V 18.6AH Off-Road E-Mountain Bike 120KM 21-Speed ZAZAWORK",
+   "description": "",
+   "location": "UB3***",
+   "price_text": "\u00a3649.00",
+   "price": 649.0,
+   "image": "https://i.ebayimg.com/images/g/riUAAeSwUbVqxwba/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-08T07:22:15+00:00",
+   "blue_score": 0.111
+  },
+  "ebay:v1|287634409819|0": {
+   "id": "ebay:v1|287634409819|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287634409819?_skw=road+bike&hash=item42f858c95b:g:3bAAAeSwpvhqxwRs",
+   "title": "Trek domane 56cm road bike",
+   "description": "",
+   "location": "WC1X***",
+   "price_text": "\u00a3491.20",
+   "price": 491.2,
+   "image": "https://i.ebayimg.com/images/g/3bAAAeSwpvhqxwRs/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-08T07:22:15+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 757,
+   "fail_streak": 758,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 231,
+   "fail_streak": 232,
    "warned": true,
    "ever_ok": true
   },
@@ -201588,14 +201665,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-07T03:21:59",
    "2026-10-07T10:08:59",
    "2026-10-07T17:25:54",
    "2026-10-07T22:30:27",
-   "2026-10-08T02:14:00"
+   "2026-10-08T02:14:00",
+   "2026-10-08T08:22:15"
   ],
   "last_heartbeat": "2026-10-07",
-  "last_status": "2026-10-08T02",
+  "last_status": "2026-10-08T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
