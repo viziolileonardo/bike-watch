@@ -203651,16 +203651,78 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-09T00:22:56+00:00"
+  },
+  "ebay:v1|298744010219|0": {
+   "id": "ebay:v1|298744010219|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/298744010219?_skw=road+bike&hash=item458e87d5eb:g:m-oAAeSwswVqyHwm",
+   "title": "Canyon Aeroad CF SLX carbon aero road bike, size M (Pro Geometry), circa 2016.",
+   "description": "",
+   "location": "SE9***",
+   "price_text": "\u00a31536.70",
+   "price": 1536.7,
+   "image": "https://i.ebayimg.com/images/g/m-oAAeSwswVqyHwm/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-09T06:34:06+00:00"
+  },
+  "ebay:v1|307221989182|0": {
+   "id": "ebay:v1|307221989182|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307221989182?_skw=road+bike&hash=item4787db873e:g:mggAAeSwAJNqyFII",
+   "title": "\u00a31,399! CARBON CANYON ULTIMATE CF SL 7 11sp 105 HYD DISC ROAD BIKE 54cm SMALL",
+   "description": "",
+   "location": "B11***",
+   "price_text": "\u00a31433.68",
+   "price": 1433.68,
+   "image": "https://i.ebayimg.com/images/g/mggAAeSwAJNqyFII/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-09T06:34:06+00:00"
+  },
+  "marktplaats:m2448875879": {
+   "id": "marktplaats:m2448875879",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2448875879-cervelo-aspero-gravelbike-maat-56-shimano-ultegra",
+   "title": "Cerv\u00e9lo \u00c1spero Gravelbike - Maat 56 - Shimano Ultegra",
+   "description": "Met pijn in het hart verkoop ik mijn cerv\u00e9lo \u00e1spero gravelbike, maat 56. De fiets is in 2020 nieuw gekocht bij koers. Door een blessure heb ik er uiteindelijk slechts circa 10 keer op kunnen fietsen, ",
+   "location": "Berkel en Rodenrijs",
+   "price_text": "\u20ac1700",
+   "price": 1700.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4ba19865-5874-4c81-93ae-34df1f58c758?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-09T06:34:06+00:00",
+   "blue_score": 0.077
+  },
+  "marktplaats:m2442125162": {
+   "id": "marktplaats:m2442125162",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2442125162-nieuw-argon-18-dark-matter-sram-force-axs-s-1m68-1m75",
+   "title": "Nieuw! Argon 18 Dark Matter, Sram Force AXS, S (1m68 - 1m75)",
+   "description": "Deze nieuwe dark matter carbon gravelbike van het canadese argon 18 dark is opgebouwd met een electronische sram force 1x12 schakelgroep en carbon wielen van dt swiss volledig carbon gravelbike met ee",
+   "location": "Heemskerk",
+   "price_text": "\u20ac2850",
+   "price": 2850.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1ed025f9-7039-44b5-830e-e38d2c8babe2?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-09T06:34:06+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 761,
+   "fail_streak": 762,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 235,
+   "fail_streak": 236,
    "warned": true,
    "ever_ok": true
   },
@@ -203670,14 +203732,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-08T02:14:00",
    "2026-10-08T08:22:15",
    "2026-10-08T15:50:25",
    "2026-10-08T21:15:26",
-   "2026-10-09T01:22:57"
+   "2026-10-09T01:22:57",
+   "2026-10-09T07:34:06"
   ],
   "last_heartbeat": "2026-10-08",
-  "last_status": "2026-10-09T01",
+  "last_status": "2026-10-09T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
