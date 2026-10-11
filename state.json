@@ -208217,16 +208217,63 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-10T22:05:43+00:00"
+  },
+  "ebay:v1|267810240284|0": {
+   "id": "ebay:v1|267810240284|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267810240284?_skw=road+bike&hash=item3e5abbf71c:g:d~wAAeSwG2Vqytky",
+   "title": "Giant Propel Advanced Pro 1 Large Frost Silver Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32899.99",
+   "price": 2899.99,
+   "image": "https://i.ebayimg.com/images/g/d~wAAeSwG2Vqytky/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-11T00:59:45+00:00"
+  },
+  "ebay:v1|257792739644|0": {
+   "id": "ebay:v1|257792739644|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257792739644?_skw=road+bike&hash=item3c05a5093c:g:ZzsAAeSwhKVqyr5K",
+   "title": "Fuji Sportif Endurance Road Bike",
+   "description": "",
+   "location": "LS22***",
+   "price_text": "\u00a3270.06",
+   "price": 270.06,
+   "image": "https://i.ebayimg.com/images/g/ZzsAAeSwhKVqyr5K/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Fuji \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-11T00:59:45+00:00"
+  },
+  "ebay:v1|198704998011|0": {
+   "id": "ebay:v1|198704998011|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198704998011?_skw=road+bike&hash=item2e43bda67b:g:~1sAAeSw2fxqyrcq",
+   "title": "Shimano RD-R8150 Di2 Rear Derailleur - 12 Speed Ultegra for Road Bike",
+   "description": "",
+   "location": "SN10***",
+   "price_text": "\u00a3234.95",
+   "price": 234.95,
+   "image": "https://i.ebayimg.com/images/g/~1sAAeSw2fxqyrcq/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-11T00:59:45+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 770,
+   "fail_streak": 771,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 244,
+   "fail_streak": 245,
    "warned": true,
    "ever_ok": true
   },
@@ -208236,15 +208283,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-10T00:15:38",
    "2026-10-10T03:20:38",
    "2026-10-10T09:52:28",
    "2026-10-10T15:49:28",
    "2026-10-10T19:57:13",
-   "2026-10-10T23:05:45"
+   "2026-10-10T23:05:45",
+   "2026-10-11T01:59:46"
   ],
   "last_heartbeat": "2026-10-10",
-  "last_status": "2026-10-10T23",
+  "last_status": "2026-10-11T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
