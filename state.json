@@ -208264,16 +208264,95 @@
    "level": "digest",
    "first_seen": "2026-10-11T00:59:45+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|117460123073|0": {
+   "id": "ebay:v1|117460123073|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117460123073?_skw=road+bike&hash=item1b592b3dc1:g:m-4AAeSw8npqyyox",
+   "title": "giant momemtum bike",
+   "description": "",
+   "location": "PO7***",
+   "price_text": "\u00a3975.70",
+   "price": 975.7,
+   "image": "https://i.ebayimg.com/images/g/m-4AAeSw8npqyyox/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-11T07:09:49+00:00"
+  },
+  "ebay:v1|227561867368|0": {
+   "id": "ebay:v1|227561867368|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227561867368?_skw=road+bike&hash=item34fbbe8868:g:8HQAAeSw4WBqyx4x",
+   "title": "1 Pair Bicycle Bar End Plugs Handlebar End Caps for MTB Mountain Road Bike",
+   "description": "",
+   "location": "B67***",
+   "price_text": "\u00a3359.00",
+   "price": 359.0,
+   "image": "https://i.ebayimg.com/images/g/8HQAAeSw4WBqyx4x/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-11T07:09:49+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|820226212071|0": {
+   "id": "ebay:v1|820226212071|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820226212071?_skw=road+bike&hash=itembef94ac0e7:g:G8UAAeSwRYRqyuS9",
+   "title": "Carrera Virtuoso Road Bike 700C M White Mechanical Disc Brake Drop Bar",
+   "description": "",
+   "location": "SW8***",
+   "price_text": "\u00a3639.10",
+   "price": 639.1,
+   "image": "https://i.ebayimg.com/images/g/G8UAAeSwRYRqyuS9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Carrera \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-11T07:09:49+00:00"
+  },
+  "marktplaats:m2452394327": {
+   "id": "marktplaats:m2452394327",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2452394327-specialized-crux-comp-52-carbon-grx-1x12-dt-swiss-g540",
+   "title": "SPECIALIZED CRUX COMP 52 CARBON GRX 1X12 DT SWISS G540",
+   "description": "Prachtige specialized crux comp uit 2025: een lichte carbon gravelbike met shimano grx 1\u00d712 en dt swiss g540-wielen. Framemaat 52, geschikt voor rijders van circa 163\u2013170 cm, afhankelijk van lichaamsv",
+   "location": "Haarlem",
+   "price_text": "\u20ac2490",
+   "price": 2490.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/67acbafb-21d2-4962-b9b2-faae6aa26a77?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-11T07:09:49+00:00"
+  },
+  "marktplaats:m2451477534": {
+   "id": "marktplaats:m2451477534",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2451477534-trek-checkpoint-sl5-axs-gen-3-carbon-m-apex-bontrager",
+   "title": "TREK CHECKPOINT SL5 AXS GEN 3 CARBON M APEX BONTRAGER",
+   "description": "Binnenkort beschikbaar \ud83d\udeb4\u200d\u2642\ufe0f mooie trek checkpoint sl 5 axs gen 3 in zwart, maat m, met een lichtgewicht 500 series oclv carbon frame en volledig carbon voorvork. Een moderne en veelzijdige gravelbike",
+   "location": "Haarlem",
+   "price_text": "\u20ac2490",
+   "price": 2490.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/dddfc7dd-c464-415e-a44b-f2d4d2feb40f?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-11T07:09:49+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 771,
+   "fail_streak": 772,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 245,
+   "fail_streak": 246,
    "warned": true,
    "ever_ok": true
   },
@@ -208283,15 +208362,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-10T03:20:38",
    "2026-10-10T09:52:28",
    "2026-10-10T15:49:28",
    "2026-10-10T19:57:13",
    "2026-10-10T23:05:45",
-   "2026-10-11T01:59:46"
+   "2026-10-11T01:59:46",
+   "2026-10-11T08:09:49"
   ],
   "last_heartbeat": "2026-10-10",
-  "last_status": "2026-10-11T01",
+  "last_status": "2026-10-11T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
