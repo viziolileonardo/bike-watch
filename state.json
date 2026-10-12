@@ -211023,16 +211023,32 @@
    "level": "digest",
    "first_seen": "2026-10-11T22:32:28+00:00",
    "blue_score": 0.019
+  },
+  "ebay:v1|168785999067|0": {
+   "id": "ebay:v1|168785999067|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168785999067?_skw=road+bike&hash=item274c6df4db:g:p5gAAeSwUyJqy-fF",
+   "title": "Pinarello F10 NEOS Carbon Road Bike 700C",
+   "description": "",
+   "location": "AL8***",
+   "price_text": "\u00a31150.00",
+   "price": 1150.0,
+   "image": "https://i.ebayimg.com/images/g/p5gAAeSwUyJqy-fF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-12T01:38:19+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 775,
+   "fail_streak": 776,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 249,
+   "fail_streak": 250,
    "warned": true,
    "ever_ok": true
   },
@@ -211042,14 +211058,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-11T01:59:46",
    "2026-10-11T08:09:49",
    "2026-10-11T15:00:45",
    "2026-10-11T19:52:28",
-   "2026-10-11T23:32:38"
+   "2026-10-11T23:32:38",
+   "2026-10-12T02:38:19"
   ],
   "last_heartbeat": "2026-10-11",
-  "last_status": "2026-10-11T23",
+  "last_status": "2026-10-12T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
