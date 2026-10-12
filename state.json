@@ -211039,16 +211039,111 @@
    "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-12T01:38:19+00:00"
+  },
+  "ebay:v1|128130269417|0": {
+   "id": "ebay:v1|128130269417|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128130269417?_skw=road+bike&hash=item1dd528c0e9:g:QRoAAeSwE3tqzJGP",
+   "title": "Specialized Roubaix 2016 Comp Carbon Road Bike 58cm Large",
+   "description": "",
+   "location": "EX31***",
+   "price_text": "\u00a3715.60",
+   "price": 715.6,
+   "image": "https://i.ebayimg.com/images/g/QRoAAeSwE3tqzJGP/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-12T08:07:16+00:00"
+  },
+  "ebay:v1|117462092214|0": {
+   "id": "ebay:v1|117462092214|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117462092214?_skw=road+bike&hash=item1b594949b6:g:QIcAAeSw2tJqzI48",
+   "title": "BMC Time Machine ALR01 Road Bike 54cm",
+   "description": "",
+   "location": "SW17***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/QIcAAeSw2tJqzI48/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bmc \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-12T08:07:16+00:00"
+  },
+  "ebay:v1|800785941330|0": {
+   "id": "ebay:v1|800785941330|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800785941330?_skw=road+bike&hash=itemba728fc352:g:ZTgAAeSwN9NqzIy6",
+   "title": "Orbea Orca M31e Team Road Bike \u2013 Size 51 \u2013 2023",
+   "description": "",
+   "location": "RG29***",
+   "price_text": "\u00a31944.70",
+   "price": 1944.7,
+   "image": "https://i.ebayimg.com/images/g/ZTgAAeSwN9NqzIy6/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-12T08:07:16+00:00"
+  },
+  "ebay:v1|920031645181|0": {
+   "id": "ebay:v1|920031645181|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920031645181?_skw=road+bike&hash=itemd63628cdfd:g:mSQAAeSwpMJqzH2K",
+   "title": "Mavic Cosmic SLS Carbon Wheelset",
+   "description": "",
+   "location": "KT2***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/mSQAAeSwpMJqzH2K/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-12T08:07:16+00:00",
+   "blue_score": 0.114
+  },
+  "ebay:v1|117461934702|0": {
+   "id": "ebay:v1|117461934702|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117461934702?_skw=road+bike&hash=item1b5946e26e:g:Y6cAAeSwJm1qnDBq",
+   "title": "Boardman Road Bike, never been used, stored in garage",
+   "description": "",
+   "location": "NE63***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/Y6cAAeSwJm1qnDBq/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-12T08:07:16+00:00"
+  },
+  "marktplaats:m2452820133": {
+   "id": "marktplaats:m2452820133",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2452820133-cannondale-caad-10-racefiets-framemaat-60",
+   "title": "Cannondale Caad 10 Racefiets (framemaat 60)",
+   "description": "Mooie cannondale caad 10 racefiets. De cannondale caad modellen staan bekend om het enorm lage gewicht ondanks het frame van aluminium. De voorvork is wel van carbon. Ik verkoop de fiets omdat de fram",
+   "location": "Nijmegen",
+   "price_text": "\u20ac850",
+   "price": 850.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/467d65c9-4726-4729-a0d3-a8115aedd27d?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-12T08:07:16+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 776,
+   "fail_streak": 777,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 250,
+   "fail_streak": 251,
    "warned": true,
    "ever_ok": true
   },
@@ -211058,14 +211153,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-11T08:09:49",
    "2026-10-11T15:00:45",
    "2026-10-11T19:52:28",
    "2026-10-11T23:32:38",
-   "2026-10-12T02:38:19"
+   "2026-10-12T02:38:19",
+   "2026-10-12T09:07:17"
   ],
-  "last_heartbeat": "2026-10-11",
-  "last_status": "2026-10-12T02",
+  "last_heartbeat": "2026-10-12",
+  "last_status": "2026-10-12T09",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
