@@ -212993,16 +212993,63 @@
    "level": "digest",
    "first_seen": "2026-10-12T23:49:45+00:00",
    "blue_score": 0.022
+  },
+  "ebay:v1|820233260678|0": {
+   "id": "ebay:v1|820233260678|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820233260678?_skw=road+bike&hash=itembef9b64e86:g:cGwAAeSwv9tqzaOM",
+   "title": "48V Dual 22.4AH\uff5c26\"\u00d74.0 Fat Tire\uff5cPedal\u2011assist 60~85KM\uff5c7-Speed Off-Road E Bike",
+   "description": "",
+   "location": "WA12***",
+   "price_text": "\u00a31099.99",
+   "price": 1099.99,
+   "image": "https://i.ebayimg.com/images/g/cGwAAeSwv9tqzaOM/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-13T03:58:10+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|920034328606|0": {
+   "id": "ebay:v1|920034328606|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920034328606?_skw=road+bike&hash=itemd63651c01e:g:i9IAAeSwaYtqzYs5",
+   "title": "Giant Contend AR 4 M/L Road Bike \u2013 Excellent Condition",
+   "description": "",
+   "location": "KT1***",
+   "price_text": "\u00a3449.99",
+   "price": 449.99,
+   "image": "https://i.ebayimg.com/images/g/i9IAAeSwaYtqzYs5/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-13T03:58:10+00:00"
+  },
+  "ebay:v1|960059439234|459457567941": {
+   "id": "ebay:v1|960059439234|459457567941",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/960059439234?_skw=road+bike&hash=itemdf88007882:g:11wAAeSwFoVqzXhV",
+   "title": "Orbea Diem 30 E-Road Bike In Ivory White",
+   "description": "",
+   "location": "SR1***",
+   "price_text": "\u00a31500.00",
+   "price": 1500.0,
+   "image": "https://i.ebayimg.com/images/g/11wAAeSwFoVqzXhV/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-13T03:58:10+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 779,
+   "fail_streak": 780,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 253,
+   "fail_streak": 254,
    "warned": true,
    "ever_ok": true
   },
@@ -213012,15 +213059,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-12T02:38:19",
    "2026-10-12T09:07:17",
    "2026-10-12T18:52:03",
-   "2026-10-13T00:49:53"
+   "2026-10-13T00:49:53",
+   "2026-10-13T04:58:11"
   ],
   "last_heartbeat": "2026-10-12",
-  "last_status": "2026-10-13T00",
+  "last_status": "2026-10-13T04",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 2,
    "warned": false,
    "ever_ok": true
   },
