@@ -214981,16 +214981,47 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-13T23:02:47+00:00"
+  },
+  "ebay:v1|407288446240|0": {
+   "id": "ebay:v1|407288446240|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407288446240?_skw=road+bike&hash=item5ed4487d20:g:fyYAAeSw9dpqzsSW",
+   "title": "Ribble Evo-Pro Carbon Road Bike 54cm - Shimano Sora 2x9 - Shimano R500 Wheels",
+   "description": "",
+   "location": "TW7***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/fyYAAeSw9dpqzsSW/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-14T01:53:31+00:00"
+  },
+  "ebay:v1|840019166962|0": {
+   "id": "ebay:v1|840019166962|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840019166962?_skw=road+bike&hash=itemc3950b46f2:g:h~8AAeSwcKJqzr1z",
+   "title": "SRAM Rival AXS E1  Shifters and SRAM Hydraulic Hoses Kit  12/13 Speed",
+   "description": "",
+   "location": "RH11***",
+   "price_text": "\u00a3385.00",
+   "price": 385.0,
+   "image": "https://i.ebayimg.com/images/g/h~8AAeSwcKJqzr1z/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-14T01:53:32+00:00",
+   "blue_score": 0.113
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 783,
+   "fail_streak": 784,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 257,
+   "fail_streak": 258,
    "warned": true,
    "ever_ok": true
   },
@@ -215000,17 +215031,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-13T00:49:53",
    "2026-10-13T04:58:11",
    "2026-10-13T12:44:13",
    "2026-10-13T19:33:04",
-   "2026-10-14T00:02:49"
+   "2026-10-14T00:02:49",
+   "2026-10-14T02:53:32"
   ],
   "last_heartbeat": "2026-10-13",
-  "last_status": "2026-10-14T00",
+  "last_status": "2026-10-14T02",
   "shopify": {
-   "fail_streak": 5,
-   "warned": false,
+   "fail_streak": 6,
+   "warned": true,
    "ever_ok": true
   },
   "ebay": {
