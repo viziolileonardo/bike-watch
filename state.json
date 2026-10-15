@@ -217448,16 +217448,79 @@
    "level": "digest",
    "first_seen": "2026-10-15T01:43:53+00:00",
    "blue_score": 0.025
+  },
+  "ebay:v1|257799199469|0": {
+   "id": "ebay:v1|257799199469|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257799199469?_skw=road+bike&hash=item3c06079aed:g:z9EAAeSwn7Vq0GTU",
+   "title": "2024 BFR 125cc Petrol Manual Off Road Dirt Bike",
+   "description": "",
+   "location": "DE45***",
+   "price_text": "\u00a3499.00",
+   "price": 499.0,
+   "image": "https://i.ebayimg.com/images/g/z9EAAeSwn7Vq0GTU/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-15T06:33:45+00:00"
+  },
+  "ebay:v1|168793582486|0": {
+   "id": "ebay:v1|168793582486|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168793582486?_skw=road+bike&hash=item274ce1ab96:g:FA4AAeSwegxq0E-d",
+   "title": "NOS Shimano Ultegra ST-R8000 2 x 11 Speed Lever Pair, New In Box",
+   "description": "",
+   "location": "BB18***",
+   "price_text": "\u00a3220.00",
+   "price": 220.0,
+   "image": "https://i.ebayimg.com/images/g/FA4AAeSwegxq0E-d/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-15T06:33:45+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|128136081810|0": {
+   "id": "ebay:v1|128136081810|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128136081810?_skw=road+bike&hash=item1dd5817192:g:ykAAAeSwfrZq0EWP",
+   "title": "Boardman Road Bike \u2013 Blue/Black \u2013 700C \u2013 L\u2013 Drop Bar \u2013 Rim Brake \u2013 Reflectors",
+   "description": "",
+   "location": "SE6***",
+   "price_text": "\u00a3250.00",
+   "price": 250.0,
+   "image": "https://i.ebayimg.com/images/g/ykAAAeSwfrZq0EWP/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-15T06:33:45+00:00"
+  },
+  "ebay:v1|128136072951|0": {
+   "id": "ebay:v1|128136072951|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128136072951?_skw=road+bike&hash=item1dd5814ef7:g:uzEAAeSwL0tq0EJr",
+   "title": "Carrera Zelos Road Bike \u2013 Black \u2013 Excellent Condition \u2013 Barely Used \u2013 54cm",
+   "description": "",
+   "location": "SE6***",
+   "price_text": "\u00a3300.00",
+   "price": 300.0,
+   "image": "https://i.ebayimg.com/images/g/uzEAAeSwL0tq0EJr/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Carrera \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-15T06:33:45+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 790,
+   "fail_streak": 791,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 264,
+   "fail_streak": 265,
    "warned": true,
    "ever_ok": true
   },
@@ -217467,16 +217530,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-14T02:53:32",
    "2026-10-14T07:46:49",
    "2026-10-14T13:30:20",
    "2026-10-14T18:31:29",
    "2026-10-14T21:54:57",
    "2026-10-15T00:31:15",
-   "2026-10-15T02:43:53"
+   "2026-10-15T02:43:53",
+   "2026-10-15T07:33:46"
   ],
   "last_heartbeat": "2026-10-14",
-  "last_status": "2026-10-15T02",
+  "last_status": "2026-10-15T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
