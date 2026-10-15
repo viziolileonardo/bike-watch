@@ -217402,16 +217402,62 @@
    "level": "digest",
    "first_seen": "2026-10-14T23:31:14+00:00",
    "blue_score": 0.05
+  },
+  "ebay:v1|257799007261|0": {
+   "id": "ebay:v1|257799007261|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257799007261?_skw=road+bike&hash=item3c0604ac1d:g:RZcAAeSwu4Fq0B83",
+   "title": "Giant Escape Disc 1 Large Frost Silver Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a3579.99",
+   "price": 579.99,
+   "image": "https://i.ebayimg.com/images/g/RZcAAeSwu4Fq0B83/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-15T01:43:52+00:00"
+  },
+  "ebay:v1|257799007232|0": {
+   "id": "ebay:v1|257799007232|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257799007232?_skw=road+bike&hash=item3c0604ac00:g:SzEAAeSwoD1q0B8z",
+   "title": "Liv Avail Advanced 2 Medium Moonstone/Gray/Chrome Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31623.99",
+   "price": 1623.99,
+   "image": "https://i.ebayimg.com/images/g/SzEAAeSwoD1q0B8z/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-15T01:43:53+00:00",
+   "blue_score": 0.082
+  },
+  "ebay:v1|168793216475|0": {
+   "id": "ebay:v1|168793216475|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168793216475?_skw=road+bike&hash=item274cdc15db:g:rUwAAeSwRfNq0A9B",
+   "title": "New Shimano Dura-Ace FC-R9200 50/34 170mm Dual-Sided Power Meter Crankset",
+   "description": "",
+   "location": "KT7***",
+   "price_text": "\u00a3599.99",
+   "price": 599.99,
+   "image": "https://i.ebayimg.com/images/g/rUwAAeSwRfNq0A9B/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-15T01:43:53+00:00",
+   "blue_score": 0.025
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 789,
+   "fail_streak": 790,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 263,
+   "fail_streak": 264,
    "warned": true,
    "ever_ok": true
   },
@@ -217426,10 +217472,11 @@
    "2026-10-14T13:30:20",
    "2026-10-14T18:31:29",
    "2026-10-14T21:54:57",
-   "2026-10-15T00:31:15"
+   "2026-10-15T00:31:15",
+   "2026-10-15T02:43:53"
   ],
   "last_heartbeat": "2026-10-14",
-  "last_status": "2026-10-15T00",
+  "last_status": "2026-10-15T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
