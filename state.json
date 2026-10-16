@@ -223132,16 +223132,91 @@
    "level": "digest",
    "first_seen": "2026-10-16T21:49:44+00:00",
    "blue_score": 0.105
+  },
+  "ebay:v1|377576191372|0": {
+   "id": "ebay:v1|377576191372|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377576191372?_skw=road+bike&hash=item57e94b758c:g:Ls8AAeSw1Hlq0rMb",
+   "title": "Mercier Road Bike Frame",
+   "description": "",
+   "location": "BS28***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/Ls8AAeSw1Hlq0rMb/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-16T23:59:28+00:00",
+   "blue_score": 0.044
+  },
+  "ebay:v1|198721241979|0": {
+   "id": "ebay:v1|198721241979|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198721241979?_skw=road+bike&hash=item2e44b5837b:g:vHUAAeSwxw1q0qih",
+   "title": "Shimano Di2 12 Speed Road Shifter & Disc Brake Set ULTEGRA ST-R8170 BR-R8170",
+   "description": "",
+   "location": "SN10***",
+   "price_text": "\u00a3579.00",
+   "price": 579.0,
+   "image": "https://i.ebayimg.com/images/g/vHUAAeSwxw1q0qih/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-16T23:59:28+00:00",
+   "blue_score": 0.004
+  },
+  "ebay:v1|128139670879|0": {
+   "id": "ebay:v1|128139670879|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128139670879?_skw=road+bike&hash=item1dd5b8355f:g:lOEAAeSwsDBq0p67",
+   "title": "Stans ZTR 355 Chris King ISO Disc Hubs Dt-Swiss MTB 26er Mountain Bike Wheels SL",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3299.00",
+   "price": 299.0,
+   "image": "https://i.ebayimg.com/images/g/lOEAAeSwsDBq0p67/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-16T23:59:28+00:00",
+   "blue_score": 0.239
+  },
+  "ebay:v1|327408339814|0": {
+   "id": "ebay:v1|327408339814|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327408339814?_skw=road+bike&hash=item4c3b0ecb66:g:AdIAAeSwsPZq0qIv",
+   "title": "BONZA Red Rigid Plastic Hard Bike Box Case w/ Wheels, Padded, Handle",
+   "description": "",
+   "location": "M46***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/AdIAAeSwsPZq0qIv/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-16T23:59:28+00:00",
+   "blue_score": 0.02
+  },
+  "ebay:v1|117470015322|0": {
+   "id": "ebay:v1|117470015322|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/117470015322?_skw=road+bike&hash=item1b59c22f5a:g:dScAAeSwottq0p0B",
+   "title": "Shimano / 4iiii Single Sided Powermeter Ultegra FC-R8100 172.5mm 52-36",
+   "description": "",
+   "location": "SE8***",
+   "price_text": "\u00a3260.00",
+   "price": 260.0,
+   "image": "https://i.ebayimg.com/images/g/dScAAeSwottq0p0B/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-16T23:59:29+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 801,
+   "fail_streak": 802,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 275,
+   "fail_streak": 276,
    "warned": true,
    "ever_ok": true
   },
@@ -223151,16 +223226,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-16T00:04:31",
    "2026-10-16T02:19:17",
    "2026-10-16T07:15:34",
    "2026-10-16T12:24:10",
    "2026-10-16T16:29:17",
    "2026-10-16T19:57:12",
-   "2026-10-16T22:49:45"
+   "2026-10-16T22:49:45",
+   "2026-10-17T00:59:29"
   ],
   "last_heartbeat": "2026-10-16",
-  "last_status": "2026-10-16T22",
+  "last_status": "2026-10-17T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
