@@ -220565,16 +220565,79 @@
    "level": "digest",
    "first_seen": "2026-10-16T01:19:16+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|128138230180|0": {
+   "id": "ebay:v1|128138230180|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128138230180?_skw=road+bike&hash=item1dd5a239a4:g:tA0AAeSwe0lq0bqH",
+   "title": "Colnago Extreme C54 Carbon Fibre Road Bike Frame & Fork 700C Campagnolo record ",
+   "description": "",
+   "location": "EX2***",
+   "price_text": "\u00a3618.70",
+   "price": 618.7,
+   "image": "https://i.ebayimg.com/images/g/tA0AAeSwe0lq0bqH/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-16T06:15:33+00:00"
+  },
+  "ebay:v1|840026059058|0": {
+   "id": "ebay:v1|840026059058|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840026059058?_skw=road+bike&hash=itemc395747132:g:ntAAAeSwgU1q0bk5",
+   "title": "Giant Propel Road Bike 700C L Black Blue White Drop Bar Rim Brakes Bottle Cage",
+   "description": "",
+   "location": "EX4***",
+   "price_text": "\u00a3822.70",
+   "price": 822.7,
+   "image": "https://i.ebayimg.com/images/g/ntAAAeSwgU1q0bk5/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-16T06:15:33+00:00"
+  },
+  "ebay:v1|407293883568|0": {
+   "id": "ebay:v1|407293883568|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407293883568?_skw=road+bike&hash=item5ed49b74b0:g:oxEAAeSwrjFq0bR6",
+   "title": "Aairsk GT300 26\" Electric mb/city/road Bike 250W 36V 10Ah Blue. COLLECTION ONLY.",
+   "description": "",
+   "location": "TQ6***",
+   "price_text": "\u00a3276.30",
+   "price": 276.3,
+   "image": "https://i.ebayimg.com/images/g/oxEAAeSwrjFq0bR6/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-16T06:15:34+00:00",
+   "blue_score": 0.025
+  },
+  "ebay:v1|920043949763|0": {
+   "id": "ebay:v1|920043949763|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920043949763?_skw=road+bike&hash=itemd636e48ec3:g:-SEAAeSwB-Nq0a2a",
+   "title": "Ribble Endurance SL Disc M/L Road Bike",
+   "description": "",
+   "location": "CV22***",
+   "price_text": "\u00a3873.70",
+   "price": 873.7,
+   "image": "https://i.ebayimg.com/images/g/-SEAAeSwB-Nq0a2a/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-16T06:15:34+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 796,
+   "fail_streak": 797,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 270,
+   "fail_streak": 271,
    "warned": true,
    "ever_ok": true
   },
@@ -220584,16 +220647,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-15T02:43:53",
    "2026-10-15T07:33:46",
    "2026-10-15T12:59:05",
    "2026-10-15T17:56:50",
    "2026-10-15T21:06:51",
    "2026-10-16T00:04:31",
-   "2026-10-16T02:19:17"
+   "2026-10-16T02:19:17",
+   "2026-10-16T07:15:34"
   ],
   "last_heartbeat": "2026-10-15",
-  "last_status": "2026-10-16T02",
+  "last_status": "2026-10-16T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
