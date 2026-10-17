@@ -223207,16 +223207,32 @@
    "level": "digest",
    "first_seen": "2026-10-16T23:59:29+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|257802067943|0": {
+   "id": "ebay:v1|257802067943|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257802067943?_skw=road+bike&hash=item3c06335fe7:g:S8QAAeSwRP5q0ry9",
+   "title": "Cannondale Supersix Evo 3 56cm UPGRADED",
+   "description": "",
+   "location": "TS7***",
+   "price_text": "\u00a32607.70",
+   "price": 2607.7,
+   "image": "https://i.ebayimg.com/images/g/S8QAAeSwRP5q0ry9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-17T04:20:52+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 802,
+   "fail_streak": 803,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 276,
+   "fail_streak": 277,
    "warned": true,
    "ever_ok": true
   },
@@ -223226,16 +223242,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-16T02:19:17",
    "2026-10-16T07:15:34",
    "2026-10-16T12:24:10",
    "2026-10-16T16:29:17",
    "2026-10-16T19:57:12",
    "2026-10-16T22:49:45",
-   "2026-10-17T00:59:29"
+   "2026-10-17T00:59:29",
+   "2026-10-17T05:20:52"
   ],
   "last_heartbeat": "2026-10-16",
-  "last_status": "2026-10-17T00",
+  "last_status": "2026-10-17T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
