@@ -225531,16 +225531,80 @@
    "level": "digest",
    "first_seen": "2026-10-17T22:35:09+00:00",
    "blue_score": 0.106
+  },
+  "ebay:v1|336849783986|0": {
+   "id": "ebay:v1|336849783986|0",
+   "source": "eBay",
+   "query": "shimano 105 r7020",
+   "url": "https://www.ebay.co.uk/itm/336849783986?_skw=shimano+105+r7020&hash=item4e6dcfccb2:g:osgAAeSwtfZq1Afq",
+   "title": "Scott Addict eRIDE 30 Shimano 105 R7020 Carbon Road Bike - C2W PX WARRANTY",
+   "description": "",
+   "location": "B10***",
+   "price_text": "\u00a32200.00",
+   "price": 2200.0,
+   "image": "https://i.ebayimg.com/images/g/osgAAeSwtfZq1Afq/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-18T00:14:17+00:00"
+  },
+  "ebay:v1|336849770867|0": {
+   "id": "ebay:v1|336849770867|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336849770867?_skw=road+bike&hash=item4e6dcf9973:g:0igAAeSwaHRq1AUl",
+   "title": "Giant TCR Advanced Pro Disc 1 Di2 Shimano 105 Carbon Road - C2W PX WARRANTY",
+   "description": "",
+   "location": "B10***",
+   "price_text": "\u00a32750.00",
+   "price": 2750.0,
+   "image": "https://i.ebayimg.com/images/g/0igAAeSwaHRq1AUl/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-18T00:14:17+00:00"
+  },
+  "ebay:v1|336849760908|0": {
+   "id": "ebay:v1|336849760908|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336849760908?_skw=road+bike&hash=item4e6dcf728c:g:zDkAAeSwPcFq1ANP",
+   "title": "Trek Domane SL 6 Gen 4 Shimano 105 Di2 Carbon Road Bike 52cm - C2W PX WARRANTY",
+   "description": "",
+   "location": "B10***",
+   "price_text": "\u00a32200.00",
+   "price": 2200.0,
+   "image": "https://i.ebayimg.com/images/g/zDkAAeSwPcFq1ANP/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-18T00:14:17+00:00"
+  },
+  "ebay:v1|336849723090|0": {
+   "id": "ebay:v1|336849723090|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336849723090?_skw=road+bike&hash=item4e6dceded2:g:k3kAAeSw9spq0~o9",
+   "title": "BMC Teammachine ALR ONE SRAM Rival AXS Alloy Road Bike 60cm - C2W PX WARRANTY",
+   "description": "",
+   "location": "B10***",
+   "price_text": "\u00a31760.00",
+   "price": 1760.0,
+   "image": "https://i.ebayimg.com/images/g/k3kAAeSw9spq0~o9/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bmc \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-18T00:14:17+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 809,
+   "fail_streak": 810,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 283,
+   "fail_streak": 284,
    "warned": true,
    "ever_ok": true
   },
@@ -225550,17 +225614,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-17T00:59:29",
    "2026-10-17T05:20:52",
    "2026-10-17T09:45:20",
    "2026-10-17T13:29:42",
    "2026-10-17T16:51:39",
    "2026-10-17T18:59:14",
    "2026-10-17T21:33:38",
-   "2026-10-17T23:35:10"
+   "2026-10-17T23:35:10",
+   "2026-10-18T01:14:17"
   ],
   "last_heartbeat": "2026-10-17",
-  "last_status": "2026-10-17T23",
+  "last_status": "2026-10-18T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
