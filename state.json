@@ -228817,16 +228817,32 @@
    "level": "digest",
    "first_seen": "2026-10-19T01:13:28+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|336851603529|0": {
+   "id": "ebay:v1|336851603529|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336851603529?_skw=road+bike&hash=item4e6deb9049:g:t6MAAeSwOGhq1ZOF",
+   "title": "Specialized Allez 54 Road Bike - Excellent Condition",
+   "description": "",
+   "location": "SE16***",
+   "price_text": "\u00a3274.99",
+   "price": 274.99,
+   "image": "https://i.ebayimg.com/images/g/t6MAAeSwOGhq1ZOF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-19T06:10:19+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 818,
+   "fail_streak": 819,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 292,
+   "fail_streak": 293,
    "warned": true,
    "ever_ok": true
   },
@@ -228836,17 +228852,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-18T05:29:27",
    "2026-10-18T10:01:03",
    "2026-10-18T14:15:14",
    "2026-10-18T17:32:40",
    "2026-10-18T19:50:18",
    "2026-10-18T22:06:32",
    "2026-10-19T00:08:41",
-   "2026-10-19T02:13:29"
+   "2026-10-19T02:13:29",
+   "2026-10-19T07:10:19"
   ],
   "last_heartbeat": "2026-10-18",
-  "last_status": "2026-10-19T02",
+  "last_status": "2026-10-19T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
