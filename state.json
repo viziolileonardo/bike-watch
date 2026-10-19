@@ -228739,16 +228739,94 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-18T23:08:40+00:00"
+  },
+  "ebay:v1|198726198939|0": {
+   "id": "ebay:v1|198726198939|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198726198939?_skw=road+bike&hash=item2e4501269b:g:bYMAAeSwQa5q1VxB",
+   "title": "Pinnacle Laterite 2 Road Bike Large Frame - 2x8 Shimano Gears Pannier Rack",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/bYMAAeSwQa5q1VxB/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-19T01:13:28+00:00",
+   "blue_score": 0.042
+  },
+  "ebay:v1|840035505417|0": {
+   "id": "ebay:v1|840035505417|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840035505417?_skw=road+bike&hash=itemc396049509:g:OR0AAeSw7JZq1Vuo",
+   "title": "Specialized Allez Elite Road Bike 2021 700C, Size Medium 54cm Black/Blue",
+   "description": "",
+   "location": "W4***",
+   "price_text": "\u00a3516.70",
+   "price": 516.7,
+   "image": "https://i.ebayimg.com/images/g/OR0AAeSw7JZq1Vuo/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-19T01:13:28+00:00"
+  },
+  "ebay:v1|198726179040|0": {
+   "id": "ebay:v1|198726179040|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198726179040?_skw=road+bike&hash=item2e4500d8e0:g:AR4AAeSwIGxq1Vn1",
+   "title": "Merida Scultura Road Bike Large Frame - Shimano Claris Gears Green",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/AR4AAeSwIGxq1Vn1/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Merida \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-19T01:13:28+00:00"
+  },
+  "ebay:v1|198726164297|0": {
+   "id": "ebay:v1|198726164297|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198726164297?_skw=road+bike&hash=item2e45009f49:g:ONEAAeSwBVNq1Vcw",
+   "title": "Whyte RD-7 Road Bike 52cm Small - Shimano 105 Carbon Fork Disc Brakes",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/ONEAAeSwBVNq1Vcw/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Whyte \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-19T01:13:28+00:00"
+  },
+  "ebay:v1|237131203628|0": {
+   "id": "ebay:v1|237131203628|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237131203628?_skw=road+bike&hash=item37361f042c:g:U-0AAeSwHoVq1VGd",
+   "title": "Shimano Ultegra FC-R8100 172.5mm Double Road Crankset Black Hollowtech II",
+   "description": "",
+   "location": "NE35***",
+   "price_text": "\u00a3394.30",
+   "price": 394.3,
+   "image": "https://i.ebayimg.com/images/g/U-0AAeSwHoVq1VGd/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-19T01:13:28+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 817,
+   "fail_streak": 818,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 291,
+   "fail_streak": 292,
    "warned": true,
    "ever_ok": true
   },
@@ -228758,17 +228836,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-18T01:14:17",
    "2026-10-18T05:29:27",
    "2026-10-18T10:01:03",
    "2026-10-18T14:15:14",
    "2026-10-18T17:32:40",
    "2026-10-18T19:50:18",
    "2026-10-18T22:06:32",
-   "2026-10-19T00:08:41"
+   "2026-10-19T00:08:41",
+   "2026-10-19T02:13:29"
   ],
   "last_heartbeat": "2026-10-18",
-  "last_status": "2026-10-19T00",
+  "last_status": "2026-10-19T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
