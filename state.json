@@ -230858,16 +230858,63 @@
    "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-19T23:01:59+00:00"
+  },
+  "ebay:v1|860063463198|0": {
+   "id": "ebay:v1|860063463198|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860063463198?_skw=road+bike&hash=itemc83fc6f71e:g:reoAAeSwVaBq1rCU",
+   "title": "racer bicycle Bianchi l Erica 2016. Used on two occasions . Sold as second hand",
+   "description": "",
+   "location": "KY7***",
+   "price_text": "\u00a32760.70",
+   "price": 2760.7,
+   "image": "https://i.ebayimg.com/images/g/reoAAeSwVaBq1rCU/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-20T01:48:34+00:00"
+  },
+  "ebay:v1|900026107341|0": {
+   "id": "ebay:v1|900026107341|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/900026107341?_skw=road+bike&hash=itemd18dbc85cd:g:PFoAAeSwCbNq1pmE",
+   "title": "56cm Ellis Briggs Hand Built Reynolds 531 Frame With Campagnolo Drop Outs ",
+   "description": "",
+   "location": "BD18***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/PFoAAeSwCbNq1pmE/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-20T01:48:34+00:00",
+   "blue_score": 0.069
+  },
+  "ebay:v1|137858313911|0": {
+   "id": "ebay:v1|137858313911|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/137858313911?_skw=road+bike&hash=item2018feeeb7:g:CoIAAeSwhwlq1qNx",
+   "title": "Trek Domane AL4 Gen 4 2025",
+   "description": "",
+   "location": "IG11***",
+   "price_text": "\u00a3975.70",
+   "price": 975.7,
+   "image": "https://i.ebayimg.com/images/g/CoIAAeSwhwlq1qNx/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-20T01:48:34+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 822,
+   "fail_streak": 823,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 296,
+   "fail_streak": 297,
    "warned": true,
    "ever_ok": true
   },
@@ -230877,15 +230924,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-19T00:08:41",
-   "2026-10-19T02:13:29",
    "2026-10-19T07:10:19",
    "2026-10-19T14:05:10",
    "2026-10-19T20:19:14",
-   "2026-10-20T00:02:00"
+   "2026-10-20T00:02:00",
+   "2026-10-20T02:48:34"
   ],
   "last_heartbeat": "2026-10-19",
-  "last_status": "2026-10-20T00",
+  "last_status": "2026-10-20T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
