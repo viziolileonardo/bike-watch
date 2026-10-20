@@ -230905,16 +230905,124 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-20T01:48:34+00:00"
+  },
+  "ebay:v1|147643760639|0": {
+   "id": "ebay:v1|147643760639|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147643760639?_skw=road+bike&hash=item226040ffff:g:4n0AAeSwG3Zq1ws4",
+   "title": "Canyon Endurace CF SL \u2013 Ultegra Di2, Hunt Carbon Wheels, Power Meter Pedals \u2013 XS",
+   "description": "",
+   "location": "SW11***",
+   "price_text": "\u00a32301.70",
+   "price": 2301.7,
+   "image": "https://i.ebayimg.com/images/g/4n0AAeSwG3Zq1ws4/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:06+00:00"
+  },
+  "ebay:v1|267818527760|0": {
+   "id": "ebay:v1|267818527760|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267818527760?_skw=road+bike&hash=item3e5b3a6c10:g:SrYAAeSwZuFq1pIg",
+   "title": "Campagnolo Super Record 12-Speed Road Groupset: Shifters, F/R Mechs, 10-29",
+   "description": "",
+   "location": "AB41***",
+   "price_text": "\u00a31350.00",
+   "price": 1350.0,
+   "image": "https://i.ebayimg.com/images/g/SrYAAeSwZuFq1pIg/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:07+00:00",
+   "blue_score": 0.01
+  },
+  "ebay:v1|206640195016|0": {
+   "id": "ebay:v1|206640195016|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206640195016?_skw=road+bike&hash=item301cb725c8:g:PiwAAeSwuwlq1wKE",
+   "title": "WERA 16 Piece Bicycle Click A5 Torque 1 1/4\" Wrench 2.5 To 25Nm Bike Set ,004180",
+   "description": "",
+   "location": "GL20***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/PiwAAeSwuwlq1wKE/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:07+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|267818535928|0": {
+   "id": "ebay:v1|267818535928|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267818535928?_skw=road+bike&hash=item3e5b3a8bf8:g:jDoAAeSwxw1q1v6Y",
+   "title": "Specialized Tarmac S-Works SL5 52cm Frame Set w/ Fork & Seatpost Black/Green",
+   "description": "",
+   "location": "KY7***",
+   "price_text": "\u00a3496.30",
+   "price": 496.3,
+   "image": "https://i.ebayimg.com/images/g/jDoAAeSwxw1q1v6Y/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:07+00:00"
+  },
+  "ebay:v1|257807677859|558350946974": {
+   "id": "ebay:v1|257807677859|558350946974",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257807677859?_skw=road+bike&hash=item3c0688f9a3:g:ZggAAeSwEwRq1v6N",
+   "title": "Bike Saddle Womens Butterfly Galactic+ Plus, Comfortable Bicycle Seat For Women",
+   "description": "",
+   "location": "BL3***",
+   "price_text": "\u00a3205.95",
+   "price": 205.95,
+   "image": "https://i.ebayimg.com/images/g/ZggAAeSwEwRq1v6N/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:07+00:00",
+   "blue_score": 0.267
+  },
+  "ebay:v1|307238898998|0": {
+   "id": "ebay:v1|307238898998|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307238898998?_skw=road+bike&hash=item4788dd8d36:g:kzwAAeSw0SZq1eqR",
+   "title": "Vintage PEUGEOT WHITE Frame Frameset 56 x 57cm ENG THREADS 531 PRO",
+   "description": "",
+   "location": "BD21***",
+   "price_text": "\u00a3220.00",
+   "price": 220.0,
+   "image": "https://i.ebayimg.com/images/g/kzwAAeSw0SZq1eqR/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:07+00:00",
+   "blue_score": 0.007
+  },
+  "marktplaats:a1532011830": {
+   "id": "marktplaats:a1532011830",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1532011830-canyon-endurace-cf-7-di2-2025-164-170-cm",
+   "title": "Canyon ENDURACE CF 7 DI2 \u2013 2025 \u2013 164 - 170 cm",
+   "description": "The road bikes has a carbon frame. The manufacturer lists the frame size as xs. Our own measurement comes out to 46 cm.additional specifications: wheel size: 28\" drive type: chain drive gear type",
+   "location": "NL",
+   "price_text": "\u20ac2799",
+   "price": 2799.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/49/4964f820-0766-4086-b938-2f6e6b7794e7?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-20T06:44:07+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 823,
+   "fail_streak": 824,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 297,
+   "fail_streak": 298,
    "warned": true,
    "ever_ok": true
   },
@@ -230924,16 +231032,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-19T07:10:19",
    "2026-10-19T14:05:10",
    "2026-10-19T20:19:14",
    "2026-10-20T00:02:00",
-   "2026-10-20T02:48:34"
+   "2026-10-20T02:48:34",
+   "2026-10-20T07:44:08"
   ],
   "last_heartbeat": "2026-10-19",
-  "last_status": "2026-10-20T02",
+  "last_status": "2026-10-20T07",
   "shopify": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   },
