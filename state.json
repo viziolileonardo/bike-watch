@@ -233766,16 +233766,91 @@
    "level": "digest",
    "first_seen": "2026-10-20T23:30:23+00:00",
    "blue_score": 0.012
+  },
+  "ebay:v1|407304936685|677490868211": {
+   "id": "ebay:v1|407304936685|677490868211",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407304936685?_skw=road+bike&hash=item5ed5441ced:g:fvIAAeSwp2Jq2BEX",
+   "title": "Hope Tech 4 E4 - No Rotor - Black/Black",
+   "description": "",
+   "location": "SK17***",
+   "price_text": "\u00a3225.00",
+   "price": 225.0,
+   "image": "https://i.ebayimg.com/images/g/fvIAAeSwp2Jq2BEX/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T01:54:51+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|820260585236|0": {
+   "id": "ebay:v1|820260585236|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820260585236?_skw=road+bike&hash=itembefb573f14:g:IjEAAeSwk0Vq1~80",
+   "title": "Vintage Bontrager Race Lite 26 Inch - Circus Monkey Hubs - Ceramic Coated Rims",
+   "description": "",
+   "location": "KT3***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/IjEAAeSwk0Vq1~80/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T01:54:51+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|128147285994|0": {
+   "id": "ebay:v1|128147285994|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128147285994?_skw=road+bike&hash=item1dd62c67ea:g:misAAeSw6xFq1~wH",
+   "title": "Unused SRAM Rival eTap AXS Road Groupset. 12 Speed",
+   "description": "",
+   "location": "SW2***",
+   "price_text": "\u00a3577.90",
+   "price": 577.9,
+   "image": "https://i.ebayimg.com/images/g/misAAeSw6xFq1~wH/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T01:54:51+00:00",
+   "blue_score": 0.007
+  },
+  "ebay:v1|168805985719|0": {
+   "id": "ebay:v1|168805985719|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168805985719?_skw=road+bike&hash=item274d9eedb7:g:w5YAAeSwgo9q19Xn",
+   "title": "SRAM Force22 Shift/Brake Lever Set 11-speed Rear Yaw Front: 11 SPEED",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3454.50",
+   "price": 454.5,
+   "image": "https://i.ebayimg.com/images/g/w5YAAeSwgo9q19Xn/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T01:54:52+00:00",
+   "blue_score": 0.009
+  },
+  "ebay:v1|168805984912|0": {
+   "id": "ebay:v1|168805984912|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168805984912?_skw=road+bike&hash=item274d9eea90:g:86MAAeSwwwhq19Yd",
+   "title": "Selle Italia Novus Boost Evo Kit Carbonio Superflow Saddle: BLACK L3",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3279.28",
+   "price": 279.28,
+   "image": "https://i.ebayimg.com/images/g/86MAAeSwwwhq19Yd/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T01:54:52+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 828,
+   "fail_streak": 829,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 302,
+   "fail_streak": 303,
    "warned": true,
    "ever_ok": true
   },
@@ -233785,15 +233860,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-20T02:48:34",
    "2026-10-20T07:44:08",
    "2026-10-20T13:20:29",
    "2026-10-20T18:27:38",
    "2026-10-20T21:48:28",
-   "2026-10-21T00:30:31"
+   "2026-10-21T00:30:31",
+   "2026-10-21T02:54:52"
   ],
   "last_heartbeat": "2026-10-20",
-  "last_status": "2026-10-21T00",
+  "last_status": "2026-10-21T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
