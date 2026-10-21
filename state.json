@@ -235833,16 +235833,109 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-21T20:51:40+00:00"
+  },
+  "ebay:v1|257810465663|0": {
+   "id": "ebay:v1|257810465663|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257810465663?_skw=road+bike&hash=item3c06b3837f:g:II8AAeSwS2Vq2TEf",
+   "title": "Ribble R872 Carbon Fibre Road Bike 700C Rim Brake Drop Bar 522 Black",
+   "description": "",
+   "location": "TR1***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/II8AAeSwS2Vq2TEf/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-21T23:44:39+00:00"
+  },
+  "ebay:v1|257810462000|0": {
+   "id": "ebay:v1|257810462000|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257810462000?_skw=road+bike&hash=item3c06b37530:g:TzcAAeSw6cBq2Oof",
+   "title": "Campagnolo Super Record 11 Carbon Titanium Group-set - Choice of Components",
+   "description": "",
+   "location": "TW11***",
+   "price_text": "\u00a3649.30",
+   "price": 649.3,
+   "image": "https://i.ebayimg.com/images/g/TzcAAeSw6cBq2Oof/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T23:44:39+00:00",
+   "blue_score": 0.017
+  },
+  "ebay:v1|307242902248|0": {
+   "id": "ebay:v1|307242902248|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307242902248?_skw=road+bike&hash=item47891aa2e8:g:AVQAAeSwGJBq2S1P",
+   "title": "ISM - PN4.1 - Black",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3213.19",
+   "price": 213.19,
+   "image": "https://i.ebayimg.com/images/g/AVQAAeSwGJBq2S1P/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T23:44:40+00:00",
+   "blue_score": 0.086
+  },
+  "ebay:v1|267820116420|0": {
+   "id": "ebay:v1|267820116420|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267820116420?_skw=road+bike&hash=item3e5b52a9c4:g:YlQAAeSwq-9q2Smn",
+   "title": "Campagnolo Record 10 Speed 172.5mm 53 x 39 Chainset - N.O.S In Box - c.2004",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3200.00",
+   "price": 200.0,
+   "image": "https://i.ebayimg.com/images/g/YlQAAeSwq-9q2Smn/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-21T23:44:40+00:00",
+   "blue_score": 0.064
+  },
+  "ebay:v1|257810389691|0": {
+   "id": "ebay:v1|257810389691|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257810389691?_skw=road+bike&hash=item3c06b25abb:g:5U8AAeSwt0BpAh0D",
+   "title": "Giant Defy Advanced Pro2 Carbon Frame Road Bike L - Various Collection points...",
+   "description": "",
+   "location": "BS16***",
+   "price_text": "\u00a3724.99",
+   "price": 724.99,
+   "image": "https://i.ebayimg.com/images/g/5U8AAeSwt0BpAh0D/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-21T23:44:40+00:00"
+  },
+  "ebay:v1|327416782338|0": {
+   "id": "ebay:v1|327416782338|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327416782338?_skw=road+bike&hash=item4c3b8f9e02:g:iLgAAeSwODlq2SLk",
+   "title": "Colnago C-RS Carbon Road Bike \u2013 Shimano Ultegra R8000 11-Speed \u2013 45 Small",
+   "description": "",
+   "location": "GL51***",
+   "price_text": "\u00a3644.20",
+   "price": 644.2,
+   "image": "https://i.ebayimg.com/images/g/iLgAAeSwODlq2SLk/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-21T23:44:40+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 833,
+   "fail_streak": 834,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 307,
+   "fail_streak": 308,
    "warned": true,
    "ever_ok": true
   },
@@ -235852,15 +235945,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-21T00:30:31",
    "2026-10-21T02:54:52",
    "2026-10-21T07:39:58",
    "2026-10-21T13:29:55",
    "2026-10-21T18:35:43",
-   "2026-10-21T21:51:42"
+   "2026-10-21T21:51:42",
+   "2026-10-22T00:44:41"
   ],
   "last_heartbeat": "2026-10-21",
-  "last_status": "2026-10-21T21",
+  "last_status": "2026-10-22T00",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
