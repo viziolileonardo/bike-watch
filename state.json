@@ -235926,16 +235926,78 @@
    "ai_reason": "(rule) complete bike listed as Colnago \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-21T23:44:40+00:00"
+  },
+  "ebay:v1|800823353936|0": {
+   "id": "ebay:v1|800823353936|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800823353936?_skw=road+bike&hash=itemba74caa250:g:bAcAAeSwWWNq2Wpc",
+   "title": "Cannondale Synapse 1 Disc Road Bike 56cm Shimano Tiagra Oil Disc 2022 700c",
+   "description": "",
+   "location": "TW3***",
+   "price_text": "\u00a3618.70",
+   "price": 618.7,
+   "image": "https://i.ebayimg.com/images/g/bAcAAeSwWWNq2Wpc/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-22T01:59:16+00:00"
+  },
+  "ebay:v1|800823109584|0": {
+   "id": "ebay:v1|800823109584|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800823109584?_skw=road+bike&hash=itemba74c6e7d0:g:bagAAeSwoVBq2VsS",
+   "title": "Hunt 35mm Carbon Gravel Disc X-Wide Wheelset 700c 622c thru axle centrelock ",
+   "description": "",
+   "location": "TW3***",
+   "price_text": "\u00a3399.40",
+   "price": 399.4,
+   "image": "https://i.ebayimg.com/images/g/bagAAeSwoVBq2VsS/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-22T01:59:16+00:00",
+   "blue_score": 0.004
+  },
+  "ebay:v1|800822986745|0": {
+   "id": "ebay:v1|800822986745|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800822986745?_skw=road+bike&hash=itemba74c507f9:g:Zd0AAeSwS45q2VJD",
+   "title": "Trek Domane AL4 disc Road Bike 54cm gen3 shimano Tiagra Disc medium black ",
+   "description": "",
+   "location": "TW3***",
+   "price_text": "\u00a3741.10",
+   "price": 741.1,
+   "image": "https://i.ebayimg.com/images/g/Zd0AAeSwS45q2VJD/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-22T01:59:16+00:00"
+  },
+  "ebay:v1|800822930484|0": {
+   "id": "ebay:v1|800822930484|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800822930484?_skw=road+bike&hash=itemba74c42c34:g:buAAAeSw2Ilq2U5P",
+   "title": "Mavic Cosmic SL 45 carbon Disc Wheelset 700c thru axle centre lock 1575g 12 spd",
+   "description": "",
+   "location": "TW3***",
+   "price_text": "\u00a3496.30",
+   "price": 496.3,
+   "image": "https://i.ebayimg.com/images/g/buAAAeSw2Ilq2U5P/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-22T01:59:16+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 834,
+   "fail_streak": 835,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 308,
+   "fail_streak": 309,
    "warned": true,
    "ever_ok": true
   },
@@ -235945,15 +236007,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-21T02:54:52",
    "2026-10-21T07:39:58",
    "2026-10-21T13:29:55",
    "2026-10-21T18:35:43",
    "2026-10-21T21:51:42",
-   "2026-10-22T00:44:41"
+   "2026-10-22T00:44:41",
+   "2026-10-22T02:59:17"
   ],
   "last_heartbeat": "2026-10-21",
-  "last_status": "2026-10-22T00",
+  "last_status": "2026-10-22T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
