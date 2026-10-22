@@ -235988,16 +235988,47 @@
    "level": "digest",
    "first_seen": "2026-10-22T01:59:16+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|960099786063|459471312135": {
+   "id": "ebay:v1|960099786063|459471312135",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/960099786063?_skw=road+bike&hash=itemdf8a681d4f:g:3VcAAeSwfIZq2bmo",
+   "title": "Forma Predator 2.0 Off-Road Motorcycle Motorbike Boots - Black",
+   "description": "",
+   "location": "PE20***",
+   "price_text": "\u00a3419.99",
+   "price": 419.99,
+   "image": "https://i.ebayimg.com/images/g/3VcAAeSwfIZq2bmo/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-22T07:31:30+00:00"
+  },
+  "ebay:v1|880040025113|0": {
+   "id": "ebay:v1|880040025113|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/880040025113?_skw=road+bike&hash=itemcce6791c19:g:fMgAAeSwcK9q2bHu",
+   "title": "500W dual motors, foldable electric bike Adult 4-wheel electric scooter,",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a31202.54",
+   "price": 1202.54,
+   "image": "https://i.ebayimg.com/images/g/fMgAAeSwcK9q2bHu/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-22T07:31:30+00:00",
+   "blue_score": 0.049
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 835,
+   "fail_streak": 836,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 309,
+   "fail_streak": 310,
    "warned": true,
    "ever_ok": true
   },
@@ -236007,15 +236038,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-21T07:39:58",
    "2026-10-21T13:29:55",
    "2026-10-21T18:35:43",
    "2026-10-21T21:51:42",
    "2026-10-22T00:44:41",
-   "2026-10-22T02:59:17"
+   "2026-10-22T02:59:17",
+   "2026-10-22T08:31:31"
   ],
   "last_heartbeat": "2026-10-21",
-  "last_status": "2026-10-22T02",
+  "last_status": "2026-10-22T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
