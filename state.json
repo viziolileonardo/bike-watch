@@ -237931,16 +237931,108 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-22T21:32:39+00:00"
+  },
+  "ebay:v1|840049671509|0": {
+   "id": "ebay:v1|840049671509|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840049671509?_skw=road+bike&hash=itemc396dcbd55:g:XhgAAeSw8-1q2pq3",
+   "title": "Shimano Ultegra ST-R8170 12-Speed Right Hand Di2 Hydraulic STI Lever",
+   "description": "",
+   "location": "DE4***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/XhgAAeSw8-1q2pq3/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-23T00:06:21+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|307244694246|0": {
+   "id": "ebay:v1|307244694246|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307244694246?_skw=road+bike&hash=item478935fae6:g:mxsAAeSwviRq2poU",
+   "title": "Trek \u00c9monda SLR project One 54vm Carbon Road Bike  700C Frameset ",
+   "description": "",
+   "location": "OL8***",
+   "price_text": "\u00a3299.00",
+   "price": 299.0,
+   "image": "https://i.ebayimg.com/images/g/mxsAAeSwviRq2poU/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-23T00:06:21+00:00",
+   "blue_score": 0.01
+  },
+  "ebay:v1|920065623906|0": {
+   "id": "ebay:v1|920065623906|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920065623906?_skw=road+bike&hash=itemd6382f4762:g:P9AAAeSwb3xq2pej",
+   "title": "Pinnacle Laterite Two Road Bike Small 700C Drop Bar Caliper Brakes Black",
+   "description": "",
+   "location": "E14***",
+   "price_text": "\u00a3450.40",
+   "price": 450.4,
+   "image": "https://i.ebayimg.com/images/g/P9AAAeSwb3xq2pej/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-23T00:06:21+00:00",
+   "blue_score": 0.094
+  },
+  "ebay:v1|860073748344|0": {
+   "id": "ebay:v1|860073748344|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860073748344?_skw=road+bike&hash=itemc84063e778:g:v4AAAeSwbKdq2pRj",
+   "title": "Motorcycle GPS Navigation Screen 5 Inch Waterproof Dual Bluetooth TPMS Carplay",
+   "description": "",
+   "location": "BS40***",
+   "price_text": "\u00a3260.69",
+   "price": 260.69,
+   "image": "https://i.ebayimg.com/images/g/v4AAAeSwbKdq2pRj/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-23T00:06:21+00:00"
+  },
+  "ebay:v1|198737543827|0": {
+   "id": "ebay:v1|198737543827|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198737543827?_skw=road+bike&hash=item2e45ae4293:g:tv8AAeSwFhZq2pCD",
+   "title": "Vitus Zenium Carbon Road Bike \u2013 XL Frame \u2013 Shimano Tiagra",
+   "description": "",
+   "location": "IV7***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/tv8AAeSwFhZq2pCD/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Vitus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-23T00:06:21+00:00"
+  },
+  "ebay:v1|900033530285|0": {
+   "id": "ebay:v1|900033530285|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/900033530285?_skw=road+bike&hash=itemd18e2dc9ad:g:ouIAAeSwZLNq2oy8",
+   "title": "Campagnolo Chorus/Record Carbon 10 Speed UT Groupset 172.5mm 53/39 Excellent",
+   "description": "",
+   "location": "N4***",
+   "price_text": "\u00a3427.79",
+   "price": 427.79,
+   "image": "https://i.ebayimg.com/images/g/ouIAAeSwZLNq2oy8/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-23T00:06:21+00:00",
+   "blue_score": 0.002
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 839,
+   "fail_streak": 840,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 313,
+   "fail_streak": 314,
    "warned": true,
    "ever_ok": true
   },
@@ -237950,15 +238042,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-22T00:44:41",
    "2026-10-22T02:59:17",
    "2026-10-22T08:31:31",
    "2026-10-22T14:08:39",
    "2026-10-22T18:58:31",
-   "2026-10-22T22:32:42"
+   "2026-10-22T22:32:42",
+   "2026-10-23T01:06:22"
   ],
   "last_heartbeat": "2026-10-22",
-  "last_status": "2026-10-22T22",
+  "last_status": "2026-10-23T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
