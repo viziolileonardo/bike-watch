@@ -238023,16 +238023,63 @@
    "level": "digest",
    "first_seen": "2026-10-23T00:06:21+00:00",
    "blue_score": 0.002
+  },
+  "ebay:v1|800827349859|0": {
+   "id": "ebay:v1|800827349859|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800827349859?_skw=road+bike&hash=itemba75079b63:g:hoIAAeSw2K9q2rap",
+   "title": "Vodoo Banku Frame With 52v 32 Ah Batterry 2000w Hub",
+   "description": "",
+   "location": "G73***",
+   "price_text": "\u00a3771.70",
+   "price": 771.7,
+   "image": "https://i.ebayimg.com/images/g/hoIAAeSw2K9q2rap/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-23T04:44:18+00:00",
+   "blue_score": 0.002
+  },
+  "ebay:v1|267821208784|0": {
+   "id": "ebay:v1|267821208784|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267821208784?_skw=road+bike&hash=item3e5b6354d0:g:6zAAAeSwBw1q2qde",
+   "title": "Giant Defy Advanced Pro 1 Meteor Storm 2025 Large Road Bike",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32667.99",
+   "price": 2667.99,
+   "image": "https://i.ebayimg.com/images/g/6zAAAeSwBw1q2qde/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-23T04:44:18+00:00"
+  },
+  "marktplaats:m2456100508": {
+   "id": "marktplaats:m2456100508",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2456100508-focus-atlas-6-sram-axs-gravelbike",
+   "title": "Focus Atlas 6 Sram axs gravelbike",
+   "description": "Bijna nieuwe focus atlas 6 gravelfiets carbon frame maat s sram apex axs elektrisch schakelen 1x12 kabels netjes intern upgrade met nieuwe ubique carbon wielen 40mm hoog band voor vittoria terreno t30",
+   "location": "Oosterhout",
+   "price_text": "\u20ac2000",
+   "price": 2000.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d509ff11-e3c8-41ad-87bc-0e3129ff9450?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Focus \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-23T04:44:18+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 840,
+   "fail_streak": 841,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 314,
+   "fail_streak": 315,
    "warned": true,
    "ever_ok": true
   },
@@ -238042,15 +238089,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-22T02:59:17",
    "2026-10-22T08:31:31",
    "2026-10-22T14:08:39",
    "2026-10-22T18:58:31",
    "2026-10-22T22:32:42",
-   "2026-10-23T01:06:22"
+   "2026-10-23T01:06:22",
+   "2026-10-23T05:44:18"
   ],
   "last_heartbeat": "2026-10-22",
-  "last_status": "2026-10-23T01",
+  "last_status": "2026-10-23T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
