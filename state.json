@@ -240408,12 +240408,12 @@
  },
  "health": {
   "gumtree": {
-   "fail_streak": 846,
+   "fail_streak": 847,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 320,
+   "fail_streak": 321,
    "warned": true,
    "ever_ok": true
   },
@@ -240423,16 +240423,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-23T01:06:22",
    "2026-10-23T05:44:18",
    "2026-10-23T10:38:58",
    "2026-10-23T15:29:47",
    "2026-10-23T19:39:09",
    "2026-10-23T22:44:26",
-   "2026-10-24T01:05:57"
+   "2026-10-24T01:05:57",
+   "2026-10-24T05:31:23"
   ],
   "last_heartbeat": "2026-10-23",
-  "last_status": "2026-10-24T01",
+  "last_status": "2026-10-24T05",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
