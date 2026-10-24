@@ -240326,16 +240326,94 @@
    "level": "digest",
    "first_seen": "2026-10-23T21:44:22+00:00",
    "blue_score": 0.019
+  },
+  "ebay:v1|168812593374|0": {
+   "id": "ebay:v1|168812593374|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168812593374?_skw=road+bike&hash=item274e03c0de:g:YiMAAeSwyhxq2~BG",
+   "title": "Orbea Orca M20 M30 2024 Carbon Frame Large 57 Black Matt. Ultegra Di2 Fulcrum 40",
+   "description": "",
+   "location": "KT7***",
+   "price_text": "\u00a32499.99",
+   "price": 2499.99,
+   "image": "https://i.ebayimg.com/images/g/YiMAAeSwyhxq2~BG/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-24T00:05:56+00:00"
+  },
+  "ebay:v1|168812575478|0": {
+   "id": "ebay:v1|168812575478|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168812575478?_skw=road+bike&hash=item274e037af6:g:OpUAAeSwqPNq2-y5",
+   "title": "Cannondale Synapse Carbon Ultegra Road Bike \u2013 58cm \u2013 Mavic ksyrium.",
+   "description": "",
+   "location": "KT7***",
+   "price_text": "\u00a3599.99",
+   "price": 599.99,
+   "image": "https://i.ebayimg.com/images/g/OpUAAeSwqPNq2-y5/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-24T00:05:56+00:00"
+  },
+  "ebay:v1|168812527375|0": {
+   "id": "ebay:v1|168812527375|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168812527375?_skw=road+bike&hash=item274e02bf0f:g:q-kAAeSwqK9q2-Nf",
+   "title": "Shimano Dura-Ace FC-R9000 Road Double Crankset + Stages Power Meter crank",
+   "description": "",
+   "location": "KT7***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/q-kAAeSwqK9q2-Nf/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-24T00:05:56+00:00",
+   "blue_score": 0.191
+  },
+  "ebay:v1|307246394175|0": {
+   "id": "ebay:v1|307246394175|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307246394175?_skw=road+bike&hash=item47894feb3f:g:nC4AAeSw-0Vq2-Oh",
+   "title": "Trek Domane SL5 Carbon Road Bike 58cm Shimano 105 Hydraulic Disc 32mm Tyres",
+   "description": "",
+   "location": "UB7***",
+   "price_text": "\u00a31433.68",
+   "price": 1433.68,
+   "image": "https://i.ebayimg.com/images/g/nC4AAeSw-0Vq2-Oh/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-24T00:05:56+00:00"
+  },
+  "ebay:v1|168812465743|0": {
+   "id": "ebay:v1|168812465743|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168812465743?_skw=road+bike&hash=item274e01ce4f:g:KUwAAeSwTAdq29qL",
+   "title": "Shimano Dura Ace FC-09 Chainset - 172.5 - 52/36 - 9000 /9100 Cranks -11/12 speed",
+   "description": "",
+   "location": "KT7***",
+   "price_text": "\u00a3249.99",
+   "price": 249.99,
+   "image": "https://i.ebayimg.com/images/g/KUwAAeSwTAdq29qL/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-24T00:05:56+00:00",
+   "blue_score": 0.076
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 845,
+   "fail_streak": 846,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 319,
+   "fail_streak": 320,
    "warned": true,
    "ever_ok": true
   },
@@ -240350,10 +240428,11 @@
    "2026-10-23T10:38:58",
    "2026-10-23T15:29:47",
    "2026-10-23T19:39:09",
-   "2026-10-23T22:44:26"
+   "2026-10-23T22:44:26",
+   "2026-10-24T01:05:57"
   ],
   "last_heartbeat": "2026-10-23",
-  "last_status": "2026-10-23T22",
+  "last_status": "2026-10-24T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
