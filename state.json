@@ -242776,16 +242776,63 @@
    "level": "digest",
    "first_seen": "2026-10-24T23:37:36+00:00",
    "blue_score": 0.001
+  },
+  "ebay:v1|128154357055|0": {
+   "id": "ebay:v1|128154357055|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128154357055?_skw=road+bike&hash=item1dd6984d3f:g:Db4AAeSwJJZo-TP3",
+   "title": "Mini Dirt Bike Automatic 60cc Petrol 4 Stroke Pink Scrambler X Beast - Off Road",
+   "description": "",
+   "location": "OL16***",
+   "price_text": "\u00a3389.99",
+   "price": 389.99,
+   "image": "https://i.ebayimg.com/images/g/Db4AAeSwJJZo-TP3/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) not a bicycle listing",
+   "level": "digest",
+   "first_seen": "2026-10-25T01:33:08+00:00"
+  },
+  "ebay:v1|198743035619|0": {
+   "id": "ebay:v1|198743035619|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198743035619?_skw=road+bike&hash=item2e46020ee3:g:XNgAAeSwW8Rq3Uef",
+   "title": "BTwin Triban 5 Road Bike 54cm Medium - Carbon Fork Shimano Mavic Wheel",
+   "description": "",
+   "location": "E1***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/XNgAAeSwW8Rq3Uef/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Btwin \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-25T01:33:08+00:00"
+  },
+  "ebay:v1|407314257025|0": {
+   "id": "ebay:v1|407314257025|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/407314257025?_skw=road+bike&hash=item5ed5d25481:g:eo8AAeSwEwJq3UcV",
+   "title": "Pro Vibe Superlight Carbon Handlebar 420mm",
+   "description": "",
+   "location": "TQ12***",
+   "price_text": "\u00a3250.30",
+   "price": 250.3,
+   "image": "https://i.ebayimg.com/images/g/eo8AAeSwEwJq3UcV/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-25T01:33:09+00:00",
+   "blue_score": 0.005
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 853,
+   "fail_streak": 854,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 327,
+   "fail_streak": 328,
    "warned": true,
    "ever_ok": true
   },
@@ -242795,17 +242842,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-24T01:05:57",
    "2026-10-24T05:31:23",
    "2026-10-24T10:03:41",
    "2026-10-24T14:18:47",
    "2026-10-24T17:52:34",
    "2026-10-24T20:06:02",
    "2026-10-24T22:36:05",
-   "2026-10-25T00:37:37"
+   "2026-10-25T00:37:37",
+   "2026-10-25T01:33:09"
   ],
   "last_heartbeat": "2026-10-24",
-  "last_status": "2026-10-25T00",
+  "last_status": "2026-10-25T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
