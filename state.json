@@ -242823,16 +242823,47 @@
    "level": "digest",
    "first_seen": "2026-10-25T01:33:09+00:00",
    "blue_score": 0.005
+  },
+  "ebay:v1|237143081335|0": {
+   "id": "ebay:v1|237143081335|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237143081335?_skw=road+bike&hash=item3736d44177:g:YIUAAeSwmZNq3Z~3",
+   "title": "Round One.flow carbon gravel DT Swiss tubeless wheelset SRAM ",
+   "description": "",
+   "location": "W4***",
+   "price_text": "\u00a3822.70",
+   "price": 822.7,
+   "image": "https://i.ebayimg.com/images/g/YIUAAeSwmZNq3Z~3/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-25T06:39:19+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|920072407594|0": {
+   "id": "ebay:v1|920072407594|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920072407594?_skw=road+bike&hash=itemd63896ca2a:g:4vgAAeSwZtZq3X3z",
+   "title": "Cannondale Synapse AL Disc 105 Road Bike 58cm \u2013 Recently Serviced",
+   "description": "",
+   "location": "CV1***",
+   "price_text": "\u00a3599.00",
+   "price": 599.0,
+   "image": "https://i.ebayimg.com/images/g/4vgAAeSwZtZq3X3z/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-25T06:39:19+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 854,
+   "fail_streak": 855,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 328,
+   "fail_streak": 329,
    "warned": true,
    "ever_ok": true
   },
@@ -242842,17 +242873,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-24T05:31:23",
    "2026-10-24T10:03:41",
    "2026-10-24T14:18:47",
    "2026-10-24T17:52:34",
    "2026-10-24T20:06:02",
    "2026-10-24T22:36:05",
    "2026-10-25T00:37:37",
-   "2026-10-25T01:33:09"
+   "2026-10-25T01:33:09",
+   "2026-10-25T06:39:19"
   ],
   "last_heartbeat": "2026-10-24",
-  "last_status": "2026-10-25T01",
+  "last_status": "2026-10-25T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
