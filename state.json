@@ -245659,16 +245659,62 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-25T23:37:43+00:00"
+  },
+  "ebay:v1|287679825499|0": {
+   "id": "ebay:v1|287679825499|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287679825499?_skw=road+bike&hash=item42fb0dc65b:g:vyoAAeSw~l9q3qlW",
+   "title": "Garmin Vector 3 pedals",
+   "description": "",
+   "location": "W14***",
+   "price_text": "\u00a3262.78",
+   "price": 262.78,
+   "image": "https://i.ebayimg.com/images/g/vyoAAeSw~l9q3qlW/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-26T01:37:45+00:00",
+   "blue_score": 0.035
+  },
+  "ebay:v1|128156384741|0": {
+   "id": "ebay:v1|128156384741|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128156384741?_skw=road+bike&hash=item1dd6b73de5:g:eKQAAeSwH-1q3pzA",
+   "title": "Giant Contend 2 Road Bike knights shield \u2013 2026 \u2013 Black \u2013 Size ML - barely used",
+   "description": "",
+   "location": "E2***",
+   "price_text": "\u00a3300.00",
+   "price": 300.0,
+   "image": "https://i.ebayimg.com/images/g/eKQAAeSwH-1q3pzA/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-26T01:37:45+00:00"
+  },
+  "ebay:v1|237144182943|0": {
+   "id": "ebay:v1|237144182943|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237144182943?_skw=road+bike&hash=item3736e5109f:g:ewMAAeSwspJq3pkH",
+   "title": "Vision Metron 5D ACR EVO Integrated Carbon Handlebar 110mm x 400mm",
+   "description": "",
+   "location": "GL53***",
+   "price_text": "\u00a3338.20",
+   "price": 338.2,
+   "image": "https://i.ebayimg.com/images/g/ewMAAeSwspJq3pkH/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-26T01:37:45+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 860,
+   "fail_streak": 861,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 334,
+   "fail_streak": 335,
    "warned": true,
    "ever_ok": true
   },
@@ -245678,17 +245724,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-25T00:37:37",
-   "2026-10-25T01:33:09",
    "2026-10-25T06:39:19",
    "2026-10-25T12:07:10",
    "2026-10-25T16:10:47",
    "2026-10-25T19:01:12",
    "2026-10-25T21:44:43",
-   "2026-10-25T23:37:44"
+   "2026-10-25T23:37:44",
+   "2026-10-26T01:37:46"
   ],
   "last_heartbeat": "2026-10-25",
-  "last_status": "2026-10-25T23",
+  "last_status": "2026-10-26T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
