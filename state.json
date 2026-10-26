@@ -245705,16 +245705,31 @@
    "level": "digest",
    "first_seen": "2026-10-26T01:37:45+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|366761413919|0": {
+   "id": "ebay:v1|366761413919|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/366761413919?_skw=road+bike&hash=item5564af0d1f:g:esMAAeSwVhlq3rX9",
+   "title": "Sensa Giulia GF Carbon Road Bike 2021 Medium 55cm",
+   "description": "",
+   "location": "BS2***",
+   "price_text": "\u00a31350.00",
+   "price": 1350.0,
+   "image": "https://i.ebayimg.com/images/g/esMAAeSwVhlq3rX9/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-26T06:54:27+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 861,
+   "fail_streak": 862,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 335,
+   "fail_streak": 336,
    "warned": true,
    "ever_ok": true
   },
@@ -245724,16 +245739,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-25T06:39:19",
    "2026-10-25T12:07:10",
    "2026-10-25T16:10:47",
    "2026-10-25T19:01:12",
    "2026-10-25T21:44:43",
    "2026-10-25T23:37:44",
-   "2026-10-26T01:37:46"
+   "2026-10-26T01:37:46",
+   "2026-10-26T06:54:27"
   ],
   "last_heartbeat": "2026-10-25",
-  "last_status": "2026-10-26T01",
+  "last_status": "2026-10-26T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
