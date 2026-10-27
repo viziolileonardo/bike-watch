@@ -247450,16 +247450,47 @@
    "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-26T23:18:27+00:00"
+  },
+  "ebay:v1|880054758459|0": {
+   "id": "ebay:v1|880054758459|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/880054758459?_skw=road+bike&hash=itemcce759ec3b:g:55AAAeSw6dVq3~Ws",
+   "title": "Carbon Disc Brake Tri spoke Clincher / Tubless",
+   "description": "",
+   "location": "OX5***",
+   "price_text": "\u00a3291.90",
+   "price": 291.9,
+   "image": "https://i.ebayimg.com/images/g/55AAAeSw6dVq3~Ws/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-27T02:21:53+00:00",
+   "blue_score": 0.094
+  },
+  "ebay:v1|198748133128|0": {
+   "id": "ebay:v1|198748133128|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198748133128?_skw=road+bike&hash=item2e464fd708:g:1VcAAeSwCgBq3-4k",
+   "title": "Trek Emonda  Road Bike 700C 50 Disc Shimano 105 22-Speed",
+   "description": "",
+   "location": "LU2***",
+   "price_text": "\u00a3873.70",
+   "price": 873.7,
+   "image": "https://i.ebayimg.com/images/g/1VcAAeSwCgBq3-4k/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-27T02:21:53+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 865,
+   "fail_streak": 866,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 339,
+   "fail_streak": 340,
    "warned": true,
    "ever_ok": true
   },
@@ -247469,15 +247500,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-25T23:37:44",
-   "2026-10-26T01:37:46",
    "2026-10-26T06:54:27",
    "2026-10-26T13:38:46",
    "2026-10-26T19:37:00",
-   "2026-10-26T23:18:27"
+   "2026-10-26T23:18:27",
+   "2026-10-27T02:21:53"
   ],
   "last_heartbeat": "2026-10-26",
-  "last_status": "2026-10-26T23",
+  "last_status": "2026-10-27T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
