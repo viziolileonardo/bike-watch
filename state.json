@@ -247481,16 +247481,107 @@
    "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-27T02:21:53+00:00"
+  },
+  "ebay:v1|227585283928|0": {
+   "id": "ebay:v1|227585283928|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227585283928?_skw=road+bike&hash=item34fd23d758:g:g9AAAeSwgC9q4F1R",
+   "title": "1999-2002 YAMAHA XV1600 ROAD STAR / WILD STAR Gearbox Input Shaft & Gear Set",
+   "description": "",
+   "location": "TW20***",
+   "price_text": "\u00a3350.00",
+   "price": 350.0,
+   "image": "https://i.ebayimg.com/images/g/g9AAAeSwgC9q4F1R/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-27T08:17:57+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|800843366248|0": {
+   "id": "ebay:v1|800843366248|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/800843366248?_skw=road+bike&hash=itemba75fbff68:g:rzwAAeSwgfhq4E2M",
+   "title": "Women's Liv Avail Road Bike \u2013 Medium (M) \u2013 Shimano Sora",
+   "description": "",
+   "location": "PR5***",
+   "price_text": "\u00a3440.20",
+   "price": 440.2,
+   "image": "https://i.ebayimg.com/images/g/rzwAAeSwgfhq4E2M/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-27T08:17:57+00:00",
+   "blue_score": 0.115
+  },
+  "ebay:v1|128158763238|0": {
+   "id": "ebay:v1|128158763238|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128158763238?_skw=road+bike&hash=item1dd6db88e6:g:raYAAeSwzzpq4Ew5",
+   "title": "Chris King ARD44 700C Carbon Fibre Tubeless Disc Wheelset 44mm Black Presta",
+   "description": "",
+   "location": "EX21***",
+   "price_text": "\u00a31179.70",
+   "price": 1179.7,
+   "image": "https://i.ebayimg.com/images/g/raYAAeSwzzpq4Ew5/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-27T08:17:58+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|820282346924|0": {
+   "id": "ebay:v1|820282346924|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820282346924?_skw=road+bike&hash=itembefca34dac:g:kBsAAeSw0FNq4EoF",
+   "title": "Deep section Carbon Wheels Disc",
+   "description": "",
+   "location": "DE22***",
+   "price_text": "\u00a31026.70",
+   "price": 1026.7,
+   "image": "https://i.ebayimg.com/images/g/kBsAAeSw0FNq4EoF/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-27T08:17:58+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|257819680491|0": {
+   "id": "ebay:v1|257819680491|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257819680491?_skw=road+bike&hash=item3c07401eeb:g:6ssAAeSw8M1q4BGy",
+   "title": "EVANLITE V/Brake 50 700C Carbon Rim Brake Tubeless Wheelset Presta QR",
+   "description": "",
+   "location": "TF1***",
+   "price_text": "\u00a3720.70",
+   "price": 720.7,
+   "image": "https://i.ebayimg.com/images/g/6ssAAeSw8M1q4BGy/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-27T08:17:58+00:00",
+   "blue_score": 0.021
+  },
+  "marktplaats:a1532617531": {
+   "id": "marktplaats:a1532617531",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1532617531-cube-attain-race-2026-174-181-cm",
+   "title": "Cube ATTAIN RACE \u2013 2026 \u2013 174 - 181 cm",
+   "description": "The road bikes has a aluminium frame. The manufacturer lists the frame size as 56 cm. Our own measurement comes out to 51 cm.additional specifications: wheel size: 28\" drive type: chain drive gea",
+   "location": "NL",
+   "price_text": "\u20ac909",
+   "price": 909.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/c2/c28c8d0c-775d-4bcf-9816-a260d4e0c284?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-27T08:17:58+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 866,
+   "fail_streak": 867,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 340,
+   "fail_streak": 341,
    "warned": true,
    "ever_ok": true
   },
@@ -247500,16 +247591,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-26T06:54:27",
    "2026-10-26T13:38:46",
    "2026-10-26T19:37:00",
    "2026-10-26T23:18:27",
-   "2026-10-27T02:21:53"
+   "2026-10-27T02:21:53",
+   "2026-10-27T08:17:59"
   ],
   "last_heartbeat": "2026-10-26",
-  "last_status": "2026-10-27T02",
+  "last_status": "2026-10-27T08",
   "shopify": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   },
