@@ -249764,16 +249764,63 @@
    "ai_reason": "(rule) complete bike listed as Fuji \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-27T23:06:23+00:00"
+  },
+  "ebay:v1|128160028129|0": {
+   "id": "ebay:v1|128160028129|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128160028129?_skw=road+bike&hash=item1dd6eed5e1:g:ruwAAeSwomBq4TuZ",
+   "title": "Chas Roberts 59cm 531 Frame & Forks + FREE ROYAL MAIL 24hr delivery",
+   "description": "",
+   "location": "RG2***",
+   "price_text": "\u00a3363.70",
+   "price": 363.7,
+   "image": "https://i.ebayimg.com/images/g/ruwAAeSwomBq4TuZ/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-28T02:11:45+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|880057667882|0": {
+   "id": "ebay:v1|880057667882|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/880057667882?_skw=road+bike&hash=itemcce786512a:g:FCkAAeSwYAJq4S8x",
+   "title": "Cannondale CAAD12 Road Bike 54cm 700C Shimano 105 Black/Green Rim Brake",
+   "description": "",
+   "location": "SE5***",
+   "price_text": "\u00a3300.00",
+   "price": 300.0,
+   "image": "https://i.ebayimg.com/images/g/FCkAAeSwYAJq4S8x/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-28T02:11:45+00:00"
+  },
+  "ebay:v1|206658480539|0": {
+   "id": "ebay:v1|206658480539|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/206658480539?_skw=road+bike&hash=item301dce299b:g:YkMAAeSwPmRq4S3x",
+   "title": "Cannondale CAAD13 105 Road Bike (Size 51cm) - Upgraded and with extras!",
+   "description": "",
+   "location": "TS11***",
+   "price_text": "\u00a3873.70",
+   "price": 873.7,
+   "image": "https://i.ebayimg.com/images/g/YkMAAeSwPmRq4S3x/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-28T02:11:45+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 870,
+   "fail_streak": 871,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 344,
+   "fail_streak": 345,
    "warned": true,
    "ever_ok": true
   },
@@ -249783,15 +249830,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-26T23:18:27",
    "2026-10-27T02:21:53",
    "2026-10-27T08:17:59",
    "2026-10-27T14:34:20",
    "2026-10-27T19:35:55",
-   "2026-10-27T23:06:27"
+   "2026-10-27T23:06:27",
+   "2026-10-28T02:11:46"
   ],
   "last_heartbeat": "2026-10-27",
-  "last_status": "2026-10-27T23",
+  "last_status": "2026-10-28T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
