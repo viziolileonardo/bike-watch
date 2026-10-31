@@ -256094,16 +256094,63 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-10-30T23:18:13+00:00"
+  },
+  "ebay:v1|168827686188|0": {
+   "id": "ebay:v1|168827686188|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168827686188?_skw=road+bike&hash=item274eea0d2c:g:ZqEAAeSw-Bdq5Uaz",
+   "title": "Domino road bike throttle cable for Domino XM2 throttle grip DUCATI",
+   "description": "",
+   "location": "",
+   "price_text": "\u00a3253.18",
+   "price": 253.18,
+   "image": "https://i.ebayimg.com/images/g/ZqEAAeSw-Bdq5Uaz/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-10-31T02:40:27+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|820298044786|0": {
+   "id": "ebay:v1|820298044786|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820298044786?_skw=road+bike&hash=itembefd92d572:g:lUIAAeSwLKBq5MgW",
+   "title": "Scott Foil Premium Carbon Di2 road bike with Zipp 404 wheelset",
+   "description": "",
+   "location": "HP19***",
+   "price_text": "\u00a31200.00",
+   "price": 1200.0,
+   "image": "https://i.ebayimg.com/images/g/lUIAAeSwLKBq5MgW/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-31T02:40:27+00:00"
+  },
+  "ebay:v1|820297959575|0": {
+   "id": "ebay:v1|820297959575|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820297959575?_skw=road+bike&hash=itembefd918897:g:sCIAAeSw9vdq5TZs",
+   "title": "2025 Bianchi Velomann  Palladium wheel set",
+   "description": "",
+   "location": "WS8***",
+   "price_text": "\u00a3577.90",
+   "price": 577.9,
+   "image": "https://i.ebayimg.com/images/g/sCIAAeSw9vdq5TZs/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-10-31T02:40:27+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 884,
+   "fail_streak": 885,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 358,
+   "fail_streak": 359,
    "warned": true,
    "ever_ok": true
   },
@@ -256113,14 +256160,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-10-30T01:56:30",
    "2026-10-30T07:49:57",
    "2026-10-30T14:36:52",
    "2026-10-30T19:38:55",
-   "2026-10-30T23:18:14"
+   "2026-10-30T23:18:14",
+   "2026-10-31T02:40:27"
   ],
   "last_heartbeat": "2026-10-30",
-  "last_status": "2026-10-30T23",
+  "last_status": "2026-10-31T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
