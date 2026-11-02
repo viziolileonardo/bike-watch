@@ -261398,16 +261398,77 @@
    "level": "digest",
    "first_seen": "2026-11-01T23:09:22+00:00",
    "blue_score": 0.131
+  },
+  "ebay:v1|820305041475|0": {
+   "id": "ebay:v1|820305041475|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820305041475?_skw=road+bike&hash=itembefdfd9843:g:cNcAAeSw~Jtq5~HO",
+   "title": "Fulcrum Unisex \u2013 Erwachsene Racing 6 Laufradsatz, Schwarz, 28\"",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3357.38",
+   "price": 357.38,
+   "image": "https://i.ebayimg.com/images/g/cNcAAeSw~Jtq5~HO/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-02T02:28:32+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|267830572714|0": {
+   "id": "ebay:v1|267830572714|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267830572714?_skw=road+bike&hash=item3e5bf236aa:g:ddUAAeSw0z9q58QB",
+   "title": "Cube Axial Pro Road Bike Size S (54/56cm) Carbon Forks Excellent Condition ",
+   "description": "",
+   "location": "SW6***",
+   "price_text": "\u00a3289.00",
+   "price": 289.0,
+   "image": "https://i.ebayimg.com/images/g/ddUAAeSw0z9q58QB/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-02T02:28:32+00:00"
+  },
+  "ebay:v1|307261086744|0": {
+   "id": "ebay:v1|307261086744|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/307261086744?_skw=road+bike&hash=item478a301c18:g:HMEAAeSwFBtq59Sv",
+   "title": "Mavic R-Sys SLR SSC Exalith Lightweight Alloy Wheelset (Shimano)",
+   "description": "",
+   "location": "G1***",
+   "price_text": "\u00a3465.70",
+   "price": 465.7,
+   "image": "https://i.ebayimg.com/images/g/HMEAAeSwFBtq59Sv/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-02T02:28:32+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|900057580982|0": {
+   "id": "ebay:v1|900057580982|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/900057580982?_skw=road+bike&hash=itemd18f9cc5b6:g:dDAAAeSwO-9q58UE",
+   "title": "Campagnolo Centaur 10 Speed Groupset 2009 Ultra-Shift Carbon UT 172.5mm 53/39",
+   "description": "",
+   "location": "N4***",
+   "price_text": "\u00a3312.79",
+   "price": 312.79,
+   "image": "https://i.ebayimg.com/images/g/dDAAAeSwO-9q58UE/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-02T02:28:32+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 894,
+   "fail_streak": 895,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 368,
+   "fail_streak": 369,
    "warned": true,
    "ever_ok": true
   },
@@ -261417,17 +261478,17 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-01T01:32:31",
    "2026-11-01T07:59:27",
    "2026-11-01T15:04:30",
    "2026-11-01T19:38:33",
-   "2026-11-01T23:09:25"
+   "2026-11-01T23:09:25",
+   "2026-11-02T02:28:33"
   ],
   "last_heartbeat": "2026-11-01",
-  "last_status": "2026-11-01T23",
+  "last_status": "2026-11-02T02",
   "shopify": {
-   "fail_streak": 7,
-   "warned": true,
+   "fail_streak": 0,
+   "warned": false,
    "ever_ok": true
   },
   "ebay": {
