@@ -263057,16 +263057,48 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-02T19:51:46+00:00"
+  },
+  "marktplaats:m2461233734": {
+   "id": "marktplaats:m2461233734",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2461233734-stevens-superprestige-ultegra-12-speed-di2-in-nieuwe-staat",
+   "title": "Stevens superprestige Ultegra 12 speed Di2 in nieuwe staat!!",
+   "description": "Stevens superprestige m58 ultegra 12 speed in nieuwe staat. Kaders zijn gecoat.amper half cross seizoen mee gereden dus alles is in nieuwe staat.zowel te krijgen met carbonwielen als alu wielen. Alle ",
+   "location": "Breda",
+   "price_text": "\u20ac2800",
+   "price": 2800.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/92dd90a1-c2a6-4738-8c03-7bb290d7b81d?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Stevens \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-03T01:53:37+00:00"
+  },
+  "marktplaats:m2459992079": {
+   "id": "marktplaats:m2459992079",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2459992079-canyon-grail-cf-sl-gravelbike-shimano-grx-dt-swiss",
+   "title": "Canyon Grail CF SL Gravelbike - Shimano GRX - DT Swiss",
+   "description": "Te koop aangeboden: een prachtige canyon grail cf sl gravelbike maat m, van april 2023, uitgerust met een shimano grx groepset. De fiets wordt verkocht met de originele dt swiss gravel ln velgen, zoal",
+   "location": "Meijel",
+   "price_text": "\u20ac1750",
+   "price": 1750.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6004574b-4da9-43c8-a54b-b8ac28770cd2?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-03T01:53:37+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 897,
+   "fail_streak": 898,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 371,
+   "fail_streak": 372,
    "warned": true,
    "ever_ok": true
   },
@@ -263076,20 +263108,20 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-01T23:09:25",
    "2026-11-02T02:28:33",
    "2026-11-02T09:52:08",
-   "2026-11-02T19:51:52"
+   "2026-11-02T19:51:52",
+   "2026-11-03T01:53:37"
   ],
   "last_heartbeat": "2026-11-02",
-  "last_status": "2026-11-02T19",
+  "last_status": "2026-11-03T01",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
    "ever_ok": true
   },
   "ebay": {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "warned": false,
    "ever_ok": true
   }
