@@ -267429,16 +267429,110 @@
    "level": "digest",
    "first_seen": "2026-11-04T22:38:57+00:00",
    "blue_score": 0.127
+  },
+  "ebay:v1|287705786414|0": {
+   "id": "ebay:v1|287705786414|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287705786414?_skw=road+bike&hash=item42fc99e82e:g:~ccAAeSw~~tq6-X8",
+   "title": "S works SL7 58cm",
+   "description": "",
+   "location": "EN6***",
+   "price_text": "\u00a32850.00",
+   "price": 2850.0,
+   "image": "https://i.ebayimg.com/images/g/~ccAAeSw~~tq6-X8/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-05T02:54:20+00:00",
+   "blue_score": 0.093
+  },
+  "ebay:v1|257835507173|0": {
+   "id": "ebay:v1|257835507173|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257835507173?_skw=road+bike&hash=item3c08319de5:g:st4AAeSwydhq687m",
+   "title": "Giant TCR Advanced 0 ML Alpine Green Road Race Bike Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32625.99",
+   "price": 2625.99,
+   "image": "https://i.ebayimg.com/images/g/st4AAeSwydhq687m/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-05T02:54:20+00:00"
+  },
+  "ebay:v1|257835507125|0": {
+   "id": "ebay:v1|257835507125|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257835507125?_skw=road+bike&hash=item3c08319db5:g:sgAAAeSweqdq687j",
+   "title": "Giant Propel Advanced 2 Medium Mach Blue Road Bike",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32499.00",
+   "price": 2499.0,
+   "image": "https://i.ebayimg.com/images/g/sgAAAeSweqdq687j/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-05T02:54:20+00:00"
+  },
+  "ebay:v1|840094187766|0": {
+   "id": "ebay:v1|840094187766|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840094187766?_skw=road+bike&hash=itemc3998400f6:g:2NgAAeSwndRq6705",
+   "title": "Planet X P ro Carbon SL race bike SRAM Red",
+   "description": "",
+   "location": "SE4***",
+   "price_text": "\u00a3445.30",
+   "price": 445.3,
+   "image": "https://i.ebayimg.com/images/g/2NgAAeSwndRq6705/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Planet X \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-05T02:54:20+00:00"
+  },
+  "ebay:v1|900066119687|0": {
+   "id": "ebay:v1|900066119687|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/900066119687?_skw=road+bike&hash=itemd1901f1007:g:3kUAAeSwKhlq67Ov",
+   "title": "Campagnolo Centaur Grey 10 Speed Groupset 175mm 53/39 C10 Chain Braze Excellent",
+   "description": "",
+   "location": "N4***",
+   "price_text": "\u00a3297.79",
+   "price": 297.79,
+   "image": "https://i.ebayimg.com/images/g/3kUAAeSwKhlq67Ov/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-05T02:54:20+00:00",
+   "blue_score": 0.016
+  },
+  "ebay:v1|860113913111|0": {
+   "id": "ebay:v1|860113913111|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860113913111?_skw=road+bike&hash=itemc842c8c517:g:yfIAAeSwN4xq67OE",
+   "title": "2023 Orbea Orca M40 Carbon Road Bike 53cm Shimano Tiagra Hydraulic Disc",
+   "description": "",
+   "location": "E3***",
+   "price_text": "\u00a31128.70",
+   "price": 1128.7,
+   "image": "https://i.ebayimg.com/images/g/yfIAAeSwN4xq67OE/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Orbea \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-05T02:54:20+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 905,
+   "fail_streak": 906,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 379,
+   "fail_streak": 380,
    "warned": true,
    "ever_ok": true
   },
@@ -267448,13 +267542,13 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-04T02:17:43",
    "2026-11-04T09:17:41",
    "2026-11-04T17:17:11",
-   "2026-11-04T22:39:04"
+   "2026-11-04T22:39:04",
+   "2026-11-05T02:54:21"
   ],
   "last_heartbeat": "2026-11-04",
-  "last_status": "2026-11-04T22",
+  "last_status": "2026-11-05T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
