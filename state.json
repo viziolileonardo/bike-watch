@@ -269627,16 +269627,79 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-05T22:56:37+00:00"
+  },
+  "ebay:v1|860117519819|0": {
+   "id": "ebay:v1|860117519819|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860117519819?_skw=road+bike&hash=itemc842ffcdcb:g:ZwQAAeSw3Uxq7TkS",
+   "title": "Genesis Volare 853 - M/L - DT 240s Wheels, Ultegra 11s Groupset",
+   "description": "",
+   "location": "RG2***",
+   "price_text": "\u00a3750.00",
+   "price": 750.0,
+   "image": "https://i.ebayimg.com/images/g/ZwQAAeSw3Uxq7TkS/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Genesis \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-06T02:56:39+00:00"
+  },
+  "ebay:v1|267834987370|0": {
+   "id": "ebay:v1|267834987370|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267834987370?_skw=road+bike&hash=item3e5c35936a:g:u5UAAeSwUcNq7R-2",
+   "title": "Giant Defy Advanced Pro 1 Spec Build Large Ex-demo",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32725.99",
+   "price": 2725.99,
+   "image": "https://i.ebayimg.com/images/g/u5UAAeSwUcNq7R-2/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-06T02:56:39+00:00"
+  },
+  "ebay:v1|267834969570|0": {
+   "id": "ebay:v1|267834969570|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267834969570?_skw=road+bike&hash=item3e5c354de2:g:YeQAAeSwQ~xq7RiU",
+   "title": "Giant Propel Advanced Pro 1 Carbon Road Bike ML SRAM Rival AXS SLR 1 Power Halo",
+   "description": "",
+   "location": "HA2***",
+   "price_text": "\u00a32495.00",
+   "price": 2495.0,
+   "image": "https://i.ebayimg.com/images/g/YeQAAeSwQ~xq7RiU/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-06T02:56:39+00:00"
+  },
+  "marktplaats:m2461185881": {
+   "id": "marktplaats:m2461185881",
+   "source": "Marktplaats (NL)",
+   "query": "dt swiss e1800",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsonderdelen/m2461185881-dt-swiss-pr-1600-spline-32-db-wielset",
+   "title": "DT Swiss PR 1600 Spline 32 DB - Wielset",
+   "description": "Wielset - dt swiss pr 1600 spline 32 db - continental grand prix 5000 - shimano 105 r7000 160mm - ultegra cs-6800 cassette 11-23t gekocht als reserve wielset. Alleen een ca. 50Km testrit mee gereden e",
+   "location": "Hendrik-Ido-Ambacht",
+   "price_text": "\u20ac395",
+   "price": 395.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/f9da60b9-6ad9-4f98-8d56-03d6feaf3962?rule=ecg_mp_eps$_82.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-06T02:56:39+00:00",
+   "blue_score": 0.0
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 909,
+   "fail_streak": 910,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 383,
+   "fail_streak": 384,
    "warned": true,
    "ever_ok": true
   },
@@ -269646,15 +269709,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-05T02:54:21",
    "2026-11-05T09:56:39",
    "2026-11-05T17:44:22",
-   "2026-11-05T22:56:41"
+   "2026-11-05T22:56:41",
+   "2026-11-06T02:56:40"
   ],
   "last_heartbeat": "2026-11-05",
-  "last_status": "2026-11-05T22",
+  "last_status": "2026-11-06T02",
   "shopify": {
-   "fail_streak": 3,
+   "fail_streak": 4,
    "warned": false,
    "ever_ok": true
   },
