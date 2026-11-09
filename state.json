@@ -276824,16 +276824,63 @@
    "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-08T23:13:14+00:00"
+  },
+  "ebay:v1|840108725021|0": {
+   "id": "ebay:v1|840108725021|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840108725021?_skw=road+bike&hash=itemc39a61d31d:g:HbMAAeSwuXJq8Qnx",
+   "title": "Riddle Road Bike Vintage 80s Small Frame Woman\u2019s Race Shimano",
+   "description": "",
+   "location": "NE8***",
+   "price_text": "\u00a3250.00",
+   "price": 250.0,
+   "image": "https://i.ebayimg.com/images/g/HbMAAeSwuXJq8Qnx/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-09T02:39:07+00:00",
+   "blue_score": 0.012
+  },
+  "ebay:v1|900076283063|0": {
+   "id": "ebay:v1|900076283063|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/900076283063?_skw=road+bike&hash=itemd190ba24b7:g:KswAAeSwbgpq8Pim",
+   "title": "SCOTT ADDICT RC  e-ride . Carbon/Ultegra groupset. 56cm/Large",
+   "description": "",
+   "location": "HP9***",
+   "price_text": "\u00a32045.68",
+   "price": 2045.68,
+   "image": "https://i.ebayimg.com/images/g/KswAAeSwbgpq8Pim/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Scott \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-09T02:39:07+00:00"
+  },
+  "marktplaats:m2463653119": {
+   "id": "marktplaats:m2463653119",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2463653119-pinarello-xtrack-baanfiets-frame-full-carbon",
+   "title": "Pinarello xtrack baanfiets frame full carbon",
+   "description": "Pinarello xtrack rare baanfiets full carbon monocoque frame (+aluminium inserts for bb) size l (\u22481,70-195cm rider height) used only on track in spain, in galapagar\u2019s velodrome. Can be hand flown into ",
+   "location": "Tilburg",
+   "price_text": "\u20ac1100",
+   "price": 1100.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/92654ac9-0616-4ed6-9f46-acd205e8019e?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Pinarello \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-09T02:39:07+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 923,
+   "fail_streak": 924,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 397,
+   "fail_streak": 398,
    "warned": true,
    "ever_ok": true
   },
@@ -276843,16 +276890,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-08T01:54:53",
    "2026-11-08T08:06:02",
    "2026-11-08T15:09:03",
    "2026-11-08T19:39:37",
-   "2026-11-08T23:13:17"
+   "2026-11-08T23:13:17",
+   "2026-11-09T02:39:08"
   ],
   "last_heartbeat": "2026-11-08",
-  "last_status": "2026-11-08T23",
+  "last_status": "2026-11-09T02",
   "shopify": {
-   "fail_streak": 4,
+   "fail_streak": 5,
    "warned": false,
    "ever_ok": true
   },
