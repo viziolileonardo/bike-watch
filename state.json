@@ -281587,16 +281587,63 @@
    "level": "digest",
    "first_seen": "2026-11-10T23:47:02+00:00",
    "blue_score": 0.186
+  },
+  "ebay:v1|147675189758|0": {
+   "id": "ebay:v1|147675189758|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147675189758?_skw=road+bike&hash=item22622091fe:g:4dIAAeSwcJNq87gY",
+   "title": "Cannondale Synapse Road Bike 54cm 700C Aluminium Drop Bar Rim Brake",
+   "description": "",
+   "location": "PO4***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/4dIAAeSwcJNq87gY/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-11T03:10:42+00:00"
+  },
+  "ebay:v1|257846351920|0": {
+   "id": "ebay:v1|257846351920|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257846351920?_skw=road+bike&hash=item3c08d71830:g:IIMAAeSwAQFq87e-",
+   "title": "Liv Avail Advanced 2 Medium Moonstone Grey Road Bike Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31855.99",
+   "price": 1855.99,
+   "image": "https://i.ebayimg.com/images/g/IIMAAeSwAQFq87e-/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-11T03:10:42+00:00",
+   "blue_score": 0.065
+  },
+  "marktplaats:m2464417850": {
+   "id": "marktplaats:m2464417850",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/m2464417850-bianchi-intenso-61cm-105-racefiets-perfect-onderhouden",
+   "title": "Bianchi intenso 61cm 105 racefiets perfect onderhouden",
+   "description": "Prachtige racefiets, van het gerenommeerde merk bianchi. De framemaat is 61cm wat betekent dat ie geschikt is vooral lange mensen. Ik ben zelf 194cm hij is perfect onderhouden, en is altijd 2x per jaa",
+   "location": "Santpoort-Zuid",
+   "price_text": "\u20ac800",
+   "price": 800.0,
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/c26e7c3f-658d-4eba-8ad4-0905b13a56e1?rule=ecg_mp_eps$_82.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-11T03:10:42+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 930,
+   "fail_streak": 931,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 404,
+   "fail_streak": 405,
    "warned": true,
    "ever_ok": true
   },
@@ -281609,10 +281656,11 @@
    "2026-11-10T03:32:13",
    "2026-11-10T11:37:47",
    "2026-11-10T18:48:38",
-   "2026-11-10T23:47:04"
+   "2026-11-10T23:47:04",
+   "2026-11-11T03:10:42"
   ],
   "last_heartbeat": "2026-11-10",
-  "last_status": "2026-11-10T23",
+  "last_status": "2026-11-11T03",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
