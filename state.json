@@ -283688,16 +283688,31 @@
    "ai_reason": "(rule) complete bike listed as Bmc \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-12T00:37:48+00:00"
+  },
+  "ebay:v1|287723513699|0": {
+   "id": "ebay:v1|287723513699|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287723513699?_skw=road+bike&hash=item42fda86763:g:noYAAeSwYeRq9WDo",
+   "title": "Princeton CarbonWorks Carbon Clincher Rim Brake Wheel Set Grit 4540 Tune Hubs",
+   "description": "",
+   "location": "WA4***",
+   "price_text": "\u00a31281.70",
+   "price": 1281.7,
+   "image": "https://i.ebayimg.com/images/g/noYAAeSwYeRq9WDo/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-12T07:40:20+00:00",
+   "blue_score": 0.001
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 934,
+   "fail_streak": 935,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 408,
+   "fail_streak": 409,
    "warned": true,
    "ever_ok": true
   },
@@ -283707,13 +283722,13 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-11T03:10:42",
    "2026-11-11T10:49:45",
    "2026-11-11T18:09:37",
-   "2026-11-12T00:37:50"
+   "2026-11-12T00:37:50",
+   "2026-11-12T07:40:21"
   ],
   "last_heartbeat": "2026-11-11",
-  "last_status": "2026-11-12T00",
+  "last_status": "2026-11-12T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
