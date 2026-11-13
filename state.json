@@ -285736,16 +285736,110 @@
    "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-12T22:25:40+00:00"
+  },
+  "ebay:v1|860138903062|0": {
+   "id": "ebay:v1|860138903062|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860138903062?_skw=road+bike&hash=itemc844461616:g:a7EAAeSwEDtq9lqO",
+   "title": "Triban Triban Road Bike 700C Frame Size M Drop Bars Mechanical Rim Brakes",
+   "description": "",
+   "location": "N4***",
+   "price_text": "\u00a3312.70",
+   "price": 312.7,
+   "image": "https://i.ebayimg.com/images/g/a7EAAeSwEDtq9lqO/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Triban \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-13T02:51:26+00:00"
+  },
+  "ebay:v1|327453241309|0": {
+   "id": "ebay:v1|327453241309|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/327453241309?_skw=road+bike&hash=item4c3dbbefdd:g:OUYAAeSwOiRq9j5J",
+   "title": "Sram Red AXS E1 Rear Derailleur.  Brand New",
+   "description": "",
+   "location": "NE16***",
+   "price_text": "\u00a3445.30",
+   "price": 445.3,
+   "image": "https://i.ebayimg.com/images/g/OUYAAeSwOiRq9j5J/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-13T02:51:26+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|377640926624|0": {
+   "id": "ebay:v1|377640926624|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377640926624?_skw=road+bike&hash=item57ed273da0:g:qNcAAeSwytNq9j1J",
+   "title": "Trek Domane AL 2 Disc Road Bike 54cm Claris",
+   "description": "",
+   "location": "L15***",
+   "price_text": "\u00a3695.00",
+   "price": 695.0,
+   "image": "https://i.ebayimg.com/images/g/qNcAAeSwytNq9j1J/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-13T02:51:26+00:00"
+  },
+  "ebay:v1|377640923793|0": {
+   "id": "ebay:v1|377640923793|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/377640923793?_skw=road+bike&hash=item57ed273291:g:puMAAeSwb6Nq9jz5",
+   "title": "Specialized Tarmac SL7 Disc Full Carbon Road Bike 49cm 105 12s",
+   "description": "",
+   "location": "L15***",
+   "price_text": "\u00a31795.00",
+   "price": 1795.0,
+   "image": "https://i.ebayimg.com/images/g/puMAAeSwb6Nq9jz5/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-13T02:51:26+00:00"
+  },
+  "ebay:v1|960188454897|0": {
+   "id": "ebay:v1|960188454897|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/960188454897?_skw=road+bike&hash=itemdf8fb117f1:g:z~EAAeSwa~5q9jvX",
+   "title": "Ritchey WCS Apex 88 700C Carbon Tubular Rim Brake Wheels",
+   "description": "",
+   "location": "S73***",
+   "price_text": "\u00a3465.70",
+   "price": 465.7,
+   "image": "https://i.ebayimg.com/images/g/z~EAAeSwa~5q9jvX/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-13T02:51:26+00:00",
+   "blue_score": 0.016
+  },
+  "marktplaats:a1533879842": {
+   "id": "marktplaats:a1533879842",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1533879842-giant-tcr-advanced-1-carbon-105-di2-700-korting",
+   "title": "GIANT TCR ADVANCED 1 - CARBON 105 DI2 - \u20ac700,- KORTING",
+   "description": "Black friday | giant tcr advanced 1 | \u20ac700 korting! Profiteer van deze black friday deal bij rubino bikes! De giant tcr advanced 1 in de kleur dreamy blue is een carbon racefiets met shimano 105 ",
+   "location": "Nuenen",
+   "price_text": "\u20ac2799",
+   "price": 2799.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/f2/f26883d7-6590-40a0-93da-8025cd74d494?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-13T02:51:26+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 937,
+   "fail_streak": 938,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 411,
+   "fail_streak": 412,
    "warned": true,
    "ever_ok": true
   },
@@ -285755,13 +285849,13 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-12T00:37:50",
    "2026-11-12T07:40:21",
    "2026-11-12T16:21:51",
-   "2026-11-12T22:25:42"
+   "2026-11-12T22:25:42",
+   "2026-11-13T02:51:27"
   ],
   "last_heartbeat": "2026-11-12",
-  "last_status": "2026-11-12T22",
+  "last_status": "2026-11-13T02",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
