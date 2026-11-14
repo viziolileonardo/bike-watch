@@ -288163,16 +288163,92 @@
    "level": "digest",
    "first_seen": "2026-11-13T22:56:40+00:00",
    "blue_score": 0.038
+  },
+  "ebay:v1|267842980836|0": {
+   "id": "ebay:v1|267842980836|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267842980836?_skw=road+bike&hash=item3e5caf8be4:g:llQAAeSwIEpq96vK",
+   "title": "Giant TCR 2023 ML Blue Dragonfly Road Bike Custom Build Ex-display",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32319.99",
+   "price": 2319.99,
+   "image": "https://i.ebayimg.com/images/g/llQAAeSwIEpq96vK/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-14T02:46:37+00:00",
+   "blue_score": 0.144
+  },
+  "ebay:v1|840125866003|0": {
+   "id": "ebay:v1|840125866003|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/840125866003?_skw=road+bike&hash=itemc39b676013:g:~YIAAeSwQatq95yh",
+   "title": "Shimano 105 Di2 12 Speed Disc Brake Groupset  Power Meter",
+   "description": "",
+   "location": "RH11***",
+   "price_text": "\u00a3795.00",
+   "price": 795.0,
+   "image": "https://i.ebayimg.com/images/g/~YIAAeSwQatq95yh/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-14T02:46:37+00:00",
+   "blue_score": 0.152
+  },
+  "ebay:v1|960193277235|0": {
+   "id": "ebay:v1|960193277235|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/960193277235?_skw=road+bike&hash=itemdf8ffaad33:g:~bcAAeSwq3xq95y1",
+   "title": "Cube Agree GTC Road Bike Carbon ultegra Di2 grouper ",
+   "description": "",
+   "location": "SE6***",
+   "price_text": "\u00a3613.60",
+   "price": 613.6,
+   "image": "https://i.ebayimg.com/images/g/~bcAAeSwq3xq95y1/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cube \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-14T02:46:37+00:00"
+  },
+  "ebay:v1|880114304038|0": {
+   "id": "ebay:v1|880114304038|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/880114304038?_skw=road+bike&hash=itemcceae68426:g:~iQAAeSw5OJq95q0",
+   "title": "Shimano Dura-Ace RD-R9150 Di2 11-Speed Rear Derailleur",
+   "description": "",
+   "location": "BS30***",
+   "price_text": "\u00a3229.50",
+   "price": 229.5,
+   "image": "https://i.ebayimg.com/images/g/~iQAAeSw5OJq95q0/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-14T02:46:37+00:00",
+   "blue_score": 0.062
+  },
+  "ebay:v1|880114297613|0": {
+   "id": "ebay:v1|880114297613|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/880114297613?_skw=road+bike&hash=itemcceae66b0d:g:e2QAAeSw5wFq95k7",
+   "title": "Shimano Dura Ace Di2 St-9170 Hydraulic Shifters Pair",
+   "description": "",
+   "location": "BS30***",
+   "price_text": "\u00a3311.66",
+   "price": 311.66,
+   "image": "https://i.ebayimg.com/images/g/e2QAAeSw5wFq95k7/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-14T02:46:38+00:00",
+   "blue_score": 0.033
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 941,
+   "fail_streak": 942,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 415,
+   "fail_streak": 416,
    "warned": true,
    "ever_ok": true
   },
@@ -288185,12 +288261,13 @@
    "2026-11-13T02:51:27",
    "2026-11-13T10:06:28",
    "2026-11-13T17:42:20",
-   "2026-11-13T22:56:41"
+   "2026-11-13T22:56:41",
+   "2026-11-14T02:46:39"
   ],
   "last_heartbeat": "2026-11-13",
-  "last_status": "2026-11-13T22",
+  "last_status": "2026-11-14T02",
   "shopify": {
-   "fail_streak": 1,
+   "fail_streak": 2,
    "warned": false,
    "ever_ok": true
   },
