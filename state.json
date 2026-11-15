@@ -291115,16 +291115,78 @@
    "level": "digest",
    "first_seen": "2026-11-15T00:26:04+00:00",
    "blue_score": 0.0
+  },
+  "ebay:v1|287730731634|0": {
+   "id": "ebay:v1|287730731634|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/287730731634?_skw=road+bike&hash=item42fe168a72:g:V9IAAeSwFalq-UcI",
+   "title": "Giant Road Bike 700C Size M Aluminium  Rim Brakes Blue/Black  2024  Model",
+   "description": "",
+   "location": "TW7***",
+   "price_text": "\u00a3567.70",
+   "price": 567.7,
+   "image": "https://i.ebayimg.com/images/g/V9IAAeSwFalq-UcI/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Giant \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-15T07:02:12+00:00"
+  },
+  "ebay:v1|227614690197|0": {
+   "id": "ebay:v1|227614690197|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/227614690197?_skw=road+bike&hash=item34fee48b95:g:W1MAAeSwtiNq-Prw",
+   "title": "Eddy Merckx EMX-1 Carbon Fibre CL-240 Road Bike Immaculate Condition",
+   "description": "",
+   "location": "KA7***",
+   "price_text": "\u00a3669.70",
+   "price": 669.7,
+   "image": "https://i.ebayimg.com/images/g/W1MAAeSwtiNq-Prw/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-15T07:02:13+00:00",
+   "blue_score": 0.023
+  },
+  "ebay:v1|336898070698|0": {
+   "id": "ebay:v1|336898070698|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336898070698?_skw=road+bike&hash=item4e70b098aa:g:R6sAAeSwy59q-QN5",
+   "title": "Boardman SLR 8.6 Road Bike 56cm",
+   "description": "",
+   "location": "GU52***",
+   "price_text": "\u00a3286.70",
+   "price": 286.7,
+   "image": "https://i.ebayimg.com/images/g/R6sAAeSwy59q-QN5/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-15T07:02:13+00:00"
+  },
+  "ebay:v1|267843883095|0": {
+   "id": "ebay:v1|267843883095|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267843883095?_skw=road+bike&hash=item3e5cbd5057:g:M4kAAeSwBWdq-P3R",
+   "title": "Liv Avail Adavnced Custom Build Road Bike XS Camel Silk",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a31623.99",
+   "price": 1623.99,
+   "image": "https://i.ebayimg.com/images/g/M4kAAeSwBWdq-P3R/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-15T07:02:13+00:00",
+   "blue_score": 0.101
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 946,
+   "fail_streak": 947,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 420,
+   "fail_streak": 421,
    "warned": true,
    "ever_ok": true
   },
@@ -291134,14 +291196,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-14T02:46:39",
    "2026-11-14T09:31:55",
    "2026-11-14T15:59:58",
    "2026-11-14T20:41:48",
-   "2026-11-15T00:26:05"
+   "2026-11-15T00:26:05",
+   "2026-11-15T07:02:13"
   ],
   "last_heartbeat": "2026-11-14",
-  "last_status": "2026-11-15T00",
+  "last_status": "2026-11-15T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
