@@ -293316,16 +293316,48 @@
    "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-15T23:58:22+00:00"
+  },
+  "ebay:v1|820359001385|0": {
+   "id": "ebay:v1|820359001385|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820359001385?_skw=road+bike&hash=itembf0134f529:g:fmYAAeSwi1lq-kgJ",
+   "title": "Specialized roubiax sl8 Carbon Fibre Road Bike paid over 3k for brand new",
+   "description": "",
+   "location": "LS12***",
+   "price_text": "\u00a3618.70",
+   "price": 618.7,
+   "image": "https://i.ebayimg.com/images/g/fmYAAeSwi1lq-kgJ/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-16T06:20:28+00:00"
+  },
+  "ebay:v1|860143264506|0": {
+   "id": "ebay:v1|860143264506|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/860143264506?_skw=road+bike&hash=itemc84488a2fa:g:spsAAeSwJUVq-Frx",
+   "title": "Ribble Evo Pro Carbon Road Bike \u2013 Large Carbon Frame",
+   "description": "",
+   "location": "GU15***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/spsAAeSwJUVq-Frx/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-16T06:20:28+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 950,
+   "fail_streak": 951,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 424,
+   "fail_streak": 425,
    "warned": true,
    "ever_ok": true
   },
@@ -293335,14 +293367,14 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-15T00:26:05",
    "2026-11-15T07:02:13",
    "2026-11-15T14:44:28",
    "2026-11-15T20:00:25",
-   "2026-11-15T23:58:23"
+   "2026-11-15T23:58:23",
+   "2026-11-16T06:20:28"
   ],
   "last_heartbeat": "2026-11-15",
-  "last_status": "2026-11-15T23",
+  "last_status": "2026-11-16T06",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
