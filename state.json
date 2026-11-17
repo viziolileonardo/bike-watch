@@ -295156,16 +295156,62 @@
    "ai_reason": "(rule) complete bike listed as Bianchi \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-17T00:24:55+00:00"
+  },
+  "ebay:v1|267845832960|0": {
+   "id": "ebay:v1|267845832960|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/267845832960?_skw=road+bike&hash=item3e5cdb1100:g:ziUAAeSwaHJq~Alw",
+   "title": "Islabike Luath 24 Childs Road Bike",
+   "description": "",
+   "location": "GL3***",
+   "price_text": "\u00a3208.70",
+   "price": 208.7,
+   "image": "https://i.ebayimg.com/images/g/ziUAAeSwaHJq~Alw/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-17T08:22:15+00:00",
+   "blue_score": 0.043
+  },
+  "ebay:v1|147684348955|0": {
+   "id": "ebay:v1|147684348955|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/147684348955?_skw=road+bike&hash=item2262ac541b:g:MwAAAeSwnrpq~Aju",
+   "title": "Zipp 808 Firecrest | Carbon Clincher | Rim Brake Wheel | Front | TT, Triathlon",
+   "description": "",
+   "location": "IG10***",
+   "price_text": "\u00a3400.00",
+   "price": 400.0,
+   "image": "https://i.ebayimg.com/images/g/MwAAAeSwnrpq~Aju/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-17T08:22:15+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|237187493984|0": {
+   "id": "ebay:v1|237187493984|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/237187493984?_skw=road+bike&hash=item373979f060:g:QxgAAeSwU-tq~AQV",
+   "title": "Cannondale CAAD 13  51cm - Highly Upgraded!",
+   "description": "",
+   "location": "E6***",
+   "price_text": "\u00a31536.70",
+   "price": 1536.7,
+   "image": "https://i.ebayimg.com/images/g/QxgAAeSwU-tq~AQV/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Cannondale \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-17T08:22:15+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 953,
+   "fail_streak": 954,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 427,
+   "fail_streak": 428,
    "warned": true,
    "ever_ok": true
   },
@@ -295175,12 +295221,12 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-16T06:20:28",
    "2026-11-16T16:19:22",
-   "2026-11-17T00:24:59"
+   "2026-11-17T00:24:59",
+   "2026-11-17T08:22:16"
   ],
   "last_heartbeat": "2026-11-16",
-  "last_status": "2026-11-17T00",
+  "last_status": "2026-11-17T08",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
