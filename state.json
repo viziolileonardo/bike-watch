@@ -296815,16 +296815,79 @@
    "ai_reason": "(rule) complete bike listed as Boardman \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-18T00:02:14+00:00"
+  },
+  "ebay:v1|840139943484|0": {
+   "id": "ebay:v1|840139943484|0",
+   "source": "eBay",
+   "query": "carbon road bike shimano 105 disc blue",
+   "url": "https://www.ebay.co.uk/itm/840139943484?_skw=carbon+road+bike+shimano+105+disc+blue&hash=itemc39c3e2e3c:g:FT8AAeSw6xhq~QN3",
+   "title": "Ribble R872 Disc 2022 Carbon Road Bike Shimano 105 11 Speed Blue Teal Size Small",
+   "description": "",
+   "location": "NW8***",
+   "price_text": "\u00a3699.99",
+   "price": 699.99,
+   "image": "https://i.ebayimg.com/images/g/FT8AAeSw6xhq~QN3/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Ribble \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-18T07:20:33+00:00"
+  },
+  "ebay:v1|168870335383|0": {
+   "id": "ebay:v1|168870335383|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/168870335383?_skw=road+bike&hash=item275174d397:g:KR4AAeSwzhFq~UMF",
+   "title": "Specialized S-Works Tarmac SL7 Carbon Road Bike Disc 52cm 700C Blue/Black",
+   "description": "",
+   "location": "CR0***",
+   "price_text": "\u00a32250.70",
+   "price": 2250.7,
+   "image": "https://i.ebayimg.com/images/g/KR4AAeSwzhFq~UMF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-18T07:20:33+00:00"
+  },
+  "ebay:v1|880128585980|0": {
+   "id": "ebay:v1|880128585980|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/880128585980?_skw=road+bike&hash=itemccebc070fc:g:wbkAAeSw7fFq~Tvs",
+   "title": "Specialized Tarmac SL4 Sport - Ex Condition \u2013 Size 56 \u2013 Two Wheel-sets",
+   "description": "",
+   "location": "LN5***",
+   "price_text": "\u00a3567.70",
+   "price": 567.7,
+   "image": "https://i.ebayimg.com/images/g/wbkAAeSw7fFq~Tvs/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Specialized \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-18T07:20:33+00:00"
+  },
+  "ebay:v1|900100003149|0": {
+   "id": "ebay:v1|900100003149|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/900100003149?_skw=road+bike&hash=itemd19224154d:g:HlwAAeSwFVlq~OlQ",
+   "title": "1997 Mike Burrows Giant TCR Compact Pro Series Triathlon Frameset Aero Seatpost ",
+   "description": "",
+   "location": "TD11***",
+   "price_text": "\u00a3414.70",
+   "price": 414.7,
+   "image": "https://i.ebayimg.com/images/g/HlwAAeSwFVlq~OlQ/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-18T07:20:33+00:00",
+   "blue_score": 0.049
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 956,
+   "fail_streak": 957,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 430,
+   "fail_streak": 431,
    "warned": true,
    "ever_ok": true
   },
@@ -296834,15 +296897,15 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-17T00:24:59",
    "2026-11-17T08:22:16",
    "2026-11-17T17:49:05",
-   "2026-11-18T00:02:21"
+   "2026-11-18T00:02:21",
+   "2026-11-18T07:20:34"
   ],
   "last_heartbeat": "2026-11-17",
-  "last_status": "2026-11-18T00",
+  "last_status": "2026-11-18T07",
   "shopify": {
-   "fail_streak": 2,
+   "fail_streak": 3,
    "warned": false,
    "ever_ok": true
   },
