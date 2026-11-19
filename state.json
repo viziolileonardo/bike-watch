@@ -298427,16 +298427,125 @@
    "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
    "level": "digest",
    "first_seen": "2026-11-18T23:11:05+00:00"
+  },
+  "ebay:v1|820371320491|0": {
+   "id": "ebay:v1|820371320491|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820371320491?_skw=road+bike&hash=itembf01f0eeab:g:B9UAAeSw3eVq~nHu",
+   "title": "Campagnolo Rear 140mm Spare Caliper",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3266.82",
+   "price": 266.82,
+   "image": "https://i.ebayimg.com/images/g/B9UAAeSw3eVq~nHu/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|820371309944|0": {
+   "id": "ebay:v1|820371309944|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/820371309944?_skw=road+bike&hash=itembf01f0c578:g:s6MAAeSwAQ5q~nF0",
+   "title": "Shimano FD-R8150 Ultegra Di2 12-speed front derailleur E-tube, braze on, double",
+   "description": "",
+   "location": "NN10***",
+   "price_text": "\u00a3290.78",
+   "price": 290.78,
+   "image": "https://i.ebayimg.com/images/g/s6MAAeSwAQ5q~nF0/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|198806556146|0": {
+   "id": "ebay:v1|198806556146|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/198806556146?_skw=road+bike&hash=item2e49cb4df2:g:KpsAAeSwFthq~lfF",
+   "title": "Trek Emonda+specialized sirrus 1.0 (buy one get one free) christmas offer \ud83e\udd73",
+   "description": "",
+   "location": "LU2***",
+   "price_text": "\u00a3873.70",
+   "price": 873.7,
+   "image": "https://i.ebayimg.com/images/g/KpsAAeSwFthq~lfF/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00"
+  },
+  "ebay:v1|257859696945|0": {
+   "id": "ebay:v1|257859696945|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257859696945?_skw=road+bike&hash=item3c09a2b931:g:g7EAAeSwEglq~klC",
+   "title": "Trek Domane Al 2 Gen 4 Size 58 Road Bike Excellent Condition",
+   "description": "",
+   "location": "S63***",
+   "price_text": "\u00a3720.70",
+   "price": 720.7,
+   "image": "https://i.ebayimg.com/images/g/g7EAAeSwEglq~klC/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00"
+  },
+  "ebay:v1|128203727408|0": {
+   "id": "ebay:v1|128203727408|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/128203727408?_skw=road+bike&hash=item1dd989a230:g:A8YAAeSwG1lq~jED",
+   "title": "Bob Jackson 631 61cm road frame, Chris King headset.",
+   "description": "",
+   "location": "OX10***",
+   "price_text": "\u00a3286.70",
+   "price": 286.7,
+   "image": "https://i.ebayimg.com/images/g/A8YAAeSwG1lq~jED/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00",
+   "blue_score": 0.0
+  },
+  "ebay:v1|920158206985|0": {
+   "id": "ebay:v1|920158206985|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/920158206985?_skw=road+bike&hash=itemd63db3fc09:g:U~UAAeSwu4pq~fXC",
+   "title": "Carrera Virtuoso Road Bike White - Large Frame - Brand New in Box",
+   "description": "",
+   "location": "M19***",
+   "price_text": "\u00a3394.30",
+   "price": 394.3,
+   "image": "https://i.ebayimg.com/images/g/U~UAAeSwu4pq~fXC/s-l225.jpg",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Carrera \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00"
+  },
+  "marktplaats:a1533982277": {
+   "id": "marktplaats:a1533982277",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1533982277-trek-madone-sl-6-gen-8-l-crimson-red-ex-demo",
+   "title": "Trek Madone SL 6 Gen 8 L Crimson red (ex-demo)",
+   "description": "Opruiming bij trek bicycle rotterdam: trek madone sl 6 gen 8 l crimson red (ex-demo) voor 2799,- euro!! Ziet er super goed uit! De madone sl 6 gen 8 is een lichte en snelle aero/performance racefiets.",
+   "location": "Rotterdam",
+   "price_text": "\u20ac2799",
+   "price": 2799.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/a1/a1be29c1-0fcb-445d-8e21-2bfd94327214?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Trek \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-19T04:09:15+00:00"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 959,
+   "fail_streak": 960,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 433,
+   "fail_streak": 434,
    "warned": true,
    "ever_ok": true
   },
@@ -298446,16 +298555,16 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-18T00:02:21",
    "2026-11-18T07:20:34",
    "2026-11-18T16:41:07",
-   "2026-11-18T23:11:11"
+   "2026-11-18T23:11:11",
+   "2026-11-19T04:09:16"
   ],
   "last_heartbeat": "2026-11-18",
-  "last_status": "2026-11-18T23",
+  "last_status": "2026-11-19T04",
   "shopify": {
-   "fail_streak": 5,
-   "warned": false,
+   "fail_streak": 6,
+   "warned": true,
    "ever_ok": true
   },
   "ebay": {
