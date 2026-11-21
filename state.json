@@ -302052,16 +302052,78 @@
    "level": "digest",
    "first_seen": "2026-11-21T00:22:00+00:00",
    "blue_score": 0.044
+  },
+  "ebay:v1|336908579535|0": {
+   "id": "ebay:v1|336908579535|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/336908579535?_skw=road+bike&hash=item4e7150f2cf:g:R7EAAeSwvPRrAUbi",
+   "title": "Coyote X 700C Road Bike M Burgundy Drop Bar Mechanical Disc Brakes",
+   "description": "",
+   "location": "B61***",
+   "price_text": "\u00a3260.70",
+   "price": 260.7,
+   "image": "https://i.ebayimg.com/images/g/R7EAAeSwvPRrAUbi/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-21T07:37:48+00:00",
+   "blue_score": 0.012
+  },
+  "ebay:v1|257863182709|0": {
+   "id": "ebay:v1|257863182709|0",
+   "source": "eBay",
+   "query": "road bike",
+   "url": "https://www.ebay.co.uk/itm/257863182709?_skw=road+bike&hash=item3c09d7e975:g:cfoAAeSwkiZrAOb0",
+   "title": "Liv Avail Advanced Pro XS Blue Black Gold Road Bike Custom Build",
+   "description": "",
+   "location": "TN30***",
+   "price_text": "\u00a32087.99",
+   "price": 2087.99,
+   "image": "https://i.ebayimg.com/images/g/cfoAAeSwkiZrAOb0/s-l225.jpg",
+   "level": "digest",
+   "first_seen": "2026-11-21T07:37:48+00:00",
+   "blue_score": 0.168
+  },
+  "marktplaats:a1533804905": {
+   "id": "marktplaats:a1533804905",
+   "source": "Marktplaats (NL)",
+   "query": "(catch-all newest)",
+   "url": "https://www.marktplaats.nl/v/fietsen-en-brommers/fietsen-racefietsen/a1533804905-canyon-endurace-allroad-2025-177-184-cm",
+   "title": "Canyon ENDURACE ALLROAD \u2013 2025 \u2013 177 - 184 cm",
+   "description": "The road bikes has a aluminium frame. The manufacturer lists the frame size as m. Our own measurement comes out to 53 cm.additional specifications: wheel size: 28\" drive type: chain drive gear ty",
+   "location": "NL",
+   "price_text": "\u20ac929",
+   "price": 929.0,
+   "image": "https://admarkt-cdn.marktplaats.com/api/v1/icas-mp-pro-admarkt/images/82/82843f34-903e-48f4-bde5-d62153954b36?rule=eps_82.JPG",
+   "fp": true,
+   "ai_reason": "(rule) complete bike listed as Canyon \u2014 no link to the stolen bike's components",
+   "level": "digest",
+   "first_seen": "2026-11-21T07:37:48+00:00"
+  },
+  "shopify:MyNextBike:15030127198584": {
+   "id": "shopify:MyNextBike:15030127198584",
+   "source": "MyNextBike",
+   "query": "(new stock)",
+   "url": "https://www.mynextbike.co.uk/products/swift-attack-g2-2017",
+   "title": "Swift Attack G2 2017",
+   "description": "Swift Full Carbon Road Bike \u2013 54cm \u2013 Shimano 105 \u2013 Easton EC90 Aero Wheels\n\nLightweight full carbon road bike with high-end Easton EC90 carbon wheels. Fast, responsive and ready to ride.\n\nA great value performance bike with premium upgrades. Over \u00a3800+ value in wheels alone making it a huge upgrade over standard builds\n\nHigh-spec bike from Spanish brand Swift, in excellent condition and only lightly used.\n\nBeautifully lightweight, responsive race bike but with enough comfort for UK roads thanks ",
+   "location": "UK",
+   "price_text": "\u00a3900",
+   "price": 900.0,
+   "image": "https://cdn.shopify.com/s/files/1/0684/9776/8734/files/media_additional_3rd5408e.png?v=1779542924",
+   "level": "alert",
+   "first_seen": "2026-11-21T07:37:48+00:00",
+   "blue_score": 0.005,
+   "evidence_photo": "evidence/shopify_MyNextBike_15030127198584.jpg"
   }
  },
  "health": {
   "gumtree": {
-   "fail_streak": 966,
+   "fail_streak": 967,
    "warned": true,
    "ever_ok": true
   },
   "kleinanzeigen": {
-   "fail_streak": 440,
+   "fail_streak": 441,
    "warned": true,
    "ever_ok": true
   },
@@ -302071,13 +302133,13 @@
    "ever_ok": true
   },
   "sweeps": [
-   "2026-11-20T02:32:14",
    "2026-11-20T10:21:47",
    "2026-11-20T18:45:41",
-   "2026-11-21T00:22:02"
+   "2026-11-21T00:22:02",
+   "2026-11-21T07:38:20"
   ],
   "last_heartbeat": "2026-11-20",
-  "last_status": "2026-11-21T00",
+  "last_status": "2026-11-21T07",
   "shopify": {
    "fail_streak": 0,
    "warned": false,
